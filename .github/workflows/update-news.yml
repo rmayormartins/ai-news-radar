@@ -1,0 +1,50 @@
+name: update-news
+
+# Coleta automatica das noticias de IA e atualiza data/news.json.
+# O GitHub Pages (deploy a partir do branch main) republica sozinho apos o commit.
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"      # a cada 6 horas (UTC)
+  workflow_dispatch:            # botao "Run workflow" na aba Actions
+  push:
+    branches: [main]
+    paths:
+      - "scripts/fetch_news.py"  # reroda se voce ajustar as fontes/score
+
+permissions:
+  contents: write               # necessario para commitar o news.json
+
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install feedparser
+
+      - name: Collect feeds
+        run: python scripts/fetch_news.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          if git diff --staged --quiet; then
+            echo "Sem mudancas no news.json."
+          else
+            git commit -m "chore: atualiza noticias ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
