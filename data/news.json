@@ -1,31 +1,533 @@
 {
-  "generated_at": "2026-06-13T00:00:00+00:00",
-  "count": 3,
-  "china_count": 0,
-  "seed": true,
+  "generated_at": "2026-06-16T19:14:00.862506+00:00",
+  "count": 91,
+  "china_count": 23,
   "sources": [
     {
-      "source": "seed",
-      "status": "aguardando primeira coleta da Action",
-      "kept": 3
+      "source": "OpenAI",
+      "status": "ok (1006 itens)",
+      "kept": 12
+    },
+    {
+      "source": "Google AI / DeepMind",
+      "status": "ok (20 itens)",
+      "kept": 11
+    },
+    {
+      "source": "Hugging Face",
+      "status": "ok (797 itens)",
+      "kept": 12
+    },
+    {
+      "source": "Ahead of AI",
+      "status": "ok (20 itens)",
+      "kept": 2
+    },
+    {
+      "source": "The Gradient",
+      "status": "ok (15 itens)",
+      "kept": 0
+    },
+    {
+      "source": "BAIR (Berkeley)",
+      "status": "ok (10 itens)",
+      "kept": 1
+    },
+    {
+      "source": "arXiv cs.AI",
+      "status": "ok (664 itens)",
+      "kept": 8
+    },
+    {
+      "source": "arXiv cs.LG",
+      "status": "ok (638 itens)",
+      "kept": 8
+    },
+    {
+      "source": "arXiv cs.CL",
+      "status": "ok (283 itens)",
+      "kept": 8
+    },
+    {
+      "source": "MarkTechPost",
+      "status": "ok (0 itens)",
+      "kept": 0
+    },
+    {
+      "source": "MIT Tech Review",
+      "status": "ok (10 itens)",
+      "kept": 5
+    },
+    {
+      "source": "Last Week in AI",
+      "status": "ok (20 itens)",
+      "kept": 5
+    },
+    {
+      "source": "The Verge AI",
+      "status": "ok (10 itens)",
+      "kept": 2
+    },
+    {
+      "source": "Synced (机器之心)",
+      "status": "ok (10 itens)",
+      "kept": 0
+    },
+    {
+      "source": "Pandaily",
+      "status": "ok (20 itens)",
+      "kept": 7
+    },
+    {
+      "source": "TechNode",
+      "status": "ok (2000 itens)",
+      "kept": 10
+    },
+    {
+      "source": "KrASIA / 36Kr",
+      "status": "ok (0 itens)",
+      "kept": 0
+    },
+    {
+      "source": "ChinAI (Jeff Ding)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     }
   ],
   "items": [
     {
-      "title": "How an astrophysicist uses Codex to simulate black holes",
-      "link": "https://openai.com/news/",
-      "summary": "A research scientist describes using Codex and GPT-5.5 to build large simulation pipelines.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 49,
-      "date": "2026-06-12T00:00:00+00:00",
-      "ts": 1781222400.0
+      "title": "Chinese AI Models Find a Way Forward Through Multi-Model Routing and Cost-Effective Architectures",
+      "link": "https://pandaily.com/chinese-ai-models-multi-model-routing-architectures-jun2026",
+      "summary": "Chinese domestic large language models are finding their path to commercial relevance through multi-model dynamic routing (Fusion) and hybrid agent architectures that prioritize cost efficiency over raw benchmark performance.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "pesquisa",
+      "relevance": 58,
+      "date": "2026-06-16T08:15:37+00:00",
+      "ts": 1781597737.0
     },
     {
-      "title": "Better memory for a more helpful ChatGPT",
-      "link": "https://openai.com/news/",
-      "summary": "OpenAI rolls out improved long-term memory so ChatGPT recalls more context across sessions.",
+      "title": "Cloze: An Open Research Platform for Studying Human-AI Conversations in Mental Health Contexts",
+      "link": "https://arxiv.org/abs/2606.15033",
+      "summary": "arXiv:2606.15033v1 Announce Type: cross Abstract: Cloze is an open-source web platform for conducting controlled, monitored studies of human-AI conversation in mental health research contexts. Consumer large language model (LLM) products such as ChatGPT, Claude, and Gemini are built for individual productivity, and...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 79,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "Nemotron 3 Ultra: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
+      "link": "https://arxiv.org/abs/2606.15007",
+      "summary": "arXiv:2606.15007v1 Announce Type: cross Abstract: We introduce Nemotron 3 Ultra, a 550 billion total and 55 billion active parameter Mixture-of-Experts Hybrid Mamba-Attention language model. We pre-trained Nemotron 3 Ultra on 20 trillion text tokens, then extended the context length to 1M tokens, and post-trained...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 78,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "EffGen: Enabling Small Language Models as Capable Autonomous Agents",
+      "link": "https://arxiv.org/abs/2602.00887",
+      "summary": "arXiv:2602.00887v2 Announce Type: replace-cross Abstract: Most existing language model agentic systems today are built and optimized for large language models (e.g., GPT, Claude, Gemini) via API calls; while powerful, this approach faces several limitations including high token costs and privacy concerns for sensitive...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 77,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "Gen-VCoT: Generative Visual Chain-of-Thought Reasoning via Diffusion-Based RGB Intermediate Representations",
+      "link": "https://arxiv.org/abs/2606.16783",
+      "summary": "arXiv:2606.16783v1 Announce Type: cross Abstract: Multimodal large language models (MLLMs) excel at visual reasoning but rely on text-based chain-of-thought (CoT), lacking interpretable visual intermediates. Existing methods use opaque tokens or external tools, missing key properties. We propose Gen-VCoT, a framework...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 74,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "Focus When Necessary: Adaptive Routing and Collaborative Grounding for Training-Free Visual Grounding",
+      "link": "https://arxiv.org/abs/2606.16158",
+      "summary": "arXiv:2606.16158v1 Announce Type: cross Abstract: While Multimodal Large Language Models (MLLMs) excel in cross-modal reasoning, they often struggle to perceive fine-grained details in complex high-resolution images. Recent training-free methods address this through image scaling and localized cropping. However,...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 74,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "A Spatio-Temporal Expert Prefetching Framework for Efficient MoE-based LLM Inference",
+      "link": "https://arxiv.org/abs/2606.15453",
+      "summary": "arXiv:2606.15453v1 Announce Type: cross Abstract: Mixture-of-Experts (MoE) based large language models (LLMs), such as Qwen and DeepSeek, have recently emerged as an effective approach to improving model capacity without proportionally increasing computational cost. By replacing the conventional feed-forward network...",
+      "source": "arXiv cs.LG",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 73,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "Mixtures of Subspaces for Bandwidth Efficient Context Parallel Training",
+      "link": "https://arxiv.org/abs/2606.16384",
+      "summary": "arXiv:2606.16384v1 Announce Type: new Abstract: Pretraining language models with extended context windows enhances their ability to leverage rich information during generation. Existing methods split input sequences into chunks, broadcast them across multiple devices, and compute attention block by block which incurs...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 72,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "Multi-User Dueling Bandits: A Fair Approach using Nash Social Welfare",
+      "link": "https://arxiv.org/abs/2605.01961",
+      "summary": "arXiv:2605.01961v2 Announce Type: replace Abstract: Learning from human preference data is becoming a useful tool, from fine-tuning large language models to training reinforcement learning agents. However, in most scenarios, the model is trained on the average preference of all human evaluators, which, under large...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 72,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "RetailBench: Benchmarking long horizon reasoning and coherent decision making of LLM agents in realistic retail environments",
+      "link": "https://arxiv.org/abs/2606.15862",
+      "summary": "arXiv:2606.15862v1 Announce Type: new Abstract: Large language model (LLM) agents have made rapid progress on short-horizon, well-scoped tasks, yet their ability to sustain coherent decisions in dynamic long-horizon environments remains uncertain. We introduce RetailBench, a data-grounded simulation benchmark for...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 71,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "From Tokens to Regions: CUDA-Sensitive Instruction Tuning for GPU Kernel Generation",
+      "link": "https://arxiv.org/abs/2606.16231",
+      "summary": "arXiv:2606.16231v1 Announce Type: cross Abstract: High-performance CUDA kernels are essential for scalable AI systems, while Large Language Models (LLMs) still struggle to generate correct kernels due to strict and implicit execution constraints. Existing LLM-based approaches either rely on costly agentic or...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 71,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "Token Reduction Should Go Beyond Efficiency in Generative Models -- From Vision, Language to Multimodality",
+      "link": "https://arxiv.org/abs/2505.18227",
+      "summary": "arXiv:2505.18227v4 Announce Type: replace-cross Abstract: In Transformer architectures, tokens\\textemdash discrete units derived from raw data\\textemdash are formed by segmenting inputs into fixed-length chunks. Each token is then mapped to an embedding, enabling parallel attention computations while preserving the...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 71,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "Greedy Coordinate Diffusion: Effective and Semantically Coherent Adversarial Attacks via Diffusion Guidance",
+      "link": "https://arxiv.org/abs/2606.15531",
+      "summary": "arXiv:2606.15531v1 Announce Type: new Abstract: Fine-tuning aligned language models on benign tasks (e.g. math tutoring) systematically breaks safety guardrails, even when training data contains no harmful content. While mechanistic approaches have shed light on where alignment resides in model weights, they do not by...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 71,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "Enhancing LLM Safety Through a Theoretical Minimax Game Lens",
+      "link": "https://arxiv.org/abs/2502.05163",
+      "summary": "arXiv:2502.05163v2 Announce Type: replace-cross Abstract: The rapid advancement of large language models (LLMs) necessitates effective mechanisms to ensure their responsible deployment by accurately distinguishing unsafe content from benign content. While substantial safety datasets are available in English,...",
+      "source": "arXiv cs.LG",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 71,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "Context-Aware RL for Agentic and Multimodal LLMs",
+      "link": "https://arxiv.org/abs/2606.17053",
+      "summary": "arXiv:2606.17053v1 Announce Type: new Abstract: Large language models (LLMs) often fail when answering requires identifying a small but decisive piece of evidence within a long or complex context, such as a single line in a tool trace or a subtle detail in an image. We propose ContextRL, a context-aware reinforcement...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 71,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "Hidden Ghost Hand: Unveiling Backdoor Vulnerabilities in MLLM-Powered Mobile GUI Agents",
+      "link": "https://arxiv.org/abs/2505.14418",
+      "summary": "arXiv:2505.14418v3 Announce Type: replace Abstract: Graphical user interface (GUI) agents powered by multimodal large language models (MLLMs) have shown greater promise for human-interaction. However, due to the high fine-tuning cost, users often rely on open-source GUI agents or APIs offered by AI providers, which...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 71,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "Agentic Reinforcement Learning for Search Misaligns Instruction-Tuning",
+      "link": "https://arxiv.org/abs/2510.17431",
+      "summary": "arXiv:2510.17431v2 Announce Type: replace Abstract: Agentic reinforcement learning (RL) trains large language models to use tools, but its impact on alignment is poorly understood. We study how agentic RL for search affects the alignment of instruction-tuned (IT) models. We find that RL-trained models inherit refusal...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 71,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks",
+      "link": "https://arxiv.org/abs/2602.12670",
+      "summary": "arXiv:2602.12670v4 Announce Type: replace Abstract: Agent Skills are structured packages of procedural knowledge that augment large language model (LLM) agents at inference time. Despite rapid adoption, there is no standard way to measure whether they actually help. We present SkillsBench, a benchmark whose current...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 70,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "TechRAG: Evidence-Gated Multimodal Agentic RAG for Technical Literature Reasoning",
+      "link": "https://arxiv.org/abs/2606.01613",
+      "summary": "arXiv:2606.01613v2 Announce Type: replace-cross Abstract: This paper presents an agentic multimodal retrieval-augmented generation (RAG) framework for domain-specific literature reasoning, instantiated on a curated corpus of several thousand papers in intelligent tires, vehicle dynamics, vehicle control, sensing,...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 70,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "Data-Centric Benchmarking of Exploit Generation in LLMs: Understanding the Impact of Fine-Tuning",
+      "link": "https://arxiv.org/abs/2606.15123",
+      "summary": "arXiv:2606.15123v1 Announce Type: cross Abstract: We study the task of CVE-conditioned exploit generation, where a model drafts proof-of-concept (PoC) exploits given software vulnerability context. We adopt a data-centric approach, constructing a high-quality dataset via multi-stage preprocessing and introducing a...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 70,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "MIRAGE: Auditing Anti-Muslim Bias in Frontier LLMs Across Reasoning, Agentic, and Time-Coupled Conditions",
+      "link": "https://arxiv.org/abs/2606.16562",
+      "summary": "arXiv:2606.16562v1 Announce Type: new Abstract: Five years after the discovery of persistent anti-Muslim bias in large language models, most evaluations remain confined to single-turn prompt completion, a setting that no longer reflects how frontier LLMs are deployed. We introduce \\textbf{MIRAGE} (Muslim-Identity...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 69,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "Multimodal Evaluator Preference Collapse: Cross-Modal Contagion in Self-Evolving Agents",
+      "link": "https://arxiv.org/abs/2606.16682",
+      "summary": "arXiv:2606.16682v1 Announce Type: new Abstract: When AI agents use language models to evaluate their own outputs in a feedback loop, systematic biases emerge. We show that Evaluator Preference Collapse (EPC) is dramatically amplified in multimodal settings. Using GPT-4o to evaluate DeepSeek-chat across text and visual...",
+      "source": "arXiv cs.LG",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 69,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "PathRouter: Aligning Rewards with Retrieval Quality in Agentic Graph Retrieval-Augmented Generation",
+      "link": "https://arxiv.org/abs/2606.16409",
+      "summary": "arXiv:2606.16409v1 Announce Type: new Abstract: Agentic GraphRAG trains language-model agents to iteratively retrieve and reason over graph-structured evidence, enabling more accurate and context-aware decision-making by efficiently navigating complex information networks. However, outcome-only reinforcement learning...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 68,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "ttda704 at SemEval-2026 Task 4: Modeling Narrative Structures via Pseudonymization and Multi-View Sentence Alignment",
+      "link": "https://arxiv.org/abs/2606.15783",
+      "summary": "arXiv:2606.15783v1 Announce Type: new Abstract: We present our approach to SemEval 2026 Task 4: Narrative Story Similarity and Narrative Representation Learning. Our solution uses contrastive learning with fine-tuned sentence transformers to capture narrative similarity across abstract themes, course of action, and...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 67,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "Last But Not Least: Boundary Attention CalibratiON for Multimodal KV Cache Compression",
+      "link": "https://arxiv.org/abs/2606.14782",
+      "summary": "arXiv:2606.14782v1 Announce Type: cross Abstract: Multimodal Large Language Models (MLLMs) achieve strong vision-language reasoning, but long visual contexts enlarge the KV cache and increase decoding latency. Existing compression methods rely on observation window attention for stable token-importance estimation, yet...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 67,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "Inside the fight over Claude Mythos 5",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls",
+      "summary": "As the rest of the country celebrated the USA's first World Cup win and the New York Knicks championship, Anthropic spent its weekend fighting the Trump administration over its latest model release. At 5:21 PM on Friday, the company received a US export control directive to suspend access to its Mythos 5 and Fable 5...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-06-16T03:00:00+00:00",
+      "ts": 1781578800.0
+    },
+    {
+      "title": "Alibaba's Internal AI Agent Battle: QoderWork vs Wukong for Enterprise Crown",
+      "link": "https://pandaily.com/alibaba-qoderwork-wukong-ai-agent-battle-jun2026",
+      "summary": "Alibaba's QoderWork outperforms DingTalk-based Wukong internally, as the company races Tencent and ByteDance to establish a flagship enterprise AI agent product.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "pesquisa",
+      "relevance": 45,
+      "date": "2026-06-16T01:57:23+00:00",
+      "ts": 1781575043.0
+    },
+    {
+      "title": "China's Tech Giants Deploy AI Across Every Front in the 618 Shopping Festival",
+      "link": "https://pandaily.com/china-tech-giants-ai-618-shopping-festival-jun2026",
+      "summary": "Alibaba, JD.com, and ByteDance put AI at the center of China's 618 shopping festival, with AI assistants, digital hosts, and smart logistics reshaping e-commerce.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-06-16T01:57:14+00:00",
+      "ts": 1781575034.0
+    },
+    {
+      "title": "Alibaba's AI Glasses Top China Sales Rankings at Just RMB 1,997",
+      "link": "https://pandaily.com/alibaba-ai-glasses-qwen-top-sales-china-jun2026",
+      "summary": "Alibaba has emerged as the early winner in China's rapidly growing AI glasses market, with its Tongyi Qianwen (Qwen) AI glasses ranking first in nationwide sale...",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 61,
+      "date": "2026-06-16T01:53:23+00:00",
+      "ts": 1781574803.0
+    },
+    {
+      "title": "All the news about Anthropic’s new AI fight with the White House",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown",
+      "summary": "Anthropic was already navigating one dispute with the government in its standoff with the Pentagon, and then came an order on June 12th to block off foreign access to its most recently released AI models, Fable 5 and Mythos 5. When they launched on June 9th, Anthropic said “Fable 5’s capabilities exceed those of any...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 47,
+      "date": "2026-06-15T19:04:53+00:00",
+      "ts": 1781550293.0
+    },
+    {
+      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+      "summary": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
+      "source": "Google AI / DeepMind",
+      "region": "global",
+      "category": "geral",
+      "relevance": 26,
+      "date": "2026-06-15T15:00:00+00:00",
+      "ts": 1781535600.0
+    },
+    {
+      "title": "The Price of a Kilowatt-Hour Is Quietly Deciding Where AI Data Centers Are Built",
+      "link": "https://pandaily.com/electricity-prices-determine-ai-computing-center-locations-jun2026",
+      "summary": "Zhejiang's new time-of-use electricity pricing policy reveals how power cost differentials are reshaping the location strategy of AI computing centers and energy storage investments across China.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-06-15T07:53:54+00:00",
+      "ts": 1781510034.0
+    },
+    {
+      "title": "DeepSeek V4 and Huawei Ascend 950DT: The Co-Designed Chip That Cut AI Inference Costs by 75%",
+      "link": "https://pandaily.com/deepseek-v4-huawei-ascend-950dt-co-designed-chip-jun2026",
+      "summary": "A groundbreaking trace-level analysis by Wall Street research firm SemiAnalysis has revealed that DeepSeek V4 and Huawei Ascend 950DT AI accelerator were co-des...",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 63,
+      "date": "2026-06-15T02:47:42+00:00",
+      "ts": 1781491662.0
+    },
+    {
+      "title": "Alibaba, Tencent, and Baidu Turn Gaokao Guidance Into an AI Agent Battleground",
+      "link": "https://pandaily.com/alibaba-tencent-baidu-gaokao-ai-agent-battle-jun2026",
+      "summary": "China three largest technology companies have converged on an unlikely battleground: Gaokao volunteer application guidance. Alibaba, Tencent, and Baidu have all...",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "pesquisa",
+      "relevance": 45,
+      "date": "2026-06-15T02:47:07+00:00",
+      "ts": 1781491627.0
+    },
+    {
+      "title": "olmo-eval: An evaluation workbench for the model development loop",
+      "link": "https://huggingface.co/blog/allenai/olmo-eval",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 31,
+      "date": "2026-06-12T15:56:10+00:00",
+      "ts": 1781279770.0
+    },
+    {
+      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
+      "link": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+      "summary": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignment research, the mass-market arrival of agents that can carry out tasks without human oversight...",
+      "source": "MIT Tech Review",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 53,
+      "date": "2026-06-11T11:00:45+00:00",
+      "ts": 1781175645.0
+    },
+    {
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "link": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 32,
+      "date": "2026-06-09T10:46:19+00:00",
+      "ts": 1781001979.0
+    },
+    {
+      "title": "Kimi reaches $30 billion valuation after sixfold increase in half a year",
+      "link": "https://technode.com/2026/06/08/kimi-reaches-30-billion-valuation-after-sixfold-increase-in-half-a-year/",
+      "summary": "Moonshot AI, the developer of the AI assistant Kimi, has launched a new fundraising round at a pre-money valuation of $30 billion, representing a significant increase from the previous month. On May 6, reports suggested that the company was nearing completion of a $2 billion funding round that would value it at more...",
+      "source": "TechNode",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-06-08T09:36:29+00:00",
+      "ts": 1780911389.0
+    },
+    {
+      "title": "ByteDance says it has no plans to build cars or launch an automotive brand",
+      "link": "https://technode.com/2026/06/08/bytedance-says-it-has-no-plans-to-build-cars-or-launch-an-automotive-brand/",
+      "summary": "ByteDance on Saturday denied recent speculation that it is developing its own vehicle or automotive brand, after some media reports linked the name Saidou to the company’s AI assistant Doubao. In a statement, ByteDance said claims that Saidou is a Doubao car brand or evidence of the company entering the automotive...",
+      "source": "TechNode",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 49,
+      "date": "2026-06-08T02:28:16+00:00",
+      "ts": 1780885696.0
+    },
+    {
+      "title": "Introducing the OpenAI Economic Research Exchange",
+      "link": "https://openai.com/index/economic-research-exchange",
+      "summary": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
       "source": "OpenAI",
       "region": "global",
       "category": "modelo",
@@ -34,15 +536,565 @@
       "ts": 1780876800.0
     },
     {
+      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+      "link": "https://huggingface.co/blog/openenv-agentic-rl",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 57,
+      "date": "2026-06-08T00:00:00+00:00",
+      "ts": 1780876800.0
+    },
+    {
+      "title": "LLM Research Papers: The 2026 List (January to May)",
+      "link": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+      "summary": "A curated roundup of notable LLM research papers that came out this year",
+      "source": "Ahead of AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 44,
+      "date": "2026-06-06T11:16:22+00:00",
+      "ts": 1780744582.0
+    },
+    {
+      "title": "The Meta hack shows there’s more to AI security than Mythos",
+      "link": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
+      "summary": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama White House account...",
+      "source": "MIT Tech Review",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 43,
+      "date": "2026-06-05T09:00:00+00:00",
+      "ts": 1780650000.0
+    },
+    {
+      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 60,
+      "date": "2026-06-04T18:57:45+00:00",
+      "ts": 1780599465.0
+    },
+    {
+      "title": "Qwen opens platform to third-party AI Agents, onboards KFC, Luckin Coffee, Mixue and more",
+      "link": "https://technode.com/2026/06/04/qwen-opens-platform-to-third-party-ai-agents-onboards-kfc-luckin-coffee-mixue-and-more/",
+      "summary": "Alibaba-backed Qwen App announced on Wednesday that it is opening its platform to third-party Agents and Skills, allowing companies to operate branded AI agents within the app. According to the company, Luckin Coffee, KFC, Mixue, and China Eastern Airlines are among the first businesses to begin testing related...",
+      "source": "TechNode",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-06-04T02:53:21+00:00",
+      "ts": 1780541601.0
+    },
+    {
       "title": "Introducing new capabilities to GPT-Rosalind",
-      "link": "https://openai.com/news/",
-      "summary": "OpenAI expands its science-focused model with stronger biological reasoning and medicinal chemistry expertise.",
+      "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 69,
+      "date": "2026-06-03T13:15:00+00:00",
+      "ts": 1780492500.0
+    },
+    {
+      "title": "5 ways Google Search can level up your thrift and vintage shopping",
+      "link": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+      "summary": "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglasses, denim shorts, a yellow price tag, a red high-heele",
+      "source": "Google AI / DeepMind",
+      "region": "global",
+      "category": "geral",
+      "relevance": 26,
+      "date": "2026-06-03T13:00:00+00:00",
+      "ts": 1780491600.0
+    },
+    {
+      "title": "xAI launches global recruitment drive for Chinese AI tutors",
+      "link": "https://technode.com/2026/06/03/xai-launches-global-recruitment-drive-for-chinese-ai-tutors/",
+      "summary": "xAI has posted a Chinese AI Tutor position on the recruitment platform Greenhouse as part of its efforts to improve the Chinese-language capabilities of its flagship large language model, Grok. The role focuses on training Grok to better understand Chinese. Candidates are expected to be proficient in standard Mandarin...",
+      "source": "TechNode",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 60,
+      "date": "2026-06-03T02:07:46+00:00",
+      "ts": 1780452466.0
+    },
+    {
+      "title": "Holo3.1: Fast & Local Computer Use Agents",
+      "link": "https://huggingface.co/blog/Hcompany/holo31",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 59,
+      "date": "2026-06-02T14:13:23+00:00",
+      "ts": 1780409603.0
+    },
+    {
+      "title": "Rehumanizing global health care with agentic AI",
+      "link": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
+      "summary": "The global health care sector is under increasing strain. Decades of chronic underinvestment and constraints in recruitment have coincided with a surge in demand for services for aging populations. Gaps in provision are already taking a toll, with fragmented access to care and high rates of stress and burnout among...",
+      "source": "MIT Tech Review",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 47,
+      "date": "2026-06-02T11:23:34+00:00",
+      "ts": 1780399414.0
+    },
+    {
+      "title": "How small businesses can leverage AI",
+      "link": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
+      "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox,sign up here. From accounting to design to market research and product development, there’s a staggering breadth of skills needed to run a business. A large...",
+      "source": "MIT Tech Review",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 43,
+      "date": "2026-06-02T09:00:00+00:00",
+      "ts": 1780390800.0
+    },
+    {
+      "title": "ByteDance’s Doubao to launch paid plans in late June, link with Douyin E-commerce push",
+      "link": "https://technode.com/2026/06/02/bytedances-doubao-to-launch-paid-plans-in-late-june-link-with-douyin-e-commerce-push/",
+      "summary": "ByteDance’s AI assistant Doubao is expected to roll out paid subscription services in late June, alongside feature updates announced at its upcoming Force conference, according to 36Kr. The PC and mobile versions are still completing billing system integration, which is expected to take about one month, the sources...",
+      "source": "TechNode",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 58,
+      "date": "2026-06-02T05:51:41+00:00",
+      "ts": 1780379501.0
+    },
+    {
+      "title": "How we used Gemini to build Google I/O 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "summary": "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.",
+      "source": "Google AI / DeepMind",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-06-01T16:00:00+00:00",
+      "ts": 1780329600.0
+    },
+    {
+      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "link": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 47,
+      "date": "2026-06-01T15:45:17+00:00",
+      "ts": 1780328717.0
+    },
+    {
+      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "link": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 44,
+      "date": "2026-06-01T13:51:18+00:00",
+      "ts": 1780321878.0
+    },
+    {
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "summary": "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+      "source": "Google AI / DeepMind",
+      "region": "global",
+      "category": "geral",
+      "relevance": 26,
+      "date": "2026-05-29T19:00:00+00:00",
+      "ts": 1780081200.0
+    },
+    {
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "summary": "Gemini Omni & Gemini 3.5 hero",
+      "source": "Google AI / DeepMind",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 50,
+      "date": "2026-05-29T17:30:00+00:00",
+      "ts": 1780075800.0
+    },
+    {
+      "title": "CATL launches world’s largest energy storage testbed in Xiamen",
+      "link": "https://technode.com/2026/05/29/catl-launches-worlds-largest-energy-storage-testbed-in-xiamen/",
+      "summary": "CATL has launched its Xiamen Energy Storage Validation Research Institute, which it described as the world’s largest and most comprehensive one-stop testing and validation platform for the energy storage industry. The site spans 10 hectares and represents an investment of about RMB3 billion ($440 million). CATL said...",
+      "source": "TechNode",
+      "region": "china",
+      "category": "pesquisa",
+      "relevance": 48,
+      "date": "2026-05-29T12:31:15+00:00",
+      "ts": 1780057875.0
+    },
+    {
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "summary": "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+      "source": "Google AI / DeepMind",
+      "region": "global",
+      "category": "geral",
+      "relevance": 26,
+      "date": "2026-05-29T12:00:00+00:00",
+      "ts": 1780056000.0
+    },
+    {
+      "title": "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
+      "link": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
+      "summary": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and solidarity as we enter an age already...",
+      "source": "MIT Tech Review",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 43,
+      "date": "2026-05-29T10:00:00+00:00",
+      "ts": 1780048800.0
+    },
+    {
+      "title": "Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős",
+      "link": "https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to",
+      "summary": "Elon Musk Loses $150 Billion Suit Against OpenAI and Sam Altman, Google updates its Gemini app to take on ChatGPT and Claude at IO 2026, and more!",
+      "source": "Last Week in AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 68,
+      "date": "2026-05-27T07:50:58+00:00",
+      "ts": 1779868258.0
+    },
+    {
+      "title": "Warp’s big bet on building open source with GPT-5.5",
+      "link": "https://openai.com/index/warp",
+      "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 75,
+      "date": "2026-05-27T00:00:00+00:00",
+      "ts": 1779840000.0
+    },
+    {
+      "title": "LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős",
+      "link": "https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni",
+      "summary": "Google unveils AI model Gemini 3.5 and AI agent Gemini Spark, Omni turns images, audio, and text into video, Musk loses OpenAI court battle",
+      "source": "Last Week in AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 64,
+      "date": "2026-05-26T05:10:23+00:00",
+      "ts": 1779772223.0
+    },
+    {
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "link": "https://huggingface.co/blog/agent-glossary",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 32,
+      "date": "2026-05-25T00:00:00+00:00",
+      "ts": 1779667200.0
+    },
+    {
+      "title": "Alibaba introduces Qwen3.7-Max as next-gen AI agent model",
+      "link": "https://technode.com/2026/05/21/alibaba-introduces-qwen3-7-max-as-next-gen-ai-agent-model/",
+      "summary": "Alibaba’s Qwen on Wednesday unveiled Qwen3.7-Max, its new flagship AI model designed for the agent era, with API access set to roll out soon. The company said Qwen3.7-Max is its most advanced and comprehensive agent model to date, capable of handling coding and debugging, office workflow automation, and long-horizon...",
+      "source": "TechNode",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 66,
+      "date": "2026-05-21T05:26:15+00:00",
+      "ts": 1779341175.0
+    },
+    {
+      "title": "100 things we announced at I/O 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "summary": "Image with the words \"Ready, Set, I/O\" and a colorful Gemini logo",
+      "source": "Google AI / DeepMind",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 38,
+      "date": "2026-05-20T19:30:00+00:00",
+      "ts": 1779305400.0
+    },
+    {
+      "title": "LWiAI Podcast #245 - TML-Interaction, Claude For Legal, Sam Altman on Stand",
+      "link": "https://lastweekin.ai/p/lwiai-podcast-245-tml-interaction",
+      "summary": "OpenAI launches new voice intelligence features in its API, Thinking Machines drops a new, highly responsive model designed for humanlike interactions in real time, and more!",
+      "source": "Last Week in AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 66,
+      "date": "2026-05-20T07:45:49+00:00",
+      "ts": 1779263149.0
+    },
+    {
+      "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
+      "link": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-05-19T18:38:09+00:00",
+      "ts": 1779215889.0
+    },
+    {
+      "title": "I/O 2026: Welcome to the agentic Gemini era",
+      "link": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+      "summary": "a series of colorful icons representing Google I/O against a black background",
+      "source": "Google AI / DeepMind",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 67,
+      "date": "2026-05-19T17:45:00+00:00",
+      "ts": 1779212700.0
+    },
+    {
+      "title": "Gemini 3.5: frontier intelligence with action",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "summary": "Gemini 3.5 text and multi-colored star icon on an abstract blue background.",
+      "source": "Google AI / DeepMind",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 50,
+      "date": "2026-05-19T17:45:00+00:00",
+      "ts": 1779212700.0
+    },
+    {
+      "title": "Everything new in our Google AI subscriptions, fresh from I/O 2026",
+      "link": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
+      "summary": "The image shows colorful icons. The copy reads: More magic in one plan. More power, more perks, same price.",
+      "source": "Google AI / DeepMind",
+      "region": "global",
+      "category": "geral",
+      "relevance": 26,
+      "date": "2026-05-19T17:45:00+00:00",
+      "ts": 1779212700.0
+    },
+    {
+      "title": "I/O 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
+      "summary": "At Google I/O 2026, we shared how we’re making AI more helpful for everyone. See everything we announced.",
+      "source": "Google AI / DeepMind",
+      "region": "global",
+      "category": "geral",
+      "relevance": 26,
+      "date": "2026-05-19T17:45:00+00:00",
+      "ts": 1779212700.0
+    },
+    {
+      "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
+      "link": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+      "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
+      "source": "Ahead of AI",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 70,
+      "date": "2026-05-16T11:33:51+00:00",
+      "ts": 1778931231.0
+    },
+    {
+      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "link": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
       "source": "OpenAI",
       "region": "global",
       "category": "modelo",
       "relevance": 71,
-      "date": "2026-06-04T00:00:00+00:00",
-      "ts": 1780531200.0
+      "date": "2026-05-16T00:00:00+00:00",
+      "ts": 1778889600.0
+    },
+    {
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "link": "https://openai.com/index/databricks",
+      "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 69,
+      "date": "2026-05-15T00:00:00+00:00",
+      "ts": 1778803200.0
+    },
+    {
+      "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
+      "link": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 39,
+      "date": "2026-05-14T18:55:01+00:00",
+      "ts": 1778784901.0
+    },
+    {
+      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+      "link": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 58,
+      "date": "2026-05-11T23:18:26+00:00",
+      "ts": 1778541506.0
+    },
+    {
+      "title": "Alibaba to merge Qwen AI with Taobao in push for new AI-powered shopping",
+      "link": "https://technode.com/2026/05/11/alibaba-to-merge-qwen-ai-with-taobao-in-push-for-new-ai-powered-conversational-shopping-experience/",
+      "summary": "Alibaba Group is preparing to roll out a major integration between its AI platform Qwen and e-commerce marketplaces Taobao and Tmall, as the Chinese tech giant pushes to transform online shopping through AI. The move is designed to replace traditional keyword-based searches with a conversational shopping experience,...",
+      "source": "TechNode",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 52,
+      "date": "2026-05-11T02:25:36+00:00",
+      "ts": 1778466336.0
+    },
+    {
+      "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
+      "link": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
+      "summary": "Overview of adaptive parallel reasoning. What if a reasoning model could decide for itself when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based on the problem at hand? We provide a detailed analysis of recent progress in the field of parallel...",
+      "source": "BAIR (Berkeley)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 60,
+      "date": "2026-05-08T09:00:00+00:00",
+      "ts": 1778230800.0
+    },
+    {
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "link": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 68,
+      "date": "2026-05-07T13:00:00+00:00",
+      "ts": 1778158800.0
+    },
+    {
+      "title": "Kimi reportedly nears $2 billion funding round at over $20 billion valuation",
+      "link": "https://technode.com/2026/05/07/kimi-reportedly-nears-2-billion-funding-round-at-over-20-billion-valuation/",
+      "summary": "Kimi developer Moonshot AI is close to completing a new $2 billion funding round that would value the company at more than $20 billion, according to LatePost. The round is reportedly led by Meituan’s Long-Z Fund, with China Mobile and CPE joining as investors. Moonshot AI had already completed three funding rounds in...",
+      "source": "TechNode",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 51,
+      "date": "2026-05-07T03:06:07+00:00",
+      "ts": 1778123167.0
+    },
+    {
+      "title": "Testing ads in ChatGPT",
+      "link": "https://openai.com/index/testing-ads-in-chatgpt",
+      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 69,
+      "date": "2026-05-07T00:00:00+00:00",
+      "ts": 1778112000.0
+    },
+    {
+      "title": "Introducing Trusted Contact in ChatGPT",
+      "link": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "summary": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 68,
+      "date": "2026-05-07T00:00:00+00:00",
+      "ts": 1778112000.0
+    },
+    {
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "link": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 32,
+      "date": "2026-05-06T19:06:55+00:00",
+      "ts": 1778094415.0
+    },
+    {
+      "title": "How ChatGPT learns about the world while protecting privacy",
+      "link": "https://openai.com/index/how-chatgpt-protects-privacy",
+      "summary": "Learn how ChatGPT safeguards your privacy, reduces personal data in training, and gives you control over whether your conversations improve AI models.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 73,
+      "date": "2026-05-06T08:00:00+00:00",
+      "ts": 1778054400.0
+    },
+    {
+      "title": "ByteDance tests paid subscriptions for AI app Doubao in push toward monetization",
+      "link": "https://technode.com/2026/05/06/bytedance-tests-paid-subscriptions-for-ai-app-doubao-in-push-toward-monetization/",
+      "summary": "ByteDance has begun testing a paid subscription model for its AI app Doubao, according to an update quietly added to the app’s App Store listing, in a move that underscores the growing commercialization of AI tools in China. The company is introducing three premium subscription plans alongside its existing free...",
+      "source": "TechNode",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 62,
+      "date": "2026-05-06T02:11:37+00:00",
+      "ts": 1778033497.0
+    },
+    {
+      "title": "Introducing ChatGPT Futures: Class of 2026",
+      "link": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
+      "summary": "Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativity, and opportunity with ChatGPT.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 73,
+      "date": "2026-05-06T00:00:00+00:00",
+      "ts": 1778025600.0
+    },
+    {
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "link": "https://openai.com/index/gpt-5-5-instant",
+      "summary": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 68,
+      "date": "2026-05-05T10:00:00+00:00",
+      "ts": 1777975200.0
+    },
+    {
+      "title": "Last Week in AI #340 - OpenAI vs Musk + Microsoft, DeepSeek v4, Vision Banana",
+      "link": "https://lastweekin.ai/p/last-week-in-ai-340-openai-vs-musk",
+      "summary": "First week of Musk v. Altman, OpenAI ends Microsoft legal peril over its $50B Amazon deal, DeepSeek previews new AI model that ‘closes the gap’ with frontier models, and more!",
+      "source": "Last Week in AI",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-05-05T08:30:35+00:00",
+      "ts": 1777969835.0
+    },
+    {
+      "title": "New ways to buy ChatGPT ads",
+      "link": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
+      "summary": "OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools—built to protect privacy and keep conversations separate from ads.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 67,
+      "date": "2026-05-05T00:00:00+00:00",
+      "ts": 1777939200.0
+    },
+    {
+      "title": "LWiAI Podcast #243 - GPT 5.5, DeepSeek V4, AI safety sabotage",
+      "link": "https://lastweekin.ai/p/lwiai-podcast-243-gpt-55-deepseek",
+      "summary": "Our 243rd episode with a summary and discussion of last week’s big AI news!",
+      "source": "Last Week in AI",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 58,
+      "date": "2026-05-04T07:54:06+00:00",
+      "ts": 1777881246.0
     }
   ]
 }
