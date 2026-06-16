@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI RADAR // monitor de inteligencia artificial</title>
+<meta name="description" content="Radar de noticias de IA: modelos, pesquisa e o que os laboratorios andam fazendo, com aba dedicada a IA na China. Sinal sobre ruido.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#080b11;
+    --panel:#0f141d;
+    --panel-2:#141b26;
+    --panel-3:#1a2332;
+    --line:#1e2836;
+    --line-soft:#26303f;
+    --text:#dbe4f0;
+    --text-2:#9fb0c4;
+    --muted:#647689;
+    --accent:#2fe6c5;      /* sinal / radar */
+    --accent-dim:#123c39;
+    --china:#ff5a52;       /* sinal China */
+    --china-dim:#3a1916;
+    --model:#f5a524;       /* categoria modelo */
+    --research:#8a8fff;    /* categoria pesquisa */
+    --general:#6b8096;     /* categoria geral */
+    --radius:3px;
+    --maxw:1320px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--bg);color:var(--text);
+    font-family:"Chakra Petch",system-ui,sans-serif;
+    font-size:15px;line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+    background-image:
+      radial-gradient(circle at 12% -10%, rgba(47,230,197,.06), transparent 40%),
+      radial-gradient(circle at 90% 0%, rgba(138,143,255,.05), transparent 45%);
+    background-attachment:fixed;
+  }
+  a{color:inherit;text-decoration:none}
+  ::selection{background:var(--accent);color:#04110f}
+
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+
+  /* ---------- HEADER ---------- */
+  header{
+    border-bottom:1px solid var(--line);
+    background:linear-gradient(180deg, rgba(15,20,29,.9), rgba(8,11,17,.6));
+    position:sticky;top:0;z-index:50;backdrop-filter:blur(8px);
+  }
+  .hd{display:flex;align-items:center;gap:18px;padding:14px 20px;max-width:var(--maxw);margin:0 auto;flex-wrap:wrap}
+  .sweep{
+    width:46px;height:46px;border-radius:50%;flex:0 0 auto;position:relative;
+    border:1px solid var(--line-soft);background:#0a0f16;overflow:hidden;
+  }
+  .sweep::before{
+    content:"";position:absolute;inset:0;border-radius:50%;
+    background:conic-gradient(from 0deg, rgba(47,230,197,.55), transparent 28%);
+    animation:spin 3.6s linear infinite;
+  }
+  .sweep::after{
+    content:"";position:absolute;inset:7px;border-radius:50%;
+    border:1px solid var(--line-soft);
+    background:
+      radial-gradient(circle, var(--accent) 0 1.4px, transparent 1.6px) 50% 50%/100% 100% no-repeat,
+      radial-gradient(circle at 68% 36%, var(--accent) 0 1px, transparent 1.4px),
+      radial-gradient(circle at 34% 64%, var(--china) 0 1px, transparent 1.4px);
+  }
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .brand{display:flex;flex-direction:column;line-height:1}
+  .brand h1{
+    margin:0;font-size:26px;font-weight:700;letter-spacing:3px;
+    font-family:"Chakra Petch";
+  }
+  .brand h1 b{color:var(--accent);font-weight:700}
+  .brand .tag{
+    font-family:"JetBrains Mono";font-size:10.5px;letter-spacing:1.5px;
+    color:var(--muted);margin-top:4px;text-transform:uppercase;
+  }
+  .hd-status{margin-left:auto;display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+  .stat{display:flex;flex-direction:column;align-items:flex-end;line-height:1.1}
+  .stat .n{font-family:"JetBrains Mono";font-size:18px;font-weight:700;color:var(--text)}
+  .stat .n.cn{color:var(--china)}
+  .stat .l{font-family:"JetBrains Mono";font-size:9px;letter-spacing:1px;color:var(--muted);text-transform:uppercase;margin-top:3px}
+  .live{display:flex;align-items:center;gap:7px;font-family:"JetBrains Mono";font-size:10px;color:var(--text-2);letter-spacing:.5px}
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 8px var(--accent);animation:pulse 2s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+
+  /* ---------- STALE BANNER ---------- */
+  .banner{display:none;background:var(--panel-2);border-bottom:1px solid var(--line);
+    font-family:"JetBrains Mono";font-size:12px;color:var(--text-2)}
+  .banner.show{display:block}
+  .banner .wrap{padding:9px 20px;display:flex;gap:10px;align-items:center}
+  .banner b{color:var(--model)}
+
+  /* ---------- LAYOUT ---------- */
+  .grid{display:grid;grid-template-columns:236px 1fr;gap:26px;padding:26px 20px;max-width:var(--maxw);margin:0 auto;align-items:start}
+  aside{position:sticky;top:88px;display:flex;flex-direction:column;gap:22px}
+
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius)}
+  .panel h2{
+    margin:0;padding:11px 14px;font-size:10.5px;letter-spacing:1.6px;text-transform:uppercase;
+    font-family:"JetBrains Mono";color:var(--muted);border-bottom:1px solid var(--line);font-weight:500;
+    display:flex;justify-content:space-between;align-items:center;
+  }
+  .panel .body{padding:10px 12px;display:flex;flex-direction:column;gap:3px}
+
+  /* tabs / filtros verticais */
+  .navbtn{
+    display:flex;align-items:center;gap:10px;width:100%;text-align:left;cursor:pointer;
+    background:transparent;border:1px solid transparent;border-radius:var(--radius);
+    color:var(--text-2);font-family:"Chakra Petch";font-size:13.5px;font-weight:500;
+    padding:8px 10px;letter-spacing:.4px;transition:all .14s;
+  }
+  .navbtn:hover{background:var(--panel-2);color:var(--text)}
+  .navbtn.active{background:var(--panel-3);color:var(--text);border-color:var(--line-soft)}
+  .navbtn .ico{width:8px;height:8px;border-radius:50%;flex:0 0 auto;background:var(--muted)}
+  .navbtn[data-view="todas"] .ico{background:var(--accent)}
+  .navbtn[data-view="modelo"] .ico{background:var(--model)}
+  .navbtn[data-view="pesquisa"] .ico{background:var(--research)}
+  .navbtn[data-view="china"] .ico{background:var(--china)}
+  .navbtn .cnt{margin-left:auto;font-family:"JetBrains Mono";font-size:11px;color:var(--muted)}
+  .navbtn.active .cnt{color:var(--text-2)}
+  .navbtn[data-view="china"].active{border-color:#5a2420}
+
+  .srcrow{display:flex;align-items:center;gap:8px;padding:5px 6px;cursor:pointer;border-radius:var(--radius);font-family:"JetBrains Mono";font-size:11.5px;color:var(--text-2)}
+  .srcrow:hover{background:var(--panel-2)}
+  .srcrow input{accent-color:var(--accent);margin:0;width:13px;height:13px;flex:0 0 auto}
+  .srcrow .sn{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .srcrow .sc{margin-left:auto;color:var(--muted)}
+  .srcrow.cn .sn{color:#ffb0ab}
+
+  .legend{font-family:"JetBrains Mono";font-size:10.5px;color:var(--muted);line-height:1.8}
+  .legend .row{display:flex;align-items:center;gap:8px}
+  .legend .sw{width:10px;height:10px;border-radius:2px;flex:0 0 auto}
+
+  /* ---------- TOOLBAR ---------- */
+  .toolbar{display:flex;gap:12px;align-items:center;margin-bottom:18px;flex-wrap:wrap}
+  .search{flex:1;min-width:200px;position:relative}
+  .search input{
+    width:100%;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    color:var(--text);font-family:"JetBrains Mono";font-size:13px;padding:10px 12px 10px 34px;
+  }
+  .search input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-dim)}
+  .search input::placeholder{color:var(--muted)}
+  .search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:14px;height:14px;stroke:var(--muted)}
+  .sortbtn{
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    color:var(--text-2);font-family:"JetBrains Mono";font-size:11px;letter-spacing:.5px;
+    padding:10px 13px;cursor:pointer;display:flex;align-items:center;gap:7px;text-transform:uppercase;
+  }
+  .sortbtn:hover{border-color:var(--line-soft);color:var(--text)}
+  .sortbtn b{color:var(--accent)}
+
+  /* ---------- FEED ---------- */
+  .feed{display:flex;flex-direction:column;gap:12px}
+  .card{
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    padding:15px 17px;display:grid;grid-template-columns:1fr auto;gap:6px 16px;
+    transition:border-color .15s, transform .15s;position:relative;overflow:hidden;
+  }
+  .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--general);opacity:.7}
+  .card.c-modelo::before{background:var(--model)}
+  .card.c-pesquisa::before{background:var(--research)}
+  .card.c-china::before{background:var(--china)}
+  .card:hover{border-color:var(--line-soft);transform:translateX(2px)}
+  .card .meta{grid-column:1/2;display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-family:"JetBrains Mono";font-size:10.5px}
+  .chip{padding:2px 7px;border-radius:2px;letter-spacing:.6px;text-transform:uppercase;font-weight:500;border:1px solid var(--line-soft)}
+  .chip.modelo{color:var(--model);border-color:#4a3a16}
+  .chip.pesquisa{color:var(--research);border-color:#33356a}
+  .chip.geral{color:var(--general);border-color:#34414f}
+  .chip.china{color:var(--china);border-color:#5a2420;background:var(--china-dim)}
+  .src{color:var(--text-2)}
+  .when{color:var(--muted);margin-left:auto}
+  .card h3{grid-column:1/2;margin:2px 0 0;font-size:16.5px;font-weight:600;line-height:1.32;letter-spacing:.2px}
+  .card h3 a:hover{color:var(--accent)}
+  .card p{grid-column:1/2;margin:4px 0 0;color:var(--text-2);font-size:13.5px;line-height:1.5;font-family:"Chakra Petch"}
+  .card .open{grid-column:1/2;margin-top:9px;font-family:"JetBrains Mono";font-size:10.5px;color:var(--muted);letter-spacing:.5px;display:inline-flex;align-items:center;gap:6px}
+  .card:hover .open{color:var(--accent)}
+
+  /* medidor de sinal (SNR) - a assinatura */
+  .snr{grid-row:1/3;grid-column:2/3;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px;padding-top:1px}
+  .snr .bars{display:flex;align-items:flex-end;gap:2px;height:30px}
+  .snr .bar{width:4px;background:var(--line-soft);border-radius:1px}
+  .snr .bar.on{background:var(--accent)}
+  .snr.cn .bar.on{background:var(--china)}
+  .snr .val{font-family:"JetBrains Mono";font-size:11px;font-weight:700;color:var(--text-2)}
+  .snr .lbl{font-family:"JetBrains Mono";font-size:8px;letter-spacing:1px;color:var(--muted);text-transform:uppercase}
+
+  /* ---------- ESTADOS ---------- */
+  .empty,.loading{
+    border:1px dashed var(--line-soft);border-radius:var(--radius);padding:46px 24px;text-align:center;
+    font-family:"JetBrains Mono";color:var(--muted);font-size:13px;line-height:1.7;
+  }
+  .empty b{color:var(--text-2);display:block;font-size:15px;margin-bottom:8px;font-family:"Chakra Petch";letter-spacing:1px}
+  .empty code{background:var(--panel-2);border:1px solid var(--line);padding:2px 6px;border-radius:2px;color:var(--accent);font-size:12px}
+  .loading .sweep{margin:0 auto 16px}
+
+  footer{border-top:1px solid var(--line);margin-top:40px}
+  .ft{max-width:var(--maxw);margin:0 auto;padding:20px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+    font-family:"JetBrains Mono";font-size:10.5px;color:var(--muted);letter-spacing:.5px}
+  .ft a:hover{color:var(--accent)}
+  .ft .serif{font-family:"Instrument Serif";font-style:italic;font-size:15px;color:var(--text-2);letter-spacing:0}
+
+  @media (max-width:860px){
+    .grid{grid-template-columns:1fr;gap:18px}
+    aside{position:static;flex-direction:column}
+    .panel.sources-panel{display:none}
+    .card{grid-template-columns:1fr}
+    .snr{grid-row:auto;grid-column:1/2;flex-direction:row;justify-content:flex-start;margin-top:8px;gap:8px}
+    .snr .bars{height:18px}
+    .brand h1{font-size:22px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none!important;scroll-behavior:auto!important;transition:none!important}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hd">
+    <div class="sweep" aria-hidden="true"></div>
+    <div class="brand">
+      <h1>AI&nbsp;<b>RADAR</b></h1>
+      <span class="tag">monitor de IA // sinal sobre ruido</span>
+    </div>
+    <div class="hd-status">
+      <div class="live"><span class="dot"></span><span id="updated">sincronizando...</span></div>
+      <div class="stat"><span class="n" id="stat-total">0</span><span class="l">sinais</span></div>
+      <div class="stat"><span class="n cn" id="stat-china">0</span><span class="l">china</span></div>
+    </div>
+  </div>
+</header>
+
+<div class="banner" id="banner">
+  <div class="wrap"><span>&#9888;</span><span id="banner-txt"></span></div>
+</div>
+
+<div class="grid">
+  <aside>
+    <div class="panel">
+      <h2>Faixas</h2>
+      <div class="body" id="views">
+        <button class="navbtn active" data-view="todas"><span class="ico"></span>Todas<span class="cnt" data-cnt="todas">0</span></button>
+        <button class="navbtn" data-view="modelo"><span class="ico"></span>Modelos<span class="cnt" data-cnt="modelo">0</span></button>
+        <button class="navbtn" data-view="pesquisa"><span class="ico"></span>Pesquisa<span class="cnt" data-cnt="pesquisa">0</span></button>
+        <button class="navbtn" data-view="china"><span class="ico"></span>IA na China<span class="cnt" data-cnt="china">0</span></button>
+      </div>
+    </div>
+
+    <div class="panel sources-panel">
+      <h2>Fontes <button id="src-toggle" style="background:none;border:none;color:var(--muted);font-family:inherit;font-size:9px;cursor:pointer;letter-spacing:1px">limpar</button></h2>
+      <div class="body" id="sources"></div>
+    </div>
+
+    <div class="panel sources-panel">
+      <h2>Legenda</h2>
+      <div class="body legend">
+        <div class="row"><span class="sw" style="background:var(--model)"></span>modelo: release / lancamento</div>
+        <div class="row"><span class="sw" style="background:var(--research)"></span>pesquisa: paper / metodo</div>
+        <div class="row"><span class="sw" style="background:var(--general)"></span>geral: movimento do setor</div>
+        <div class="row"><span class="sw" style="background:var(--china)"></span>china: origem chinesa</div>
+        <div class="row" style="margin-top:6px;color:var(--text-2)">SNR = relevancia estimada (0 a 100)</div>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <div class="toolbar">
+      <div class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="filtrar por modelo, lab, tema... (ex: deepseek, agente, multimodal)" autocomplete="off">
+      </div>
+      <button class="sortbtn" id="sort">ordenar: <b id="sort-l">recencia</b></button>
+    </div>
+    <div id="feed" class="feed">
+      <div class="loading"><div class="sweep"></div>varrendo o espectro...</div>
+    </div>
+  </main>
+</div>
+
+<footer>
+  <div class="ft">
+    <span class="serif">sinal sobre ruido.</span>
+    <span>AI RADAR // coleta automatica via GitHub Actions, servido por GitHub Pages</span>
+    <span>fontes: labs, arXiv, imprensa especializada e IA chinesa</span>
+  </div>
+</footer>
+
+<script>
+"use strict";
+
+// fallback inline: garante que a pagina nunca abre vazia (mesmo via file://).
+// O arquivo data/news.json (gerado pela Action) tem prioridade.
+const INLINE_FALLBACK = {
+  generated_at: "2026-06-13T00:00:00+00:00", seed:true, china_count:0,
+  sources:[{source:"seed",status:"aguardando coleta",kept:3}],
+  items:[
+    {title:"Introducing new capabilities to GPT-Rosalind",link:"https://openai.com/news/",summary:"OpenAI expands its science-focused model with stronger biological reasoning.",source:"OpenAI",region:"global",category:"modelo",relevance:79,date:"2026-06-04T00:00:00+00:00",ts:1749000000},
+    {title:"Better memory for a more helpful ChatGPT",link:"https://openai.com/news/",summary:"OpenAI rolls out improved long-term memory across sessions.",source:"OpenAI",region:"global",category:"modelo",relevance:74,date:"2026-06-08T00:00:00+00:00",ts:1749340000},
+    {title:"How an astrophysicist uses Codex to simulate black holes",link:"https://openai.com/news/",summary:"Using Codex and GPT-5.5 to build large simulation pipelines.",source:"OpenAI",region:"global",category:"geral",relevance:58,date:"2026-06-12T00:00:00+00:00",ts:1749686400}
+  ]
+};
+
+const state = { data:null, view:"todas", q:"", sort:"recencia", sources:new Set(), allSources:[] };
+
+const $ = s => document.querySelector(s);
+const feed = $("#feed");
+
+function rel(iso){
+  if(!iso) return "sem data";
+  const d=new Date(iso), now=new Date(), s=(now-d)/1000;
+  if(s<3600) return Math.max(1,Math.floor(s/60))+" min";
+  if(s<86400) return Math.floor(s/3600)+" h";
+  const days=Math.floor(s/86400);
+  if(days<30) return days+" d";
+  return d.toLocaleDateString("pt-BR",{day:"2-digit",month:"short"});
+}
+const esc = s => (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function snrBars(v,china){
+  const seg=Math.round(v/20); // 0..5
+  let b="";
+  for(let i=1;i<=5;i++){
+    const h=8+i*4.4;
+    b+=`<span class="bar ${i<=seg?'on':''}" style="height:${h}px"></span>`;
+  }
+  return `<div class="snr ${china?'cn':''}"><div class="bars">${b}</div><div class="val">${v}</div><div class="lbl">snr</div></div>`;
+}
+
+function matches(it){
+  if(state.view==="china" && it.region!=="china") return false;
+  if((state.view==="modelo"||state.view==="pesquisa") && it.category!==state.view) return false;
+  if(state.sources.size && !state.sources.has(it.source)) return false;
+  if(state.q){
+    const blob=(it.title+" "+(it.summary||"")+" "+it.source).toLowerCase();
+    if(!blob.includes(state.q)) return false;
+  }
+  return true;
+}
+
+function render(){
+  const items=state.data.items.filter(matches);
+  items.sort((a,b)=> state.sort==="recencia" ? (b.ts||0)-(a.ts||0) : (b.relevance-a.relevance)||((b.ts||0)-(a.ts||0)) );
+
+  // contadores das faixas (respeitando busca + fontes, ignorando a faixa atual)
+  const base=state.data.items.filter(it=>{
+    if(state.sources.size && !state.sources.has(it.source)) return false;
+    if(state.q){const blob=(it.title+" "+(it.summary||"")+" "+it.source).toLowerCase(); if(!blob.includes(state.q)) return false;}
+    return true;
+  });
+  setCnt("todas",base.length);
+  setCnt("modelo",base.filter(i=>i.category==="modelo").length);
+  setCnt("pesquisa",base.filter(i=>i.category==="pesquisa").length);
+  setCnt("china",base.filter(i=>i.region==="china").length);
+
+  if(!items.length){ feed.innerHTML=emptyHTML(); return; }
+
+  feed.innerHTML=items.map(it=>{
+    const china=it.region==="china";
+    const cat=china && state.view==="china" ? "china" : it.category;
+    const cls = china ? "c-china" : ("c-"+it.category);
+    const chip = china ? `<span class="chip china">china</span>` : "";
+    const catChip = `<span class="chip ${it.category}">${it.category}</span>`;
+    return `<article class="card ${cls}">
+      <div class="meta">${chip}${catChip}<span class="src">${esc(it.source)}</span><span class="when">${rel(it.date)}</span></div>
+      <h3><a href="${esc(it.link)}" target="_blank" rel="noopener">${esc(it.title)}</a></h3>
+      ${it.summary?`<p>${esc(it.summary)}</p>`:""}
+      <a class="open" href="${esc(it.link)}" target="_blank" rel="noopener">abrir fonte &#8599;</a>
+      ${snrBars(it.relevance,china)}
+    </article>`;
+  }).join("");
+}
+
+function emptyHTML(){
+  if(state.view==="china"){
+    return `<div class="empty"><b>Sem sinais da China nesta janela</b>
+      Ajuste a busca ou as fontes. Na primeira vez, rode o workflow <code>update-news</code> em Actions para popular os feeds chineses (Synced, Pandaily, TechNode, KrASIA, ChinAI).</div>`;
+  }
+  return `<div class="empty"><b>Nenhum sinal com esse filtro</b>
+    Tente limpar a busca ou reativar fontes na barra lateral.</div>`;
+}
+
+function setCnt(k,v){ document.querySelectorAll(`[data-cnt="${k}"]`).forEach(e=>e.textContent=v); }
+
+function buildSources(){
+  const map={};
+  state.data.items.forEach(i=>{ map[i.source]=map[i.source]||{n:0,china:i.region==="china"}; map[i.source].n++; if(i.region==="china") map[i.source].china=true; });
+  state.allSources=Object.keys(map).sort((a,b)=>map[b].n-map[a].n);
+  $("#sources").innerHTML=state.allSources.map(s=>
+    `<label class="srcrow ${map[s].china?'cn':''}"><input type="checkbox" value="${esc(s)}"><span class="sn">${esc(s)}</span><span class="sc">${map[s].n}</span></label>`
+  ).join("");
+  $("#sources").querySelectorAll("input").forEach(inp=>inp.addEventListener("change",()=>{
+    inp.checked ? state.sources.add(inp.value) : state.sources.delete(inp.value); render();
+  }));
+}
+
+function applyData(d){
+  state.data = (d && Array.isArray(d.items) && d.items.length) ? d : INLINE_FALLBACK;
+  // header
+  const total=state.data.items.length;
+  const cn=state.data.items.filter(i=>i.region==="china").length;
+  $("#stat-total").textContent=total;
+  $("#stat-china").textContent=cn;
+  const gen=state.data.generated_at?new Date(state.data.generated_at):null;
+  $("#updated").textContent = gen ? "atualizado "+rel(state.data.generated_at)+" atras" : "dados locais";
+
+  // banner: dados antigos ou ainda no seed
+  const banner=$("#banner"), bt=$("#banner-txt");
+  if(state.data.seed){
+    bt.innerHTML="Mostrando <b>dados iniciais</b>. Rode o workflow <b>update-news</b> em Actions (ou aguarde o cron) para a primeira coleta real.";
+    banner.classList.add("show");
+  } else if(gen && (Date.now()-gen)/36e5 > 30){
+    bt.innerHTML="Ultima coleta ha mais de <b>30 horas</b>. Verifique o workflow em Actions.";
+    banner.classList.add("show");
+  }
+  buildSources();
+  render();
+}
+
+// eventos
+$("#views").addEventListener("click",e=>{
+  const b=e.target.closest(".navbtn"); if(!b) return;
+  state.view=b.dataset.view;
+  document.querySelectorAll(".navbtn").forEach(x=>x.classList.toggle("active",x===b));
+  render();
+});
+$("#q").addEventListener("input",e=>{ state.q=e.target.value.trim().toLowerCase(); render(); });
+$("#sort").addEventListener("click",()=>{
+  state.sort = state.sort==="recencia" ? "relevancia" : "recencia";
+  $("#sort-l").textContent=state.sort;
+  render();
+});
+$("#src-toggle").addEventListener("click",()=>{
+  state.sources.clear();
+  document.querySelectorAll("#sources input").forEach(i=>i.checked=false);
+  render();
+});
+
+// carga
+fetch("./data/news.json",{cache:"no-store"})
+  .then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(applyData)
+  .catch(()=>applyData(INLINE_FALLBACK));
+</script>
+</body>
+</html>
