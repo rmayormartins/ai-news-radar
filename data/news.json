@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-17T18:46:25.731537+00:00",
-  "count": 154,
-  "china_count": 47,
+  "generated_at": "2026-06-17T22:05:26.922634+00:00",
+  "count": 191,
+  "china_count": 58,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1008 itens)",
+      "status": "ok (1009 itens)",
       "kept": 12
     },
     {
@@ -54,6 +54,16 @@
       "kept": 8
     },
     {
+      "source": "Apple ML Research",
+      "status": "ok (10 itens)",
+      "kept": 6
+    },
+    {
+      "source": "AWS Machine Learning",
+      "status": "ok (20 itens)",
+      "kept": 6
+    },
+    {
       "source": "arXiv cs.AI",
       "status": "ok (342 itens)",
       "kept": 8
@@ -74,8 +84,13 @@
       "kept": 6
     },
     {
+      "source": "arXiv cs.RO",
+      "status": "ok (80 itens)",
+      "kept": 5
+    },
+    {
       "source": "MarkTechPost",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -129,6 +144,36 @@
       "kept": 1
     },
     {
+      "source": "Wired AI",
+      "status": "ok (10 itens)",
+      "kept": 4
+    },
+    {
+      "source": "Analytics India",
+      "status": "ok (0 itens)",
+      "kept": 0
+    },
+    {
+      "source": "Interconnects",
+      "status": "ok (20 itens)",
+      "kept": 6
+    },
+    {
+      "source": "The Algorithmic Bridge",
+      "status": "ok (20 itens)",
+      "kept": 2
+    },
+    {
+      "source": "One Useful Thing",
+      "status": "ok (20 itens)",
+      "kept": 0
+    },
+    {
+      "source": "Don't Worry About the Vase",
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
+    },
+    {
       "source": "Synced (机器之心)",
       "status": "ok (10 itens)",
       "kept": 0
@@ -179,6 +224,21 @@
       "kept": 0
     },
     {
+      "source": "The China Academy",
+      "status": "ok (10 itens)",
+      "kept": 0
+    },
+    {
+      "source": "China Internet Watch",
+      "status": "ERRO: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.chinainternetwatch.com'. (_ssl.c:1010)>",
+      "kept": 0
+    },
+    {
+      "source": "CnTechPost",
+      "status": "ok (50 itens)",
+      "kept": 8
+    },
+    {
       "source": "Sixth Tone",
       "status": "ok (51 itens)",
       "kept": 0
@@ -190,6 +250,28 @@
     }
   ],
   "items": [
+    {
+      "title": "Amazon SageMaker AI Async Inference now supports inline request payloads",
+      "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-async-inference-now-supports-inline-request-payloads/",
+      "summary": "Today, we’re announcing inline payload support for Amazon SageMaker AI Async Inference. Customers can now send inference payloads directly in the request body of the InvokeEndpointAsync API, removing the need to upload input data to Amazon Simple Storage Service (Amazon S3) before each invocation.",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 46,
+      "date": "2026-06-17T20:56:36+00:00",
+      "ts": 1781729796.0
+    },
+    {
+      "title": "In game theory, generalists sometimes win out over specialists",
+      "link": "https://news.mit.edu/2026/game-theory-generalists-sometimes-win-out-over-specialists-0617",
+      "summary": "Researchers show that for certain kinds of games, an overlooked class of algorithms performs much better than expected.",
+      "source": "MIT News (IA)",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 29,
+      "date": "2026-06-17T19:20:00+00:00",
+      "ts": 1781724000.0
+    },
     {
       "title": "Microsoft researcher builds a working neural network out of goats in Age of Empires II to critique AI science",
       "link": "https://the-decoder.com/microsoft-researcher-builds-a-working-neural-network-out-of-goats-in-age-of-empires-ii-to-critique-ai-science/",
@@ -233,6 +315,17 @@
       "relevance": 51,
       "date": "2026-06-17T17:20:24+00:00",
       "ts": 1781716824.0
+    },
+    {
+      "title": "The White House Wants Anthropic to Block All Jailbreaks. That May Not Be Possible",
+      "link": "https://www.wired.com/story/the-white-house-wants-anthropic-to-block-all-jailbreaks-that-may-not-be-possible/",
+      "summary": "Trump administration officials tell WIRED that if Anthropic wants to rerelease Fable 5, it will need to ensure the model's guardrails can't be circumvented. Security experts say that can't be done.",
+      "source": "Wired AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 40,
+      "date": "2026-06-17T17:00:00+00:00",
+      "ts": 1781715600.0
     },
     {
       "title": "Google bets on Gemini to reinvent the smart home speaker",
@@ -299,6 +392,17 @@
       "relevance": 64,
       "date": "2026-06-17T14:30:22+00:00",
       "ts": 1781706622.0
+    },
+    {
+      "title": "The Gemini-Powered Google Home Speaker Is Finally Here",
+      "link": "https://www.wired.com/story/the-gemini-powered-google-home-speaker-is-finally-here/",
+      "summary": "Arriving six years after Google’s last smart speaker, the new HomePod-style device was redesigned to play host to Gemini’s chatbot.",
+      "source": "Wired AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 46,
+      "date": "2026-06-17T13:00:00+00:00",
+      "ts": 1781701200.0
     },
     {
       "title": "Hyperscalers may soon be unable to fund their AI buildout from cash flow alone",
@@ -697,6 +801,61 @@
       "ts": 1781668800.0
     },
     {
+      "title": "ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining",
+      "link": "https://arxiv.org/abs/2606.17200",
+      "summary": "arXiv:2606.17200v1 Announce Type: new Abstract: Vision-Language-Action (VLA) models benefit from large-scale and diverse embodied data, yet scaling robot trajectory collection is costly and labor-intensive. Recent advances show that large-scale egocentric human videos provide complementary real-world supervision in...",
+      "source": "arXiv cs.RO",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 60,
+      "date": "2026-06-17T04:00:00+00:00",
+      "ts": 1781668800.0
+    },
+    {
+      "title": "ThinkingVLA: Interleaved Vision and Language Reasoning for Robotic Manipulation",
+      "link": "https://arxiv.org/abs/2606.17937",
+      "summary": "arXiv:2606.17937v1 Announce Type: new Abstract: Most Vision-Language-Action (VLA) models map observations directly to actions without explicit reasoning, limiting their capacity for reasoning-intensive long-horizon tasks. To address this, existing approaches adopt Chain-of-Thought (CoT) reasoning to enable subgoal...",
+      "source": "arXiv cs.RO",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 54,
+      "date": "2026-06-17T04:00:00+00:00",
+      "ts": 1781668800.0
+    },
+    {
+      "title": "Unified Motion-Action Modeling for Heterogeneous Robot Learning",
+      "link": "https://arxiv.org/abs/2606.16917",
+      "summary": "arXiv:2606.16917v2 Announce Type: replace Abstract: We present Unified Motion-Action (UMA) Model, an approach that uses 3D object motion trajectories as a shared interface to bridge visuomotor control and dynamics modeling. UMA treats object motion and robot actions as co-evolving variables under a masked generative...",
+      "source": "arXiv cs.RO",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 54,
+      "date": "2026-06-17T04:00:00+00:00",
+      "ts": 1781668800.0
+    },
+    {
+      "title": "WAM-RL: World-Action Model Reinforcement Learning with Reconstruction Rewards and Online Video SFT",
+      "link": "https://arxiv.org/abs/2606.17906",
+      "summary": "arXiv:2606.17906v1 Announce Type: new Abstract: Recent World-Action (WA) models demonstrate strong generalization ability and data efficiency, but they typically rely on expert trajectories for training. This reliance limits their ability to acquire fine-grained manipulation skills beyond the demonstration...",
+      "source": "arXiv cs.RO",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 53,
+      "date": "2026-06-17T04:00:00+00:00",
+      "ts": 1781668800.0
+    },
+    {
+      "title": "Abstention-Aware Personalized Object Rearrangement via Uncertainty-Guided LLM Assistance",
+      "link": "https://arxiv.org/abs/2606.17309",
+      "summary": "arXiv:2606.17309v1 Announce Type: new Abstract: Robotic assistance in household environments requires not only predicting where objects should be placed, but also reasoning about when objects should not be placed at all. Existing approaches to personalized object rearrangement primarily focus on placement decisions...",
+      "source": "arXiv cs.RO",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 51,
+      "date": "2026-06-17T04:00:00+00:00",
+      "ts": 1781668800.0
+    },
+    {
       "title": "Alibaba unveils Qwen-Robot series with three foundation models for embodied AI",
       "link": "https://technode.com/2026/06/17/alibaba-unveils-qwen-robot-series-with-three-foundation-models-for-embodied-ai/",
       "summary": "The Qwen team on Tuesday released a robotics suite featuring three foundation models: Qwen-RobotNav, Qwen-RobotManip, and Qwen-RobotWorld. These three models align language with different types of physical actions. Qwen-RobotNav extends vision-language capabilities into mobile robotics through controllable observation...",
@@ -741,6 +900,17 @@
       "ts": 1781654400.0
     },
     {
+      "title": "Safeguard your agentic AI applications with the Amazon Bedrock Guardrails InvokeGuardrailChecks API",
+      "link": "https://aws.amazon.com/blogs/machine-learning/safeguard-your-agentic-ai-applications-with-the-amazon-bedrock-guardrails-invokeguardrailchecks-api/",
+      "summary": "Today, we’re announcing a new API with Amazon Bedrock Guardrails. With this API, you can apply individual safeguards, also referred to as safety checks, at any point in your agentic AI applications without creating guardrail resources. In this post, we walk through how the InvokeGuardrailChecks API works and how to...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 45,
+      "date": "2026-06-16T22:46:46+00:00",
+      "ts": 1781650006.0
+    },
+    {
       "title": "Anthropic \"pauses\" token-based billing for its Claude Agent SDK",
       "link": "https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/",
       "summary": "Move originally planned for Monday would have heavily increased power users' costs.",
@@ -763,6 +933,17 @@
       "ts": 1781642409.0
     },
     {
+      "title": "Introducing container caching in Amazon SageMaker AI for faster model scaling",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-container-caching-in-amazon-sagemaker-ai-for-faster-model-scaling/",
+      "summary": "Today, we’re excited to announce container image caching for Amazon SageMaker AI inference, the next major advancement in our faster scaling optimization journey. This speeds up end-to-end latency by up to 2x for generative AI models during scale-out events.",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 55,
+      "date": "2026-06-16T20:16:02+00:00",
+      "ts": 1781640962.0
+    },
+    {
       "title": "Microsoft's Copilot Cowork moves to usage-based billing and may tap DeepSeek",
       "link": "https://the-decoder.com/microsofts-copilot-cowork-moves-to-usage-based-billing-and-may-tap-deepseek/",
       "summary": "Microsoft is weighing a fine-tuned version of Deepseek V4 as a cheaper model option for Copilot Cowork. The company is also switching to usage-based billing, since Copilot head Charles Lamanna says flat-rate pricing isn't sustainable. The move fits a broader pattern in the industry. The article Microsoft's Copilot...",
@@ -772,6 +953,17 @@
       "relevance": 64,
       "date": "2026-06-16T19:32:38+00:00",
       "ts": 1781638358.0
+    },
+    {
+      "title": "‘Dangerous’ AI Models Are Coming No Matter What",
+      "link": "https://www.wired.com/story/dangerous-ai-models-are-coming-no-matter-what/",
+      "summary": "The US government crackdown on Anthropic’s Claude Fable 5 and Mythos 5 hides a glaring truth: AI models with advanced hacking capabilities will soon be the norm.",
+      "source": "Wired AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 44,
+      "date": "2026-06-16T17:50:52+00:00",
+      "ts": 1781632252.0
     },
     {
       "title": "Solar tower plants gain open operational database, aiming to boost storage-friendly renewable power",
@@ -794,6 +986,17 @@
       "relevance": 50,
       "date": "2026-06-16T14:00:11+00:00",
       "ts": 1781618411.0
+    },
+    {
+      "title": "Frontier post-training recipe review with Finbarr Timbers",
+      "link": "https://www.interconnects.ai/p/frontier-post-training-recipe-review",
+      "summary": "\"Interview\" #18",
+      "source": "Interconnects",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 31,
+      "date": "2026-06-16T13:29:30+00:00",
+      "ts": 1781616570.0
     },
     {
       "title": "DOJ invokes national security to defend xAI's unpermitted gas turbines in NAACP lawsuit",
@@ -895,6 +1098,28 @@
       "ts": 1781574803.0
     },
     {
+      "title": "Anthropic Is Still at Odds With the White House Over Claude Fable 5",
+      "link": "https://www.wired.com/story/anthropic-is-still-at-odds-with-the-white-house-over-claude-fable-5/",
+      "summary": "Anthropic leaders flew to Washington, DC, to meet with White House officials on Monday. After high-level talks, they’re still split on the risk Claude Fable 5 presents.",
+      "source": "Wired AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 46,
+      "date": "2026-06-16T00:53:46+00:00",
+      "ts": 1781571226.0
+    },
+    {
+      "title": "Introducing Gemma 4 models on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-gemma-4-models-on-amazon-bedrock/",
+      "summary": "Today, we are announcing the availability of the Gemma 4 family on Amazon Bedrock. Built by Google DeepMind and released under the Apache 2.0 license, Gemma 4 is a family of open-weight models designed with a focus on intelligence-per-parameter across a broad range of deployment scenarios. The family includes three...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 70,
+      "date": "2026-06-15T20:24:15+00:00",
+      "ts": 1781555055.0
+    },
+    {
       "title": "Researchers propose 'copyleft' rules for generative AI",
       "link": "https://techxplore.com/news/2026-06-copyleft-generative-ai.html",
       "summary": "The rise of generative artificial intelligence (AI) poses challenges for the free and open-source software (FOSS) community, a global network committed to creating and maintaining publicly available software that anyone can use, modify and share. Many AI models have been built on open-source software but do not...",
@@ -983,6 +1208,17 @@
       "ts": 1781308384.0
     },
     {
+      "title": "Building Supercharger: How Rocket Close optimized title operations with agentic AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/building-supercharger-how-rocket-close-optimized-title-operations-with-agentic-ai/",
+      "summary": "In this post, we explore how Rocket Close built a solution using Strands Agents, large language models (LLMs), Amazon Bedrock, Amazon Bedrock Knowledge Bases, and Model Context Protocol (MCP) tools. We cover solution features, the rationale for the technology stack, lessons learned, and the business impact at Rocket...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 51,
+      "date": "2026-06-12T20:43:56+00:00",
+      "ts": 1781297036.0
+    },
+    {
       "title": "Research into how AI can help users understand skin conditions",
       "link": "https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/",
       "summary": "Health & Bioscience",
@@ -1049,6 +1285,17 @@
       "ts": 1781205000.0
     },
     {
+      "title": "Evaluate AI agents systematically with Agent-EvalKit",
+      "link": "https://aws.amazon.com/blogs/machine-learning/evaluate-ai-agents-systematically-with-agent-evalkit/",
+      "summary": "Agent-EvalKit is an open-source toolkit (Apache 2.0) that makes this evaluation infrastructure available by integrating with AI coding assistants, including Claude Code, Kiro CLI, and Kilo Code. This post walks through how Agent-EvalKit works across its six evaluation phases, using a travel research agent built with...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 58,
+      "date": "2026-06-11T15:49:47+00:00",
+      "ts": 1781192987.0
+    },
+    {
       "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
       "link": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
       "summary": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignment research, the mass-market arrival of agents that can carry out tasks without human oversight...",
@@ -1082,17 +1329,6 @@
       "ts": 1781121654.0
     },
     {
-      "title": "Startup’s nuclear-inspired cooling system could make data centers more sustainable",
-      "link": "https://news.mit.edu/2026/nuclear-inspired-cooling-system-ferveret-could-make-data-centers-more-sustainable-0610",
-      "summary": "Founded by two researchers from MIT, Ferveret reduces the amount of energy and water required to cool the chips that power AI.",
-      "source": "MIT News (IA)",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 29,
-      "date": "2026-06-10T04:00:00+00:00",
-      "ts": 1781064000.0
-    },
-    {
       "title": "If Claude Fable stops helping you, you'll never know",
       "link": "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything",
       "summary": "If Claude Fable stops helping you, you'll never know Jonathon Ready highlights one of the more eyebrow-raising details from the 319 page system card for Fable 5 and Mythos 5. Here's a longer excerpt, highlights mine: In light of the ability of recent models to accelerate their own development , we’ve implemented new...",
@@ -1102,6 +1338,28 @@
       "relevance": 57,
       "date": "2026-06-10T00:37:25+00:00",
       "ts": 1781051845.0
+    },
+    {
+      "title": "Claude Fable 5 and new AI safety fables",
+      "link": "https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety",
+      "summary": "One step further into the power politics of frontier AI systems.",
+      "source": "Interconnects",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 52,
+      "date": "2026-06-09T22:59:35+00:00",
+      "ts": 1781045975.0
+    },
+    {
+      "title": "Nine Things About Claude Mythos 5 That Matter If You’re Not an Enterprise Customer",
+      "link": "https://www.thealgorithmicbridge.com/p/nine-things-about-claude-mythos-5",
+      "summary": "Anthropic just released the most powerful model in the world",
+      "source": "The Algorithmic Bridge",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 60,
+      "date": "2026-06-09T21:53:40+00:00",
+      "ts": 1781042020.0
     },
     {
       "title": "The consequences of relying on AI for accurate news",
@@ -1166,6 +1424,17 @@
       "region": "global",
       "category": "pesquisa",
       "relevance": 57,
+      "date": "2026-06-08T00:00:00+00:00",
+      "ts": 1780876800.0
+    },
+    {
+      "title": "Introducing the Third Generation of Apple’s Foundation Models",
+      "link": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
+      "summary": "Our next generation of Apple Intelligence is centered around our users, integrated deeply into our operating systems, and powered by a bold new architecture with privacy at its core. At the heart of this architecture is our third generation of Apple Foundation Models (AFM), a family of five foundation models...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 53,
       "date": "2026-06-08T00:00:00+00:00",
       "ts": 1780876800.0
     },
@@ -1322,6 +1591,17 @@
       "relevance": 60,
       "date": "2026-06-03T02:07:46+00:00",
       "ts": 1780452466.0
+    },
+    {
+      "title": "Farewell Ai2",
+      "link": "https://www.interconnects.ai/p/farewell-ai2",
+      "summary": "This was my last week at the Allen Institute for AI (Ai2), where I got the great privilege to work on the Olmo models, to grow, to learn, and to have broad lasting impacts.",
+      "source": "Interconnects",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 33,
+      "date": "2026-06-02T14:15:59+00:00",
+      "ts": 1780409759.0
     },
     {
       "title": "Holo3.1: Fast & Local Computer Use Agents",
@@ -1522,6 +1802,17 @@
       "ts": 1779840000.0
     },
     {
+      "title": "Some ideas for what comes next, May 2026",
+      "link": "https://www.interconnects.ai/p/some-ideas-for-what-comes-next-may",
+      "summary": "Gemini Flash 3.5, Mythos, open-closed balance, America's open-source surge, emerging power struggles and more.",
+      "source": "Interconnects",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 46,
+      "date": "2026-05-26T15:39:02+00:00",
+      "ts": 1779809942.0
+    },
+    {
       "title": "Alipay launches payment tools for AI agents that shop for you",
       "link": "https://www.scmp.com/tech/tech-trends/article/3354876/alipay-launches-payment-tools-ai-agents-shop-you?utm_source=rss_feed",
       "summary": "Chinese fintech giant Ant Group is betting its future on a world where smart glasses are able to autonomously order, customise and pay for your coffee before you even step into a cafe. The Hangzhou-based company on Tuesday launched a new suite of artificial intelligence payment tools, aiming to position its ubiquitous...",
@@ -1566,6 +1857,17 @@
       "ts": 1779624010.0
     },
     {
+      "title": "Chinese AI startup Zhipu rolls out ultra-fast version of flagship model",
+      "link": "https://cntechpost.com/2026/05/22/chinese-ai-startup-zhipu-rolls-out-ultra-fast-version-flagship-model/",
+      "summary": "GLM-5.1-highspeed reaches an output speed of 400 tokens/s, combining flagship capabilities with ultra-low latency for the first time among domestic large models. The post Chinese AI startup Zhipu rolls out ultra-fast version of flagship model appeared first on CnTechPost .",
+      "source": "CnTechPost",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 53,
+      "date": "2026-05-22T02:58:42+00:00",
+      "ts": 1779418722.0
+    },
+    {
       "title": "China behind in LLM race but it can still win in AI, ex-Tencent AI lead says",
       "link": "https://www.scmp.com/tech/big-tech/article/3354394/china-losing-llm-race-it-can-still-win-ai-ex-tencent-ai-lead-says?utm_source=rss_feed",
       "summary": "For years, Liu Wei was synonymous with Chinese tech giant Tencent Holdings’ artificial intelligence efforts. A distinguished scientist at the Shenzhen-based company, Liu was also head of its Hunyuan team, the firm’s foundational model development unit for the generative AI era. But in late 2024, Liu’s departure from...",
@@ -1599,6 +1901,17 @@
       "ts": 1779305400.0
     },
     {
+      "title": "Alibaba releases new AI chip, stepping up hardware race",
+      "link": "https://cntechpost.com/2026/05/20/alibaba-releases-new-ai-chip-stepping-up-hardware-race/",
+      "summary": "The new Zhenwu M890 chip will handle both training and inferencing to meet the computing demands of the agentic era. The post Alibaba releases new AI chip, stepping up hardware race appeared first on CnTechPost .",
+      "source": "CnTechPost",
+      "region": "china",
+      "category": "pesquisa",
+      "relevance": 54,
+      "date": "2026-05-20T08:54:29+00:00",
+      "ts": 1779267269.0
+    },
+    {
       "title": "LWiAI Podcast #245 - TML-Interaction, Claude For Legal, Sam Altman on Stand",
       "link": "https://lastweekin.ai/p/lwiai-podcast-245-tml-interaction",
       "summary": "OpenAI launches new voice intelligence features in its API, Thinking Machines drops a new, highly responsive model designed for humanlike interactions in real time, and more!",
@@ -1608,6 +1921,17 @@
       "relevance": 66,
       "date": "2026-05-20T07:45:49+00:00",
       "ts": 1779263149.0
+    },
+    {
+      "title": "Alibaba releases Qwen3.7-Max agent model to tackle complex AI workflows",
+      "link": "https://cntechpost.com/2026/05/20/alibaba-releases-qwen3-7-max-agent-model-tackle-complex-ai-workflows/",
+      "summary": "The new model completed over a thousand tool calls during a 35-hour continuous test, demonstrating unprecedented enterprise-grade stability. The post Alibaba releases Qwen3.7-Max agent model to tackle complex AI workflows appeared first on CnTechPost .",
+      "source": "CnTechPost",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 64,
+      "date": "2026-05-20T05:28:13+00:00",
+      "ts": 1779254893.0
     },
     {
       "title": "Building AI models that understand chemical principles",
@@ -1676,6 +2000,39 @@
       "ts": 1779212700.0
     },
     {
+      "title": "Alibaba hints Qwen3.7 AI model launch to step up AI race",
+      "link": "https://cntechpost.com/2026/05/19/alibaba-hints-qwen3-7-ai-model-launch-step-up-ai-race/",
+      "summary": "Alibaba Cloud summit is scheduled for May 20 as company teases new Qwen product. The post Alibaba hints Qwen3.7 AI model launch to step up AI race appeared first on CnTechPost .",
+      "source": "CnTechPost",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 61,
+      "date": "2026-05-19T03:33:58+00:00",
+      "ts": 1779161638.0
+    },
+    {
+      "title": "EpiCache: Episodic KV Cache Management for Long-Term Conversation on Resource-Constrained Environments",
+      "link": "https://machinelearning.apple.com/research/epicache",
+      "summary": "Modern large language models (LLMs) extend context lengths to millions of tokens, enabling coherent, personalized responses grounded in long conversational history. However, the Key-Value (KV) cache grows linearly with the extended dialogue history, causing the model’s memory footprint to quickly exceed device limits....",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 53,
+      "date": "2026-05-19T00:00:00+00:00",
+      "ts": 1779148800.0
+    },
+    {
+      "title": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.",
+      "link": "https://www.interconnects.ai/p/latest-open-artifacts-21-open-model",
+      "summary": "An eventful month with one flagship release after another",
+      "source": "Interconnects",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 77,
+      "date": "2026-05-16T17:00:11+00:00",
+      "ts": 1778950811.0
+    },
+    {
       "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
       "link": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
       "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
@@ -1696,6 +2053,28 @@
       "relevance": 71,
       "date": "2026-05-16T00:00:00+00:00",
       "ts": 1778889600.0
+    },
+    {
+      "title": "Weekly Top Picks #121",
+      "link": "https://www.thealgorithmicbridge.com/p/weekly-top-picks-121",
+      "summary": "Hottest AI job: FDEs / Trump in China / No jobpocalypse / AI models fixing benchmarks / Americans agree: \"no datacenters here\" / Claude 3 vs Claude 4",
+      "source": "The Algorithmic Bridge",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 52,
+      "date": "2026-05-15T16:07:02+00:00",
+      "ts": 1778861222.0
+    },
+    {
+      "title": "Chinese AI startup Moonshot launches Kimi WebBridge to automate complex web tasks",
+      "link": "https://cntechpost.com/2026/05/15/chinese-ai-startup-moonshot-launches-kimi-webbridge-automate-complex-web-tasks/",
+      "summary": "The tool allows AI agents to automatically execute complex web tasks using user credentials. The post Chinese AI startup Moonshot launches Kimi WebBridge to automate complex web tasks appeared first on CnTechPost .",
+      "source": "CnTechPost",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 64,
+      "date": "2026-05-15T02:04:17+00:00",
+      "ts": 1778810657.0
     },
     {
       "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
@@ -1720,6 +2099,28 @@
       "ts": 1778784901.0
     },
     {
+      "title": "Former Alibaba AI core figure Lin Junyang founds new lab, seeks $2 billion valuation",
+      "link": "https://cntechpost.com/2026/05/13/former-alibaba-ai-core-figure-lin-junyang-founds-new-lab-seeks-2-billion-valuation/",
+      "summary": "The former head of Tongyi Qwen research is raising hundreds of millions of dollars, with HongShan Capital and Gaorong Capital participating in investment talks. The post Former Alibaba AI core figure Lin Junyang founds new lab, seeks $2 billion valuation appeared first on CnTechPost .",
+      "source": "CnTechPost",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 59,
+      "date": "2026-05-13T08:42:34+00:00",
+      "ts": 1778661754.0
+    },
+    {
+      "title": "How open model ecosystems compound",
+      "link": "https://www.interconnects.ai/p/how-open-model-ecosystems-compound",
+      "summary": "Further reflections on China's high-participation, open-first AI ecosystem.",
+      "source": "Interconnects",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 33,
+      "date": "2026-05-12T15:54:47+00:00",
+      "ts": 1778601287.0
+    },
+    {
       "title": "Building Blocks for Foundation Model Training and Inference on AWS",
       "link": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
       "summary": "",
@@ -1729,6 +2130,17 @@
       "relevance": 58,
       "date": "2026-05-11T23:18:26+00:00",
       "ts": 1778541506.0
+    },
+    {
+      "title": "Alibaba integrates AI model Qwen with Taobao to create conversational shopping experience",
+      "link": "https://cntechpost.com/2026/05/11/alibaba-integrates-ai-model-qwen-taobao-create-conversational-shopping-experience/",
+      "summary": "Alibaba has officially integrated its AI platform Qwen with Taobao, aiming to replace traditional keyword searches with conversational AI shopping. The post Alibaba integrates AI model Qwen with Taobao to create conversational shopping experience appeared first on CnTechPost .",
+      "source": "CnTechPost",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 56,
+      "date": "2026-05-11T02:59:24+00:00",
+      "ts": 1778468364.0
     },
     {
       "title": "Alibaba to merge Qwen AI with Taobao in push for new AI-powered shopping",
@@ -1742,6 +2154,28 @@
       "ts": 1778466336.0
     },
     {
+      "title": "BalCapRL: A Balanced Framework for RL-Based MLLM Image Captioning",
+      "link": "https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning",
+      "summary": "Image captioning is one of the most fundamental tasks in computer vision. Owing to its open-ended nature, it has received significant attention in the era of multimodal large language models (MLLMs). In pursuit of ever more detailed and accurate captions, recent work has increasingly turned to reinforcement learning...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 65,
+      "date": "2026-05-11T00:00:00+00:00",
+      "ts": 1778457600.0
+    },
+    {
+      "title": "Baidu releases Ernie 5.1 with pre-training cost at only 6% of industry peers",
+      "link": "https://cntechpost.com/2026/05/09/baidu-releases-ernie-5-1-pre-training-cost-at-only-6-industry-peers/",
+      "summary": "Baidu has launched the Ernie 5.1 model, achieving a leapfrog optimization in parameter size and computing overhead. The post Baidu releases Ernie 5.1 with pre-training cost at only 6% of industry peers appeared first on CnTechPost .",
+      "source": "CnTechPost",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 67,
+      "date": "2026-05-09T06:34:37+00:00",
+      "ts": 1778308477.0
+    },
+    {
       "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
       "link": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
       "summary": "Overview of adaptive parallel reasoning. What if a reasoning model could decide for itself when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based on the problem at hand? We provide a detailed analysis of recent progress in the field of parallel...",
@@ -1751,6 +2185,39 @@
       "relevance": 60,
       "date": "2026-05-08T09:00:00+00:00",
       "ts": 1778230800.0
+    },
+    {
+      "title": "RVPO: Risk-Sensitive Alignment via Variance Regularization",
+      "link": "https://machinelearning.apple.com/research/rvpo-risk-sensitive-alignment",
+      "summary": "Current critic-less RLHF methods aggregate multi-objective rewards via an arithmetic mean, leaving them vulnerable to constraint neglect: high-magnitude success in one objective can numerically offset critical failures in others (e.g., safety or formatting), masking low-performing “bottleneck” rewards vital for...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 51,
+      "date": "2026-05-08T00:00:00+00:00",
+      "ts": 1778198400.0
+    },
+    {
+      "title": "Large-Scale High-Quality 3D Gaussian Head Reconstruction from Multi-View Captures",
+      "link": "https://machinelearning.apple.com/research/gaussian-head-reconstruction",
+      "summary": "We propose HeadsUp, a scalable feed-forward method for reconstructing high-quality 3D Gaussian heads from large-scale multi-camera setups. Our method employs an efficient encoder-decoder architecture that compresses input views into a compact latent representation. This latent representation is then decoded into a set...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 51,
+      "date": "2026-05-08T00:00:00+00:00",
+      "ts": 1778198400.0
+    },
+    {
+      "title": "Apple Workshop on Privacy-Preserving Machine Learning & AI 2026",
+      "link": "https://machinelearning.apple.com/updates/ppml-2026",
+      "summary": "At Apple, we believe privacy is a fundamental human right. As AI capabilities increase and become more integrated into people’s daily lives, advancing research in privacy-preserving techniques is increasingly important to ensure privacy is protected while users enjoy innovative AI experiences. Apple’s fundamental...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 37,
+      "date": "2026-05-08T00:00:00+00:00",
+      "ts": 1778198400.0
     },
     {
       "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
