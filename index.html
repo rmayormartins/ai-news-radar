@@ -99,7 +99,17 @@
 
   /* ---------- LAYOUT ---------- */
   .grid{display:grid;grid-template-columns:236px 1fr;gap:26px;padding:26px 20px;max-width:var(--maxw);margin:0 auto;align-items:start}
-  aside{position:sticky;top:88px;display:flex;flex-direction:column;gap:22px}
+  aside{position:sticky;top:84px;display:flex;flex-direction:column;gap:22px;
+    max-height:calc(100vh - 104px);overflow-y:auto;padding-right:6px;
+    scrollbar-width:thin;scrollbar-color:var(--line-soft) transparent}
+  aside::-webkit-scrollbar{width:8px}
+  aside::-webkit-scrollbar-track{background:transparent}
+  aside::-webkit-scrollbar-thumb{background:var(--line-soft);border-radius:8px;border:2px solid var(--bg)}
+  aside::-webkit-scrollbar-thumb:hover{background:#33414f}
+  /* a lista de fontes (longa) tambem ganha rolagem propria */
+  #sources{max-height:300px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--line-soft) transparent}
+  #sources::-webkit-scrollbar{width:6px}
+  #sources::-webkit-scrollbar-thumb{background:var(--line-soft);border-radius:6px}
 
   .panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius)}
   .panel h2{
@@ -155,6 +165,24 @@
   }
   .sortbtn:hover{border-color:var(--line-soft);color:var(--text)}
   .sortbtn b{color:var(--accent)}
+  .rangesel{position:relative}
+  .rangesel select{
+    appearance:none;-webkit-appearance:none;cursor:pointer;
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    color:var(--text-2);font-family:"JetBrains Mono";font-size:11px;letter-spacing:.5px;
+    padding:10px 30px 10px 13px;text-transform:uppercase;
+  }
+  .rangesel select:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-dim);color:var(--text)}
+  .rangesel::after{content:"";position:absolute;right:12px;top:50%;width:6px;height:6px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);transform:translateY(-65%) rotate(45deg);pointer-events:none}
+
+  .morebar{display:flex;flex-direction:column;align-items:center;gap:10px;padding:18px 0 6px}
+  .showing{font-family:"JetBrains Mono";font-size:10.5px;letter-spacing:.5px;color:var(--muted)}
+  .morebtn{
+    background:var(--panel);border:1px solid var(--line-soft);border-radius:var(--radius);
+    color:var(--accent);font-family:"JetBrains Mono";font-size:12px;letter-spacing:1px;
+    padding:11px 26px;cursor:pointer;text-transform:uppercase;transition:all .14s;
+  }
+  .morebtn:hover{background:var(--panel-2);box-shadow:0 0 0 2px var(--accent-dim)}
 
   /* ---------- FEED ---------- */
   .feed{display:flex;flex-direction:column;gap:12px}
@@ -276,11 +304,20 @@
         <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
         <input id="q" type="search" placeholder="filtrar por modelo, lab, tema... (ex: deepseek, agente, multimodal)" autocomplete="off">
       </div>
+      <div class="rangesel">
+        <select id="range" aria-label="periodo">
+          <option value="0">periodo: tudo</option>
+          <option value="1">ultimas 24h</option>
+          <option value="7">ultima semana</option>
+          <option value="30">ultimo mes</option>
+        </select>
+      </div>
       <button class="sortbtn" id="sort">ordenar: <b id="sort-l">recencia</b></button>
     </div>
     <div id="feed" class="feed">
       <div class="loading"><div class="sweep"></div>varrendo o espectro...</div>
     </div>
+    <div id="morebar" class="morebar"></div>
   </main>
 </div>
 
@@ -307,10 +344,12 @@ const INLINE_FALLBACK = {
   ]
 };
 
-const state = { data:null, view:"todas", q:"", sort:"recencia", sources:new Set(), allSources:[] };
+const PAGE = 25; // quantas noticias por bloco no "mostrar mais"
+const state = { data:null, view:"todas", q:"", sort:"recencia", range:0, sources:new Set(), allSources:[], shown:PAGE };
 
 const $ = s => document.querySelector(s);
 const feed = $("#feed");
+const morebar = $("#morebar");
 
 function rel(iso){
   if(!iso) return "sem data";
@@ -333,37 +372,43 @@ function snrBars(v,china){
   return `<div class="snr ${china?'cn':''}"><div class="bars">${b}</div><div class="val">${v}</div><div class="lbl">snr</div></div>`;
 }
 
-function matches(it){
-  if(state.view==="china" && it.region!=="china") return false;
-  if((state.view==="modelo"||state.view==="pesquisa") && it.category!==state.view) return false;
+// filtros comuns (fonte, periodo, busca) usados tambem nos contadores
+function passesCommon(it){
   if(state.sources.size && !state.sources.has(it.source)) return false;
+  if(state.range){
+    if(!it.ts) return false;
+    const ageDays=(Date.now()/1000 - it.ts)/86400;
+    if(ageDays > state.range) return false;
+  }
   if(state.q){
     const blob=(it.title+" "+(it.summary||"")+" "+it.source).toLowerCase();
     if(!blob.includes(state.q)) return false;
   }
   return true;
 }
+function matches(it){
+  if(!passesCommon(it)) return false;
+  if(state.view==="china" && it.region!=="china") return false;
+  if((state.view==="modelo"||state.view==="pesquisa") && it.category!==state.view) return false;
+  return true;
+}
 
 function render(){
-  const items=state.data.items.filter(matches);
-  items.sort((a,b)=> state.sort==="recencia" ? (b.ts||0)-(a.ts||0) : (b.relevance-a.relevance)||((b.ts||0)-(a.ts||0)) );
+  const all=state.data.items.filter(matches);
+  all.sort((a,b)=> state.sort==="recencia" ? (b.ts||0)-(a.ts||0) : (b.relevance-a.relevance)||((b.ts||0)-(a.ts||0)) );
 
-  // contadores das faixas (respeitando busca + fontes, ignorando a faixa atual)
-  const base=state.data.items.filter(it=>{
-    if(state.sources.size && !state.sources.has(it.source)) return false;
-    if(state.q){const blob=(it.title+" "+(it.summary||"")+" "+it.source).toLowerCase(); if(!blob.includes(state.q)) return false;}
-    return true;
-  });
+  // contadores das faixas (respeitam fonte + periodo + busca, ignoram a faixa atual)
+  const base=state.data.items.filter(passesCommon);
   setCnt("todas",base.length);
   setCnt("modelo",base.filter(i=>i.category==="modelo").length);
   setCnt("pesquisa",base.filter(i=>i.category==="pesquisa").length);
   setCnt("china",base.filter(i=>i.region==="china").length);
 
-  if(!items.length){ feed.innerHTML=emptyHTML(); return; }
+  if(!all.length){ feed.innerHTML=emptyHTML(); morebar.innerHTML=""; return; }
 
-  feed.innerHTML=items.map(it=>{
+  const shown=Math.min(state.shown, all.length);
+  feed.innerHTML=all.slice(0,shown).map(it=>{
     const china=it.region==="china";
-    const cat=china && state.view==="china" ? "china" : it.category;
     const cls = china ? "c-china" : ("c-"+it.category);
     const chip = china ? `<span class="chip china">china</span>` : "";
     const catChip = `<span class="chip ${it.category}">${it.category}</span>`;
@@ -375,7 +420,19 @@ function render(){
       ${snrBars(it.relevance,china)}
     </article>`;
   }).join("");
+
+  // "mostrar mais" no fim do feed
+  if(all.length>shown){
+    const remaining=all.length-shown;
+    morebar.innerHTML=`<button class="morebtn" id="more">mostrar mais (+${remaining})</button><div class="showing">mostrando ${shown} de ${all.length}</div>`;
+    $("#more").addEventListener("click",()=>{ state.shown+=PAGE; render(); });
+  } else {
+    morebar.innerHTML=`<div class="showing">fim do feed // ${all.length} ${all.length===1?'sinal':'sinais'}</div>`;
+  }
 }
+
+// reseta a paginacao sempre que um filtro muda
+function resetAndRender(){ state.shown=PAGE; render(); }
 
 function emptyHTML(){
   if(state.view==="china"){
@@ -396,7 +453,7 @@ function buildSources(){
     `<label class="srcrow ${map[s].china?'cn':''}"><input type="checkbox" value="${esc(s)}"><span class="sn">${esc(s)}</span><span class="sc">${map[s].n}</span></label>`
   ).join("");
   $("#sources").querySelectorAll("input").forEach(inp=>inp.addEventListener("change",()=>{
-    inp.checked ? state.sources.add(inp.value) : state.sources.delete(inp.value); render();
+    inp.checked ? state.sources.add(inp.value) : state.sources.delete(inp.value); resetAndRender();
   }));
 }
 
@@ -428,18 +485,19 @@ $("#views").addEventListener("click",e=>{
   const b=e.target.closest(".navbtn"); if(!b) return;
   state.view=b.dataset.view;
   document.querySelectorAll(".navbtn").forEach(x=>x.classList.toggle("active",x===b));
-  render();
+  resetAndRender();
 });
-$("#q").addEventListener("input",e=>{ state.q=e.target.value.trim().toLowerCase(); render(); });
+$("#q").addEventListener("input",e=>{ state.q=e.target.value.trim().toLowerCase(); resetAndRender(); });
+$("#range").addEventListener("change",e=>{ state.range=parseInt(e.target.value,10)||0; resetAndRender(); });
 $("#sort").addEventListener("click",()=>{
   state.sort = state.sort==="recencia" ? "relevancia" : "recencia";
   $("#sort-l").textContent=state.sort;
-  render();
+  resetAndRender();
 });
 $("#src-toggle").addEventListener("click",()=>{
   state.sources.clear();
   document.querySelectorAll("#sources input").forEach(i=>i.checked=false);
-  render();
+  resetAndRender();
 });
 
 // carga
