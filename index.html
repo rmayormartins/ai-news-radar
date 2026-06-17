@@ -184,6 +184,22 @@
   }
   .morebtn:hover{background:var(--panel-2);box-shadow:0 0 0 2px var(--accent-dim)}
 
+  /* chave (switch) ocultar pesquisa */
+  .switchwrap{padding:8px 12px 4px;border-bottom:1px solid var(--line)}
+  .switch{display:flex;align-items:center;gap:9px;cursor:pointer;font-family:"JetBrains Mono";font-size:11px;color:var(--text-2);user-select:none;padding:3px 2px;border-radius:var(--radius)}
+  .switch:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .switch .track{width:30px;height:16px;border-radius:9px;background:var(--panel-3);border:1px solid var(--line-soft);position:relative;transition:.15s;flex:0 0 auto}
+  .switch .knob{position:absolute;top:1px;left:1px;width:12px;height:12px;border-radius:50%;background:var(--muted);transition:.15s}
+  .switch.on{color:var(--text)}
+  .switch.on .track{background:var(--accent-dim);border-color:var(--accent)}
+  .switch.on .knob{left:15px;background:var(--accent)}
+
+  /* botao traduzir */
+  .trbtn[aria-pressed="true"]{border-color:var(--accent);color:var(--text)}
+  .trbtn[aria-pressed="true"] b{color:var(--accent)}
+  .trbtn.busy{opacity:.65;cursor:progress}
+  .trbtn.busy b::after{content:"...";}
+
   /* ---------- FEED ---------- */
   .feed{display:flex;flex-direction:column;gap:12px}
   .card{
@@ -283,6 +299,12 @@
 
     <div class="panel sources-panel">
       <h2>Fontes <button id="src-toggle" style="background:none;border:none;color:var(--muted);font-family:inherit;font-size:9px;cursor:pointer;letter-spacing:1px">limpar</button></h2>
+      <div class="switchwrap">
+        <div class="switch" id="hide-research" role="switch" aria-checked="false" tabindex="0">
+          <span class="track"><span class="knob"></span></span>
+          <span>ocultar pesquisa (arXiv, papers)</span>
+        </div>
+      </div>
       <div class="body" id="sources"></div>
     </div>
 
@@ -313,6 +335,7 @@
         </select>
       </div>
       <button class="sortbtn" id="sort">ordenar: <b id="sort-l">recencia</b></button>
+      <button class="sortbtn trbtn" id="translate" aria-pressed="false">traduzir: <b id="tr-l">EN</b></button>
     </div>
     <div id="feed" class="feed">
       <div class="loading"><div class="sweep"></div>varrendo o espectro...</div>
@@ -345,7 +368,8 @@ const INLINE_FALLBACK = {
 };
 
 const PAGE = 25; // quantas noticias por bloco no "mostrar mais"
-const state = { data:null, view:"todas", q:"", sort:"recencia", range:0, sources:new Set(), allSources:[], shown:PAGE };
+const state = { data:null, view:"todas", q:"", sort:"recencia", range:0, hideResearch:false, translate:false, sources:new Set(), allSources:[], shown:PAGE };
+const trCache = new Map(); // texto original -> traducao PT (cache da sessao)
 
 const $ = s => document.querySelector(s);
 const feed = $("#feed");
@@ -386,10 +410,15 @@ function passesCommon(it){
   }
   return true;
 }
-function matches(it){
+function matches(it){ return passesView(it, state.view); }
+
+// regra completa de uma faixa: filtros comuns + faixa + ocultar pesquisa.
+// "ocultar pesquisa" vale em todas as faixas, menos quando voce abre a faixa Pesquisa.
+function passesView(it, view){
   if(!passesCommon(it)) return false;
-  if(state.view==="china" && it.region!=="china") return false;
-  if((state.view==="modelo"||state.view==="pesquisa") && it.category!==state.view) return false;
+  if(view==="china" && it.region!=="china") return false;
+  if((view==="modelo"||view==="pesquisa") && it.category!==view) return false;
+  if(state.hideResearch && view!=="pesquisa" && it.category==="pesquisa") return false;
   return true;
 }
 
@@ -397,12 +426,12 @@ function render(){
   const all=state.data.items.filter(matches);
   all.sort((a,b)=> state.sort==="recencia" ? (b.ts||0)-(a.ts||0) : (b.relevance-a.relevance)||((b.ts||0)-(a.ts||0)) );
 
-  // contadores das faixas (respeitam fonte + periodo + busca, ignoram a faixa atual)
-  const base=state.data.items.filter(passesCommon);
-  setCnt("todas",base.length);
-  setCnt("modelo",base.filter(i=>i.category==="modelo").length);
-  setCnt("pesquisa",base.filter(i=>i.category==="pesquisa").length);
-  setCnt("china",base.filter(i=>i.region==="china").length);
+  // contadores das faixas (cada um simula sua propria faixa, ja com ocultar-pesquisa)
+  const items=state.data.items;
+  setCnt("todas",items.filter(i=>passesView(i,"todas")).length);
+  setCnt("modelo",items.filter(i=>passesView(i,"modelo")).length);
+  setCnt("pesquisa",items.filter(i=>passesView(i,"pesquisa")).length);
+  setCnt("china",items.filter(i=>passesView(i,"china")).length);
 
   if(!all.length){ feed.innerHTML=emptyHTML(); morebar.innerHTML=""; return; }
 
@@ -429,6 +458,8 @@ function render(){
   } else {
     morebar.innerHTML=`<div class="showing">fim do feed // ${all.length} ${all.length===1?'sinal':'sinais'}</div>`;
   }
+
+  if(state.translate) translateVisible();
 }
 
 // reseta a paginacao sempre que um filtro muda
@@ -480,7 +511,52 @@ function applyData(d){
   render();
 }
 
-// eventos
+// --- traducao para PT (client-side, endpoint gratuito do Google) ---
+// Sem backend e sem chave. E um endpoint nao-oficial: pode limitar uso em rajada.
+// Cache por sessao evita re-traduzir o que ja passou.
+async function tr(text){
+  if(!text) return "";
+  if(trCache.has(text)) return trCache.get(text);
+  try{
+    const u="https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=pt&dt=t&q="+encodeURIComponent(text);
+    const r=await fetch(u);
+    if(!r.ok) throw new Error(r.status);
+    const j=await r.json();
+    const out=(j[0]||[]).map(s=>s[0]).join("").trim();
+    const val=out||text;
+    trCache.set(text,val);
+    return val;
+  }catch(e){ return null; }
+}
+
+let trRun=0;
+async function translateVisible(){
+  const myRun=++trRun;                 // cancela traducoes antigas se algo mudar
+  const btn=$("#translate");
+  btn.classList.add("busy");
+  const cards=[...feed.querySelectorAll(".card")];
+  let okCount=0, failCount=0;
+  for(const c of cards){
+    if(myRun!==trRun || !state.translate) break;
+    const a=c.querySelector("h3 a"), p=c.querySelector("p");
+    const ot=a.dataset.o || (a.dataset.o=a.textContent);
+    const os=p ? (p.dataset.o || (p.dataset.o=p.textContent)) : null;
+    const [t,s]=await Promise.all([tr(ot), os!=null?tr(os):Promise.resolve(null)]);
+    if(myRun!==trRun || !state.translate) break;
+    if(t){ a.textContent=t; okCount++; } else failCount++;
+    if(s && p) p.textContent=s;
+  }
+  if(myRun===trRun) btn.classList.remove("busy");
+  // se nada traduziu (endpoint bloqueado/limite), volta pro original e avisa
+  if(myRun===trRun && state.translate && okCount===0 && failCount>0){
+    state.translate=false;
+    btn.setAttribute("aria-pressed","false");
+    $("#tr-l").textContent="EN";
+    morebar.insertAdjacentHTML("afterbegin",`<div class="showing">traducao indisponivel agora (limite do servico). tente de novo em instantes.</div>`);
+  }
+}
+
+// --- eventos ---
 $("#views").addEventListener("click",e=>{
   const b=e.target.closest(".navbtn"); if(!b) return;
   state.view=b.dataset.view;
@@ -498,6 +574,28 @@ $("#src-toggle").addEventListener("click",()=>{
   state.sources.clear();
   document.querySelectorAll("#sources input").forEach(i=>i.checked=false);
   resetAndRender();
+});
+
+// chave: ocultar pesquisa (arXiv, papers)
+const hr=$("#hide-research");
+function toggleHR(){
+  state.hideResearch=!state.hideResearch;
+  hr.classList.toggle("on",state.hideResearch);
+  hr.setAttribute("aria-checked",state.hideResearch?"true":"false");
+  resetAndRender();
+}
+hr.addEventListener("click",toggleHR);
+hr.addEventListener("keydown",e=>{ if(e.key===" "||e.key==="Enter"){ e.preventDefault(); toggleHR(); } });
+
+// botao: traduzir para PT
+$("#translate").addEventListener("click",()=>{
+  state.translate=!state.translate;
+  const btn=$("#translate");
+  btn.setAttribute("aria-pressed",state.translate?"true":"false");
+  $("#tr-l").textContent = state.translate ? "PT" : "EN";
+  trRun++;                       // interrompe traducao em andamento
+  if(state.translate){ translateVisible(); }
+  else { render(); }             // volta aos textos originais
 });
 
 // carga
