@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-17T00:36:32.197734+00:00",
-  "count": 91,
-  "china_count": 23,
+  "generated_at": "2026-06-17T00:53:34.850867+00:00",
+  "count": 154,
+  "china_count": 47,
   "sources": [
     {
       "source": "OpenAI",
@@ -14,6 +14,16 @@
       "kept": 11
     },
     {
+      "source": "Google Research",
+      "status": "ok (100 itens)",
+      "kept": 5
+    },
+    {
+      "source": "Meta AI",
+      "status": "ERRO: HTTP Error 404: Not Found",
+      "kept": 0
+    },
+    {
       "source": "Hugging Face",
       "status": "ok (797 itens)",
       "kept": 12
@@ -24,6 +34,11 @@
       "kept": 2
     },
     {
+      "source": "Simon Willison",
+      "status": "ok (30 itens)",
+      "kept": 6
+    },
+    {
       "source": "The Gradient",
       "status": "ok (15 itens)",
       "kept": 0
@@ -32,6 +47,11 @@
       "source": "BAIR (Berkeley)",
       "status": "ok (10 itens)",
       "kept": 1
+    },
+    {
+      "source": "MIT News (IA)",
+      "status": "ok (50 itens)",
+      "kept": 8
     },
     {
       "source": "arXiv cs.AI",
@@ -49,9 +69,19 @@
       "kept": 8
     },
     {
+      "source": "arXiv cs.CV",
+      "status": "ok (416 itens)",
+      "kept": 6
+    },
+    {
       "source": "MarkTechPost",
       "status": "ok (0 itens)",
       "kept": 0
+    },
+    {
+      "source": "The Decoder",
+      "status": "ok (10 itens)",
+      "kept": 7
     },
     {
       "source": "MIT Tech Review",
@@ -59,9 +89,39 @@
       "kept": 5
     },
     {
+      "source": "VentureBeat AI",
+      "status": "ok (7 itens)",
+      "kept": 0
+    },
+    {
+      "source": "IEEE Spectrum",
+      "status": "ok (30 itens)",
+      "kept": 0
+    },
+    {
+      "source": "KDnuggets",
+      "status": "ok (10 itens)",
+      "kept": 3
+    },
+    {
+      "source": "TechXplore (IA/ML)",
+      "status": "ok (30 itens)",
+      "kept": 6
+    },
+    {
       "source": "Last Week in AI",
       "status": "ok (20 itens)",
       "kept": 5
+    },
+    {
+      "source": "TechCrunch",
+      "status": "ok (20 itens)",
+      "kept": 1
+    },
+    {
+      "source": "Ars Technica",
+      "status": "ok (20 itens)",
+      "kept": 1
     },
     {
       "source": "The Verge AI",
@@ -71,6 +131,16 @@
     {
       "source": "Synced (机器之心)",
       "status": "ok (10 itens)",
+      "kept": 0
+    },
+    {
+      "source": "ChinAI (Jeff Ding)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
+    },
+    {
+      "source": "Recode China AI",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -89,12 +159,158 @@
       "kept": 0
     },
     {
-      "source": "ChinAI (Jeff Ding)",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "source": "SCMP Tech",
+      "status": "ok (50 itens)",
+      "kept": 8
+    },
+    {
+      "source": "SCMP Big Tech",
+      "status": "ok (50 itens)",
+      "kept": 10
+    },
+    {
+      "source": "ChinaTalk",
+      "status": "ok (20 itens)",
+      "kept": 2
+    },
+    {
+      "source": "AI China News",
+      "status": "ERRO: HTTP Error 404: Not Found",
+      "kept": 0
+    },
+    {
+      "source": "Sixth Tone",
+      "status": "ok (51 itens)",
+      "kept": 0
+    },
+    {
+      "source": "Caixin Global",
+      "status": "ERRO: HTTP Error 404: Not Found",
       "kept": 0
     }
   ],
   "items": [
+    {
+      "title": "Anthropic \"pauses\" token-based billing for its Claude Agent SDK",
+      "link": "https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/",
+      "summary": "Move originally planned for Monday would have heavily increased power users' costs.",
+      "source": "Ars Technica",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 52,
+      "date": "2026-06-16T21:00:35+00:00",
+      "ts": 1781643635.0
+    },
+    {
+      "title": "Microsoft launches AI agent with pay-as-you-go pricing",
+      "link": "https://techxplore.com/news/2026-06-microsoft-ai-agent-pay-pricing.html",
+      "summary": "Microsoft is changing how it charges for its software for the first time in two decades, moving to bill customers with a pay-as-you-go model each time they use its new AI agent.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 49,
+      "date": "2026-06-16T20:40:09+00:00",
+      "ts": 1781642409.0
+    },
+    {
+      "title": "Microsoft's Copilot Cowork moves to usage-based billing and may tap DeepSeek",
+      "link": "https://the-decoder.com/microsofts-copilot-cowork-moves-to-usage-based-billing-and-may-tap-deepseek/",
+      "summary": "Microsoft is weighing a fine-tuned version of Deepseek V4 as a cheaper model option for Copilot Cowork. The company is also switching to usage-based billing, since Copilot head Charles Lamanna says flat-rate pricing isn't sustainable. The move fits a broader pattern in the industry. The article Microsoft's Copilot...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 64,
+      "date": "2026-06-16T19:32:38+00:00",
+      "ts": 1781638358.0
+    },
+    {
+      "title": "Android 17 launches with new multitasking tools as Google expands Gemini features",
+      "link": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+      "summary": "Google has released Android 17 and Wear OS 7, introducing new multitasking features, parental controls, security tools, and smartwatch upgrades. The launch is also accompanied by a Pixel Drop that brings Google’s latest AI models to its devices.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 65,
+      "date": "2026-06-16T18:00:00+00:00",
+      "ts": 1781632800.0
+    },
+    {
+      "title": "The Roadmap to Becoming an LLM Engineer in 2026",
+      "link": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-llm-engineer-in-2026",
+      "summary": "A step-by-step path through the skills that turn a machine learning practitioner into someone who ships large language model applications.",
+      "source": "KDnuggets",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 50,
+      "date": "2026-06-16T14:00:11+00:00",
+      "ts": 1781618411.0
+    },
+    {
+      "title": "DOJ invokes national security to defend xAI's unpermitted gas turbines in NAACP lawsuit",
+      "link": "https://the-decoder.com/doj-invokes-national-security-to-defend-xais-unpermitted-gas-turbines-in-naacp-lawsuit/",
+      "summary": "US Justice Department calls xAI's chatbot Grok essential to military operations, defending its controversial gas turbines. The article DOJ invokes national security to defend xAI's unpermitted gas turbines in NAACP lawsuit appeared first on The Decoder .",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 29,
+      "date": "2026-06-16T13:23:33+00:00",
+      "ts": 1781616213.0
+    },
+    {
+      "title": "How easily can Russian propaganda fool AI models? A new benchmark finds out",
+      "link": "https://the-decoder.com/how-easily-can-russian-propaganda-fool-ai-models-a-new-benchmark-finds-out/",
+      "summary": "The Institute of the Estonian Language has released a benchmark measuring how susceptible AI language models are to Russian propaganda. The article How easily can Russian propaganda fool AI models? A new benchmark finds out appeared first on The Decoder .",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 51,
+      "date": "2026-06-16T11:28:13+00:00",
+      "ts": 1781609293.0
+    },
+    {
+      "title": "Anthropic backs off unpopular billing overhaul as price war with OpenAI looms",
+      "link": "https://the-decoder.com/anthropic-backs-off-unpopular-billing-overhaul-as-price-war-with-openai-looms/",
+      "summary": "Anthropic has pulled back its planned billing change for the Claude Agent SDK just before launch. Instead of separate credits, the SDK and third-party apps will keep drawing from regular subscription limits. The article Anthropic backs off unpopular billing overhaul as price war with OpenAI looms appeared first on The...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 60,
+      "date": "2026-06-16T09:44:48+00:00",
+      "ts": 1781603088.0
+    },
+    {
+      "title": "Emergency Pod: Claude Fable",
+      "link": "https://www.chinatalk.media/p/emergency-pod-claude-fable-fried",
+      "summary": "Chris McGuire on a chaotic two weeks in AI policy",
+      "source": "ChinaTalk",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 49,
+      "date": "2026-06-16T09:41:15+00:00",
+      "ts": 1781602875.0
+    },
+    {
+      "title": "DeepSeek takes outside money for the first time at a $50 billion valuation",
+      "link": "https://the-decoder.com/deepseek-takes-outside-money-for-the-first-time-at-a-50-billion-valuation/",
+      "summary": "Chinese AI startup DeepSeek has raised more than 50 billion yuan - about $7.4 billion - in its first external funding round. The article DeepSeek takes outside money for the first time at a $50 billion valuation appeared first on The Decoder .",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 38,
+      "date": "2026-06-16T09:40:48+00:00",
+      "ts": 1781602848.0
+    },
+    {
+      "title": "OpenAI burned through $34 billion last year",
+      "link": "https://the-decoder.com/openai-burned-through-34-billion-last-year/",
+      "summary": "OpenAI spent $34 billion in the past year, far more than the year before. The article OpenAI burned through $34 billion last year appeared first on The Decoder .",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "geral",
+      "relevance": 22,
+      "date": "2026-06-16T09:21:39+00:00",
+      "ts": 1781601699.0
+    },
     {
       "title": "Chinese AI Models Find a Way Forward Through Multi-Model Routing and Cost-Effective Architectures",
       "link": "https://pandaily.com/chinese-ai-models-multi-model-routing-architectures-jun2026",
@@ -105,6 +321,28 @@
       "relevance": 58,
       "date": "2026-06-16T08:15:37+00:00",
       "ts": 1781597737.0
+    },
+    {
+      "title": "Alibaba eyes physical world with its first suite of AI models for robots",
+      "link": "https://www.scmp.com/tech/big-tech/article/3357260/alibaba-eyes-physical-world-its-first-suite-ai-models-robots?utm_source=rss_feed",
+      "summary": "Alibaba Group Holding has launched its first suite of artificial intelligence models for robots, joining a global race to move AI out of chatbot windows and into the physical world. The Hangzhou-based tech giant on Tuesday introduced the Qwen Robot Suite, marking its latest foray into “embodied AI” – machines that can...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 58,
+      "date": "2026-06-16T06:16:03+00:00",
+      "ts": 1781590563.0
+    },
+    {
+      "title": "The Fable 5 Export Controls Harm US Cyber Defense",
+      "link": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
+      "summary": "The Fable 5 Export Controls Harm US Cyber Defense I quoted The Atlantic quoting Kate Moussouris earlier, when I should have gone straight to the source. Here she is confirming that the \"jailbreak\" that got Claude Fable 5 banned under an export control really was \"fix this code\": The researchers took open-source code...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 55,
+      "date": "2026-06-16T05:20:29+00:00",
+      "ts": 1781587229.0
     },
     {
       "title": "Cloze: An Open Research Platform for Studying Human-AI Conversations in Mental Health Contexts",
@@ -124,6 +362,17 @@
       "source": "arXiv cs.AI",
       "region": "global",
       "category": "pesquisa",
+      "relevance": 78,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "Vision-Encoder Behavioral Fingerprints of Image-to-Image Generative Models: A Training-Paradigm-Driven Taxonomy of Six Commercial APIs",
+      "link": "https://arxiv.org/abs/2606.14787",
+      "summary": "arXiv:2606.14787v1 Announce Type: new Abstract: We study six production image-to-image AI systems (gpt-image-1, Gemini 2.5 Flash Image, Flux Kontext, SDXL img2img, SD3 img2img, and Qwen Image Edit) under a content-adaptive sub-JND adversarial perturbation pipeline, scoring all outputs by frozen DINOv2 ViT-B/14 token...",
+      "source": "arXiv cs.CV",
+      "region": "china",
+      "category": "modelo",
       "relevance": 78,
       "date": "2026-06-16T04:00:00+00:00",
       "ts": 1781582400.0
@@ -188,6 +437,17 @@
       "link": "https://arxiv.org/abs/2605.01961",
       "summary": "arXiv:2605.01961v2 Announce Type: replace Abstract: Learning from human preference data is becoming a useful tool, from fine-tuning large language models to training reinforcement learning agents. However, in most scenarios, the model is trained on the average preference of all human evaluators, which, under large...",
       "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 72,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "teasr: training-efficient any-step diffusion transformer for real-world image super-resolution",
+      "link": "https://arxiv.org/abs/2606.16188",
+      "summary": "arXiv:2606.16188v1 Announce Type: new Abstract: Diffusion models excel in Real-World Image Super-Resolution (Real-ISR) due to their powerful generative priors but suffer from slow iterative sampling. Although existing one-step distillation methods accelerate inference, they typically require auxiliary teacher models...",
+      "source": "arXiv cs.CV",
       "region": "global",
       "category": "pesquisa",
       "relevance": 72,
@@ -349,6 +609,17 @@
       "ts": 1781582400.0
     },
     {
+      "title": "FireRed-Image-Edit-1.0 Technical Report",
+      "link": "https://arxiv.org/abs/2602.13344",
+      "summary": "arXiv:2602.13344v2 Announce Type: replace Abstract: We present FireRed-Image-Edit, a diffusion transformer for instruction-based image editing that achieves state-of-the-art performance through systematic optimization of data curation, training methodology, and evaluation design. We construct a 1.6B-sample training...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 68,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
       "title": "ttda704 at SemEval-2026 Task 4: Modeling Narrative Structures via Pseudonymization and Multi-View Sentence Alignment",
       "link": "https://arxiv.org/abs/2606.15783",
       "summary": "arXiv:2606.15783v1 Announce Type: new Abstract: We present our approach to SemEval 2026 Task 4: Narrative Story Similarity and Narrative Representation Learning. Our solution uses contrastive learning with fine-tuned sentence transformers to capture narrative similarity across abstract themes, course of action, and...",
@@ -369,6 +640,50 @@
       "relevance": 67,
       "date": "2026-06-16T04:00:00+00:00",
       "ts": 1781582400.0
+    },
+    {
+      "title": "OmniOPSD: Rationale-Privileged On-Policy Self-Distillation for Affective Computing",
+      "link": "https://arxiv.org/abs/2606.15920",
+      "summary": "arXiv:2606.15920v1 Announce Type: new Abstract: Reinforcement learning for multimodal large language models (MLLMs) is often hindered by severe reward sparsity in complex reasoning tasks. This challenge is particularly pronounced in human-centered scenarios involving states, emotions, intentions, and behaviors, where...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 67,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "MIRAGE: Runtime Scheduling for Multi-Vector Image Retrieval with Hierarchical Decomposition",
+      "link": "https://arxiv.org/abs/2510.08976",
+      "summary": "arXiv:2510.08976v3 Announce Type: replace Abstract: To effectively leverage user-specific data, retrieval augmented generation (RAG) is employed in multimodal large language model (MLLM) applications. However, conventional retrieval approaches often suffer from limited retrieval accuracy. Recent advances in...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 67,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "Clinically Aware Synthetic Image Generation for Concept Coverage in Chest X-ray Models",
+      "link": "https://arxiv.org/abs/2603.15525",
+      "summary": "arXiv:2603.15525v3 Announce Type: replace Abstract: Deep learning models for chest X-ray diagnosis are constrained by limited coverage of clinically meaningful concept combinations in publicly available training datasets. While synthetic image generation has been explored to increase data diversity, existing methods...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 66,
+      "date": "2026-06-16T04:00:00+00:00",
+      "ts": 1781582400.0
+    },
+    {
+      "title": "AI’s next frontier, world models, and why China is ahead of the pack",
+      "link": "https://www.scmp.com/plus/tech/big-tech/article/3357235/ais-next-frontier-world-models-and-why-china-ahead-pack?utm_source=rss_feed",
+      "summary": "They’ve been described as the “next frontier” of artificial intelligence (AI) – world models that go beyond large language models (LLMs) by simulating the physical environment. And in this emerging field, China has an edge over the United States. World models that understand the physical laws of the universe are...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-06-16T03:32:04+00:00",
+      "ts": 1781580724.0
     },
     {
       "title": "Inside the fight over Claude Mythos 5",
@@ -415,6 +730,17 @@
       "ts": 1781574803.0
     },
     {
+      "title": "Researchers propose 'copyleft' rules for generative AI",
+      "link": "https://techxplore.com/news/2026-06-copyleft-generative-ai.html",
+      "summary": "The rise of generative artificial intelligence (AI) poses challenges for the free and open-source software (FOSS) community, a global network committed to creating and maintaining publicly available software that anyone can use, modify and share. Many AI models have been built on open-source software but do not...",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 55,
+      "date": "2026-06-15T20:20:06+00:00",
+      "ts": 1781554806.0
+    },
+    {
       "title": "All the news about Anthropic’s new AI fight with the White House",
       "link": "https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown",
       "summary": "Anthropic was already navigating one dispute with the government in its standoff with the Pentagon, and then came an order on June 12th to block off foreign access to its most recently released AI models, Fable 5 and Mythos 5. When they launched on June 9th, Anthropic said “Fable 5’s capabilities exceed those of any...",
@@ -424,6 +750,17 @@
       "relevance": 47,
       "date": "2026-06-15T19:04:53+00:00",
       "ts": 1781550293.0
+    },
+    {
+      "title": "The US government may be asking Anthropic the impossible by demanding unhackable LLMs",
+      "link": "https://the-decoder.com/the-us-government-may-be-asking-anthropic-the-impossible-by-demanding-unhackable-llms/",
+      "summary": "Government officials accuse Anthropic of disregarding Trump's cyber directive and releasing Fable 5 without approval. \"They screwed us,\" one administration official said. Talks are underway with the Department of Commerce, the CIA, and science advisor Michael Kratsios. The article The US government may be asking...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "geral",
+      "relevance": 29,
+      "date": "2026-06-15T18:06:33+00:00",
+      "ts": 1781546793.0
     },
     {
       "title": "We’re strengthening our presence in Alabama through new investments and community support.",
@@ -448,6 +785,17 @@
       "ts": 1781510034.0
     },
     {
+      "title": "Zhipu AI’s stock rockets after Chinese firm launches open-source GLM-5.2 model",
+      "link": "https://www.scmp.com/tech/tech-trends/article/3357115/zhipu-ais-stock-rockets-after-chinese-firm-makes-glm-52-open-source?utm_source=rss_feed",
+      "summary": "Shares of Beijing-based artificial intelligence pioneer Zhipu AI soared on Monday after it released GLM-5.2, its latest and most powerful large language model, which will be made available on an open-source basis later this week. The Hong Kong-listed stock surged as much as 48 per cent to HK$1,620 in morning trading...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 67,
+      "date": "2026-06-15T04:51:33+00:00",
+      "ts": 1781499093.0
+    },
+    {
       "title": "DeepSeek V4 and Huawei Ascend 950DT: The Co-Designed Chip That Cut AI Inference Costs by 75%",
       "link": "https://pandaily.com/deepseek-v4-huawei-ascend-950dt-co-designed-chip-jun2026",
       "summary": "A groundbreaking trace-level analysis by Wall Street research firm SemiAnalysis has revealed that DeepSeek V4 and Huawei Ascend 950DT AI accelerator were co-des...",
@@ -470,6 +818,61 @@
       "ts": 1781491627.0
     },
     {
+      "title": "China’s AI ‘hundred model’ war shifts to enterprise value, JPMorgan says",
+      "link": "https://www.scmp.com/tech/big-tech/article/3357008/chinas-ai-hundred-model-war-shifts-enterprise-value-jpmorgan-says?utm_source=rss_feed",
+      "summary": "The drive for AI monetisation among Chinese tech companies has become a battle over “delivering measurable business value” rather than raw technical performance, according to Alex Yao, head of China equity research at JPMorgan. China’s AI landscape was rapidly consolidating from a fragmented “hundred-model” battle...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 52,
+      "date": "2026-06-14T04:00:17+00:00",
+      "ts": 1781409617.0
+    },
+    {
+      "title": "Like US models, Chinese AI is learning to ‘game’ safety tests, research lab says",
+      "link": "https://www.scmp.com/tech/tech-trends/article/3356940/us-models-chinese-ai-learning-game-safety-tests-research-lab-says?utm_source=rss_feed",
+      "summary": "Rapidly advancing Chinese artificial intelligence models are showing early signs of “evaluation awareness” – the ability to recognise when they are being tested – sparking fears that they could bypass safety audits, a Singapore-based research lab has found. Evaluation awareness refers to a model’s understanding that...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 53,
+      "date": "2026-06-13T06:00:12+00:00",
+      "ts": 1781330412.0
+    },
+    {
+      "title": "OpenAI WebRTC Audio Session, now with document context",
+      "link": "https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything",
+      "summary": "OpenAI WebRTC Audio Session, now with document context I built the first version of this tool in December 2024 to try out the then-new OpenAI WebRTC API for interacting with their realtime audio models. Last month OpenAI introduced a brand new model to that API called GPT‑Realtime‑2 , which they promoted as \"our first...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 58,
+      "date": "2026-06-12T23:53:04+00:00",
+      "ts": 1781308384.0
+    },
+    {
+      "title": "Research into how AI can help users understand skin conditions",
+      "link": "https://research.google/blog/research-into-how-ai-can-help-users-understand-skin-conditions/",
+      "summary": "Health & Bioscience",
+      "source": "Google Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 32,
+      "date": "2026-06-12T17:52:00+00:00",
+      "ts": 1781286720.0
+    },
+    {
+      "title": "Q&A: Can we trust AI models? Researchers explore the roots of chatbot errors",
+      "link": "https://techxplore.com/news/2026-06-qa-ai-explore-roots-chatbot.html",
+      "summary": "The rapid rise of artificial intelligence (AI) has inserted a new character into people's lives: the chatbot.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 49,
+      "date": "2026-06-12T16:00:07+00:00",
+      "ts": 1781280007.0
+    },
+    {
       "title": "olmo-eval: An evaluation workbench for the model development loop",
       "link": "https://huggingface.co/blog/allenai/olmo-eval",
       "summary": "",
@@ -479,6 +882,94 @@
       "relevance": 31,
       "date": "2026-06-12T15:56:10+00:00",
       "ts": 1781279770.0
+    },
+    {
+      "title": "Despite the AI hype, some experts warn of a bubble—what happens if it pops?",
+      "link": "https://techxplore.com/news/2026-06-ai-hype-experts.html",
+      "summary": "In the last few years, the hype around artificial intelligence has become stratospheric. Riding a wave of venture capital, tech leaders promised us AI would revolutionize work, boost productivity and lead to incredible new breakthroughs. OpenAI, the creator of ChatGPT, set a new record when it attained US$110 billion...",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 58,
+      "date": "2026-06-12T14:20:05+00:00",
+      "ts": 1781274005.0
+    },
+    {
+      "title": "Pairing Claude Code with Local Models",
+      "link": "https://www.kdnuggets.com/pairing-claude-code-with-local-models",
+      "summary": "Local models in 2026 are good enough. For the tasks Claude Code handles daily: code completion, refactoring, debugging, codebase explanation; a well-chosen quantized model running locally covers the vast majority of real use cases at zero per-token cost and with no rate limits.",
+      "source": "KDnuggets",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 59,
+      "date": "2026-06-12T14:00:59+00:00",
+      "ts": 1781272859.0
+    },
+    {
+      "title": "China’s chip design software firms back Huawei’s new scaling law. But can they catch US rivals?",
+      "link": "https://www.scmp.com/tech/big-tech/article/3356853/chinas-chip-software-firms-back-huaweis-new-scaling-law-can-they-catch-us-rivals?utm_source=rss_feed",
+      "summary": "China’s chip design software industry is rallying behind Huawei Technologies’ ambitious new architecture aimed at producing chips that can rival leading global products, but analysts warn a steep uphill climb remains before local players can break the market stranglehold of US rivals. Empyrean Technology, a major...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "pesquisa",
+      "relevance": 48,
+      "date": "2026-06-12T10:54:32+00:00",
+      "ts": 1781261672.0
+    },
+    {
+      "title": "Buying a laptop may soon come with instant carbon data, thanks to new AI agents",
+      "link": "https://techxplore.com/news/2026-06-buying-laptop-instant-carbon-ai.html",
+      "summary": "If you shop on Google Flights, you get a quick comparison of different itineraries: One flight's carbon emissions may be average, while another's are 14% higher. But if you go shopping for a new laptop, you likely won't find quick, comprehensible information on different models' sustainability bona fides, despite the...",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 49,
+      "date": "2026-06-12T10:40:01+00:00",
+      "ts": 1781260801.0
+    },
+    {
+      "title": "Anthropic’s Claude Fable 5 curbs to create new hurdles for China’s AI labs",
+      "link": "https://www.scmp.com/tech/big-tech/article/3356900/anthropics-claude-fable-5-curbs-create-new-hurdles-chinas-ai-labs?utm_source=rss_feed",
+      "summary": "Anthropic’s move to restrict access to its cutting-edge model, Claude Fable 5, is expected to create new hurdles for Chinese artificial intelligence labs, experts say, even as the US firm walks back part of its enforcement plan following a backlash from the global AI research community. Earlier this week, Anthropic...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 64,
+      "date": "2026-06-12T08:59:29+00:00",
+      "ts": 1781254769.0
+    },
+    {
+      "title": "Anthropic announces 'Claude Corps' to teach nonprofits to use AI more effectively",
+      "link": "https://techxplore.com/news/2026-06-anthropic-claude-corps-nonprofits-ai.html",
+      "summary": "Anthropic will donate $150 million to launch a fellowship program that places people early in their careers with nonprofits around the country to help them use artificial intelligence more effectively in their work.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 58,
+      "date": "2026-06-12T00:00:04+00:00",
+      "ts": 1781222404.0
+    },
+    {
+      "title": "Claude Fable is relentlessly proactive",
+      "link": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything",
+      "summary": "After two days of experience with Claude Fable 5 I think the best way to describe it is relentlessly proactive . It knows a whole lot of tricks and it will deploy pretty much any of them to get to its goal. I'll illustrate this with an example. I was hacking on Datasette Agent today when I noticed a glitch: a...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 56,
+      "date": "2026-06-11T23:35:17+00:00",
+      "ts": 1781220917.0
+    },
+    {
+      "title": "When it comes to predicting people’s preferences, it pays to consider “the power of three”",
+      "link": "https://news.mit.edu/2026/when-predicting-preferences-it-pays-to-consider-power-of-three-0611",
+      "summary": "MIT researchers provide a major upgrade to the nearly century-old idea of random utility models.",
+      "source": "MIT News (IA)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 37,
+      "date": "2026-06-11T19:10:00+00:00",
+      "ts": 1781205000.0
     },
     {
       "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
@@ -492,6 +983,72 @@
       "ts": 1781175645.0
     },
     {
+      "title": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
+      "link": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
+      "summary": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude Big scoop for Maxwell Zeff at Wired: “We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made the wrong tradeoff and we apologize for not getting the...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 61,
+      "date": "2026-06-11T03:45:49+00:00",
+      "ts": 1781149549.0
+    },
+    {
+      "title": "DiffusionGemma",
+      "link": "https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything",
+      "summary": "DiffusionGemma Last May Google briefly released an experimental Gemini Diffusion model. I tried the preview at the time and recorded it running at 857 tokens/second. It was an exciting model, but Google made no further announcements about it. That research has returned in the best possible way: as a new open weight...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 75,
+      "date": "2026-06-10T20:00:54+00:00",
+      "ts": 1781121654.0
+    },
+    {
+      "title": "Local Agentic Programming on the Cheap: Claude Code + Ollama + Gemma4",
+      "link": "https://www.kdnuggets.com/local-agentic-programming-on-the-cheap-claude-code-ollama-gemma4",
+      "summary": "This article builds a full local agentic programming stack using Ollama, Gemma 4, and Claude Code.",
+      "source": "KDnuggets",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 67,
+      "date": "2026-06-10T14:00:17+00:00",
+      "ts": 1781100017.0
+    },
+    {
+      "title": "Startup’s nuclear-inspired cooling system could make data centers more sustainable",
+      "link": "https://news.mit.edu/2026/nuclear-inspired-cooling-system-ferveret-could-make-data-centers-more-sustainable-0610",
+      "summary": "Founded by two researchers from MIT, Ferveret reduces the amount of energy and water required to cool the chips that power AI.",
+      "source": "MIT News (IA)",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 29,
+      "date": "2026-06-10T04:00:00+00:00",
+      "ts": 1781064000.0
+    },
+    {
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "link": "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything",
+      "summary": "If Claude Fable stops helping you, you'll never know Jonathon Ready highlights one of the more eyebrow-raising details from the 319 page system card for Fable 5 and Mythos 5. Here's a longer excerpt, highlights mine: In light of the ability of recent models to accelerate their own development , we’ve implemented new...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-06-10T00:37:25+00:00",
+      "ts": 1781051845.0
+    },
+    {
+      "title": "The consequences of relying on AI for accurate news",
+      "link": "https://news.mit.edu/2026/consequences-of-relying-on-ai-for-accurate-news-0609",
+      "summary": "A Media Lab study shows that, much like how GPS has weakened our navigation skills, AI can make us worse at detecting fake news.",
+      "source": "MIT News (IA)",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 35,
+      "date": "2026-06-09T20:30:00+00:00",
+      "ts": 1781037000.0
+    },
+    {
       "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
       "link": "https://huggingface.co/blog/mishig/spaces-agents-md",
       "summary": "",
@@ -501,6 +1058,28 @@
       "relevance": 32,
       "date": "2026-06-09T10:46:19+00:00",
       "ts": 1781001979.0
+    },
+    {
+      "title": "With a global AI data shortage looming, China boosts its own supply",
+      "link": "https://www.scmp.com/tech/policy/article/3356498/global-ai-data-shortage-looming-china-boosts-its-own-supply?utm_source=rss_feed",
+      "summary": "China is moving to leverage data as a core strategic asset, aiming to build industry-specific data sets to power its next-generation artificial intelligence models, as developers worldwide grapple with a looming data drought. On Monday, the country’s data authority unveiled a sweeping nationwide plan to boost the...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-06-09T08:40:19+00:00",
+      "ts": 1780994419.0
+    },
+    {
+      "title": "MiniMax once led Zhipu in Hong Kong’s AI stock race. How the tables have turned",
+      "link": "https://www.scmp.com/tech/big-tech/article/3356390/minimax-once-led-zhipu-hong-kongs-ai-stock-race-how-tables-have-turned?utm_source=rss_feed",
+      "summary": "When Chinese artificial intelligence developers Zhipu AI and MiniMax made their debuts on the Hong Kong stock exchange in January, investors initially saw one as a better bet than the other. Beijing-based Zhipu closed its first trading day on January 8 with a market capitalisation of HK$57.9 billion (US$7.4 billion)....",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-06-09T00:30:07+00:00",
+      "ts": 1780965007.0
     },
     {
       "title": "Kimi reaches $30 billion valuation after sixfold increase in half a year",
@@ -558,6 +1137,28 @@
       "ts": 1780744582.0
     },
     {
+      "title": "Unlocking dependable responses with Gemini Enterprise Agent Platform’s Agentic RAG",
+      "link": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/",
+      "summary": "Data Management",
+      "source": "Google Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 66,
+      "date": "2026-06-05T11:26:00+00:00",
+      "ts": 1780658760.0
+    },
+    {
+      "title": "Tencent’s chief AI scientist dismisses lag concerns, says race a ‘long-term game’",
+      "link": "https://www.scmp.com/tech/big-tech/article/3356090/tencents-chief-ai-scientist-dismisses-lag-concerns-says-race-long-term-game?utm_source=rss_feed",
+      "summary": "Yao Shunyu, the former OpenAI researcher now leading Tencent Holdings’ artificial intelligence model development, pushed back against concerns that the tech giant is slow in AI, arguing that the race is just beginning with massive untapped opportunities in coding agents and embodied intelligence. “AI is a long-term...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "pesquisa",
+      "relevance": 56,
+      "date": "2026-06-05T09:00:11+00:00",
+      "ts": 1780650011.0
+    },
+    {
       "title": "The Meta hack shows there’s more to AI security than Mythos",
       "link": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
       "summary": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama White House account...",
@@ -580,6 +1181,17 @@
       "ts": 1780599465.0
     },
     {
+      "title": "NSF renews support for MIT-led AI and physics institute, expanding a new model for discovery",
+      "link": "https://news.mit.edu/2026/nsf-renews-support-mit-led-ai-and-physics-institute-0604",
+      "summary": "IAIFI enters its second phase with increased funding, broader ambitions, and a growing community at the frontier of AI and fundamental physics.",
+      "source": "MIT News (IA)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 31,
+      "date": "2026-06-04T16:00:00+00:00",
+      "ts": 1780588800.0
+    },
+    {
       "title": "Qwen opens platform to third-party AI Agents, onboards KFC, Luckin Coffee, Mixue and more",
       "link": "https://technode.com/2026/06/04/qwen-opens-platform-to-third-party-ai-agents-onboards-kfc-luckin-coffee-mixue-and-more/",
       "summary": "Alibaba-backed Qwen App announced on Wednesday that it is opening its platform to third-party Agents and Skills, allowing companies to operate branded AI agents within the app. According to the company, Luckin Coffee, KFC, Mixue, and China Eastern Airlines are among the first businesses to begin testing related...",
@@ -589,6 +1201,28 @@
       "relevance": 57,
       "date": "2026-06-04T02:53:21+00:00",
       "ts": 1780541601.0
+    },
+    {
+      "title": "Teaching AI agents to ask better questions by playing “Battleship”",
+      "link": "https://news.mit.edu/2026/teaching-ai-agents-ask-better-questions-playing-battleship-0603",
+      "summary": "MIT researchers use the classic game as a test bed for AI agents, finding a small AI model can outperform the biggest ones at 1 percent of the cost.",
+      "source": "MIT News (IA)",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 50,
+      "date": "2026-06-03T21:00:00+00:00",
+      "ts": 1780520400.0
+    },
+    {
+      "title": "The next chapter in flood resilience: Open sourcing Google’s hydrology framework",
+      "link": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework/",
+      "summary": "Climate & Sustainability",
+      "source": "Google Research",
+      "region": "global",
+      "category": "geral",
+      "relevance": 24,
+      "date": "2026-06-03T18:37:00+00:00",
+      "ts": 1780511820.0
     },
     {
       "title": "Introducing new capabilities to GPT-Rosalind",
@@ -611,6 +1245,28 @@
       "relevance": 26,
       "date": "2026-06-03T13:00:00+00:00",
       "ts": 1780491600.0
+    },
+    {
+      "title": "Will China pay for AI? ByteDance’s Doubao loses 6 million users after subscription plan",
+      "link": "https://www.scmp.com/tech/big-tech/article/3355782/china-ready-pay-ai-bytedances-doubao-loses-6-million-users?utm_source=rss_feed",
+      "summary": "ByteDance risks throwing away its lead in China’s fierce market for consumer artificial intelligence by monetising too early, according to analysts, after its flagship chatbot Doubao shed millions of users following a sneak peek at paid-subscription tiers. The assessment follows a 6.1 million drop in Doubao’s monthly...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 55,
+      "date": "2026-06-03T05:59:48+00:00",
+      "ts": 1780466388.0
+    },
+    {
+      "title": "MIT researchers teach AI models to interpret charts",
+      "link": "https://news.mit.edu/2026/mit-researchers-teach-ai-models-to-interpret-charts-0603",
+      "summary": "The new ChartNet training dataset could improve the accuracy of vision-language models that help analyze business trends or interpret scientific figures.",
+      "source": "MIT News (IA)",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 53,
+      "date": "2026-06-03T04:00:00+00:00",
+      "ts": 1780459200.0
     },
     {
       "title": "xAI launches global recruitment drive for Chinese AI tutors",
@@ -646,6 +1302,17 @@
       "ts": 1780399414.0
     },
     {
+      "title": "Render Unto Caesar, Not Unto Claude",
+      "link": "https://www.chinatalk.media/p/you-dont-understand-the-popes-ai",
+      "summary": "Pope’s AI takes",
+      "source": "ChinaTalk",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 49,
+      "date": "2026-06-02T09:55:50+00:00",
+      "ts": 1780394150.0
+    },
+    {
       "title": "How small businesses can leverage AI",
       "link": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
       "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox,sign up here. From accounting to design to market research and product development, there’s a staggering breadth of skills needed to run a business. A large...",
@@ -655,6 +1322,17 @@
       "relevance": 43,
       "date": "2026-06-02T09:00:00+00:00",
       "ts": 1780390800.0
+    },
+    {
+      "title": "ByteDance loses key AI research leader behind Seed models amid monetisation push",
+      "link": "https://www.scmp.com/tech/big-tech/article/3355677/bytedance-loses-key-ai-research-leader-behind-seed-models-amid-monetisation-push?utm_source=rss_feed",
+      "summary": "A renowned artificial intelligence researcher who spearheaded foundational AI research for TikTok owner ByteDance has announced his departure from the company. The unexpected development comes as the firm is increasingly looking to monetise its core AI offerings, including subscription plans for its flagship consumer...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 48,
+      "date": "2026-06-02T08:01:21+00:00",
+      "ts": 1780387281.0
     },
     {
       "title": "ByteDance’s Doubao to launch paid plans in late June, link with Douyin E-commerce push",
@@ -756,6 +1434,28 @@
       "ts": 1780048800.0
     },
     {
+      "title": "A New Era of Discovery: Google Research at I/O 2026",
+      "link": "https://research.google/blog/a-new-era-of-innovation-google-research-at-io-2026/",
+      "summary": "General Science",
+      "source": "Google Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 32,
+      "date": "2026-05-28T20:58:00+00:00",
+      "ts": 1780001880.0
+    },
+    {
+      "title": "Why MuleRun could be the next craze: new Alibaba AI agent platform promises safer adoption",
+      "link": "https://www.scmp.com/tech/big-tech/article/3355175/why-mulerun-could-be-next-craze-new-alibaba-ai-agent-platform-promises-safer-adoption?utm_source=rss_feed",
+      "summary": "A new Chinese artificial intelligence agent platform is looking to replicate the “lobster craze” sparked by AI agent tool OpenClaw earlier this year, while avoiding some of the privacy and security risks associated with the open-source software. MuleRun, developed by Chinese tech giant Alibaba Group Holding, offers a...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 48,
+      "date": "2026-05-28T13:00:06+00:00",
+      "ts": 1779973206.0
+    },
+    {
       "title": "Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős",
       "link": "https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to",
       "summary": "Elon Musk Loses $150 Billion Suit Against OpenAI and Sam Altman, Google updates its Gemini app to take on ChatGPT and Claude at IO 2026, and more!",
@@ -767,6 +1467,17 @@
       "ts": 1779868258.0
     },
     {
+      "title": "Another ‘DeepSeek moment’? Huawei milestone alters China trajectory in chip race: analysts",
+      "link": "https://www.scmp.com/tech/big-tech/article/3354938/another-deepseek-moment-huawei-milestone-alters-china-trajectory-chip-race-analysts?utm_source=rss_feed",
+      "summary": "Huawei Technologies’ unveiling of a chip architectural workaround to bypass US sanctions marks a major step towards China’s semiconductor self-sufficiency, giving Beijing powerful new leverage in its tech tug of war with Washington, analysts say. The Chinese tech giant captured global attention on Monday by...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 59,
+      "date": "2026-05-27T03:00:09+00:00",
+      "ts": 1779850809.0
+    },
+    {
       "title": "Warp’s big bet on building open source with GPT-5.5",
       "link": "https://openai.com/index/warp",
       "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
@@ -776,6 +1487,17 @@
       "relevance": 75,
       "date": "2026-05-27T00:00:00+00:00",
       "ts": 1779840000.0
+    },
+    {
+      "title": "Alipay launches payment tools for AI agents that shop for you",
+      "link": "https://www.scmp.com/tech/tech-trends/article/3354876/alipay-launches-payment-tools-ai-agents-shop-you?utm_source=rss_feed",
+      "summary": "Chinese fintech giant Ant Group is betting its future on a world where smart glasses are able to autonomously order, customise and pay for your coffee before you even step into a cafe. The Hangzhou-based company on Tuesday launched a new suite of artificial intelligence payment tools, aiming to position its ubiquitous...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 48,
+      "date": "2026-05-26T07:31:24+00:00",
+      "ts": 1779780684.0
     },
     {
       "title": "LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős",
@@ -800,6 +1522,28 @@
       "ts": 1779667200.0
     },
     {
+      "title": "DeepSeek V4 Pro tops global bang-for-buck ranking after 75% price cut",
+      "link": "https://www.scmp.com/tech/tech-trends/article/3354668/deepseek-v4-pro-tops-global-bang-buck-ranking-after-75-price-cut?utm_source=rss_feed",
+      "summary": "Chinese artificial intelligence start-up DeepSeek’s latest flagship model has been ranked as one of the world’s best on an intelligence-per-dollar basis, far exceeding those from US heavyweights OpenAI and Anthropic in cost-efficiency after a 75 per cent promotional price cut was made permanent. The Hangzhou-based...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 66,
+      "date": "2026-05-24T12:00:10+00:00",
+      "ts": 1779624010.0
+    },
+    {
+      "title": "China behind in LLM race but it can still win in AI, ex-Tencent AI lead says",
+      "link": "https://www.scmp.com/tech/big-tech/article/3354394/china-losing-llm-race-it-can-still-win-ai-ex-tencent-ai-lead-says?utm_source=rss_feed",
+      "summary": "For years, Liu Wei was synonymous with Chinese tech giant Tencent Holdings’ artificial intelligence efforts. A distinguished scientist at the Shenzhen-based company, Liu was also head of its Hunyuan team, the firm’s foundational model development unit for the generative AI era. But in late 2024, Liu’s departure from...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-05-22T01:00:14+00:00",
+      "ts": 1779411614.0
+    },
+    {
       "title": "Alibaba introduces Qwen3.7-Max as next-gen AI agent model",
       "link": "https://technode.com/2026/05/21/alibaba-introduces-qwen3-7-max-as-next-gen-ai-agent-model/",
       "summary": "Alibaba’s Qwen on Wednesday unveiled Qwen3.7-Max, its new flagship AI model designed for the agent era, with API access set to roll out soon. The company said Qwen3.7-Max is its most advanced and comprehensive agent model to date, capable of handling coding and debugging, office workflow automation, and long-horizon...",
@@ -822,6 +1566,17 @@
       "ts": 1779305400.0
     },
     {
+      "title": "Alibaba unveils new Qwen model, custom chips in bid to become China’s ‘AI factory’",
+      "link": "https://www.scmp.com/tech/big-tech/article/3354212/alibaba-unveils-new-qwen-model-custom-chips-bid-become-chinas-ai-factory?utm_source=rss_feed",
+      "summary": "Alibaba Group Holding unveiled a sweeping suite of new artificial intelligence products spanning models, cloud infrastructure and chips on Wednesday, positioning itself to become China’s “AI factory” as autonomous agents gain prominence. Speaking at the Alibaba Cloud Summit in Hangzhou, Liu Weiguang, senior...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 65,
+      "date": "2026-05-20T08:28:04+00:00",
+      "ts": 1779265684.0
+    },
+    {
       "title": "LWiAI Podcast #245 - TML-Interaction, Claude For Legal, Sam Altman on Stand",
       "link": "https://lastweekin.ai/p/lwiai-podcast-245-tml-interaction",
       "summary": "OpenAI launches new voice intelligence features in its API, Thinking Machines drops a new, highly responsive model designed for humanlike interactions in real time, and more!",
@@ -833,6 +1588,17 @@
       "ts": 1779263149.0
     },
     {
+      "title": "Building AI models that understand chemical principles",
+      "link": "https://news.mit.edu/2026/building-ai-models-with-chemical-principles-connor-coley-0520",
+      "summary": "Connor Coley works at the interface of chemistry and machine learning, to discover and design new drug compounds.",
+      "source": "MIT News (IA)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 37,
+      "date": "2026-05-20T04:00:00+00:00",
+      "ts": 1779249600.0
+    },
+    {
       "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
       "link": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
       "summary": "",
@@ -842,6 +1608,17 @@
       "relevance": 42,
       "date": "2026-05-19T18:38:09+00:00",
       "ts": 1779215889.0
+    },
+    {
+      "title": "Empirical Research Assistance (ERA): From Nature publication to catalyzing Computational Discovery",
+      "link": "https://research.google/blog/empirical-research-assistance-era-from-nature-publication-to-catalyzing-computational-discovery/",
+      "summary": "General Science",
+      "source": "Google Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 24,
+      "date": "2026-05-19T17:52:00+00:00",
+      "ts": 1779213120.0
     },
     {
       "title": "I/O 2026: Welcome to the agentic Gemini era",
@@ -1051,6 +1828,17 @@
       "relevance": 73,
       "date": "2026-05-06T00:00:00+00:00",
       "ts": 1778025600.0
+    },
+    {
+      "title": "Games people — and machines — play: Untangling strategic reasoning to advance AI",
+      "link": "https://news.mit.edu/2026/untangling-strategic-reasoning-to-advance-ai-gabriele-farina-0505",
+      "summary": "Assistant Professor Gabriele Farina mines the foundations of decision-making in complex multi-agent scenarios.",
+      "source": "MIT News (IA)",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 41,
+      "date": "2026-05-05T21:00:00+00:00",
+      "ts": 1778014800.0
     },
     {
       "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
