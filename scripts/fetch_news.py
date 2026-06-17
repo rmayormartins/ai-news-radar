@@ -46,12 +46,15 @@ SOURCES = [
     {"name": "The Gradient",      "url": "https://thegradient.pub/rss/",                                       "region": "global", "weight": 1.3, "strict": False, "cap": 8},
     {"name": "BAIR (Berkeley)",   "url": "https://bair.berkeley.edu/blog/feed.xml",                            "region": "global", "weight": 1.4, "strict": False, "cap": 8},
     {"name": "MIT News (IA)",     "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",            "region": "global", "weight": 1.2, "strict": False, "cap": 8},
+    {"name": "Apple ML Research", "url": "https://machinelearning.apple.com/rss.xml",                          "region": "global", "weight": 1.3, "strict": False, "cap": 6},
+    {"name": "AWS Machine Learning", "url": "https://aws.amazon.com/blogs/machine-learning/feed/",              "region": "global", "weight": 1.0, "strict": True,  "cap": 6},
 
     # --- Pesquisa primaria (global, alto volume -> strict + cap baixo) ---
     {"name": "arXiv cs.AI",       "url": "https://rss.arxiv.org/rss/cs.AI",                                    "region": "global", "weight": 1.2, "strict": True,  "cap": 8},
     {"name": "arXiv cs.LG",       "url": "https://rss.arxiv.org/rss/cs.LG",                                    "region": "global", "weight": 1.2, "strict": True,  "cap": 8},
     {"name": "arXiv cs.CL",       "url": "https://rss.arxiv.org/rss/cs.CL",                                    "region": "global", "weight": 1.2, "strict": True,  "cap": 8},
     {"name": "arXiv cs.CV",       "url": "https://rss.arxiv.org/rss/cs.CV",                                    "region": "global", "weight": 1.2, "strict": True,  "cap": 6},
+    {"name": "arXiv cs.RO",       "url": "https://rss.arxiv.org/rss/cs.RO",                                    "region": "global", "weight": 1.0, "strict": True,  "cap": 5},
 
     # --- Imprensa / analise (global) ---
     {"name": "MarkTechPost",      "url": "https://www.marktechpost.com/feed/",                                 "region": "global", "weight": 1.1, "strict": True,  "cap": 12},
@@ -65,6 +68,14 @@ SOURCES = [
     {"name": "TechCrunch",        "url": "https://techcrunch.com/feed/",                                       "region": "global", "weight": 0.9, "strict": True,  "cap": 8},
     {"name": "Ars Technica",      "url": "https://feeds.arstechnica.com/arstechnica/index",                    "region": "global", "weight": 0.9, "strict": True,  "cap": 6},
     {"name": "The Verge AI",      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",  "region": "global", "weight": 0.9, "strict": True,  "cap": 10},
+    {"name": "Wired AI",          "url": "https://www.wired.com/feed/tag/ai/latest/rss",                       "region": "global", "weight": 0.9, "strict": True,  "cap": 8},
+    {"name": "Analytics India",   "url": "https://analyticsindiamag.com/feed/",                                "region": "global", "weight": 0.9, "strict": True,  "cap": 6},
+
+    # --- Analise / newsletters (global) ---
+    {"name": "Interconnects",     "url": "https://www.interconnects.ai/feed",                                  "region": "global", "weight": 1.3, "strict": False, "cap": 6},
+    {"name": "The Algorithmic Bridge", "url": "https://www.thealgorithmicbridge.com/feed",                     "region": "global", "weight": 1.1, "strict": True,  "cap": 6},
+    {"name": "One Useful Thing",  "url": "https://www.oneusefulthing.org/feed",                                "region": "global", "weight": 1.1, "strict": True,  "cap": 5},
+    {"name": "Don't Worry About the Vase", "url": "https://thezvi.substack.com/feed",                          "region": "global", "weight": 1.1, "strict": True,  "cap": 5},
 
     # --- IA na China (foco do pedido) ---
     {"name": "Synced (机器之心)",  "url": "https://syncedreview.com/feed/",                                     "region": "china",  "weight": 1.5, "strict": False, "cap": 12},
@@ -77,6 +88,9 @@ SOURCES = [
     {"name": "SCMP Big Tech",     "url": "https://www.scmp.com/rss/320663/feed",                               "region": "china",  "weight": 1.1, "strict": True,  "cap": 10},
     {"name": "ChinaTalk",         "url": "https://www.chinatalk.media/feed",                                   "region": "china",  "weight": 1.1, "strict": True,  "cap": 6},
     {"name": "AI China News",     "url": "https://aichina.news/feed/",                                         "region": "china",  "weight": 1.2, "strict": True,  "cap": 10},
+    {"name": "The China Academy", "url": "https://thechinaacademy.org/feed/",                                  "region": "china",  "weight": 1.0, "strict": True,  "cap": 6},
+    {"name": "China Internet Watch", "url": "https://www.chinainternetwatch.com/feed/",                         "region": "china",  "weight": 0.95, "strict": True, "cap": 6},
+    {"name": "CnTechPost",        "url": "https://cntechpost.com/feed/",                                       "region": "china",  "weight": 1.0, "strict": True,  "cap": 8},
     {"name": "Sixth Tone",        "url": "https://www.sixthtone.com/rss",                                      "region": "china",  "weight": 1.0, "strict": True,  "cap": 6},
     {"name": "Caixin Global",     "url": "https://www.caixinglobal.com/feed/",                                 "region": "china",  "weight": 1.0, "strict": True,  "cap": 6},
 ]
