@@ -185,7 +185,7 @@
   .morebtn:hover{background:var(--panel-2);box-shadow:0 0 0 2px var(--accent-dim)}
 
   /* chave (switch) ocultar pesquisa */
-  .switchwrap{padding:8px 12px 4px;border-bottom:1px solid var(--line)}
+  .switchwrap{display:flex;flex-direction:column;gap:4px;padding:8px 12px;border-bottom:1px solid var(--line)}
   .switch{display:flex;align-items:center;gap:9px;cursor:pointer;font-family:"JetBrains Mono";font-size:11px;color:var(--text-2);user-select:none;padding:3px 2px;border-radius:var(--radius)}
   .switch:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
   .switch .track{width:30px;height:16px;border-radius:9px;background:var(--panel-3);border:1px solid var(--line-soft);position:relative;transition:.15s;flex:0 0 auto}
@@ -193,6 +193,8 @@
   .switch.on{color:var(--text)}
   .switch.on .track{background:var(--accent-dim);border-color:var(--accent)}
   .switch.on .knob{left:15px;background:var(--accent)}
+  .switch.cn.on .track{background:var(--china-dim);border-color:var(--china)}
+  .switch.cn.on .knob{background:var(--china)}
 
   /* botao traduzir */
   .trbtn[aria-pressed="true"]{border-color:var(--accent);color:var(--text)}
@@ -304,6 +306,10 @@
           <span class="track"><span class="knob"></span></span>
           <span>ocultar pesquisa (arXiv, papers)</span>
         </div>
+        <div class="switch cn" id="only-china" role="switch" aria-checked="false" tabindex="0">
+          <span class="track"><span class="knob"></span></span>
+          <span>mostrar so IA da China</span>
+        </div>
       </div>
       <div class="body" id="sources"></div>
     </div>
@@ -368,7 +374,7 @@ const INLINE_FALLBACK = {
 };
 
 const PAGE = 25; // quantas noticias por bloco no "mostrar mais"
-const state = { data:null, view:"todas", q:"", sort:"recencia", range:0, hideResearch:false, translate:false, sources:new Set(), allSources:[], shown:PAGE };
+const state = { data:null, view:"todas", q:"", sort:"recencia", range:0, hideResearch:false, onlyChina:false, translate:false, sources:new Set(), allSources:[], shown:PAGE };
 const trCache = new Map(); // texto original -> traducao PT (cache da sessao)
 
 const $ = s => document.querySelector(s);
@@ -416,6 +422,7 @@ function matches(it){ return passesView(it, state.view); }
 // "ocultar pesquisa" vale em todas as faixas, menos quando voce abre a faixa Pesquisa.
 function passesView(it, view){
   if(!passesCommon(it)) return false;
+  if(state.onlyChina && it.region!=="china") return false;
   if(view==="china" && it.region!=="china") return false;
   if((view==="modelo"||view==="pesquisa") && it.category!==view) return false;
   if(state.hideResearch && view!=="pesquisa" && it.category==="pesquisa") return false;
@@ -586,6 +593,17 @@ function toggleHR(){
 }
 hr.addEventListener("click",toggleHR);
 hr.addEventListener("keydown",e=>{ if(e.key===" "||e.key==="Enter"){ e.preventDefault(); toggleHR(); } });
+
+// chave: mostrar so IA da China
+const oc=$("#only-china");
+function toggleOC(){
+  state.onlyChina=!state.onlyChina;
+  oc.classList.toggle("on",state.onlyChina);
+  oc.setAttribute("aria-checked",state.onlyChina?"true":"false");
+  resetAndRender();
+}
+oc.addEventListener("click",toggleOC);
+oc.addEventListener("keydown",e=>{ if(e.key===" "||e.key==="Enter"){ e.preventDefault(); toggleOC(); } });
 
 // botao: traduzir para PT
 $("#translate").addEventListener("click",()=>{
