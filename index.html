@@ -255,7 +255,10 @@
   @media (max-width:860px){
     .grid{grid-template-columns:1fr;gap:18px}
     aside{position:static;flex-direction:column}
-    .panel.sources-panel{display:none}
+    .panel.sources-panel{display:none}          /* legenda fica oculta no mobile */
+    .fontes-panel #sources{display:none}        /* lista de fontes oculta no mobile */
+    .fontes-panel #src-toggle{display:none}     /* botao "limpar" idem */
+    .fontes-panel h2{border-bottom:none}
     .card{grid-template-columns:1fr}
     .snr{grid-row:auto;grid-column:1/2;flex-direction:row;justify-content:flex-start;margin-top:8px;gap:8px}
     .snr .bars{height:18px}
@@ -299,7 +302,7 @@
       </div>
     </div>
 
-    <div class="panel sources-panel">
+    <div class="panel fontes-panel">
       <h2>Fontes <button id="src-toggle" style="background:none;border:none;color:var(--muted);font-family:inherit;font-size:9px;cursor:pointer;letter-spacing:1px">limpar</button></h2>
       <div class="switchwrap">
         <div class="switch" id="hide-research" role="switch" aria-checked="false" tabindex="0">
