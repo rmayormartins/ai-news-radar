@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-21T18:29:12.110450+00:00",
-  "count": 151,
-  "china_count": 54,
+  "generated_at": "2026-06-22T00:35:08.438132+00:00",
+  "count": 150,
+  "china_count": 55,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1012 itens)",
+      "status": "ok (1013 itens)",
       "kept": 12
     },
     {
@@ -56,7 +56,7 @@
     {
       "source": "Apple ML Research",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 4
     },
     {
       "source": "AWS Machine Learning",
@@ -90,7 +90,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -131,7 +131,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Ars Technica",
@@ -250,6 +250,28 @@
     }
   ],
   "items": [
+    {
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 67,
+      "date": "2026-06-21T23:00:00+00:00",
+      "ts": 1782082800.0
+    },
+    {
+      "title": "Ubisoft co-founder Claude Guillemot dies in plane crash",
+      "link": "https://techcrunch.com/2026/06/21/ubisoft-co-founder-claude-guillemot-dies-in-plane-crash/",
+      "summary": "Claude Guillemot, who founded Ubisoft with his four brothers, has died at the age of 69.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 43,
+      "date": "2026-06-21T18:34:31+00:00",
+      "ts": 1782066871.0
+    },
     {
       "title": "AI is inflating student grades, and the effect points to outsourced work, not better learning",
       "link": "https://the-decoder.com/ai-is-inflating-student-grades-and-the-effect-points-to-outsourced-work-not-better-learning/",
@@ -724,6 +746,17 @@
       "ts": 1781654400.0
     },
     {
+      "title": "datasette 1.0a34",
+      "link": "https://simonwillison.net/2026/Jun/16/datasette/#atom-everything",
+      "summary": "Release: datasette 1.0a34 Quoting the release notes: The big feature in this alpha is tools to insert, edit and delete rows within the Datasette interface. These features are available on table pages, and edit and delete are also available as action items on the row page. The inspiration for this feature - which is...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-06-16T21:31:24+00:00",
+      "ts": 1781645484.0
+    },
+    {
       "title": "Microsoft launches AI agent with pay-as-you-go pricing",
       "link": "https://techxplore.com/news/2026-06-microsoft-ai-agent-pay-pricing.html",
       "summary": "Microsoft is changing how it charges for its software for the first time in two decades, moving to bill customers with a pay-as-you-go model each time they use its new AI agent.",
@@ -744,6 +777,17 @@
       "relevance": 55,
       "date": "2026-06-16T20:16:02+00:00",
       "ts": 1781640962.0
+    },
+    {
+      "title": "Quoting Georgi Gerganov",
+      "link": "https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything",
+      "summary": "I can 100% attest to the fact that Qwen3.6-27B is a very capable local model for coding tasks. Over the last month and a half I've been using it almost daily, either on my M2 Ultra or on my RTX 5090 box. I use it for small mundane tasks at ggml-org - nothing really impressive, but definitely a helpful tool for a...",
+      "source": "Simon Willison",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 48,
+      "date": "2026-06-16T16:04:59+00:00",
+      "ts": 1781625899.0
     },
     {
       "title": "The Roadmap to Becoming an LLM Engineer in 2026",
@@ -942,28 +986,6 @@
       "relevance": 53,
       "date": "2026-06-11T11:00:45+00:00",
       "ts": 1781175645.0
-    },
-    {
-      "title": "asyncinject 0.7",
-      "link": "https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything",
-      "summary": "Release: asyncinject 0.7 I built this utility library to support an asyncio dependency injection pattern a few years ago. I was using it with Datasette and Claude Fable 5 spotted some bugs in the dependency which it then fixed for me. It's a very proactive model! Tags: async , projects , python , claude-mythos",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 55,
-      "date": "2026-06-11T06:28:09+00:00",
-      "ts": 1781159289.0
-    },
-    {
-      "title": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
-      "link": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
-      "summary": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude Big scoop for Maxwell Zeff at Wired: “We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made the wrong tradeoff and we apologize for not getting the...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 61,
-      "date": "2026-06-11T03:45:49+00:00",
-      "ts": 1781149549.0
     },
     {
       "title": "Claude Fable 5 and new AI safety fables",
@@ -1439,6 +1461,17 @@
       "ts": 1779973206.0
     },
     {
+      "title": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026",
+      "link": "https://machinelearning.apple.com/updates/apple-at-cvpr-2026",
+      "summary": "Apple is presenting new research at the annual IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , which takes place in person in Denver at the Colorado Convention Center from June 3 to June 7. We are proud to sponsor the conference, which brings together the scientific and industrial research...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 31,
+      "date": "2026-05-28T00:00:00+00:00",
+      "ts": 1779926400.0
+    },
+    {
       "title": "Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős",
       "link": "https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to",
       "summary": "Elon Musk Loses $150 Billion Suit Against OpenAI and Sam Altman, Google updates its Gemini app to take on ChatGPT and Claude at IO 2026, and more!",
@@ -1758,17 +1791,6 @@
       "ts": 1778784901.0
     },
     {
-      "title": "Helping ChatGPT better recognize context in sensitive conversations",
-      "link": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
-      "summary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 63,
-      "date": "2026-05-14T00:00:00+00:00",
-      "ts": 1778716800.0
-    },
-    {
       "title": "Former Alibaba AI core figure Lin Junyang founds new lab, seeks $2 billion valuation",
       "link": "https://cntechpost.com/2026/05/13/former-alibaba-ai-core-figure-lin-junyang-founds-new-lab-seeks-2-billion-valuation/",
       "summary": "The former head of Tongyi Qwen research is raising hundreds of millions of dollars, with HongShan Capital and Gaorong Capital participating in investment talks. The post Former Alibaba AI core figure Lin Junyang founds new lab, seeks $2 billion valuation appeared first on CnTechPost .",
@@ -1877,39 +1899,6 @@
       "relevance": 60,
       "date": "2026-05-08T09:00:00+00:00",
       "ts": 1778230800.0
-    },
-    {
-      "title": "RVPO: Risk-Sensitive Alignment via Variance Regularization",
-      "link": "https://machinelearning.apple.com/research/rvpo-risk-sensitive-alignment",
-      "summary": "Current critic-less RLHF methods aggregate multi-objective rewards via an arithmetic mean, leaving them vulnerable to constraint neglect: high-magnitude success in one objective can numerically offset critical failures in others (e.g., safety or formatting), masking low-performing “bottleneck” rewards vital for...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 51,
-      "date": "2026-05-08T00:00:00+00:00",
-      "ts": 1778198400.0
-    },
-    {
-      "title": "Large-Scale High-Quality 3D Gaussian Head Reconstruction from Multi-View Captures",
-      "link": "https://machinelearning.apple.com/research/gaussian-head-reconstruction",
-      "summary": "We propose HeadsUp, a scalable feed-forward method for reconstructing high-quality 3D Gaussian heads from large-scale multi-camera setups. Our method employs an efficient encoder-decoder architecture that compresses input views into a compact latent representation. This latent representation is then decoded into a set...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 51,
-      "date": "2026-05-08T00:00:00+00:00",
-      "ts": 1778198400.0
-    },
-    {
-      "title": "Apple Workshop on Privacy-Preserving Machine Learning & AI 2026",
-      "link": "https://machinelearning.apple.com/updates/ppml-2026",
-      "summary": "At Apple, we believe privacy is a fundamental human right. As AI capabilities increase and become more integrated into people’s daily lives, advancing research in privacy-preserving techniques is increasingly important to ensure privacy is protected while users enjoy innovative AI experiences. Apple’s fundamental...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 37,
-      "date": "2026-05-08T00:00:00+00:00",
-      "ts": 1778198400.0
     }
   ]
 }
