@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-23T12:52:55.432720+00:00",
-  "count": 181,
+  "generated_at": "2026-06-23T18:38:22.476075+00:00",
+  "count": 183,
   "china_count": 58,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1017 itens)",
+      "status": "ok (1018 itens)",
       "kept": 12
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "source": "Hugging Face",
-      "status": "ok (807 itens)",
+      "status": "ok (808 itens)",
       "kept": 12
     },
     {
@@ -56,7 +56,7 @@
     {
       "source": "Apple ML Research",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "AWS Machine Learning",
@@ -131,7 +131,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "Ars Technica",
@@ -250,6 +250,39 @@
     }
   ],
   "items": [
+    {
+      "title": "Brain-inspired AI architecture could computing faster and far less power-hungry",
+      "link": "https://techxplore.com/news/2026-06-brain-ai-architecture-faster-power.html",
+      "summary": "Spiking neural networks (SNNs) are artificial intelligence (AI) models inspired by how biological neurons communicate with each other. While biological neurons exchange information in the form of electrical impulses, SNNs rely on brief signals known as spikes.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 45,
+      "date": "2026-06-23T18:00:16+00:00",
+      "ts": 1782237616.0
+    },
+    {
+      "title": "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
+      "link": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+      "summary": "Anthropic’s new Claude Tag brings an always-on AI teammate to Slack. But beyond productivity, the feature is a strategic play to capture organizational context, institutional knowledge, and enterprise workflows.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 49,
+      "date": "2026-06-23T17:00:00+00:00",
+      "ts": 1782234000.0
+    },
+    {
+      "title": "Build a protein research copilot with Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-a-protein-research-copilot-with-amazon-bedrock-agentcore/",
+      "summary": "This post shows you how to build a conversational protein research assistant that combines three capabilities: Natural language query parsing to extract structured search parameters, vector similarity search over protein embeddings using a specialized language model and ai-generated scientific summaries of search...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 51,
+      "date": "2026-06-23T16:39:34+00:00",
+      "ts": 1782232774.0
+    },
     {
       "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
       "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
@@ -790,6 +823,28 @@
       "ts": 1782173491.0
     },
     {
+      "title": "Metric-Dependent Annotation Saturation for Learning from Label Distributions",
+      "link": "https://machinelearning.apple.com/research/metric-dependent-annotation-saturation",
+      "summary": "When annotators disagree on a label, the disagreement itself carries signal—and the number of annotators needed to capture it depends on the evaluation metric. We fine-tune NLI models on label distributions subsampled from ChaosNLI, a dataset providing 100 independent annotator judgments per item, and identify...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 51,
+      "date": "2026-06-23T00:00:00+00:00",
+      "ts": 1782172800.0
+    },
+    {
+      "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+      "link": "https://huggingface.co/blog/cross-origin-storage",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 50,
+      "date": "2026-06-23T00:00:00+00:00",
+      "ts": 1782172800.0
+    },
+    {
       "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
       "link": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything",
       "summary": "This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance , describing a small but effective inpainting model - a model where you can mark regions of an image to remove and the model imagines what should fill the space. The released model required PyTorch and...",
@@ -1142,17 +1197,6 @@
       "ts": 1781740719.0
     },
     {
-      "title": "Amazon SageMaker AI Async Inference now supports inline request payloads",
-      "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-async-inference-now-supports-inline-request-payloads/",
-      "summary": "Today, we’re announcing inline payload support for Amazon SageMaker AI Async Inference. Customers can now send inference payloads directly in the request body of the InvokeEndpointAsync API, removing the need to upload input data to Amazon Simple Storage Service (Amazon S3) before each invocation.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 46,
-      "date": "2026-06-17T20:56:36+00:00",
-      "ts": 1781729796.0
-    },
-    {
       "title": "Upsampling method sharpens AI vision with up to 16 times less GPU memory",
       "link": "https://techxplore.com/news/2026-06-upsampling-method-sharpens-ai-vision.html",
       "summary": "From facial recognition on smartphones to humanoid robots, computer vision technology, which serves as the eyes of artificial intelligence (AI), is widely used in daily life. A joint research team from KAIST and international institutions has developed a technology that allows AI to see the world more clearly with...",
@@ -1219,17 +1263,6 @@
       "ts": 1781664870.0
     },
     {
-      "title": "Agentic Resource Discovery: Let agents search",
-      "link": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 39,
-      "date": "2026-06-17T00:00:00+00:00",
-      "ts": 1781654400.0
-    },
-    {
       "title": "datasette 1.0a34",
       "link": "https://simonwillison.net/2026/Jun/16/datasette/#atom-everything",
       "summary": "Release: datasette 1.0a34 Quoting the release notes: The big feature in this alpha is tools to insert, edit and delete rows within the Datasette interface. These features are available on table pages, and edit and delete are also available as action items on the row page. The inspiration for this feature - which is...",
@@ -1239,17 +1272,6 @@
       "relevance": 42,
       "date": "2026-06-16T21:31:24+00:00",
       "ts": 1781645484.0
-    },
-    {
-      "title": "Microsoft launches AI agent with pay-as-you-go pricing",
-      "link": "https://techxplore.com/news/2026-06-microsoft-ai-agent-pay-pricing.html",
-      "summary": "Microsoft is changing how it charges for its software for the first time in two decades, moving to bill customers with a pay-as-you-go model each time they use its new AI agent.",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 49,
-      "date": "2026-06-16T20:40:09+00:00",
-      "ts": 1781642409.0
     },
     {
       "title": "Introducing container caching in Amazon SageMaker AI for faster model scaling",
