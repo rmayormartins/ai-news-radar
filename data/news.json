@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-23T18:38:22.476075+00:00",
-  "count": 183,
-  "china_count": 58,
+  "generated_at": "2026-06-24T00:27:25.109698+00:00",
+  "count": 184,
+  "china_count": 57,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1018 itens)",
+      "status": "ok (1019 itens)",
       "kept": 12
     },
     {
@@ -56,7 +56,7 @@
     {
       "source": "Apple ML Research",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "AWS Machine Learning",
@@ -250,6 +250,39 @@
     }
   ],
   "items": [
+    {
+      "title": "Superhuman acquires AI detection startup GPTZero",
+      "link": "https://techcrunch.com/2026/06/23/superhuman-acquires-ai-detection-startup-gptzero/",
+      "summary": "Superhuman, which also has an AI detection tool as part of Grammarly, has snapped up GPTZero.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 41,
+      "date": "2026-06-23T21:48:23+00:00",
+      "ts": 1782251303.0
+    },
+    {
+      "title": "datasette 1.0a35",
+      "link": "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything",
+      "summary": "Release: datasette 1.0a35 I'll write more about this one tomorrow, but it's a big release. Three highlights from the release notes: New \"Create table\" interface in the database actions menu, backed by the /<database>/-/create JSON API . It can define columns, primary keys, custom column types, NOT NULL constraints,...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 47,
+      "date": "2026-06-23T21:34:37+00:00",
+      "ts": 1782250477.0
+    },
+    {
+      "title": "OPFS + Pyodide test harness",
+      "link": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything",
+      "summary": "Tool: OPFS + Pyodide test harness I've been pondering if Datasette Lite - the Python Datasette application run entirely in the browser using Pyodide and WebAssembly - might be able to edit persistent SQLite files stored on the user's computer. That's what OFPS (Origin Private File System) is for, so I had Claude Code...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 43,
+      "date": "2026-06-23T18:58:54+00:00",
+      "ts": 1782241134.0
+    },
     {
       "title": "Brain-inspired AI architecture could computing faster and far less power-hungry",
       "link": "https://techxplore.com/news/2026-06-brain-ai-architecture-faster-power.html",
@@ -845,6 +878,17 @@
       "ts": 1782172800.0
     },
     {
+      "title": "Nine Judges, Two Effective Votes: Correlated Errors Undermine LLM Evaluation Panels",
+      "link": "https://machinelearning.apple.com/research/correlated-llm-evaluation-panels",
+      "summary": "LLM-as-a-judge panels aggregate votes from multiple models, with the expectation that diverse models yield more reliable evaluations. We develop a framework to measure the true informational value of such panels and quantify how far their reliability falls short of the independent-voting ideal. Testing a panel of 9...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 25,
+      "date": "2026-06-23T00:00:00+00:00",
+      "ts": 1782172800.0
+    },
+    {
       "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
       "link": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything",
       "summary": "This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance , describing a small but effective inpainting model - a model where you can mark regions of an image to remove and the model imagines what should fill the space. The released model required PyTorch and...",
@@ -867,15 +911,15 @@
       "ts": 1782151894.0
     },
     {
-      "title": "Anthropic says Claude may want to see your ID",
-      "link": "https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id/",
-      "summary": "Claude's chatbot may ask to verify your age and identity \"in certain circumstances,\" such as with a passport or driver's license, according to a privacy policy change.",
-      "source": "TechCrunch",
+      "title": "New research reveals AI is boosting productivity at home—but not equally",
+      "link": "https://techxplore.com/news/2026-06-reveals-ai-boosting-productivity-home.html",
+      "summary": "A new study co-authored by USC Marshall's Miao \"Ben\" Zhang is among the first to show that generative AI is delivering significant productivity gains outside the workplace—and that a growing digital divide threatens to leave older and lower-income Americans behind.",
+      "source": "TechXplore (IA/ML)",
       "region": "global",
-      "category": "modelo",
-      "relevance": 49,
-      "date": "2026-06-22T18:05:13+00:00",
-      "ts": 1782151513.0
+      "category": "pesquisa",
+      "relevance": 41,
+      "date": "2026-06-22T18:00:10+00:00",
+      "ts": 1782151210.0
     },
     {
       "title": "Anthropic and Micron want to co-design AI memory architecture",
@@ -1175,6 +1219,17 @@
       "ts": 1781780400.0
     },
     {
+      "title": "How DeepSeek’s landmark funding secures Liang Wenfeng’s grip as China’s AI rivalry heats up",
+      "link": "https://www.scmp.com/tech/big-tech/article/3357525/how-deepseeks-landmark-funding-secures-liang-wenfengs-grip-chinas-ai-rivalry-heats?utm_source=rss_feed",
+      "summary": "Chinese artificial intelligence start-up DeepSeek closed its first-ever external fundraising in an unusual and high-stakes deal that could not only reshape the country’s AI landscape but also offer a rare glimpse into how one of China’s most valuable AI start-ups will navigate its next phase of growth, sources and...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 46,
+      "date": "2026-06-18T07:01:09+00:00",
+      "ts": 1781766069.0
+    },
+    {
       "title": "Is it agentic enough? Benchmarking open models on your own tooling",
       "link": "https://huggingface.co/blog/is-it-agentic-enough",
       "summary": "",
@@ -1230,17 +1285,6 @@
       "ts": 1781686885.0
     },
     {
-      "title": "DeepSeek valued at more than $50 bn after funding round: reports",
-      "link": "https://techxplore.com/news/2026-06-deepseek-valued-bn-funding.html",
-      "summary": "Investors have valued Chinese artificial intelligence startup DeepSeek at more than $50 billion in the company's first fundraising round, reports said.",
-      "source": "TechXplore (IA/ML)",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 46,
-      "date": "2026-06-17T08:06:57+00:00",
-      "ts": 1781683617.0
-    },
-    {
       "title": "Alibaba unveils Qwen-Robot series with three foundation models for embodied AI",
       "link": "https://technode.com/2026/06/17/alibaba-unveils-qwen-robot-series-with-three-foundation-models-for-embodied-ai/",
       "summary": "The Qwen team on Tuesday released a robotics suite featuring three foundation models: Qwen-RobotNav, Qwen-RobotManip, and Qwen-RobotWorld. These three models align language with different types of physical actions. Qwen-RobotNav extends vision-language capabilities into mobile robotics through controllable observation...",
@@ -1261,17 +1305,6 @@
       "relevance": 55,
       "date": "2026-06-17T02:54:30+00:00",
       "ts": 1781664870.0
-    },
-    {
-      "title": "datasette 1.0a34",
-      "link": "https://simonwillison.net/2026/Jun/16/datasette/#atom-everything",
-      "summary": "Release: datasette 1.0a34 Quoting the release notes: The big feature in this alpha is tools to insert, edit and delete rows within the Datasette interface. These features are available on table pages, and edit and delete are also available as action items on the row page. The inspiration for this feature - which is...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 42,
-      "date": "2026-06-16T21:31:24+00:00",
-      "ts": 1781645484.0
     },
     {
       "title": "Introducing container caching in Amazon SageMaker AI for faster model scaling",
@@ -1365,23 +1398,12 @@
       "title": "China’s AI ‘hundred model’ war shifts to enterprise value, JPMorgan says",
       "link": "https://www.scmp.com/tech/big-tech/article/3357008/chinas-ai-hundred-model-war-shifts-enterprise-value-jpmorgan-says?utm_source=rss_feed",
       "summary": "The drive for AI monetisation among Chinese tech companies has become a battle over “delivering measurable business value” rather than raw technical performance, according to Alex Yao, head of China equity research at JPMorgan. China’s AI landscape was rapidly consolidating from a fragmented “hundred-model” battle...",
-      "source": "SCMP Tech",
+      "source": "SCMP Big Tech",
       "region": "china",
       "category": "modelo",
-      "relevance": 52,
+      "relevance": 54,
       "date": "2026-06-14T04:00:17+00:00",
       "ts": 1781409617.0
-    },
-    {
-      "title": "OpenAI WebRTC Audio Session, now with document context",
-      "link": "https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything",
-      "summary": "OpenAI WebRTC Audio Session, now with document context I built the first version of this tool in December 2024 to try out the then-new OpenAI WebRTC API for interacting with their realtime audio models. Last month OpenAI introduced a brand new model to that API called GPT‑Realtime‑2 , which they promoted as \"our first...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 58,
-      "date": "2026-06-12T23:53:04+00:00",
-      "ts": 1781308384.0
     },
     {
       "title": "Building Supercharger: How Rocket Close optimized title operations with agentic AI",
@@ -1899,17 +1921,6 @@
       "relevance": 68,
       "date": "2026-05-27T07:50:58+00:00",
       "ts": 1779868258.0
-    },
-    {
-      "title": "Another ‘DeepSeek moment’? Huawei milestone alters China trajectory in chip race: analysts",
-      "link": "https://www.scmp.com/tech/big-tech/article/3354938/another-deepseek-moment-huawei-milestone-alters-china-trajectory-chip-race-analysts?utm_source=rss_feed",
-      "summary": "Huawei Technologies’ unveiling of a chip architectural workaround to bypass US sanctions marks a major step towards China’s semiconductor self-sufficiency, giving Beijing powerful new leverage in its tech tug of war with Washington, analysts say. The Chinese tech giant captured global attention on Monday by...",
-      "source": "SCMP Big Tech",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 59,
-      "date": "2026-05-27T03:00:09+00:00",
-      "ts": 1779850809.0
     },
     {
       "title": "Warp’s big bet on building open source with GPT-5.5",
