@@ -342,4 +342,356 @@
         <div class="switch" id="hide-research" role="switch" aria-checked="false" tabindex="0">
           <span class="track"><span class="knob"></span></span>
           <span>ocultar pesquisa (arXiv, papers)</span>
-     
+        </div>
+        <div class="switch cn" id="only-china" role="switch" aria-checked="false" tabindex="0">
+          <span class="track"><span class="knob"></span></span>
+          <span>mostrar so IA da China</span>
+        </div>
+        <div class="switch jp" id="only-japan" role="switch" aria-checked="false" tabindex="0">
+          <span class="track"><span class="knob"></span></span>
+          <span>mostrar so IA do Japao</span>
+        </div>
+      </div>
+      <div class="body" id="sources"></div>
+    </div>
+
+    <div class="panel sources-panel">
+      <h2>Legenda</h2>
+      <div class="body legend">
+        <div class="row"><span class="sw" style="background:var(--model)"></span>modelo: release / lancamento</div>
+        <div class="row"><span class="sw" style="background:var(--research)"></span>pesquisa: paper / metodo</div>
+        <div class="row"><span class="sw" style="background:var(--general)"></span>geral: movimento do setor</div>
+        <div class="row"><span class="sw" style="background:var(--china)"></span>china: origem chinesa</div>
+        <div class="row"><span class="sw" style="background:var(--japan)"></span>japao: origem japonesa</div>
+        <div class="row" style="margin-top:6px;color:var(--text-2)">SNR = relevancia estimada (0 a 100)</div>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <div class="toolbar">
+      <div class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="filtrar por modelo, lab, tema... (ex: deepseek, agente, multimodal)" autocomplete="off">
+      </div>
+      <div class="rangesel">
+        <select id="range" aria-label="periodo">
+          <option value="0">periodo: tudo</option>
+          <option value="1">ultimas 24h</option>
+          <option value="7">ultima semana</option>
+          <option value="30">ultimo mes</option>
+        </select>
+      </div>
+      <button class="sortbtn" id="sort">ordenar: <b id="sort-l">recencia</b></button>
+      <button class="sortbtn trbtn" id="translate" aria-pressed="false">traduzir: <b id="tr-l">EN</b></button>
+    </div>
+    <div id="feed" class="feed">
+      <div class="loading"><div class="sweep"></div>varrendo o espectro...</div>
+    </div>
+    <div id="morebar" class="morebar"></div>
+  </main>
+</div>
+
+<footer>
+  <div class="ft">
+    <span class="serif">sinal sobre ruido.</span>
+    <span>AI RADAR // coleta automatica via GitHub Actions, servido por GitHub Pages</span>
+    <span>fontes: labs, arXiv, imprensa especializada e IA chinesa</span>
+  </div>
+</footer>
+
+<script>
+"use strict";
+
+// fallback inline: garante que a pagina nunca abre vazia (mesmo via file://).
+// O arquivo data/news.json (gerado pela Action) tem prioridade.
+const INLINE_FALLBACK = {
+  generated_at: "2026-06-13T00:00:00+00:00", seed:true, china_count:0,
+  sources:[{source:"seed",status:"aguardando coleta",kept:3}],
+  items:[
+    {title:"Introducing new capabilities to GPT-Rosalind",link:"https://openai.com/news/",summary:"OpenAI expands its science-focused model with stronger biological reasoning.",source:"OpenAI",region:"global",category:"modelo",relevance:79,date:"2026-06-04T00:00:00+00:00",ts:1749000000},
+    {title:"Better memory for a more helpful ChatGPT",link:"https://openai.com/news/",summary:"OpenAI rolls out improved long-term memory across sessions.",source:"OpenAI",region:"global",category:"modelo",relevance:74,date:"2026-06-08T00:00:00+00:00",ts:1749340000},
+    {title:"How an astrophysicist uses Codex to simulate black holes",link:"https://openai.com/news/",summary:"Using Codex and GPT-5.5 to build large simulation pipelines.",source:"OpenAI",region:"global",category:"geral",relevance:58,date:"2026-06-12T00:00:00+00:00",ts:1749686400}
+  ]
+};
+
+const PAGE = 25; // quantas noticias por bloco no "mostrar mais"
+const state = { data:null, view:"todas", q:"", sort:"recencia", range:0, hideResearch:false, onlyChina:false, onlyJapan:false, translate:false, sources:new Set(), allSources:[], shown:PAGE };
+const trCache = new Map(); // texto original -> traducao PT (cache da sessao)
+
+const $ = s => document.querySelector(s);
+const feed = $("#feed");
+const morebar = $("#morebar");
+
+function rel(iso){
+  if(!iso) return "sem data";
+  const d=new Date(iso), now=new Date(), s=(now-d)/1000;
+  if(s<3600) return Math.max(1,Math.floor(s/60))+" min";
+  if(s<86400) return Math.floor(s/3600)+" h";
+  const days=Math.floor(s/86400);
+  if(days<30) return days+" d";
+  return d.toLocaleDateString("pt-BR",{day:"2-digit",month:"short"});
+}
+const esc = s => (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function snrBars(v,reg){
+  const seg=Math.round(v/20); // 0..5
+  let b="";
+  for(let i=1;i<=5;i++){
+    const h=8+i*4.4;
+    b+=`<span class="bar ${i<=seg?'on':''}" style="height:${h}px"></span>`;
+  }
+  return `<div class="snr ${reg||''}"><div class="bars">${b}</div><div class="val">${v}</div><div class="lbl">snr</div></div>`;
+}
+
+// filtros comuns (fonte, periodo, busca) usados tambem nos contadores
+function passesCommon(it){
+  if(state.sources.size && !state.sources.has(it.source)) return false;
+  if(state.range){
+    if(!it.ts) return false;
+    const ageDays=(Date.now()/1000 - it.ts)/86400;
+    if(ageDays > state.range) return false;
+  }
+  if(state.q){
+    const blob=(it.title+" "+(it.summary||"")+" "+it.source).toLowerCase();
+    if(!blob.includes(state.q)) return false;
+  }
+  return true;
+}
+function matches(it){ return passesView(it, state.view); }
+
+// regra completa de uma faixa: filtros comuns + faixa + ocultar pesquisa.
+// "ocultar pesquisa" vale em todas as faixas, menos quando voce abre a faixa Pesquisa.
+function passesView(it, view){
+  if(!passesCommon(it)) return false;
+  if(state.onlyChina && it.region!=="china") return false;
+  if(state.onlyJapan && it.region!=="japan") return false;
+  if(view==="china" && it.region!=="china") return false;
+  if(view==="japan" && it.region!=="japan") return false;
+  if((view==="modelo"||view==="pesquisa") && it.category!==view) return false;
+  if(state.hideResearch && view!=="pesquisa" && it.category==="pesquisa") return false;
+  return true;
+}
+
+function render(){
+  const all=state.data.items.filter(matches);
+  all.sort((a,b)=> state.sort==="recencia" ? (b.ts||0)-(a.ts||0) : (b.relevance-a.relevance)||((b.ts||0)-(a.ts||0)) );
+
+  // contadores das faixas (cada um simula sua propria faixa, ja com ocultar-pesquisa)
+  const items=state.data.items;
+  setCnt("todas",items.filter(i=>passesView(i,"todas")).length);
+  setCnt("modelo",items.filter(i=>passesView(i,"modelo")).length);
+  setCnt("pesquisa",items.filter(i=>passesView(i,"pesquisa")).length);
+  setCnt("china",items.filter(i=>passesView(i,"china")).length);
+  setCnt("japan",items.filter(i=>passesView(i,"japan")).length);
+
+  if(!all.length){ feed.innerHTML=emptyHTML(); morebar.innerHTML=""; return; }
+
+  const shown=Math.min(state.shown, all.length);
+  feed.innerHTML=all.slice(0,shown).map(it=>{
+    const isCN=it.region==="china", isJP=it.region==="japan";
+    const cls = isCN ? "c-china" : isJP ? "c-japan" : ("c-"+it.category);
+    const regChip = isCN ? `<span class="chip china">china</span>`
+                  : isJP ? `<span class="chip japan">japao</span>` : "";
+    const snrReg = isCN ? "cn" : isJP ? "jp" : "";
+    const catChip = `<span class="chip ${it.category}">${it.category}</span>`;
+    return `<article class="card ${cls}">
+      <div class="meta">${regChip}${catChip}<span class="src">${esc(it.source)}</span><span class="when">${rel(it.date)}</span></div>
+      <h3><a href="${esc(it.link)}" target="_blank" rel="noopener">${esc(it.title)}</a></h3>
+      ${it.summary?`<p>${esc(it.summary)}</p>`:""}
+      <a class="open" href="${esc(it.link)}" target="_blank" rel="noopener">abrir fonte &#8599;</a>
+      ${snrBars(it.relevance,snrReg)}
+    </article>`;
+  }).join("");
+
+  // "mostrar mais" no fim do feed
+  if(all.length>shown){
+    const remaining=all.length-shown;
+    morebar.innerHTML=`<button class="morebtn" id="more">mostrar mais (+${remaining})</button><div class="showing">mostrando ${shown} de ${all.length}</div>`;
+    $("#more").addEventListener("click",()=>{ state.shown+=PAGE; render(); });
+  } else {
+    morebar.innerHTML=`<div class="showing">fim do feed // ${all.length} ${all.length===1?'sinal':'sinais'}</div>`;
+  }
+
+  if(state.translate) translateVisible();
+}
+
+// reseta a paginacao sempre que um filtro muda
+function resetAndRender(){ state.shown=PAGE; render(); }
+
+function emptyHTML(){
+  if(state.view==="china"){
+    return `<div class="empty"><b>Sem sinais da China nesta janela</b>
+      Ajuste a busca ou as fontes. Na primeira vez, rode o workflow <code>update-news</code> em Actions para popular os feeds chineses (Synced, Pandaily, TechNode, KrASIA, ChinAI).</div>`;
+  }
+  if(state.view==="japan"){
+    return `<div class="empty"><b>Sem sinais do Japao nesta janela</b>
+      Ajuste a busca ou as fontes. Na primeira vez, rode o workflow <code>update-news</code> em Actions para popular os feeds japoneses (Japan AI News, Sakana AI, The Japan Times, NHK World).</div>`;
+  }
+  return `<div class="empty"><b>Nenhum sinal com esse filtro</b>
+    Tente limpar a busca ou reativar fontes na barra lateral.</div>`;
+}
+
+function setCnt(k,v){ document.querySelectorAll(`[data-cnt="${k}"]`).forEach(e=>e.textContent=v); }
+
+function buildSources(){
+  const map={};
+  state.data.items.forEach(i=>{ map[i.source]=map[i.source]||{n:0,reg:i.region}; map[i.source].n++; if(i.region!=="global") map[i.source].reg=i.region; });
+  state.allSources=Object.keys(map).sort((a,b)=>map[b].n-map[a].n);
+  $("#sources").innerHTML=state.allSources.map(s=>{
+    const rc = map[s].reg==="china" ? "cn" : map[s].reg==="japan" ? "jp" : "";
+    return `<label class="srcrow ${rc}"><input type="checkbox" value="${esc(s)}"><span class="sn">${esc(s)}</span><span class="sc">${map[s].n}</span></label>`;
+  }).join("");
+  $("#sources").querySelectorAll("input").forEach(inp=>inp.addEventListener("change",()=>{
+    inp.checked ? state.sources.add(inp.value) : state.sources.delete(inp.value); resetAndRender();
+  }));
+}
+
+function applyData(d){
+  state.data = (d && Array.isArray(d.items) && d.items.length) ? d : INLINE_FALLBACK;
+  // header
+  const total=state.data.items.length;
+  const cn=state.data.items.filter(i=>i.region==="china").length;
+  const jp=state.data.items.filter(i=>i.region==="japan").length;
+  $("#stat-total").textContent=total;
+  $("#stat-china").textContent=cn;
+  $("#stat-japan").textContent=jp;
+  const gen=state.data.generated_at?new Date(state.data.generated_at):null;
+  $("#updated").textContent = gen ? "atualizado "+rel(state.data.generated_at)+" atras" : "dados locais";
+
+  // banner: dados antigos ou ainda no seed
+  const banner=$("#banner"), bt=$("#banner-txt");
+  if(state.data.seed){
+    bt.innerHTML="Mostrando <b>dados iniciais</b>. Rode o workflow <b>update-news</b> em Actions (ou aguarde o cron) para a primeira coleta real.";
+    banner.classList.add("show");
+  } else if(gen && (Date.now()-gen)/36e5 > 30){
+    bt.innerHTML="Ultima coleta ha mais de <b>30 horas</b>. Verifique o workflow em Actions.";
+    banner.classList.add("show");
+  }
+  buildSources();
+  render();
+}
+
+// --- traducao para PT (client-side, endpoint gratuito do Google) ---
+// Sem backend e sem chave. E um endpoint nao-oficial: pode limitar uso em rajada.
+// Cache por sessao evita re-traduzir o que ja passou.
+async function tr(text){
+  if(!text) return "";
+  if(trCache.has(text)) return trCache.get(text);
+  try{
+    const u="https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=pt&dt=t&q="+encodeURIComponent(text);
+    const r=await fetch(u);
+    if(!r.ok) throw new Error(r.status);
+    const j=await r.json();
+    const out=(j[0]||[]).map(s=>s[0]).join("").trim();
+    const val=out||text;
+    trCache.set(text,val);
+    return val;
+  }catch(e){ return null; }
+}
+
+let trRun=0;
+async function translateVisible(){
+  const myRun=++trRun;                 // cancela traducoes antigas se algo mudar
+  const btn=$("#translate");
+  btn.classList.add("busy");
+  const cards=[...feed.querySelectorAll(".card")];
+  let okCount=0, failCount=0;
+  for(const c of cards){
+    if(myRun!==trRun || !state.translate) break;
+    const a=c.querySelector("h3 a"), p=c.querySelector("p");
+    const ot=a.dataset.o || (a.dataset.o=a.textContent);
+    const os=p ? (p.dataset.o || (p.dataset.o=p.textContent)) : null;
+    const [t,s]=await Promise.all([tr(ot), os!=null?tr(os):Promise.resolve(null)]);
+    if(myRun!==trRun || !state.translate) break;
+    if(t){ a.textContent=t; okCount++; } else failCount++;
+    if(s && p) p.textContent=s;
+  }
+  if(myRun===trRun) btn.classList.remove("busy");
+  // se nada traduziu (endpoint bloqueado/limite), volta pro original e avisa
+  if(myRun===trRun && state.translate && okCount===0 && failCount>0){
+    state.translate=false;
+    btn.setAttribute("aria-pressed","false");
+    $("#tr-l").textContent="EN";
+    morebar.insertAdjacentHTML("afterbegin",`<div class="showing">traducao indisponivel agora (limite do servico). tente de novo em instantes.</div>`);
+  }
+}
+
+// --- eventos ---
+$("#views").addEventListener("click",e=>{
+  const b=e.target.closest(".navbtn"); if(!b) return;
+  state.view=b.dataset.view;
+  document.querySelectorAll(".navbtn").forEach(x=>x.classList.toggle("active",x===b));
+  // a faixa de regiao ja restringe por origem: limpa as chaves "so China/so Japao"
+  if(state.view==="china" || state.view==="japan"){
+    state.onlyChina=false; state.onlyJapan=false; syncRegionSwitches();
+  }
+  resetAndRender();
+});
+$("#q").addEventListener("input",e=>{ state.q=e.target.value.trim().toLowerCase(); resetAndRender(); });
+$("#range").addEventListener("change",e=>{ state.range=parseInt(e.target.value,10)||0; resetAndRender(); });
+$("#sort").addEventListener("click",()=>{
+  state.sort = state.sort==="recencia" ? "relevancia" : "recencia";
+  $("#sort-l").textContent=state.sort;
+  resetAndRender();
+});
+$("#src-toggle").addEventListener("click",()=>{
+  state.sources.clear();
+  document.querySelectorAll("#sources input").forEach(i=>i.checked=false);
+  resetAndRender();
+});
+
+// chave: ocultar pesquisa (arXiv, papers)
+const hr=$("#hide-research");
+function toggleHR(){
+  state.hideResearch=!state.hideResearch;
+  hr.classList.toggle("on",state.hideResearch);
+  hr.setAttribute("aria-checked",state.hideResearch?"true":"false");
+  resetAndRender();
+}
+hr.addEventListener("click",toggleHR);
+hr.addEventListener("keydown",e=>{ if(e.key===" "||e.key==="Enter"){ e.preventDefault(); toggleHR(); } });
+
+// chave: mostrar so IA da China
+const oc=$("#only-china");
+const oj=$("#only-japan");
+function syncRegionSwitches(){
+  oc.classList.toggle("on",state.onlyChina); oc.setAttribute("aria-checked",state.onlyChina?"true":"false");
+  oj.classList.toggle("on",state.onlyJapan); oj.setAttribute("aria-checked",state.onlyJapan?"true":"false");
+}
+function toggleOC(){
+  state.onlyChina=!state.onlyChina;
+  if(state.onlyChina) state.onlyJapan=false;   // exclusivas: uma regiao por vez
+  syncRegionSwitches();
+  resetAndRender();
+}
+function toggleOJ(){
+  state.onlyJapan=!state.onlyJapan;
+  if(state.onlyJapan) state.onlyChina=false;
+  syncRegionSwitches();
+  resetAndRender();
+}
+oc.addEventListener("click",toggleOC);
+oc.addEventListener("keydown",e=>{ if(e.key===" "||e.key==="Enter"){ e.preventDefault(); toggleOC(); } });
+oj.addEventListener("click",toggleOJ);
+oj.addEventListener("keydown",e=>{ if(e.key===" "||e.key==="Enter"){ e.preventDefault(); toggleOJ(); } });
+
+// botao: traduzir para PT
+$("#translate").addEventListener("click",()=>{
+  state.translate=!state.translate;
+  const btn=$("#translate");
+  btn.setAttribute("aria-pressed",state.translate?"true":"false");
+  $("#tr-l").textContent = state.translate ? "PT" : "EN";
+  trRun++;                       // interrompe traducao em andamento
+  if(state.translate){ translateVisible(); }
+  else { render(); }             // volta aos textos originais
+});
+
+// carga
+fetch("./data/news.json",{cache:"no-store"})
+  .then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(applyData)
+  .catch(()=>applyData(INLINE_FALLBACK));
+</script>
+</body>
+</html>
