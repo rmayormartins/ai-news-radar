@@ -28,7 +28,7 @@ OUT = ROOT / "data" / "news.json"
 
 # -------------------------------------------------------------------
 # FONTES
-# region: "global" ou "china"
+# region: "global", "china" ou "japan"
 # weight: multiplicador de relevancia da fonte (labs e pesquisa valem mais)
 # strict: se True, so entra item que cruzar o limiar de relevancia
 #         (feeds amplos como Verge/SCMP) - feeds de lab entram sempre
@@ -76,6 +76,9 @@ SOURCES = [
     {"name": "The Algorithmic Bridge", "url": "https://www.thealgorithmicbridge.com/feed",                     "region": "global", "weight": 1.1, "strict": True,  "cap": 6},
     {"name": "One Useful Thing",  "url": "https://www.oneusefulthing.org/feed",                                "region": "global", "weight": 1.1, "strict": True,  "cap": 5},
     {"name": "Don't Worry About the Vase", "url": "https://thezvi.substack.com/feed",                          "region": "global", "weight": 1.1, "strict": True,  "cap": 5},
+    {"name": "Quanta (CS/IA)",    "url": "https://www.quantamagazine.org/feed/",                               "region": "global", "weight": 1.0, "strict": True,  "cap": 5},
+    {"name": "Unite.AI",          "url": "https://www.unite.ai/feed/",                                         "region": "global", "weight": 0.9, "strict": True,  "cap": 8},
+    {"name": "Towards Data Science", "url": "https://towardsdatascience.com/feed",                              "region": "global", "weight": 0.9, "strict": True,  "cap": 6},
 
     # --- IA na China (foco do pedido) ---
     {"name": "Synced (机器之心)",  "url": "https://syncedreview.com/feed/",                                     "region": "china",  "weight": 1.5, "strict": False, "cap": 12},
@@ -93,6 +96,14 @@ SOURCES = [
     {"name": "CnTechPost",        "url": "https://cntechpost.com/feed/",                                       "region": "china",  "weight": 1.0, "strict": True,  "cap": 8},
     {"name": "Sixth Tone",        "url": "https://www.sixthtone.com/rss",                                      "region": "china",  "weight": 1.0, "strict": True,  "cap": 6},
     {"name": "Caixin Global",     "url": "https://www.caixinglobal.com/feed/",                                 "region": "china",  "weight": 1.0, "strict": True,  "cap": 6},
+
+    # --- IA no Japao ---
+    {"name": "Japan AI News",     "url": "https://japanainews.com/feed/",                                      "region": "japan",  "weight": 1.3, "strict": True,  "cap": 10},
+    {"name": "Sakana AI",         "url": "https://sakana.ai/blog/feed.xml",                                    "region": "japan",  "weight": 1.4, "strict": False, "cap": 5},
+    {"name": "The Japan Times",   "url": "https://www.japantimes.co.jp/feed",                                  "region": "japan",  "weight": 1.0, "strict": True,  "cap": 8},
+    {"name": "Japan Today",       "url": "https://japantoday.com/feed/atom",                                   "region": "japan",  "weight": 0.9, "strict": True,  "cap": 6},
+    {"name": "Japan Industry News", "url": "https://japanindustrynews.com/feed",                               "region": "japan",  "weight": 1.0, "strict": True,  "cap": 6},
+    {"name": "NHK World",         "url": "https://www3.nhk.or.jp/nhkworld/en/news/rss/all.xml",                 "region": "japan",  "weight": 0.9, "strict": True,  "cap": 6},
 ]
 
 # -------------------------------------------------------------------
@@ -141,6 +152,13 @@ CHINA_HINTS = [
     "01.ai", "01 ai", "yi ", "internlm", "baichuan", "stepfun", "step-",
     "sensetime", "iflytek", "cambricon", "biren", "moore threads",
 ]
+JAPAN_HINTS = [
+    "japan", "japanese", "tokyo", "osaka", "kyoto",
+    "sakana ai", "sakana", "preferred networks", "rinna", "elyza", "abeja",
+    "softbank", "rakuten", "sony", "ntt", " nec ", "fujitsu", "hitachi",
+    "panasonic", "toyota research", "riken", "fugaku", "swallow", "plamo",
+    "tanuki", "stockmark", "sb intuitions", "karakuri", "matsuo lab",
+]
 
 WORD_RE = re.compile(r"[a-z0-9\.\-]+")
 
@@ -188,8 +206,15 @@ def score_item(title, summary, src):
     else:
         category = "geral"
 
-    is_china = src["region"] == "china" or count_hits(blob, CHINA_HINTS) >= 1
-    return relevance, category, is_china
+    if src["region"] in ("china", "japan"):
+        region = src["region"]
+    elif count_hits(blob, CHINA_HINTS) >= 1:
+        region = "china"
+    elif count_hits(blob, JAPAN_HINTS) >= 1:
+        region = "japan"
+    else:
+        region = "global"
+    return relevance, category, region
 
 
 def parse_date(entry):
@@ -248,7 +273,7 @@ def main():
             if date and date < horizon:
                 continue
 
-            relevance, category, is_china = score_item(title, summary, src)
+            relevance, category, region = score_item(title, summary, src)
 
             # filtro de "noticia a toa": fontes amplas precisam cruzar o limiar
             if src["strict"] and relevance < 40:
@@ -262,7 +287,7 @@ def main():
                 "link": link,
                 "summary": summary,
                 "source": src["name"],
-                "region": "china" if is_china else "global",
+                "region": region,
                 "category": category,
                 "relevance": relevance,
                 "date": date.isoformat() if date else None,
@@ -285,12 +310,13 @@ def main():
         "generated_at": now.isoformat(),
         "count": len(items),
         "china_count": sum(1 for i in items if i["region"] == "china"),
+        "japan_count": sum(1 for i in items if i["region"] == "japan"),
         "sources": report,
         "items": items,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"\nOK -> {OUT} ({len(items)} itens, {payload['china_count']} da China)")
+    print(f"\nOK -> {OUT} ({len(items)} itens, {payload['china_count']} China, {payload['japan_count']} Japao)")
 
 
 if __name__ == "__main__":
