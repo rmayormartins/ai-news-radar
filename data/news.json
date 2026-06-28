@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-28T07:17:40.698086+00:00",
-  "count": 164,
+  "generated_at": "2026-06-28T12:24:42.890216+00:00",
+  "count": 163,
   "china_count": 52,
   "japan_count": 0,
   "sources": [
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -207,7 +207,7 @@
     {
       "source": "Pandaily",
       "status": "ok (20 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "TechNode",
@@ -296,6 +296,72 @@
     }
   ],
   "items": [
+    {
+      "title": "Coinbase joins the rush to Chinese AI models as Western labs face a pricing stress test",
+      "link": "https://the-decoder.com/coinbase-joins-the-rush-to-chinese-ai-models-as-western-labs-face-a-pricing-stress-test/",
+      "summary": "Coinbase CEO Brian Armstrong is switching his company to Chinese AI models like GLM 5.2 and Kimi 2.7. An automated routing system picks the best model for each request based on task and price, and better caching pushed the hit rate from 5 to 60 percent. Coinbase has cut its AI spending in half even as token usage...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-06-28T12:14:38+00:00",
+      "ts": 1782648878.0
+    },
+    {
+      "title": "Faster AI, lower costs: DSpark eases inference bottlenecks and chip strain, says DeepSeek",
+      "link": "https://www.scmp.com/tech/big-tech/article/3358647/faster-ai-lower-costs-dspark-eases-inference-bottlenecks-and-chip-strain-says-deepseek?utm_source=rss_feed",
+      "summary": "Chinese artificial intelligence start-up DeepSeek has rolled out a major upgrade to its flagship V4 model aimed at sharply accelerating AI response generation, as competition among Chinese developers increasingly shifts to reducing serving costs and enhancing user experience. DeepSeek, by adopting what it called a...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 61,
+      "date": "2026-06-28T11:00:08+00:00",
+      "ts": 1782644408.0
+    },
+    {
+      "title": "Only three AI models finished above starting capital in a 500-day startup survival test",
+      "link": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test/",
+      "summary": "Researchers at Princeton University built CEO-Bench, a test where AI agents have to run a fictional software company for 500 simulated days. Most current models go broke, and a simple rule-based heuristic with no AI beats nearly all of them. The article Only three AI models finished above starting capital in a 500-day...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 52,
+      "date": "2026-06-28T10:16:13+00:00",
+      "ts": 1782641773.0
+    },
+    {
+      "title": "Chinese cybersecurity firm builds AI tools to rival Mythos and frames the race as cyber-nuclear deterrence",
+      "link": "https://the-decoder.com/chinese-cybersecurity-firm-builds-ai-tools-to-rival-mythos-and-frames-the-race-as-cyber-nuclear-deterrence/",
+      "summary": "360 founder Zhou Hongyi presents two AI security tools designed to compete with Anthropic's Mythos. One has already flagged 3,432 vulnerabilities. Zhou admits Chinese models trail Western ones by 20 to 30 percent, but compares Mythos to \"cyber nuclear weapons\" and calls for China to build its own strategic deterrent....",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 52,
+      "date": "2026-06-28T09:30:18+00:00",
+      "ts": 1782639018.0
+    },
+    {
+      "title": "Peking University and DeepSeek Open-Source DSpark, Delivering Major Leap in LLM Inference Efficiency",
+      "link": "https://pandaily.com/peking-university-deepseek-dspark-inference-efficiency-jun2026",
+      "summary": "Peking University and DeepSeek jointly open-source DSpark, a speculative decoding framework that boosts LLM inference speed by 60-85% with up to 661% throughput gain under strict latency constraints.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 64,
+      "date": "2026-06-28T08:34:52+00:00",
+      "ts": 1782635692.0
+    },
+    {
+      "title": "Sina's open model VibeThinker-3B aims to show reasoning compresses well but factual knowledge doesn't",
+      "link": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt/",
+      "summary": "Sina Weibo's VibeThinker-3B has just three billion parameters but matches models like DeepSeek V3.2 and Kimi K2.5 on math and coding benchmarks. Those models are up to 333 times larger. The secret isn't size but multi-stage post-training. The researchers propose a hypothesis based on their findings: logical reasoning...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 71,
+      "date": "2026-06-28T07:44:41+00:00",
+      "ts": 1782632681.0
+    },
     {
       "title": "Inference Takes Center Stage: DeepSeek DSpark Accelerates Generation by 80%",
       "link": "https://pandaily.com/deepseek-dspark-inference-breakthrough-jun2026",
@@ -440,17 +506,6 @@
       "ts": 1782548786.0
     },
     {
-      "title": "ByteDance's \"iLLaDA\" is a diffusion language model that keeps up with Qwen2.5",
-      "link": "https://the-decoder.com/bytedances-illada-is-a-diffusion-language-model-that-keeps-up-with-qwen2-5/",
-      "summary": "Researchers from Renmin University and ByteDance have released iLLaDA, an 8B language model that generates text differently than ChatGPT. It matches Qwen2.5 at the base level but falls behind after fine-tuning. The article ByteDance's \"iLLaDA\" is a diffusion language model that keeps up with Qwen2.5 appeared first on...",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 78,
-      "date": "2026-06-27T07:48:29+00:00",
-      "ts": 1782546509.0
-    },
-    {
       "title": "Baidu Consolidates ERNIE Bot Web Portals, But Analysis Says It May Be Too Little, Too Late",
       "link": "https://pandaily.com/baidu-ernie-bot-web-portal-consolidation-jun2026",
       "summary": "Baidu merges multiple ERNIE web interfaces into one site as ERNIE App DAU falls to ~5 million, raising questions about whether the AI pioneer has lost the native AI entry race.",
@@ -495,17 +550,6 @@
       "ts": 1782498734.0
     },
     {
-      "title": "OpenAI launches Claude Mythos rival GPT-5.6 Sol under government access it calls unsustainable",
-      "link": "https://the-decoder.com/openais-claude-mythos-competitor-gpt-5-6-sol-launches-under-government-controlled-access-it-calls-unsustainable/",
-      "summary": "OpenAI's new flagship GPT-5.6 Sol beats Anthropic's Claude Mythos 5 in coding benchmarks, but the US government is forcing a restricted rollout. OpenAI isn't happy about it. The article OpenAI launches Claude Mythos rival GPT-5.6 Sol under government access it calls unsustainable appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 70,
-      "date": "2026-06-26T18:30:01+00:00",
-      "ts": 1782498601.0
-    },
-    {
       "title": "Accelerating Gemini Nano models on Pixel with frozen Multi-Token Prediction",
       "link": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/",
       "summary": "Machine Intelligence",
@@ -515,17 +559,6 @@
       "relevance": 57,
       "date": "2026-06-26T18:30:00+00:00",
       "ts": 1782498600.0
-    },
-    {
-      "title": "An AI model programmed nonstop for 19 days on a single MirrorCode task that cost $2,600 to run",
-      "link": "https://the-decoder.com/an-ai-model-programmed-nonstop-for-19-days-on-a-single-mirrorcode-task-that-cost-2600-to-run/",
-      "summary": "Epoch AI's new MirrorCode benchmark tests whether AI models can recreate complete programs without access to the original code. Claude Opus 4.7 leads with a 56 percent solve rate, rebuilding a 16,000-line toolkit in just 14 hours. But every model tested still fails on the most complex tasks. The article An AI model...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 55,
-      "date": "2026-06-26T17:24:27+00:00",
-      "ts": 1782494667.0
     },
     {
       "title": "Quoting OpenAI",
@@ -572,17 +605,6 @@
       "ts": 1782491400.0
     },
     {
-      "title": "AI startup Lindy ditched Claude entirely for Deepseek, saving millions as cost pressure mounts on Anthropic",
-      "link": "https://the-decoder.com/ai-startup-lindy-ditched-claude-entirely-for-deepseek-saving-millions-as-cost-pressure-mounts-on-anthropic/",
-      "summary": "AI startup Lindy ditched Claude entirely for Deepseek after AI costs exceeded personnel costs. CEO Flo Crivello calls it \"a matter of survival for the business.\" The article AI startup Lindy ditched Claude entirely for Deepseek, saving millions as cost pressure mounts on Anthropic appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 59,
-      "date": "2026-06-26T15:09:26+00:00",
-      "ts": 1782486566.0
-    },
-    {
       "title": "Fine-tuning Language Models on Apple Silicon with MLX",
       "link": "https://www.kdnuggets.com/fine-tuning-language-models-on-apple-silicon-with-mlx",
       "summary": "Fine-tune open language models locally on your Mac using MLX. No cloud GPUs or costs required.",
@@ -614,28 +636,6 @@
       "relevance": 65,
       "date": "2026-06-26T10:00:00+00:00",
       "ts": 1782468000.0
-    },
-    {
-      "title": "ByteDance's AI Engine Roars Ahead But Compute Costs Crush Margins",
-      "link": "https://pandaily.com/bytedance-ai-compute-costs-crushing-margins-jun2026",
-      "summary": "ByteDance's Doubao hits 200M DAU and 180 trillion daily tokens, but compute costs may exceed RMB 200 billion in 2026 as MaaS revenue targets soar 10x.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 55,
-      "date": "2026-06-26T08:15:16+00:00",
-      "ts": 1782461716.0
-    },
-    {
-      "title": "Zhipu AI vs MiniMax: China's Anthropic and OpenAI Mirror the Valuation Reversal",
-      "link": "https://pandaily.com/zhipu-ai-minimax-anthropic-openai-china-jun2026",
-      "summary": "Zhipu AI and MiniMax see their market values diverge as the two Chinese AI giants increasingly mirror the Anthropic vs OpenAI dynamics playing out globally",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 55,
-      "date": "2026-06-26T07:58:24+00:00",
-      "ts": 1782460704.0
     },
     {
       "title": "China’s Zhipu AI sparks new ‘DeepSeek moment’ with cost-effective coding model",
@@ -713,17 +713,6 @@
       "relevance": 49,
       "date": "2026-06-25T16:41:47+00:00",
       "ts": 1782405707.0
-    },
-    {
-      "title": "DeepSeek hiring spree: Chinese AI firm seeks newcomers as it pursues AGI",
-      "link": "https://www.scmp.com/tech/big-tech/article/3358394/deepseek-hiring-spree-chinese-ai-firm-seeks-newcomers-it-pursues-agi?utm_source=rss_feed",
-      "summary": "DeepSeek is looking to “at least double the size of every department” in a new hiring spree, according to an announcement made by the Chinese AI champion on Thursday. The firm announced openings in 33 positions across seven major categories, including full-stack development and algorithms, artificial intelligence (AI)...",
-      "source": "SCMP Tech",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 51,
-      "date": "2026-06-25T16:38:30+00:00",
-      "ts": 1782405510.0
     },
     {
       "title": "Build self-service AWS Health analytics to find actionable health insights with AI agents powered by Amazon Bedrock",
@@ -2057,6 +2046,17 @@
       "ts": 1778861222.0
     },
     {
+      "title": "Alibaba launches Qoder 1.0 to automate software development with AI agents",
+      "link": "https://cntechpost.com/2026/05/15/alibaba-launches-qoder-1-0-to-automate-software-development-ai-agents/",
+      "summary": "The new tool supports cross-project multitasking and debuts a team-level knowledge-sharing engine. The post Alibaba launches Qoder 1.0 to automate software development with AI agents appeared first on CnTechPost .",
+      "source": "CnTechPost",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-05-15T06:05:24+00:00",
+      "ts": 1778825124.0
+    },
+    {
       "title": "Chinese AI startup Moonshot launches Kimi WebBridge to automate complex web tasks",
       "link": "https://cntechpost.com/2026/05/15/chinese-ai-startup-moonshot-launches-kimi-webbridge-automate-complex-web-tasks/",
       "summary": "The tool allows AI agents to automatically execute complex web tasks using user credentials. The post Chinese AI startup Moonshot launches Kimi WebBridge to automate complex web tasks appeared first on CnTechPost .",
@@ -2088,17 +2088,6 @@
       "relevance": 65,
       "date": "2026-05-15T00:00:00+00:00",
       "ts": 1778803200.0
-    },
-    {
-      "title": "Tencent open-sources Agent Memory to cut AI token consumption by 61%",
-      "link": "https://cntechpost.com/2026/05/14/tencent-open-sources-agent-memory-cut-ai-token-consumption-by-61/",
-      "summary": "The open-source tool addresses context window limitations for AI agents in long tasks through context offloading and task canvas technologies. The post Tencent open-sources Agent Memory to cut AI token consumption by 61% appeared first on CnTechPost .",
-      "source": "CnTechPost",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 49,
-      "date": "2026-05-14T08:13:17+00:00",
-      "ts": 1778746397.0
     }
   ]
 }
