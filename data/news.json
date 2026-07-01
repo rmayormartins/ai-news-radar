@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-01T12:54:01.083327+00:00",
-  "count": 204,
-  "china_count": 55,
+  "generated_at": "2026-07-01T18:36:42.753911+00:00",
+  "count": 202,
+  "china_count": 54,
   "japan_count": 1,
   "sources": [
     {
@@ -12,7 +12,7 @@
     {
       "source": "Google AI / DeepMind",
       "status": "ok (20 itens)",
-      "kept": 9
+      "kept": 8
     },
     {
       "source": "Google Research",
@@ -26,7 +26,7 @@
     },
     {
       "source": "Hugging Face",
-      "status": "ok (813 itens)",
+      "status": "ok (814 itens)",
       "kept": 12
     },
     {
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -102,7 +102,7 @@
     {
       "source": "MIT Tech Review",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "VentureBeat AI",
@@ -132,7 +132,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "Ars Technica",
@@ -187,7 +187,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "Synced (机器之心)",
@@ -297,6 +297,94 @@
   ],
   "items": [
     {
+      "title": "Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us/",
+      "summary": "We're excited to introduce US-based frontier open-weight models in AWS GovCloud (US). With this release, Amazon Bedrock now supports OpenAI’s open-weight GPT OSS models (120B and 20B) and NVIDIA Nemotron (Nano 9B v2, Nano 12B v2, Nano 30B, Super 120B) models. In this post, we cover these models and their capabilities,...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 70,
+      "date": "2026-07-01T18:14:34+00:00",
+      "ts": 1782929674.0
+    },
+    {
+      "title": "Simplify model selection in Amazon Bedrock with the open source Model Profiler",
+      "link": "https://aws.amazon.com/blogs/machine-learning/simplify-model-selection-in-amazon-bedrock-with-the-open-source-model-profiler/",
+      "summary": "The Amazon Bedrock Model Profiler is an open source tool that aggregates model metadata from multiple AWS APIs and external sources into a single, searchable interface. In this post, you’ll learn what the Model Profiler provides, the real-world scenarios it supports, and how to deploy it in your own environment in...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 47,
+      "date": "2026-07-01T17:46:54+00:00",
+      "ts": 1782928014.0
+    },
+    {
+      "title": "AI changes its behavior around authority... and that could be risky",
+      "link": "https://techxplore.com/news/2026-07-ai-behavior-authority-risky.html",
+      "summary": "Artificial intelligence doesn't just learn how humans talk. It may also be learning who gets listened to. A new study from researchers at the University of North Carolina at Chapel Hill found that large language models, the technology behind popular AI chatbots, change the way they communicate depending on the social...",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 51,
+      "date": "2026-07-01T17:40:12+00:00",
+      "ts": 1782927612.0
+    },
+    {
+      "title": "Meta follows SpaceX's playbook and builds a cloud business to sell its spare AI compute to outside customers",
+      "link": "https://the-decoder.com/meta-follows-spacexs-playbook-and-builds-a-cloud-business-to-sell-its-spare-ai-compute-to-outside-customers/",
+      "summary": "Meta is building its own cloud business to sell spare AI compute to outside customers. With planned AI investments of up to $145 billion this year alone, the same question that came up with xAI now applies to Meta: why isn't the company putting all that capacity to work on its own models? The article Meta follows...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-07-01T16:00:43+00:00",
+      "ts": 1782921643.0
+    },
+    {
+      "title": "Meta's non-invasive brain-to-text AI is closing the gap with surgical implants",
+      "link": "https://the-decoder.com/metas-non-invasive-brain-to-text-ai-is-closing-the-gap-with-surgical-implants/",
+      "summary": "Meta's FAIR AI team uses Brain2Qwerty v2 to translate brain activity into typed sentences, with no implants or surgery required. The system reads magnetic signals outside the skull and reconstructs what a person is typing. Clinical use for paralyzed patients is still a long way off, but accuracy keeps improving with...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "geral",
+      "relevance": 22,
+      "date": "2026-07-01T15:34:09+00:00",
+      "ts": 1782920049.0
+    },
+    {
+      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+      "link": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+      "summary": "Let’s start with a game. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1 and 10.” You’re going to get 7. Almost always. Now type “Another” and you’ll get 3 or 4. Type “Another” again and you’ll get 8 or 9. That won’t work every time—but if it…",
+      "source": "MIT Tech Review",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 67,
+      "date": "2026-07-01T14:35:16+00:00",
+      "ts": 1782916516.0
+    },
+    {
+      "title": "Gemini Spark, Google’s agentic assistant, is now available on Mac",
+      "link": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+      "summary": "Google's 24/7 agentic assistant, Gemini Spark, comes to Mac alongside other improvements, like real-time tracking and support for more apps.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 63,
+      "date": "2026-07-01T14:20:19+00:00",
+      "ts": 1782915619.0
+    },
+    {
+      "title": "Meta, like SpaceX, looks to turn excess AI compute into cash",
+      "link": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+      "summary": "Meta is developing plans for a cloud infrastructure business, selling access to AI compute power and models. The move would pit it against the big cloud providers like Amazon Web Services, Google Cloud, and Microsoft Azure.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 43,
+      "date": "2026-07-01T13:43:07+00:00",
+      "ts": 1782913387.0
+    },
+    {
       "title": "Google built a great smart speaker, but Gemini isn’t ready for it",
       "link": "https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home",
       "summary": "Smart speakers have spent the past few years searching for a compelling second act. Beyond music, timers, and controlling your lights, they've struggled to justify taking up space on the kitchen counter. AI promised to change that. Amazon debuted its new hardware powered by a revamped Alexa last fall, and now it's...",
@@ -330,13 +418,13 @@
       "ts": 1782904329.0
     },
     {
-      "title": "OpenAI paper reveals three GPT-5.6 Pro models, breaking with single top-tier strategy",
+      "title": "OpenAI's genomics paper accidentally reveals a Pro lineup it hasn't announced yet",
       "link": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy/",
-      "summary": "An OpenAI benchmark paper suggests that the Pro tier of GPT-5.6 could ship in three variants. That would be the first major change to ChatGPT Pro's structure since the plan launched. The article OpenAI paper reveals three GPT-5.6 Pro models, breaking with single top-tier strategy appeared first on The Decoder .",
+      "summary": "An OpenAI benchmark paper suggests that the Pro tier of GPT-5.6 could ship in three variants. That would be the first major change to ChatGPT Pro's structure since the plan launched. The article OpenAI's genomics paper accidentally reveals a Pro lineup it hasn't announced yet appeared first on The Decoder .",
       "source": "The Decoder",
       "region": "global",
       "category": "modelo",
-      "relevance": 74,
+      "relevance": 68,
       "date": "2026-07-01T10:03:41+00:00",
       "ts": 1782900221.0
     },
@@ -836,6 +924,17 @@
       "ts": 1782864235.0
     },
     {
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 53,
+      "date": "2026-07-01T00:00:00+00:00",
+      "ts": 1782864000.0
+    },
+    {
       "title": "Quoting Anthropic",
       "link": "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything",
       "summary": "We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5. We'll begin restoring access tomorrow, and will share an update soon. — Anthropic , on Twitter Tags: anthropic , claude , generative-ai , claude-mythos , ai , llms",
@@ -946,17 +1045,6 @@
       "ts": 1782842628.0
     },
     {
-      "title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
-      "link": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
-      "summary": "Anthropic’s Claude Sonnet 5 brings stronger agentic capabilities, lower pricing, and improved safety, positioning the model as a cheaper alternative to Opus, GPT-5.5, and Gemini Pro.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 71,
-      "date": "2026-06-30T18:00:00+00:00",
-      "ts": 1782842400.0
-    },
-    {
       "title": "OpenAI reportedly cut response costs for guest ChatGPT users by more than half",
       "link": "https://the-decoder.com/openai-reportedly-cut-response-costs-for-guest-chatgpt-users-by-more-than-half/",
       "summary": "According to a report by The Information, OpenAI has cut inference costs for its AI models by more than half. The company applied the optimizations to ChatGPT, where the number of Nvidia GPUs needed dropped to just a few hundred at times. The article OpenAI reportedly cut response costs for guest ChatGPT users by more...",
@@ -977,17 +1065,6 @@
       "relevance": 67,
       "date": "2026-06-30T17:17:33+00:00",
       "ts": 1782839853.0
-    },
-    {
-      "title": "Anthropic’s Claude Science bets on workflow, not a new model, to win over scientists",
-      "link": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
-      "summary": "Anthropic's Claude Science is a workbench that gives scientists one environment to do computational research, saving them from the need to bounce between databases, pipelines, and tools.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 57,
-      "date": "2026-06-30T17:00:00+00:00",
-      "ts": 1782838800.0
     },
     {
       "title": "How Outpost VFX Uses AWS to Accelerate AI Model Training for Visual Effects",
@@ -1021,39 +1098,6 @@
       "relevance": 53,
       "date": "2026-06-30T15:30:00+00:00",
       "ts": 1782833400.0
-    },
-    {
-      "title": "Meituan's LongCat-2.0 shows China can train massive AI models without Nvidia",
-      "link": "https://the-decoder.com/meituans-longcat-2-0-shows-china-can-train-massive-ai-models-without-nvidia/",
-      "summary": "Meituan trains a 1.6 trillion parameter AI model entirely on Chinese chips, no Nvidia required. The article Meituan's LongCat-2.0 shows China can train massive AI models without Nvidia appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 37,
-      "date": "2026-06-30T15:23:46+00:00",
-      "ts": 1782833026.0
-    },
-    {
-      "title": "San Francisco's AI boom is pricing out six-figure tech workers who can't find rent under $5,000",
-      "link": "https://the-decoder.com/san-franciscos-ai-boom-is-pricing-out-six-figure-tech-workers-who-cant-find-rent-under-5000/",
-      "summary": "San Francisco's AI boom is driving up the cost of living so fast that even couples earning $365,000 a year can't find an affordable apartment. Median rent sits at $3,827, and homes cost $1.7 million on average. The expected IPOs of OpenAI and Anthropic could make things even worse for those not profiting from the AI...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 32,
-      "date": "2026-06-30T15:04:55+00:00",
-      "ts": 1782831895.0
-    },
-    {
-      "title": "Amazon launches new $1 billion FDE org, following OpenAI and Anthropic",
-      "link": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
-      "summary": "Engineers on the new team will embed within companies to deploy purpose-built agents, focusing on fast deployments and customer self-sufficiency.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 43,
-      "date": "2026-06-30T15:00:00+00:00",
-      "ts": 1782831600.0
     },
     {
       "title": "Building Local AI Systems: Qwen3.6 + MCPs",
@@ -1397,17 +1441,6 @@
       "ts": 1782486017.0
     },
     {
-      "title": "Researchers create PaperTok, an AI system that helps users turn research papers into short, engaging videos",
-      "link": "https://techxplore.com/news/2026-06-papertok-ai-users-papers-short.html",
-      "summary": "Students in the University of Washington's Prosocial Computing Group noticed a trend on social media: People were using generative artificial intelligence to make short science videos. The trouble was that these people weren't scientists, which, given AI's proclivity to be convincingly wrong, could accelerate the...",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 44,
-      "date": "2026-06-26T13:04:01+00:00",
-      "ts": 1782479041.0
-    },
-    {
       "title": "LLMs help robots understand vague instructions and focus on key details",
       "link": "https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626",
       "summary": "To help robots do chores in places like homes and factories, a new approach from MIT uses one language model to clarify users’ instructions, then another to ignore irrelevant info.",
@@ -1450,39 +1483,6 @@
       "relevance": 53,
       "date": "2026-06-25T21:20:02+00:00",
       "ts": 1782422402.0
-    },
-    {
-      "title": "Vector RAG Isn’t Enough — I Built a Context Graph Layer for Multi-Agent Memory",
-      "link": "https://towardsdatascience.com/vector-rag-isnt-enough-i-built-a-context-graph-layer-for-multi-agent-memory/",
-      "summary": "I benchmarked raw chat history, vector-only RAG, and a context graph on the same multi-agent conversations. The results exposed a surprising weakness in relational retrieval. The post Vector RAG Isn’t Enough — I Built a Context Graph Layer for Multi-Agent Memory appeared first on Towards Data Science .",
-      "source": "Towards Data Science",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 45,
-      "date": "2026-06-25T18:37:53+00:00",
-      "ts": 1782412673.0
-    },
-    {
-      "title": "Retrofit, don’t rebuild: Agentic overlays for transforming legacy enterprise services",
-      "link": "https://aws.amazon.com/blogs/machine-learning/retrofit-dont-rebuild-agentic-overlays-for-transforming-legacy-enterprise-services/",
-      "summary": "In this technical collaboration between AWS and the authors, we present a pragmatic solution: agentic overlays. Agentic overlays are thin wrapper layers that transform traditional REST-based services into agents capable of participating in A2A interactions. They also expose REST APIs as tools compatible with the Model...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 61,
-      "date": "2026-06-25T17:55:10+00:00",
-      "ts": 1782410110.0
-    },
-    {
-      "title": "Optimize model training on Amazon SageMaker AI with NVIDIA Blackwell",
-      "link": "https://aws.amazon.com/blogs/machine-learning/optimize-model-training-on-amazon-sagemaker-ai-with-nvidia-blackwell/",
-      "summary": "This post shows you how to configure training jobs on Amazon SageMaker AI to get the most out of Blackwell’s architecture on AWS. You learn how to select batch sizes and sequence lengths that take advantage of Blackwell’s expanded memory, choose the right precision format for your model size (1B to 64B parameters),...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 49,
-      "date": "2026-06-25T16:41:47+00:00",
-      "ts": 1782405707.0
     },
     {
       "title": "Using Gemini to Create Google Sheets",
@@ -2464,17 +2464,6 @@
       "ts": 1779249600.0
     },
     {
-      "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
-      "link": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 42,
-      "date": "2026-05-19T18:38:09+00:00",
-      "ts": 1779215889.0
-    },
-    {
       "title": "Empirical Research Assistance (ERA): From Nature publication to catalyzing Computational Discovery",
       "link": "https://research.google/blog/empirical-research-assistance-era-from-nature-publication-to-catalyzing-computational-discovery/",
       "summary": "General Science",
@@ -2484,17 +2473,6 @@
       "relevance": 24,
       "date": "2026-05-19T17:52:00+00:00",
       "ts": 1779213120.0
-    },
-    {
-      "title": "I/O 2026: Welcome to the agentic Gemini era",
-      "link": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
-      "summary": "a series of colorful icons representing Google I/O against a black background",
-      "source": "Google AI / DeepMind",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 67,
-      "date": "2026-05-19T17:45:00+00:00",
-      "ts": 1779212700.0
     },
     {
       "title": "Tencent launches DataBuddy to expand its AI agent lineup",
