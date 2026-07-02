@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-02T13:30:20.447219+00:00",
-  "count": 197,
+  "generated_at": "2026-07-02T19:09:57.307729+00:00",
+  "count": 195,
   "china_count": 48,
   "japan_count": 2,
   "sources": [
@@ -57,7 +57,7 @@
     {
       "source": "Apple ML Research",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "AWS Machine Learning",
@@ -132,7 +132,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Ars Technica",
@@ -147,7 +147,7 @@
     {
       "source": "Wired AI",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "Analytics India",
@@ -187,7 +187,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "Synced (机器之心)",
@@ -296,6 +296,61 @@
     }
   ],
   "items": [
+    {
+      "title": "Using DSPy to evaluate and improve Datasette Agent's SQL system prompts",
+      "link": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything",
+      "summary": "Research: Using DSPy to evaluate and improve Datasette Agent's SQL system prompts One of this morning's AIE keynotes covered dspy , which reminded me I've been meaning to see if it could help me improve the system prompt used by Datasette Agent - so I fired off an asynchronous research task in Claude Code for web...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 52,
+      "date": "2026-07-02T18:25:00+00:00",
+      "ts": 1783016700.0
+    },
+    {
+      "title": "Best practices for multi-turn reinforcement learning in Amazon SageMaker AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-multi-turn-reinforcement-learning-in-amazon-sagemaker-ai/",
+      "summary": "In this post, we share best practices for reliable multi-turn RL training. We cover how to build a training environment you can trust, set up an external evaluation, design a reward aligned with the end task, manage what changes once the agent runs for multiple turns, and monitor the metrics that tell you when to...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 52,
+      "date": "2026-07-02T17:50:23+00:00",
+      "ts": 1783014623.0
+    },
+    {
+      "title": "Anthropic reportedly explores custom chip manufacturing with Samsung while insisting Nvidia still matters",
+      "link": "https://the-decoder.com/anthropic-reportedly-explores-custom-chip-manufacturing-with-samsung-while-insisting-nvidia-still-matters/",
+      "summary": "Anthropic is reportedly in talks with Samsung Electronics about manufacturing a custom AI chip. The project is still early, but Anthropic has already hired chip engineers. After OpenAI's \"Jalapeño,\" yet another major AI company is pushing into chip development to cut infrastructure costs. The article Anthropic...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "geral",
+      "relevance": 26,
+      "date": "2026-07-02T17:30:57+00:00",
+      "ts": 1783013457.0
+    },
+    {
+      "title": "Anthropic says it cut 80 percent of Claude Code's system prompt because Fable 5 models \"want a smaller system prompt\"",
+      "link": "https://the-decoder.com/anthropic-says-it-cut-80-percent-of-claude-codes-system-prompt-because-fable-5-models-want-a-smaller-system-prompt/",
+      "summary": "Anthropic has cut the system prompt for Claude Code by 80 percent. According to staffer Tariq Shihipar, the new Fable 5 models need fewer instructions and examples. Guidelines can even hold the models back because they're \"more imaginative\" than what they're given. Instead of strict rules, Anthropic now steers through...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 53,
+      "date": "2026-07-02T16:20:29+00:00",
+      "ts": 1783009229.0
+    },
+    {
+      "title": "10 Agentic AI Frameworks You Should Know in 2026",
+      "link": "https://www.kdnuggets.com/10-agentic-ai-frameworks-you-should-know-in-2026",
+      "summary": "LangGraph, CrewAI, OpenAI Agents SDK, Google ADK, Mastra, and more. If you're building AI agents in 2026, these are the frameworks worth paying attention to before starting your next project.",
+      "source": "KDnuggets",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 51,
+      "date": "2026-07-02T14:00:42+00:00",
+      "ts": 1783000842.0
+    },
     {
       "title": "Nvidia is bankrolling AI startups to loosen Big Tech's grip on its chip business",
       "link": "https://the-decoder.com/nvidia-is-bankrolling-ai-startups-to-loosen-big-techs-grip-on-its-chip-business/",
@@ -781,6 +836,50 @@
       "ts": 1782964680.0
     },
     {
+      "title": "On Robustness and Chain-of-Thought Consistency of RL-Finetuned VLMs",
+      "link": "https://machinelearning.apple.com/research/robustness-chain-thought-consistency",
+      "summary": "Reinforcement learning (RL) finetuning has become a key technique for enhancing large language models (LLMs) on reasoning-intensive tasks, motivating its extension to vision language models (VLMs). While RL-tuned VLMs improve on visual reasoning benchmarks, they remain vulnerable to weak visual grounding,...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 63,
+      "date": "2026-07-02T00:00:00+00:00",
+      "ts": 1782950400.0
+    },
+    {
+      "title": "Amortizing Maximum Inner Product Search with Learned Support Functions",
+      "link": "https://machinelearning.apple.com/research/amortizing-inner-product-search",
+      "summary": "Maximum inner product search (MIPS) is a crucial subroutine in machine learning, requiring the identification of a vector taken within a database (the keys) that best aligns with a given query. We propose amortized MIPS: a regression-based approach that trains neural networks to directly predict MIPS solutions,...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 51,
+      "date": "2026-07-02T00:00:00+00:00",
+      "ts": 1782950400.0
+    },
+    {
+      "title": "MemoryLLM: Plug-n-Play Interpretable Feed-Forward Memory for Transformers",
+      "link": "https://machinelearning.apple.com/research/memoryllm",
+      "summary": "Understanding how transformer components operate in LLMs is important, as it is at the core of recent technological advances in artificial intelligence. In this work, we revisit the challenges associated with interpretability of feed-forward modules (FFNs) and propose MemoryLLM, which aims to decouple FFNs from...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 51,
+      "date": "2026-07-02T00:00:00+00:00",
+      "ts": 1782950400.0
+    },
+    {
+      "title": "Learning Structured Reasoning via Tractable Trajectory Control",
+      "link": "https://machinelearning.apple.com/research/learning-structured-reasoning",
+      "summary": "Large language models can exhibit emergent reasoning behaviors, often manifested as recurring lexical patterns (e.g., “wait,” indicating verification). However, complex reasoning trajectories remain sparse in unconstrained sampling, and standard RL often fails to guarantee the acquisition of diverse reasoning...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 50,
+      "date": "2026-07-02T00:00:00+00:00",
+      "ts": 1782950400.0
+    },
+    {
       "title": "SpaceX shows investors a slim AI smartphone prototype powered by xAI technology",
       "link": "https://the-decoder.com/spacex-shows-investors-a-slim-ai-smartphone-prototype-powered-by-xai-technology/",
       "summary": "SpaceX showed investors a prototype AI smartphone that's supposedly thinner than an iPhone and integrates xAI tech. The device runs on a Qualcomm Snapdragon chip with its own operating system. Musk wants to build an \"everything app\" modeled after WeChat. The article SpaceX shows investors a slim AI smartphone...",
@@ -869,17 +968,6 @@
       "ts": 1782916516.0
     },
     {
-      "title": "Gemini Spark, Google’s agentic assistant, is now available on Mac",
-      "link": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
-      "summary": "Google's 24/7 agentic assistant, Gemini Spark, comes to Mac alongside other improvements, like real-time tracking and support for more apps.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 63,
-      "date": "2026-07-01T14:20:19+00:00",
-      "ts": 1782915619.0
-    },
-    {
       "title": "Google built a great smart speaker, but Gemini isn’t ready for it",
       "link": "https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home",
       "summary": "Smart speakers have spent the past few years searching for a compelling second act. Beyond music, timers, and controlling your lights, they've struggled to justify taking up space on the kitchen counter. AI promised to change that. Amazon debuted its new hardware powered by a revamped Alexa last fall, and now it's...",
@@ -900,28 +988,6 @@
       "relevance": 56,
       "date": "2026-07-01T11:27:06+00:00",
       "ts": 1782905226.0
-    },
-    {
-      "title": "Claude Sonnet 5 continues Anthropic's pattern of hiding price increases behind unchanged token rates",
-      "link": "https://the-decoder.com/claude-sonnet-5-continues-anthropics-pattern-of-hiding-price-increases-behind-unchanged-token-rates/",
-      "summary": "Claude Sonnet 5 ranks fifth in the Artificial Analysis Intelligence Index with 53 points and even beats the pricier Opus 4.8 on some agent-based tasks. But the model chews through about 40 percent more tokens per task than its predecessor, nearly doubling real costs despite identical list prices. Anthropic's hidden...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 66,
-      "date": "2026-07-01T11:12:09+00:00",
-      "ts": 1782904329.0
-    },
-    {
-      "title": "OpenAI's genomics paper accidentally reveals a Pro lineup it hasn't announced yet",
-      "link": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy/",
-      "summary": "An OpenAI benchmark paper suggests that the Pro tier of GPT-5.6 could ship in three variants. That would be the first major change to ChatGPT Pro's structure since the plan launched. The article OpenAI's genomics paper accidentally reveals a Pro lineup it hasn't announced yet appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 68,
-      "date": "2026-07-01T10:03:41+00:00",
-      "ts": 1782900221.0
     },
     {
       "title": "Claude Helped a Hacker Find a Way to Issue Tickets to Almost Every US Music Festival",
@@ -1045,17 +1111,6 @@
       "ts": 1782863895.0
     },
     {
-      "title": "Nano Banana 2 Lite",
-      "link": "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything",
-      "summary": "Nano Banana 2 Lite Also known as Gemini 3.1 Flash Lite Image ( gemini-3.1-flash-lite-image in their API ), this is the \"fastest and cheapest Gemini image model, engineered for velocity and scale\". I used AI studio to run this prompt: Do a where's Waldo style image but it's where is the raccoon holding a ham radio I...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 51,
-      "date": "2026-06-30T22:15:35+00:00",
-      "ts": 1782857735.0
-    },
-    {
       "title": "Claude Science is Anthropic’s newest flagship product",
       "link": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
       "summary": "At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product intended to support scientific research in the same way that Claude Code supports software engineering. Like Claude Code, Claude Science can autonomously carry out meaningful...",
@@ -1109,17 +1164,6 @@
       "relevance": 49,
       "date": "2026-06-30T16:37:09+00:00",
       "ts": 1782837429.0
-    },
-    {
-      "title": "Fine-tune Amazon Nova models for accurate email data extraction",
-      "link": "https://aws.amazon.com/blogs/machine-learning/fine-tune-amazon-nova-models-for-accurate-email-data-extraction/",
-      "summary": "In this post, you'll learn how fine-tuning Amazon Nova models using Amazon SageMaker AI addresses these specific issues by teaching the models to recognize your exact data patterns, distinguish between similar fields, and process information more efficiently—achieving up to 94.77% extraction accuracy while reducing...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 47,
-      "date": "2026-06-30T16:26:48+00:00",
-      "ts": 1782836808.0
     },
     {
       "title": "Q&A: What is agentic AI today, and what do we want it to be?",
@@ -1364,17 +1408,6 @@
       "ts": 1782558743.0
     },
     {
-      "title": "Trump Administration Allows Anthropic to Release Mythos to Select US Organizations",
-      "link": "https://www.wired.com/story/anthropic-restores-access-to-mythos/",
-      "summary": "After weeks of negotiations, the White House permitted Anthropic to grant access to its most advanced AI model to a select group of US companies and government agencies.",
-      "source": "Wired AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 40,
-      "date": "2026-06-27T00:26:14+00:00",
-      "ts": 1782519974.0
-    },
-    {
       "title": "Accelerating Gemini Nano models on Pixel with frozen Multi-Token Prediction",
       "link": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/",
       "summary": "Machine Intelligence",
@@ -1395,17 +1428,6 @@
       "relevance": 52,
       "date": "2026-06-26T17:10:43+00:00",
       "ts": 1782493843.0
-    },
-    {
-      "title": "From Local LLM to Tool-Using Agent",
-      "link": "https://towardsdatascience.com/from-local-llm-to-tool-using-agent/",
-      "summary": "Using Gemma 4, Ollama, OpenAI Agents SDK, and Tavily MCP to build a lightweight research agent The post From Local LLM to Tool-Using Agent appeared first on Towards Data Science .",
-      "source": "Towards Data Science",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 59,
-      "date": "2026-06-26T16:30:00+00:00",
-      "ts": 1782491400.0
     },
     {
       "title": "Fine-tuning Language Models on Apple Silicon with MLX",
@@ -1483,17 +1505,6 @@
       "relevance": 43,
       "date": "2026-06-25T16:00:08+00:00",
       "ts": 1782403208.0
-    },
-    {
-      "title": "5 Open Source Omni AI Models That Handle Text, Images, Audio, and Video",
-      "link": "https://www.kdnuggets.com/5-open-source-omni-ai-models-that-handle-text-images-audio-and-video",
-      "summary": "Take a practical look at multimodal, any-to-any systems for vision-language reasoning, speech interaction, document intelligence, real-time assistants, local deployment.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 53,
-      "date": "2026-06-25T14:00:07+00:00",
-      "ts": 1782396007.0
     },
     {
       "title": "Chinese physical AI start-up proposes new paradigm that bypasses OpenAI, Meta road maps",
@@ -1635,17 +1646,6 @@
       "region": "global",
       "category": "pesquisa",
       "relevance": 50,
-      "date": "2026-06-23T00:00:00+00:00",
-      "ts": 1782172800.0
-    },
-    {
-      "title": "Nine Judges, Two Effective Votes: Correlated Errors Undermine LLM Evaluation Panels",
-      "link": "https://machinelearning.apple.com/research/correlated-llm-evaluation-panels",
-      "summary": "LLM-as-a-judge panels aggregate votes from multiple models, with the expectation that diverse models yield more reliable evaluations. We develop a framework to measure the true informational value of such panels and quantify how far their reliability falls short of the independent-voting ideal. Testing a panel of 9...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 25,
       "date": "2026-06-23T00:00:00+00:00",
       "ts": 1782172800.0
     },
@@ -2277,17 +2277,6 @@
       "ts": 1780001880.0
     },
     {
-      "title": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026",
-      "link": "https://machinelearning.apple.com/updates/apple-at-cvpr-2026",
-      "summary": "Apple is presenting new research at the annual IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , which takes place in person in Denver at the Colorado Convention Center from June 3 to June 7. We are proud to sponsor the conference, which brings together the scientific and industrial research...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 31,
-      "date": "2026-05-28T00:00:00+00:00",
-      "ts": 1779926400.0
-    },
-    {
       "title": "Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős",
       "link": "https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to",
       "summary": "Elon Musk Loses $150 Billion Suit Against OpenAI and Sam Altman, Google updates its Gemini app to take on ChatGPT and Claude at IO 2026, and more!",
@@ -2451,17 +2440,6 @@
       "relevance": 61,
       "date": "2026-05-19T03:33:58+00:00",
       "ts": 1779161638.0
-    },
-    {
-      "title": "EpiCache: Episodic KV Cache Management for Long-Term Conversation on Resource-Constrained Environments",
-      "link": "https://machinelearning.apple.com/research/epicache",
-      "summary": "Modern large language models (LLMs) extend context lengths to millions of tokens, enabling coherent, personalized responses grounded in long conversational history. However, the Key-Value (KV) cache grows linearly with the extended dialogue history, causing the model’s memory footprint to quickly exceed device limits....",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 53,
-      "date": "2026-05-19T00:00:00+00:00",
-      "ts": 1779148800.0
     }
   ]
 }
