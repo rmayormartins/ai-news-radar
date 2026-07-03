@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-02T19:09:57.307729+00:00",
+  "generated_at": "2026-07-03T02:00:47.823404+00:00",
   "count": 195,
-  "china_count": 48,
-  "japan_count": 2,
+  "china_count": 47,
+  "japan_count": 3,
   "sources": [
     {
       "source": "OpenAI",
@@ -76,7 +76,7 @@
     },
     {
       "source": "arXiv cs.CL",
-      "status": "ok (132 itens)",
+      "status": "ok (136 itens)",
       "kept": 8
     },
     {
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -137,7 +137,7 @@
     {
       "source": "Ars Technica",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "The Verge AI",
@@ -277,7 +277,7 @@
     {
       "source": "The Japan Times",
       "status": "ok (30 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Japan Today",
@@ -296,6 +296,50 @@
     }
   ],
   "items": [
+    {
+      "title": "Searching for Aung San Suu Kyi in Myanmar’s capital of confusion",
+      "link": "https://www.japantimes.co.jp/news/2026/07/03/asia-pacific/politics/aung-san-suu-kyi-search/",
+      "summary": "Naypyitaw is a labyrinth of anonymous compounds connected by deserted 20-lane highways through tracts of jungle and paddy.",
+      "source": "The Japan Times",
+      "region": "japan",
+      "category": "modelo",
+      "relevance": 54,
+      "date": "2026-07-03T01:36:00+00:00",
+      "ts": 1783042560.0
+    },
+    {
+      "title": "By modeling visual saliency, AI improves ratings of artistic product designs",
+      "link": "https://techxplore.com/news/2026-07-visual-saliency-ai-artistic-product.html",
+      "summary": "Researchers have developed an artificial intelligence (AI) system that evaluates the visual appeal of literary and artistic product designs by mimicking how people naturally direct their attention across an image, a step that could help designers create products that better match consumer preferences. The work was...",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 49,
+      "date": "2026-07-03T01:00:01+00:00",
+      "ts": 1783040401.0
+    },
+    {
+      "title": "A new, inexpensive Chinese AI model is catching up with Anthropic, OpenAI on their home turf",
+      "link": "https://www.japantimes.co.jp/business/2026/07/03/tech/china-ai-catch-up/",
+      "summary": "Z.ai's GLM-5.2 model has been put at the heart of a growing debate about whether China is finally catching up to the U.S. in the artificial intelligence race.",
+      "source": "The Japan Times",
+      "region": "japan",
+      "category": "modelo",
+      "relevance": 53,
+      "date": "2026-07-03T00:57:00+00:00",
+      "ts": 1783040220.0
+    },
+    {
+      "title": "Microsoft launches $2.5 billion \"Frontier Company\" to embed 6,000 AI engineers inside enterprise clients",
+      "link": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/",
+      "summary": "Microsoft is investing $2.5 billion in a new unit called \"Frontier Company\" that puts 6,000 engineers directly at enterprise customers. The goal is to integrate AI into core processes with measurable ROI, not more experimentation. Microsoft is positioning itself as a platform-neutral alternative to OpenAI and...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-07-02T19:18:29+00:00",
+      "ts": 1783019909.0
+    },
     {
       "title": "Using DSPy to evaluate and improve Datasette Agent's SQL system prompts",
       "link": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything",
@@ -440,17 +484,6 @@
       "ts": 1782986401.0
     },
     {
-      "title": "Teaching Models to Teach Themselves: Reasoning at the Edge of Learnability",
-      "link": "https://arxiv.org/abs/2601.18778",
-      "summary": "arXiv:2601.18778v3 Announce Type: replace-cross Abstract: RL methods for scaling large reasoning models stall on datasets with low initial success rates, and thus little training signal. We investigate a fundamental question: Can a pretrained LLM leverage latent knowledge to generate an automated curriculum for...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 74,
-      "date": "2026-07-02T04:00:00+00:00",
-      "ts": 1782964800.0
-    },
-    {
       "title": "LiteResearcher: A Scalable Agentic RL Training Framework for Deep Research Agent",
       "link": "https://arxiv.org/abs/2604.17931",
       "summary": "arXiv:2604.17931v4 Announce Type: replace Abstract: Reinforcement Learning (RL) has emerged as a powerful training paradigm for LLM-based agents. However, scaling agentic RL for deep research remains constrained by two coupled challenges: hand-crafted synthetic data fails to elicit genuine real-world search...",
@@ -462,31 +495,9 @@
       "ts": 1782964800.0
     },
     {
-      "title": "Learning from Failure: Inference-Time Self-Improvement for Computer-Use Agents",
-      "link": "https://arxiv.org/abs/2606.31270",
-      "summary": "arXiv:2606.31270v1 Announce Type: cross Abstract: Computer-use agents, which leverage multimodal large language models (MLLMs) to operate computers and complete tasks, have attracted significant attention for their utility and versatility. A major challenge in developing these agents is collecting large-scale,...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 72,
-      "date": "2026-07-02T04:00:00+00:00",
-      "ts": 1782964800.0
-    },
-    {
-      "title": "MECoBench: A Systematic Study of Multimodal Agent Collaboration in Embodied Environments",
-      "link": "https://arxiv.org/abs/2606.31966",
-      "summary": "arXiv:2606.31966v1 Announce Type: cross Abstract: Recent multimodal large language models (MLLMs) have strong potential as embodied agents, but their ability to collaborate in visually grounded environments remains underexplored. To address this gap, we introduce MECoBench, a multimodal embodied cooperation benchmark...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 72,
-      "date": "2026-07-02T04:00:00+00:00",
-      "ts": 1782964800.0
-    },
-    {
-      "title": "Nemotron-Labs-TwoTower: Diffusion Language Modeling with Pretrained Autoregressive Context",
-      "link": "https://arxiv.org/abs/2606.26493",
-      "summary": "arXiv:2606.26493v2 Announce Type: replace Abstract: Diffusion language models offer a promising alternative to autoregressive models due to their potential for parallel and iterative generation. However, existing approaches use a single network for both context representation and iterative denoising, forcing one model...",
+      "title": "OpenReward: Learning to Reward Long-form Agentic Tasks via Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2510.24636",
+      "summary": "arXiv:2510.24636v3 Announce Type: replace Abstract: Reward models (RMs) have become essential for aligning large language models (LLMs), serving as scalable proxies for human evaluation in both training and inference. However, existing RMs struggle on knowledge-intensive and long-form tasks, where evaluating...",
       "source": "arXiv cs.CL",
       "region": "global",
       "category": "pesquisa",
@@ -530,19 +541,8 @@
     {
       "title": "Is One Layer Enough? Training A Single Transformer Layer Can Match Full-Parameter RL Training",
       "link": "https://arxiv.org/abs/2607.01232",
-      "summary": "arXiv:2607.01232v1 Announce Type: new Abstract: Reinforcement learning (RL) has become a central component of post-training large language models (LLMs), yet little is understood about how RL adaptation is distributed across transformer layers. Existing approaches typically update all model parameters uniformly,...",
+      "summary": "arXiv:2607.01232v2 Announce Type: new Abstract: Reinforcement learning (RL) has become a central component of post-training large language models (LLMs), yet little is understood about how RL adaptation is distributed across transformer layers. Existing approaches typically update all model parameters uniformly,...",
       "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 70,
-      "date": "2026-07-02T04:00:00+00:00",
-      "ts": 1782964800.0
-    },
-    {
-      "title": "RaBitQCache: Rotated Binary Quantization for KVCache in Long Context LLM Inference",
-      "link": "https://arxiv.org/abs/2606.31519",
-      "summary": "arXiv:2606.31519v1 Announce Type: cross Abstract: Long-context Large Language Model inference is severely bottlenecked by the massive Key-Value (KV) cache, yet existing sparse attention methods often suffer from static fixed-budget (Top-k) retrieval or rely on proxy scores that are computationally expensive and...",
-      "source": "arXiv cs.CL",
       "region": "global",
       "category": "pesquisa",
       "relevance": 70,
@@ -594,17 +594,6 @@
       "ts": 1782964800.0
     },
     {
-      "title": "GUI-AIMA: Aligning Intrinsic Multimodal Attention with a Context Anchor for GUI Grounding",
-      "link": "https://arxiv.org/abs/2511.00810",
-      "summary": "arXiv:2511.00810v4 Announce Type: replace-cross Abstract: Graphical user interface (GUI) grounding is a key capability for computer-use agents, mapping natural-language instructions to actionable regions on the screen. Existing Multimodal Large Language Model (MLLM) approaches typically formulate GUI grounding as a...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 69,
-      "date": "2026-07-02T04:00:00+00:00",
-      "ts": 1782964800.0
-    },
-    {
       "title": "ECoSim: Data Efficient Fine-Tuning for Controllable Traffic Simulation",
       "link": "https://arxiv.org/abs/2607.00545",
       "summary": "arXiv:2607.00545v1 Announce Type: new Abstract: Controllable traffic simulation is critical for testing autonomous driving systems, yet existing approaches often require retraining large generative models with extensive annotated data. We introduce a lightweight control adaptation framework that enables multi-modal...",
@@ -649,23 +638,12 @@
       "ts": 1782964800.0
     },
     {
-      "title": "Theory of Mind and Persuasion Beyond Conversation: Assessing the Capacity of LLMs to Induce Belief States via Planning and Action",
-      "link": "https://arxiv.org/abs/2606.31916",
-      "summary": "arXiv:2606.31916v1 Announce Type: new Abstract: Theory of Mind (ToM) benchmarks for Large Language Models (LLMs) typically rely on passive question-answering formats, but the deployment of LLMs in increasingly agentic and autonomous forms demands new evaluations. In this paper we evaluate an agent's ability to induce...",
+      "title": "UniSVQ: 2-bit Unified Scalar-Vector Quantization",
+      "link": "https://arxiv.org/abs/2606.10520",
+      "summary": "arXiv:2606.10520v2 Announce Type: replace Abstract: Post-training quantization at the 2-bit level enables low-cost deployment and inference acceleration for large language models (LLMs). Scalar quantization (SQ) and vector quantization (VQ) are two primary quantization methods, however, the former suffers from...",
       "source": "arXiv cs.CL",
       "region": "global",
-      "category": "pesquisa",
-      "relevance": 68,
-      "date": "2026-07-02T04:00:00+00:00",
-      "ts": 1782964800.0
-    },
-    {
-      "title": "ADAPT: Attention Dynamics Alignment with Preference Tuning for Faithful MLLMs",
-      "link": "https://arxiv.org/abs/2606.31054",
-      "summary": "arXiv:2606.31054v1 Announce Type: cross Abstract: Multimodal Large Language Models (MLLMs) are critically hampered by hallucination, generating content inconsistent with the provided image. In this paper, we identify an internal signature of hallucination: progressive degradation of text-to-image cross-attention...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "pesquisa",
+      "category": "modelo",
       "relevance": 68,
       "date": "2026-07-02T04:00:00+00:00",
       "ts": 1782964800.0
@@ -737,6 +715,17 @@
       "ts": 1782964800.0
     },
     {
+      "title": "When Search Agents Should Ask: DiscoBench for Clarification-Aware Deep Search",
+      "link": "https://arxiv.org/abs/2606.27669",
+      "summary": "arXiv:2606.27669v2 Announce Type: replace Abstract: Search agents powered by large language models (LLMs) are increasingly used to solve complex information-seeking tasks, requiring multi-step retrieval and reasoning to fulfill user goals. However, existing benchmarks often assume that user queries are complete and...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 66,
+      "date": "2026-07-02T04:00:00+00:00",
+      "ts": 1782964800.0
+    },
+    {
       "title": "Local Motion Matters: A Deconstruct-Recompose Paradigm for Reinforcement Learning Pre-training from Videos",
       "link": "https://arxiv.org/abs/2607.00808",
       "summary": "arXiv:2607.00808v1 Announce Type: new Abstract: Pre-training on large-scale videos to improve reinforcement learning efficiency is promising yet remains challenging. Existing methods typically treat the agent as an indivisible entity, modeling motion patterns globally. Such global modeling is tightly coupled with the...",
@@ -770,9 +759,64 @@
       "ts": 1782964800.0
     },
     {
+      "title": "Thinking While Speaking: Inference-Time Knowledge Transfer for Responsive and Intelligent Conversational Voice Agents",
+      "link": "https://arxiv.org/abs/2511.07397",
+      "summary": "arXiv:2511.07397v3 Announce Type: replace Abstract: Voice agents face a fundamental tension: the reasoning, retrieval, and tool use that make foundation models capable are iterative and slow, while conversational interaction demands responses on a millisecond timescale. Smaller, real-time models meet the latency bar...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 65,
+      "date": "2026-07-02T04:00:00+00:00",
+      "ts": 1782964800.0
+    },
+    {
+      "title": "Gavel: Agent Meets Checklist for Evaluating LLMs on Long-Context Legal Summarization",
+      "link": "https://arxiv.org/abs/2601.04424",
+      "summary": "arXiv:2601.04424v2 Announce Type: replace Abstract: Large language models (LLMs) now support contexts of up to 1M tokens, but their strengths and weaknesses on complex long-context tasks remain unclear. To study this, we focus on multi-document legal case summarization, where a single case often spans many documents...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 65,
+      "date": "2026-07-02T04:00:00+00:00",
+      "ts": 1782964800.0
+    },
+    {
+      "title": "LV-ROVER-MLT: Low-Resource Maltese OCR by Multi-Stream Voting",
+      "link": "https://arxiv.org/abs/2607.00250",
+      "summary": "arXiv:2607.00250v2 Announce Type: new Abstract: Maltese, although a low-resource language, has its own text corpora and pretrained language models, but we are aware of only one real labelled PDF corpus for OCR training, 57 pages, far below what paragraph-level training needs. With no real corpus to train on at scale,...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 63,
+      "date": "2026-07-02T04:00:00+00:00",
+      "ts": 1782964800.0
+    },
+    {
+      "title": "Conversable Complexity: Agentic LLM Collectives as Interpretable Substrates",
+      "link": "https://arxiv.org/abs/2607.01047",
+      "summary": "arXiv:2607.01047v1 Announce Type: new Abstract: Complexity and interpretability rarely coincide: systems rich enough for complex behaviours to emerge are usually too opaque to question, while transparent ones are too simple for anything complex to emerge. A single large language model (LLM) is a static artefact,...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 63,
+      "date": "2026-07-02T04:00:00+00:00",
+      "ts": 1782964800.0
+    },
+    {
+      "title": "GPTKB v1.5: A Massive Knowledge Base for Exploring Factual LLM Knowledge",
+      "link": "https://arxiv.org/abs/2507.05740",
+      "summary": "arXiv:2507.05740v2 Announce Type: replace Abstract: Language models are powerful artifacts, yet their factual knowledge is still poorly understood, and inaccessible to ad-hoc browsing and scalable statistical analysis. This demonstration introduces GPTKB v1.5, a densely interlinked 100-million-triple knowledge base...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 63,
+      "date": "2026-07-02T04:00:00+00:00",
+      "ts": 1782964800.0
+    },
+    {
       "title": "VLM-AR3L: Vision-Language Models for Absolute and Relative Rewards in Reinforcement Learning",
       "link": "https://arxiv.org/abs/2607.00483",
-      "summary": "arXiv:2607.00483v1 Announce Type: new Abstract: Designing effective reward functions remains a major challenge in reinforcement learning (RL), particularly in open-ended environments where task goals are abstract and difficult to quantify. In this work, we present VLM-AR3L, a framework that leverages Vision-Language...",
+      "summary": "arXiv:2607.00483v2 Announce Type: new Abstract: Designing effective reward functions remains a major challenge in reinforcement learning (RL), particularly in open-ended environments where task goals are abstract and difficult to quantify. In this work, we present VLM-AR3L, a framework that leverages Vision-Language...",
       "source": "arXiv cs.RO",
       "region": "global",
       "category": "pesquisa",
@@ -825,15 +869,15 @@
       "ts": 1782964800.0
     },
     {
-      "title": "An English furniture maker faces AI era of bots buying sofas",
-      "link": "https://www.japantimes.co.jp/business/2026/07/02/companies/english-furniture-ai-bots-sofas/",
-      "summary": "Consumers are using chatbots to research products now, but agentic AI could one day see bots acting as their personal shopper.",
-      "source": "The Japan Times",
-      "region": "japan",
-      "category": "pesquisa",
-      "relevance": 44,
-      "date": "2026-07-02T03:58:00+00:00",
-      "ts": 1782964680.0
+      "title": "Conformal Thinking: Risk Control for Reasoning on a Compute Budget",
+      "link": "https://machinelearning.apple.com/research/conformal-thinking-risk-control",
+      "summary": "Reasoning Large Language Models (LLMs) enable test-time scaling, with dataset-level accuracy improving as the token budget increases, motivating adaptive reasoning—spending tokens when they improve reliability and stopping early when additional computation is unlikely to help. However, setting the token budget, as...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 65,
+      "date": "2026-07-02T00:00:00+00:00",
+      "ts": 1782950400.0
     },
     {
       "title": "On Robustness and Chain-of-Thought Consistency of RL-Finetuned VLMs",
@@ -847,6 +891,39 @@
       "ts": 1782950400.0
     },
     {
+      "title": "Residual Context Diffusion Language Models",
+      "link": "https://machinelearning.apple.com/research/residual-context-diffusion",
+      "summary": "Diffusion Large Language Models (dLLMs) have emerged as a promising alternative to purely autoregressive language models because they can decode multiple tokens in parallel. However, state-of-the-art block-wise dLLMs rely on a “remasking” mechanism that decodes only the most confident tokens and discards the rest,...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 61,
+      "date": "2026-07-02T00:00:00+00:00",
+      "ts": 1782950400.0
+    },
+    {
+      "title": "Anti-Causal Domain Generalization: Leveraging Unlabeled Data",
+      "link": "https://machinelearning.apple.com/research/anti-casual",
+      "summary": "The problem of domain generalization concerns learning predictive models that are robust to distribution shifts when deployed in new, previously unseen environments. Existing methods typically require labeled data from multiple training environments, limiting their applicability when labeled data are scarce. In this...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 60,
+      "date": "2026-07-02T00:00:00+00:00",
+      "ts": 1782950400.0
+    },
+    {
+      "title": "Learning Unmasking Policies for Diffusion Language Models",
+      "link": "https://machinelearning.apple.com/research/unmasking",
+      "summary": "Diffusion (Large) Language Models (dLLMs) now match the downstream performance of their autoregressive counterparts on many tasks, while holding the promise of being more efficient during inference. One critical design aspect of dLLMs is the sampling procedure that selects which tokens to unmask at each diffusion...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 59,
+      "date": "2026-07-02T00:00:00+00:00",
+      "ts": 1782950400.0
+    },
+    {
       "title": "Amortizing Maximum Inner Product Search with Learned Support Functions",
       "link": "https://machinelearning.apple.com/research/amortizing-inner-product-search",
       "summary": "Maximum inner product search (MIPS) is a crucial subroutine in machine learning, requiring the identification of a vector taken within a database (the keys) that best aligns with a given query. We propose amortized MIPS: a regression-based approach that trains neural networks to directly predict MIPS solutions,...",
@@ -854,28 +931,6 @@
       "region": "global",
       "category": "pesquisa",
       "relevance": 51,
-      "date": "2026-07-02T00:00:00+00:00",
-      "ts": 1782950400.0
-    },
-    {
-      "title": "MemoryLLM: Plug-n-Play Interpretable Feed-Forward Memory for Transformers",
-      "link": "https://machinelearning.apple.com/research/memoryllm",
-      "summary": "Understanding how transformer components operate in LLMs is important, as it is at the core of recent technological advances in artificial intelligence. In this work, we revisit the challenges associated with interpretability of feed-forward modules (FFNs) and propose MemoryLLM, which aims to decouple FFNs from...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 51,
-      "date": "2026-07-02T00:00:00+00:00",
-      "ts": 1782950400.0
-    },
-    {
-      "title": "Learning Structured Reasoning via Tractable Trajectory Control",
-      "link": "https://machinelearning.apple.com/research/learning-structured-reasoning",
-      "summary": "Large language models can exhibit emergent reasoning behaviors, often manifested as recurring lexical patterns (e.g., “wait,” indicating verification). However, complex reasoning trajectories remain sparse in unconstrained sampling, and standard RL often fails to guarantee the acquisition of diverse reasoning...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 50,
       "date": "2026-07-02T00:00:00+00:00",
       "ts": 1782950400.0
     },
@@ -924,17 +979,6 @@
       "ts": 1782927612.0
     },
     {
-      "title": "After spooking Trump into safety testing, Anthropic AI models get global release",
-      "link": "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/",
-      "summary": "US lifts curbs on Anthropic’s advanced Fable and Mythos models.",
-      "source": "Ars Technica",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 40,
-      "date": "2026-07-01T16:44:18+00:00",
-      "ts": 1782924258.0
-    },
-    {
       "title": "Meta follows SpaceX's playbook and builds a cloud business to sell its spare AI compute to outside customers",
       "link": "https://the-decoder.com/meta-follows-spacexs-playbook-and-builds-a-cloud-business-to-sell-its-spare-ai-compute-to-outside-customers/",
       "summary": "Meta is building its own cloud business to sell spare AI compute to outside customers. With planned AI investments of up to $145 billion this year alone, the same question that came up with xAI now applies to Meta: why isn't the company putting all that capacity to work on its own models? The article Meta follows...",
@@ -977,17 +1021,6 @@
       "relevance": 49,
       "date": "2026-07-01T12:00:00+00:00",
       "ts": 1782907200.0
-    },
-    {
-      "title": "Hidden code in Claude Code secretly flagged Chinese users",
-      "link": "https://the-decoder.com/hidden-code-in-claude-code-secretly-flagged-chinese-users/",
-      "summary": "Anthropic is removing a hidden monitoring feature from its programming tool, Claude Code, after it sparked outrage on social media. The article Hidden code in Claude Code secretly flagged Chinese users appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 56,
-      "date": "2026-07-01T11:27:06+00:00",
-      "ts": 1782905226.0
     },
     {
       "title": "Claude Helped a Hacker Find a Way to Issue Tickets to Almost Every US Music Festival",
@@ -1045,17 +1078,6 @@
       "ts": 1782893211.0
     },
     {
-      "title": "US govt lifts restrictions on powerful AI models, Anthropic says",
-      "link": "https://techxplore.com/news/2026-07-govt-restrictions-powerful-ai-anthropic.html",
-      "summary": "Anthropic will soon begin restoring access globally to its most powerful AI models, Fable 5 and Mythos 5, after the U.S. government lifted a restriction on where they could be released, the company said Tuesday.",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 43,
-      "date": "2026-07-01T06:20:04+00:00",
-      "ts": 1782886804.0
-    },
-    {
       "title": "Honda Releases 2026 ESG Report, Sets Carbon Neutrality Goals for 2050",
       "link": "https://www.japanindustrynews.com/2026/07/honda-releases-2026-esg-report-sets-carbon-neutrality-goals-for-2050/",
       "summary": "Honda Motor Co., Ltd. has published its Honda ESG Report 2026, detailing the company's strategic initiatives in environmental, social, and governance (ESG) areas. The report, available on Honda's website, outlines the company's realigned powertrain portfolios and product launch plans across its motorcycle, automobile,...",
@@ -1102,7 +1124,7 @@
     {
       "title": "Quoting Anthropic",
       "link": "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything",
-      "summary": "We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5. We'll begin restoring access tomorrow, and will share an update soon. — Anthropic , on Twitter Tags: anthropic , claude , generative-ai , claude-mythos , ai , llms",
+      "summary": "We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5. We'll begin restoring access tomorrow, and will share an update soon. — Anthropic , on Twitter Tags: anthropic , claude , generative-ai , claude-mythos-fable , ai , llms",
       "source": "Simon Willison",
       "region": "global",
       "category": "modelo",
@@ -1628,17 +1650,6 @@
       "ts": 1782187200.0
     },
     {
-      "title": "Metric-Dependent Annotation Saturation for Learning from Label Distributions",
-      "link": "https://machinelearning.apple.com/research/metric-dependent-annotation-saturation",
-      "summary": "When annotators disagree on a label, the disagreement itself carries signal—and the number of annotators needed to capture it depends on the evaluation metric. We fine-tune NLI models on label distributions subsampled from ChaosNLI, a dataset providing 100 independent annotator judgments per item, and identify...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 51,
-      "date": "2026-06-23T00:00:00+00:00",
-      "ts": 1782172800.0
-    },
-    {
       "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
       "link": "https://huggingface.co/blog/cross-origin-storage",
       "summary": "",
@@ -2009,17 +2020,6 @@
       "region": "global",
       "category": "pesquisa",
       "relevance": 57,
-      "date": "2026-06-08T00:00:00+00:00",
-      "ts": 1780876800.0
-    },
-    {
-      "title": "Introducing the Third Generation of Apple’s Foundation Models",
-      "link": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
-      "summary": "Our next generation of Apple Intelligence is centered around our users, integrated deeply into our operating systems, and powered by a bold new architecture with privacy at its core. At the heart of this architecture is our third generation of Apple Foundation Models (AFM), a family of five foundation models...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 53,
       "date": "2026-06-08T00:00:00+00:00",
       "ts": 1780876800.0
     },
