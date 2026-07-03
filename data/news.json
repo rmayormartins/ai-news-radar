@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-03T08:49:50.195722+00:00",
-  "count": 194,
-  "china_count": 48,
-  "japan_count": 2,
+  "generated_at": "2026-07-03T13:43:30.764561+00:00",
+  "count": 189,
+  "china_count": 46,
+  "japan_count": 1,
   "sources": [
     {
       "source": "OpenAI",
@@ -91,13 +91,13 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 9
+      "kept": 7
     },
     {
       "source": "MIT Tech Review",
@@ -142,7 +142,7 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "Wired AI",
@@ -187,7 +187,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "Synced (机器之心)",
@@ -252,7 +252,7 @@
     {
       "source": "CnTechPost",
       "status": "ok (50 itens)",
-      "kept": 5
+      "kept": 3
     },
     {
       "source": "Sixth Tone",
@@ -277,7 +277,7 @@
     {
       "source": "The Japan Times",
       "status": "ok (30 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Japan Today",
@@ -296,6 +296,50 @@
     }
   ],
   "items": [
+    {
+      "title": "LLM Wikis Are Over-Engineered — I Replaced Mine With a Pure Python Compiler",
+      "link": "https://towardsdatascience.com/llm-wikis-are-over-engineered-i-replaced-mine-with-a-pure-python-compiler/",
+      "summary": "Most \"LLM wikis\" use agents, embeddings, and repeated model calls to organize local notes. I built a deterministic alternative: a pure Python compiler that turns messy markdown into a linked, linted wiki using only the standard library. Along the way, I fixed two real bugs, benchmarked the pipeline on two operating...",
+      "source": "Towards Data Science",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 49,
+      "date": "2026-07-03T13:30:00+00:00",
+      "ts": 1783085400.0
+    },
+    {
+      "title": "Getting Started with the Claude API in Python",
+      "link": "https://www.kdnuggets.com/getting-started-with-the-claude-api-in-python",
+      "summary": "In this article, you'll learn how to use the Claude API in Python, make your first request, and handle responses with the official SDK.",
+      "source": "KDnuggets",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 51,
+      "date": "2026-07-03T12:00:25+00:00",
+      "ts": 1783080025.0
+    },
+    {
+      "title": "GPT and Claude failed Bridgewater's finance tests because the right answers were never public",
+      "link": "https://the-decoder.com/gpt-and-claude-failed-bridgewaters-finance-tests-because-the-right-answers-were-never-public/",
+      "summary": "The hedge fund Bridgewater and Thinking Machines Lab report that a finely tuned open-weight model outperforms the most powerful AI models in the evaluation of financial documents, at a fraction of the cost. The figures come from their own analysis. The article GPT and Claude failed Bridgewater's finance tests because...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 70,
+      "date": "2026-07-03T11:16:42+00:00",
+      "ts": 1783077402.0
+    },
+    {
+      "title": "Meta's AI agent push is moving slower than Zuckerberg planned",
+      "link": "https://the-decoder.com/metas-ai-agent-push-is-moving-slower-than-zuckerberg-planned/",
+      "summary": "Mark Zuckerberg admitted to weaknesses in the company's restructuring during an internal town hall. The AI agents Meta reorganized around are progressing slower than planned, Zuckerberg said. His AI chief, meanwhile, painted a rosier picture. The article Meta's AI agent push is moving slower than Zuckerberg planned...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 35,
+      "date": "2026-07-03T11:05:22+00:00",
+      "ts": 1783076722.0
+    },
     {
       "title": "Ant Group and HKUST(GZ) Propose Skill-MAS, Turning Multi-Agent Orchestration into Evolvable Meta-Skills",
       "link": "https://pandaily.com/ant-group-hkust-skill-mas-multi-agent-meta-skills-jul2026",
@@ -737,17 +781,6 @@
       "ts": 1783045688.0
     },
     {
-      "title": "Searching for Aung San Suu Kyi in Myanmar’s capital of confusion",
-      "link": "https://www.japantimes.co.jp/news/2026/07/03/asia-pacific/politics/aung-san-suu-kyi-search/",
-      "summary": "Naypyitaw is a labyrinth of anonymous compounds connected by deserted 20-lane highways through tracts of jungle and paddy.",
-      "source": "The Japan Times",
-      "region": "japan",
-      "category": "modelo",
-      "relevance": 54,
-      "date": "2026-07-03T01:36:00+00:00",
-      "ts": 1783042560.0
-    },
-    {
       "title": "By modeling visual saliency, AI improves ratings of artistic product designs",
       "link": "https://techxplore.com/news/2026-07-visual-saliency-ai-artistic-product.html",
       "summary": "Researchers have developed an artificial intelligence (AI) system that evaluates the visual appeal of literary and artistic product designs by mimicking how people naturally direct their attention across an image, a step that could help designers create products that better match consumer preferences. The work was...",
@@ -845,17 +878,6 @@
       "relevance": 35,
       "date": "2026-07-02T12:37:49+00:00",
       "ts": 1782995869.0
-    },
-    {
-      "title": "OpenAI reportedly offers the Trump administration a five percent stake in the company",
-      "link": "https://the-decoder.com/openai-reportedly-offers-the-trump-administration-a-five-percent-stake-in-the-company/",
-      "summary": "OpenAI is reportedly offering the Trump administration a five percent stake in the company. What the government would give in return, if anything, is still unclear. The move shows how closely the AI company wants to tie itself to Washington. The article OpenAI reportedly offers the Trump administration a five percent...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "geral",
-      "relevance": 22,
-      "date": "2026-07-02T10:44:16+00:00",
-      "ts": 1782989056.0
     },
     {
       "title": "Zhipu AI releases harness for GLM-5.2 model as Chinese firm takes aim at Anthropic",
@@ -979,17 +1001,6 @@
       "ts": 1782950400.0
     },
     {
-      "title": "SpaceX shows investors a slim AI smartphone prototype powered by xAI technology",
-      "link": "https://the-decoder.com/spacex-shows-investors-a-slim-ai-smartphone-prototype-powered-by-xai-technology/",
-      "summary": "SpaceX showed investors a prototype AI smartphone that's supposedly thinner than an iPhone and integrates xAI tech. The device runs on a Qualcomm Snapdragon chip with its own operating system. Musk wants to build an \"everything app\" modeled after WeChat. The article SpaceX shows investors a slim AI smartphone...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 42,
-      "date": "2026-07-01T19:47:31+00:00",
-      "ts": 1782935251.0
-    },
-    {
       "title": "Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US)",
       "link": "https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us/",
       "summary": "We're excited to introduce US-based frontier open-weight models in AWS GovCloud (US). With this release, Amazon Bedrock now supports OpenAI’s open-weight GPT OSS models (120B and 20B) and NVIDIA Nemotron (Nano 9B v2, Nano 12B v2, Nano 30B, Super 120B) models. In this post, we cover these models and their capabilities,...",
@@ -1021,28 +1032,6 @@
       "relevance": 51,
       "date": "2026-07-01T17:40:12+00:00",
       "ts": 1782927612.0
-    },
-    {
-      "title": "Meta follows SpaceX's playbook and builds a cloud business to sell its spare AI compute to outside customers",
-      "link": "https://the-decoder.com/meta-follows-spacexs-playbook-and-builds-a-cloud-business-to-sell-its-spare-ai-compute-to-outside-customers/",
-      "summary": "Meta is building its own cloud business to sell spare AI compute to outside customers. With planned AI investments of up to $145 billion this year alone, the same question that came up with xAI now applies to Meta: why isn't the company putting all that capacity to work on its own models? The article Meta follows...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 42,
-      "date": "2026-07-01T16:00:43+00:00",
-      "ts": 1782921643.0
-    },
-    {
-      "title": "Meta's non-invasive brain-to-text AI is closing the gap with surgical implants",
-      "link": "https://the-decoder.com/metas-non-invasive-brain-to-text-ai-is-closing-the-gap-with-surgical-implants/",
-      "summary": "Meta's FAIR AI team uses Brain2Qwerty v2 to translate brain activity into typed sentences, with no implants or surgery required. The system reads magnetic signals outside the skull and reconstructs what a person is typing. Clinical use for paralyzed patients is still a long way off, but accuracy keeps improving with...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "geral",
-      "relevance": 22,
-      "date": "2026-07-01T15:34:09+00:00",
-      "ts": 1782920049.0
     },
     {
       "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
@@ -1087,6 +1076,17 @@
       "relevance": 49,
       "date": "2026-07-01T09:00:00+00:00",
       "ts": 1782896400.0
+    },
+    {
+      "title": "US govt lifts restrictions on powerful AI models, Anthropic says",
+      "link": "https://techxplore.com/news/2026-07-govt-restrictions-powerful-ai-anthropic.html",
+      "summary": "Anthropic will soon begin restoring access globally to its most powerful AI models, Fable 5 and Mythos 5, after the U.S. government lifted a restriction on where they could be released, the company said Tuesday.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 43,
+      "date": "2026-07-01T06:20:04+00:00",
+      "ts": 1782886804.0
     },
     {
       "title": "Honda Releases 2026 ESG Report, Sets Carbon Neutrality Goals for 2050",
@@ -1342,17 +1342,6 @@
       "ts": 1782749879.0
     },
     {
-      "title": "Lawmakers want to ban AI companies from selling your health data",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
-      "summary": "A new proposal would ban the sale of Americans' health and location information to data brokers - including information people reveal to an AI chatbot like ChatGPT or Claude. In the coming weeks, Senator Elizabeth Warren (D-MA) and Representative Mary Gay Scanlon (D-PA) are planning to debut a new version of the...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 54,
-      "date": "2026-06-29T16:00:00+00:00",
-      "ts": 1782748800.0
-    },
-    {
       "title": "The Lab Mistake That Might Revolutionize Computing",
       "link": "https://spectrum.ieee.org/artificial-neurons-on-silicon-chips",
       "summary": "Today, you probably asked a question of a large language model, or accepted a connection suggestion on LinkedIn, or watched a recommended video on YouTube, or took a different route to work based on a traffic prediction from Google Maps. In other words, you probably used artificial intelligence. But what you might not...",
@@ -1505,28 +1494,6 @@
       "relevance": 62,
       "date": "2026-06-26T04:06:08+00:00",
       "ts": 1782446768.0
-    },
-    {
-      "title": "Agentic AI bot helps scientists speak to robots, speeding up experiments",
-      "link": "https://techxplore.com/news/2026-06-agentic-ai-bot-scientists-robots.html",
-      "summary": "Researchers at the Department of Energy's Pacific Northwest National Laboratory use a slew of autonomous robots to design and implement experiments. However, setting up an experiment on an autonomous lab robot is surprisingly slow. The effort requires a lengthy back-and-forth between a scientist and an engineer to...",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 53,
-      "date": "2026-06-25T21:20:02+00:00",
-      "ts": 1782422402.0
-    },
-    {
-      "title": "Using Gemini to Create Google Sheets",
-      "link": "https://www.kdnuggets.com/using-gemini-to-create-google-sheets",
-      "summary": "In this tutorial, we will show you how to use Gemini to create Google Sheets, build a useful table, generate formulas, analyze data, and improve the spreadsheet with follow-up prompts.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 43,
-      "date": "2026-06-25T16:00:08+00:00",
-      "ts": 1782403208.0
     },
     {
       "title": "Chinese physical AI start-up proposes new paradigm that bypasses OpenAI, Meta road maps",
@@ -2407,28 +2374,6 @@
       "relevance": 24,
       "date": "2026-05-19T17:52:00+00:00",
       "ts": 1779213120.0
-    },
-    {
-      "title": "Tencent launches DataBuddy to expand its AI agent lineup",
-      "link": "https://cntechpost.com/2026/05/19/tencent-launches-databuddy-expand-its-ai-agent-lineup/",
-      "summary": "The agent allows users to automate tasks such as complex data integration and analysis through natural language conversations. The post Tencent launches DataBuddy to expand its AI agent lineup appeared first on CnTechPost .",
-      "source": "CnTechPost",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 42,
-      "date": "2026-05-19T10:01:29+00:00",
-      "ts": 1779184889.0
-    },
-    {
-      "title": "Kimi creator Moonshot revamps corporate structure to prepare for Hong Kong IPO",
-      "link": "https://cntechpost.com/2026/05/19/kimi-creator-moonshot-revamps-corporate-structure-prepare-hong-kong-ipo/",
-      "summary": "The AI startup plans to dismantle its red-chip structure to meet regulatory requirements. The post Kimi creator Moonshot revamps corporate structure to prepare for Hong Kong IPO appeared first on CnTechPost .",
-      "source": "CnTechPost",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 53,
-      "date": "2026-05-19T09:12:54+00:00",
-      "ts": 1779181974.0
     }
   ]
 }
