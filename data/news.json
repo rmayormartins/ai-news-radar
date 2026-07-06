@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-06T09:56:45.527940+00:00",
-  "count": 152,
-  "china_count": 45,
+  "generated_at": "2026-07-06T15:00:03.755921+00:00",
+  "count": 143,
+  "china_count": 37,
   "japan_count": 0,
   "sources": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "source": "Hugging Face",
-      "status": "ok (815 itens)",
+      "status": "ok (816 itens)",
       "kept": 12
     },
     {
@@ -91,13 +91,13 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 8
+      "kept": 7
     },
     {
       "source": "MIT Tech Review",
@@ -117,7 +117,7 @@
     {
       "source": "KDnuggets",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "TechXplore (IA/ML)",
@@ -187,7 +187,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Synced (机器之心)",
@@ -206,8 +206,8 @@
     },
     {
       "source": "Pandaily",
-      "status": "ok (20 itens)",
-      "kept": 8
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "TechNode",
@@ -297,48 +297,70 @@
   ],
   "items": [
     {
-      "title": "Hands-On With Alibaba's Qwen CosyVoice Input Method: Is Voice Input the Future?",
-      "link": "https://pandaily.com/qwen-cosyvoice-input-method-voice-input-future-jul2026-v2",
-      "summary": "Alibaba's Qwen launches CosyVoice input method app with AI-powered voice input, achieving near-100% English recognition accuracy and intelligent text polishing via large model integration.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 67,
-      "date": "2026-07-06T08:30:39+00:00",
-      "ts": 1783326639.0
-    },
-    {
-      "title": "Doubao and Qwen Shut Down the Agent Hype They Spent Two Years Building",
-      "link": "https://pandaily.com/doubao-qwen-sunset-ai-agents-hype-follows-jul2026-v2",
-      "summary": "ByteDance's Doubao and Alibaba's Qwen sunset AI agent features as regulatory compliance and poor monetization economics force a strategic retreat from consumer AI agents.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 67,
-      "date": "2026-07-06T08:30:36+00:00",
-      "ts": 1783326636.0
-    },
-    {
-      "title": "ICML 2026: Can You Trust the Orchestrator? Entropy Dynamics Reveal Multi-Agent System Vulnerabilities",
-      "link": "https://pandaily.com/icml-2026-orchestrator-entropy-dynamics-multi-agent-systems-jul2026-v2",
-      "summary": "Nanjing University's ICML 2026 paper shows multi-agent system failures originate from the orchestrator, not individual agents, using entropy dynamics to diagnose degradation.",
-      "source": "Pandaily",
-      "region": "china",
+      "title": "Seven years of testing exposed hidden trade-offs in MLB's AI strike zone",
+      "link": "https://techxplore.com/news/2026-07-years-exposed-hidden-offs-mlb.html",
+      "summary": "Training artificial intelligence to enforce even seemingly straightforward rules—like balls and strikes in Major League Baseball (MLB)—is a messy, dynamic process that takes time and careful evaluation of the technology in the wild, according to new Cornell research.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
       "category": "pesquisa",
-      "relevance": 41,
-      "date": "2026-07-06T08:30:31+00:00",
-      "ts": 1783326631.0
+      "relevance": 43,
+      "date": "2026-07-06T15:00:02+00:00",
+      "ts": 1783350002.0
     },
     {
-      "title": "Tencent Hunyuan Hy3 Officially Launches: Pragmatic AI with 90% Agent Task Resolution Rate",
-      "link": "https://pandaily.com/tencent-hunyuan-hy3-launch-agent-90-percent-task-resolution-jul2026-v2",
-      "summary": "Tencent releases Hunyuan Hy3, a 295B MoE model with 21B active parameters, achieving 90% agent task resolution and surpassing DeepSeek V4 Pro and Qwen 3.7 Max on key benchmarks.",
-      "source": "Pandaily",
-      "region": "china",
+      "title": "Getting Started with Hugging Face ML Intern: Your First ML Agent",
+      "link": "https://www.kdnuggets.com/getting-started-with-hugging-face-ml-intern-your-first-ml-agent",
+      "summary": "You describe the model. It writes the code, runs the training, and ships the checkpoint. Welcome to ML Intern.",
+      "source": "KDnuggets",
+      "region": "global",
       "category": "modelo",
-      "relevance": 81,
-      "date": "2026-07-06T08:30:21+00:00",
-      "ts": 1783326621.0
+      "relevance": 52,
+      "date": "2026-07-06T14:00:31+00:00",
+      "ts": 1783346431.0
+    },
+    {
+      "title": "Nvidia's Kyber NVL144 reportedly pushed back more than a year, Asian suppliers drop",
+      "link": "https://the-decoder.com/nvidias-kyber-nvl144-reportedly-pushed-back-more-than-a-year-asian-suppliers-drop/",
+      "summary": "Nvidia's next AI server rack, Kyber NVL144, has been delayed more than a year to 2028 because of circuit board manufacturing problems, according to analyst firm SemiAnalysis. Asian suppliers lost up to double-digit percentages in market value. The more powerful Rubin Ultra variant has also been canceled. The setbacks...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "geral",
+      "relevance": 22,
+      "date": "2026-07-06T12:30:11+00:00",
+      "ts": 1783341011.0
+    },
+    {
+      "title": "China forces its biggest AI platforms to shut down humanlike chatbot personas",
+      "link": "https://the-decoder.com/china-forces-its-biggest-ai-platforms-to-shut-down-humanlike-chatbot-personas/",
+      "summary": "ByteDance and Alibaba are shutting down the features that let users build and chat with custom AI companions, responding to new regulations from Beijing. The article China forces its biggest AI platforms to shut down humanlike chatbot personas appeared first on The Decoder .",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "geral",
+      "relevance": 29,
+      "date": "2026-07-06T12:26:09+00:00",
+      "ts": 1783340769.0
+    },
+    {
+      "title": "5 Ways Small Language Models Are Powering Next-Gen Agents",
+      "link": "https://www.kdnuggets.com/5-ways-small-language-models-are-powering-next-gen-agents",
+      "summary": "This article looks at five concrete ways SLMs are showing up inside next-generation agents right now, from the research backing them to the tools and numbers worth knowing if you're deciding whether your next agent needs a frontier model at all",
+      "source": "KDnuggets",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 42,
+      "date": "2026-07-06T12:00:53+00:00",
+      "ts": 1783339253.0
+    },
+    {
+      "title": "JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed",
+      "link": "https://the-decoder.com/jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-at-machine-speed/",
+      "summary": "Security firm Sysdig describes an extortion attack where a language model broke in on its own, stole credentials, and destroyed databases. No human appeared to be at the controls. The article JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed appeared first on The...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 46,
+      "date": "2026-07-06T10:04:02+00:00",
+      "ts": 1783332242.0
     },
     {
       "title": "sqlite-utils 4.0rc3",
@@ -363,15 +385,15 @@
       "ts": 1783305628.0
     },
     {
-      "title": "Li Auto's Chip Gambit: A Bold Bet on Dataflow Architecture for Self-Driving AI",
-      "link": "https://pandaily.com/li-auto-mach-m100-chip-dataflow-architecture-jul2026-v2",
-      "summary": "Li Auto's self-developed Mach M100 chip delivers 1280 TOPS with a unique dynamic dataflow architecture, a contrarian bet against NVIDIA's GPU dominance.",
-      "source": "Pandaily",
-      "region": "china",
+      "title": "Path-Constrained Mixture-of-Experts",
+      "link": "https://machinelearning.apple.com/research/path-constrained-mixture-experts",
+      "summary": "Sparse Mixture-of-Experts (MoE) architectures route each token through a subset of experts at each layer independently. We propose viewing MoE computation through the lens of expert paths—the sequence of expert selections a token makes across all layers. This perspective reveals that, despite N^L possible paths for N...",
+      "source": "Apple ML Research",
+      "region": "global",
       "category": "pesquisa",
-      "relevance": 41,
-      "date": "2026-07-06T02:11:29+00:00",
-      "ts": 1783303889.0
+      "relevance": 52,
+      "date": "2026-07-06T00:00:00+00:00",
+      "ts": 1783296000.0
     },
     {
       "title": "DeepSeek Unveils DSpark, Cutting AI Response Times Sharply",
@@ -440,39 +462,6 @@
       "ts": 1783246926.0
     },
     {
-      "title": "From Models to Workflows: A Review of Image and Video Generation Models in H1 2026",
-      "link": "https://pandaily.com/h1-2026-image-video-generation-models-review-jul2026-v2",
-      "summary": "A comprehensive roundup of H1 2026's image and video generation models from Midjourney, Google, ByteDance, Kuaishou, Zhipu AI, Tencent, and more.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 50,
-      "date": "2026-07-05T08:58:37+00:00",
-      "ts": 1783241917.0
-    },
-    {
-      "title": "Tsinghua Vehicle School Alums Launch Guangxiang Technology, Raise Hundreds of Millions for Embodied AI in Automotive",
-      "link": "https://pandaily.com/guangxiang-technology-embodied-ai-automotive-hundreds-millions-jul2026-v2",
-      "summary": "Tsinghua-incubated Guangxiang Technology secures hundreds of millions in angel funding for its physics-native embodied AI model targeting automotive manufacturing.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 43,
-      "date": "2026-07-05T08:58:26+00:00",
-      "ts": 1783241906.0
-    },
-    {
-      "title": "Tsinghua Special Scholarship Winner Gu Yuxian Joins DeepSeek Ahead of V4 Launch",
-      "link": "https://pandaily.com/tsinghua-gu-yuxian-joins-deepseek-v4-jul2026-v2",
-      "summary": "Tsinghua PhD Gu Yuxian, a special scholarship recipient with nearly 5,000 citations, joins DeepSeek as its V4 official version prepares for mid-July release.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 60,
-      "date": "2026-07-05T08:58:18+00:00",
-      "ts": 1783241898.0
-    },
-    {
       "title": "AI search agents don't fail at searching, they fail at asking the right questions when queries get ambiguous",
       "link": "https://the-decoder.com/ai-search-agents-dont-fail-at-searching-they-fail-at-asking-the-right-questions-when-queries-get-ambiguous/",
       "summary": "AI search agents rarely fail at multi-step research because of the search itself. Their real problem is not asking the user for clarification when queries are ambiguous. A new benchmark called DiscoBench shows that models searching repeatedly instead of asking follow-up questions actually perform worse, at 51.9...",
@@ -493,17 +482,6 @@
       "relevance": 54,
       "date": "2026-07-05T01:00:48+00:00",
       "ts": 1783213248.0
-    },
-    {
-      "title": "Open-source tool pxpipe hides text in PNGs to cut Claude Code and Fable 5 token costs up to 70%",
-      "link": "https://the-decoder.com/open-source-tool-pxpipe-hides-text-in-pngs-to-cut-claude-code-and-fable-5-token-costs-up-to-70/",
-      "summary": "The open-source tool pxpipe converts long text prompts for Claude Code into compact PNGs, exploiting the fact that Anthropic charges for images by pixel size, not text content. Developer Steven Chong reports cost savings of 59 to 70 percent, at the price of accuracy and speed. The article Open-source tool pxpipe hides...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 53,
-      "date": "2026-07-04T18:11:33+00:00",
-      "ts": 1783188693.0
     },
     {
       "title": "Alibaba reportedly bans employees from using Claude Code",
@@ -528,17 +506,6 @@
       "ts": 1783180292.0
     },
     {
-      "title": "Anthropic developer shares prompting tips for Fable 5 that focus on finding your own blind spots first",
-      "link": "https://the-decoder.com/anthropic-developer-shares-prompting-tips-for-fable-5-that-focus-on-finding-your-own-blind-spots-first/",
-      "summary": "Anthropic developer Thariq Shihipar argues that with Claude's new model, Fable 5, the bottleneck is no longer the model itself but the user's blind spots. He describes techniques like blindspot passes and structured interviews that programmers can use to systematically uncover their unconscious knowledge gaps before...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 34,
-      "date": "2026-07-04T12:37:51+00:00",
-      "ts": 1783168671.0
-    },
-    {
       "title": "The fanfiction community is at war with AI — and itself",
       "link": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
       "summary": "Over the past week, a new fanworks movement has kicked off, with the aim to root out authors using generative AI. But the detection methods being implemented are questionable, and any fanfic writer could be caught in the crossfire. Broad distaste around the use of Claude, ChatGPT, and other AI tools has long been a […]",
@@ -548,28 +515,6 @@
       "relevance": 60,
       "date": "2026-07-04T12:00:00+00:00",
       "ts": 1783166400.0
-    },
-    {
-      "title": "OpenAI cofounder envisions \"almost no interface\" future where nobody learns software anymore",
-      "link": "https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/",
-      "summary": "Greg Brockman admits ChatGPT's plugins, heavily marketed in 2023, failed \"because the models weren't ready.\" Instead of app extensions, he sees the future in an invisible, context-aware agent. But OpenAI's own Codex is still light-years from that vision. The article OpenAI cofounder envisions \"almost no interface\"...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 65,
-      "date": "2026-07-04T09:53:21+00:00",
-      "ts": 1783158801.0
-    },
-    {
-      "title": "A 26,000-student study shows AI's hidden learning cost takes two full years to surface",
-      "link": "https://the-decoder.com/a-26000-student-study-shows-ais-hidden-learning-cost-takes-two-full-years-to-surface/",
-      "summary": "A study of more than 26,000 Chinese students found that AI users finished homework faster and scored higher but performed up to 24 percent worse on exams. The full impact on entrance exam results took about two years to show up, meaning short-term studies systematically underestimate the damage. The article A...",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "pesquisa",
-      "relevance": 29,
-      "date": "2026-07-04T09:08:41+00:00",
-      "ts": 1783156121.0
     },
     {
       "title": "Open Source AI Gap Map",
@@ -682,17 +627,6 @@
       "ts": 1782986432.0
     },
     {
-      "title": "Conformal Thinking: Risk Control for Reasoning on a Compute Budget",
-      "link": "https://machinelearning.apple.com/research/conformal-thinking-risk-control",
-      "summary": "Reasoning Large Language Models (LLMs) enable test-time scaling, with dataset-level accuracy improving as the token budget increases, motivating adaptive reasoning—spending tokens when they improve reliability and stopping early when additional computation is unlikely to help. However, setting the token budget, as...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 65,
-      "date": "2026-07-02T00:00:00+00:00",
-      "ts": 1782950400.0
-    },
-    {
       "title": "On Robustness and Chain-of-Thought Consistency of RL-Finetuned VLMs",
       "link": "https://machinelearning.apple.com/research/robustness-chain-thought-consistency",
       "summary": "Reinforcement learning (RL) finetuning has become a key technique for enhancing large language models (LLMs) on reasoning-intensive tasks, motivating its extension to vision language models (VLMs). While RL-tuned VLMs improve on visual reasoning benchmarks, they remain vulnerable to weak visual grounding,...",
@@ -700,28 +634,6 @@
       "region": "global",
       "category": "pesquisa",
       "relevance": 63,
-      "date": "2026-07-02T00:00:00+00:00",
-      "ts": 1782950400.0
-    },
-    {
-      "title": "Residual Context Diffusion Language Models",
-      "link": "https://machinelearning.apple.com/research/residual-context-diffusion",
-      "summary": "Diffusion Large Language Models (dLLMs) have emerged as a promising alternative to purely autoregressive language models because they can decode multiple tokens in parallel. However, state-of-the-art block-wise dLLMs rely on a “remasking” mechanism that decodes only the most confident tokens and discards the rest,...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 61,
-      "date": "2026-07-02T00:00:00+00:00",
-      "ts": 1782950400.0
-    },
-    {
-      "title": "Anti-Causal Domain Generalization: Leveraging Unlabeled Data",
-      "link": "https://machinelearning.apple.com/research/anti-casual",
-      "summary": "The problem of domain generalization concerns learning predictive models that are robust to distribution shifts when deployed in new, previously unseen environments. Existing methods typically require labeled data from multiple training environments, limiting their applicability when labeled data are scarce. In this...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 60,
       "date": "2026-07-02T00:00:00+00:00",
       "ts": 1782950400.0
     },
@@ -744,6 +656,28 @@
       "region": "global",
       "category": "pesquisa",
       "relevance": 51,
+      "date": "2026-07-02T00:00:00+00:00",
+      "ts": 1782950400.0
+    },
+    {
+      "title": "MemoryLLM: Plug-n-Play Interpretable Feed-Forward Memory for Transformers",
+      "link": "https://machinelearning.apple.com/research/memoryllm",
+      "summary": "Understanding how transformer components operate in LLMs is important, as it is at the core of recent technological advances in artificial intelligence. In this work, we revisit the challenges associated with interpretability of feed-forward modules (FFNs) and propose MemoryLLM, which aims to decouple FFNs from...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 51,
+      "date": "2026-07-02T00:00:00+00:00",
+      "ts": 1782950400.0
+    },
+    {
+      "title": "Learning Structured Reasoning via Tractable Trajectory Control",
+      "link": "https://machinelearning.apple.com/research/learning-structured-reasoning",
+      "summary": "Large language models can exhibit emergent reasoning behaviors, often manifested as recurring lexical patterns (e.g., “wait,” indicating verification). However, complex reasoning trajectories remain sparse in unconstrained sampling, and standard RL often fails to guarantee the acquisition of diverse reasoning...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 50,
       "date": "2026-07-02T00:00:00+00:00",
       "ts": 1782950400.0
     },
@@ -957,17 +891,6 @@
       "ts": 1782822606.0
     },
     {
-      "title": "Stop Choosing Between Local and Cloud LLMs: A Field Guide to Hybrid Patterns",
-      "link": "https://towardsdatascience.com/stop-choosing-between-local-and-cloud-llms-a-field-guide-to-hybrid-patterns/",
-      "summary": "A hands-on walkthrough of a hybrid local-cloud workflow using Gemma 4 and GPT-5.4, with reasoning and structured outputs The post Stop Choosing Between Local and Cloud LLMs: A Field Guide to Hybrid Patterns appeared first on Towards Data Science .",
-      "source": "Towards Data Science",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 51,
-      "date": "2026-06-30T12:00:00+00:00",
-      "ts": 1782820800.0
-    },
-    {
       "title": "Bernie Sanders Saw This Coming",
       "link": "https://www.wired.com/story/the-big-interview-podcast-senator-bernie-sanders/",
       "summary": "For decades, the senator has argued that concentrated wealth threatened American democracy. Now he’s betting that frustration with Big Tech, billionaires, and unchecked AI is reaching a tipping point.",
@@ -1133,17 +1056,6 @@
       "ts": 1782559318.0
     },
     {
-      "title": "OpenAI restricts GPT-5.6 Sol to approved users during White House cyber review",
-      "link": "https://techxplore.com/news/2026-06-openai-restricts-gpt-sol-users.html",
-      "summary": "ChatGPT maker OpenAI said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump's administration, the latest in an unprecedented government vetting of AI products that could pose cybersecurity risks.",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 67,
-      "date": "2026-06-27T11:12:23+00:00",
-      "ts": 1782558743.0
-    },
-    {
       "title": "Accelerating Gemini Nano models on Pixel with frozen Multi-Token Prediction",
       "link": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/",
       "summary": "Machine Intelligence",
@@ -1153,17 +1065,6 @@
       "relevance": 57,
       "date": "2026-06-26T18:30:00+00:00",
       "ts": 1782498600.0
-    },
-    {
-      "title": "Fine-tuning Language Models on Apple Silicon with MLX",
-      "link": "https://www.kdnuggets.com/fine-tuning-language-models-on-apple-silicon-with-mlx",
-      "summary": "Fine-tune open language models locally on your Mac using MLX. No cloud GPUs or costs required.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 47,
-      "date": "2026-06-26T15:00:17+00:00",
-      "ts": 1782486017.0
     },
     {
       "title": "LLMs help robots understand vague instructions and focus on key details",
