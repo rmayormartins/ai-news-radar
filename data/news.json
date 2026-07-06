@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-06T15:00:03.755921+00:00",
-  "count": 143,
-  "china_count": 37,
+  "generated_at": "2026-07-06T19:43:11.025703+00:00",
+  "count": 145,
+  "china_count": 39,
   "japan_count": 0,
   "sources": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "source": "Hugging Face",
-      "status": "ok (816 itens)",
+      "status": "ok (817 itens)",
       "kept": 12
     },
     {
@@ -97,7 +97,7 @@
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 9
     },
     {
       "source": "MIT Tech Review",
@@ -132,12 +132,12 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 0
     },
     {
       "source": "Ars Technica",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "The Verge AI",
@@ -187,7 +187,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Synced (机器之心)",
@@ -297,6 +297,94 @@
   ],
   "items": [
     {
+      "title": "Cloudflare replaces its blanket AI bot block with granular controls for search, training, and agent crawlers",
+      "link": "https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/",
+      "summary": "Cloudflare is giving all customers granular AI bot controls. Site owners can now manage Search, Training, and Agent bots separately instead of blocking them all at once. Starting September 15, 2026, Training and Agent bots will be blocked by default on ad-supported pages. The article Cloudflare replaces its blanket AI...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 41,
+      "date": "2026-07-06T18:54:45+00:00",
+      "ts": 1783364085.0
+    },
+    {
+      "title": "Zhipu AI launches ZCode to challenge Claude Code and OpenAI Codex at a fraction of the cost",
+      "link": "https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/",
+      "summary": "Zhipu AI is bringing GLM-5.2 to its ZCode development environment, pitching the model's long-context capabilities for complex coding tasks. New customers get a free five-day trial with up to 5 million tokens per day, and subscribers receive about 1.5 times more token quota through July 2026. The article Zhipu AI...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 73,
+      "date": "2026-07-06T18:28:26+00:00",
+      "ts": 1783362506.0
+    },
+    {
+      "title": "Tencent releases Hy3 open-source model that allegedly matches models up to five times its active size",
+      "link": "https://the-decoder.com/tencent-releases-hy3-open-source-model-that-allegedly-matches-models-up-to-five-times-its-active-size/",
+      "summary": "Tencent has released Hy3, an open-source language model with 295 billion parameters built on a mixture-of-experts architecture. Only 21 billion parameters are active at any given time. Tencent says Hy3 matches models two to five times its size while cutting its hallucination rate in half to 5.4 percent. The article...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-07-06T18:03:15+00:00",
+      "ts": 1783360995.0
+    },
+    {
+      "title": "GPT-4's dominance lasted a year while today's top models barely survive seven weeks at the top",
+      "link": "https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/",
+      "summary": "OpenAI's GPT-4 led the Epoch Capabilities Index for about a year, far longer than any model since. Since Claude 3 Opus took the top spot in February 2024, the lead has changed hands 17 times, with a median stay of just seven weeks. Competition is fiercer now, but the capability gains between models are shrinking. The...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 66,
+      "date": "2026-07-06T17:14:11+00:00",
+      "ts": 1783358051.0
+    },
+    {
+      "title": "Run MiniMax models on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/run-minimax-models-on-amazon-bedrock/",
+      "summary": "In this post, we walk through how to get started with MiniMax models on Amazon Bedrock, including the capabilities supported by these models, the service tiers available, how on-demand inference scales to handle your workloads, and the different APIs you can use to access them. Using these models, customers can build...",
+      "source": "AWS Machine Learning",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 64,
+      "date": "2026-07-06T17:00:44+00:00",
+      "ts": 1783357244.0
+    },
+    {
+      "title": "Deploying Multi-Turn RL Infrastructure for Amazon Nova on Amazon SageMaker HyperPod",
+      "link": "https://aws.amazon.com/blogs/machine-learning/deploying-multi-turn-rl-infrastructure-for-amazon-nova-on-amazon-sagemaker-hyperpod/",
+      "summary": "In this post, you deploy a two-phase infrastructure for multi-turn RL using Amazon Nova Forge on Amazon SageMaker HyperPod. By the end, you have an event-driven pipeline that starts training when you upload data to Amazon Simple Storage Service (Amazon S3). The training job teaches the model to play Wordle, a...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 51,
+      "date": "2026-07-06T16:58:13+00:00",
+      "ts": 1783357093.0
+    },
+    {
+      "title": "Automatically redact PII in images with Amazon Nova",
+      "link": "https://aws.amazon.com/blogs/machine-learning/automatically-redact-pii-in-images-with-amazon-nova/",
+      "summary": "In this post, we present a multi-step pipeline directed by Amazon Nova, which uses its contextual vision reasoning to coordinate complementary tools, including Meta’s open-source Segment Anything Model (SAM 3) deployed on Amazon SageMaker AI for pixel-level segmentation, and Amazon Textract for optical character...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 55,
+      "date": "2026-07-06T16:55:02+00:00",
+      "ts": 1783356902.0
+    },
+    {
+      "title": "Secret Claude tracker shocks users after Anthropic’s anti-surveillance stance",
+      "link": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/",
+      "summary": "Anthropic accused of spying on users; engineer says “experiment” is over.",
+      "source": "Ars Technica",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 46,
+      "date": "2026-07-06T16:44:18+00:00",
+      "ts": 1783356258.0
+    },
+    {
       "title": "Seven years of testing exposed hidden trade-offs in MLB's AI strike zone",
       "link": "https://techxplore.com/news/2026-07-years-exposed-hidden-offs-mlb.html",
       "summary": "Training artificial intelligence to enforce even seemingly straightforward rules—like balls and strikes in Major League Baseball (MLB)—is a messy, dynamic process that takes time and careful evaluation of the technology in the wild, according to new Cornell research.",
@@ -306,6 +394,17 @@
       "relevance": 43,
       "date": "2026-07-06T15:00:02+00:00",
       "ts": 1783350002.0
+    },
+    {
+      "title": "How to Run End-to-End Tests with Claude Code",
+      "link": "https://towardsdatascience.com/how-to-run-end-to-end-tests-with-claude-code/",
+      "summary": "Increase the effectiveness of your coding agents through end-to-end testing. The post How to Run End-to-End Tests with Claude Code appeared first on Towards Data Science .",
+      "source": "Towards Data Science",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 49,
+      "date": "2026-07-06T15:00:00+00:00",
+      "ts": 1783350000.0
     },
     {
       "title": "Getting Started with Hugging Face ML Intern: Your First ML Agent",
@@ -396,6 +495,39 @@
       "ts": 1783296000.0
     },
     {
+      "title": "Revisiting ASR Error Correction with Specialized Models",
+      "link": "https://machinelearning.apple.com/research/asr-error-correction",
+      "summary": "Language models play a central role in automatic speech recognition (ASR), yet most methods rely on text-only models unaware of ASR error patterns. Recently, large language models (LLMs) have been applied to ASR correction, but introduce latency and hallucination concerns. We revisit ASR error correction with compact...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 48,
+      "date": "2026-07-06T00:00:00+00:00",
+      "ts": 1783296000.0
+    },
+    {
+      "title": "TopoPrimer: The Missing Topological Context in Forecasting Models",
+      "link": "https://machinelearning.apple.com/research/topoprimer-topological-context",
+      "summary": "We introduce TopoPrimer, a framework that makes the global topological structure of the series population an explicit input to any forecasting model. TopoPrimer improves accuracy across diverse domains, stabilizes forecasts under seasonal demand spikes, and closes the cold-start gap. Precomputed once per domain via...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 48,
+      "date": "2026-07-06T00:00:00+00:00",
+      "ts": 1783296000.0
+    },
+    {
+      "title": "Scaling Properties of Continuous Diffusion Spoken Language Models",
+      "link": "https://machinelearning.apple.com/research/scaling-properties-continuous-diffusion",
+      "summary": "Speech-only spoken language models (SLMs) lag behind text and text-speech models in performance, with recent discrete autoregressive (AR) SLMs indicating significant computational and data demands to match text models. Since discretizing continuous speech for AR creates bottlenecks, we explore whether continuous...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 48,
+      "date": "2026-07-06T00:00:00+00:00",
+      "ts": 1783296000.0
+    },
+    {
       "title": "DeepSeek Unveils DSpark, Cutting AI Response Times Sharply",
       "link": "https://thechinaacademy.org/deepseek-unveils-dspark-cutting-ai-response-times-sharply/",
       "summary": "DeepSeek just unveiled an AI speed boost that's catching the industry off guard. The post DeepSeek Unveils DSpark, Cutting AI Response Times Sharply first appeared on China Academy .",
@@ -451,28 +583,6 @@
       "ts": 1783251173.0
     },
     {
-      "title": "Mistral CEO Mensch says proprietary AI models give labs a front-row seat to your business processes",
-      "link": "https://the-decoder.com/mistral-ceo-mensch-says-proprietary-ai-models-give-labs-a-front-row-seat-to-your-business-processes/",
-      "summary": "Mistral founder Arthur Mensch warns companies against relying on closed AI models. He claims AI labs are storing more and more customer data and have, in some cases, used it to go after their own customers as competitors. The concern is valid, but Mistral can't really compete with frontier models from OpenAI or...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 58,
-      "date": "2026-07-05T10:22:06+00:00",
-      "ts": 1783246926.0
-    },
-    {
-      "title": "AI search agents don't fail at searching, they fail at asking the right questions when queries get ambiguous",
-      "link": "https://the-decoder.com/ai-search-agents-dont-fail-at-searching-they-fail-at-asking-the-right-questions-when-queries-get-ambiguous/",
-      "summary": "AI search agents rarely fail at multi-step research because of the search itself. Their real problem is not asking the user for clarification when queries are ambiguous. A new benchmark called DiscoBench shows that models searching repeatedly instead of asking follow-up questions actually perform worse, at 51.9...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 56,
-      "date": "2026-07-05T07:52:17+00:00",
-      "ts": 1783237937.0
-    },
-    {
       "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
       "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
       "summary": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to SemVer and like my incompatible major versions...",
@@ -482,28 +592,6 @@
       "relevance": 54,
       "date": "2026-07-05T01:00:48+00:00",
       "ts": 1783213248.0
-    },
-    {
-      "title": "Alibaba reportedly bans employees from using Claude Code",
-      "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
-      "summary": "Alibaba has reportedly classified Claude Code as high-risk software.",
-      "source": "TechCrunch",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 46,
-      "date": "2026-07-04T16:32:08+00:00",
-      "ts": 1783182728.0
-    },
-    {
-      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
-      "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
-      "summary": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 59,
-      "date": "2026-07-04T15:51:32+00:00",
-      "ts": 1783180292.0
     },
     {
       "title": "The fanfiction community is at war with AI — and itself",
@@ -627,28 +715,6 @@
       "ts": 1782986432.0
     },
     {
-      "title": "On Robustness and Chain-of-Thought Consistency of RL-Finetuned VLMs",
-      "link": "https://machinelearning.apple.com/research/robustness-chain-thought-consistency",
-      "summary": "Reinforcement learning (RL) finetuning has become a key technique for enhancing large language models (LLMs) on reasoning-intensive tasks, motivating its extension to vision language models (VLMs). While RL-tuned VLMs improve on visual reasoning benchmarks, they remain vulnerable to weak visual grounding,...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 63,
-      "date": "2026-07-02T00:00:00+00:00",
-      "ts": 1782950400.0
-    },
-    {
-      "title": "Learning Unmasking Policies for Diffusion Language Models",
-      "link": "https://machinelearning.apple.com/research/unmasking",
-      "summary": "Diffusion (Large) Language Models (dLLMs) now match the downstream performance of their autoregressive counterparts on many tasks, while holding the promise of being more efficient during inference. One critical design aspect of dLLMs is the sampling procedure that selects which tokens to unmask at each diffusion...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 59,
-      "date": "2026-07-02T00:00:00+00:00",
-      "ts": 1782950400.0
-    },
-    {
       "title": "Amortizing Maximum Inner Product Search with Learned Support Functions",
       "link": "https://machinelearning.apple.com/research/amortizing-inner-product-search",
       "summary": "Maximum inner product search (MIPS) is a crucial subroutine in machine learning, requiring the identification of a vector taken within a database (the keys) that best aligns with a given query. We propose amortized MIPS: a regression-based approach that trains neural networks to directly predict MIPS solutions,...",
@@ -660,24 +726,13 @@
       "ts": 1782950400.0
     },
     {
-      "title": "MemoryLLM: Plug-n-Play Interpretable Feed-Forward Memory for Transformers",
-      "link": "https://machinelearning.apple.com/research/memoryllm",
-      "summary": "Understanding how transformer components operate in LLMs is important, as it is at the core of recent technological advances in artificial intelligence. In this work, we revisit the challenges associated with interpretability of feed-forward modules (FFNs) and propose MemoryLLM, which aims to decouple FFNs from...",
+      "title": "VideoFlexTok: Flexible-Length Coarse-to-Fine Video Tokenization",
+      "link": "https://machinelearning.apple.com/research/videoflextok",
+      "summary": "Visual tokenizers map high-dimensional raw pixels into a compressed representation for downstream modeling. Beyond compression, tokenizers dictate what information is preserved and how it is organized. A de facto standard approach to video tokenization is to represent a video as a spatiotemporal 3D grid of tokens,...",
       "source": "Apple ML Research",
       "region": "global",
-      "category": "pesquisa",
-      "relevance": 51,
-      "date": "2026-07-02T00:00:00+00:00",
-      "ts": 1782950400.0
-    },
-    {
-      "title": "Learning Structured Reasoning via Tractable Trajectory Control",
-      "link": "https://machinelearning.apple.com/research/learning-structured-reasoning",
-      "summary": "Large language models can exhibit emergent reasoning behaviors, often manifested as recurring lexical patterns (e.g., “wait,” indicating verification). However, complex reasoning trajectories remain sparse in unconstrained sampling, and standard RL often fails to guarantee the acquisition of diverse reasoning...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 50,
+      "category": "modelo",
+      "relevance": 49,
       "date": "2026-07-02T00:00:00+00:00",
       "ts": 1782950400.0
     },
@@ -691,17 +746,6 @@
       "relevance": 70,
       "date": "2026-07-01T18:14:34+00:00",
       "ts": 1782929674.0
-    },
-    {
-      "title": "Simplify model selection in Amazon Bedrock with the open source Model Profiler",
-      "link": "https://aws.amazon.com/blogs/machine-learning/simplify-model-selection-in-amazon-bedrock-with-the-open-source-model-profiler/",
-      "summary": "The Amazon Bedrock Model Profiler is an open source tool that aggregates model metadata from multiple AWS APIs and external sources into a single, searchable interface. In this post, you’ll learn what the Model Profiler provides, the real-world scenarios it supports, and how to deploy it in your own environment in...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 47,
-      "date": "2026-07-01T17:46:54+00:00",
-      "ts": 1782928014.0
     },
     {
       "title": "AI changes its behavior around authority... and that could be risky",
@@ -847,17 +891,6 @@
       "ts": 1782844370.0
     },
     {
-      "title": "How Outpost VFX Uses AWS to Accelerate AI Model Training for Visual Effects",
-      "link": "https://aws.amazon.com/blogs/machine-learning/how-outpost-vfx-uses-aws-to-accelerate-ai-model-training-for-visual-effects/",
-      "summary": "In this post, we explore how Outpost VFX achieved 8x faster training speeds using AWS infrastructure to transform their face replacement workflow, the technical architecture they implemented to overcome single-GPU limitations, and the measurable results achieved through AWS multi-GPU training.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 49,
-      "date": "2026-06-30T16:37:09+00:00",
-      "ts": 1782837429.0
-    },
-    {
       "title": "Q&A: What is agentic AI today, and what do we want it to be?",
       "link": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
       "summary": "Computer scientist Phillip Isola cuts through the hype to explain how AI agents work and what the future might hold for this rapidly advancing technology.",
@@ -979,17 +1012,6 @@
       "ts": 1782759612.0
     },
     {
-      "title": "Pair Nova 2 Lite with Claude for cost-optimized document processing",
-      "link": "https://aws.amazon.com/blogs/machine-learning/pair-nova-2-lite-with-claude-for-cost-optimized-document-processing/",
-      "summary": "In this post, we show how pairing Amazon Nova 2 Lite with Anthropic’s Claude Sonnet 4.6 delivers an efficient solution for digitizing scanned documents at scale. We built a two-model pipeline on Amazon Bedrock for digitizing scanned yearbook pages. Amazon Nova 2 Lite handles native multimodal extraction in a single...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 61,
-      "date": "2026-06-29T17:52:33+00:00",
-      "ts": 1782755553.0
-    },
-    {
       "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
       "link": "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
       "summary": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding This is an interesting new open weights (MIT licensed) model, the first model release from DeepReinforce. [...] with variants including 9B Dense, 31B Dense, 35B MoE, and 397B MoE. Built on top of pretrained Gemma 4 and Qwen 3.5, it achieves state-of-the-art...",
@@ -1065,6 +1087,17 @@
       "relevance": 57,
       "date": "2026-06-26T18:30:00+00:00",
       "ts": 1782498600.0
+    },
+    {
+      "title": "‘Digital ID cards’: China moves to regulate AI agents with unified identity system",
+      "link": "https://www.scmp.com/tech/policy/article/3358559/digital-id-cards-china-moves-regulate-ai-agents-unified-identity-system?utm_source=rss_feed",
+      "summary": "China is establishing an identity system for artificial intelligence agents, as part of new national standards released on Friday to regulate the next frontier of autonomous technology. The State Administration for Market Regulation (SAMR) unveiled the standard for “Artificial Intelligence Agent Interconnection”,...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 48,
+      "date": "2026-06-26T13:45:17+00:00",
+      "ts": 1782481517.0
     },
     {
       "title": "LLMs help robots understand vague instructions and focus on key details",
@@ -1472,17 +1505,6 @@
       "relevance": 32,
       "date": "2026-06-12T17:52:00+00:00",
       "ts": 1781286720.0
-    },
-    {
-      "title": "China’s chip design software firms back Huawei’s new scaling law. But can they catch US rivals?",
-      "link": "https://www.scmp.com/tech/big-tech/article/3356853/chinas-chip-software-firms-back-huaweis-new-scaling-law-can-they-catch-us-rivals?utm_source=rss_feed",
-      "summary": "China’s chip design software industry is rallying behind Huawei Technologies’ ambitious new architecture aimed at producing chips that can rival leading global products, but analysts warn a steep uphill climb remains before local players can break the market stranglehold of US rivals. Empyrean Technology, a major...",
-      "source": "SCMP Big Tech",
-      "region": "china",
-      "category": "pesquisa",
-      "relevance": 50,
-      "date": "2026-06-12T10:54:32+00:00",
-      "ts": 1781261672.0
     },
     {
       "title": "When it comes to predicting people’s preferences, it pays to consider “the power of three”",
