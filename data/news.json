@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-07T19:41:57.774486+00:00",
-  "count": 191,
+  "generated_at": "2026-07-08T01:48:35.741707+00:00",
+  "count": 194,
   "china_count": 51,
   "japan_count": 0,
   "sources": [
@@ -26,7 +26,7 @@
     },
     {
       "source": "Hugging Face",
-      "status": "ok (819 itens)",
+      "status": "ok (820 itens)",
       "kept": 12
     },
     {
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -132,7 +132,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 3
     },
     {
       "source": "Ars Technica",
@@ -142,7 +142,7 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "Wired AI",
@@ -296,6 +296,39 @@
     }
   ],
   "items": [
+    {
+      "title": "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos",
+      "link": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+      "summary": "The new image-generating model has numerous use cases, including advertising, decorating and creator-based opportunities.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 40,
+      "date": "2026-07-07T22:18:10+00:00",
+      "ts": 1783462690.0
+    },
+    {
+      "title": "Meta’s new Muse Image model can pull other Instagram users into AI photos",
+      "link": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
+      "summary": "Meta is launching the first AI image generation model made by its Superintelligence Labs division. The Muse Image model now powers the image-making tools across the Meta AI app, Instagram, and WhatsApp, and it's coming soon to Facebook and Messenger, according to an announcement on Tuesday. It's part of the growing...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 44,
+      "date": "2026-07-07T20:31:58+00:00",
+      "ts": 1783456318.0
+    },
+    {
+      "title": "Why the rise of open source AI isn’t hurting Anthropic … yet",
+      "link": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
+      "summary": "Open source models’ success isn’t coming at the expense of frontier labs. Instead, they each seem to capture two phases of the same life cycle.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 44,
+      "date": "2026-07-07T20:04:32+00:00",
+      "ts": 1783454672.0
+    },
     {
       "title": "Copilot goes cheap as Microsoft phases out OpenAI and Anthropic models to cut costs",
       "link": "https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/",
@@ -583,6 +616,17 @@
       "ts": 1783396800.0
     },
     {
+      "title": "CONFLUX: A Latent Diffusion Model for 3D Chest-CT Synthesis with RL Post-Training",
+      "link": "https://arxiv.org/abs/2607.02998",
+      "summary": "arXiv:2607.02998v2 Announce Type: cross Abstract: Controllable generative models of 3D medical images can synthesize volumes with specified clinical attributes, but this demands samples that are simultaneously high-fidelity, natively 3D, and faithful to the requested conditioning. We present CONFLUX, a latent...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 75,
+      "date": "2026-07-07T04:00:00+00:00",
+      "ts": 1783396800.0
+    },
+    {
       "title": "Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer",
       "link": "https://arxiv.org/abs/2511.22699",
       "summary": "arXiv:2511.22699v5 Announce Type: replace Abstract: The landscape of high-performance image generation models is currently dominated by proprietary systems, such as Nano Banana Pro and Seedream 4.0. Leading open-source alternatives, including Qwen-Image, Hunyuan-Image-3.0 and FLUX.2, are characterized by massive...",
@@ -612,17 +656,6 @@
       "region": "china",
       "category": "modelo",
       "relevance": 74,
-      "date": "2026-07-07T04:00:00+00:00",
-      "ts": 1783396800.0
-    },
-    {
-      "title": "CONFLUX: A Latent Diusion Model for 3D Chest-CT Synthesis with RL Post-Training",
-      "link": "https://arxiv.org/abs/2607.02998",
-      "summary": "arXiv:2607.02998v1 Announce Type: cross Abstract: Controllable generative models of 3D medical images can synthesize volumes with specified clinical attributes, but this demands samples that are simultaneously high-fidelity, natively 3D, and faithful to the requested conditioning. We present CONFLUX, a latent...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 73,
       "date": "2026-07-07T04:00:00+00:00",
       "ts": 1783396800.0
     },
@@ -662,7 +695,7 @@
     {
       "title": "Quantize the Target, Quantize the Drafter: Efficient Inference with Qwen3.5-4B",
       "link": "https://arxiv.org/abs/2607.04244",
-      "summary": "arXiv:2607.04244v1 Announce Type: new Abstract: This report describes our approach to the Efficient Qwen Competition, where the goal is to enable low-latency serving of Qwen3.5-4B on a resource-constrained NVIDIA A10G GPU. Our system combines a quantized target model with speculative decoding. To recover accuracy, we...",
+      "summary": "arXiv:2607.04244v2 Announce Type: new Abstract: This report describes our approach to the Efficient Qwen Competition, where the goal is to enable low-latency serving of Qwen3.5-4B on a resource-constrained NVIDIA A10G GPU. Our system combines a quantized target model with speculative decoding. To recover accuracy, we...",
       "source": "arXiv cs.LG",
       "region": "china",
       "category": "modelo",
@@ -942,6 +975,17 @@
       "region": "global",
       "category": "modelo",
       "relevance": 63,
+      "date": "2026-07-07T00:00:00+00:00",
+      "ts": 1783382400.0
+    },
+    {
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "link": "https://openai.com/index/mufg",
+      "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 62,
       "date": "2026-07-07T00:00:00+00:00",
       "ts": 1783382400.0
     },
@@ -2000,17 +2044,6 @@
       "relevance": 44,
       "date": "2026-06-16T03:32:04+00:00",
       "ts": 1781580724.0
-    },
-    {
-      "title": "Predicting model behavior before release by simulating deployment",
-      "link": "https://openai.com/index/deployment-simulation",
-      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 62,
-      "date": "2026-06-16T00:00:00+00:00",
-      "ts": 1781568000.0
     },
     {
       "title": "We’re strengthening our presence in Alabama through new investments and community support.",
