@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-09T19:22:56.699451+00:00",
-  "count": 184,
-  "china_count": 41,
+  "generated_at": "2026-07-10T01:59:10.091355+00:00",
+  "count": 182,
+  "china_count": 40,
   "japan_count": 0,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1038 itens)",
+      "status": "ok (1039 itens)",
       "kept": 12
     },
     {
@@ -96,13 +96,13 @@
     },
     {
       "source": "The Decoder",
-      "status": "ERRO: HTTP Error 500: Internal Server Error",
+      "status": "ERRO: <urlopen error [Errno -3] Temporary failure in name resolution>",
       "kept": 0
     },
     {
       "source": "MIT Tech Review",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "VentureBeat AI",
@@ -137,17 +137,17 @@
     {
       "source": "Ars Technica",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 4
     },
     {
       "source": "Wired AI",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Analytics India",
@@ -162,7 +162,7 @@
     {
       "source": "The Algorithmic Bridge",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "One Useful Thing",
@@ -297,6 +297,83 @@
   ],
   "items": [
     {
+      "title": "Quoting OpenAI",
+      "link": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
+      "summary": "[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work threads and local files remain on that computer. — OpenAI , trying (unsuccessfully) to clarify ChatGPT...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 63,
+      "date": "2026-07-10T01:05:57+00:00",
+      "ts": 1783645557.0
+    },
+    {
+      "title": "OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter",
+      "link": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+      "summary": "OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-07-10T00:16:54+00:00",
+      "ts": 1783642614.0
+    },
+    {
+      "title": "OpenAI launches its new family of models with GPT-5.6",
+      "link": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "summary": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 59,
+      "date": "2026-07-09T22:24:24+00:00",
+      "ts": 1783635864.0
+    },
+    {
+      "title": "OpenAI GPT-5.6: AI Could Do Anything, Then It Met ARC-AGI-3",
+      "link": "https://www.thealgorithmicbridge.com/p/openai-gpt-56-ai-could-do-anything",
+      "summary": "GPT-5.6’s ARC-AGI-3 score is scandalously bad and scandalously good",
+      "source": "The Algorithmic Bridge",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 52,
+      "date": "2026-07-09T20:46:03+00:00",
+      "ts": 1783629963.0
+    },
+    {
+      "title": "The ChatGPT browser is already dead",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
+      "summary": "OpenAI is already shutting down ChatGPT Atlas, its browser that could do tasks for you on your behalf, less than a year after launching it. Atlas was announced in October, but as part of its wave of news about ChatGPT Work today, the company confirmed that it will be \"sunsetting\" Atlas and is targeting an […]",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 61,
+      "date": "2026-07-09T20:34:05+00:00",
+      "ts": 1783629245.0
+    },
+    {
+      "title": "Anthropic found a hidden space where Claude puzzles over concepts",
+      "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+      "summary": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers at the company built a tool called the Jacobian lens (or…",
+      "source": "MIT Tech Review",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 64,
+      "date": "2026-07-09T20:22:28+00:00",
+      "ts": 1783628548.0
+    },
+    {
+      "title": "The new GPT-5.6 family: Luna, Terra, Sol",
+      "link": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
+      "summary": "OpenAI's latest flagship model hit general availability this morning , and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the Claude Fable 5 is...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 70,
+      "date": "2026-07-09T19:46:38+00:00",
+      "ts": 1783626398.0
+    },
+    {
       "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
       "link": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
       "summary": "News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions.",
@@ -396,17 +473,6 @@
       "ts": 1783614249.0
     },
     {
-      "title": "Anthropic’s new Claude feature is quietly selling you on AI",
-      "link": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
-      "summary": "Claude’s new Reflect dashboard doesn’t just visualize how you use AI. It also subtly reinforces how much of your daily work now depends on Anthropic’s chatbot.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 49,
-      "date": "2026-07-09T14:53:09+00:00",
-      "ts": 1783608789.0
-    },
-    {
       "title": "Running OpenClaw with Ollama",
       "link": "https://www.kdnuggets.com/running-openclaw-with-ollama",
       "summary": "This article covers the full path from zero to a running private research assistant on Telegram, including configuring the context length correctly, connecting the channel, enabling web search, and deploying it headlessly in Docker.",
@@ -451,13 +517,13 @@
       "ts": 1783603208.0
     },
     {
-      "title": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users",
-      "link": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
-      "summary": "Benchmark-backed Ollama has amassed 176,000 stars, and nearly 17,000 forks on GitHub by helping developers easily run AI on their PCs.",
-      "source": "TechCrunch",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "source": "OpenAI",
       "region": "global",
       "category": "modelo",
-      "relevance": 57,
+      "relevance": 65,
       "date": "2026-07-09T13:00:00+00:00",
       "ts": 1783602000.0
     },
@@ -882,7 +948,7 @@
     {
       "title": "TouchWorld: A Predictive and Reactive Tactile Foundation Model for Dexterous Manipulation",
       "link": "https://arxiv.org/abs/2607.07287",
-      "summary": "arXiv:2607.07287v1 Announce Type: new Abstract: Dexterous manipulation in everyday environments requires both anticipation and reaction: a robot must predict how contact should evolve while rapidly correcting local errors caused by slip, misalignment, unstable grasping, or force mismatch. Vision and language provide...",
+      "summary": "arXiv:2607.07287v2 Announce Type: new Abstract: Dexterous manipulation in everyday environments requires both anticipation and reaction: a robot must predict how contact should evolve while rapidly correcting local errors caused by slip, misalignment, unstable grasping, or force mismatch. Vision and language provide...",
       "source": "arXiv cs.RO",
       "region": "global",
       "category": "modelo",
@@ -924,6 +990,28 @@
       "ts": 1783555200.0
     },
     {
+      "title": "Recursive Language Models Meet Uncertainty: The Surprising Effectiveness of Self-Reflective Program Search for Long Context",
+      "link": "https://machinelearning.apple.com/research/self-reflective-program-search",
+      "summary": "Long-context handling remains a core challenge for language models: even with extended context windows, models often fail to reliably extract, reason over, and use the information across long contexts. Recent works like Recursive Language Models (RLMs) have approached this challenge by agentic way of decomposing long...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 63,
+      "date": "2026-07-09T00:00:00+00:00",
+      "ts": 1783555200.0
+    },
+    {
+      "title": "Unmasking On-Policy Distillation: Where It Helps, Where It Hurts, and Why",
+      "link": "https://machinelearning.apple.com/research/unmasking-on-policy-distillation",
+      "summary": "On-policy distillation offers dense, per-token supervision for training reasoning models; however, it remains unclear under which conditions this signal is beneficial and under which it is detrimental. Which teacher model should be used, and in the case of self-distillation, which specific context should serve as the...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 59,
+      "date": "2026-07-09T00:00:00+00:00",
+      "ts": 1783555200.0
+    },
+    {
       "title": "Introducing Claude apps gateway for AWS",
       "link": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-apps-gateway-for-aws/",
       "summary": "Today, we're announcing the Claude apps gateway for AWS, a self-hosted control plane that gives organizations a single point of control over access, cost, and policy for Claude Code and Claude Desktop. In this post, we show how to set up and run Claude apps gateway for AWS with Amazon Bedrock and Claude Platform on...",
@@ -933,17 +1021,6 @@
       "relevance": 51,
       "date": "2026-07-08T19:49:22+00:00",
       "ts": 1783540162.0
-    },
-    {
-      "title": "ChatGPT’s upgraded voice mode is better at shutting up",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
-      "summary": "OpenAI is overhauling ChatGPT's voice mode with a new model that it says is more like \"talking to another person.\" The new GPT-Live-1 is designed to interrupt you less and will also wait for you to continue speaking if you pause mid-conversation. During a press briefing, OpenAI research lead Kundan Kumar called...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 64,
-      "date": "2026-07-08T17:00:00+00:00",
-      "ts": 1783530000.0
     },
     {
       "title": "Powering scientific discovery: BYOKG and GraphRAG for intelligent pharmaceutical research",
@@ -966,17 +1043,6 @@
       "relevance": 58,
       "date": "2026-07-08T16:51:35+00:00",
       "ts": 1783529495.0
-    },
-    {
-      "title": "Google updates Android Bench with new LLMs, but Gemini still lags behind",
-      "link": "https://arstechnica.com/google/2026/07/google-revamps-android-ai-dev-benchmark-adds-fable-5-and-other-agents/",
-      "summary": "Android Bench is evolving, and developers can help guide that process.",
-      "source": "Ars Technica",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 49,
-      "date": "2026-07-08T16:39:48+00:00",
-      "ts": 1783528788.0
     },
     {
       "title": "Behind the Delivery Riders: Meituan Quietly Built a Trillion-Parameter AI Model",
@@ -1078,17 +1144,6 @@
       "ts": 1783468800.0
     },
     {
-      "title": "Meta’s new Muse Image model can pull other Instagram users into AI photos",
-      "link": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
-      "summary": "Meta is launching the first AI image generation model made by its Superintelligence Labs division. The Muse Image model now powers the image-making tools across the Meta AI app, Instagram, and WhatsApp, and it's coming soon to Facebook and Messenger, according to an announcement on Tuesday. It's part of the growing...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 44,
-      "date": "2026-07-07T20:31:58+00:00",
-      "ts": 1783456318.0
-    },
-    {
       "title": "IEEE Honors Robotics Pioneer Toshio Fukuda",
       "link": "https://spectrum.ieee.org/ieee-honors-toshio-fukuda",
       "summary": "Toshio Fukuda has been blazing trails for most of his career. He is considered to be one of the most prolific scholars in robotics , writing more than 2,000 research papers and authoring several books on the field. He’s an influential figure thanks to his pioneering work developing biomedical robotic systems,...",
@@ -1100,17 +1155,6 @@
       "ts": 1783450962.0
     },
     {
-      "title": "Anthropic is launching Claude Cowork on mobile and web",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
-      "summary": "Starting Tuesday, Anthropic's Claude Cowork AI platform will be available on mobile and web for the first time. The expanded access is rolling out first to Max subscribers and coming to Claude users on other plans \"in the coming weeks.\" Claude Cowork was previously only accessible through the Claude desktop app for...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 57,
-      "date": "2026-07-07T17:46:59+00:00",
-      "ts": 1783446419.0
-    },
-    {
       "title": "Monitoring discriminative ML models using Amazon SageMaker AI with MLflow",
       "link": "https://aws.amazon.com/blogs/machine-learning/monitoring-discriminative-ml-models-using-amazon-sagemaker-ai-with-mlflow/",
       "summary": "Implementing a data and model monitoring solution is necessary to maintain prediction accuracy and help achieve the best outcome for your machine learning use case. This post shows how you can use open source Evidently together with Amazon SageMaker AI to generate monitoring reports, organize and compare the results...",
@@ -1120,17 +1164,6 @@
       "relevance": 43,
       "date": "2026-07-07T16:49:09+00:00",
       "ts": 1783442949.0
-    },
-    {
-      "title": "Shut Those Laptops! Anthropic Puts Its Claude Cowork Agent on Your Phone",
-      "link": "https://www.wired.com/story/shut-those-laptops-anthropic-puts-its-claude-cowork-agent-on-your-phone/",
-      "summary": "Claude Cowork now keeps working on tasks even after you close your laptop. It’s part of a larger push toward smartphone-controlled agents.",
-      "source": "Wired AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 52,
-      "date": "2026-07-07T16:00:00+00:00",
-      "ts": 1783440000.0
     },
     {
       "title": "Jesse Thaler named director of the Laboratory for Nuclear Science",
@@ -1243,28 +1276,6 @@
       "ts": 1783382400.0
     },
     {
-      "title": "MT-EditFlow: Reinforcement Learning for Multi-Turn Image Editing with Flow Matching",
-      "link": "https://machinelearning.apple.com/research/mt-editflow-image-editing",
-      "summary": "Recent breakthroughs in instruction-based image editing have captured significant attention, as models are now capable of handling real-world editing demands with the practicality required by everyday users. However, editing models trained primarily for single-turn edits often break down in multi-turn editing—the...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 52,
-      "date": "2026-07-07T00:00:00+00:00",
-      "ts": 1783382400.0
-    },
-    {
-      "title": "tencent/Hy3",
-      "link": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
-      "summary": "tencent/Hy3 New Apache 2.0 licensed model from Tencent in China: Hy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Following the Hy3 Preview launch in late April, we gathered feedback from 50+ products and scaled up...",
-      "source": "Simon Willison",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 52,
-      "date": "2026-07-06T23:57:35+00:00",
-      "ts": 1783382255.0
-    },
-    {
       "title": "Run MiniMax models on Amazon Bedrock",
       "link": "https://aws.amazon.com/blogs/machine-learning/run-minimax-models-on-amazon-bedrock/",
       "summary": "In this post, we walk through how to get started with MiniMax models on Amazon Bedrock, including the capabilities supported by these models, the service tiers available, how on-demand inference scales to handle your workloads, and the different APIs you can use to access them. Using these models, customers can build...",
@@ -1351,17 +1362,6 @@
       "relevance": 66,
       "date": "2026-07-06T02:40:28+00:00",
       "ts": 1783305628.0
-    },
-    {
-      "title": "Path-Constrained Mixture-of-Experts",
-      "link": "https://machinelearning.apple.com/research/path-constrained-mixture-experts",
-      "summary": "Sparse Mixture-of-Experts (MoE) architectures route each token through a subset of experts at each layer independently. We propose viewing MoE computation through the lens of expert paths—the sequence of expert selections a token makes across all layers. This perspective reveals that, despite N^L possible paths for N...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 52,
-      "date": "2026-07-06T00:00:00+00:00",
-      "ts": 1783296000.0
     },
     {
       "title": "DeepSeek Unveils DSpark, Cutting AI Response Times Sharply",
@@ -1494,17 +1494,6 @@
       "relevance": 57,
       "date": "2026-06-30T21:50:04+00:00",
       "ts": 1782856204.0
-    },
-    {
-      "title": "What's new in Claude Sonnet 5",
-      "link": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
-      "summary": "What's new in Claude Sonnet 5 Claude Sonnet 5 came out this morning . I always head straight for the \"what's new\" developer docs because they tend to have more actionable information than the official announcement post. Anthropic say of Sonnet 5 that \"its performance is close to that of Opus 4.8, but at lower prices\"....",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 54,
-      "date": "2026-06-30T21:23:02+00:00",
-      "ts": 1782854582.0
     },
     {
       "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
@@ -2088,17 +2077,6 @@
       "relevance": 65,
       "date": "2026-06-04T12:00:00+00:00",
       "ts": 1780574400.0
-    },
-    {
-      "title": "Dreaming: Better memory for a more helpful ChatGPT",
-      "link": "https://openai.com/index/chatgpt-memory-dreaming",
-      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 63,
-      "date": "2026-06-04T09:00:00+00:00",
-      "ts": 1780563600.0
     },
     {
       "title": "Qwen opens platform to third-party AI Agents, onboards KFC, Luckin Coffee, Mixue and more",
