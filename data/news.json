@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-12T01:49:21.386037+00:00",
-  "count": 160,
-  "china_count": 43,
-  "japan_count": 3,
+  "generated_at": "2026-07-12T08:00:21.869904+00:00",
+  "count": 149,
+  "china_count": 42,
+  "japan_count": 1,
   "sources": [
     {
       "source": "OpenAI",
@@ -66,8 +66,8 @@
     },
     {
       "source": "arXiv cs.AI",
-      "status": "ok (253 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.LG",
@@ -207,7 +207,7 @@
     {
       "source": "Pandaily",
       "status": "ok (20 itens)",
-      "kept": 9
+      "kept": 8
     },
     {
       "source": "TechNode",
@@ -277,7 +277,7 @@
     {
       "source": "The Japan Times",
       "status": "ok (30 itens)",
-      "kept": 3
+      "kept": 1
     },
     {
       "source": "Japan Today",
@@ -296,6 +296,39 @@
     }
   ],
   "items": [
+    {
+      "title": "AI agents win at Slay the Spire 2 after researchers replace growing chat logs with structured memory",
+      "link": "https://the-decoder.com/ai-agents-win-at-slay-the-spire-2-after-researchers-replace-growing-chat-logs-with-structured-memory/",
+      "summary": "The AgenticSTS project replaces the ever-growing chat log of AI agents with five separate memory layers. Tested on the card game Slay the Spire 2, the prompt stays at around 5,000 tokens instead of ballooning past 500,000. The agent wins 6 out of 10 games, while competing agents don't win any. The article AI agents...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 52,
+      "date": "2026-07-12T07:45:35+00:00",
+      "ts": 1783842335.0
+    },
+    {
+      "title": "Dexmal Aims to Ignite Embodied AI Productivity With DM0.5 Model, DexOS, and MaaS Three-Stage Strategy",
+      "link": "https://pandaily.com/dexmal-embodied-ai-dm05-dexos-maas-jul2026",
+      "summary": "Dexmal releases DM0.5 foundation model, Apex universal robot, DexOS operating system, and MaaS platform, targeting the final engineering gap between embodied AI models and real-world productivity.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 51,
+      "date": "2026-07-12T02:37:37+00:00",
+      "ts": 1783823857.0
+    },
+    {
+      "title": "Hands-On With Haier AI Exoskeleton W3: Is This Home-Ready Wearable Robot Finally Here?",
+      "link": "https://pandaily.com/haier-ai-exoskeleton-w3-gz-store-jul2026",
+      "summary": "Haier third-generation AI exoskeleton W3 weighs just 1.75 kg at $2200, featuring AI gait learning that adapts to user walking patterns in real time, now available at physical stores in Guangzhou.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-07-12T02:37:13+00:00",
+      "ts": 1783823833.0
+    },
     {
       "title": "OpenAI's GPT-5.6 Sol Ultra reportedly solves a 50-year-old math problem in under an hour",
       "link": "https://the-decoder.com/openais-gpt-5-6-sol-ultra-reportedly-solves-a-50-year-old-math-problem-in-under-an-hour/",
@@ -429,94 +462,6 @@
       "ts": 1783752980.0
     },
     {
-      "title": "Conversational AI for Rapid Scientific Prototyping: A Case Study on ESA's ELOPE Competition",
-      "link": "https://arxiv.org/abs/2601.04920",
-      "summary": "arXiv:2601.04920v2 Announce Type: replace Abstract: Large language models (LLMs) are increasingly used as coding partners, yet their role in accelerating scientific discovery remains underexplored. This paper presents a case study of using ChatGPT for rapid prototyping in ESA's ELOPE (Event-based Lunar OPtical flow...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 74,
-      "date": "2026-07-11T04:00:00+00:00",
-      "ts": 1783742400.0
-    },
-    {
-      "title": "A Stochastic--Geometric Theory of Scaling Laws in Grokking",
-      "link": "https://arxiv.org/abs/2606.30388",
-      "summary": "arXiv:2606.30388v3 Announce Type: replace-cross Abstract: Delayed generalization (\\ie~grokking) refers to the phenomenon in which a neural network fits its training data early in training but only begins to generalize after a prolonged delay, often through an abrupt transition. Despite extensive empirical study, its...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 72,
-      "date": "2026-07-11T04:00:00+00:00",
-      "ts": 1783742400.0
-    },
-    {
-      "title": "When Implausible Tokens Get Reinforced: Tail-Aware Credit Calibration for LLM Reinforcement Learning",
-      "link": "https://arxiv.org/abs/2607.07976",
-      "summary": "arXiv:2607.07976v1 Announce Type: cross Abstract: Reinforcement learning (RL) has achieved remarkable success in enhancing the reasoning capabilities of large language models (LLMs). However, widely used critic-free RL methods rely on uniform credit assignment, broadcasting the same advantage to all tokens regardless...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 71,
-      "date": "2026-07-11T04:00:00+00:00",
-      "ts": 1783742400.0
-    },
-    {
-      "title": "Agentic Neural Architecture Search",
-      "link": "https://arxiv.org/abs/2607.07984",
-      "summary": "arXiv:2607.07984v1 Announce Type: new Abstract: Neural architecture search (NAS) methods have grown increasingly efficient, yet they remain bounded by manually engineered search spaces that require substantial domain expertise and must be rebuilt for every new task. Large language models (LLMs) can generate...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 69,
-      "date": "2026-07-11T04:00:00+00:00",
-      "ts": 1783742400.0
-    },
-    {
-      "title": "Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE",
-      "link": "https://arxiv.org/abs/2607.07740",
-      "summary": "arXiv:2607.07740v1 Announce Type: cross Abstract: Modern LLMs are increasingly deployed in long-context applications such as retrieval-augmented generation, repository-level coding, and agentic workflows whose accumulated reasoning and tool traces routinely push the input an order of magnitude past the pretraining...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 69,
-      "date": "2026-07-11T04:00:00+00:00",
-      "ts": 1783742400.0
-    },
-    {
-      "title": "Multimodal Unlearning Across Vision, Language, Video, and Audio: Survey of Methods, Datasets, and Benchmarks",
-      "link": "https://arxiv.org/abs/2607.07907",
-      "summary": "arXiv:2607.07907v1 Announce Type: cross Abstract: With the growing adoption of VLMs, DMs, LLMs, and AFMs, these multimodal foundation models can inadvertently encode sensitive, copyrighted, biased, or unsafe cross-modal associations that originate from their training data. Retraining after deletion requests or policy...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 69,
-      "date": "2026-07-11T04:00:00+00:00",
-      "ts": 1783742400.0
-    },
-    {
-      "title": "UltraX: Refining Pre-Training Data at Scale with Adaptive Programmatic Editing",
-      "link": "https://arxiv.org/abs/2607.08646",
-      "summary": "arXiv:2607.08646v1 Announce Type: cross Abstract: As available training data approaches its physical limit, gains from Scaling Laws have begun to diminish. Consequently, improving Large Language Models (LLMs) now depends less on data expansion and more on higher-quality data utilization. However, in the context of...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 69,
-      "date": "2026-07-11T04:00:00+00:00",
-      "ts": 1783742400.0
-    },
-    {
-      "title": "RetailBench: Evaluating Long-Horizon Autonomous Decision-Making and Strategy Stability of LLM Agents in Realistic Retail Environments",
-      "link": "https://arxiv.org/abs/2603.16453",
-      "summary": "arXiv:2603.16453v3 Announce Type: replace Abstract: Large language model (LLM) agents have made rapid progress on short-horizon, well-scoped tasks, yet their ability to sustain coherent decisions in dynamic long-horizon environments remains uncertain. We introduce RetailBench, a data-grounded simulation benchmark for...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 69,
-      "date": "2026-07-11T04:00:00+00:00",
-      "ts": 1783742400.0
-    },
-    {
       "title": "MiniMax Takes the Beating for the Entire AI Industry: Lock-Up Crash, Then $2.2B Fundraise in 48 Hours",
       "link": "https://pandaily.com/minimax-lockup-crash-fundraise-ai-market-jul2026",
       "summary": "MiniMax shares plunged 24% on lock-up expiry then raised $2.2 billion HKD in hours, revealing a fundamental split in how markets value AI platform companies versus AI product companies.",
@@ -627,17 +572,6 @@
       "ts": 1783686008.0
     },
     {
-      "title": "OpenAI kills its Atlas browser after just eight months and folds everything into ChatGPT",
-      "link": "https://the-decoder.com/openai-kills-its-atlas-browser-after-just-eight-months-and-folds-everything-into-chatgpt/",
-      "summary": "OpenAI is killing its AI browser Atlas less than eight months after launch. Its features are moving into ChatGPT's updated Chrome extension, which will let users run ChatGPT directly in Chrome's sidebar. Atlas joins a growing list of scrapped OpenAI products. The article OpenAI kills its Atlas browser after just eight...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 66,
-      "date": "2026-07-10T12:19:21+00:00",
-      "ts": 1783685961.0
-    },
-    {
       "title": "Researchers develop 'hierarchical AI agent' that tackles complex errands with ease",
       "link": "https://techxplore.com/news/2026-07-hierarchical-ai-agent-tackles-complex.html",
       "summary": "Korean researchers have developed a hierarchical AI technology that autonomously plans even complex, long-horizon tasks. The development of this hierarchical task-planning AI technology, which reduces hallucinations and doubles the success rate, is expected to help robots and agents carry out long-term missions.",
@@ -647,28 +581,6 @@
       "relevance": 44,
       "date": "2026-07-10T11:47:13+00:00",
       "ts": 1783684033.0
-    },
-    {
-      "title": "Japanese scientists identify neural mechanism that may explain why we dislike people",
-      "link": "https://www.japantimes.co.jp/news/2026/07/10/japan/science-health/dislike-mouse-research/",
-      "summary": "University of Tokyo researchers said the study's findings could advance understanding of disorders in which social memory and emotional processing become distorted.",
-      "source": "The Japan Times",
-      "region": "japan",
-      "category": "pesquisa",
-      "relevance": 41,
-      "date": "2026-07-10T08:58:00+00:00",
-      "ts": 1783673880.0
-    },
-    {
-      "title": "Over 70% of accommodations in Japan say they are understaffed amid tourism influx",
-      "link": "https://www.japantimes.co.jp/news/2026/07/10/japan/japan-accommodations-staff-shortage/",
-      "summary": "Solving the issue is crucial to developing tourism sustainably as a strategic industry for Japan, the government said in a white paper released Friday.",
-      "source": "The Japan Times",
-      "region": "japan",
-      "category": "modelo",
-      "relevance": 58,
-      "date": "2026-07-10T08:00:00+00:00",
-      "ts": 1783670400.0
     },
     {
       "title": "AI Scientists Are Already on the Job in Beijing: Mixing Conduction Fluid in 20 Seconds",
@@ -702,39 +614,6 @@
       "relevance": 52,
       "date": "2026-07-10T06:28:16+00:00",
       "ts": 1783664896.0
-    },
-    {
-      "title": "Global AI Market Shift: Why Developers Are Choosing Cost-Efficient Models",
-      "link": "https://pandaily.com/global-ai-cost-efficiency-shift-deepseek-zhipu-qwen-jul2026",
-      "summary": "Cost-efficient AI models from DeepSeek, Zhipu AI, and Qwen have captured over 20% of OpenRouter's weekly token share, signaling a structural shift in how developers choose AI infrastructure.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 61,
-      "date": "2026-07-10T02:37:58+00:00",
-      "ts": 1783651078.0
-    },
-    {
-      "title": "Dexmal Launches Embodied MaaS and DexOS, Solving Model Scaling Into Real-World Scenarios",
-      "link": "https://pandaily.com/dexmal-embodied-maas-dexos-model-jul2026",
-      "summary": "Dexmal unveils DM0.5 foundation model, DexOS operating system, and embodied MaaS platform at Action developer conference, aiming to create the Android of robotics.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 57,
-      "date": "2026-07-10T02:12:48+00:00",
-      "ts": 1783649568.0
-    },
-    {
-      "title": "One Rises, One Falls on Lock-Up Expiry Day: The Divergent Paths of Zhipu AI and MiniMax",
-      "link": "https://pandaily.com/zhipu-minimax-lockup-expiry-divergence-jul2026",
-      "summary": "Zhipu AI shares surged 13% while MiniMax plunged 18% on lock-up expiry, reflecting fundamentally different business models and market confidence in China's two leading AI companies.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 56,
-      "date": "2026-07-10T02:12:37+00:00",
-      "ts": 1783649557.0
     },
     {
       "title": "Quoting OpenAI",
