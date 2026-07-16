@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-16T07:55:58.184161+00:00",
-  "count": 178,
+  "generated_at": "2026-07-16T13:21:19.575137+00:00",
+  "count": 190,
   "china_count": 39,
-  "japan_count": 3,
+  "japan_count": 2,
   "sources": [
     {
       "source": "OpenAI",
@@ -26,8 +26,8 @@
     },
     {
       "source": "Hugging Face",
-      "status": "ERRO: The read operation timed out",
-      "kept": 0
+      "status": "ok (829 itens)",
+      "kept": 12
     },
     {
       "source": "Ahead of AI",
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -132,7 +132,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "Ars Technica",
@@ -142,7 +142,7 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "Wired AI",
@@ -207,7 +207,7 @@
     {
       "source": "Pandaily",
       "status": "ok (20 itens)",
-      "kept": 5
+      "kept": 7
     },
     {
       "source": "TechNode",
@@ -232,7 +232,7 @@
     {
       "source": "ChinaTalk",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "AI China News",
@@ -277,7 +277,7 @@
     {
       "source": "The Japan Times",
       "status": "ok (30 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Japan Today",
@@ -296,6 +296,83 @@
     }
   ],
   "items": [
+    {
+      "title": "Claude can now use your 1Password credentials for you",
+      "link": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
+      "summary": "1Password has launched a new browser integration for Claude that allows the Anthropic chatbot to access stored security credentials like usernames and passwords. The 1Password for Claude feature means that users can authorize Claude to complete multi-step tasks like booking travel and managing online accounts on their...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 52,
+      "date": "2026-07-16T13:00:00+00:00",
+      "ts": 1784206800.0
+    },
+    {
+      "title": "Ex-OpenAI CTO Murati's Thinking Machines drops Inkling, a 975B parameter model that leads US labs but trails China",
+      "link": "https://the-decoder.com/ex-openai-cto-muratis-thinking-machines-drops-inkling-a-975b-parameter-model-that-leads-us-labs-but-trails-china/",
+      "summary": "Thinking Machines Lab, founded by former OpenAI CTO Mira Murati, has released Inkling, a multimodal open-weights model with 975 billion parameters. It leads U.S. open-weights models on the Artificial Analysis Intelligence Index, though top Chinese open models still beat it on some tasks. Pricing starts at $1.87 per...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 66,
+      "date": "2026-07-16T09:55:28+00:00",
+      "ts": 1784195728.0
+    },
+    {
+      "title": "Gemma 4 gets a stealth update that fixes tool calling bugs and truncated responses under the same name",
+      "link": "https://the-decoder.com/gemma-4-gets-a-stealth-update-that-fixes-tool-calling-bugs-and-truncated-responses-under-the-same-name/",
+      "summary": "Google shipped an update to its open AI model Gemma 4 that speeds up performance on Nvidia Hopper GPUs, fixes tool calling bugs, and addresses problems with truncated responses. The article Gemma 4 gets a stealth update that fixes tool calling bugs and truncated responses under the same name appeared first on The...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 63,
+      "date": "2026-07-16T09:07:58+00:00",
+      "ts": 1784192878.0
+    },
+    {
+      "title": "Scrapped Before Launch: ByteDance Doubao AI Glasses Gen 2 Speeds Ahead With Dual Models as Meta Ray-Ban Rivalry Heats Up",
+      "link": "https://pandaily.com/doubao-ai-glasses-gen2-bytedance-jul2026",
+      "summary": "ByteDance cancels first-gen Doubao AI glasses for being too generic, accelerates dual-model second generation while planning third-gen, as AI glasses market surges 130% year-on-year.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 66,
+      "date": "2026-07-16T08:24:36+00:00",
+      "ts": 1784190276.0
+    },
+    {
+      "title": "Kimi K3 Preview: Benchmark Videos Flood Social Media as Moonshot AI New Model Approaches Fable 5 Level",
+      "link": "https://pandaily.com/kimi-k3-moonshot-ai-model-preview-jul2026",
+      "summary": "Moonshot AI mysterious Kivine model appears on Arena benchmark, with user tests showing K3 rivaling Fable 5 in video generation detail and animation smoothness.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 70,
+      "date": "2026-07-16T08:23:51+00:00",
+      "ts": 1784190231.0
+    },
+    {
+      "title": "OpenAI fails to trademark name in EU",
+      "link": "https://techxplore.com/news/2026-07-openai-trademark-eu.html",
+      "summary": "OpenAI, the owner of the ChatGPT chatbot, lost its appeal Wednesday against the EU's refusal to register its name as a trademark.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 51,
+      "date": "2026-07-16T08:23:12+00:00",
+      "ts": 1784190192.0
+    },
+    {
+      "title": "xAI open-sources \"Grok-Build\" on GitHub after massive data breach",
+      "link": "https://the-decoder.com/xai-open-sources-grok-build-on-github-after-massive-data-breach/",
+      "summary": "xAI's command-line tool \"Grok Build\" silently uploaded entire directories to Google Cloud servers, including SSH keys and password databases. After the backlash, Elon Musk promised to delete all uploaded user data, and xAI open-sourced the full 844,530-line Rust codebase under the Apache 2.0 license. The article xAI...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 59,
+      "date": "2026-07-16T07:56:21+00:00",
+      "ts": 1784188581.0
+    },
     {
       "title": "Inference Economics of Enterprise Coding Agents: A Case Study of Cloud vs. On-Premise LLMs",
       "link": "https://arxiv.org/abs/2607.13080",
@@ -693,17 +770,6 @@
       "ts": 1784174400.0
     },
     {
-      "title": "Japan revises AI policy guidelines to bolster cybersecurity",
-      "link": "https://www.japantimes.co.jp/news/2026/07/16/japan/japan-ai-policy-revision-cybersecurity/",
-      "summary": "The revision comes amid rapid technological innovation, including the launch of U.S. startup Anthropic's Claude Mythos.",
-      "source": "The Japan Times",
-      "region": "japan",
-      "category": "modelo",
-      "relevance": 53,
-      "date": "2026-07-16T03:38:00+00:00",
-      "ts": 1784173080.0
-    },
-    {
       "title": "Seven Phone Models Receive China AI Filing as Apple, Xiaomi, OPPO and Others Confirm On-Device LLM Compliance",
       "link": "https://pandaily.com/phone-llm-filing-apple-xiaomi-oppo-jul2026",
       "summary": "China cyberspace authorities approve seven on-device generative AI services including Apple Intelligence, with Alibaba Qwen, Xiaomi MiMo, and OPPO Andes among registered models.",
@@ -889,17 +955,6 @@
       "relevance": 50,
       "date": "2026-07-15T15:55:14+00:00",
       "ts": 1784130914.0
-    },
-    {
-      "title": "Apple Intelligence approved for launch in China with Alibaba’s Qwen AI",
-      "link": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
-      "summary": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
-      "source": "TechCrunch",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 51,
-      "date": "2026-07-15T15:29:33+00:00",
-      "ts": 1784129373.0
     },
     {
       "title": "Dataset filtering provides only limited protection against CSAM generation in text-to-image models, study finds",
@@ -1098,39 +1153,6 @@
       "relevance": 48,
       "date": "2026-07-14T18:00:09+00:00",
       "ts": 1784052009.0
-    },
-    {
-      "title": "Anthropic opens Claude for Teachers with a promise not to train models on student data",
-      "link": "https://the-decoder.com/anthropic-opens-claude-for-teachers-with-a-promise-not-to-train-models-on-student-data/",
-      "summary": "Anthropic is rolling out Claude for Teachers, a free offering for verified K-12 educators at US schools. The article Anthropic opens Claude for Teachers with a promise not to train models on student data appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 59,
-      "date": "2026-07-14T17:24:27+00:00",
-      "ts": 1784049867.0
-    },
-    {
-      "title": "DeepSeek needs more cash just weeks after closing its first $7 billion round",
-      "link": "https://the-decoder.com/deepseek-needs-more-cash-just-weeks-after-closing-its-first-7-billion-round/",
-      "summary": "DeepSeek is already raising again. The Chinese AI lab just closed its first funding round and needs capital for its own data centers and chips to keep its aggressive pricing strategy going. The article DeepSeek needs more cash just weeks after closing its first $7 billion round appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 56,
-      "date": "2026-07-14T16:27:29+00:00",
-      "ts": 1784046449.0
-    },
-    {
-      "title": "Google Search now generates AI images when it can't find what you're looking for on the web",
-      "link": "https://the-decoder.com/google-search-now-generates-ai-images-when-it-cant-find-what-youre-looking-for-on-the-web/",
-      "summary": "Google is adding AI image generation to Search's AI Overviews. When no matching image exists on the web, the new Nano Banana 2 Lite model generates one from the search query. The rollout starts in the coming weeks. The article Google Search now generates AI images when it can't find what you're looking for on the web...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 37,
-      "date": "2026-07-14T16:20:58+00:00",
-      "ts": 1784046058.0
     },
     {
       "title": "Getting Started with Conductor for Gemini CLI",
@@ -1386,17 +1408,6 @@
       "ts": 1783861200.0
     },
     {
-      "title": "Apple files lawsuit accusing ChatGPT maker OpenAI of stealing trade secrets",
-      "link": "https://techxplore.com/news/2026-07-apple-lawsuit-accusing-chatgpt-maker.html",
-      "summary": "Apple on Friday accused OpenAI of stealing trade secrets as it seeks to build its own hardware for ChatGPT, a major rupture in a partnership between the iPhone maker and the artificial intelligence company.",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 58,
-      "date": "2026-07-11T07:17:58+00:00",
-      "ts": 1783754278.0
-    },
-    {
       "title": "Beyond Claude Code: the Chinese AI tools poised to benefit after back-door alert",
       "link": "https://www.scmp.com/tech/tech-trends/article/3360148/beyond-claude-code-chinese-ai-tools-poised-benefit-after-back-door-alert?utm_source=rss_feed",
       "summary": "Beijing’s recent cybersecurity warning against American artificial intelligence lab Anthropic is expected to accelerate a shift among Chinese developers towards domestic coding alternatives, according to analysts. China’s National Vulnerability Database (NVDB), overseen by the Ministry of Industry and Information...",
@@ -1628,6 +1639,17 @@
       "ts": 1783468800.0
     },
     {
+      "title": "Native-speed vLLM transformers modeling backend",
+      "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 46,
+      "date": "2026-07-08T00:00:00+00:00",
+      "ts": 1783468800.0
+    },
+    {
       "title": "IEEE Honors Robotics Pioneer Toshio Fukuda",
       "link": "https://spectrum.ieee.org/ieee-honors-toshio-fukuda",
       "summary": "Toshio Fukuda has been blazing trails for most of his career. He is considered to be one of the most prolific scholars in robotics , writing more than 2,000 research papers and authoring several books on the field. He’s an influential figure thanks to his pioneering work developing biomedical robotic systems,...",
@@ -1760,6 +1782,17 @@
       "ts": 1782896400.0
     },
     {
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 53,
+      "date": "2026-07-01T00:00:00+00:00",
+      "ts": 1782864000.0
+    },
+    {
       "title": "Claude Science is Anthropic’s newest flagship product",
       "link": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
       "summary": "At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product intended to support scientific research in the same way that Claude Code supports software engineering. Like Claude Code, Claude Science can autonomously carry out meaningful...",
@@ -1769,6 +1802,17 @@
       "relevance": 57,
       "date": "2026-06-30T21:50:04+00:00",
       "ts": 1782856204.0
+    },
+    {
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "link": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 44,
+      "date": "2026-06-30T18:32:50+00:00",
+      "ts": 1782844370.0
     },
     {
       "title": "Q&A: What is agentic AI today, and what do we want it to be?",
@@ -1958,6 +2002,17 @@
       "ts": 1782319860.0
     },
     {
+      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "link": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 55,
+      "date": "2026-06-24T16:00:13+00:00",
+      "ts": 1782316813.0
+    },
+    {
       "title": "DeepSeek’s Harness team races to recruit talent in booming AI agent market",
       "link": "https://www.scmp.com/tech/big-tech/article/3358077/deepseeks-harness-team-races-recruit-talent-booming-ai-agent-market?utm_source=rss_feed",
       "summary": "Chinese artificial intelligence start-up DeepSeek is rapidly expanding its new Harness team as it pushes itself into the booming AI agent market, joining the high-stakes global race to transform foundational language models into fully autonomous products. Cui Tianyi, the former Jane Street quantitative trading expert...",
@@ -1967,6 +2022,17 @@
       "relevance": 67,
       "date": "2026-06-23T12:00:11+00:00",
       "ts": 1782216011.0
+    },
+    {
+      "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+      "link": "https://huggingface.co/blog/cross-origin-storage",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 50,
+      "date": "2026-06-23T00:00:00+00:00",
+      "ts": 1782172800.0
     },
     {
       "title": "GLM-5.2 is the step change for open agents",
@@ -2013,6 +2079,17 @@
       "ts": 1781874167.0
     },
     {
+      "title": "MosaicLeaks: Can your research agent keep a secret?",
+      "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 44,
+      "date": "2026-06-18T18:13:13+00:00",
+      "ts": 1781806393.0
+    },
+    {
       "title": "Improving health intelligence in ChatGPT",
       "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
       "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
@@ -2024,6 +2101,17 @@
       "ts": 1781780400.0
     },
     {
+      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
+      "link": "https://huggingface.co/blog/is-it-agentic-enough",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 57,
+      "date": "2026-06-18T00:00:00+00:00",
+      "ts": 1781740800.0
+    },
+    {
       "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
       "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
       "summary": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
@@ -2033,6 +2121,17 @@
       "relevance": 34,
       "date": "2026-06-17T15:00:00+00:00",
       "ts": 1781708400.0
+    },
+    {
+      "title": "GLM-5.2: Built for Long-Horizon Tasks",
+      "link": "https://huggingface.co/blog/zai-org/glm-52-blog",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 49,
+      "date": "2026-06-17T09:01:25+00:00",
+      "ts": 1781686885.0
     },
     {
       "title": "Alibaba unveils Qwen-Robot series with three foundation models for embodied AI",
@@ -2055,17 +2154,6 @@
       "relevance": 31,
       "date": "2026-06-16T13:29:30+00:00",
       "ts": 1781616570.0
-    },
-    {
-      "title": "Emergency Pod: Claude Fable",
-      "link": "https://www.chinatalk.media/p/emergency-pod-claude-fable-fried",
-      "summary": "Chris McGuire on a chaotic two weeks in AI policy",
-      "source": "ChinaTalk",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 49,
-      "date": "2026-06-16T09:41:15+00:00",
-      "ts": 1781602875.0
     },
     {
       "title": "We’re strengthening our presence in Alabama through new investments and community support.",
@@ -2123,6 +2211,17 @@
       "ts": 1780876800.0
     },
     {
+      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+      "link": "https://huggingface.co/blog/openenv-agentic-rl",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 57,
+      "date": "2026-06-08T00:00:00+00:00",
+      "ts": 1780876800.0
+    },
+    {
       "title": "LLM Research Papers: The 2026 List (January to May)",
       "link": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
       "summary": "A curated roundup of notable LLM research papers that came out this year",
@@ -2143,6 +2242,17 @@
       "relevance": 66,
       "date": "2026-06-05T11:26:00+00:00",
       "ts": 1780658760.0
+    },
+    {
+      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 60,
+      "date": "2026-06-04T18:57:45+00:00",
+      "ts": 1780599465.0
     },
     {
       "title": "How Endava is redesigning software delivery around AI agents",
@@ -2233,6 +2343,17 @@
       "ts": 1780409759.0
     },
     {
+      "title": "Holo3.1: Fast & Local Computer Use Agents",
+      "link": "https://huggingface.co/blog/Hcompany/holo31",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 59,
+      "date": "2026-06-02T14:13:23+00:00",
+      "ts": 1780409603.0
+    },
+    {
       "title": "ByteDance’s Doubao to launch paid plans in late June, link with Douyin E-commerce push",
       "link": "https://technode.com/2026/06/02/bytedances-doubao-to-launch-paid-plans-in-late-june-link-with-douyin-e-commerce-push/",
       "summary": "ByteDance’s AI assistant Doubao is expected to roll out paid subscription services in late June, alongside feature updates announced at its upcoming Force conference, according to 36Kr. The PC and mobile versions are still completing billing system integration, which is expected to take about one month, the sources...",
@@ -2253,6 +2374,17 @@
       "relevance": 57,
       "date": "2026-06-01T16:00:00+00:00",
       "ts": 1780329600.0
+    },
+    {
+      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "link": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 47,
+      "date": "2026-06-01T15:45:17+00:00",
+      "ts": 1780328717.0
     }
   ]
 }
