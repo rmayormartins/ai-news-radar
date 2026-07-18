@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-17T18:52:42.207297+00:00",
-  "count": 188,
-  "china_count": 43,
-  "japan_count": 2,
+  "generated_at": "2026-07-18T01:29:58.680431+00:00",
+  "count": 189,
+  "china_count": 42,
+  "japan_count": 4,
   "sources": [
     {
       "source": "OpenAI",
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -207,7 +207,7 @@
     {
       "source": "Pandaily",
       "status": "ok (20 itens)",
-      "kept": 8
+      "kept": 7
     },
     {
       "source": "TechNode",
@@ -282,12 +282,12 @@
     {
       "source": "Japan Today",
       "status": "ok (30 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Japan Industry News",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "NHK World",
@@ -296,6 +296,83 @@
     }
   ],
   "items": [
+    {
+      "title": "China Most Expensive Large Model Arrives: Kimi K3 Priced at 3-15x That of DeepSeek, But Real Value May Not Be the Model Alone",
+      "link": "https://pandaily.com/kimi-k3-china-most-expensive-model-jul2026",
+      "summary": "Moonshot AI prices Kimi K3 at $3-15 per million tokens, 3-4x K2.6 pricing, signaling a strategic shift from cost leadership to high-value complex task capability as domestic computing ecosystem matures.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 72,
+      "date": "2026-07-18T01:13:28+00:00",
+      "ts": 1784337208.0
+    },
+    {
+      "title": "Hitachi and NVIDIA Collaborate to Enhance Autonomous Operations with AI",
+      "link": "https://www.japanindustrynews.com/2026/07/hitachi-and-nvidia-collaborate-to-enhance-autonomous-operations-with-ai/",
+      "summary": "Hitachi, Ltd. has announced a collaboration with NVIDIA to develop multi-agent orchestration technology aimed at accelerating autonomous operations within manufacturing and social infrastructure environments. This initiative seeks to enhance Hitachi's suite of solutions, known as HMAX, by integrating AI into...",
+      "source": "Japan Industry News",
+      "region": "japan",
+      "category": "pesquisa",
+      "relevance": 41,
+      "date": "2026-07-18T00:09:32+00:00",
+      "ts": 1784333372.0
+    },
+    {
+      "title": "Noetra Corp. Launches R&D for Multimodal AI Model with Major Japanese Firms",
+      "link": "https://www.japanindustrynews.com/2026/07/noetra-corp-launches-rd-for-multimodal-ai-model-with-major-japanese-firms/",
+      "summary": "Noetra Corp., alongside key partners including Sony Group Corporation, SoftBank Corp., NEC Corporation, and Honda Motor Co., Ltd., has embarked on comprehensive research and development to create a Japan-developed multimodal foundation model. This initiative aims to advance AI-enabled robots and physical AI,...",
+      "source": "Japan Industry News",
+      "region": "japan",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-07-18T00:04:35+00:00",
+      "ts": 1784333075.0
+    },
+    {
+      "title": "Zuckerberg's plan to sell excess AI compute could finds its first big customer in Anthropic",
+      "link": "https://the-decoder.com/zuckerbergs-plan-to-sell-excess-ai-compute-could-finds-its-first-big-customer-in-anthropic/",
+      "summary": "Meta is reportedly in talks with Anthropic to rent out compute capacity from its data centers. The article Zuckerberg's plan to sell excess AI compute could finds its first big customer in Anthropic appeared first on The Decoder .",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "geral",
+      "relevance": 35,
+      "date": "2026-07-17T21:16:00+00:00",
+      "ts": 1784322960.0
+    },
+    {
+      "title": "Chinese AI model takes U.S. tech industry by surprise with abilities rivaling Claude and ChatGPT",
+      "link": "https://japantoday.com/category/tech/chinese-ai-model-takes-us-tech-industry-by-surprise-with-abilities-rivaling-claude-and-chatgpt",
+      "summary": "Another powerful new artificial intelligence model from China took the U.S. tech industry by surprise Friday, the latest sign that Chinese startups that publicly release their “open-source” AI…",
+      "source": "Japan Today",
+      "region": "japan",
+      "category": "modelo",
+      "relevance": 70,
+      "date": "2026-07-17T20:54:28+00:00",
+      "ts": 1784321668.0
+    },
+    {
+      "title": "GPT-5.6 is deleting user files when given full access, and OpenAI says it shouldn't but did",
+      "link": "https://the-decoder.com/gpt-5-6-is-deleting-user-files-when-given-full-access-and-openai-says-it-shouldnt-but-did/",
+      "summary": "OpenAI's GPT-5.6 has accidentally wiped users' entire home directories in several cases, mostly in the unprotected \"Full Access Mode.\" The model overwrites a temporary directory variable and carries out destructive actions on its own instead of asking for confirmation. OpenAI has announced extra safeguards and a...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 59,
+      "date": "2026-07-17T19:35:52+00:00",
+      "ts": 1784316952.0
+    },
+    {
+      "title": "Just like Deepseek, China's Kimi K3 is forcing Western AI labs to question their compute advantage",
+      "link": "https://the-decoder.com/just-like-deepseek-chinas-kimi-k3-is-forcing-western-ai-labs-to-question-their-compute-advantage/",
+      "summary": "Moonshot AI has released Kimi K3, a model that by early assessments matches Anthropic's Opus 4.8, built by a team of just 300 people. Even OpenAI strategist Dean W. Ball calls it \"very good,\" but, of course, warns that a world dominated by open-weight models would amount to \"AI communism.\" The release is reigniting...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 78,
+      "date": "2026-07-17T19:16:07+00:00",
+      "ts": 1784315767.0
+    },
     {
       "title": "Will Russia's answer to the Falcon 9 rocket ever take flight?",
       "link": "https://arstechnica.com/space/2026/07/will-russias-answer-to-the-falcon-9-rocket-ever-take-flight/",
@@ -847,6 +924,17 @@
       "ts": 1784246400.0
     },
     {
+      "title": "Show Me Examples: Inferring Visual Concepts from Image Sets",
+      "link": "https://machinelearning.apple.com/research/visual-concept-inference",
+      "summary": "Vision-language models (VLMs) can follow complex textual instructions, yet they struggle to reason from purely visual context. In particular, current models fail to infer shared concepts from sets of example images and apply them to new inputs. We introduce Visual Concept Inference from Sets (VICIS), a task that...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 53,
+      "date": "2026-07-17T00:00:00+00:00",
+      "ts": 1784246400.0
+    },
+    {
       "title": "xAI can’t deny Grok makes CSAM anymore. So it’s suing users.",
       "link": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
       "summary": "Elon Musk's xAI files first lawsuit against Grok user accused of making child sex images.",
@@ -1001,50 +1089,6 @@
       "ts": 1784206800.0
     },
     {
-      "title": "Ex-OpenAI CTO Murati's Thinking Machines drops Inkling, a 975B parameter model that leads US labs but trails China",
-      "link": "https://the-decoder.com/ex-openai-cto-muratis-thinking-machines-drops-inkling-a-975b-parameter-model-that-leads-us-labs-but-trails-china/",
-      "summary": "Thinking Machines Lab, founded by former OpenAI CTO Mira Murati, has released Inkling, a multimodal open-weights model with 975 billion parameters. It leads U.S. open-weights models on the Artificial Analysis Intelligence Index, though top Chinese open models still beat it on some tasks. Pricing starts at $1.87 per...",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 66,
-      "date": "2026-07-16T09:55:28+00:00",
-      "ts": 1784195728.0
-    },
-    {
-      "title": "Gemma 4 gets a stealth update that fixes tool calling bugs and truncated responses under the same name",
-      "link": "https://the-decoder.com/gemma-4-gets-a-stealth-update-that-fixes-tool-calling-bugs-and-truncated-responses-under-the-same-name/",
-      "summary": "Google shipped an update to its open AI model Gemma 4 that speeds up performance on Nvidia Hopper GPUs, fixes tool calling bugs, and addresses problems with truncated responses. The article Gemma 4 gets a stealth update that fixes tool calling bugs and truncated responses under the same name appeared first on The...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 63,
-      "date": "2026-07-16T09:07:58+00:00",
-      "ts": 1784192878.0
-    },
-    {
-      "title": "Scrapped Before Launch: ByteDance Doubao AI Glasses Gen 2 Speeds Ahead With Dual Models as Meta Ray-Ban Rivalry Heats Up",
-      "link": "https://pandaily.com/doubao-ai-glasses-gen2-bytedance-jul2026",
-      "summary": "ByteDance cancels first-gen Doubao AI glasses for being too generic, accelerates dual-model second generation while planning third-gen, as AI glasses market surges 130% year-on-year.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 66,
-      "date": "2026-07-16T08:24:36+00:00",
-      "ts": 1784190276.0
-    },
-    {
-      "title": "Kimi K3 Preview: Benchmark Videos Flood Social Media as Moonshot AI New Model Approaches Fable 5 Level",
-      "link": "https://pandaily.com/kimi-k3-moonshot-ai-model-preview-jul2026",
-      "summary": "Moonshot AI mysterious Kivine model appears on Arena benchmark, with user tests showing K3 rivaling Fable 5 in video generation detail and animation smoothness.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 70,
-      "date": "2026-07-16T08:23:51+00:00",
-      "ts": 1784190231.0
-    },
-    {
       "title": "OpenAI fails to trademark name in EU",
       "link": "https://techxplore.com/news/2026-07-openai-trademark-eu.html",
       "summary": "OpenAI, the owner of the ChatGPT chatbot, lost its appeal Wednesday against the EU's refusal to register its name as a trademark.",
@@ -1054,17 +1098,6 @@
       "relevance": 51,
       "date": "2026-07-16T08:23:12+00:00",
       "ts": 1784190192.0
-    },
-    {
-      "title": "xAI open-sources \"Grok-Build\" on GitHub after massive data breach",
-      "link": "https://the-decoder.com/xai-open-sources-grok-build-on-github-after-massive-data-breach/",
-      "summary": "xAI's command-line tool \"Grok Build\" silently uploaded entire directories to Google Cloud servers, including SSH keys and password databases. After the backlash, Elon Musk promised to delete all uploaded user data, and xAI open-sourced the full 844,530-line Rust codebase under the Apache 2.0 license. The article xAI...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 59,
-      "date": "2026-07-16T07:56:21+00:00",
-      "ts": 1784188581.0
     },
     {
       "title": "A better way to turn 2D designs into 3D models for rapid prototyping",
@@ -1164,17 +1197,6 @@
       "relevance": 67,
       "date": "2026-07-15T17:09:37+00:00",
       "ts": 1784135377.0
-    },
-    {
-      "title": "NEC Unveils AI-Driven 3D Model Generation Technology",
-      "link": "https://www.japanindustrynews.com/2026/07/nec-unveils-ai-driven-3d-model-generation-technology/",
-      "summary": "NEC Corporation has announced the development of a pioneering technology that utilizes proprietary artificial intelligence to rapidly create highly detailed 3D models from video footage captured by general-purpose cameras, such as those found on smartphones. This innovation, developed in collaboration with the Keio AI...",
-      "source": "Japan Industry News",
-      "region": "japan",
-      "category": "modelo",
-      "relevance": 46,
-      "date": "2026-07-15T17:04:48+00:00",
-      "ts": 1784135088.0
     },
     {
       "title": "Don’t Let Claude Grade Its Own Homework",
@@ -1340,17 +1362,6 @@
       "relevance": 63,
       "date": "2026-07-14T06:17:37+00:00",
       "ts": 1784009857.0
-    },
-    {
-      "title": "Proactive Agent Research Environment: Simulating Active Users to Evaluate Proactive Assistants",
-      "link": "https://machinelearning.apple.com/research/proactive-agent-research-environment",
-      "summary": "Proactive agents that anticipate user needs and autonomously execute tasks hold great promise as digital assistants, yet the lack of realistic user simulation frameworks hinders their development. Existing approaches model apps as flat tool-calling APIs, failing to capture the stateful and sequential nature of user...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 65,
-      "date": "2026-07-14T00:00:00+00:00",
-      "ts": 1783987200.0
     },
     {
       "title": "How data science teams use ChatGPT Work",
