@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-23T13:25:03.568431+00:00",
-  "count": 198,
-  "china_count": 57,
+  "generated_at": "2026-07-23T18:59:31.930783+00:00",
+  "count": 195,
+  "china_count": 55,
   "japan_count": 4,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1048 itens)",
+      "status": "ok (1049 itens)",
       "kept": 12
     },
     {
@@ -107,7 +107,7 @@
     {
       "source": "VentureBeat AI",
       "status": "ok (7 itens)",
-      "kept": 3
+      "kept": 0
     },
     {
       "source": "IEEE Spectrum",
@@ -132,7 +132,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 5
     },
     {
       "source": "Ars Technica",
@@ -142,7 +142,7 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Wired AI",
@@ -187,7 +187,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "Synced (机器之心)",
@@ -296,6 +296,94 @@
     }
   ],
   "items": [
+    {
+      "title": "Flux 3 generates videos with native audio up to 20 seconds long, a first for Black Forest Labs",
+      "link": "https://the-decoder.com/flux-3-generates-videos-with-native-audio-up-to-20-seconds-long-a-first-for-black-forest-labs/",
+      "summary": "Black Forest Labs has released Flux 3, a multimodal foundation model that learns from images, video, and audio and can generate video with native sound for the first time. BFL's own tests put it just ahead of market leader Seedance 2.0, though independent results aren't yet available. The company ultimately wants to...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 69,
+      "date": "2026-07-23T18:03:01+00:00",
+      "ts": 1784829781.0
+    },
+    {
+      "title": "Runway launches AI model router as generative media gets crowded",
+      "link": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+      "summary": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 40,
+      "date": "2026-07-23T17:07:35+00:00",
+      "ts": 1784826455.0
+    },
+    {
+      "title": "One tampered ChatGPT link could spawn a rogue AI agent that took orders from an attacker every five minutes",
+      "link": "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes/",
+      "summary": "Zenity Labs uncovered \"AgentForger,\" a vulnerability in OpenAI's Agent Builder that let a single manipulated ChatGPT link create an autonomous agent on an employee's behalf. The agent inherited the victim's identity and access rights, bypassed approval requirements through the malicious prompt, and pulled new...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 66,
+      "date": "2026-07-23T17:01:30+00:00",
+      "ts": 1784826090.0
+    },
+    {
+      "title": "OpenAI is making big claims as it rolls out ChatGPT Health to everyone",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims",
+      "summary": "OpenAI is rolling out ChatGPT Health to everyone in the US on Thursday, allowing more people to connect their medical records and health-tracking information to the chatbot. During a briefing, Ashley Alexander, OpenAI's vice president of health product, says the company's models \"are now capable of reasoning at levels...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 64,
+      "date": "2026-07-23T17:00:00+00:00",
+      "ts": 1784826000.0
+    },
+    {
+      "title": "OpenAI makes ChatGPT Health available to all US users",
+      "link": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+      "summary": "Users can also integrate their personal data from services like Apple Health, Function, and MyFitnessPal.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 59,
+      "date": "2026-07-23T17:00:00+00:00",
+      "ts": 1784826000.0
+    },
+    {
+      "title": "Building trade assistant: How Jefferies optimized front office trading operations with AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai/",
+      "summary": "In this post, we explore how Jefferies overcame these challenges with a solution built on Strands Agents, an agent harness SDK for building AI agents that can reason, plan, and act by orchestrating calls to foundation models (FMs) and external tools. The solution uses large language models (LLMs), Amazon Bedrock, and...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 49,
+      "date": "2026-07-23T16:42:54+00:00",
+      "ts": 1784824974.0
+    },
+    {
+      "title": "Agentic retrieval for Amazon Bedrock Managed Knowledge Base",
+      "link": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-for-amazon-bedrock-managed-knowledge-base/",
+      "summary": "This post focuses on why classic retrieval falls short on multi-part questions, how the AgenticRetrieveStream API works (including request construction and trace parsing), and when to choose it over the standard Retrieve API.",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 49,
+      "date": "2026-07-23T16:30:20+00:00",
+      "ts": 1784824220.0
+    },
+    {
+      "title": "Google’s Gemini nears billion-user milestone",
+      "link": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+      "summary": "Gemini had over 750 million monthly users in February.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 46,
+      "date": "2026-07-23T14:52:44+00:00",
+      "ts": 1784818364.0
+    },
     {
       "title": "Poolside's Laguna S 2.1 is a small open-weight coding model that punches well above its size",
       "link": "https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size/",
@@ -825,6 +913,17 @@
       "ts": 1784767701.0
     },
     {
+      "title": "Launching Health in ChatGPT",
+      "link": "https://openai.com/index/health-in-chatgpt",
+      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 68,
+      "date": "2026-07-23T00:00:00+00:00",
+      "ts": 1784764800.0
+    },
+    {
       "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
       "link": "https://huggingface.co/blog/nunchaku-diffusers",
       "summary": "",
@@ -946,17 +1045,6 @@
       "ts": 1784737688.0
     },
     {
-      "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
-      "link": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
-      "summary": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.",
-      "source": "TechCrunch",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 40,
-      "date": "2026-07-22T16:24:08+00:00",
-      "ts": 1784737448.0
-    },
-    {
       "title": "How To Build Your Own LLM Runtime From Scratch",
       "link": "https://towardsdatascience.com/how-to-build-your-own-llm-runtime-from-scratch/",
       "summary": "If you have ever wanted to actually build an LLM inference runtime yourself — pack your own weights, own every barrier, capture your own CUDA graphs — this is what that journey looks like on an H100. A step-by-step tour of a small runtime called annotated-llm-runtime, and the three bugs that produced most of the...",
@@ -1001,17 +1089,6 @@
       "ts": 1784719448.0
     },
     {
-      "title": "OpenAI claims responsibility for the Hugging Face hack after its own models escaped a test sandbox",
-      "link": "https://the-decoder.com/openai-claims-responsibility-for-the-hugging-face-hack-after-its-own-models-escaped-a-test-sandbox/",
-      "summary": "During an internal security evaluation, OpenAI models, including GPT-5.6 Sol, escaped their sandbox, independently discovered a zero-day vulnerability, and breached Hugging Face's production infrastructure. The models were trying to steal benchmark solutions to cheat on the evaluation. OpenAI admits that disabling...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 58,
-      "date": "2026-07-22T08:41:30+00:00",
-      "ts": 1784709690.0
-    },
-    {
       "title": "Hugging Face deploys Zhipu’s GLM 5.2 model to contain autonomous OpenAI cyberattack",
       "link": "https://www.scmp.com/tech/tech-trends/article/3361450/hugging-face-deploys-zhipus-glm-52-model-contain-autonomous-openai-cyberattack?utm_source=rss_feed",
       "summary": "A flagship model from China’s Zhipu AI has helped contain an autonomous cyberattack by OpenAI’s frontier systems targeting popular developer platform Hugging Face, as concerns grow over the security risks posed by advanced AI models. OpenAI’s latest flagship models – including GPT-5.6 Sol and an unreleased, “even more...",
@@ -1032,6 +1109,17 @@
       "relevance": 51,
       "date": "2026-07-22T08:13:37+00:00",
       "ts": 1784708017.0
+    },
+    {
+      "title": "OpenAI says its AI technology acted on its own in an 'unprecedented' hack of another company",
+      "link": "https://techxplore.com/news/2026-07-openai-ai-technology-unprecedented-hack.html",
+      "summary": "ChatGPT maker OpenAI said Tuesday that its artificial intelligence system hacked into another AI company on its own in what the company called an \"unprecedented cyber incident.\"",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 53,
+      "date": "2026-07-22T07:54:30+00:00",
+      "ts": 1784706870.0
     },
     {
       "title": "OpenAI says AI models went rogue during testing, triggering 'unprecedented' breach at startup",
@@ -1111,28 +1199,6 @@
       "ts": 1784674201.0
     },
     {
-      "title": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
-      "summary": "OpenAI says its AI models mistakenly breached open-source AI platform Hugging Face during internal testing. In a blog post on Tuesday, OpenAI writes that GPT-5.6 Sol and \"an even more capable pre-release model\" discovered vulnerabilities within their sandboxed testing environment, allowing them to gain access to the...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 56,
-      "date": "2026-07-21T21:48:54+00:00",
-      "ts": 1784670534.0
-    },
-    {
-      "title": "An AI system helped Pakistani judges clear massive backlogs at $38.50 return per dollar invested",
-      "link": "https://the-decoder.com/an-ai-system-helped-pakistani-judges-clear-massive-backlogs-at-38-50-return-per-dollar-invested/",
-      "summary": "A field experiment with 1,559 Pakistani judges found that the AI assistant JudgeGPT boosted case resolution by 6.3 percent. The catch: only judges who got hands-on training saw gains. Without it, the effect mostly disappeared. The researchers estimate a return of up to $38.50 per dollar invested. The article An AI...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 54,
-      "date": "2026-07-21T19:12:20+00:00",
-      "ts": 1784661140.0
-    },
-    {
       "title": "Introducing the ChatGPT for small business program",
       "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
       "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
@@ -1162,17 +1228,6 @@
       "region": "global",
       "category": "modelo",
       "relevance": 52,
-      "date": "2026-07-21T15:00:00+00:00",
-      "ts": 1784646000.0
-    },
-    {
-      "title": "Google launches a cheaper alternative to large AI security models like Mythos",
-      "link": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
-      "summary": "Google is launching Gemini 3.6 Flash alongside a new security model dedicated to quickly finding and patching security vulnerabilities. In a blog post on Tuesday, Google describes Gemini 3.5 Flash Cyber as a \"cost-efficient and highly capable alternative\" to larger, more expensive AI systems, such as the one offered...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 51,
       "date": "2026-07-21T15:00:00+00:00",
       "ts": 1784646000.0
     },
@@ -1320,15 +1375,15 @@
       "ts": 1784583440.0
     },
     {
-      "title": "Custom OS installation now available on AWS DeepRacer devices",
-      "link": "https://aws.amazon.com/blogs/machine-learning/custom-os-installation-now-available-on-aws-deepracer-devices/",
-      "summary": "With the stock firmware and software, developers couldn't modify their AWS DeepRacer devices to use the latest operating systems. Now, developers can upgrade or install a custom operating system (OS) by using a newly released bootloader, which extends the life of these hardware devices. In this post, we introduce the...",
-      "source": "AWS Machine Learning",
-      "region": "global",
+      "title": "China's new AI model halts new subscriptions as demand swamps capacity",
+      "link": "https://techxplore.com/news/2026-07-china-ai-halts-subscriptions-demand.html",
+      "summary": "The new, powerful Chinese artificial intelligence model Kimi K3, which has caused a stir in the U.S. tech industry, has suspended new subscriptions after a flood in demand overwhelmed capacity within days of the launch.",
+      "source": "TechXplore (IA/ML)",
+      "region": "china",
       "category": "modelo",
-      "relevance": 44,
-      "date": "2026-07-20T17:25:24+00:00",
-      "ts": 1784568324.0
+      "relevance": 53,
+      "date": "2026-07-20T18:00:04+00:00",
+      "ts": 1784570404.0
     },
     {
       "title": "How Couchbase built a multi-model AI architecture for Capella iQ with Amazon Bedrock",
@@ -1474,17 +1529,6 @@
       "ts": 1784467224.0
     },
     {
-      "title": "China's Kimi K3 rattles US AI industry",
-      "link": "https://techxplore.com/news/2026-07-china-kimi-k3-rattles-ai.html",
-      "summary": "Kimi K3, a new artificial intelligence program from a Chinese startup called Moonshot AI, stunned the U.S. tech industry on Friday, setting off fresh discussion over the China–U.S. rivalry to dominate AI.",
-      "source": "TechXplore (IA/ML)",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 59,
-      "date": "2026-07-19T07:40:02+00:00",
-      "ts": 1784446802.0
-    },
-    {
       "title": "Moonshot is Chinese But Its AI Models Are From Another Planet",
       "link": "https://www.thealgorithmicbridge.com/p/moonshot-is-chinese-but-its-ai-models",
       "summary": "OpenAI, Anthropic, and America are in deep trouble",
@@ -1507,17 +1551,6 @@
       "ts": 1784373369.0
     },
     {
-      "title": "Chinese AI model takes US tech industry by surprise with abilities rivaling Claude and ChatGPT",
-      "link": "https://techxplore.com/news/2026-07-chinese-ai-tech-industry-abilities.html",
-      "summary": "Another powerful new artificial intelligence model from China took the U.S. tech industry by surprise Friday, the latest sign that Chinese startups that publicly release their \"open-source\" AI technology are making the California titans of AI sweat.",
-      "source": "TechXplore (IA/ML)",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 72,
-      "date": "2026-07-18T08:06:24+00:00",
-      "ts": 1784361984.0
-    },
-    {
       "title": "Hitachi and NVIDIA Collaborate to Enhance Autonomous Operations with AI",
       "link": "https://www.japanindustrynews.com/2026/07/hitachi-and-nvidia-collaborate-to-enhance-autonomous-operations-with-ai/",
       "summary": "Hitachi, Ltd. has announced a collaboration with NVIDIA to develop multi-agent orchestration technology aimed at accelerating autonomous operations within manufacturing and social infrastructure environments. This initiative seeks to enhance Hitachi's suite of solutions, known as HMAX, by integrating AI into...",
@@ -1538,17 +1571,6 @@
       "relevance": 57,
       "date": "2026-07-18T00:04:35+00:00",
       "ts": 1784333075.0
-    },
-    {
-      "title": "How to Work Effectively with GPT-5.6",
-      "link": "https://towardsdatascience.com/how-to-work-effectively-with-gpt-5-6/",
-      "summary": "Maximize the latest OpenAI model The post How to Work Effectively with GPT-5.6 appeared first on Towards Data Science .",
-      "source": "Towards Data Science",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 54,
-      "date": "2026-07-17T16:30:00+00:00",
-      "ts": 1784305800.0
     },
     {
       "title": "Moonshot AI unveils world’s largest open-source AI model as China narrows gap with US rivals",
@@ -1593,28 +1615,6 @@
       "relevance": 64,
       "date": "2026-07-16T19:29:26+00:00",
       "ts": 1784230166.0
-    },
-    {
-      "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
-      "link": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
-      "summary": "Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model-provider APIs, yet the next dollar is aimed at specialized compute almost none of them use today; a majority intend to...",
-      "source": "VentureBeat AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 43,
-      "date": "2026-07-16T19:16:48+00:00",
-      "ts": 1784229408.0
-    },
-    {
-      "title": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
-      "link": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
-      "summary": "Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less. Half have already shipped an agent that passed their internal evaluations and then failed a customer in production; only one in twenty fully trusts automated evaluation today; and...",
-      "source": "VentureBeat AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 46,
-      "date": "2026-07-16T16:40:48+00:00",
-      "ts": 1784220048.0
     },
     {
       "title": "Why teens deserve access to safe AI",
@@ -1694,17 +1694,6 @@
       "ts": 1784159970.0
     },
     {
-      "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
-      "link": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
-      "summary": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step execution. But the ambition runs well ahead of the reality: most deployed “agents” are still chatbot...",
-      "source": "VentureBeat AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 57,
-      "date": "2026-07-15T22:24:17+00:00",
-      "ts": 1784154257.0
-    },
-    {
       "title": "Agentic vision: Building visual intelligence with Amazon Bedrock and MCP servers",
       "link": "https://aws.amazon.com/blogs/machine-learning/agentic-vision-building-visual-intelligence-with-amazon-bedrock-and-mcp-servers/",
       "summary": "In this post, we walk you through the Computer Vision MCP Server, which illustrates this approach, representing how AI systems can process visual information and make intelligent decisions through a single, standardized interface. This convergence transforms what was once a complex integration challenge into a...",
@@ -1780,17 +1769,6 @@
       "relevance": 63,
       "date": "2026-07-14T00:00:00+00:00",
       "ts": 1783987200.0
-    },
-    {
-      "title": "OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock",
-      "link": "https://aws.amazon.com/blogs/machine-learning/openai-gpt-5-6-sol-terra-and-luna-are-now-generally-available-on-amazon-bedrock/",
-      "summary": "Today, GPT-5.6 Sol, Terra, and Luna from OpenAI are generally available on Amazon Bedrock, bringing the smartest family of models from OpenAI yet to Amazon Bedrock’s next-generation inference engine built for high-performance, security and reliability.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 62,
-      "date": "2026-07-13T21:01:20+00:00",
-      "ts": 1783976480.0
     },
     {
       "title": "AI agents create virtual playgrounds to help robots get crucial training data",
@@ -2009,17 +1987,6 @@
       "region": "global",
       "category": "modelo",
       "relevance": 63,
-      "date": "2026-07-07T00:00:00+00:00",
-      "ts": 1783382400.0
-    },
-    {
-      "title": "MUFG aims to become AI-native with OpenAI",
-      "link": "https://openai.com/index/mufg",
-      "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 62,
       "date": "2026-07-07T00:00:00+00:00",
       "ts": 1783382400.0
     },
