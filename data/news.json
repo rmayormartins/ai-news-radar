@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-26T01:52:27.294065+00:00",
-  "count": 164,
-  "china_count": 50,
+  "generated_at": "2026-07-26T08:08:54.634870+00:00",
+  "count": 154,
+  "china_count": 47,
   "japan_count": 4,
   "sources": [
     {
@@ -76,8 +76,8 @@
     },
     {
       "source": "arXiv cs.CL",
-      "status": "ok (149 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.CV",
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -207,7 +207,7 @@
     {
       "source": "Pandaily",
       "status": "ok (20 itens)",
-      "kept": 6
+      "kept": 4
     },
     {
       "source": "TechNode",
@@ -297,6 +297,39 @@
   ],
   "items": [
     {
+      "title": "US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns",
+      "link": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns/",
+      "summary": "The Trump administration is planning targeted bans on Chinese AI models rather than a blanket ban. After public pressure, OpenAI and Google DeepMind signed an open letter opposing regulation of open-weight models, yet OpenAI and Anthropic continue to lobby privately for those same restrictions amid security concerns...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-07-26T07:56:24+00:00",
+      "ts": 1785052584.0
+    },
+    {
+      "title": "The AI coding tutor paradox grows as educators scramble to rethink how they test real skills",
+      "link": "https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills/",
+      "summary": "An ACM survey of 763 computer science educators from 49 countries shows that 68 percent have already changed their exams because of AI, shifting toward oral exams, proctored tests, and project-based work. Teaching is moving from writing code to understanding it. But nearly half of respondents say they lack proven...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "geral",
+      "relevance": 22,
+      "date": "2026-07-26T06:59:56+00:00",
+      "ts": 1785049196.0
+    },
+    {
+      "title": "149 Pages Mapping the Long-Horizon Agent Frontier: Multi-University Survey Proposes Harness Engineering and Model Optimization as Two Main Evolution Lines for Next-Generation AI Agents",
+      "link": "https://pandaily.com/long-horizon-agent-survey-149-pages-jul2026",
+      "summary": "Renmin University GAIR leads multi-institution 149-page survey on long-horizon agents, proposing H1-H3 task difficulty hierarchy and C1-C3 capability tiers, with task span doubling every 4-7 months.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-07-26T02:13:35+00:00",
+      "ts": 1785032015.0
+    },
+    {
       "title": "New reports reveal the extent of OpenAI's loss of control during the autonomous hack on Hugging Face",
       "link": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face/",
       "summary": "In a cybersecurity test, OpenAI's most advanced models breached the boundaries of their isolated test environment, reached the open internet, and hacked the AI platform Hugging Face on their own. The attack took hours, not the weeks a human hacker would need. At least seven days passed before OpenAI realized what had...",
@@ -350,94 +383,6 @@
       "relevance": 71,
       "date": "2026-07-25T09:31:00+00:00",
       "ts": 1784971860.0
-    },
-    {
-      "title": "Adaptive Depth Sparse Framework: Similarity-Driven Resource Allocation for Pre-Trained LLMs",
-      "link": "https://arxiv.org/abs/2607.21291",
-      "summary": "arXiv:2607.21291v1 Announce Type: new Abstract: Large language models (LLMs) achieve strong generation and reasoning performance, but the Transformer architecture incurs high inference cost. Existing acceleration methods often rely on task-specific fine-tuning or training from scratch, increasing adaptation cost and...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 75,
-      "date": "2026-07-25T04:00:00+00:00",
-      "ts": 1784952000.0
-    },
-    {
-      "title": "DatedGPT: Preventing Lookahead Bias in Large Language Models with Time-Aware Pretraining",
-      "link": "https://arxiv.org/abs/2603.11838",
-      "summary": "arXiv:2603.11838v2 Announce Type: replace Abstract: Large language models pretrained on internet-scale data risk lookahead bias in forecasting tasks, as they may have already seen the true outcome during training. To address this, we present DatedGPT, a family of twelve 1.3B-parameter language models trained from...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 72,
-      "date": "2026-07-25T04:00:00+00:00",
-      "ts": 1784952000.0
-    },
-    {
-      "title": "Domyn-Small: A European 10B Reasoning Language Model",
-      "link": "https://arxiv.org/abs/2607.20448",
-      "summary": "arXiv:2607.20448v1 Announce Type: new Abstract: We introduce Domyn-Small, a 10-billion-parameter open-weight reasoning language model released under the MIT license. Domyn-Small is the product of an initial pre-training phase on 9 trillion tokens multilingual data, followed by a post-training pipeline for reasoning,...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 71,
-      "date": "2026-07-25T04:00:00+00:00",
-      "ts": 1784952000.0
-    },
-    {
-      "title": "Student-Centered Distillation Narrows the Agentic Gap Between Small and Large LLMs",
-      "link": "https://arxiv.org/abs/2509.14257",
-      "summary": "arXiv:2509.14257v3 Announce Type: replace Abstract: Large Language Model agents achieve strong performance on multi-step reasoning and tool-use tasks, but their impressive capabilities typically rely on extremely large backbones. Existing distillation approaches train smaller students to imitate full teacher...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 71,
-      "date": "2026-07-25T04:00:00+00:00",
-      "ts": 1784952000.0
-    },
-    {
-      "title": "LinearARD: Linear-Memory Attention Distillation for RoPE Restoration",
-      "link": "https://arxiv.org/abs/2604.00004",
-      "summary": "arXiv:2604.00004v2 Announce Type: replace Abstract: The extension of context windows in Large Language Models is typically facilitated by scaling positional encodings followed by lightweight Continual Pre-Training (CPT). While effective for processing long sequences, this paradigm often disrupts original model...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 70,
-      "date": "2026-07-25T04:00:00+00:00",
-      "ts": 1784952000.0
-    },
-    {
-      "title": "A Comparative Evaluation of Embeddings and LLMs in a Greek Book Publisher Setting - The CUP Dataset",
-      "link": "https://arxiv.org/abs/2607.21274",
-      "summary": "arXiv:2607.21274v1 Announce Type: new Abstract: We present CUP, a Greek book retrieval benchmark consisting of 868 catalog records and 104 expert-annotated queries with graded relevance judgments. We evaluate sparse (BM25), dense (sentence-transformers), hybrid, and LLM-assisted retrieval methods in this book-search...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 69,
-      "date": "2026-07-25T04:00:00+00:00",
-      "ts": 1784952000.0
-    },
-    {
-      "title": "Token Budget Saturation and Mechanistic Early Detection of Reasoning Non-Convergence in Chain-of-Thought Models",
-      "link": "https://arxiv.org/abs/2607.21433",
-      "summary": "arXiv:2607.21433v1 Announce Type: new Abstract: Chain-of-thought reasoning models such as DeepSeek-R1-Distill-Qwen-7B exhibit a bimodal convergence pattern: generations either terminate within a token budget (converged) or exhaust it without reaching a conclusion (non-converged). We characterize this phenomenon...",
-      "source": "arXiv cs.CL",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 69,
-      "date": "2026-07-25T04:00:00+00:00",
-      "ts": 1784952000.0
-    },
-    {
-      "title": "Training Large Language Models for Self-Explanation Faithfulness",
-      "link": "https://arxiv.org/abs/2607.21090",
-      "summary": "arXiv:2607.21090v1 Announce Type: cross Abstract: We propose a Reinforcement Learning (RL) method to directly optimize the faithfulness of self-explanations - the extent to which a model's generated reasoning accurately reflects its internal decision-making process. While existing work focuses on evaluating...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 69,
-      "date": "2026-07-25T04:00:00+00:00",
-      "ts": 1784952000.0
     },
     {
       "title": "Introducing Claude Opus 5",
@@ -572,17 +517,6 @@
       "ts": 1784892709.0
     },
     {
-      "title": "Kimi K3 trails frontier US models by a wide margin on cyber exploits, and distillation may explain why",
-      "link": "https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why/",
-      "summary": "The British AI Security Institute and the U.S. Center for AI Standards and Innovation tested Moonshot AI's Kimi K3 on offensive cyber tasks. Kimi K3 scored 32 percent on ExploitBench, compared with 76 percent for leading U.S. models, while its safeguards failed to block exploit development or simulated attacks. The...",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 68,
-      "date": "2026-07-24T09:48:32+00:00",
-      "ts": 1784886512.0
-    },
-    {
       "title": "Kimi K3 intensifies pressure on Trump to confront Chinese AI competition",
       "link": "https://techxplore.com/news/2026-07-kimi-k3-pressure-trump-chinese.html",
       "summary": "U.S. President Donald Trump is under pressure to respond to the growing success of Chinese AI models that many companies prefer to the more powerful, but pricier, U.S. versions from Anthropic or OpenAI.",
@@ -649,28 +583,6 @@
       "ts": 1784856898.0
     },
     {
-      "title": "Computing Power Becomes the Lifeline: Tech Giants Scramble for AI Supernodes as Model Parameter Competitions Drive Unprecedented Infrastructure Demand",
-      "link": "https://pandaily.com/supernode-computing-giants-scramble-jul2026",
-      "summary": "Huawei, ZTE, H3C, Sugon, and others race to build and deploy AI supernodes from 1024 to 100K GPU scale, as Kimi K3 and GLM-5 demand drives computing capacity to the breaking point.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 63,
-      "date": "2026-07-24T01:34:28+00:00",
-      "ts": 1784856868.0
-    },
-    {
-      "title": "ChatGPT will give you worse health advice if you don't pay",
-      "link": "https://the-decoder.com/chatgpt-will-give-you-worse-health-advice-if-you-dont-pay/",
-      "summary": "OpenAI is rolling out \"Health in ChatGPT\" to U.S. users, connecting Apple Health, medical records, and wellness apps. More than 300 million people already ask ChatGPT health questions every week, but paying users get better answers. The more powerful GPT-5.6 Sol model is reserved for premium subscribers, while free...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 66,
-      "date": "2026-07-23T19:30:51+00:00",
-      "ts": 1784835051.0
-    },
-    {
       "title": "Claude’s voice mode is now available for Opus and Sonnet",
       "link": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
       "summary": "Until now, voice mode has only been available on Claude Haiku, Anthropic's faster but less powerful model. Now the company is making its Opus and Sonnet models available in voice mode, and extending its reach into apps like Gmail, Slack, and Canva. When Anthropic launched voice mode last year, it was primarily focused...",
@@ -735,28 +647,6 @@
       "relevance": 70,
       "date": "2026-07-23T09:07:35+00:00",
       "ts": 1784797655.0
-    },
-    {
-      "title": "Beijing Releases Groundbreaking Agent AI Policy: 10 Measures That Signal a New Economic Framework for AI Agent Infrastructure and Token Economy",
-      "link": "https://pandaily.com/beijing-agent-policy-2026-jul2026",
-      "summary": "Beijing unveils comprehensive 10-measure Agent AI policy covering foundation model task completion, Harness Engineering, skill markets, AI OS, and Token economy infrastructure.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 54,
-      "date": "2026-07-23T07:50:20+00:00",
-      "ts": 1784793020.0
-    },
-    {
-      "title": "Security and AI Communities in Uproar as GPT Autonomously Hacks Hugging Face, Hugging Face Finally Rescued by Chinese Open-Source Model Zhipu GLM 5.2",
-      "link": "https://pandaily.com/openai-gpt-huggingface-hack-zhipu-saved-jul2026",
-      "summary": "OpenAI autonomous AI agent breached Hugging Face infrastructure during security testing, executing 17,000 operations; Hugging Face deployed Zhipu GLM 5.2 locally to complete incident forensics when commercial models refused.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 74,
-      "date": "2026-07-23T07:49:46+00:00",
-      "ts": 1784792986.0
     },
     {
       "title": "DeepSeek puts AGI research ahead of products and commercial growth",
