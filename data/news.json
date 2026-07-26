@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-26T08:08:54.634870+00:00",
-  "count": 154,
-  "china_count": 47,
+  "generated_at": "2026-07-26T12:58:45.979411+00:00",
+  "count": 155,
+  "china_count": 49,
   "japan_count": 4,
   "sources": [
     {
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -207,7 +207,7 @@
     {
       "source": "Pandaily",
       "status": "ok (20 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "TechNode",
@@ -246,7 +246,7 @@
     },
     {
       "source": "China Internet Watch",
-      "status": "ERRO: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.chinainternetwatch.com'. (_ssl.c:1010)>",
+      "status": "ERRO: <urlopen error [Errno 101] Network is unreachable>",
       "kept": 0
     },
     {
@@ -296,6 +296,61 @@
     }
   ],
   "items": [
+    {
+      "title": "Anthropic's Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
+      "link": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/",
+      "summary": "Anthropic's Claude Opus 5 scored 30.2 percent on ARC-AGI-3, nearly quadrupling GPT-5.6 Sol's previous record of 7.8 percent. The benchmark's developers say the model independently formulated reflection equations, a behavior they had never seen from another model, and attribute to stronger logical reasoning. The...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 70,
+      "date": "2026-07-26T09:43:02+00:00",
+      "ts": 1785058982.0
+    },
+    {
+      "title": "Hundreds asked ChatGPT for poison and bioweapon recipes and some got step-by-step high school level guides",
+      "link": "https://the-decoder.com/hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high-school-level-guides/",
+      "summary": "In summer 2025, OpenAI internally flagged GPT-5 as high-risk because it helped users create biological hazards, but downgraded the model's risk rating that fall. According to the Wall Street Journal, some users got step-by-step instructions for making poisons and biological weapons. Hundreds asked for that kind of...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 71,
+      "date": "2026-07-26T08:35:49+00:00",
+      "ts": 1785054949.0
+    },
+    {
+      "title": "China First Science Lab Module Wentian Completes Four Years in Orbit: 17.9-Meter Research Platform Enables Over 1,400 Days of Space Science Experiments",
+      "link": "https://pandaily.com/wentian-lab-module-4-years-jul2026",
+      "summary": "China Wentian lab module, launched July 2022, marks four years of stable orbit operation as the nation first dedicated science experiment module supporting 6-crew capacity and external exposure experiments.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-07-26T08:03:48+00:00",
+      "ts": 1785053028.0
+    },
+    {
+      "title": "Tencent Robotics X Open-Sources Three Embodied Foundation Models: Chief Scientist Zhang Zhengyou Explains the 3-Layer Brain Architecture Solving Robot Reaction Speed",
+      "link": "https://pandaily.com/tencent-robotics-x-three-embodied-models-jul2026",
+      "summary": "Tencent open-sources three embodied models at WAIC 2026: VLM for scene understanding, RxBrain cognitive model for planning with visual states, and VLA for continuous action at 500-1000Hz.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 59,
+      "date": "2026-07-26T08:03:33+00:00",
+      "ts": 1785053013.0
+    },
+    {
+      "title": "Tencent Miora Design Agent Hands-On: One Brief Generates Full Brand Visual Assets Through Multi-Agent Collaboration, Though Integration Still Has Limits",
+      "link": "https://pandaily.com/tencent-miora-design-agent-hands-on-jul2026",
+      "summary": "Hands-on test of Tencent Miora creative agent: input a brand brief for Puff AI companion robot, received logo, brand guidelines, VI assets, app UI, poster, video, and sticker pack from single 1000-integral run.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "pesquisa",
+      "relevance": 45,
+      "date": "2026-07-26T08:03:04+00:00",
+      "ts": 1785052984.0
+    },
     {
       "title": "US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns",
       "link": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns/",
@@ -495,28 +550,6 @@
       "ts": 1784898160.0
     },
     {
-      "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
-      "link": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
-      "summary": "The German consortium behind the AI model Soofi S has acknowledged in version 3.0 of its tech report that test questions from the science benchmark GPQA accidentally ended up in the training data. The community caught the error by examining the publicly available data. The team removed the benchmark from its...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 59,
-      "date": "2026-07-24T12:56:01+00:00",
-      "ts": 1784897761.0
-    },
-    {
-      "title": "Claude's voice mode now runs on Anthropic's most capable models across all platforms",
-      "link": "https://the-decoder.com/claudes-voice-mode-now-runs-on-anthropics-most-capable-models-across-all-platforms/",
-      "summary": "Voice conversations now run on the more powerful Opus and Sonnet models with access to Gmail, Google Calendar, and Slack. Claude is currently the only AI assistant that can compose and send emails directly by voice, giving it an edge over OpenAI and Google, whose voice output still sounds more natural. The article...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 63,
-      "date": "2026-07-24T11:31:49+00:00",
-      "ts": 1784892709.0
-    },
-    {
       "title": "Kimi K3 intensifies pressure on Trump to confront Chinese AI competition",
       "link": "https://techxplore.com/news/2026-07-kimi-k3-pressure-trump-chinese.html",
       "summary": "U.S. President Donald Trump is under pressure to respond to the growing success of Chinese AI models that many companies prefer to the more powerful, but pricier, U.S. versions from Anthropic or OpenAI.",
@@ -539,17 +572,6 @@
       "ts": 1784880012.0
     },
     {
-      "title": "China Embodied Intelligence Enters Early Commercialization: PwC White Paper and Morgan Stanley Forecast $15 Billion Market by 2030",
-      "link": "https://pandaily.com/china-embodied-intelligence-early-commercialization-jul2026",
-      "summary": "PwC China AI Research Institute inaugural report forecasts three-robot-form division by 2030; Morgan Stanley projects 446,000 humanoid units shipped annually with $15B market size.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "pesquisa",
-      "relevance": 45,
-      "date": "2026-07-24T07:59:10+00:00",
-      "ts": 1784879950.0
-    },
-    {
       "title": "China’s Kimi K3 ‘significantly below’ US rivals in hacking power, study shows",
       "link": "https://www.scmp.com/tech/tech-war/article/3361711/chinas-kimi-k3-significantly-below-us-rivals-hacking-power-uk-us-study-shows?utm_source=rss_feed",
       "summary": "Chinese unicorn Moonshot AI’s Kimi K3 model trails far behind top American rivals in its ability to launch cyberattacks, joint British-US government research shows, challenging Washington’s brewing anxiety over the rapid rise of Chinese open-source artificial intelligence. The model, currently considered China’s most...",
@@ -570,17 +592,6 @@
       "relevance": 66,
       "date": "2026-07-24T05:45:53+00:00",
       "ts": 1784871953.0
-    },
-    {
-      "title": "Surpassing Pi-Zero: Youibot FabriVLA 1B-Parameter Model Topping the Embodied Intelligence Leaderboard Marks the Shift From Parameter Competition to Architecture Competition",
-      "link": "https://pandaily.com/youibot-fabrivla-1b-embodied-leaderboard-jul2026",
-      "summary": "Youibot FabriVLA achieves 90.0% tier-average on Meta-World MT50 with just 1B parameters, surpassing Pi-Zero, as the industrial robot maker also debuts Fengxi humanoid robot with 4,000 unit orders.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "pesquisa",
-      "relevance": 53,
-      "date": "2026-07-24T01:34:58+00:00",
-      "ts": 1784856898.0
     },
     {
       "title": "Claude’s voice mode is now available for Opus and Sonnet",
