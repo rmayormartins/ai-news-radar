@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-26T12:58:45.979411+00:00",
-  "count": 155,
+  "generated_at": "2026-07-26T18:57:09.754817+00:00",
+  "count": 154,
   "china_count": 49,
-  "japan_count": 4,
+  "japan_count": 3,
   "sources": [
     {
       "source": "OpenAI",
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -187,7 +187,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "Synced (机器之心)",
@@ -246,7 +246,7 @@
     },
     {
       "source": "China Internet Watch",
-      "status": "ERRO: <urlopen error [Errno 101] Network is unreachable>",
+      "status": "ERRO: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.chinainternetwatch.com'. (_ssl.c:1010)>",
       "kept": 0
     },
     {
@@ -296,6 +296,17 @@
     }
   ],
   "items": [
+    {
+      "title": "Cursor's agent swarm suggests cheaper models can handle most coding when frontier models plan the work",
+      "link": "https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/",
+      "summary": "Cursor asked its upgraded agent swarm and its predecessor to rebuild SQLite in Rust using only the documentation, with no source code or internet access. Every configuration of the new system, which separates planners from workers, eventually scored 100 percent on the test suite. The old swarm choked on merge...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 37,
+      "date": "2026-07-26T15:09:11+00:00",
+      "ts": 1785078551.0
+    },
     {
       "title": "Anthropic's Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
       "link": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/",
@@ -526,17 +537,6 @@
       "relevance": 69,
       "date": "2026-07-24T15:40:08+00:00",
       "ts": 1784907608.0
-    },
-    {
-      "title": "Sakana claims its AI model router Fugu Ultra v1.1 now beats Fable 5 without even including it in the pool",
-      "link": "https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool/",
-      "summary": "Sakana AI has updated its Fugu Ultra AI router to version 1.1, claiming gains of up to 7.9 points over v1.0. Independent verification doesn't exist yet. The update adds a Claude Code-compatible endpoint. The service remains unavailable in the EU. The article Sakana claims its AI model router Fugu Ultra v1.1 now beats...",
-      "source": "The Decoder",
-      "region": "japan",
-      "category": "modelo",
-      "relevance": 52,
-      "date": "2026-07-24T14:37:57+00:00",
-      "ts": 1784903877.0
     },
     {
       "title": "Language Model Hallucination Evaluation with GraphEval",
@@ -1021,17 +1021,6 @@
       "relevance": 57,
       "date": "2026-07-20T16:58:52+00:00",
       "ts": 1784566732.0
-    },
-    {
-      "title": "How to Run Claude Code Agents for 24+ Hours",
-      "link": "https://towardsdatascience.com/how-to-run-claude-code-agents-for-24-hours/",
-      "summary": "Apply long-running coding agents to become a more productive engineer The post How to Run Claude Code Agents for 24+ Hours appeared first on Towards Data Science .",
-      "source": "Towards Data Science",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 49,
-      "date": "2026-07-20T16:30:00+00:00",
-      "ts": 1784565000.0
     },
     {
       "title": "Kimi K3: The open-weights escalation",
