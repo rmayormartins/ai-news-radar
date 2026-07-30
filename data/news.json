@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-30T13:27:33.688495+00:00",
-  "count": 195,
-  "china_count": 53,
+  "generated_at": "2026-07-30T19:10:03.793934+00:00",
+  "count": 193,
+  "china_count": 55,
   "japan_count": 0,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1055 itens)",
+      "status": "ok (1056 itens)",
       "kept": 12
     },
     {
       "source": "Google AI / DeepMind",
       "status": "ok (20 itens)",
-      "kept": 5
+      "kept": 4
     },
     {
       "source": "Google Research",
@@ -26,7 +26,7 @@
     },
     {
       "source": "Hugging Face",
-      "status": "ok (833 itens)",
+      "status": "ok (834 itens)",
       "kept": 12
     },
     {
@@ -117,7 +117,7 @@
     {
       "source": "KDnuggets",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "TechXplore (IA/ML)",
@@ -132,22 +132,22 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Ars Technica",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 4
     },
     {
       "source": "Wired AI",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Analytics India",
@@ -297,6 +297,83 @@
   ],
   "items": [
     {
+      "title": "OpenAI goes full China pricing mode with an 80 percent cut to its most affordable GPT-5.6 model",
+      "link": "https://the-decoder.com/openai-goes-full-china-pricing-mode-with-an-80-percent-cut-to-its-most-affordable-gpt-5-6-model/",
+      "summary": "Starting July 30, OpenAI is cutting GPT-5.6 Luna prices by 80 percent and Terra by 20 percent. OpenAI says its top-tier Sol model helped make the company's own infrastructure more efficient, enabling the cuts. Price pressure from cheap Chinese providers and Microsoft's own MAI models likely played a role too. The...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 62,
+      "date": "2026-07-30T18:46:24+00:00",
+      "ts": 1785437184.0
+    },
+    {
+      "title": "Ex-OpenAI researcher bets $100 billion will flow into training data because scaling alone won't cut it",
+      "link": "https://the-decoder.com/ex-openai-researcher-bets-100-billion-will-flow-into-training-data-because-scaling-alone-wont-cut-it/",
+      "summary": "Former OpenAI employee Andrew Ho and Cambridge researcher Adam Hunt see a growing problem with large language models. Instead of becoming more versatile, the models are becoming more specialized, excelling at coding and math while stagnating or even regressing in other areas. Ho is leaving OpenAI to start a company...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 61,
+      "date": "2026-07-30T18:07:17+00:00",
+      "ts": 1785434837.0
+    },
+    {
+      "title": "Deploying Kimi K3 on AWS",
+      "link": "https://aws.amazon.com/blogs/machine-learning/deploying-kimi-k3-on-aws/",
+      "summary": "This post walks through deploying Kimi K3 on AWS using two approaches: Amazon SageMaker HyperPod, and Amazon Elastic Kubernetes Service (Amazon EKS) cluster.",
+      "source": "AWS Machine Learning",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 51,
+      "date": "2026-07-30T17:22:32+00:00",
+      "ts": 1785432152.0
+    },
+    {
+      "title": "Introducing explicit prompt caching for OpenAI GPT-5.6 models on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-explicit-prompt-caching-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+      "summary": "OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock, along with explicit prompt caching that gives you precise control over which parts of your prompt are cached and reused. Learn how to get started, set up explicit caching, and migrate existing GPT workloads to reduce inference cost.",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 64,
+      "date": "2026-07-30T16:02:32+00:00",
+      "ts": 1785427352.0
+    },
+    {
+      "title": "Gemini Robotics 2 Brings Google's AI Into the Physical World",
+      "link": "https://www.wired.com/story/google-gemini-can-control-humanoid-robots/",
+      "summary": "The latest version of Google DeepMind's AI model includes a significant jump into “physical AGI.” But plopping AI into the real world comes with risks.",
+      "source": "Wired AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 58,
+      "date": "2026-07-30T15:04:22+00:00",
+      "ts": 1785423862.0
+    },
+    {
+      "title": "A Beginner’s Guide to Working with Claude Design",
+      "link": "https://www.kdnuggets.com/a-beginners-guide-to-working-with-claude-design",
+      "summary": "Claude Design is a research preview under Anthropic Labs, powered by Claude Opus' vision capability, generating interactive prototypes with working navigation, embedded video, voice input, and 3D elements.",
+      "source": "KDnuggets",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 56,
+      "date": "2026-07-30T14:06:48+00:00",
+      "ts": 1785420408.0
+    },
+    {
+      "title": "Language models can't spark scientific revolutions, but world models might",
+      "link": "https://the-decoder.com/language-models-cant-spark-scientific-revolutions-but-world-models-might/",
+      "summary": "Can language models spark a scientific revolution? In a position paper titled \"LLMs can't jump,\" Google Deepmind's Tom Zahavy argues they can't. They're missing the cognitive mechanism needed to create something truly new. The article Language models can't spark scientific revolutions, but world models might appeared...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 50,
+      "date": "2026-07-30T14:01:33+00:00",
+      "ts": 1785420093.0
+    },
+    {
       "title": "Microsoft AI bets on cheap specialist models instead of chasing the frontier",
       "link": "https://the-decoder.com/microsoft-ai-bets-on-cheap-specialist-models-instead-of-chasing-the-frontier/",
       "summary": "Microsoft AI is betting on small specialist models instead of expensive general-purpose ones, according to AI CEO Mustafa Suleyman. MAI-Cyber-1-Flash tops the CyberGym benchmark when embedded in an orchestrator and reportedly costs half as much as Anthropic's Mythos, but it still relies on OpenAI for hard tasks....",
@@ -339,6 +416,17 @@
       "relevance": 56,
       "date": "2026-07-30T10:15:19+00:00",
       "ts": 1785406519.0
+    },
+    {
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 65,
+      "date": "2026-07-30T10:00:00+00:00",
+      "ts": 1785405600.0
     },
     {
       "title": "Moonshot AI’s Kimi K3 reaches enterprise users through Fireworks on Microsoft Foundry",
@@ -869,17 +957,6 @@
       "ts": 1785359212.0
     },
     {
-      "title": "Claude Opus 5 became downright ruthless when tasked with running a vending machine",
-      "link": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/",
-      "summary": "Andon Labs' latest vending machine simulation shows Opus 5 lied and colluded its way to become the best AI capitalist ever.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 54,
-      "date": "2026-07-29T18:45:27+00:00",
-      "ts": 1785350727.0
-    },
-    {
       "title": "Google's Lyria 3.5 music model now lets users edit individual track sections without starting over",
       "link": "https://the-decoder.com/googles-lyria-3-5-music-model-now-lets-users-edit-individual-track-sections-without-starting-over/",
       "summary": "Google released Lyria 3.5, its new music generation model, and built it into Google Flow Music. The model generates tracks between 30 seconds and 3 minutes long. A new feature called \"Selective Section Painting\" lets users edit specific sections of a track. Google still hasn't shared any details about the training...",
@@ -999,39 +1076,6 @@
       "relevance": 49,
       "date": "2026-07-29T14:00:02+00:00",
       "ts": 1785333602.0
-    },
-    {
-      "title": "Deepmind dismantles its AlphaFold team as key authors leave for Anthropic",
-      "link": "https://the-decoder.com/deepmind-dismantles-its-alphafold-team-as-key-authors-leave-for-anthropic/",
-      "summary": "The majority of the researchers behind AlphaFold are now working on other projects, and almost a quarter have left Google Deepmind altogether. The restructuring marks a sharp turn away from the strategy that put the lab on the map. The article Deepmind dismantles its AlphaFold team as key authors leave for Anthropic...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 45,
-      "date": "2026-07-29T13:47:11+00:00",
-      "ts": 1785332831.0
-    },
-    {
-      "title": "GPT Transcribe improves on its predecessor but can't catch ElevenLabs, Google, or Mistral on error rates",
-      "link": "https://the-decoder.com/gpt-transcribe-improves-on-its-predecessor-but-cant-catch-elevenlabs-google-or-mistral-on-error-rates/",
-      "summary": "OpenAI has released GPT Transcribe and GPT Live Transcribe, two new speech recognition models available through its API. The article GPT Transcribe improves on its predecessor but can't catch ElevenLabs, Google, or Mistral on error rates appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 74,
-      "date": "2026-07-29T12:45:33+00:00",
-      "ts": 1785329133.0
-    },
-    {
-      "title": "Frontier AI developers urge international coordination to pace automated research before capabilities outstrip control",
-      "link": "https://the-decoder.com/frontier-ai-developers-urge-international-coordination-to-pace-automated-research-before-capabilities-outstrip-control/",
-      "summary": "In a joint statement, employees from the leading AI labs are calling on the US government to pursue international coordination. Their argument is simple: no single company or country can slow things down alone. The article Frontier AI developers urge international coordination to pace automated research before...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 35,
-      "date": "2026-07-29T12:13:16+00:00",
-      "ts": 1785327196.0
     },
     {
       "title": "5 Must-Read Resources for Mastering Small Language Models",
@@ -1166,17 +1210,6 @@
       "ts": 1785283200.0
     },
     {
-      "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
-      "link": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
-      "summary": "10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to release of a patch.",
-      "source": "Ars Technica",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 40,
-      "date": "2026-07-28T21:36:39+00:00",
-      "ts": 1785274599.0
-    },
-    {
       "title": "AI leaders sign a statement asking the government to do something about automated AI",
       "link": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
       "summary": "Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, Microsoft, Mistral, and other leading AI labs, have written a statement to the US government supporting a potential slowdown of sorts for frontier AI development - or at least a speed-up of global coordinated governance efforts. \"Al could...",
@@ -1241,17 +1274,6 @@
       "relevance": 63,
       "date": "2026-07-28T16:00:00+00:00",
       "ts": 1785254400.0
-    },
-    {
-      "title": "Perplexity’s Personal Computer turns Windows PCs into AI agents",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
-      "summary": "Perplexity has expanded its agentic Personal Computer tool to Windows, allowing computers running the world's most popular OS to be used as a locally run AI system. Like the Mac version that Perplexity launched in April, Personal Computer for Windows operates like a \"general-purpose digital worker\" that can access...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 46,
-      "date": "2026-07-28T12:30:00+00:00",
-      "ts": 1785241800.0
     },
     {
       "title": "Moonshot’s Kimi K3 triggers Silicon Valley debate over bans on Chinese open source models",
@@ -1430,6 +1452,17 @@
       "ts": 1784984437.0
     },
     {
+      "title": "Investment with Chinese characteristics: how Beijing’s money is reshaping tech ventures",
+      "link": "https://www.scmp.com/tech/policy/article/3361779/investment-chinese-characteristics-how-beijings-money-reshaping-tech-ventures?utm_source=rss_feed",
+      "summary": "On the surface, China’s cutting-edge tech sector – from the algorithmic breakthroughs of DeepSeek and Zhipu AI to the hardware of Unitree Robotics and ChangXin Memory Technologies (CXMT) – mirrors Silicon Valley’s venture capital-backed ecosystem. But a closer look at their financing histories reveals a common...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 50,
+      "date": "2026-07-25T02:00:15+00:00",
+      "ts": 1784944815.0
+    },
+    {
       "title": "Introducing Claude Opus 5",
       "link": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
       "summary": "Introducing Claude Opus 5 I've been offline kayaking with sea otters for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 through its paces yet. The buzz is positive, and Anthropic's description of it as a \"thoughtful and proactive model that comes close to the frontier intelligence...",
@@ -1505,28 +1538,6 @@
       "relevance": 49,
       "date": "2026-07-23T16:42:54+00:00",
       "ts": 1784824974.0
-    },
-    {
-      "title": "Agentic retrieval for Amazon Bedrock Managed Knowledge Base",
-      "link": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-for-amazon-bedrock-managed-knowledge-base/",
-      "summary": "This post focuses on why classic retrieval falls short on multi-part questions, how the AgenticRetrieveStream API works (including request construction and trace parsing), and when to choose it over the standard Retrieve API.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 49,
-      "date": "2026-07-23T16:30:20+00:00",
-      "ts": 1784824220.0
-    },
-    {
-      "title": "Global AI experts push back on US ‘distillation’ claims against Moonshot’s Kimi K3 model",
-      "link": "https://www.scmp.com/tech/tech-war/article/3361625/global-ai-experts-push-back-us-distillation-claims-against-moonshots-kimi-k3-model?utm_source=rss_feed",
-      "summary": "The global AI community has pushed back against the Trump administration’s claims that Moonshot AI’s groundbreaking Kimi K3 distilled US models, citing a lack of justification and arguing that the practice does not constitute intellectual property theft. In separate posts on X on Thursday, a number of AI experts...",
-      "source": "SCMP Tech",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 65,
-      "date": "2026-07-23T12:30:11+00:00",
-      "ts": 1784809811.0
     },
     {
       "title": "Kimi and Xi",
@@ -1615,17 +1626,6 @@
       "relevance": 74,
       "date": "2026-07-21T17:00:00+00:00",
       "ts": 1784653200.0
-    },
-    {
-      "title": "Exploring self-distilled reasoning for supervised fine-tuning with Amazon Nova",
-      "link": "https://aws.amazon.com/blogs/machine-learning/exploring-self-distilled-reasoning-for-supervised-fine-tuning-with-amazon-nova/",
-      "summary": "In this post, we explore an idea for generating thinking tokens for datasets that lack reasoning traces in SFT customization. We first examine the reasoning suppression problem, then introduce Self-Distilled Reasoning (SDR), validate it across three benchmarks, and provide practical recommendations.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 57,
-      "date": "2026-07-21T16:23:12+00:00",
-      "ts": 1784650992.0
     },
     {
       "title": "Another ‘DeepSeek moment’? What China’s Kimi K3 means for the global AI industry",
@@ -1989,17 +1989,6 @@
       "relevance": 52,
       "date": "2026-07-09T20:46:03+00:00",
       "ts": 1783629963.0
-    },
-    {
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 65,
-      "date": "2026-07-09T13:00:00+00:00",
-      "ts": 1783602000.0
     },
     {
       "title": "ChatGPT is now a partner for your most ambitious work",
@@ -2429,17 +2418,6 @@
       "relevance": 31,
       "date": "2026-06-16T13:29:30+00:00",
       "ts": 1781616570.0
-    },
-    {
-      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
-      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
-      "summary": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
-      "source": "Google AI / DeepMind",
-      "region": "global",
-      "category": "geral",
-      "relevance": 26,
-      "date": "2026-06-15T15:00:00+00:00",
-      "ts": 1781535600.0
     }
   ]
 }
