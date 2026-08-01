@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-01T12:56:58.024805+00:00",
-  "count": 156,
-  "china_count": 55,
+  "generated_at": "2026-08-01T18:54:39.011448+00:00",
+  "count": 158,
+  "china_count": 56,
   "japan_count": 2,
   "sources": [
     {
@@ -12,7 +12,7 @@
     {
       "source": "Google AI / DeepMind",
       "status": "ok (20 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "Google Research",
@@ -91,13 +91,13 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 9
+      "kept": 10
     },
     {
       "source": "MIT Tech Review",
@@ -117,7 +117,7 @@
     {
       "source": "KDnuggets",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "TechXplore (IA/ML)",
@@ -132,12 +132,12 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Ars Technica",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "The Verge AI",
@@ -187,7 +187,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Synced (机器之心)",
@@ -296,6 +296,94 @@
     }
   ],
   "items": [
+    {
+      "title": "Sam Altman is still making the case for parenting via ChatGPT",
+      "link": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
+      "summary": "OpenAI's CEO seemed excited to share a \"cool use case\" for parents.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 54,
+      "date": "2026-08-01T17:07:34+00:00",
+      "ts": 1785604054.0
+    },
+    {
+      "title": "AI keeps cracking unsolved math problems, and mathematicians have mixed feelings",
+      "link": "https://the-decoder.com/ai-keeps-cracking-unsolved-math-problems-and-mathematicians-have-mixed-feelings/",
+      "summary": "OpenAI's refutation of the Unit Distance Conjecture has sparked a wave of AI-assisted advances in mathematics. Fields Medal winner Timothy Gowers says GPT 5.6 Pro solved two problems he had spent considerable time working on, each on its first attempt. He warns of the \"possible destruction of mathematical culture\" if...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 43,
+      "date": "2026-08-01T16:01:31+00:00",
+      "ts": 1785600091.0
+    },
+    {
+      "title": "Coding Agents Don’t Need Bigger Context Windows — They Need a Context Compiler",
+      "link": "https://towardsdatascience.com/coding-agents-dont-need-bigger-context-windows-they-need-a-context-compiler/",
+      "summary": "Most coding agents treat prompt construction like retrieval: gather more files, add more context, hope the model figures it out. But that approach breaks down fast. As context grows, irrelevant code competes for attention, and when the window fills, agents start compressing their own memory—often mid-task. What looks...",
+      "source": "Towards Data Science",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 53,
+      "date": "2026-08-01T15:00:00+00:00",
+      "ts": 1785596400.0
+    },
+    {
+      "title": "AI coding agents can modernize research software but can't judge if the science is right",
+      "link": "https://the-decoder.com/ai-coding-agents-can-modernize-research-software-but-cant-judge-if-the-science-is-right/",
+      "summary": "A field report from OpenAI and academic partners shows coding agents can modernize neglected research software, with speedups of up to 60x. But the systems are \"eloquent, convincing, and confidently wrong in ways that are easy to miss,\" participants say. The effort shifts from writing code to the time-consuming work...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 45,
+      "date": "2026-08-01T14:26:28+00:00",
+      "ts": 1785594388.0
+    },
+    {
+      "title": "A security researcher built a self-spreading worm that hides inside Word docs and hijacks Microsoft Copilot",
+      "link": "https://the-decoder.com/a-security-researcher-built-a-self-spreading-worm-that-hides-inside-word-docs-and-hijacks-microsoft-copilot/",
+      "summary": "A security researcher has demonstrated a worm-like attack on Microsoft Copilot for Word: invisible prompt injections hidden in documents spread automatically into new files every time they're reused. Microsoft confirmed the issue but failed to fix it after 144 days and two attempts. The article A security researcher...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 26,
+      "date": "2026-08-01T13:51:57+00:00",
+      "ts": 1785592317.0
+    },
+    {
+      "title": "AI reduces sensory hallucinations, even at night or in smoke",
+      "link": "https://techxplore.com/news/2026-07-ai-sensory-hallucinations-night.html",
+      "summary": "Multimodal large language models (MLLMs), which process multiple types of sensory information, such as text, images and audio, at the same time, are rapidly expanding the range of applications for artificial intelligence (AI). However, in real-world environments, these models can misinterpret the physical...",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 55,
+      "date": "2026-08-01T13:40:01+00:00",
+      "ts": 1785591601.0
+    },
+    {
+      "title": "ByteDance's Seedance 2.5 generates 30-second video clips with built-in audio",
+      "link": "https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio/",
+      "summary": "ByteDance just shipped Seedance 2.5, an AI video model that produces video and audio together in one go. Each clip runs up to 30 seconds, three times what Google's Gemini Omni Flash puts out. Users can feed in dozens of images, videos, and audio files as reference. For ad teams, this could kill the process of cutting...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 55,
+      "date": "2026-08-01T13:33:41+00:00",
+      "ts": 1785591221.0
+    },
+    {
+      "title": "KDnuggets Weekly Roundup: Build and Deploy Your First Autonomous Agent • 7 Machine Learning Algorithms That Still Matter",
+      "link": "https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-27",
+      "summary": "A Beginner's Guide to Working with Claude Design • 5 Best AI Tools for Data Analysis You Should Try in 2026 • 5 Books That Will Deepen Your Understanding of Large Language Models • Is KimiClaw a Useful Tool?",
+      "source": "KDnuggets",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 64,
+      "date": "2026-08-01T13:00:43+00:00",
+      "ts": 1785589243.0
+    },
     {
       "title": "German court rules AI music generator Suno violated copyrights, rejects fair use defense",
       "link": "https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense/",
@@ -440,39 +528,6 @@
       "ts": 1785495625.0
     },
     {
-      "title": "Anthropic follows OpenAI in admitting its Claude models reached out of test environments and attacked real-world systems",
-      "link": "https://the-decoder.com/anthropic-follows-openai-in-admitting-its-claude-models-reached-out-of-test-environments-and-attacked-real-world-systems/",
-      "summary": "Three Claude models attacked real companies during cybersecurity tests after a misconfiguration gave them internet access. One published malware on PyPI that infected 15 systems. Another kept attacking after recognizing its target was real. Anthropic calls it an operational error. The article Anthropic follows OpenAI...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 62,
-      "date": "2026-07-31T10:57:37+00:00",
-      "ts": 1785495457.0
-    },
-    {
-      "title": "Aschenbrenner's AI thesis could be correct, his timing and leverage were not",
-      "link": "https://the-decoder.com/aschenbrenners-ai-thesis-could-be-correct-his-timing-and-leverage-were-not/",
-      "summary": "Leopold Aschenbrenner's AI hedge fund Situational Awareness had to unload nearly its entire publicly traded portfolio to Ken Griffin's Citadel after racking up heavy losses on leveraged AI stock positions. Just days earlier, Aschenbrenner had reported a six-month return of 439 percent and pulled in fresh capital. Then...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 34,
-      "date": "2026-07-31T10:49:05+00:00",
-      "ts": 1785494945.0
-    },
-    {
-      "title": "Rocket Report: New launch rule may limit environmental regulations, Falcon 9 to hit Moon",
-      "link": "https://arstechnica.com/space/2026/07/rocket-report-big-deals-for-us-launch-firms-rfa-one-debut-is-delayed/",
-      "summary": "\"America won the first Space Race, and we can do it again.\"",
-      "source": "Ars Technica",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 52,
-      "date": "2026-07-31T10:30:24+00:00",
-      "ts": 1785493824.0
-    },
-    {
       "title": "Video AI: MiniMax challenges ByteDance with low price, open weights for new H3 model",
       "link": "https://www.scmp.com/tech/article/3362540/video-ai-minimax-challenges-bytedance-low-price-open-weights-new-h3-model?utm_source=rss_feed",
       "summary": "Chinese AI firm MiniMax has launched H3, its newest multimodal video generation model, pledging to break closed-source “dominance” through open weights and competitive pricing – as rival ByteDance rolls out its latest Seedance 2.5 model. H3 was currently the world’s most powerful AI model in video editing, according...",
@@ -592,17 +647,6 @@
       "relevance": 42,
       "date": "2026-07-30T20:12:57+00:00",
       "ts": 1785442377.0
-    },
-    {
-      "title": "OpenAI goes full China pricing mode with an 80 percent cut to its most affordable GPT-5.6 model",
-      "link": "https://the-decoder.com/openai-goes-full-china-pricing-mode-with-an-80-percent-cut-to-its-most-affordable-gpt-5-6-model/",
-      "summary": "Starting July 30, OpenAI is cutting GPT-5.6 Luna prices by 80 percent and Terra by 20 percent. OpenAI says its top-tier Sol model helped make the company's own infrastructure more efficient, enabling the cuts. Price pressure from cheap Chinese providers and Microsoft's own MAI models likely played a role too. The...",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 62,
-      "date": "2026-07-30T18:46:24+00:00",
-      "ts": 1785437184.0
     },
     {
       "title": "Deploying Kimi K3 on Amazon SageMaker HyperPod and Amazon EKS",
@@ -966,17 +1010,6 @@
       "relevance": 63,
       "date": "2026-07-28T16:00:00+00:00",
       "ts": 1785254400.0
-    },
-    {
-      "title": "Study highlights federated and reinforcement learning for natural language processing",
-      "link": "https://techxplore.com/news/2026-07-highlights-federated-natural-language.html",
-      "summary": "Natural language processing (NLP), a branch of artificial intelligence, enables computers to understand and generate human language. Large language models (LLMs) now power everyday applications such as chatbots, virtual assistants and translation tools. Despite these advances, modern NLP systems still face important...",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 54,
-      "date": "2026-07-28T14:00:01+00:00",
-      "ts": 1785247201.0
     },
     {
       "title": "Moonshot’s Kimi K3 triggers Silicon Valley debate over bans on Chinese open source models",
@@ -2000,17 +2033,6 @@
       "relevance": 57,
       "date": "2026-06-18T00:00:00+00:00",
       "ts": 1781740800.0
-    },
-    {
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "summary": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
-      "source": "Google AI / DeepMind",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 34,
-      "date": "2026-06-17T15:00:00+00:00",
-      "ts": 1781708400.0
     }
   ]
 }
