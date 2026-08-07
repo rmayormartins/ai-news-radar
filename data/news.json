@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-07T12:40:26.817939+00:00",
-  "count": 197,
-  "china_count": 61,
+  "generated_at": "2026-08-07T18:39:56.621891+00:00",
+  "count": 196,
+  "china_count": 59,
   "japan_count": 0,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1114 itens)",
+      "status": "ok (1115 itens)",
       "kept": 12
     },
     {
@@ -97,7 +97,7 @@
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 10
+      "kept": 9
     },
     {
       "source": "MIT Tech Review",
@@ -132,12 +132,12 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Ars Technica",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "The Verge AI",
@@ -187,7 +187,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 6
+      "kept": 4
     },
     {
       "source": "Synced (机器之心)",
@@ -296,6 +296,127 @@
     }
   ],
   "items": [
+    {
+      "title": "AMD acquires Taalas, a startup that bakes AI models directly into silicon",
+      "link": "https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/",
+      "summary": "AMD is buying Canadian startup Taalas, which hard-codes model weights directly into inference chips. That makes them extremely fast but locks each chip to a single model. A demo chip hit over 16,000 tokens per second per user running Llama 3.1-8B. Google is reportedly working on a similar approach for Gemini. The...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 72,
+      "date": "2026-08-07T18:01:32+00:00",
+      "ts": 1786125692.0
+    },
+    {
+      "title": "Anthropic loosens Fable 5's biology restrictions but keeps the guardrails on for virology and toxicology",
+      "link": "https://the-decoder.com/anthropic-loosens-fable-5s-biology-restrictions-but-keeps-the-guardrails-on-for-virology-and-toxicology/",
+      "summary": "Anthropic has cut false positives in its biology safety filters for Fable 5 by about 85 percent. Previously, nearly all biology-related queries got blocked and rerouted to the less capable Opus 5. The restrictions stay in place for sensitive dual-use topics like virology and toxicology. The article Anthropic loosens...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "geral",
+      "relevance": 22,
+      "date": "2026-08-07T17:35:45+00:00",
+      "ts": 1786124145.0
+    },
+    {
+      "title": "OpenAI's first smart speaker is expected in 2027 at over $300",
+      "link": "https://the-decoder.com/openais-first-smart-speaker-is-expected-in-2027-at-over-300/",
+      "summary": "OpenAI is planning a donut-shaped smart speaker for 2027, priced above $300. The screenless device has a camera, microphones, and moving parts. It's designed to learn from conversations and adapt to users, fitting Sam Altman's \"Her\" vision. The article OpenAI's first smart speaker is expected in 2027 at over $300...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "geral",
+      "relevance": 22,
+      "date": "2026-08-07T16:43:16+00:00",
+      "ts": 1786120996.0
+    },
+    {
+      "title": "How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore/",
+      "summary": "In this post, you learn how Cohere Health built a multi-tenant agentic architecture on AgentCore using AgentCore Runtime’s secure MicroVM isolation, unified tool access through AgentCore Gateway, AgentCore Memory, and the Agent Skills open standard to rapidly scale policy digitization capabilities, while preserving...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 49,
+      "date": "2026-08-07T16:26:58+00:00",
+      "ts": 1786120018.0
+    },
+    {
+      "title": "How TReNDS automates root-cause analysis with Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock/",
+      "summary": "TReNDS, a research center at Georgia State University, built an agentic AI pipeline on Amazon Bedrock and the open-source Strands Agents SDK that automatically investigates production errors in real time, reducing root-cause analysis from 15 to 30 minutes of manual work to under 60 seconds.",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 51,
+      "date": "2026-08-07T16:22:50+00:00",
+      "ts": 1786119770.0
+    },
+    {
+      "title": "Chinese AI model Kimi escaped its cybersecurity testing environment, researchers say",
+      "link": "https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/",
+      "summary": "In the Kimi test, the sandbox designed to contain the experiment was not properly configured.",
+      "source": "TechCrunch",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-08-07T14:28:31+00:00",
+      "ts": 1786112911.0
+    },
+    {
+      "title": "Small Language Models with Hugging Face transformers Library + smolLM3",
+      "link": "https://www.kdnuggets.com/small-language-models-with-hugging-face-transformers-library-smollm3",
+      "summary": "Running a 70B model in production is expensive, and for many tasks, unnecessary. If you're building a focused pipeline, a well-trained 3B model will match or beat the 70B on your specific task at a fraction of the cost.",
+      "source": "KDnuggets",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-08-07T14:00:25+00:00",
+      "ts": 1786111225.0
+    },
+    {
+      "title": "ByteDance trains massive AI model in bid to rival Anthropic",
+      "link": "https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/",
+      "summary": "TikTok owner training a model with 10 trillion parameters.",
+      "source": "Ars Technica",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 43,
+      "date": "2026-08-07T13:29:22+00:00",
+      "ts": 1786109362.0
+    },
+    {
+      "title": "China's Largest AI Model Is Being Developed at Bytedance",
+      "link": "https://the-decoder.com/chinas-largest-ai-model-is-being-developed-at-bytedance/",
+      "summary": "Bytedance is training an AI model with up to ten trillion parameters, according to the Financial Times. That's three times the size of Moonshot's Kimi K3, currently the largest Chinese model. The article China's Largest AI Model Is Being Developed at Bytedance appeared first on The Decoder .",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 65,
+      "date": "2026-08-07T12:54:17+00:00",
+      "ts": 1786107257.0
+    },
+    {
+      "title": "Stanford and Arc Institute scientists used AI to design new viruses that killed bacteria in the lab",
+      "link": "https://the-decoder.com/stanford-and-arc-institute-scientists-used-ai-to-design-new-viruses-that-killed-bacteria-in-the-lab/",
+      "summary": "A research team in California has used artificial intelligence to design working viruses that kill bacteria, in what they describe as the \"first generative design of complete genomes.\" The project marks an early step toward AI-designed life forms, according to a report in MIT Technology Review. The article Stanford...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 45,
+      "date": "2026-08-07T12:50:56+00:00",
+      "ts": 1786107056.0
+    },
+    {
+      "title": "OpenAI's hockey-puck-sized smart speaker with moving parts is set to ship in 2027",
+      "link": "https://the-decoder.com/openais-hockey-puck-sized-smart-speaker-with-moving-parts-is-set-to-ship-in-2027/",
+      "summary": "OpenAI's planned smart speaker is taking shape. The company's first hardware device will be donut-shaped, roughly the size of a hockey puck, and priced above $300, according to Bloomberg. The article OpenAI's hockey-puck-sized smart speaker with moving parts is set to ship in 2027 appeared first on The Decoder .",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "geral",
+      "relevance": 22,
+      "date": "2026-08-07T12:45:32+00:00",
+      "ts": 1786106732.0
+    },
     {
       "title": "5 Free Courses to Learn Modern AI and LLMs",
       "link": "https://www.kdnuggets.com/5-free-courses-to-learn-modern-ai-and-llms",
@@ -803,6 +924,17 @@
       "ts": 1786065415.0
     },
     {
+      "title": "Scaling Categorical Flow Maps",
+      "link": "https://machinelearning.apple.com/research/scaling-categorical-flow-maps",
+      "summary": "Continuous diffusion and flow matching models could represent a powerful alternative to autoregressive approaches for language modelling (LM), as they unlock a host of advantages currently reserved for continuous modalities, including accelerated sampling and tilting. Recently, several works have demonstrated the...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 55,
+      "date": "2026-08-07T00:00:00+00:00",
+      "ts": 1786060800.0
+    },
+    {
       "title": "Hardware-aware framework accelerates large language models without additional training",
       "link": "https://techxplore.com/news/2026-08-hardware-aware-framework-large-language.html",
       "summary": "As large language models (LLMs) become increasingly embedded in chatbots, virtual assistants, translation services, coding tools and other AI-powered applications, delivering responses quickly and efficiently has become a growing challenge. Because these models generate text one token at a time, inference can be slow...",
@@ -836,17 +968,6 @@
       "ts": 1786040409.0
     },
     {
-      "title": "Deepmind's talent drain likely comes down to chip shortages, a conflict of interest, and Google's bureaucracy",
-      "link": "https://the-decoder.com/deepminds-talent-drain-likely-comes-down-to-chip-shortages-a-conflict-of-interest-and-googles-bureaucracy/",
-      "summary": "Ex-Google Deepmind CEO Demis Hassabis has reportedly stepped back from day-to-day operations for about a year, as he sees himself more as a scientist than a manager. Researchers are also complaining about limited access to Google’s own TPU chips, while external customers like Anthropic can purchase the same hardware...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 38,
-      "date": "2026-08-06T18:05:54+00:00",
-      "ts": 1786039554.0
-    },
-    {
       "title": "Low-power AI chip cuts drone identification energy use by 88.7%",
       "link": "https://techxplore.com/news/2026-08-power-ai-chip-drone-identification.html",
       "summary": "Doyeon Kim, an undergraduate researcher in the Department of Electronic and Electrical Engineering, has published a paper in an academic journal. The research focuses on implementing drone artificial intelligence (AI) identification technology through low-power semiconductors. This study could dramatically improve the...",
@@ -856,17 +977,6 @@
       "relevance": 48,
       "date": "2026-08-06T18:03:41+00:00",
       "ts": 1786039421.0
-    },
-    {
-      "title": "Microsoft's AI revenue reportedly depends on OpenAI for 70 percent",
-      "link": "https://the-decoder.com/microsofts-ai-revenue-reportedly-depends-on-openai-for-70-percent/",
-      "summary": "Microsoft generated $24.1 billion in AI revenue through OpenAI in the fiscal year ending in June. That's about 70 percent of its total AI business, according to a Bloomberg analysis. The heavy reliance helps explain why a company long known for vendor lock-in has recently been championing open-weight models and...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 51,
-      "date": "2026-08-06T17:35:33+00:00",
-      "ts": 1786037733.0
     },
     {
       "title": "ChatGPT brings unlimited text chats to free users",
@@ -889,17 +999,6 @@
       "relevance": 57,
       "date": "2026-08-06T17:00:00+00:00",
       "ts": 1786035600.0
-    },
-    {
-      "title": "Claude Code is the fastest agent framework but costs nearly three times more than the cheapest rival",
-      "link": "https://the-decoder.com/claude-code-is-the-fastest-agent-framework-but-costs-nearly-three-times-more-than-the-cheapest-rival/",
-      "summary": "Composio tested Deepseek V4 Flash across four agent frameworks on 30 real-world tasks. Success rates were mostly similar, but costs varied by nearly 3x: OpenCode came in cheapest at $0.073 per task, while Claude Code cost $0.195 despite using the fewest tool calls and output tokens. The choice of framework is mainly a...",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 68,
-      "date": "2026-08-06T16:33:59+00:00",
-      "ts": 1786034039.0
     },
     {
       "title": "I Built an AI Data Agent Which Can Query Data and Answer Business Questions. Here’s How.",
@@ -946,17 +1045,6 @@
       "ts": 1786032930.0
     },
     {
-      "title": "Agent Skills for Automated Reasoning policies in Amazon Bedrock",
-      "link": "https://aws.amazon.com/blogs/machine-learning/agent-skills-for-automated-reasoning-policies-in-amazon-bedrock/",
-      "summary": "Learn how to run the full Amazon Bedrock Automated Reasoning policy lifecycle from your coding agent. A suite of open source Agent Skills builds, reviews, tests, debugs, deploys, and validates a custom policy end to end, turning a specialized console task into a repeatable engineering workflow.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 42,
-      "date": "2026-08-06T16:12:24+00:00",
-      "ts": 1786032744.0
-    },
-    {
       "title": "LLM optimization integration for Amazon SageMaker Python SDK",
       "link": "https://aws.amazon.com/blogs/machine-learning/llm-optimization-integration-for-amazon-sagemaker-python-sdk/",
       "summary": "The Amazon SageMaker Python SDK v3 now exposes generative AI inference recommendations in Amazon SageMaker AI directly in your notebook. Benchmark an endpoint, generate data-driven deployment recommendations, and deploy the recommended configuration without leaving your notebook workflow.",
@@ -979,17 +1067,6 @@
       "ts": 1786032053.0
     },
     {
-      "title": "Qwen3.8 Max catches Claude Opus 4.8 but Kimi K3 still scores higher for 25 percent less",
-      "link": "https://the-decoder.com/qwen3-8-max-catches-claude-opus-4-8-but-kimi-k3-still-scores-higher-for-25-percent-less/",
-      "summary": "Alibaba's Qwen3.8 Max scores 56 on the Artificial Analysis Intelligence Index, a 10-point jump over Qwen3.7 Max (46). The article Qwen3.8 Max catches Claude Opus 4.8 but Kimi K3 still scores higher for 25 percent less appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 66,
-      "date": "2026-08-06T13:33:28+00:00",
-      "ts": 1786023208.0
-    },
-    {
       "title": "Hidden goals can undermine AI teamwork, study finds",
       "link": "https://techxplore.com/news/2026-08-hidden-goals-undermine-ai-teamwork.html",
       "summary": "Large language models (LLMs), the computational models that underpin conversational agents such as Gemini and ChatGPT, are now widely used by people worldwide to rapidly find information, summarize documents and generate texts for specific purposes. Some computer scientists are now combining two or more of these...",
@@ -999,28 +1076,6 @@
       "relevance": 72,
       "date": "2026-08-06T13:10:01+00:00",
       "ts": 1786021801.0
-    },
-    {
-      "title": "The company that made open weights mainstream now competes on discounts",
-      "link": "https://the-decoder.com/the-company-that-made-open-weights-mainstream-now-competes-on-discounts/",
-      "summary": "Meta released Muse Spark 1.2 along with its own coding agent, Muse Code, which is designed to pick up exactly where it left off after a crash. The cheapest tier runs just 20 cents per million output tokens but requires users to share their data for training. Meta is competing on price, not top-end performance. And...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 65,
-      "date": "2026-08-06T12:31:52+00:00",
-      "ts": 1786019512.0
-    },
-    {
-      "title": "OpenAI developer warns the \"tireless eagle eyes of a million models\" are coming for your exposed API keys and crypto wallets",
-      "link": "https://the-decoder.com/openai-developer-warns-the-tireless-eagle-eyes-of-a-million-models-are-coming-for-your-exposed-api-keys-and-crypto-wallets/",
-      "summary": "OpenAI developer \"roon\" warns on X that AI models could soon start scanning for exposed API keys, crypto wallets, and login credentials at scale. His warning follows OpenAI's autonomous Hugging Face hack, which he called a \"warning shot.\" The article OpenAI developer warns the \"tireless eagle eyes of a million models\"...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 45,
-      "date": "2026-08-06T10:11:02+00:00",
-      "ts": 1786011062.0
     },
     {
       "title": "OpenAI says Apple’s trade secrets lawsuit is ‘rotten to its core’",
@@ -1133,6 +1188,17 @@
       "ts": 1785974400.0
     },
     {
+      "title": "Baseten on Hugging Face Inference Providers 🔥",
+      "link": "https://huggingface.co/blog/baseten",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 26,
+      "date": "2026-08-06T00:00:00+00:00",
+      "ts": 1785974400.0
+    },
+    {
       "title": "Introducing Muse Code and Muse Spark 1.2",
       "link": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
       "summary": "Introducing Muse Code and Muse Spark 1.2 Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work! Muse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code...",
@@ -1153,17 +1219,6 @@
       "relevance": 58,
       "date": "2026-08-05T19:42:38+00:00",
       "ts": 1785958958.0
-    },
-    {
-      "title": "Google Deepmind loses both its CEO and chief scientist as Demis Hassabis and Jeff Dean step down simultaneously",
-      "link": "https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously/",
-      "summary": "Google Deepmind is overhauling its leadership as Demis Hassabis steps back from day-to-day management to become Alphabet's chief scientist and Jeff Dean leaves Google after 27 years to launch AI startup Discovery Loop. Former Deepmind CTO Koray Kavukcuoglu will take over as Google races to close the gap with its top...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 34,
-      "date": "2026-08-05T18:20:53+00:00",
-      "ts": 1785954053.0
     },
     {
       "title": "How Mobileye transformed support operations using Amazon Bedrock AgentCore",
@@ -1320,17 +1375,6 @@
       "ts": 1785801600.0
     },
     {
-      "title": "Does MiniMax Agent Actually Make Work Easier?",
-      "link": "https://www.kdnuggets.com/does-minimax-agent-actually-make-work-easier",
-      "summary": "Read about MiniMax's own architecture, and see how it runs a real task against the actual API. Learn the pieces of the MiniMax story that weren't covered in the launch post.",
-      "source": "KDnuggets",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 65,
-      "date": "2026-08-03T16:00:59+00:00",
-      "ts": 1785772859.0
-    },
-    {
       "title": "How to Build CLI Agents with Python & Ollama",
       "link": "https://towardsdatascience.com/cli-agents-with-python-ollama/",
       "summary": "Create a local CLI Agent from scratch completely for free The post How to Build CLI Agents with Python & Ollama appeared first on Towards Data Science .",
@@ -1452,17 +1496,6 @@
       "ts": 1785675700.0
     },
     {
-      "title": "I Replaced a 15-Minute Booking Process with a LangGraph AI Agent",
-      "link": "https://towardsdatascience.com/i-replaced-a-15-minute-booking-process-with-a-langgraph-ai-agent/",
-      "summary": "A step-by-step guide to building, running, and monitoring a stateful customer support agent using Python, LangGraph, and Langfuse. The post I Replaced a 15-Minute Booking Process with a LangGraph AI Agent appeared first on Towards Data Science .",
-      "source": "Towards Data Science",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 40,
-      "date": "2026-08-02T13:00:00+00:00",
-      "ts": 1785675600.0
-    },
-    {
       "title": "July 2026 newsletter",
       "link": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
       "summary": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Accidental cyberattacks by OpenAl and Anthropic models under test GPT-5.6 Sol, Terra, and Luna Claude Opus 5 Kimi K3 and DeepSeek-V4-Flash-0731 Open letters...",
@@ -1472,17 +1505,6 @@
       "relevance": 70,
       "date": "2026-08-02T04:12:41+00:00",
       "ts": 1785643961.0
-    },
-    {
-      "title": "Coding Agents Don’t Need Bigger Context Windows — They Need a Context Compiler",
-      "link": "https://towardsdatascience.com/coding-agents-dont-need-bigger-context-windows-they-need-a-context-compiler/",
-      "summary": "Most coding agents treat prompt construction like retrieval: gather more files, add more context, hope the model figures it out. But that approach breaks down fast. As context grows, irrelevant code competes for attention, and when the window fills, agents start compressing their own memory—often mid-task. What looks...",
-      "source": "Towards Data Science",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 53,
-      "date": "2026-08-01T15:00:00+00:00",
-      "ts": 1785596400.0
     },
     {
       "title": "AI reduces sensory hallucinations, even at night or in smoke",
@@ -1560,17 +1582,6 @@
       "relevance": 37,
       "date": "2026-07-30T20:35:00+00:00",
       "ts": 1785443700.0
-    },
-    {
-      "title": "Deploying Kimi K3 on Amazon SageMaker HyperPod and Amazon EKS",
-      "link": "https://aws.amazon.com/blogs/machine-learning/deploying-kimi-k3-on-amazon-sagemaker-hyperpod-and-amazon-eks/",
-      "summary": "This post walks through deploying Kimi K3 on AWS using two approaches: Amazon SageMaker HyperPod, and Amazon Elastic Kubernetes Service (Amazon EKS) cluster.",
-      "source": "AWS Machine Learning",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 51,
-      "date": "2026-07-30T17:22:32+00:00",
-      "ts": 1785432152.0
     },
     {
       "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
@@ -1681,17 +1692,6 @@
       "relevance": 42,
       "date": "2026-07-28T18:00:01+00:00",
       "ts": 1785261601.0
-    },
-    {
-      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
-      "link": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 42,
-      "date": "2026-07-28T16:27:42+00:00",
-      "ts": 1785256062.0
     },
     {
       "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
@@ -1958,17 +1958,6 @@
       "ts": 1784626691.0
     },
     {
-      "title": "Environment-free Synthetic Data Generation for API-Calling Agents",
-      "link": "https://machinelearning.apple.com/research/environment-free",
-      "summary": "Training API-calling large language model (LLM) agents demands massive amounts of high-quality trajectories. However, collecting such data at scale typically requires fully implemented environments with executable APIs and realistic, pre-populated backend databases, creating a major bottleneck for scalability. To...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 65,
-      "date": "2026-07-21T00:00:00+00:00",
-      "ts": 1784592000.0
-    },
-    {
       "title": "7 Consequences of America Finally Losing Its AI Edge to China",
       "link": "https://www.thealgorithmicbridge.com/p/7-consequences-of-america-finally",
       "summary": "Moonshot, DeepSeek, Zhipu, etc., will cause huge trouble",
@@ -2101,6 +2090,17 @@
       "ts": 1784118615.0
     },
     {
+      "title": "AI investor mania: China’s DeepSeek chases US$70 billion valuation in fresh round",
+      "link": "https://www.scmp.com/tech/big-tech/article/3360626/ai-investor-mania-chinas-deepseek-chases-us70-billion-valuation-fresh-round?utm_source=rss_feed",
+      "summary": "Chinese frontier artificial intelligence start-up DeepSeek is in talks with investors to raise a new financing round at around US$70 billion pre-investment valuation, shortly after closing a landmark first round, reflecting unquenched investor enthusiasm for the company. The plan comes on the heels of the Chinese AI...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 47,
+      "date": "2026-07-15T06:11:30+00:00",
+      "ts": 1784095890.0
+    },
+    {
       "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
       "link": "https://huggingface.co/blog/real-world-voiceeq",
       "summary": "",
@@ -2165,17 +2165,6 @@
       "relevance": 45,
       "date": "2026-07-12T16:47:42+00:00",
       "ts": 1783874862.0
-    },
-    {
-      "title": "Beyond Claude Code: the Chinese AI tools poised to benefit after back-door alert",
-      "link": "https://www.scmp.com/tech/tech-trends/article/3360148/beyond-claude-code-chinese-ai-tools-poised-benefit-after-back-door-alert?utm_source=rss_feed",
-      "summary": "Beijing’s recent cybersecurity warning against American artificial intelligence lab Anthropic is expected to accelerate a shift among Chinese developers towards domestic coding alternatives, according to analysts. China’s National Vulnerability Database (NVDB), overseen by the Ministry of Industry and Information...",
-      "source": "SCMP Big Tech",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 57,
-      "date": "2026-07-11T07:00:07+00:00",
-      "ts": 1783753207.0
     },
     {
       "title": "OpenAI GPT-5.6: AI Could Do Anything, Then It Met ARC-AGI-3",
