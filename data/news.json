@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T18:39:56.621891+00:00",
-  "count": 196,
+  "generated_at": "2026-08-08T00:55:13.944655+00:00",
+  "count": 193,
   "china_count": 59,
   "japan_count": 0,
   "sources": [
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -132,17 +132,17 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Ars Technica",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Wired AI",
@@ -297,6 +297,17 @@
   ],
   "items": [
     {
+      "title": "OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time",
+      "link": "https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/",
+      "summary": "Internal tests of OpenAI's new AI model Astra show cybersecurity capabilities so strong that the company can no longer rule out the highest risk level in its own safety framework. Parts of Astra's development have been paused. The move follows recently disclosed incidents in which autonomous AI agents infiltrated...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 50,
+      "date": "2026-08-07T19:41:06+00:00",
+      "ts": 1786131666.0
+    },
+    {
       "title": "AMD acquires Taalas, a startup that bakes AI models directly into silicon",
       "link": "https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/",
       "summary": "AMD is buying Canadian startup Taalas, which hard-codes model weights directly into inference chips. That makes them extremely fast but locks each chip to a single model. A demo chip hit over 16,000 tokens per second per user running Llama 3.1-8B. Google is reportedly working on a similar approach for Gemini. The...",
@@ -405,17 +416,6 @@
       "relevance": 45,
       "date": "2026-08-07T12:50:56+00:00",
       "ts": 1786107056.0
-    },
-    {
-      "title": "OpenAI's hockey-puck-sized smart speaker with moving parts is set to ship in 2027",
-      "link": "https://the-decoder.com/openais-hockey-puck-sized-smart-speaker-with-moving-parts-is-set-to-ship-in-2027/",
-      "summary": "OpenAI's planned smart speaker is taking shape. The company's first hardware device will be donut-shaped, roughly the size of a hockey puck, and priced above $300, according to Bloomberg. The article OpenAI's hockey-puck-sized smart speaker with moving parts is set to ship in 2027 appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "geral",
-      "relevance": 22,
-      "date": "2026-08-07T12:45:32+00:00",
-      "ts": 1786106732.0
     },
     {
       "title": "5 Free Courses to Learn Modern AI and LLMs",
@@ -924,13 +924,24 @@
       "ts": 1786065415.0
     },
     {
-      "title": "Scaling Categorical Flow Maps",
-      "link": "https://machinelearning.apple.com/research/scaling-categorical-flow-maps",
-      "summary": "Continuous diffusion and flow matching models could represent a powerful alternative to autoregressive approaches for language modelling (LM), as they unlock a host of advantages currently reserved for continuous modalities, including accelerated sampling and tilting. Recently, several works have demonstrated the...",
+      "title": "Beyond Next-Token Prediction: A Performance Characterization of Diffusion versus Autoregressive Language Models",
+      "link": "https://machinelearning.apple.com/research/diffusion-autoregressive-performance",
+      "summary": "Large Language Models (LLMs) have achieved state-of-the-art performance on a broad range of Natural Language Processing (NLP) tasks, including document processing and code generation. Autoregressive Language Models (ARMs), which generate tokens sequentially conditioned on all previous tokens, have been the predominant...",
       "source": "Apple ML Research",
       "region": "global",
-      "category": "pesquisa",
-      "relevance": 55,
+      "category": "modelo",
+      "relevance": 61,
+      "date": "2026-08-07T00:00:00+00:00",
+      "ts": 1786060800.0
+    },
+    {
+      "title": "Arbitrage: Efficient Reasoning via Advantage-Aware Speculation",
+      "link": "https://machinelearning.apple.com/research/arbitrage-efficient-reasoning",
+      "summary": "Modern Large Language Models achieve impressive reasoning capabilities with long Chain of Thoughts, but they incur substantial computational cost during inference, and this motivates techniques to improve the performance-cost ratio. Among these techniques, Speculative Decoding accelerates inference by employing a fast...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 61,
       "date": "2026-08-07T00:00:00+00:00",
       "ts": 1786060800.0
     },
@@ -979,17 +990,6 @@
       "ts": 1786039421.0
     },
     {
-      "title": "ChatGPT brings unlimited text chats to free users",
-      "link": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-      "summary": "OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 57,
-      "date": "2026-08-06T17:34:42+00:00",
-      "ts": 1786037682.0
-    },
-    {
       "title": "OpenAI is giving ChatGPT free users unlimited text chats",
       "link": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
       "summary": "OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but […]",
@@ -1034,17 +1034,6 @@
       "ts": 1786033314.0
     },
     {
-      "title": "Cloudflare open-sources vibe-coding platform for people who aren't coders",
-      "link": "https://arstechnica.com/ai/2026/08/cloudflare-open-sources-vibe-coding-platform-for-people-who-arent-coders/",
-      "summary": "Cloudflare built an AI agent workspace for its employees. Now it’s open source.",
-      "source": "Ars Technica",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 44,
-      "date": "2026-08-06T16:15:30+00:00",
-      "ts": 1786032930.0
-    },
-    {
       "title": "LLM optimization integration for Amazon SageMaker Python SDK",
       "link": "https://aws.amazon.com/blogs/machine-learning/llm-optimization-integration-for-amazon-sagemaker-python-sdk/",
       "summary": "The Amazon SageMaker Python SDK v3 now exposes generative AI inference recommendations in Amazon SageMaker AI directly in your notebook. Benchmark an endpoint, generate data-driven deployment recommendations, and deploy the recommended configuration without leaving your notebook workflow.",
@@ -1076,17 +1065,6 @@
       "relevance": 72,
       "date": "2026-08-06T13:10:01+00:00",
       "ts": 1786021801.0
-    },
-    {
-      "title": "OpenAI says Apple’s trade secrets lawsuit is ‘rotten to its core’",
-      "link": "https://www.theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
-      "summary": "OpenAI has asked a federal judge to toss out Apple's landmark lawsuit accusing the ChatGPT maker of stealing trade secrets, describing the allegations as \"meritless.\" In a motion filed yesterday to dismiss the complaint, OpenAI says that Apple is mischaracterizing both the actions of the AI startup's employees as...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 44,
-      "date": "2026-08-06T09:33:11+00:00",
-      "ts": 1786008791.0
     },
     {
       "title": "SmarCo HT Tech's RISC-V Dataflow Chip Wants to Cut Video-Generation Costs",
@@ -1173,17 +1151,6 @@
       "region": "global",
       "category": "modelo",
       "relevance": 67,
-      "date": "2026-08-06T00:00:00+00:00",
-      "ts": 1785974400.0
-    },
-    {
-      "title": "DeepAmbigQA: Ambiguous Multi-hop Questions for Benchmarking LLM Answer Completeness",
-      "link": "https://machinelearning.apple.com/research/deepambigqa-multihop-questions",
-      "summary": "Large language models (LLMs) with integrated search tools show strong promise in open-domain question answering (QA), yet they often struggle to produce complete answer set to complex questions such as “Which actor from the film Heat won at least one Academy Award?”, which requires (1) distinguishing between multiple...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 52,
       "date": "2026-08-06T00:00:00+00:00",
       "ts": 1785974400.0
     },
@@ -2057,6 +2024,17 @@
       "ts": 1784217600.0
     },
     {
+      "title": "Newer Models, Same Advantage",
+      "link": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 26,
+      "date": "2026-07-16T11:49:48+00:00",
+      "ts": 1784202588.0
+    },
+    {
       "title": "A better way to turn 2D designs into 3D models for rapid prototyping",
       "link": "https://news.mit.edu/2026/turning-2d-designs-into-3d-models-for-rapid-prototyping-0716",
       "summary": "Researchers developed an automated framework that helps AI models generate CAD programs more accurately and efficiently.",
@@ -2440,17 +2418,6 @@
       "relevance": 55,
       "date": "2026-06-24T16:00:13+00:00",
       "ts": 1782316813.0
-    },
-    {
-      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
-      "link": "https://huggingface.co/blog/ffasr-leaderboard",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 40,
-      "date": "2026-06-24T00:00:00+00:00",
-      "ts": 1782259200.0
     }
   ]
 }
