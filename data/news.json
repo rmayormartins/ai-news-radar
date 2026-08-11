@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11T12:41:13.658317+00:00",
-  "count": 188,
-  "china_count": 53,
+  "generated_at": "2026-08-11T18:47:50.100739+00:00",
+  "count": 184,
+  "china_count": 51,
   "japan_count": 1,
   "sources": [
     {
@@ -12,7 +12,7 @@
     {
       "source": "Google AI / DeepMind",
       "status": "ok (20 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "Google Research",
@@ -26,7 +26,7 @@
     },
     {
       "source": "Hugging Face",
-      "status": "ok (838 itens)",
+      "status": "ok (839 itens)",
       "kept": 12
     },
     {
@@ -97,7 +97,7 @@
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 8
+      "kept": 7
     },
     {
       "source": "MIT Tech Review",
@@ -132,7 +132,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 1
     },
     {
       "source": "Ars Technica",
@@ -142,7 +142,7 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Wired AI",
@@ -187,7 +187,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "Synced (机器之心)",
@@ -297,6 +297,72 @@
   ],
   "items": [
     {
+      "title": "\"But marinade\" and leaked passwords are what researchers found in ChatGPT's hidden reasoning",
+      "link": "https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning/",
+      "summary": "Security researchers found a vulnerability in the APIs of OpenAI, Anthropic, and Google that lets them extract encrypted reasoning traces and move them between models. A scan of public sessions turned up dozens of passwords and API keys. The traces also show that the reasoning summaries users see often hide what the...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 75,
+      "date": "2026-08-11T17:38:49+00:00",
+      "ts": 1786469929.0
+    },
+    {
+      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+      "summary": "AMIE promotional video",
+      "source": "Google AI / DeepMind",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 46,
+      "date": "2026-08-11T17:00:00+00:00",
+      "ts": 1786467600.0
+    },
+    {
+      "title": "How ONESTRUCTION built the Ishigaki-IDS foundation model with AWS GenAIIC",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic/",
+      "summary": "ONESTRUCTION, with technical advisory from the AWS Generative AI Innovation Center, built Ishigaki-IDS, a foundation model specialized for construction and BIM workflows. This architectural case study shows how they combined synthetic data, a three-stage training pipeline, and verifiable rewards on Amazon EC2 to build...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 51,
+      "date": "2026-08-11T16:14:33+00:00",
+      "ts": 1786464873.0
+    },
+    {
+      "title": "Deploying Anthropic Claude apps gateway for AWS for enterprise workloads",
+      "link": "https://aws.amazon.com/blogs/machine-learning/deploying-anthropic-claude-apps-gateway-for-aws-for-enterprise-workloads/",
+      "summary": "Claude apps gateway is a self-hosted governance layer between Claude Code and Claude Desktop and Amazon Bedrock or Claude Platform on AWS. This post presents a production reference deployment covering end-to-end architecture, enterprise deployment patterns, cost, and implementation resources.",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 53,
+      "date": "2026-08-11T15:59:22+00:00",
+      "ts": 1786463962.0
+    },
+    {
+      "title": "Nvidia's open-weight Nemotron 3.5 Lightning prioritizes speed over maximum intelligence",
+      "link": "https://the-decoder.com/nvidias-open-weight-nemotron-3-5-lightning-prioritizes-speed-over-maximum-intelligence/",
+      "summary": "Nvidia's Nemotron 3.5 Lightning is an open-weights model with just 3.6 billion active parameters that matches OpenAI's gpt-oss-120b on the Intelligence Index despite being four times smaller. At nearly 670 tokens per second, it's also the fastest model in the comparison, showing Nvidia is betting on efficiency over...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 75,
+      "date": "2026-08-11T15:07:44+00:00",
+      "ts": 1786460864.0
+    },
+    {
+      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 26,
+      "date": "2026-08-11T13:37:10+00:00",
+      "ts": 1786455430.0
+    },
+    {
       "title": "Claude will apply invisible watermarks to AI text and images",
       "link": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
       "summary": "Anthropic has pledged to start marking Claude-generated text and images with machine-readable data, in an effort to comply with European rules for AI transparency. \"Generated text will carry embedded watermarks, and generated files will include digitally signed provenance metadata where supported,\" Anthropic says on a...",
@@ -350,6 +416,17 @@
       "relevance": 65,
       "date": "2026-08-11T11:00:00+00:00",
       "ts": 1786446000.0
+    },
+    {
+      "title": "Testing ads in ChatGPT",
+      "link": "https://openai.com/index/testing-ads-in-chatgpt",
+      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 69,
+      "date": "2026-08-11T10:00:00+00:00",
+      "ts": 1786442400.0
     },
     {
       "title": "Nvidia guarantees its own chips' value to unlock $500 billion in AI infrastructure financing",
@@ -847,17 +924,6 @@
       "ts": 1786394402.0
     },
     {
-      "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
-      "link": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
-      "summary": "An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist. And the tech industry took notice.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 52,
-      "date": "2026-08-10T20:04:24+00:00",
-      "ts": 1786392264.0
-    },
-    {
       "title": "Neuromorphic AI training technique could help usher in the era of low-power AI",
       "link": "https://techxplore.com/news/2026-08-neuromorphic-ai-technique-usher-era.html",
       "summary": "While asking questions to ChatGPT and similar tools to generate images has become part of daily life, behind this convenience lies the massive power consumption of huge data centers.",
@@ -935,17 +1001,6 @@
       "ts": 1786379136.0
     },
     {
-      "title": "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision",
-      "link": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
-      "summary": "Meta’s new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg’s personal superintelligence vision, as well as the emerging divide between AI users can own and access.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 40,
-      "date": "2026-08-10T16:20:13+00:00",
-      "ts": 1786378813.0
-    },
-    {
       "title": "Evolve your marketing with new AI tools",
       "link": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
       "summary": "Advisor UI in Google Ads and Google Analytics",
@@ -955,17 +1010,6 @@
       "relevance": 26,
       "date": "2026-08-10T14:30:00+00:00",
       "ts": 1786372200.0
-    },
-    {
-      "title": "Meta returns to open models with Zuckerberg's plan to out-copy China and sell compute by auction",
-      "link": "https://the-decoder.com/meta-returns-to-open-models-with-zuckerbergs-plan-to-out-copy-china-and-sell-compute-by-auction/",
-      "summary": "Meta has released Muse Glimmer, the first open model from its new Superintelligence Labs. It's a 30B agent model that runs on consumer hardware once the weights are compressed, needing less than 20 GB of memory. In an accompanying essay, Mark Zuckerberg mounts an aggressive defense of distilling other labs' models and...",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 66,
-      "date": "2026-08-10T13:50:19+00:00",
-      "ts": 1786369819.0
     },
     {
       "title": "Enterprise AI costs hit 2026 low driven by price wars, Chinese open-source models: research",
@@ -979,17 +1023,6 @@
       "ts": 1786368606.0
     },
     {
-      "title": "Told to book a gym class, an AI agent hacked the site instead to move its user up the waitlist",
-      "link": "https://the-decoder.com/told-to-book-a-gym-class-an-ai-agent-hacked-the-site-instead-to-move-its-user-up-the-waitlist/",
-      "summary": "An Australian user just wanted a spot in a class. His AI agent found a security hole instead and exploited it. The article Told to book a gym class, an AI agent hacked the site instead to move its user up the waitlist appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 29,
-      "date": "2026-08-10T13:21:49+00:00",
-      "ts": 1786368109.0
-    },
-    {
       "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
       "link": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
       "summary": "After a few long years of finding time to document my lessons from training open models, my post-training book is done!",
@@ -999,28 +1032,6 @@
       "relevance": 44,
       "date": "2026-08-10T13:02:42+00:00",
       "ts": 1786366962.0
-    },
-    {
-      "title": "OpenAI acquires NextSlide to bring AI-generated presentations into ChatGPT",
-      "link": "https://the-decoder.com/openai-acquires-nextslide-to-bring-ai-generated-presentations-into-chatgpt/",
-      "summary": "OpenAI acquired NextSlide, the startup that turned prompts, notes, documents, and research into editable presentations. The article OpenAI acquires NextSlide to bring AI-generated presentations into ChatGPT appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 60,
-      "date": "2026-08-10T10:08:14+00:00",
-      "ts": 1786356494.0
-    },
-    {
-      "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
-      "link": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 26,
-      "date": "2026-08-10T10:05:36+00:00",
-      "ts": 1786356336.0
     },
     {
       "title": "These startups are chasing the next big thing in LLMs",
@@ -1144,17 +1155,6 @@
       "ts": 1786287431.0
     },
     {
-      "title": "AI detectors are creating a new era of distrust",
-      "link": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before ChatGPT became a thing, […]",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 45,
-      "date": "2026-08-09T12:00:00+00:00",
-      "ts": 1786276800.0
-    },
-    {
       "title": "How to Disable Gemini in Gmail and Google Docs",
       "link": "https://www.wired.com/story/how-to-disable-the-gemini-ai-features-in-gmail-and-google-docs/",
       "summary": "New AI toolbars and prompts are showing up in Google Docs and Gmail. If you don’t want Gemini’s help in writing documents and emails, here’s how to turn that stuff off.",
@@ -1243,6 +1243,17 @@
       "ts": 1786060800.0
     },
     {
+      "title": "Hardware-aware framework accelerates large language models without additional training",
+      "link": "https://techxplore.com/news/2026-08-hardware-aware-framework-large-language.html",
+      "summary": "As large language models (LLMs) become increasingly embedded in chatbots, virtual assistants, translation services, coding tools and other AI-powered applications, delivering responses quickly and efficiently has become a growing challenge. Because these models generate text one token at a time, inference can be slow...",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 52,
+      "date": "2026-08-06T21:40:06+00:00",
+      "ts": 1786052406.0
+    },
+    {
       "title": "I Built an AI Data Agent Which Can Query Data and Answer Business Questions. Here’s How.",
       "link": "https://towardsdatascience.com/i-built-an-ai-data-agent-which-can-query-data-and-answer-business-questions-heres-how/",
       "summary": "A step-by-step guide to building a data agent and conversational interface that let business users to explore data in natural language without SQL The post I Built an AI Data Agent Which Can Query Data and Answer Business Questions. Here’s How. appeared first on Towards Data Science .",
@@ -1252,17 +1263,6 @@
       "relevance": 40,
       "date": "2026-08-06T16:30:00+00:00",
       "ts": 1786033800.0
-    },
-    {
-      "title": "Agent Skills for Automated Reasoning policies in Amazon Bedrock",
-      "link": "https://aws.amazon.com/blogs/machine-learning/agent-skills-for-automated-reasoning-policies-in-amazon-bedrock/",
-      "summary": "Learn how to run the full Amazon Bedrock Automated Reasoning policy lifecycle from your coding agent. A suite of open source Agent Skills builds, reviews, tests, debugs, deploys, and validates a custom policy end to end, turning a specialized console task into a repeatable engineering workflow.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 42,
-      "date": "2026-08-06T16:12:24+00:00",
-      "ts": 1786032744.0
     },
     {
       "title": "LLM optimization integration for Amazon SageMaker Python SDK",
@@ -1285,17 +1285,6 @@
       "relevance": 45,
       "date": "2026-08-06T16:00:53+00:00",
       "ts": 1786032053.0
-    },
-    {
-      "title": "Hidden goals can undermine AI teamwork, study finds",
-      "link": "https://techxplore.com/news/2026-08-hidden-goals-undermine-ai-teamwork.html",
-      "summary": "Large language models (LLMs), the computational models that underpin conversational agents such as Gemini and ChatGPT, are now widely used by people worldwide to rapidly find information, summarize documents and generate texts for specific purposes. Some computer scientists are now combining two or more of these...",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 72,
-      "date": "2026-08-06T13:10:01+00:00",
-      "ts": 1786021801.0
     },
     {
       "title": "DeepSeek signals ‘significant’ price hike amid surge in demand for low-cost AI models",
@@ -1362,17 +1351,6 @@
       "relevance": 51,
       "date": "2026-08-05T18:09:03+00:00",
       "ts": 1785953343.0
-    },
-    {
-      "title": "How a Frontier Model Gets Built, Read from the Kimi K3 Report",
-      "link": "https://towardsdatascience.com/how-a-frontier-model-gets-built-read-from-the-kimi-k3-report/",
-      "summary": "An open, 2.8-trillion-parameter model shipped with 47 pages of its own recipe. Reading it tells you what building a frontier model now involves, and how little of it is the model. The post How a Frontier Model Gets Built, Read from the Kimi K3 Report appeared first on Towards Data Science .",
-      "source": "Towards Data Science",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 50,
-      "date": "2026-08-05T16:30:00+00:00",
-      "ts": 1785947400.0
     },
     {
       "title": "Disputes over AI, robotics, trade mount ahead of planned Xi-Trump summit in US",
@@ -1450,17 +1428,6 @@
       "relevance": 62,
       "date": "2026-08-04T22:00:58+00:00",
       "ts": 1785880858.0
-    },
-    {
-      "title": "Introducing Web Search on Amazon Bedrock for foundation model grounding",
-      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-for-foundation-model-grounding/",
-      "summary": "Today, we are introducing the general availability of Web Search on Amazon Bedrock. It is a server-side built-in tool that grounds model responses in current web knowledge. With Web Search, grounding becomes a native capability of Amazon Bedrock, with no third-party vendors to onboard, no external APIs to orchestrate,...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 53,
-      "date": "2026-08-04T18:39:14+00:00",
-      "ts": 1785868754.0
     },
     {
       "title": "China’s MiniMax curbs overseas access to new AI video model over copyright disputes",
@@ -2341,17 +2308,6 @@
       "relevance": 47,
       "date": "2026-06-30T10:26:00+00:00",
       "ts": 1782815160.0
-    },
-    {
-      "title": "How ChatGPT adoption has expanded",
-      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 67,
-      "date": "2026-06-30T09:00:00+00:00",
-      "ts": 1782810000.0
     },
     {
       "title": "The AI Industry as You Know It Died Today",
