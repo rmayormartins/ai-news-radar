@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-12T18:48:04.114220+00:00",
-  "count": 190,
-  "china_count": 54,
+  "generated_at": "2026-08-13T01:07:27.399779+00:00",
+  "count": 189,
+  "china_count": 55,
   "japan_count": 0,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1125 itens)",
+      "status": "ok (1126 itens)",
       "kept": 12
     },
     {
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -132,7 +132,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "Ars Technica",
@@ -297,6 +297,28 @@
   ],
   "items": [
     {
+      "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+      "link": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+      "summary": "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the weights are available for...",
+      "source": "Simon Willison",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 75,
+      "date": "2026-08-12T23:59:23+00:00",
+      "ts": 1786579163.0
+    },
+    {
+      "title": "Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes",
+      "link": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
+      "summary": "Is Anthropic's new watermarking system a travesty? Some have taken to social media to complain that it is.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 49,
+      "date": "2026-08-12T22:26:37+00:00",
+      "ts": 1786573597.0
+    },
+    {
       "title": "SpaceXAI's Grok 4.6 matches OpenAI's best model and undercuts it on price",
       "link": "https://the-decoder.com/spacexais-grok-4-6-matches-openais-best-model-and-undercuts-it-on-price/",
       "summary": "xAI's Grok 4.6 scores 61 points on the Artificial Analysis Intelligence Index, tying GPT-5.6 Sol and trailing only Anthropic's Claude Opus 5. On agentic tasks, it completes complex workflows in about 53 steps where Claude Opus 5 needs 103, at a price more than 60 percent lower. The article SpaceXAI's Grok 4.6 matches...",
@@ -383,28 +405,6 @@
       "relevance": 49,
       "date": "2026-08-12T14:20:33+00:00",
       "ts": 1786544433.0
-    },
-    {
-      "title": "Google’s Pixel 11 lineup offers fewer hardware changes, but much more Gemini",
-      "link": "https://techcrunch.com/2026/08/12/pixel-11-has-few-hardware-changes-and-more-gemini/",
-      "summary": "The Google Pixel 11 series starts $100 costlier than the last year, but offers 256GB base storage.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 52,
-      "date": "2026-08-12T14:00:00+00:00",
-      "ts": 1786543200.0
-    },
-    {
-      "title": "Google unveils the Pixel Watch 5 with a smarter Gemini and advanced health monitoring",
-      "link": "https://techcrunch.com/2026/08/12/google-unveils-the-pixel-watch-5-with-a-smarter-gemini-and-advanced-health-monitoring/",
-      "summary": "The new smartwatch, which starts at $399, can track blood pressure patterns and insulin resistance, as well as deliver personalized help and better sleep tracking.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 46,
-      "date": "2026-08-12T14:00:00+00:00",
-      "ts": 1786543200.0
     },
     {
       "title": "Legal startup founder Robert Mahari joins Anthropic to lead Claude's push into law practices",
@@ -559,6 +559,17 @@
       "relevance": 72,
       "date": "2026-08-12T07:57:25+00:00",
       "ts": 1786521445.0
+    },
+    {
+      "title": "Chinese AI start-up ModelBest, partner to Samsung and Huawei, launches pre-IPO process",
+      "link": "https://www.scmp.com/tech/article/3363762/chinese-ai-start-modelbest-kicks-pre-ipo-tutoring-process-mainland-listing?utm_source=rss_feed",
+      "summary": "Chinese AI start-up ModelBest has kicked off its pre-initial public offering (IPO) tutoring process for a listing in mainland China, capitalising on growing demand for compact artificial intelligence models that run locally on devices like smartphones and laptops, and in cars. The four-year-old company also appears to...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 49,
+      "date": "2026-08-12T07:26:50+00:00",
+      "ts": 1786519610.0
     },
     {
       "title": "From assistance to execution: How enterprises put AI to work",
@@ -991,7 +1002,7 @@
     },
     {
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
-      "link": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
+      "link": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
       "summary": "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced by a frontier model, replay it into a...",
       "source": "Simon Willison",
       "region": "global",
@@ -1036,7 +1047,7 @@
     {
       "title": "Made by Google 2026: all the Pixel news and announcements",
       "link": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news",
-      "summary": "Google has revealed a bunch of new Pixel devices ahead of its Made by Google event. The colorful Pixel 11 lineup comes with upgraded cameras and performance, with the Pro models offering a built-in LED ring that lights up for Google’s Gemini AI and other features. Google also showed off its next-gen Pixel Fold...",
+      "summary": "On August 12, 2026, Google revealed a bunch of new Pixel devices. The colorful Pixel 11 lineup comes with upgraded cameras and performance, with the Pro models offering a built-in LED ring that lights up for Google’s Gemini AI and other features. Google also showed off its next-gen Pixel Fold featuring thinner bezels,...",
       "source": "The Verge AI",
       "region": "global",
       "category": "modelo",
@@ -1134,7 +1145,7 @@
     },
     {
       "title": "Introducing Muse Glimmer",
-      "link": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+      "link": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/",
       "summary": "Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion....",
       "source": "Simon Willison",
       "region": "global",
@@ -1254,17 +1265,6 @@
       "ts": 1786352400.0
     },
     {
-      "title": "China’s top AI is still trained on Nvidia chips. What is delaying a switch to local tech?",
-      "link": "https://www.scmp.com/tech/big-tech/article/3363491/chinas-top-ai-still-trained-nvidia-chips-what-delaying-switch-local-tech?utm_source=rss_feed",
-      "summary": "China’s most advanced artificial intelligence models are still being trained on Nvidia chips, sources at major Chinese large language model (LLM) developers say, as the prohibitively high cost of switching to local semiconductors continues to hamper Beijing’s push for self-sufficiency. While domestic hardware...",
-      "source": "SCMP Tech",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 45,
-      "date": "2026-08-10T05:00:23+00:00",
-      "ts": 1786338023.0
-    },
-    {
       "title": "How Zapier transformed core marketing processes with ChatGPT Work",
       "link": "https://openai.com/index/zapier",
       "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
@@ -1299,7 +1299,7 @@
     },
     {
       "title": "Quoting Claude Opus 5 system prompt",
-      "link": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+      "link": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/",
       "summary": "Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement:...",
       "source": "Simon Willison",
       "region": "global",
@@ -1452,17 +1452,6 @@
       "ts": 1785974400.0
     },
     {
-      "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
-      "link": "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
-      "summary": "Back in 2022 I tweeted screenshots of a game concept generated by GPT-3 and some concept \"art\" created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in Claude Code for web ) could build the entire game from the content of that tweet. It did a pretty good job...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 58,
-      "date": "2026-08-05T19:42:38+00:00",
-      "ts": 1785958958.0
-    },
-    {
       "title": "Disputes over AI, robotics, trade mount ahead of planned Xi-Trump summit in US",
       "link": "https://www.scmp.com/economy/policy/article/3363062/disputes-over-ai-robotics-trade-mount-ahead-planned-xi-trump-summit-us?utm_source=rss_feed",
       "summary": "In the months leading up to President Xi Jinping’s planned September visit to Washington for a summit with US President Donald Trump, a series of smaller trade and technology rifts has emerged between the world’s two largest economies. From tensions over Chinese artificial intelligence models and new US restrictions...",
@@ -1519,7 +1508,7 @@
     },
     {
       "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
-      "link": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+      "link": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/",
       "summary": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features enabled by the OpenAI Responses API. I...",
       "source": "Simon Willison",
       "region": "global",
@@ -1530,7 +1519,7 @@
     },
     {
       "title": "llm-anthropic 0.26",
-      "link": "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
+      "link": "https://simonwillison.net/2026/Aug/4/llm-anthropic/",
       "summary": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and AnthropicMCP , available through LLM's -T interface or Python tools= . The previous -o web_search*...",
       "source": "Simon Willison",
       "region": "global",
