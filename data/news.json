@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T18:49:25.697432+00:00",
-  "count": 187,
-  "china_count": 55,
+  "generated_at": "2026-08-14T01:06:30.689931+00:00",
+  "count": 186,
+  "china_count": 54,
   "japan_count": 0,
   "sources": [
     {
@@ -91,13 +91,13 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 9
+      "kept": 8
     },
     {
       "source": "MIT Tech Review",
@@ -132,22 +132,22 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 3
     },
     {
       "source": "Ars Technica",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 1
     },
     {
       "source": "Wired AI",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Analytics India",
@@ -297,6 +297,28 @@
   ],
   "items": [
     {
+      "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+      "link": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+      "summary": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 53,
+      "date": "2026-08-13T21:13:24+00:00",
+      "ts": 1786655604.0
+    },
+    {
+      "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
+      "link": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "summary": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 59,
+      "date": "2026-08-13T19:22:40+00:00",
+      "ts": 1786648960.0
+    },
+    {
       "title": "Gemini 3.7 Flash lands with coding gains and undercuts its three-week-old predecessor's price by 50%",
       "link": "https://the-decoder.com/gemini-3-7-flash-lands-with-coding-gains-and-undercuts-its-three-week-old-predecessors-price-by-50/",
       "summary": "Google shipped Gemini 3.7 Flash just three weeks after 3.6 Flash. The new model is supposed to be Google's most capable workhorse yet for coding and AI agents, and according to the company's own benchmarks, it beats Claude Sonnet 5 and GPT-5.6 Terra at half the price. The article Gemini 3.7 Flash lands with coding...",
@@ -317,6 +339,17 @@
       "relevance": 49,
       "date": "2026-08-13T17:16:04+00:00",
       "ts": 1786641364.0
+    },
+    {
+      "title": "Google announces Gemini 3.7 Flash just three weeks after previous release",
+      "link": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/",
+      "summary": "Gemini 3.6 Flash debuted just 3 weeks ago, but Google says 3.7 has \"substantial improvements.\"",
+      "source": "Ars Technica",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 52,
+      "date": "2026-08-13T17:00:13+00:00",
+      "ts": 1786640413.0
     },
     {
       "title": "How to Utilize OKF Efficiently to Enable Knowledge Exchange Among LLMs",
@@ -968,17 +1001,6 @@
       "ts": 1786551276.0
     },
     {
-      "title": "Google's Gemini is losing market share to ChatGPT and Claude according to new market data",
-      "link": "https://the-decoder.com/googles-gemini-is-losing-market-share-to-chatgpt-and-claude-according-to-new-market-data/",
-      "summary": "Three data sources tell the same story: Google's Gemini is losing AI market share. Pangram reports a drop from 12 to 1.9 percent, while OpenAI holds over 50 percent, and Anthropic grew from 4.3 to 14.9 percent. Similarweb and OpenRouter confirm the trend. The article Google's Gemini is losing market share to ChatGPT...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 74,
-      "date": "2026-08-12T15:50:04+00:00",
-      "ts": 1786549804.0
-    },
-    {
       "title": "How OneAdvanced deployed over 50 AI agents on UK-sovereign AWS",
       "link": "https://aws.amazon.com/blogs/machine-learning/how-oneadvanced-deployed-over-50-ai-agents-on-uk-sovereign-aws/",
       "summary": "Learn how OneAdvanced, a UK enterprise software provider, built a UK-sovereign AI platform by self-hosting Llama 4 Maverick and Llama Guard 4 on Amazon SageMaker AI, with a RAG pipeline on pgvector and over 50 agents built with Strands Agents SDK on Amazon ECS.",
@@ -1010,17 +1032,6 @@
       "relevance": 64,
       "date": "2026-08-12T12:09:34+00:00",
       "ts": 1786536574.0
-    },
-    {
-      "title": "Grok is now an AI ‘teammate’ you can assign work",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
-      "summary": "SpaceXAI has introduced Grok Bot, an always-on AI agent service designed to behave like independent \"AI teammates\" that can do your work for you. The bots share their own cloud-based computer environment, and can sign into apps, tools, and websites you already use to complete multi-step workplace tasks, only coming...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 54,
-      "date": "2026-08-12T11:58:54+00:00",
-      "ts": 1786535934.0
     },
     {
       "title": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
@@ -1100,17 +1111,6 @@
       "ts": 1786499907.0
     },
     {
-      "title": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
-      "link": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
-      "summary": "After a former lead writer claimed Saber \"replaced me with ChatGPT,\" CEO Matthew Karch now claims, \"Neither Saber nor Unigine have replaced any writers with AI,\" for the Rideshare \"Stimulator\" game announced last month, developed by Unigine. The writer, Stella Sacco, says differently, however, posting on Bluesky that...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 52,
-      "date": "2026-08-12T00:39:26+00:00",
-      "ts": 1786495166.0
-    },
-    {
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
       "link": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
       "summary": "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced by a frontier model, replay it into a...",
@@ -1175,17 +1175,6 @@
       "relevance": 50,
       "date": "2026-08-11T12:00:00+00:00",
       "ts": 1786449600.0
-    },
-    {
-      "title": "A New Trick Reveals AI Models’ Inner Thoughts",
-      "link": "https://www.wired.com/story/a-new-trick-reveals-ai-models-inner-thoughts/",
-      "summary": "Researchers devised a way to extract “reasoning traces” from Claude, GPT, and Gemini. What they found, they say, indicates that some Chinese AI may be trained on leading US models.",
-      "source": "Wired AI",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 65,
-      "date": "2026-08-11T11:00:00+00:00",
-      "ts": 1786446000.0
     },
     {
       "title": "Testing ads in ChatGPT",
@@ -1474,6 +1463,17 @@
       "ts": 1785974400.0
     },
     {
+      "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
+      "link": "https://simonwillison.net/2026/Aug/5/raccoon-heist/",
+      "summary": "Back in 2022 I tweeted screenshots of a game concept generated by GPT-3 and some concept \"art\" created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in Claude Code for web ) could build the entire game from the content of that tweet. It did a pretty good job...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 58,
+      "date": "2026-08-05T19:42:38+00:00",
+      "ts": 1785958958.0
+    },
+    {
       "title": "Disputes over AI, robotics, trade mount ahead of planned Xi-Trump summit in US",
       "link": "https://www.scmp.com/economy/policy/article/3363062/disputes-over-ai-robotics-trade-mount-ahead-planned-xi-trump-summit-us?utm_source=rss_feed",
       "summary": "In the months leading up to President Xi Jinping’s planned September visit to Washington for a summit with US President Donald Trump, a series of smaller trade and technology rifts has emerged between the world’s two largest economies. From tensions over Chinese artificial intelligence models and new US restrictions...",
@@ -1538,17 +1538,6 @@
       "relevance": 66,
       "date": "2026-08-04T23:58:24+00:00",
       "ts": 1785887904.0
-    },
-    {
-      "title": "llm-anthropic 0.26",
-      "link": "https://simonwillison.net/2026/Aug/4/llm-anthropic/",
-      "summary": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and AnthropicMCP , available through LLM's -T interface or Python tools= . The previous -o web_search*...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 62,
-      "date": "2026-08-04T22:00:58+00:00",
-      "ts": 1785880858.0
     },
     {
       "title": "China’s MiniMax curbs overseas access to new AI video model over copyright disputes",
