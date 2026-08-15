@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T06:21:00.044437+00:00",
+  "generated_at": "2026-08-15T12:18:02.674410+00:00",
   "count": 162,
-  "china_count": 56,
+  "china_count": 55,
   "japan_count": 0,
   "sources": [
     {
@@ -32,7 +32,7 @@
     {
       "source": "Ahead of AI",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Simon Willison",
@@ -47,7 +47,7 @@
     {
       "source": "BAIR (Berkeley)",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "MIT News (IA)",
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -296,6 +296,39 @@
     }
   ],
   "items": [
+    {
+      "title": "Building an AI Text Detector From Scratch",
+      "link": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+      "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
+      "source": "Ahead of AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 50,
+      "date": "2026-08-15T11:54:24+00:00",
+      "ts": 1786794864.0
+    },
+    {
+      "title": "AI-generated books are flooding Amazon and tanking sales for human authors",
+      "link": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors/",
+      "summary": "AI-generated books make up 20 percent of Amazon's self-published catalog but bring in only 12 percent of sales. A new study finds that revenue per book is dropping for human-written titles too, in seven of eight genres. The findings could give copyright plaintiffs the market-harm data their cases against AI companies...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 29,
+      "date": "2026-08-15T11:00:50+00:00",
+      "ts": 1786791650.0
+    },
+    {
+      "title": "World Labs turns one real-world robot task into thousands of simulated variations for training",
+      "link": "https://the-decoder.com/world-labs-turns-one-real-world-robot-task-into-thousands-of-simulated-variations-for-training/",
+      "summary": "World Labs, the startup founded by AI pioneer Fei-Fei Li, has unveiled a simulation engine that trains robot controllers entirely in virtual environments. From a single real-world task, the system generates thousands of controlled variations. The trained models then ran for one hour each on five different robot...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 50,
+      "date": "2026-08-15T07:30:48+00:00",
+      "ts": 1786779048.0
+    },
     {
       "title": "The \"tragedy of the cognitive commons\" explains how rational AI adoption could destroy entire professions' expertise",
       "link": "https://the-decoder.com/the-tragedy-of-the-cognitive-commons-explains-how-rational-ai-adoption-could-destroy-entire-professions-expertise/",
@@ -550,17 +583,6 @@
       "ts": 1786708813.0
     },
     {
-      "title": "Claude Code now runs daily maintenance on Anthropic's software with a 46 percent merge rate",
-      "link": "https://the-decoder.com/claude-code-now-runs-daily-maintenance-on-anthropics-software-with-a-46-percent-merge-rate/",
-      "summary": "Anthropic is testing whether Claude Code can handle daily maintenance of the company's own apps, from crash fuzzing to dead-code removal. In a few weeks, the AI created 388 pull requests, and 46 percent were merged after human review. Claude Code inventor Boris Cherny sees this as \"early signs of life that this might...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 54,
-      "date": "2026-08-14T11:44:38+00:00",
-      "ts": 1786707878.0
-    },
-    {
       "title": "Launch of DeepSeek’s Harness marks its strategic pivot towards autonomous agentic AI",
       "link": "https://www.scmp.com/tech/big-tech/article/3364082/launch-deepseeks-harness-marks-its-strategic-pivot-towards-autonomous-agentic-ai?utm_source=rss_feed",
       "summary": "Chinese artificial intelligence company DeepSeek is venturing into a new battleground beyond large language models, launching a developer preview of its long-anticipated Harness – a software framework that helps developers turn AI models into autonomous agents. The release on Thursday marks a strategic pivot as...",
@@ -581,17 +603,6 @@
       "relevance": 64,
       "date": "2026-08-14T11:03:30+00:00",
       "ts": 1786705410.0
-    },
-    {
-      "title": "Zhipu AI releases GLM-5.3, claims it's the strongest open-weights coding model",
-      "link": "https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/",
-      "summary": "Zhipu AI has released GLM-5.3, a model that, according to its own benchmarks, is the most powerful open-weights coding model, with a 50 percent improvement over its predecessor through post-training alone. Trained for cybersecurity, GLM-5.3 helped security teams find 2,436 vulnerabilities across 269 projects. The...",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 75,
-      "date": "2026-08-14T10:21:34+00:00",
-      "ts": 1786702894.0
     },
     {
       "title": "X Square Robot Set Its Benchmark at Figure AI's Number — Then Beat It by 45%",
@@ -2066,17 +2077,6 @@
       "relevance": 32,
       "date": "2026-07-07T00:00:00+00:00",
       "ts": 1783382400.0
-    },
-    {
-      "title": "2026 BAIR Graduate Showcase",
-      "link": "http://bair.berkeley.edu/blog/2026/07/01/grads-2026/",
-      "summary": "Congratulations to the Berkeley Artificial Intelligence Research (BAIR) Lab class of 2026! This year, BAIR celebrates another remarkable group of Ph.D. graduates whose curiosity, creativity, and perseverance have pushed the frontiers of artificial intelligence and machine learning. Their work spans the breadth of...",
-      "source": "BAIR (Berkeley)",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 49,
-      "date": "2026-07-01T09:00:00+00:00",
-      "ts": 1782896400.0
     }
   ]
 }
