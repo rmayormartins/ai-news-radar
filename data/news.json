@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-16T00:42:36.792970+00:00",
-  "count": 162,
-  "china_count": 55,
+  "generated_at": "2026-08-16T06:23:09.850577+00:00",
+  "count": 153,
+  "china_count": 56,
   "japan_count": 0,
   "sources": [
     {
@@ -66,8 +66,8 @@
     },
     {
       "source": "arXiv cs.AI",
-      "status": "ok (299 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.LG",
@@ -97,7 +97,7 @@
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 9
+      "kept": 8
     },
     {
       "source": "MIT Tech Review",
@@ -297,6 +297,28 @@
   ],
   "items": [
     {
+      "title": "Optima tackles AI benchmarking's biggest flaw by letting users test models against their own data",
+      "link": "https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/",
+      "summary": "Artificial Analysis has launched Optima, a platform that lets users build custom AI benchmarks from their own data and workflows. Models can be compared not just on quality but also on cost and time per task. For agent-based applications, those metrics often tell you more than raw token pricing. The article Optima...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-08-16T05:50:50+00:00",
+      "ts": 1786859450.0
+    },
+    {
+      "title": "Home province of DeepSeek, Moonshot founders seeks to retain, attract future AI talent",
+      "link": "https://www.scmp.com/tech/big-tech/article/3364095/home-province-deepseek-moonshot-founders-seeks-retain-attract-future-ai-talent?utm_source=rss_feed",
+      "summary": "China’s southern manufacturing powerhouse of Guangdong province welcomed nearly 40 computer science students from Tsinghua University this week, part of a targeted push by local authorities to bridge a widening gap in China’s artificial intelligence race by attracting top-tier talent from Beijing. Despite raising two...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 61,
+      "date": "2026-08-16T03:00:12+00:00",
+      "ts": 1786849212.0
+    },
+    {
       "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
       "link": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
       "summary": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
@@ -328,6 +350,17 @@
       "relevance": 35,
       "date": "2026-08-15T15:41:02+00:00",
       "ts": 1786808462.0
+    },
+    {
+      "title": "CORS Chat",
+      "link": "https://simonwillison.net/2026/Aug/15/cors-chat/",
+      "summary": "Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the --cors option and OpenRouter, and...",
+      "source": "Simon Willison",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 58,
+      "date": "2026-08-15T14:49:54+00:00",
+      "ts": 1786805394.0
     },
     {
       "title": "Building an AI Text Detector From Scratch",
@@ -385,94 +418,6 @@
       "ts": 1786771818.0
     },
     {
-      "title": "TCS-BENCH: Benchmarking State-of-the-Art Generative AI Theoretical Computer Science Research Ability",
-      "link": "https://arxiv.org/abs/2608.09538",
-      "summary": "arXiv:2608.09538v2 Announce Type: replace-cross Abstract: We introduce TCS-Bench, a benchmark for evaluating Large Language Models (LLMs) on research-level Theoretical Computer Science (TCS) proof generation. TCS-Bench consists of theorem-proving tasks from papers published at top theoretical computer science venues...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 73,
-      "date": "2026-08-15T04:00:00+00:00",
-      "ts": 1786766400.0
-    },
-    {
-      "title": "MBA: Multimodal Benchmark and Agents for Real-World Business Ideation",
-      "link": "https://arxiv.org/abs/2608.11616",
-      "summary": "arXiv:2608.11616v2 Announce Type: replace Abstract: Agentic systems powered by large language models (LLMs) have opened new opportunities for business ideation. Yet existing approaches remain confined to a text-only paradigm, despite the inherently multimodal nature of real-world contexts. We thus introduce MBA-Bench,...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 71,
-      "date": "2026-08-15T04:00:00+00:00",
-      "ts": 1786766400.0
-    },
-    {
-      "title": "LigBench: A Unified and Human-Aligned Benchmark for LLM-based Research Idea Generation",
-      "link": "https://arxiv.org/abs/2608.13136",
-      "summary": "arXiv:2608.13136v1 Announce Type: cross Abstract: With the rapid advancement of large language models (LLMs), research idea generation has attracted increasing attention. Existing approaches enable LLMs to retrieve relevant literature and propose novel ideas for research areas. However, current evaluation practices...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 70,
-      "date": "2026-08-15T04:00:00+00:00",
-      "ts": 1786766400.0
-    },
-    {
-      "title": "Rules or Character? Scaling Laws for AI Safety Design",
-      "link": "https://arxiv.org/abs/2608.13345",
-      "summary": "arXiv:2608.13345v1 Announce Type: new Abstract: Artificial Intelligence (AI) safety systems combine character shaping (e.g., Reinforcement Learning from Human Feedback [RLHF], Constitutional AI), which modifies behavioral distributions at training time, with rule enforcement (e.g., output filters, safety classifiers),...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 69,
-      "date": "2026-08-15T04:00:00+00:00",
-      "ts": 1786766400.0
-    },
-    {
-      "title": "Reduced Matrix Multiplication: Input-Adaptive Matrix-Product Reduction for LLM Inference",
-      "link": "https://arxiv.org/abs/2608.13426",
-      "summary": "arXiv:2608.13426v1 Announce Type: cross Abstract: Transformer-based language models achieve strong performance but incur substantial inference cost due to repeated high-dimensional matrix multiplications. We propose Reduced Matrix Multiplication (RMM), a training-free, input-adaptive inference method that reduces...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 69,
-      "date": "2026-08-15T04:00:00+00:00",
-      "ts": 1786766400.0
-    },
-    {
-      "title": "Agentic Neurosymbolic Collaboration for Mathematical Discovery: A Case Study in Combinatorial Design",
-      "link": "https://arxiv.org/abs/2603.08322",
-      "summary": "arXiv:2603.08322v2 Announce Type: replace Abstract: We study mathematical discovery through the lens of neurosymbolic reasoning, where an AI agent powered by a large language model (LLM), coupled with symbolic computation tools, and human strategic direction, jointly produced a new result in combinatorial design...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 69,
-      "date": "2026-08-15T04:00:00+00:00",
-      "ts": 1786766400.0
-    },
-    {
-      "title": "StateBridge: Training-free Hidden-state Alignment for Latent Communication in LLM Multi-Agent Systems",
-      "link": "https://arxiv.org/abs/2608.13317",
-      "summary": "arXiv:2608.13317v1 Announce Type: new Abstract: Large language model based multi-agent systems usually communicate in text, i.e., using discrete tokens. However, text introduces a discrete bottleneck. Converting the sender's continuous hidden states into discrete tokens discards information that token identities alone...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 68,
-      "date": "2026-08-15T04:00:00+00:00",
-      "ts": 1786766400.0
-    },
-    {
-      "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
-      "link": "https://arxiv.org/abs/2608.13517",
-      "summary": "arXiv:2608.13517v1 Announce Type: cross Abstract: Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for researchers committed to open-source and ethically sourced data. We introduce Mimir v1, a 1-billion-parameter language model based on the...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 68,
-      "date": "2026-08-15T04:00:00+00:00",
-      "ts": 1786766400.0
-    },
-    {
       "title": "Anthropic announces watermark detection API that will let third parties detect Claude's AI texts",
       "link": "https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts/",
       "summary": "Anthropic will soon offer a watermark detection API that lets third parties check whether text was written by Claude. The technology builds on Google's SynthID method and tweaks the randomness during word selection without affecting text quality, Anthropic says. The approach has limits with fact-heavy text, code, and...",
@@ -517,17 +462,6 @@
       "ts": 1786726803.0
     },
     {
-      "title": "OpenAI's Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline",
-      "link": "https://the-decoder.com/openais-computer-history-turns-your-clicks-and-keystrokes-into-a-searchable-chatgpt-memory-timeline/",
-      "summary": "OpenAI's Computer History records clicks, keystrokes, and app switches on Mac and turns them into a searchable timeline for ChatGPT and Codex. The data is stored locally as unencrypted Markdown files. OpenAI says it's not used for AI training, but memories that feed into chats may still end up as training data. The...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 67,
-      "date": "2026-08-14T16:43:43+00:00",
-      "ts": 1786725823.0
-    },
-    {
       "title": "You can now turn off Google Gemini’s visible watermarks",
       "link": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
       "summary": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears in the...",
@@ -537,17 +471,6 @@
       "relevance": 49,
       "date": "2026-08-14T16:39:32+00:00",
       "ts": 1786725572.0
-    },
-    {
-      "title": "Study contradicts Anthropic and OpenAI claims that autonomous AI research is within reach",
-      "link": "https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach/",
-      "summary": "AI agents using Claude Opus 4.8 and GPT-5.6 Sol were given six days, $3,000 in API credits, and GPU access to independently write AI research papers. The original authors of unpublished NeurIPS papers rated the results as \"Reject.\" According to the study, conducted with Princeton and the UK AI Security Institute,...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 75,
-      "date": "2026-08-14T16:06:32+00:00",
-      "ts": 1786723592.0
     },
     {
       "title": "Building agentic workflows with SageMaker AI and Bedrock AgentCore",
@@ -1265,17 +1188,6 @@
       "ts": 1786060800.0
     },
     {
-      "title": "DeepSeek signals ‘significant’ price hike amid surge in demand for low-cost AI models",
-      "link": "https://www.scmp.com/tech/tech-trends/article/3363129/deepseek-signals-significant-price-hike-amid-surge-demand-low-cost-ai-models?utm_source=rss_feed",
-      "summary": "DeepSeek announced on Thursday a “significant” price hike, amid surging global demand for a new ultra-cheap model, which sparked debate over how the Chinese artificial intelligence start-up has delivered powerful performance at rock-bottom prices. Overall pricing for its application programming interface (API)...",
-      "source": "SCMP Tech",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 61,
-      "date": "2026-08-06T05:01:29+00:00",
-      "ts": 1785992489.0
-    },
-    {
       "title": "Locking Pretrained Weights via Deep Low-Rank Residual Distillation",
       "link": "https://machinelearning.apple.com/research/locking-pretrained-weights",
       "summary": "The quality of open-weight language models has dramatically improved in recent years. Sharing weights greatly facilitates model adoption by enabling their use across diverse hardware and software platforms. They also allow for more open research and testing, to the extent that users can use them as checkpoints,...",
@@ -1285,17 +1197,6 @@
       "relevance": 71,
       "date": "2026-08-06T00:00:00+00:00",
       "ts": 1785974400.0
-    },
-    {
-      "title": "Introducing Muse Code and Muse Spark 1.2",
-      "link": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/",
-      "summary": "Introducing Muse Code and Muse Spark 1.2 Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work! Muse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 57,
-      "date": "2026-08-05T23:58:35+00:00",
-      "ts": 1785974315.0
     },
     {
       "title": "Disputes over AI, robotics, trade mount ahead of planned Xi-Trump summit in US",
@@ -1395,6 +1296,17 @@
       "relevance": 44,
       "date": "2026-08-03T08:30:05+00:00",
       "ts": 1785745805.0
+    },
+    {
+      "title": "China’s tech giants race to put AI on delivery riders’ heads",
+      "link": "https://www.scmp.com/tech/big-tech/article/3362761/chinas-tech-giants-race-put-ai-delivery-riders-heads?utm_source=rss_feed",
+      "summary": "Chinese e-commerce giant JD.com has launched a smart helmet for food couriers with features enabled by artificial intelligence technology, following similar roll-outs by rivals Alibaba Group Holding and Meituan as they seek to improve rider safety and boost delivery efficiency. The helmet integrates an AI-driven voice...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 40,
+      "date": "2026-08-03T07:00:09+00:00",
+      "ts": 1785740409.0
     },
     {
       "title": "Alibaba launches Qwen3.8 with 2.4 trillion parameters",
@@ -1747,17 +1659,6 @@
       "relevance": 74,
       "date": "2026-07-21T17:00:00+00:00",
       "ts": 1784653200.0
-    },
-    {
-      "title": "Another ‘DeepSeek moment’? What China’s Kimi K3 means for the global AI industry",
-      "link": "https://www.scmp.com/tech/big-tech/article/3361387/another-deepseek-moment-what-chinas-kimi-k3-means-global-ai-industry?utm_source=rss_feed",
-      "summary": "The launch of Moonshot AI’s Kimi K3 has revived an intense debate that has raged in Silicon Valley ever since DeepSeek’s shock breakthrough last year: whether China can overcome its limited access to advanced chips to match the performance of the United States’ frontier artificial intelligence models. Trillions of US...",
-      "source": "SCMP Big Tech",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 74,
-      "date": "2026-07-21T14:24:30+00:00",
-      "ts": 1784643870.0
     },
     {
       "title": "LWiAI Podcast #252 - GPT 5.6, Grok 4.5, Nemotron-Labs-Diffusion, AI 2040",
