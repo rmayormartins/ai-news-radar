@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-17T06:33:54.565663+00:00",
-  "count": 188,
-  "china_count": 56,
+  "generated_at": "2026-08-17T12:22:56.313323+00:00",
+  "count": 187,
+  "china_count": 55,
   "japan_count": 1,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1129 itens)",
+      "status": "ok (1130 itens)",
       "kept": 12
     },
     {
       "source": "Google AI / DeepMind",
       "status": "ok (20 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "Google Research",
@@ -91,13 +91,13 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 8
+      "kept": 7
     },
     {
       "source": "MIT Tech Review",
@@ -227,7 +227,7 @@
     {
       "source": "SCMP Big Tech",
       "status": "ok (50 itens)",
-      "kept": 10
+      "kept": 9
     },
     {
       "source": "ChinaTalk",
@@ -296,6 +296,39 @@
     }
   ],
   "items": [
+    {
+      "title": "Loop Engineering for RAG: The Small Loops Inside Each Step, the Big Loops Across the Pipeline",
+      "link": "https://towardsdatascience.com/loop-engineering-for-rag-the-small-loops-inside-each-step-the-big-loops-across-the-pipeline/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #13bis] - The four bricks return useful results most of the time. Loop engineering is what the system does the rest of the time: when retrieval misses, when generation fails the schema, when the listing comes back incomplete, when an API call times out. Three control surfaces...",
+      "source": "Towards Data Science",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 43,
+      "date": "2026-08-17T12:00:00+00:00",
+      "ts": 1786968000.0
+    },
+    {
+      "title": "Anthropic watermarks Claude's output, but critics question the tradeoffs",
+      "link": "https://the-decoder.com/anthropic-watermarks-claudes-output-but-critics-question-the-tradeoffs/",
+      "summary": "Anthropic's text watermarking for Claude is supposed to make AI-generated content detectable. But critics doubt that word choice stays unaffected, and lawyers are facing new transparency headaches. The article Anthropic watermarks Claude's output, but critics question the tradeoffs appeared first on The Decoder .",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 54,
+      "date": "2026-08-17T11:43:19+00:00",
+      "ts": 1786966999.0
+    },
+    {
+      "title": "Get closer to the game with Gemini and Pixel",
+      "link": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+      "summary": "Low-angle view of a soccer player kicking a ball mid-air against a bright blue sky, with grass flying from their cleats.",
+      "source": "Google AI / DeepMind",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 54,
+      "date": "2026-08-17T08:00:00+00:00",
+      "ts": 1786953600.0
+    },
     {
       "title": "2,000 Students Race on Sugon's 100,000-Card Domestic AI Cluster: The XianDao Cup Puts Qwen and Weather Models in the Classroom",
       "link": "https://pandaily.com/xiandao-cup-student-ai-computing-competition-sugon-100k-cluster-qwen-weather-aug2026",
@@ -858,28 +891,6 @@
       "ts": 1786794864.0
     },
     {
-      "title": "AI-generated books are flooding Amazon and tanking sales for human authors",
-      "link": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors/",
-      "summary": "AI-generated books make up 20 percent of Amazon's self-published catalog but bring in only 12 percent of sales. A new study finds that revenue per book is dropping for human-written titles too, in seven of eight genres. The findings could give copyright plaintiffs the market-harm data their cases against AI companies...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 29,
-      "date": "2026-08-15T11:00:50+00:00",
-      "ts": 1786791650.0
-    },
-    {
-      "title": "World Labs turns one real-world robot task into thousands of simulated variations for training",
-      "link": "https://the-decoder.com/world-labs-turns-one-real-world-robot-task-into-thousands-of-simulated-variations-for-training/",
-      "summary": "World Labs, the startup founded by AI pioneer Fei-Fei Li, has unveiled a simulation engine that trains robot controllers entirely in virtual environments. From a single real-world task, the system generates thousands of controlled variations. The trained models then ran for one hour each on five different robot...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 50,
-      "date": "2026-08-15T07:30:48+00:00",
-      "ts": 1786779048.0
-    },
-    {
       "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
       "link": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
       "summary": "Hint: It’s really not a distillation story.",
@@ -1034,6 +1045,17 @@
       "ts": 1786695127.0
     },
     {
+      "title": "BYD-Backed Deep-Sea Robot Maker Shenhai Zhiren Raises 500 Million Yuan, Debuts Underwater Agent Model SEAgent 1.0",
+      "link": "https://pandaily.com/shenhai-zhiren-500-million-a-round-deep-sea-robots-byd-backed-seagent-aug2026",
+      "summary": "Guangzhou deep-sea robot company Shenhai Zhiren closed a 500 million yuan A round with new investors including GGV Capital, Cathay Capital's TotalEnergies-backed fund, and others, while existing backers BYD, Lightspeed China, and GGV followed on. Its Phoenix 600 cable-burial robot, operating at 3,000 meters, won a 100...",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 49,
+      "date": "2026-08-14T08:12:05+00:00",
+      "ts": 1786695125.0
+    },
+    {
       "title": "DeepSeek Harness Hands-On: Four Work Modes, 'Model + Harness = Agent', and the Most Ambitious Agent Open Source of the Year",
       "link": "https://pandaily.com/deepseek-harness-hands-on-four-modes-model-plus-harness-equals-agent-aug2026",
       "summary": "DeepSeek Harness launched its developer preview and open-sourced the code at 8:30 PM on August 13. A first-night hands-on review finds the product shell still early at v0.1 but the architecture ambition the biggest of the year: four preset work modes, an everything-is-a-plugin philosophy, and the equation Model +...",
@@ -1175,17 +1197,6 @@
       "relevance": 69,
       "date": "2026-08-13T10:00:00+00:00",
       "ts": 1786615200.0
-    },
-    {
-      "title": "WeChat's Xiaowei Agent Runs on WeLM — a Sparse MoE Model Quietly Growing to 617 Billion Parameters",
-      "link": "https://pandaily.com/wechat-xiaowei-agent-welm-moe-model-hidden-decoding-aug2026",
-      "summary": "WeChat has started gray-testing Xiaowei, a native AI assistant embedded inside the app, powered by WeLM, the WeChat AI team's long-developed large language model. WeLM has moved to sparse MoE architecture, with a 617-billion-parameter version activating just 23 billion per token, and the team is exploring Hidden...",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 59,
-      "date": "2026-08-13T08:02:01+00:00",
-      "ts": 1786608121.0
     },
     {
       "title": "DeepSeek’s updated V4 Pro AI model struggles on benchmarks, shines in cybersecurity",
@@ -1364,17 +1375,6 @@
       "ts": 1786449602.0
     },
     {
-      "title": "Can a Local LLM Run My AI Assistant?",
-      "link": "https://towardsdatascience.com/can-a-local-llm-run-my-ai-assistant/",
-      "summary": "I replayed the same 27 real production tasks through two local models, one hardware upgrade apart, to find out what it actually takes to replace Claude as the brain behind a 90-tool personal agent. The post Can a Local LLM Run My AI Assistant? appeared first on Towards Data Science .",
-      "source": "Towards Data Science",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 50,
-      "date": "2026-08-11T12:00:00+00:00",
-      "ts": 1786449600.0
-    },
-    {
       "title": "Testing ads in ChatGPT",
       "link": "https://openai.com/index/testing-ads-in-chatgpt",
       "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
@@ -1384,6 +1384,17 @@
       "relevance": 69,
       "date": "2026-08-11T10:00:00+00:00",
       "ts": 1786442400.0
+    },
+    {
+      "title": "Meta to challenge China’s open-weight AI dominance amid US regulatory fears",
+      "link": "https://www.scmp.com/tech/big-tech/article/3363638/meta-challenge-chinas-open-weight-ai-dominance-amid-us-regulatory-fears?utm_source=rss_feed",
+      "summary": "China’s dominance in open-weight artificial intelligence faces a fresh challenge from Meta Platforms, whose renewed push into open-source models could lure away American customers anxious about looming regulatory restrictions in Washington, analysts say. The US tech giant on Monday launched Muse Glimmer, a...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 58,
+      "date": "2026-08-11T07:30:39+00:00",
+      "ts": 1786433439.0
     },
     {
       "title": "Introducing Muse Glimmer",
@@ -1538,17 +1549,6 @@
       "relevance": 51,
       "date": "2026-08-07T16:22:50+00:00",
       "ts": 1786119770.0
-    },
-    {
-      "title": "China’s Kimi K3 AI model escapes isolated sandbox during security test: researchers",
-      "link": "https://www.scmp.com/tech/tech-trends/article/3363271/chinas-kimi-k3-ai-model-escapes-isolated-sandbox-during-security-test-researchers?utm_source=rss_feed",
-      "summary": "China’s top open-weight AI model Kimi K3 broke out of its isolated test environment during a cybersecurity evaluation, according to US security researchers, following similar high-profile incidents involving closed frontier models from OpenAI and Anthropic that highlight the growing challenge of constraining AI...",
-      "source": "SCMP Tech",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 68,
-      "date": "2026-08-07T08:00:06+00:00",
-      "ts": 1786089606.0
     },
     {
       "title": "Beyond Next-Token Prediction: A Performance Characterization of Diffusion versus Autoregressive Language Models",
@@ -1956,17 +1956,6 @@
       "relevance": 32,
       "date": "2026-07-26T09:00:00+00:00",
       "ts": 1785056400.0
-    },
-    {
-      "title": "Huawei’s Ren Zhengfei backs Tau Scaling Law to beat US sanctions",
-      "link": "https://www.scmp.com/tech/big-tech/article/3361772/huaweis-ren-zhengfei-backs-tau-scaling-law-beat-us-sanctions?utm_source=rss_feed",
-      "summary": "Huawei Technologies founder Ren Zhengfei has thrown his weight behind the Chinese tech giant’s Tau Scaling Law, framing the new chip-design principle as an existential necessity to survive tightening US sanctions. “The Tau Scaling Law is the only path forward for Huawei to break the siege,” Ren said in recent internal...",
-      "source": "SCMP Big Tech",
-      "region": "china",
-      "category": "pesquisa",
-      "relevance": 43,
-      "date": "2026-07-24T13:00:09+00:00",
-      "ts": 1784898009.0
     },
     {
       "title": "Kimi and Xi",
