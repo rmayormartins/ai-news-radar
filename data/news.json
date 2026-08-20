@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T00:39:49.568347+00:00",
+  "generated_at": "2026-08-20T06:27:46.572806+00:00",
   "count": 186,
-  "china_count": 54,
+  "china_count": 51,
   "japan_count": 1,
   "sources": [
     {
@@ -66,27 +66,27 @@
     },
     {
       "source": "arXiv cs.AI",
-      "status": "ok (275 itens)",
+      "status": "ok (267 itens)",
       "kept": 8
     },
     {
       "source": "arXiv cs.LG",
-      "status": "ok (555 itens)",
+      "status": "ok (237 itens)",
       "kept": 8
     },
     {
       "source": "arXiv cs.CL",
-      "status": "ok (134 itens)",
+      "status": "ok (141 itens)",
       "kept": 8
     },
     {
       "source": "arXiv cs.CV",
-      "status": "ok (171 itens)",
+      "status": "ok (152 itens)",
       "kept": 6
     },
     {
       "source": "arXiv cs.RO",
-      "status": "ok (69 itens)",
+      "status": "ok (61 itens)",
       "kept": 5
     },
     {
@@ -207,7 +207,7 @@
     {
       "source": "Pandaily",
       "status": "ok (20 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "TechNode",
@@ -227,7 +227,7 @@
     {
       "source": "SCMP Big Tech",
       "status": "ok (50 itens)",
-      "kept": 9
+      "kept": 10
     },
     {
       "source": "ChinaTalk",
@@ -296,6 +296,413 @@
     }
   ],
   "items": [
+    {
+      "title": "LLM-Driven AutoML for Cross-Lingual Handwritten OCR: Closed-Loop Neural Architecture Search with GPT-5, GPT-4o, and Claude Sonnet 4",
+      "link": "https://arxiv.org/abs/2607.15509",
+      "summary": "arXiv:2607.15509v3 Announce Type: replace-cross Abstract: We present a fully automated closed-loop AutoML framework that uses GPT-5, GPT-4o, and Claude Sonnet 4 as autonomous neural architecture designers for cross-lingual handwritten optical character recognition. Each large language model independently generates,...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 75,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Abra: Scaling Diffusion Image Training",
+      "link": "https://arxiv.org/abs/2608.17286",
+      "summary": "arXiv:2608.17286v1 Announce Type: new Abstract: Compute-optimal scaling laws guide the training of frontier language models yet remain largely unexplored for visual generation. We present a systematic scaling law study for text-to-image diffusion models using Abra, a controlled family of flow-matching transformers...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 74,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Can a Lightweight Multimodal Model Estimate LLM Reasoning Performance? A Study for Compute-Optimal Document Inference",
+      "link": "https://arxiv.org/abs/2608.18591",
+      "summary": "arXiv:2608.18591v1 Announce Type: new Abstract: Uniformly allocating inference reasoning budgets to LLMs is expensive and prone to over-thinking penalties; especially in document tasks where visual layouts drive complexity. To address this, we introduce BudgetDoc, the first multimodal benchmark providing explicit...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 72,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Training-Free Inference-Time Self-Reflection and Cost-Bounded Early Stopping for Large Language Models",
+      "link": "https://arxiv.org/abs/2608.18884",
+      "summary": "arXiv:2608.18884v1 Announce Type: new Abstract: Reinforcement-learning training of reasoning LLMs (e.g., GRPO) is expensive and requires a controllable environment, committing every contribution to a full training pipeline. We present EvoResearcher, a training-free, inference-time protocol that adds cost-bounded...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 72,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Looped Language Models Improve Compositional Tool Calling",
+      "link": "https://arxiv.org/abs/2608.18171",
+      "summary": "arXiv:2608.18171v1 Announce Type: new Abstract: Looped language models have shown promising results on reasoning benchmarks, yet their potential for agentic tool use remains largely unexplored. We study this question in compositional tool-calling settings, where models must coordinate multiple API calls, maintain...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 71,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "RTPO: Reverse-Turn Policy Optimization for Stabilizing Agentic RL Training",
+      "link": "https://arxiv.org/abs/2608.18682",
+      "summary": "arXiv:2608.18682v1 Announce Type: new Abstract: Training multi-turn agentic workflows with reinforcement learning (RL) enables large language models to perform complex reasoning, use external tools, and conduct iterative search beyond single-turn settings. Yet multi-turn RL training remains highly unstable, often...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 71,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "How Transparent is DiffusionGemma?",
+      "link": "https://arxiv.org/abs/2606.20560",
+      "summary": "arXiv:2606.20560v2 Announce Type: replace Abstract: LLM reasoning transparency is a critical affordance for understanding model decisions, mitigating misuse and misalignment, and debugging surprising model behaviors. However, DiffusionGemma performs a larger fraction of its computation in a continuous latent space;...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 71,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Turning Off-Policy Tokens On-Policy: A Plug-in Approach for Improving LLM Alignment",
+      "link": "https://arxiv.org/abs/2607.04728",
+      "summary": "arXiv:2607.04728v2 Announce Type: replace-cross Abstract: Reinforcement learning (RL) post-training for large language models (LLMs) follows a efficient paradigm of \"rollout then update\", which inevitably results in off-policy training data. To resolve this, Importance sampling (IS) is proposed, while the token-level...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 71,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Belayer: Efficient Fault Tolerance for LLM Agentic RL Training",
+      "link": "https://arxiv.org/abs/2608.14635",
+      "summary": "arXiv:2608.14635v2 Announce Type: replace-cross Abstract: Large language model (LLM) agents are increasingly trained with reinforcement learning in long-horizon, sandboxed environments. Unlike conventional RL, agentic RL couples GPU-intensive rollout engines with stateful environment containers whose actions may...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 71,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Mechanistic Interpretability of Structure-Aware Numerical Reasoning in LLaMA 3.1 8B",
+      "link": "https://arxiv.org/abs/2608.18419",
+      "summary": "arXiv:2608.18419v1 Announce Type: cross Abstract: Recent work has shown that large language models (LLMs) exhibit strong numerical sequence modeling capabilities and show promise in time-series prediction. While LLMs display in-context learning capabilities, the mechanisms with which they accomplish time-series...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 70,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "SMTrap: Cost-Effective DoS Attacks Against Large Reasoning Models via SMT Conflict Guidance",
+      "link": "https://arxiv.org/abs/2608.18921",
+      "summary": "arXiv:2608.18921v1 Announce Type: cross Abstract: Existing LRM-DoS methods rely heavily on model feedback to synthesize attack queries, requiring either repeated queries to the target model or training a dedicated attack model. These expensive operations severely weaken attack leverage. In this paper, we propose...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 70,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
+      "link": "https://arxiv.org/abs/2608.17310",
+      "summary": "arXiv:2608.17310v1 Announce Type: new Abstract: Reinforcement Learning (RL) has been promising in single-turn LLM fine-tuning. However, long-horizon agentic reasoning introduces increasingly branching interactions and sparse rewards, exposing several limitations of RL: its heavyweight backpropagation-based training...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 70,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "RecurrentGPT: Expressive Depth through Recurrent Modulation in Transformers",
+      "link": "https://arxiv.org/abs/2608.15062",
+      "summary": "arXiv:2608.15062v2 Announce Type: replace-cross Abstract: Scaling transformer language models creates an inherent tension between expressivity and memory efficiency. While unique weights across layers preserve functional specialization---from input-grounding to abstract refinement---they incur a substantial memory...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 70,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Solving Is Not Drawing: A Benchmark for Diagrammatic Reasoning in Olympiad Geometry",
+      "link": "https://arxiv.org/abs/2608.18111",
+      "summary": "arXiv:2608.18111v1 Announce Type: new Abstract: Foundation models such as GPT and Claude now solve olympiad-level mathematics with remarkable proficiency, so much so that geometry problem solving has become a standard proxy for their mathematical reasoning. Yet solving a geometry problem and drawing the figure it...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 69,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Hierarchical Data Selection via Manifold Coverage and Sparse Feature Coverage in LLM Post-training",
+      "link": "https://arxiv.org/abs/2608.16927",
+      "summary": "arXiv:2608.16927v1 Announce Type: new Abstract: As supervised fine-tuning data continues to scale, selecting high-value subsets from large candidate pools is crucial for reducing training cost and improving model performance. Existing methods often measure diversity directly in the original embedding space, where...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 69,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Leveraging Association Context Retrieval in Knowledge Edit- ing to Build White-Box Attacks on LLMs",
+      "link": "https://arxiv.org/abs/2608.17836",
+      "summary": "arXiv:2608.17836v1 Announce Type: new Abstract: As large language models (LLMs) are granted increasing autonomy, it is essential to investigate methods that can induce unsafe behavior. We propose a novel white-box attack inspired by locate-then-edit approaches from the field of Knowledge Editing. Our choice is...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 69,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Falcon Perception-HD: High Density Perception via Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2608.18881",
+      "summary": "arXiv:2608.18881v1 Announce Type: new Abstract: Autoregressive perception models trained to localize visual entities under the open-vocabulary setting are mostly trained using Supervised fine-tuning (SFT) with maximum likelihood, yet it optimizes a proxy objective (per-token cross-entropy) that is fundamentally...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 69,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Alignment Is All You Need: Instruction-Free Training for General Audio-Language Models",
+      "link": "https://arxiv.org/abs/2608.18132",
+      "summary": "arXiv:2608.18132v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) are typically built through a multi-stage pipeline consisting of cross-modal alignment, supervised fine-tuning (SFT), and preference optimization. This pipeline assumes that adapting an LLM to a new modality requires extensive...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 68,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Future Policy Approximation for Offline Reinforcement Learning in LLM Reasoning",
+      "link": "https://arxiv.org/abs/2509.19893",
+      "summary": "arXiv:2509.19893v3 Announce Type: replace Abstract: Reinforcement learning (RL) has emerged as a key driver of post-training for complex reasoning in large language models (LLMs), yet online RL introduces substantial instability and computational overhead. Offline RL offers a compelling alternative by decoupling...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 68,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "How Do Agents Fail on AutoResearch: End-to-End Diagnostic Evaluation on 100 Real-World Frontier Research Tasks",
+      "link": "https://arxiv.org/abs/2608.14905",
+      "summary": "arXiv:2608.14905v2 Announce Type: replace Abstract: AI has long assisted scientific research, but the rapid advance of LLMs and agentic scaffolds is reshaping the landscape; a single system can now carry whole-stage research from an initial hypothesis all the way to final published paper, which is a paradigm now...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 67,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "MMD-Flagger: Leveraging Maximum Mean Discrepancy to Detect Hallucinations",
+      "link": "https://arxiv.org/abs/2506.01367",
+      "summary": "arXiv:2506.01367v4 Announce Type: replace Abstract: Large Language Models (LLMs) are increasingly integrated into agentic AI systems, yet their propensity to generate hallucinations remains a critical safety concern. Detecting these factual errors at test-time, particularly without ground-truth labels, is essential...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 66,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Compress and Forget: bitsandbytes Quantization Amplifies Proactive Interference in LLMs",
+      "link": "https://arxiv.org/abs/2608.18578",
+      "summary": "arXiv:2608.18578v1 Announce Type: new Abstract: Proactive interference (PI) is a documented failure mode in large language models in which retrieval of a repeatedly overwritten value degrades as prior overwrites accumulate, mirroring a classical phenomenon in human working memory. Post-training quantization (PTQ) is...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 65,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Comment-level Topic Drift Analysis in the Reddit Corpus",
+      "link": "https://arxiv.org/abs/2608.19133",
+      "summary": "arXiv:2608.19133v1 Announce Type: new Abstract: We present a novel application of embedding-based dynamic topic modeling techniques to detect and quantify topic drift at the comment level in a massive corpus. By leveraging pretrained language models to generate contextualized semantic embeddings for short text, we...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 65,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "LACONIC: Dense-Level Effectiveness for Scalable Sparse Retrieval via a Two-Phase Training Curriculum",
+      "link": "https://arxiv.org/abs/2601.01684",
+      "summary": "arXiv:2601.01684v2 Announce Type: replace-cross Abstract: While dense retrieval models have been the standard for state-of-the-art information retrieval, their deployment is often constrained by high memory requirements and reliance on GPU accelerators for vector similarity search at scale. Learned sparse retrieval...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 65,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Trace, Verify, and Correct: A Training-Free Framework for Spatial Reasoning in Multimodal LLMs",
+      "link": "https://arxiv.org/abs/2608.04759",
+      "summary": "arXiv:2608.04759v2 Announce Type: replace-cross Abstract: Although Multimodal Large Language Models (MLLMs) have made substantial progress, their spatial reasoning may still produce intermediate judgments inconsistent with the input image, allowing errors to propagate through the reasoning chain and affect the final...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 65,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "CL4D: Contrastive Language-4D Pretraining for Vision-Language Reasoning in Dynamic Scenes",
+      "link": "https://arxiv.org/abs/2608.18734",
+      "summary": "arXiv:2608.18734v1 Announce Type: new Abstract: 4D understanding and reasoning is a fundamental capability for embodied AI agents operating in dynamic physical environments. However, existing vision encoders are largely limited to static 2D images or 3D point clouds without temporal modeling, or to 2D videos that lack...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 65,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "EVADE: Evidence-Verified Agentic Diagnosis with Escape",
+      "link": "https://arxiv.org/abs/2608.18833",
+      "summary": "arXiv:2608.18833v1 Announce Type: new Abstract: Medical vision-language models (VLMs) can achieve high accuracy but remain unreliable: they are systematically overconfident, benefit little from test-time reasoning, and lack the ability to reliably calibrate trust in their own responses. We introduce EVADE...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 65,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "CKAA: Cross-subspace Knowledge Alignment and Aggregation for Robust Continual Learning",
+      "link": "https://arxiv.org/abs/2507.09471",
+      "summary": "arXiv:2507.09471v3 Announce Type: replace Abstract: Continual Learning (CL) empowers AI models to continuously learn from sequential task streams. Recently, parameter-efficient fine-tuning (PEFT)-based CL methods have garnered increasing attention due to their superior performance. They typically allocate a unique...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 65,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Zero-Shot Transfer of Force Map Estimation Across GelSight Mini Sensors",
+      "link": "https://arxiv.org/abs/2608.18240",
+      "summary": "arXiv:2608.18240v1 Announce Type: new Abstract: Despite the rapid industrialization of the touch sensor manufacturing process, most of these sensors are still handmade in research laboratories. This complicates standardizing their performance, requiring the repetition of data collection and training models for each...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 63,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "The Linear Geometry of Interpretable Tokens: Jailbreaking Attacks and Defenses for Unlearned Diffusion Models",
+      "link": "https://arxiv.org/abs/2504.21307",
+      "summary": "arXiv:2504.21307v4 Announce Type: replace Abstract: Diffusion models excel at generating high-quality images but can memorize and reproduce harmful concepts when prompted. Although fine-tuning methods have been proposed to unlearn a target concept, they struggle to fully erase it while maintaining generation quality...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 63,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Revisiting the \"Push-T\" Robot Manipulation Task with Agentic Robotics",
+      "link": "https://arxiv.org/abs/2608.18227",
+      "summary": "arXiv:2608.18227v1 Announce Type: new Abstract: Push-T is an iconic benchmark for learning manipulation policies from human demonstrations. The robot must use a single point of contact to push a T-shaped block into a target pose. In this short paper, we revisit the Push-T task in the context of emerging advances in...",
+      "source": "arXiv cs.RO",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 56,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "OVIP-SG: Open-Vocabulary Instance-Preserving Scene Graphs for Mapping and Retrieval of Small, Fine-Grained Objects",
+      "link": "https://arxiv.org/abs/2608.17633",
+      "summary": "arXiv:2608.17633v2 Announce Type: replace Abstract: Integrating open-vocabulary perception into object-level 3D scene graphs is a double-edged sword. While vision-language detectors recover long-tail categories and small, fine-grained objects overlooked by closed-set models, they also tend to fragment large surfaces...",
+      "source": "arXiv cs.RO",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 56,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "Tactile Sim2Real without Tactile Simulation via Bottlenecked Latent Reconstruction",
+      "link": "https://arxiv.org/abs/2608.15897",
+      "summary": "arXiv:2608.15897v2 Announce Type: replace Abstract: Robot sensor designs, particularly tactile sensors, are highly diverse and evolve rapidly. Modeling each sensor in simulation demands substantial domain expertise and computational approximations can degrade the fidelity of the simulated signals. We propose Sim2Real...",
+      "source": "arXiv cs.RO",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 55,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "The Embodiment Gap in Robot Foundation Models",
+      "link": "https://arxiv.org/abs/2608.18433",
+      "summary": "arXiv:2608.18433v1 Announce Type: new Abstract: Robot foundation models (RFMs), including vision-language-action (VLA) policies, are often discussed through a scaling view: more data, larger models, and broader benchmarks should improve generalization. In robotics, however, a model can generalize while work still...",
+      "source": "arXiv cs.RO",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 54,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "GAPL: Grounded Action-effect Policy Learning for LLM-Based Trajectory Planning",
+      "link": "https://arxiv.org/abs/2608.18254",
+      "summary": "arXiv:2608.18254v1 Announce Type: new Abstract: Trajectory planning for autonomous driving requires both high-level reasoning and precise low-level control. Large Language Models (LLMs) offer semantic-rich planning capabilities, however, their application is limited by hallucinated reasoning, poor grounding in...",
+      "source": "arXiv cs.RO",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 51,
+      "date": "2026-08-20T04:00:00+00:00",
+      "ts": 1787198400.0
+    },
+    {
+      "title": "AI Now Makes Up Half of Baidu's Revenue: A 'New Baidu' Is Taking Shape",
+      "link": "https://pandaily.com/baidu-q2-2026-ai-revenue-half-new-baidu-kunlun-chip-eruder-applications-aug2026",
+      "summary": "Baidu reported 31.3 billion yuan in Q2 2026 revenue, with AI business revenue of 12.5 billion yuan, up 25%, accounting for 50% of general business revenue for a second straight quarter. From the Kunlun chip and ERNIE models to agent applications and Apollo Go, Baidu's AI story is shifting from investment to a...",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-08-20T02:01:15+00:00",
+      "ts": 1787191275.0
+    },
+    {
+      "title": "DeepSeek Harness Ships First Major Post-Beta Update: 14 Changes Bring Multimodal and Subagent Upgrades",
+      "link": "https://pandaily.com/deepseek-harness-rc8-update-14-changes-multimodal-input-subagent-codex-claude-aug2026",
+      "summary": "Last night DeepSeek Harness released v0.1.0-rc.8, its first significant update since public beta, with 14 changes covering multimodal input, subagent collaboration, terminal experience, tool calling, and developer support. New native image requests and mixed text-image input let agents handle screenshots, while a...",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 66,
+      "date": "2026-08-20T02:01:07+00:00",
+      "ts": 1787191267.0
+    },
     {
       "title": "Google packs Search and Gemini with new AI study tools",
       "link": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
@@ -460,391 +867,6 @@
       "relevance": 62,
       "date": "2026-08-19T08:22:48+00:00",
       "ts": 1787127768.0
-    },
-    {
-      "title": "When Personalization Becomes Bias: Structural and Discursive Religious Framing in AI-Generated Financial Advice",
-      "link": "https://arxiv.org/abs/2608.16909",
-      "summary": "arXiv:2608.16909v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly integrated into financial advisory systems, yet their role in reproducing religious bias remains underexamined. This study provides systematic mixed-methods evidence of such bias across three LLMs (ChatGPT, Gemini, and...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 75,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "SOD: Step-wise On-policy Distillation for Small Language Model Agents",
-      "link": "https://arxiv.org/abs/2605.07725",
-      "summary": "arXiv:2605.07725v3 Announce Type: replace-cross Abstract: Tool-integrated reasoning (TIR) is difficult to scale to small language models due to instability in long-horizon tool interactions and limited model capacity. While reinforcement learning methods like group relative policy optimization provide only sparse...",
-      "source": "arXiv cs.AI",
-      "region": "china",
-      "category": "pesquisa",
-      "relevance": 74,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Training Leaves Traces: Centered Residual Signatures for Language Model Lineage Verification",
-      "link": "https://arxiv.org/abs/2608.14929",
-      "summary": "arXiv:2608.14929v1 Announce Type: cross Abstract: Open-weight language models are fine-tuned, quantized, pruned, and merged, yet their provenance is often undocumented. We study data-free white-box lineage verification: can weights alone reveal whether two compatible model checkpoints share ancestry? Residual training...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 74,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "FluxBin: Flexible LUT-based Ultra-low-bit LLM Inference by Algorithm-Kernel Synergy",
-      "link": "https://arxiv.org/abs/2608.15602",
-      "summary": "arXiv:2608.15602v1 Announce Type: new Abstract: While binary quantization theoretically promises extreme compression and acceleration for Large Language Models (LLMs), existing research often overlooks the necessity of specialized hardware kernels, thus failing to unleash the full acceleration potential due to...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 73,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Qwen-Video-Edit: Instruction-Based Video Editing by Repurposing an Image Editing Model",
-      "link": "https://arxiv.org/abs/2608.14790",
-      "summary": "arXiv:2608.14790v2 Announce Type: replace Abstract: Instruction-based video editing is commonly built on video-pretrained generative backbones: a video diffusion transformer is adapted, at considerable cost, to condition on a source video and an editing instruction. In this report we explore a different route and show...",
-      "source": "arXiv cs.CV",
-      "region": "china",
-      "category": "pesquisa",
-      "relevance": 72,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "How Transparent is DiffusionGemma?",
-      "link": "https://arxiv.org/abs/2606.20560",
-      "summary": "arXiv:2606.20560v2 Announce Type: replace-cross Abstract: LLM reasoning transparency is a critical affordance for understanding model decisions, mitigating misuse and misalignment, and debugging surprising model behaviors. However, DiffusionGemma performs a larger fraction of its computation in a continuous latent...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 71,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Turning Off-Policy Tokens On-Policy: A Plug-in Approach for Improving LLM Alignment",
-      "link": "https://arxiv.org/abs/2607.04728",
-      "summary": "arXiv:2607.04728v2 Announce Type: replace-cross Abstract: Reinforcement learning (RL) post-training for large language models (LLMs) follows a efficient paradigm of \"rollout then update\", which inevitably results in off-policy training data. To resolve this, Importance sampling (IS) is proposed, while the token-level...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 71,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Discrete Diffusion Language Models Are Training-Free Multi-Label Classifiers",
-      "link": "https://arxiv.org/abs/2608.14649",
-      "summary": "arXiv:2608.14649v1 Announce Type: new Abstract: We present dLLM-SetScore, a training-free method that uses discrete masked-diffusion language models for multi-label text classification. For each candidate label, it asks a short yes/no question and compares the probabilities of the two answer tokens at one masked...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 71,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Belayer: Efficient Fault Tolerance for LLM Agentic RL Training",
-      "link": "https://arxiv.org/abs/2608.14635",
-      "summary": "arXiv:2608.14635v2 Announce Type: cross Abstract: Large language model (LLM) agents are increasingly trained with reinforcement learning in long-horizon, sandboxed environments. Unlike conventional RL, agentic RL couples GPU-intensive rollout engines with stateful environment containers whose actions may produce...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 71,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Leveraging Machine Unlearning for Cost-Efficient Preference Alignment",
-      "link": "https://arxiv.org/abs/2504.06659",
-      "summary": "arXiv:2504.06659v2 Announce Type: replace Abstract: Despite advances in Preference Alignment (PA) for Large Language Models (LLMs), mainstream methods like reinforcement learning with human feedback face notable challenges. These approaches require high-quality datasets of positive preference examples, which are...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 71,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "JUMP: Single-Pass Membership Inference on Fine-Tuned Diffusion Language Models",
-      "link": "https://arxiv.org/abs/2607.16207",
-      "summary": "arXiv:2607.16207v2 Announce Type: replace Abstract: Public open-weight language models are often fine-tuned on private or domain-specific data before deployment, creating a need to audit whether individual records were used during adaptation. We study this problem for discrete diffusion language models (dLLMs), using...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 70,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "RecurrentGPT: Expressive Depth through Recurrent Modulation in Transformers",
-      "link": "https://arxiv.org/abs/2608.15062",
-      "summary": "arXiv:2608.15062v2 Announce Type: cross Abstract: Scaling transformer language models creates an inherent tension between expressivity and memory efficiency. While unique weights across layers preserve functional specialization---from input-grounding to abstract refinement---they incur a substantial memory footprint....",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 70,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Diffusion-model approach to flavor models: A case study for $S_4^\\prime$ modular flavor model",
-      "link": "https://arxiv.org/abs/2504.00944",
-      "summary": "arXiv:2504.00944v2 Announce Type: replace-cross Abstract: We propose a numerical method of searching for parameters with experimental constraints in generic flavor models by utilizing diffusion models, which are classified as a type of generative artificial intelligence (generative AI). As a specific example, we...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 70,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "From Lab to Reality: A Practical Evaluation of Deep Learning Models and LLMs for Vulnerability Detection",
-      "link": "https://arxiv.org/abs/2512.10485",
-      "summary": "arXiv:2512.10485v3 Announce Type: replace-cross Abstract: Vulnerability detection methods based on deep learning (DL) have shown strong performance on benchmark datasets, yet their real-world effectiveness remains underexplored. Recent work suggests that graph neural network-based and transformer-based models,...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 70,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Policy-Invariant Reward Shaping from LLM Feedback: A Framework for Hybrid RL Agents",
-      "link": "https://arxiv.org/abs/2608.18008",
-      "summary": "arXiv:2608.18008v1 Announce Type: cross Abstract: Combining large language models with reinforcement learning is increasingly explored, yet the theoretical status of LLM-derived reward signals is often left implicit. We formalize the hybrid LLM-planner and RL-controller architecture as a Goal-Augmented Markov Decision...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 69,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "DominoTree: Conditional Tree-Structured Drafting with Domino for Speculative Decoding",
-      "link": "https://arxiv.org/abs/2607.08642",
-      "summary": "arXiv:2607.08642v3 Announce Type: replace Abstract: Speculative decoding accelerates LLM inference by drafting tokens and verifying them in parallel. Block-diffusion drafters such as DFlash model only per-position marginals, and tree methods such as DDTree expand candidate trees from those marginals. The released...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 69,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding",
-      "link": "https://arxiv.org/abs/2608.17402",
-      "summary": "arXiv:2608.17402v1 Announce Type: new Abstract: Vision encoders are a critical component of vision-language models, and scaling their capacity effectively improves performance. However, dense scaling increases compute cost and inference latency. Mixture-of-Experts (MoE) architectures offer a compelling alternative,...",
-      "source": "arXiv cs.CV",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 69,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Hierarchical Data Selection via Manifold Coverage and Sparse Feature Coverage in LLM Post-training",
-      "link": "https://arxiv.org/abs/2608.16927",
-      "summary": "arXiv:2608.16927v1 Announce Type: cross Abstract: As supervised fine-tuning data continues to scale, selecting high-value subsets from large candidate pools is crucial for reducing training cost and improving model performance. Existing methods often measure diversity directly in the original embedding space, where...",
-      "source": "arXiv cs.CV",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 69,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "SignalReasoner: Assessing the Upper Bound of 3B Models for Signal Mathematical Reasoning",
-      "link": "https://arxiv.org/abs/2608.17301",
-      "summary": "arXiv:2608.17301v1 Announce Type: new Abstract: Post-training with supervised chain-of-thought fine-tuning and reinforcement learning from verifiable rewards has substantially improved the mathematical reasoning capabilities of large language models (LLMs). However, their application to signal processing problems...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 68,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL",
-      "link": "https://arxiv.org/abs/2608.17253",
-      "summary": "arXiv:2608.17253v1 Announce Type: cross Abstract: Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth supervision (e.g., verifiable reward). Such annotations are costly to obtain...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 68,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Inference-Time Attention Steering for Vision-Language-Action Driving Models",
-      "link": "https://arxiv.org/abs/2608.17095",
-      "summary": "arXiv:2608.17095v1 Announce Type: new Abstract: Vision-language-action (VLA) driving models couple a reasoning stage with a diffusion-based trajectory decoder, but do not give a direct way to redirect attention toward safety-critical actors at inference time without retraining. We studied a bounded additive...",
-      "source": "arXiv cs.CV",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 68,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Deep Academic Survey: Stateful Agentic Closed-Loop Paradigm for Academic Survey Automation",
-      "link": "https://arxiv.org/abs/2608.18034",
-      "summary": "arXiv:2608.18034v1 Announce Type: new Abstract: Academic surveys play a central role in organizing rapidly expanding scholarly literature, yet their construction requires extensive paper analysis, coherent knowledge organization, fine-grained citation support, and reliable manuscript assembly. Existing Deep Research...",
-      "source": "arXiv cs.CV",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 68,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "aDSL: Agentic 3D Creation via Joint Agent-Program Design",
-      "link": "https://arxiv.org/abs/2608.17975",
-      "summary": "arXiv:2608.17975v1 Announce Type: cross Abstract: Programmatic representations provide a compelling paradigm for 3D content creation, enabling fine-grained edits, interpretability, and explicit structural control. Yet, agentic workflows that rely on large language models (LLMs) to author 3D programs remain brittle,...",
-      "source": "arXiv cs.CV",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 68,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See",
-      "link": "https://arxiv.org/abs/2608.17744",
-      "summary": "arXiv:2608.17744v1 Announce Type: new Abstract: Take three frontier mixture-of-experts models (Alibaba, OpenAI, NVIDIA; 3.6-4.0B active parameters each) and fine-tune them to reason in a low-resource language. On accuracy benchmarks almost nothing happens, and the benchmark itself is noise at this scale: changing only...",
-      "source": "arXiv cs.CL",
-      "region": "china",
-      "category": "pesquisa",
-      "relevance": 67,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Chain-of-Experience for Continual LLM Improvement",
-      "link": "https://arxiv.org/abs/2608.18027",
-      "summary": "arXiv:2608.18027v1 Announce Type: new Abstract: Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability to improve through inference-time interaction. In this paper, we study how LLMs learn from iterative experience at test time, a setting we...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 66,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "The Emergence of Lab-Driven Alignment Signatures: A Psychometric Framework for Auditing Latent Bias and Compounding Risk in Generative AI",
-      "link": "https://arxiv.org/abs/2602.17127",
-      "summary": "arXiv:2602.17127v2 Announce Type: replace Abstract: Large language models increasingly serve as reasoning layers in multi-agent systems, where one provider's models may generate, judge, and summarize within a single pipeline. This raises the question of whether developer organizations impart durable behavioral...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 66,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Towards Safer RAG: Only Agents Capable of System 2 Thinking may Access Untrusted Documents",
-      "link": "https://arxiv.org/abs/2608.17153",
-      "summary": "arXiv:2608.17153v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) has significantly enhanced the performance of large language models (LLMs), yet these systems remain vulnerable to knowledge-poisoning attacks, in which misinformation in retrieved documents can influence the model's final outputs....",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 65,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Do Large Language Models Play Six Degrees of Separation? Measuring Topological Compression in Long-Context Manifolds",
-      "link": "https://arxiv.org/abs/2608.17950",
-      "summary": "arXiv:2608.17950v1 Announce Type: new Abstract: Large Language Models (LLMs) demonstrate remarkable multi-hop reasoning capabilities over long contexts, yet the internal mechanisms enabling these distant cognitive leaps remain poorly understood. Traditional attention-based interpretability often fails to capture true...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 65,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "PrivAct: Internalizing Contextual Privacy Preservation via Multi-Agent Preference Training",
-      "link": "https://arxiv.org/abs/2602.13840",
-      "summary": "arXiv:2602.13840v2 Announce Type: replace Abstract: Large language model (LLM) agents are increasingly deployed in personalized tasks involving sensitive, context-dependent information, where privacy violations may arise in agents' action due to the implicitness of contextual privacy. Existing approaches rely on...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 65,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "When to Plan, When to Polish: Noise Level as a Granularity Axis for Diffusion Language Models",
-      "link": "https://arxiv.org/abs/2606.21802",
-      "summary": "arXiv:2606.21802v2 Announce Type: replace Abstract: Standard tokenwise diffusion LMs keep training corruption and inference commitment at token granularity throughout denoising. At high noise, this leaves scattered local fragments rather than coherent evidence, making it hard to form early coarse structure, exactly...",
-      "source": "arXiv cs.CL",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 65,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "VLCP: Vision Language Control Policy Closed-Loop Code Replanning for Robot Manipulation",
-      "link": "https://arxiv.org/abs/2608.16978",
-      "summary": "arXiv:2608.16978v1 Announce Type: new Abstract: Turning a frontier vision-language model into a robot policy usually means fine-tuning it to emit an action representation it never saw in pretraining, which throws away much of the reasoning that made the model worth reaching for. We go the other way and keep the VLM...",
-      "source": "arXiv cs.RO",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 62,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "MANIGUARD: A Benchmark and Data Suite for Specification-Grounded Safety Evaluation and Improvement of Robotic Manipulation",
-      "link": "https://arxiv.org/abs/2608.17386",
-      "summary": "arXiv:2608.17386v1 Announce Type: new Abstract: Foundation-model policies for robotic manipulation are advancing rapidly on task success, but rigorous evaluation of whether they succeed safely is still lacking. We introduce ManiGuard, a specification-grounded framework for evaluating and improving the safety of...",
-      "source": "arXiv cs.RO",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 58,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Calibrated Predictive Safety for Heterogeneous Robots: An Action-Conditioned JEPA Framework with Model-Based Safety Shields",
-      "link": "https://arxiv.org/abs/2608.17496",
-      "summary": "arXiv:2608.17496v1 Announce Type: new Abstract: Vision-language-action policies generalize broadly but provide no execution-time guarantees; classical model-based planners respect kinematic and geometric constraints but generalize poorly. We study whether an action-conditioned Joint-Embedding Predictive Architecture...",
-      "source": "arXiv cs.RO",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 58,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "Action-Effect Memory Pretraining for Robot Manipulation",
-      "link": "https://arxiv.org/abs/2606.12499",
-      "summary": "arXiv:2606.12499v2 Announce Type: replace Abstract: We present AEM, an Action-Effect Memory pretraining framework for robot manipulation that learns compact temporal representations from vision-action history. Unlike prior robot representation pretraining methods that mainly focus on single-frame visual encoding, AEM...",
-      "source": "arXiv cs.RO",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 58,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
-    },
-    {
-      "title": "OVIP-SG: Open-Vocabulary Instance-Preserving Scene Graphs for Mapping and Retrieval of Small, Fine-Grained Objects",
-      "link": "https://arxiv.org/abs/2608.17633",
-      "summary": "arXiv:2608.17633v1 Announce Type: new Abstract: Integrating open-vocabulary perception into object-level 3D scene graphs is a double-edged sword. While vision-language detectors recover long-tail categories and small, fine-grained objects overlooked by closed-set models, they also tend to fragment large surfaces and...",
-      "source": "arXiv cs.RO",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 56,
-      "date": "2026-08-19T04:00:00+00:00",
-      "ts": 1787112000.0
     },
     {
       "title": "AI Rebuilds Consumer Markets: ByteDance Large Models Unlock New Consumption Increment",
@@ -1056,28 +1078,6 @@
       "ts": 1787040041.0
     },
     {
-      "title": "Alibaba Cloud's Ambition Is Not Agent Builder: Agent Studio Becomes an All-in-One Enterprise Agent Stack",
-      "link": "https://pandaily.com/alibaba-cloud-agent-studio-all-in-one-platform-managed-agent-one-key-mcp-aug2026",
-      "summary": "Alibaba Cloud upgraded its agent services into Agent Studio, an all-in-one enterprise agent full-stack platform launched on Bailian at the August 14 Apsara release. The platform targets the dirty work of agent infrastructure: managed runtime, unified API keys across MCP services, agentic search, and memory, as cloud...",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 64,
-      "date": "2026-08-18T08:00:35+00:00",
-      "ts": 1787040035.0
-    },
-    {
-      "title": "ByteDance's Doubao PC Client Has Quietly Become a Codex-Style Agent — GUI Control, Remote Tasks, and Cloud Computers",
-      "link": "https://pandaily.com/doubao-pc-agent-gui-codex-remote-computer-cloud-pc-bytedance-aug2026",
-      "summary": "ByteDance has folded Codex-style agent capabilities directly into the Doubao PC client: built-in browsing with login support, GUI computer operation, phone-to-PC remote task control, cloud computers, connectors, and Skills. With 382 million monthly active users, Doubao is positioning itself as China's...",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 59,
-      "date": "2026-08-18T08:00:32+00:00",
-      "ts": 1787040032.0
-    },
-    {
       "title": "Zhipu AI’s answer to Project Glasswing marks shift for Chinese cyber safety: researcher",
       "link": "https://www.scmp.com/tech/article/3364356/zhipu-ais-answer-project-glasswing-marks-shift-chinese-cyber-safety-researcher?utm_source=rss_feed",
       "summary": "Zhipu AI’s launch of China’s first answer to Project Glasswing signals a shift in how the country’s top artificial intelligence labs approach global cybersecurity, according to a researcher. The Beijing-based firm – now known internationally as Z.ai – announced its new GLM-5.3 model on Friday alongside the launch of...",
@@ -1087,17 +1087,6 @@
       "relevance": 65,
       "date": "2026-08-18T03:00:14+00:00",
       "ts": 1787022014.0
-    },
-    {
-      "title": "DeepSeek Harness Open Source: Everything Is a Plugin — the Bet Is an Agent Platform, Not a Product",
-      "link": "https://pandaily.com/deepseek-harness-open-source-plugin-platform-cordis-agent-infrastructure-aug2026",
-      "summary": "DeepSeek open-sourced DeepSeek Harness (CLI: dsh) on August 13, and GitHub stars passed 140,000 within days. Built on the Cordis microkernel, every component including the agent loop itself is a plugin, betting that Harness becomes the baseboard of the agent era: Model + Harness = Agent.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 68,
-      "date": "2026-08-18T02:06:34+00:00",
-      "ts": 1787018794.0
     },
     {
       "title": "GRPO Beyond English: A Large-Scale Study of GRPO in Non-English and Multilingual Settings",
@@ -1538,6 +1527,17 @@
       "relevance": 69,
       "date": "2026-08-11T10:00:00+00:00",
       "ts": 1786442400.0
+    },
+    {
+      "title": "Meta to challenge China’s open-weight AI dominance amid US regulatory fears",
+      "link": "https://www.scmp.com/tech/big-tech/article/3363638/meta-challenge-chinas-open-weight-ai-dominance-amid-us-regulatory-fears?utm_source=rss_feed",
+      "summary": "China’s dominance in open-weight artificial intelligence faces a fresh challenge from Meta Platforms, whose renewed push into open-source models could lure away American customers anxious about looming regulatory restrictions in Washington, analysts say. The US tech giant on Monday launched Muse Glimmer, a...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 60,
+      "date": "2026-08-11T07:30:39+00:00",
+      "ts": 1786433439.0
     },
     {
       "title": "Introducing Muse Glimmer",
