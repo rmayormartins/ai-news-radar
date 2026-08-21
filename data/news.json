@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T12:26:38.015138+00:00",
-  "count": 195,
+  "generated_at": "2026-08-21T18:22:34.742461+00:00",
+  "count": 190,
   "china_count": 56,
-  "japan_count": 1,
+  "japan_count": 0,
   "sources": [
     {
       "source": "OpenAI",
@@ -17,7 +17,7 @@
     {
       "source": "Google Research",
       "status": "ok (100 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "Meta AI",
@@ -26,7 +26,7 @@
     },
     {
       "source": "Hugging Face",
-      "status": "ok (845 itens)",
+      "status": "ok (846 itens)",
       "kept": 12
     },
     {
@@ -62,7 +62,7 @@
     {
       "source": "AWS Machine Learning",
       "status": "ok (20 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "arXiv cs.AI",
@@ -97,7 +97,7 @@
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 10
+      "kept": 9
     },
     {
       "source": "MIT Tech Review",
@@ -117,7 +117,7 @@
     {
       "source": "KDnuggets",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "TechXplore (IA/ML)",
@@ -132,7 +132,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 6
+      "kept": 3
     },
     {
       "source": "Ars Technica",
@@ -142,7 +142,7 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "Wired AI",
@@ -187,7 +187,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 5
+      "kept": 3
     },
     {
       "source": "Synced (机器之心)",
@@ -287,7 +287,7 @@
     {
       "source": "Japan Industry News",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "NHK World",
@@ -296,6 +296,72 @@
     }
   ],
   "items": [
+    {
+      "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
+      "link": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/",
+      "summary": "The Agentic Data Operations Platform (ADOP) is a reference architecture on Amazon Bedrock that uses specialized AI agents to automate the full Bronze-to-Silver-to-Gold data pipeline lifecycle, compressing new-source onboarding from weeks to hours while keeping data governance and compliance controls inline.",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 44,
+      "date": "2026-08-21T17:06:17+00:00",
+      "ts": 1787331977.0
+    },
+    {
+      "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
+      "link": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
+      "summary": "Generative AI",
+      "source": "Google Research",
+      "region": "global",
+      "category": "geral",
+      "relevance": 24,
+      "date": "2026-08-21T17:02:24+00:00",
+      "ts": 1787331744.0
+    },
+    {
+      "title": "Reduce RAG costs on Amazon Bedrock with query-aware compression",
+      "link": "https://aws.amazon.com/blogs/machine-learning/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression/",
+      "summary": "Input tokens are often a meaningful part of the cost of running Retrieval Augmented Generation (RAG) at scale. This post describes a query-aware context compression pattern on Amazon Bedrock: after retrieval, a smaller model filters retrieved chunks against the query before the primary model answers, reducing input...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 52,
+      "date": "2026-08-21T16:59:15+00:00",
+      "ts": 1787331555.0
+    },
+    {
+      "title": "Run Muse Glimmer for Local Vibe Coding with llama.cpp, DFlash, and Pi",
+      "link": "https://www.kdnuggets.com/run-muse-glimmer-for-local-vibe-coding-with-llama-cpp-dflash-and-pi",
+      "summary": "Run Muse Glimmer locally on an RTX 3090 GPU using llama.cpp, DFlash speculative decoding, and Pi for fast, private, agentic AI coding.",
+      "source": "KDnuggets",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 60,
+      "date": "2026-08-21T14:00:58+00:00",
+      "ts": 1787320858.0
+    },
+    {
+      "title": "OpenAI-backed legal tech firm pivots to Chinese Kimi K3 open-weight model",
+      "link": "https://www.scmp.com/tech/tech-trends/article/3364827/openai-backed-legal-tech-firm-pivots-chinese-kimi-k3-open-weight-model?utm_source=rss_feed",
+      "summary": "A US artificial intelligence start-up backed by OpenAI has built its first in-house model on Chinese lab Moonshot AI’s Kimi K3, highlighting a growing shift by Western tech firms towards Chinese open-weight systems amid soaring development costs. San Francisco-based legal tech provider Harvey, whose high-profile...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 68,
+      "date": "2026-08-21T14:00:10+00:00",
+      "ts": 1787320810.0
+    },
+    {
+      "title": "China’s telecoms giants bet on ‘token factories’ as AI drives revenue growth",
+      "link": "https://www.scmp.com/tech/big-tech/article/3364873/chinas-telecoms-giants-bet-token-factories-ai-drives-revenue-growth?utm_source=rss_feed",
+      "summary": "China’s three state-owned telecoms giants have made billable artificial intelligence tokens a key focus of their growth strategies, as AI adoption accelerates across the country and computing demand soars. China Mobile, China Telecom and China Unicom all pointed to AI and computing operations as key growth drivers in...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 40,
+      "date": "2026-08-21T13:30:10+00:00",
+      "ts": 1787319010.0
+    },
     {
       "title": "Waymo builds its own chip for its robotaxis, cutting its reliance on Nvidia",
       "link": "https://the-decoder.com/waymo-builds-its-own-chip-for-its-robotaxis-cutting-its-reliance-on-nvidia/",
@@ -946,28 +1012,6 @@
       "ts": 1787247411.0
     },
     {
-      "title": "Grok keeps sending gibberish responses to users",
-      "link": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
-      "summary": "Affected users told TechCrunch they were using Grok Lite, and noticed the issues as early as Wednesday morning.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 43,
-      "date": "2026-08-20T17:32:16+00:00",
-      "ts": 1787247136.0
-    },
-    {
-      "title": "A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds",
-      "link": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
-      "summary": "ChatGPT and other AI models are now authoring and editing much of the new web.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 65,
-      "date": "2026-08-20T17:18:58+00:00",
-      "ts": 1787246338.0
-    },
-    {
       "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
       "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
       "summary": "",
@@ -977,17 +1021,6 @@
       "relevance": 26,
       "date": "2026-08-20T16:52:57+00:00",
       "ts": 1787244777.0
-    },
-    {
-      "title": "Ramp launches its own AI model router, called Router",
-      "link": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
-      "summary": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 47,
-      "date": "2026-08-20T16:46:00+00:00",
-      "ts": 1787244360.0
     },
     {
       "title": "Scaling agentic AI: Enterprise patterns without vendor lock-in",
@@ -1034,6 +1067,17 @@
       "ts": 1787234894.0
     },
     {
+      "title": "Swarm-inspired AI may expose suspicious blockchain cash flows more effectively",
+      "link": "https://techxplore.com/news/2026-08-swarm-ai-expose-suspicious-blockchain.html",
+      "summary": "An AI model inspired by ants, bees and birds could be key to cracking down on blockchain-based money laundering, new research led by Charles Darwin University (CDU) has found. The study is published in the journal Communications in Computer and Information Science.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 49,
+      "date": "2026-08-20T13:40:09+00:00",
+      "ts": 1787233209.0
+    },
+    {
       "title": "Grok exfiltrates user data when malicious instructions are encrypted",
       "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
       "summary": "Cryptographic Context Injection is only the latest way to break an LLM safety guardrail.",
@@ -1043,17 +1087,6 @@
       "relevance": 45,
       "date": "2026-08-20T13:00:35+00:00",
       "ts": 1787230835.0
-    },
-    {
-      "title": "GEN-1.5: Generalist AI teaches robots new tasks from a single demo",
-      "link": "https://the-decoder.com/gen-1-5-generalist-ai-teaches-robots-new-tasks-from-a-single-demo/",
-      "summary": "Robotics startup Generalist AI has unveiled GEN-1.5, an AI model that teaches robots new tasks from a single demonstration. The article GEN-1.5: Generalist AI teaches robots new tasks from a single demo appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 37,
-      "date": "2026-08-20T12:35:52+00:00",
-      "ts": 1787229352.0
     },
     {
       "title": "Top 10 Open-Source Benchmarks for AI Coding Agents in 2026",
@@ -1210,17 +1243,6 @@
       "ts": 1787127768.0
     },
     {
-      "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
-      "summary": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model, Astra, that it thinks...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 46,
-      "date": "2026-08-18T19:28:30+00:00",
-      "ts": 1787081310.0
-    },
-    {
       "title": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
       "link": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
       "summary": "The ChatGPT maker says its upcoming Astra model may have reached “critical” cyber capabilities, prompting it to halt a significant number of training runs while it tightens internal safeguards.",
@@ -1230,28 +1252,6 @@
       "relevance": 59,
       "date": "2026-08-18T18:33:11+00:00",
       "ts": 1787077991.0
-    },
-    {
-      "title": "Implement vector-prompt document classification using Amazon Bedrock",
-      "link": "https://aws.amazon.com/blogs/machine-learning/implement-vector-prompt-document-classification-using-amazon-bedrock/",
-      "summary": "Learn how to build a multi-agent document classification solution on Amazon Bedrock using the Strands Agents SDK. Three specialized agents combine textual analysis with Claude Haiku 4.5 and visual similarity search with Amazon Titan Multimodal Embeddings to accurately classify insurance documents such as policies and...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 51,
-      "date": "2026-08-18T17:10:37+00:00",
-      "ts": 1787073037.0
-    },
-    {
-      "title": "NEC Secures Contract for Underwater Acoustic AI Research Project",
-      "link": "https://www.japanindustrynews.com/2026/08/nec-secures-contract-for-underwater-acoustic-ai-research-project/",
-      "summary": "NEC Corporation has been awarded a contract to conduct research on underwater acoustic foundation models using self-supervised learning. This project is part of the 'Innovative Breakthrough Research' program by Japan's Defense Innovation Science and Technology Institute, under the Agency for Defense Equipment. The...",
-      "source": "Japan Industry News",
-      "region": "japan",
-      "category": "modelo",
-      "relevance": 42,
-      "date": "2026-08-18T17:04:39+00:00",
-      "ts": 1787072679.0
     },
     {
       "title": "When AI art has no author: Study finds generated images often can’t be traced to training data",
@@ -1331,17 +1331,6 @@
       "ts": 1787043600.0
     },
     {
-      "title": "OpenAI to lease massive new AI data center in US, backed by Nvidia",
-      "link": "https://techxplore.com/news/2026-08-openai-lease-massive-ai-center.html",
-      "summary": "ChatGPT maker OpenAI will lease a massive new data center in the United States for 20 years, backed by a $105 billion financing commitment from Nvidia, according to a regulatory filing published Monday.",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 53,
-      "date": "2026-08-18T08:07:40+00:00",
-      "ts": 1787040460.0
-    },
-    {
       "title": "Zhipu AI’s answer to Project Glasswing marks shift for Chinese cyber safety: researcher",
       "link": "https://www.scmp.com/tech/article/3364356/zhipu-ais-answer-project-glasswing-marks-shift-chinese-cyber-safety-researcher?utm_source=rss_feed",
       "summary": "Zhipu AI’s launch of China’s first answer to Project Glasswing signals a shift in how the country’s top artificial intelligence labs approach global cybersecurity, according to a researcher. The Beijing-based firm – now known internationally as Z.ai – announced its new GLM-5.3 model on Friday alongside the launch of...",
@@ -1406,28 +1395,6 @@
       "relevance": 56,
       "date": "2026-08-17T15:07:49+00:00",
       "ts": 1786979269.0
-    },
-    {
-      "title": "Three Generations of Autoscaling — And Why Agentic Traffic Breaks All of Them",
-      "link": "https://towardsdatascience.com/three-generations-of-autoscaling-and-why-agentic-traffic-breaks-all-of-them/",
-      "summary": "How autonomous agents broke two decades of capacity planning — and what to build instead The post Three Generations of Autoscaling — And Why Agentic Traffic Breaks All of Them appeared first on Towards Data Science .",
-      "source": "Towards Data Science",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 42,
-      "date": "2026-08-17T15:00:00+00:00",
-      "ts": 1786978800.0
-    },
-    {
-      "title": "Loop Engineering for RAG: The Small Loops Inside Each Step, the Big Loops Across the Pipeline",
-      "link": "https://towardsdatascience.com/loop-engineering-for-rag-the-small-loops-inside-each-step-the-big-loops-across-the-pipeline/",
-      "summary": "Enterprise Document Intelligence [Vol.1 #13bis] - The four bricks return useful results most of the time. Loop engineering is what the system does the rest of the time: when retrieval misses, when generation fails the schema, when the listing comes back incomplete, when an API call times out. Three control surfaces...",
-      "source": "Towards Data Science",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 43,
-      "date": "2026-08-17T12:00:00+00:00",
-      "ts": 1786968000.0
     },
     {
       "title": "Get closer to the game with Gemini and Pixel",
@@ -1551,6 +1518,17 @@
       "ts": 1786672812.0
     },
     {
+      "title": "State of Open Models: Summer 2026 Observations",
+      "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 26,
+      "date": "2026-08-14T00:00:00+00:00",
+      "ts": 1786665600.0
+    },
+    {
       "title": "llm-gemini 0.33",
       "link": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
       "summary": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash , gemini-3.5-flash-lite and two embedding models gemini-embedding-2 and gemini-embedding-001 . The plugin is also upgraded for compatibility...",
@@ -1571,17 +1549,6 @@
       "relevance": 49,
       "date": "2026-08-13T17:16:04+00:00",
       "ts": 1786641364.0
-    },
-    {
-      "title": "Alibaba adds commercial restrictions to open-weight Qwen3.8-Max AI model",
-      "link": "https://www.scmp.com/tech/tech-trends/article/3363927/alibaba-adds-commercial-restrictions-open-weight-qwen38-max-ai-model?utm_source=rss_feed",
-      "summary": "Alibaba Group Holding has made the core files of its latest flagship AI model Qwen3.8-Max free for anyone to download, as the tech giant introduces new rules requiring large companies to pay for a separate commercial licence to use it. The terms apply to users or their affiliates running a “model as a service” or “AI...",
-      "source": "SCMP Tech",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 61,
-      "date": "2026-08-13T13:30:07+00:00",
-      "ts": 1786627807.0
     },
     {
       "title": "The builder’s guide to GPT‑5.6",
@@ -1681,6 +1648,17 @@
       "relevance": 24,
       "date": "2026-08-12T09:51:00+00:00",
       "ts": 1786528260.0
+    },
+    {
+      "title": "Tencent capex jumps 176% on AI push as revenue beats estimates",
+      "link": "https://www.scmp.com/tech/big-tech/article/3363786/tencent-capex-jumps-176-ai-push-revenue-beats-estimates?utm_source=rss_feed",
+      "summary": "Tencent Holdings nearly tripled its capital spending in the second quarter to supercharge its AI push, as accelerating investments in computing power and models helped drive better-than-expected revenue. Revenue for the quarter ending in June reached 204.8 billion yuan (US$30.4 billion), up 11 per cent year on year...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 45,
+      "date": "2026-08-12T09:26:53+00:00",
+      "ts": 1786526813.0
     },
     {
       "title": "From assistance to execution: How enterprises put AI to work",
@@ -1837,17 +1815,6 @@
       "ts": 1786060800.0
     },
     {
-      "title": "Disputes over AI, robotics, trade mount ahead of planned Xi-Trump summit in US",
-      "link": "https://www.scmp.com/economy/policy/article/3363062/disputes-over-ai-robotics-trade-mount-ahead-planned-xi-trump-summit-us?utm_source=rss_feed",
-      "summary": "In the months leading up to President Xi Jinping’s planned September visit to Washington for a summit with US President Donald Trump, a series of smaller trade and technology rifts has emerged between the world’s two largest economies. From tensions over Chinese artificial intelligence models and new US restrictions...",
-      "source": "SCMP Big Tech",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 40,
-      "date": "2026-08-05T13:00:13+00:00",
-      "ts": 1785934813.0
-    },
-    {
       "title": "China’s AI revenue projected to reach US$13b on breakthroughs, adoption: Goldman Sachs",
       "link": "https://www.scmp.com/tech/big-tech/article/3363059/chinas-ai-revenue-projected-reach-us13b-breakthroughs-adoption-goldman-sachs?utm_source=rss_feed",
       "summary": "Rising cost efficiency and rapidly advancing capabilities from players like DeepSeek and MiniMax have prompted Goldman Sachs to raise its run-rate revenue forecast for China’s artificial intelligence model market by 30 per cent to US$13 billion. In a research note published on Monday, the US investment bank boosted...",
@@ -1868,17 +1835,6 @@
       "relevance": 44,
       "date": "2026-08-05T07:24:12+00:00",
       "ts": 1785914652.0
-    },
-    {
-      "title": "Tencent ramps up overseas AI push with wider roll-out of flagship Hy3 model",
-      "link": "https://www.scmp.com/tech/tech-war/article/3362991/tencent-ramps-overseas-ai-push-wider-rollout-flagship-hy3-model?utm_source=rss_feed",
-      "summary": "Tencent Holdings is ramping up its overseas push for its flagship Hy3 artificial intelligence model, joining a wave of Chinese technology firms taking aim at the world’s leading players. On Wednesday, the Shenzhen-based technology giant rolled out Hy3 to global developers, enterprises and users through its workplace...",
-      "source": "SCMP Big Tech",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 40,
-      "date": "2026-08-05T02:58:48+00:00",
-      "ts": 1785898728.0
     },
     {
       "title": "The benefits of medical AI assistance vary based on user expertise",
@@ -1945,6 +1901,17 @@
       "relevance": 69,
       "date": "2026-07-31T07:19:25+00:00",
       "ts": 1785482365.0
+    },
+    {
+      "title": "Daniela Rus receives Bavarian Minister-President's High-Tech Prize",
+      "link": "https://news.mit.edu/2026/daniela-rus-receives-bavarian-minister-presidents-high-tech-prize-0730",
+      "summary": "Director of CSAIL and MIT professor honored for her contributions to robotics, artificial intelligence, and autonomous systems.",
+      "source": "MIT News (IA)",
+      "region": "global",
+      "category": "geral",
+      "relevance": 35,
+      "date": "2026-07-30T21:00:00+00:00",
+      "ts": 1785445200.0
     },
     {
       "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
@@ -2418,28 +2385,6 @@
       "relevance": 46,
       "date": "2026-07-08T00:00:00+00:00",
       "ts": 1783468800.0
-    },
-    {
-      "title": "Hugging Face Models on Foundry Managed Compute",
-      "link": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 34,
-      "date": "2026-07-07T15:20:06+00:00",
-      "ts": 1783437606.0
-    },
-    {
-      "title": "Jesse Thaler named director of the Laboratory for Nuclear Science",
-      "link": "https://news.mit.edu/2026/jesse-thaler-named-director-laboratory-nuclear-science-0707",
-      "summary": "The professor of physics and inaugural director of the NSF AI Institute for Artificial Intelligence and Fundamental Interactions will lead LNS and continue his research in particle physics.",
-      "source": "MIT News (IA)",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 41,
-      "date": "2026-07-07T14:45:00+00:00",
-      "ts": 1783435500.0
     }
   ]
 }
