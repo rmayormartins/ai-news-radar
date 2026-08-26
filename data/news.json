@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T18:24:14.192980+00:00",
+  "generated_at": "2026-08-26T00:42:20.331372+00:00",
   "count": 183,
-  "china_count": 53,
+  "china_count": 52,
   "japan_count": 0,
   "sources": [
     {
@@ -17,7 +17,7 @@
     {
       "source": "Google Research",
       "status": "ok (100 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "Meta AI",
@@ -46,8 +46,8 @@
     },
     {
       "source": "BAIR (Berkeley)",
-      "status": "ok (10 itens)",
-      "kept": 2
+      "status": "ERRO: <urlopen error timed out>",
+      "kept": 0
     },
     {
       "source": "MIT News (IA)",
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -132,7 +132,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "Ars Technica",
@@ -296,6 +296,39 @@
     }
   ],
   "items": [
+    {
+      "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
+      "link": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
+      "summary": "Human-Computer Interaction and Visualization",
+      "source": "Google Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 32,
+      "date": "2026-08-25T19:10:59+00:00",
+      "ts": 1787685059.0
+    },
+    {
+      "title": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+      "link": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+      "summary": "The company's new fundraising total now stands at $232 million.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 52,
+      "date": "2026-08-25T19:03:47+00:00",
+      "ts": 1787684627.0
+    },
+    {
+      "title": "Russia used ChatGPT to run a covert influence campaign pushing pro-Kremlin narratives across the West",
+      "link": "https://the-decoder.com/russia-used-chatgpt-to-run-a-covert-influence-campaign-pushing-pro-kremlin-narratives-across-the-west/",
+      "summary": "OpenAI has disrupted a covert Russian influence campaign that used ChatGPT to generate social media posts by banning a cluster of accounts. The operators accessed the platform through VPNs from Russia and promoted the fictitious \"International Burke Institute,\" including German-language Telegram content critical of...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 62,
+      "date": "2026-08-25T18:54:56+00:00",
+      "ts": 1787684096.0
+    },
     {
       "title": "OpenAI's first custom chip \"Jalapeño\" reportedly beats Nvidia's Blackwell and Rubin in inference benchmarks",
       "link": "https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks/",
@@ -957,17 +990,6 @@
       "ts": 1787585703.0
     },
     {
-      "title": "Rogue AI agent used fake accounts and a staged apology to push malware into an open-source project",
-      "link": "https://the-decoder.com/rogue-ai-agent-used-fake-accounts-and-a-staged-apology-to-push-malware-into-an-open-source-project/",
-      "summary": "A rogue AI agent staged a public apology as a deception tactic while quietly slipping fresh malware into its pull request. The article Rogue AI agent used fake accounts and a staged apology to push malware into an open-source project appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 42,
-      "date": "2026-08-24T14:23:55+00:00",
-      "ts": 1787581435.0
-    },
-    {
       "title": "How to encourage smarter AI use in the classroom",
       "link": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
       "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically...",
@@ -1131,6 +1153,17 @@
       "relevance": 62,
       "date": "2026-08-21T16:58:19+00:00",
       "ts": 1787331499.0
+    },
+    {
+      "title": "Quoting Matt Webb",
+      "link": "https://simonwillison.net/2026/Aug/21/matt-webb/",
+      "summary": "After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 56,
+      "date": "2026-08-21T15:06:26+00:00",
+      "ts": 1787324786.0
     },
     {
       "title": "Run Muse Glimmer for Local Vibe Coding with llama.cpp, DFlash, and Pi",
@@ -1683,17 +1716,6 @@
       "ts": 1786608032.0
     },
     {
-      "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
-      "link": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
-      "summary": "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the weights are available for...",
-      "source": "Simon Willison",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 75,
-      "date": "2026-08-12T23:59:23+00:00",
-      "ts": 1786579163.0
-    },
-    {
       "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
       "link": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
       "summary": "",
@@ -1969,17 +1991,6 @@
       "ts": 1785319200.0
     },
     {
-      "title": "From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon",
-      "link": "http://bair.berkeley.edu/blog/2026/07/29/cuda-to-mlx-k-search/",
-      "summary": "Figure 1: CUDA-to-MLX optimization translation map. CUDA optimization knowledge can be translated into architecture-native MLX strategies rather than copied instruction-for-instruction. We face a new epoch in computing. Hardware is changing rapidly — not just faster GPUs, but a growing range of chips from different...",
-      "source": "BAIR (Berkeley)",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 46,
-      "date": "2026-07-29T09:00:00+00:00",
-      "ts": 1785315600.0
-    },
-    {
       "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
       "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
       "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
@@ -2044,17 +2055,6 @@
       "relevance": 32,
       "date": "2026-07-27T00:00:00+00:00",
       "ts": 1785110400.0
-    },
-    {
-      "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
-      "link": "http://bair.berkeley.edu/blog/2026/07/26/abbel/",
-      "summary": "Overview of ABBEL compared to traditional recursive summarization. Beliefs replace the full interaction history as the agent’s working context, and belief grading improves performance by supervising the contents of each belief state.. As task horizons grow, LLM contexts can’t scale forever. Self-summarization enables...",
-      "source": "BAIR (Berkeley)",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 32,
-      "date": "2026-07-26T09:00:00+00:00",
-      "ts": 1785056400.0
     },
     {
       "title": "Microsoft reportedly evaluates Moonshot AI’s Kimi K3 for Copilot",
