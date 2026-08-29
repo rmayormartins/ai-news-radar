@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T11:58:20.681790+00:00",
+  "generated_at": "2026-08-29T16:14:37.595404+00:00",
   "count": 154,
-  "china_count": 56,
+  "china_count": 57,
   "japan_count": 0,
   "sources": [
     {
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -142,7 +142,7 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Wired AI",
@@ -187,7 +187,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "Synced (机器之心)",
@@ -296,6 +296,39 @@
     }
   ],
   "items": [
+    {
+      "title": "When to Use Claude Code and When to Use Codex",
+      "link": "https://towardsdatascience.com/when-to-use-claude-code-and-when-to-use-codex/",
+      "summary": "Learn where which coding agent is best The post When to Use Claude Code and When to Use Codex appeared first on Towards Data Science .",
+      "source": "Towards Data Science",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 49,
+      "date": "2026-08-29T15:00:01+00:00",
+      "ts": 1788015601.0
+    },
+    {
+      "title": "AI-generated videos are already displacing actors and livestreamers across China's entertainment industry",
+      "link": "https://the-decoder.com/ai-generated-videos-are-already-displacing-actors-and-livestreamers-across-chinas-entertainment-industry/",
+      "summary": "In China, 95 percent of the 128,000 short dramas released in Q1 2026 were AI-generated. Some actors are being forced to hand over their voice and likeness to AI tools before getting fired, the Financial Times reports. AI-related labor disputes are rising fast. The article AI-generated videos are already displacing...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 37,
+      "date": "2026-08-29T13:25:56+00:00",
+      "ts": 1788009956.0
+    },
+    {
+      "title": "Google's WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance",
+      "link": "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes/",
+      "summary": "Google Research has introduced WikiSkill, a framework that gives AI agents a persistent knowledge base. Instead of discarding what they learned after each run, agents document both failures and successes in a wiki-like structure and use that knowledge to get better over time. Larger models benefit more, but smaller...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 53,
+      "date": "2026-08-29T12:51:24+00:00",
+      "ts": 1788007884.0
+    },
     {
       "title": "LAION drops massive open video dataset with 10 million hours of footage for AI research",
       "link": "https://the-decoder.com/laion-drops-massive-open-video-dataset-with-10-million-hours-of-footage-for-ai-research/",
@@ -583,28 +616,6 @@
       "ts": 1787855768.0
     },
     {
-      "title": "AI shopping agents aren't ready to buy on your behalf, study finds",
-      "link": "https://the-decoder.com/ai-shopping-agents-arent-ready-to-buy-on-your-behalf-study-finds/",
-      "summary": "Letting an AI do your shopping might not get you the best deal. Researchers at the Wharton School show how erratic AI shopping agents really are: a single external source like Wirecutter shifted product picks by up to 99 percentage points, and even changing the order of identical information altered the outcome. The...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 43,
-      "date": "2026-08-27T18:24:20+00:00",
-      "ts": 1787855060.0
-    },
-    {
-      "title": "OpenAI rallies 100+ companies to sign open letter warning AI-powered cyberattacks on critical infrastructure are imminent",
-      "link": "https://the-decoder.com/openai-rallies-100-companies-to-sign-open-letter-warning-ai-powered-cyberattacks-on-critical-infrastructure-are-imminent/",
-      "summary": "OpenAI, together with more than 100 companies including Microsoft, Google, Anthropic, Deutsche Telekom, and SAP, has published an open letter on AI-powered cyber defense. The coalition warns of increasingly sophisticated AI attacks on critical infrastructure such as hospitals and water treatment plants and calls for...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "geral",
-      "relevance": 41,
-      "date": "2026-08-27T18:15:46+00:00",
-      "ts": 1787854546.0
-    },
-    {
       "title": "Planetary prediction engine: Automating global models via Earth AI",
       "link": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/",
       "summary": "Earth AI",
@@ -746,17 +757,6 @@
       "relevance": 75,
       "date": "2026-08-26T23:52:58+00:00",
       "ts": 1787788378.0
-    },
-    {
-      "title": "OpenAI’s rogue AI model incident was worse than we thought",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
-      "summary": "In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Hugging Face. It took nearly two weeks for OpenAI to […]",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 49,
-      "date": "2026-08-26T21:36:06+00:00",
-      "ts": 1787780166.0
     },
     {
       "title": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations",
