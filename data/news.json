@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T02:29:30.543195+00:00",
-  "count": 156,
-  "china_count": 57,
-  "japan_count": 1,
+  "generated_at": "2026-08-30T10:55:10.399199+00:00",
+  "count": 151,
+  "china_count": 56,
+  "japan_count": 2,
   "sources": [
     {
       "source": "OpenAI",
@@ -81,8 +81,8 @@
     },
     {
       "source": "arXiv cs.CV",
-      "status": "ok (184 itens)",
-      "kept": 6
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.RO",
@@ -91,13 +91,13 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 8
+      "kept": 9
     },
     {
       "source": "MIT Tech Review",
@@ -297,6 +297,50 @@
   ],
   "items": [
     {
+      "title": "AI agents have no sense of time and are not aware of it",
+      "link": "https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it/",
+      "summary": "AI coding assistants like Claude Code and Codex have no sense of time, according to a new study. Both systematically overestimate how long tasks will take. Codex is off by as much as ten times the actual duration. They also rate their own work about 20 percentage points too high. For long, autonomous tasks, that...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-08-30T10:41:36+00:00",
+      "ts": 1788086496.0
+    },
+    {
+      "title": "The skills that earn top grades are the ones AI can fake best",
+      "link": "https://the-decoder.com/the-skills-that-earn-top-grades-are-the-ones-ai-can-fake-best/",
+      "summary": "GPT-4o boosted grades on a marketing assignment by nearly a full point on a five-point scale in an experiment with 1,053 Bocconi University students. Whether they actually learned anything wasn't tested. Other studies suggest that AI-assisted performance without independent thinking does long-term harm. The article...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 38,
+      "date": "2026-08-30T10:34:09+00:00",
+      "ts": 1788086049.0
+    },
+    {
+      "title": "Anthropic's Claude Code limit change is a raise on paper but a cut in practice",
+      "link": "https://the-decoder.com/anthropics-claude-code-limit-change-is-a-raise-on-paper-but-a-cut-in-practice/",
+      "summary": "Anthropic is effectively cutting Claude Code's weekly usage limits by 17 percent. A temporary 50 percent boost expires on September 14 and will be replaced by a permanent 25 percent increase. Anthropic promises more control and transparency over usage in return. The article Anthropic's Claude Code limit change is a...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 59,
+      "date": "2026-08-30T09:05:19+00:00",
+      "ts": 1788080719.0
+    },
+    {
+      "title": "Sony and Warner sue Anthropic over \"one of the largest and most blatant ongoing thefts of intellectual property in history\"",
+      "link": "https://the-decoder.com/sony-and-warner-sue-anthropic-over-one-of-the-largest-and-most-blatant-ongoing-thefts-of-intellectual-property-in-history/",
+      "summary": "Sony Music, Warner Music, and other publishers are suing Anthropic and CEO Dario Amodei personally for allegedly using tens of thousands of copyrighted musical compositions to train Claude without permission. The plaintiffs call it \"one of the largest and most blatant ongoing thefts of intellectual property in...",
+      "source": "The Decoder",
+      "region": "japan",
+      "category": "modelo",
+      "relevance": 35,
+      "date": "2026-08-30T08:50:20+00:00",
+      "ts": 1788079820.0
+    },
+    {
       "title": "Mos Burger skips tsukimi burgers, crafts moon-viewing focaccia sausage sandwiches instead",
       "link": "https://japantoday.com/category/features/food/mos-burger-skips-tsukimi-burgers-crafts-moon-viewing-focaccia-sausage-sandwiches-instead",
       "summary": "Autumn is the season for tsukimi (moon-viewing) in Japan, which also makes it the season for tsukimi burgers, hamburgers topped with an egg reminiscent of the full moon.…",
@@ -385,72 +429,6 @@
       "ts": 1787983213.0
     },
     {
-      "title": "Recurrence Meets Transformers for Universal Multimodal Retrieval",
-      "link": "https://arxiv.org/abs/2509.08897",
-      "summary": "arXiv:2509.08897v3 Announce Type: replace Abstract: With the rapid advancement of multimodal retrieval and its application in LLMs and multimodal LLMs, increasingly complex retrieval tasks have emerged. Existing methods predominantly rely on task-specific fine-tuning of vision-language models and are limited to...",
-      "source": "arXiv cs.CV",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 71,
-      "date": "2026-08-29T04:00:00+00:00",
-      "ts": 1787976000.0
-    },
-    {
-      "title": "PACE: A Unified Condense-and-Extract Paradigm for Fast VLM Inference",
-      "link": "https://arxiv.org/abs/2608.27206",
-      "summary": "arXiv:2608.27206v1 Announce Type: new Abstract: Vision-Language Models (VLMs) demonstrate exceptional visual reasoning capabilities, yet their inference costs escalate rapidly with the proliferation of visual tokens. Existing visual token pruning methods exhibit two fundamental limitations. First, most approaches...",
-      "source": "arXiv cs.CV",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 70,
-      "date": "2026-08-29T04:00:00+00:00",
-      "ts": 1787976000.0
-    },
-    {
-      "title": "G2D: Generative-to-Discriminative Collaborative Inference for Zero-Shot Image Classification",
-      "link": "https://arxiv.org/abs/2608.26744",
-      "summary": "arXiv:2608.26744v1 Announce Type: new Abstract: Zero-shot classification needs efficient label retrieval and fine-grained visual reasoning, yet discriminative and generative vision-language models fail in complementary ways.When CLIP's top-1 prediction is wrong, the correct label often remains in its top-$K$...",
-      "source": "arXiv cs.CV",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 68,
-      "date": "2026-08-29T04:00:00+00:00",
-      "ts": 1787976000.0
-    },
-    {
-      "title": "LLaVAFlow: Preserving Latent Alignment Flow for Parameter-Efficient Multimodal Fine-Tuning",
-      "link": "https://arxiv.org/abs/2608.26820",
-      "summary": "arXiv:2608.26820v1 Announce Type: new Abstract: While Multimodal Large Language Models (MLLMs) exhibit strong generalization, visual instruction tuning for downstream tasks inevitably causes catastrophic forgetting, impairing overall generalization. While existing methods regulate weight updates to reduce forgetting,...",
-      "source": "arXiv cs.CV",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 68,
-      "date": "2026-08-29T04:00:00+00:00",
-      "ts": 1787976000.0
-    },
-    {
-      "title": "Evidence-Grounded Trustworthy Multimodal Reasoning and Evaluation Benchmark in Complex Urban Scenes",
-      "link": "https://arxiv.org/abs/2608.10954",
-      "summary": "arXiv:2608.10954v2 Announce Type: replace Abstract: While Multimodal Large Language Models (MLLMs) demonstrate impressive performance in benign scenarios, their cognitive reliability deteriorates significantly in complex scenes under adverse conditions. In these settings, models often rely on implicit inference...",
-      "source": "arXiv cs.CV",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 68,
-      "date": "2026-08-29T04:00:00+00:00",
-      "ts": 1787976000.0
-    },
-    {
-      "title": "Learning Late, Guiding Early: Timestep-Decoupled Semantic Guidance for Fair Face Generation",
-      "link": "https://arxiv.org/abs/2608.25862",
-      "summary": "arXiv:2608.25862v2 Announce Type: replace Abstract: Demographic imbalance in synthetic face generation can propagate to downstream face recognition systems, making fairness an important consideration when diffusion models are used for data generation. Existing fairness-aware generation approaches often require model...",
-      "source": "arXiv cs.CV",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 68,
-      "date": "2026-08-29T04:00:00+00:00",
-      "ts": 1787976000.0
-    },
-    {
       "title": "Google Deepmind's AI Co-Scientist now plans experiments, runs lab equipment, and writes scientific papers",
       "link": "https://the-decoder.com/google-deepminds-ai-co-scientist-now-plans-experiments-runs-lab-equipment-and-writes-scientific-papers/",
       "summary": "Google Deepmind has expanded Co-Scientist from a hypothesis generator into a research system that's integrated into the lab. Across three disciplines, from materials synthesis to the autonomous development of a medical AI architecture, the Gemini-based multi-agent system delivered experimentally validated results. The...",
@@ -484,28 +462,6 @@
       "ts": 1787923969.0
     },
     {
-      "title": "AI benchmarks have a trust problem and Google wants to fix it",
-      "link": "https://the-decoder.com/ai-benchmarks-have-a-trust-problem-and-google-wants-to-fix-it/",
-      "summary": "Google Deepmind is testing a double-blind evaluation of a frontier AI model for the first time. Cryptographic protection through Confidential Space is meant to keep Google from seeing the test questions and keep evaluators from seeing the model weights. The pilot project with the Singapore AI Safety Institute uses a...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 54,
-      "date": "2026-08-28T13:15:10+00:00",
-      "ts": 1787922910.0
-    },
-    {
-      "title": "U.S. court rules Pentagon's blacklisting of Anthropic was unlawful",
-      "link": "https://the-decoder.com/u-s-court-rules-pentagons-blacklisting-of-anthropic-was-unlawful/",
-      "summary": "A federal court in San Francisco has ruled that the Pentagon unlawfully classified Anthropic as a supply chain risk. The Department of Defense blacklisted the company in retaliation for its public criticism of government AI policy. The designation formally remains in place because a parallel case in Washington is...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "geral",
-      "relevance": 22,
-      "date": "2026-08-28T11:43:41+00:00",
-      "ts": 1787917421.0
-    },
-    {
       "title": "How AI could uncover the hidden ways people work together",
       "link": "https://techxplore.com/news/2026-08-ai-uncover-hidden-ways-people.html",
       "summary": "Yankai Wang, a Ph.D. student in organizational behavior at Stanford Graduate School of Business, was reading a paper about how transformers—the architecture behind large language models (LLMs) like ChatGPT and Claude—might be used to study disease development by tracing how one condition tends to follow another.",
@@ -526,17 +482,6 @@
       "relevance": 73,
       "date": "2026-08-28T08:07:01+00:00",
       "ts": 1787904421.0
-    },
-    {
-      "title": "Always-on and self-starting AI agents might be OpenAI's next big play",
-      "link": "https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play/",
-      "summary": "OpenAI is building a \"Persistent Mode\" for its AI agent Codex that stays active indefinitely and generates its own follow-up tasks. WIRED found the relevant code, and OpenAI confirmed the tests. The feature comes with risks, though. With GPT-5.6 Sol, persistent behavior already led to unwanted actions, like deleting...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 51,
-      "date": "2026-08-28T08:03:22+00:00",
-      "ts": 1787904202.0
     },
     {
       "title": "MiniMax expands Alibaba cloud pact as compute needs surge for training and inference",
@@ -1738,6 +1683,17 @@
       "ts": 1785405431.0
     },
     {
+      "title": "How a medical database developed at MIT evolved into a global standard of data-sharing",
+      "link": "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729",
+      "summary": "The visionary PhysioNet platform launched 25 years ago, based on a system developed at MIT in the 1970s. It has become one of the most comprehensive biomedical and clinical data repositories in existence.",
+      "source": "MIT News (IA)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 24,
+      "date": "2026-07-29T14:00:00+00:00",
+      "ts": 1785333600.0
+    },
+    {
       "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
       "link": "https://openai.com/index/chatgpt-for-academic-researchers",
       "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
@@ -1989,17 +1945,6 @@
       "relevance": 44,
       "date": "2026-07-16T16:00:00+00:00",
       "ts": 1784217600.0
-    },
-    {
-      "title": "A better way to turn 2D designs into 3D models for rapid prototyping",
-      "link": "https://news.mit.edu/2026/turning-2d-designs-into-3d-models-for-rapid-prototyping-0716",
-      "summary": "Researchers developed an automated framework that helps AI models generate CAD programs more accurately and efficiently.",
-      "source": "MIT News (IA)",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 51,
-      "date": "2026-07-16T04:00:00+00:00",
-      "ts": 1784174400.0
     },
     {
       "title": "Study Linking Solar Farms to Bird Loss Draws Scrutiny in China",
