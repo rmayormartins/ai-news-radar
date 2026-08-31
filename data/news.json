@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-31T02:23:44.009058+00:00",
-  "count": 147,
-  "china_count": 55,
+  "generated_at": "2026-08-31T12:10:10.153488+00:00",
+  "count": 177,
+  "china_count": 52,
   "japan_count": 1,
   "sources": [
     {
@@ -66,28 +66,28 @@
     },
     {
       "source": "arXiv cs.AI",
-      "status": "ok (0 itens)",
-      "kept": 0
+      "status": "ok (302 itens)",
+      "kept": 8
     },
     {
       "source": "arXiv cs.LG",
-      "status": "ok (0 itens)",
-      "kept": 0
+      "status": "ok (210 itens)",
+      "kept": 8
     },
     {
       "source": "arXiv cs.CL",
-      "status": "ok (0 itens)",
-      "kept": 0
+      "status": "ok (156 itens)",
+      "kept": 8
     },
     {
       "source": "arXiv cs.CV",
-      "status": "ok (0 itens)",
-      "kept": 0
+      "status": "ok (154 itens)",
+      "kept": 6
     },
     {
       "source": "arXiv cs.RO",
-      "status": "ok (0 itens)",
-      "kept": 0
+      "status": "ok (53 itens)",
+      "kept": 5
     },
     {
       "source": "MarkTechPost",
@@ -116,8 +116,8 @@
     },
     {
       "source": "KDnuggets",
-      "status": "ok (10 itens)",
-      "kept": 3
+      "status": "ERRO: HTTP Error 429: Too Many Requests",
+      "kept": 0
     },
     {
       "source": "TechXplore (IA/ML)",
@@ -207,7 +207,7 @@
     {
       "source": "Pandaily",
       "status": "ok (20 itens)",
-      "kept": 10
+      "kept": 8
     },
     {
       "source": "TechNode",
@@ -296,6 +296,446 @@
     }
   ],
   "items": [
+    {
+      "title": "OpenClaw 2.0 brings simplified setup, a rebuilt browser app, and multiplayer sessions",
+      "link": "https://the-decoder.com/openclaw-2-0-brings-simplified-setup-a-rebuilt-browser-app-and-multiplayer-sessions/",
+      "summary": "The OpenClaw Foundation has released version 2.0 of its open-source AI platform, its largest release to date with over 16,000 pull requests. New features include cloud sessions on rented machines, real-time collaboration, and a browser app rebuilt from scratch. The software now automatically detects existing resources...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 47,
+      "date": "2026-08-31T10:46:04+00:00",
+      "ts": 1788173164.0
+    },
+    {
+      "title": "OpenAI and rival AI labs are buying tens of thousands of Mac minis to train computer-use agents",
+      "link": "https://the-decoder.com/openai-and-rival-ai-labs-are-buying-tens-of-thousands-of-mac-minis-to-train-computer-use-agents/",
+      "summary": "According to The Information, OpenAI has purchased tens of thousands of Mac minis and Mac Studios to train computer agents. Anthropic also relies on Apple hardware. Demand is so high that the most powerful models have been sold out for months. Apple’s Mac revenue rose by nearly 29 percent to $10.4 billion in the June...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 56,
+      "date": "2026-08-31T08:55:12+00:00",
+      "ts": 1788166512.0
+    },
+    {
+      "title": "LWiAI Podcast #255 - Gemini 3.7, Jalapeño, Qwen 3.8, Drones",
+      "link": "https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno",
+      "summary": "Google announces Gemini 3.7 Flash, Jalapeño’s first results show industry-leading speed, A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I.",
+      "source": "Last Week in AI",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 62,
+      "date": "2026-08-31T08:20:04+00:00",
+      "ts": 1788164404.0
+    },
+    {
+      "title": "StartLux's 27B Local Model Beats DeepSeek V4 Flash in China AI Benchmark",
+      "link": "https://pandaily.com/startlux-27b-local-model-beats-deepseek-v4-flash-aug2026",
+      "summary": "StartLux's 27-billion-parameter local model took second in the CAICT MCP test, outpacing DeepSeek-V4-Flash and reaching trillion-parameter capability territory.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 62,
+      "date": "2026-08-31T08:03:27+00:00",
+      "ts": 1788163407.0
+    },
+    {
+      "title": "Zhipu AI's GLM-5.3-Flash Topped Global AI Calls; China Led Volume for 18th Week",
+      "link": "https://pandaily.com/zhipu-glm-53-flash-tops-global-ai-calls-aug2026",
+      "summary": "Zhipu AI confirms anonymous flagship GLM-5.3-Flash (Ox Alpha) jumped to No. 1 on weekly global AI model call volume, as Chinese models led the world for 18 straight weeks.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 59,
+      "date": "2026-08-31T08:03:26+00:00",
+      "ts": 1788163406.0
+    },
+    {
+      "title": "Improved off-policy training of diffusion samplers",
+      "link": "https://arxiv.org/abs/2402.05098",
+      "summary": "arXiv:2402.05098v5 Announce Type: replace Abstract: We study the problem of training diffusion models to sample from a distribution with a given unnormalized density or energy function. We benchmark several diffusion-structured inference methods, including simulation-based variational approaches and off-policy methods...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 73,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "RTPO: Reverse-Turn Policy Optimization for Stabilizing Agentic RL Training",
+      "link": "https://arxiv.org/abs/2608.18682",
+      "summary": "arXiv:2608.18682v2 Announce Type: replace Abstract: Training multi-turn agentic workflows with reinforcement learning (RL) enables large language models to perform complex reasoning, use external tools, and conduct iterative search beyond single-turn settings. Yet multi-turn RL training remains highly unstable, often...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 71,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "Deriving Scaling Laws for OpenEuroLLM Models: Learning Rate, Batch Size and Loss",
+      "link": "https://arxiv.org/abs/2608.28308",
+      "summary": "arXiv:2608.28308v1 Announce Type: cross Abstract: We study the scaling behavior of learning rate and batch size in pretraining dense large language models on English-prevalent corpora. Beyond scaling \\textit{jointly optimal} learning rates and batch sizes, we investigate their \\textit{marginal} evolution with model...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 70,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "PRISM: Self-Pruning Intrinsic Selection Method for Training-Free Multimodal Data Selection",
+      "link": "https://arxiv.org/abs/2502.12119",
+      "summary": "arXiv:2502.12119v5 Announce Type: replace-cross Abstract: Visual instruction tuning adapts pre-trained Multimodal Large Language Models (MLLMs) to follow human instructions for real-world applications. However, the rapid growth of these datasets introduces significant redundancy, leading to increased computational...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 70,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "Surgical Alignment in Knowledge Graph Training for Clinical Diagnosis with Large Language Models",
+      "link": "https://arxiv.org/abs/2608.26587",
+      "summary": "arXiv:2608.26587v2 Announce Type: replace Abstract: Biomedical knowledge graphs (KGs) offer structured medical knowledge that can ground large language model (LLM) reasoning in clinical diagnosis application, yet how KG signal should be integrated into LLMs remains an open question. We present a systematic study...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 70,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "PRISM: Agentic Retrieval with LLMs for Multi-Hop Question Answering",
+      "link": "https://arxiv.org/abs/2510.14278",
+      "summary": "arXiv:2510.14278v2 Announce Type: replace-cross Abstract: Retrieval plays a central role in multi-hop question answering (QA), where answering complex questions requires gathering multiple pieces of evidence. We propose PRISM, an agentic retrieval framework that leverages large language models (LLMs) in a structured...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 69,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "HARTS: Efficient Agentic Reinforcement Learning for Hybrid-Attention Models over Arbitrary Rollout Trees",
+      "link": "https://arxiv.org/abs/2608.28158",
+      "summary": "arXiv:2608.28158v1 Announce Type: new Abstract: Agentic reinforcement learning (RL) often produces irregular rollout trees with shared histories. Training root-to-leaf trajectories independently recomputes these shared prefixes. Existing systems primarily target full-attention models and lack dense, differentiable...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 69,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "WM-R1: Training GUI Agents to Reason and leverage World Models with Reinforcement Learning",
+      "link": "https://arxiv.org/abs/2608.27508",
+      "summary": "arXiv:2608.27508v1 Announce Type: new Abstract: GUI agents trained with reinforcement learning (RL) have showcased strong environment learning capabilities on mobile platforms. However, RL typically demands extensive real-environment interactions, leading to high resource costs and instability, especially in GUI...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 68,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "A Method for Layer Bit-Width Allocation in LLM Quantization via Performance Maximization Under a Quality-Degradation Constraint",
+      "link": "https://arxiv.org/abs/2608.28003",
+      "summary": "arXiv:2608.28003v1 Announce Type: cross Abstract: This paper proposes a layer bit allocation method for Gemma-3-1B, formulating the problem as performance maximization (latency decrease) given a degradation budget constraint (allowable level of generation quality loss). This approach is different from time- and...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 68,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces",
+      "link": "https://arxiv.org/abs/2608.28497",
+      "summary": "arXiv:2608.28497v1 Announce Type: cross Abstract: AI coding agents, software tools that automate development tasks through reasoning and tool use, are increasingly extended through plugin marketplaces, yet the structure, maintenance, and co-evolution dynamics of these emerging repositories remain empirically...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 68,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "INSPIRE: An Internalize-Then-Improve Approach for Example-Driven Mathematical Reasoning",
+      "link": "https://arxiv.org/abs/2608.27501",
+      "summary": "arXiv:2608.27501v1 Announce Type: new Abstract: Mathematical reasoning has seen rapid progress in large language models (LLMs), yet existing methods optimize predominantly for final-answer correctness, raising the question whether models truly internalize mathematical concepts or merely memorize solution patterns. In...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 68,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
+      "link": "https://arxiv.org/abs/2608.28476",
+      "summary": "arXiv:2608.28476v1 Announce Type: new Abstract: Long-horizon agentic tasks require large language models (LLMs) to iteratively retrieve, integrate, and maintain dispersed information across multi-turn interactions, but preserving all interaction histories leads to a continuously growing working context. Recent...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 68,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "Iron: Intent-Aligned and Retrospective Dual Learning Framework for Enhancing Generalist Virtual Agents",
+      "link": "https://arxiv.org/abs/2608.27866",
+      "summary": "arXiv:2608.27866v1 Announce Type: new Abstract: Achieving virtual agents capable of automating tasks across diverse digital environments remains a pivotal challenge in Embodied AI. While Multimodal Large Language Models (MLLMs) offer enhanced visual perception and reasoning, their agentic deployment faces three...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 68,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "Temporal Tree of Thought: Reasoning-Guided Visual Cue Search for Long-Video Understanding",
+      "link": "https://arxiv.org/abs/2608.27871",
+      "summary": "arXiv:2608.27871v1 Announce Type: new Abstract: Long-video understanding remains challenging for Multimodal Large Language Models (MLLMs) due to limited context length. Uniform sampling may miss crucial moments, while agent-based frame video understanding methods often evaluate frames independently, overlooking the...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 68,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "How Far Can 5,500 Hours of Driving Take You? A Scaling Law Analysis of Video Diffusion Models",
+      "link": "https://arxiv.org/abs/2608.28404",
+      "summary": "arXiv:2608.28404v1 Announce Type: new Abstract: Video generation for autonomous driving cannot follow the web-scale route: driving data is expensive to collect, bound by privacy requirements, and cannot be scraped at will, so models must make the most of a fixed corpus. We present a systematic scaling-law study of...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 68,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
+      "link": "https://arxiv.org/abs/2608.27875",
+      "summary": "arXiv:2608.27875v1 Announce Type: new Abstract: Quantization has been widely adopted in LLM training and inference to reduce cost and improve efficiency. However, low-bit quantization of the \\emph{attention} module often introduces large errors at very low bit-widths, causing performance degradation. Existing methods...",
+      "source": "arXiv cs.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 67,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "H-Scale: Hessian-Guided Scale Refinement for NVFP4 Sub-Byte LLM Inference",
+      "link": "https://arxiv.org/abs/2608.28113",
+      "summary": "arXiv:2608.28113v1 Announce Type: new Abstract: The NVIDIA Blackwell architecture, with native support for the ultra-fine-grained NVFP4 format, opens new opportunities for accelerating large language model (LLM) inference. NVFP4's micro-block design, such as a group size of 16, offers strong representational...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 67,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "Pruning Laws for Large Language Models",
+      "link": "https://arxiv.org/abs/2504.04342",
+      "summary": "arXiv:2504.04342v2 Announce Type: replace Abstract: Scaling up model parameters and training data consistently improves the performance of large language models (LLMs), but at the cost of rapidly growing memory and compute requirements, which makes deployment on resource-limited hardware infeasible. Model pruning, a...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 67,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "CoCoBench: A Cooperative Coordination Benchmark for Embodied Multi-Agent Task Planning",
+      "link": "https://arxiv.org/abs/2608.28266",
+      "summary": "arXiv:2608.28266v1 Announce Type: new Abstract: Agent systems powered by multimodal large language models (MLLMs) have advanced rapidly in recent years, yet existing embodied-agent benchmarks still lack fine-grained diagnostics for multi-agent coordination. Most benchmarks either focus on single-agent task completion...",
+      "source": "arXiv cs.RO",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 67,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "PersonaForge: Realistic Multi-Turn User Simulation for Agentic Systems",
+      "link": "https://arxiv.org/abs/2608.28378",
+      "summary": "arXiv:2608.28378v1 Announce Type: new Abstract: Large language models are increasingly used as agentic workflow executors, yet existing training data and benchmarks largely assume informationally complete, single-turn queries. Our analysis of 16K real-world sessions shows that 75.9% of interactions are multi-turn,...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 66,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "Hierarchical Feature-level Reverse Propagation for Post-Training Neural Networks",
+      "link": "https://arxiv.org/abs/2506.07188",
+      "summary": "arXiv:2506.07188v2 Announce Type: replace Abstract: End-to-end neural networks have become a dominant paradigm in autonomous driving, where reliable deployment requires controllable post-training adaptation and improved transparency of model updates. In this paper, we propose Feature-level Reverse Propagation for...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 66,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "Leveraging a Foundation Model for the EEG-Based Diagnosis of Alzheimer's Disease",
+      "link": "https://arxiv.org/abs/2608.27719",
+      "summary": "arXiv:2608.27719v1 Announce Type: new Abstract: Biological heterogeneity in Alzheimer's Disease (AD) poses a critical diagnostic challenge, particularly for traditional linear methods that fail to capture non-linear neural dynamics. To address this, we propose a diagnostic framework utilizing the Large Brain Model...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 65,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "Characterization of Request and Token Energy Costs for LLM Inference Workloads on GPU Platforms",
+      "link": "https://arxiv.org/abs/2608.28044",
+      "summary": "arXiv:2608.28044v1 Announce Type: cross Abstract: Large language model (LLM) inference serving is priced by tokens, but GPU energy is consumed over inference windows. This accounting mismatch makes token-normalized metrics incomplete, since average output-token energy can decrease even when total request energy...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 65,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "Agentic-Kube: A Graph-Enhanced Multi-Agent Reinforcement Learning Framework for Multi-Objective Kubernetes Scheduling",
+      "link": "https://arxiv.org/abs/2603.12031",
+      "summary": "arXiv:2603.12031v4 Announce Type: replace-cross Abstract: Cloud-native container orchestration requires resource schedulers capable of balancing infrastructure expenditure, fault resilience, and node utilisation. Conventional reinforcement learning approaches typically rely on monolithic single-agent models that...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 65,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "FinExam-10K: When Retrieval Helps Financial Reasoning?",
+      "link": "https://arxiv.org/abs/2608.28155",
+      "summary": "arXiv:2608.28155v1 Announce Type: new Abstract: Professional financial examinations require models to combine domain knowledge, calculation, and judgment, yet no benchmark covers the full CFA and FRM structure under one protocol. We introduce FinExam-10K, to our knowledge the largest reported English benchmark for...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 65,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "AIM: Anchor Identity Features, Then Match for Multimodal Large Language Model Unlearning",
+      "link": "https://arxiv.org/abs/2608.28312",
+      "summary": "arXiv:2608.28312v1 Announce Type: cross Abstract: Multimodal large language models (MLLMs) can memorize identity-specific facts about people in their fine-tuning data, creating privacy risks when a person requests deletion. Existing MLLM unlearning methods often assume access to retain images or ground-truth answers...",
+      "source": "arXiv cs.CL",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 65,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "Token-Budget Distillation: Transferring Full-Token Semantics to Compressed Video Vision-Language Models",
+      "link": "https://arxiv.org/abs/2608.28138",
+      "summary": "arXiv:2608.28138v1 Announce Type: new Abstract: Adapting video vision-language models (VLMs) is computationally expensive because video inputs produce a large number of visual tokens, making both fine-tuning and inference costly. Although visual token compression can reduce this overhead, direct adaptation on...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 65,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment",
+      "link": "https://arxiv.org/abs/2607.15058",
+      "summary": "arXiv:2607.15058v2 Announce Type: replace Abstract: CAD-to-image alignment aims to estimate an object's 9D pose (rotation, translation, and anisotropic scale) from a single RGB image, with applications in robotics and augmented reality. Recent zero-shot methods use vision foundation models to match image regions to...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 65,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "Diffusion Distillation for Efficient Weather Ensembles",
+      "link": "https://arxiv.org/abs/2608.27728",
+      "summary": "arXiv:2608.27728v1 Announce Type: new Abstract: Diffusion models generate skillful weather ensembles but require costly iterative sampling. We introduce a supervised energy-distance distillation method that compresses a multi-step diffusion teacher into a single-step student by aligning student forecasts with teacher...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 63,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "Amortizing intractable inference in diffusion models for vision, language, and control",
+      "link": "https://arxiv.org/abs/2405.20971",
+      "summary": "arXiv:2405.20971v3 Announce Type: replace Abstract: Diffusion models have emerged as effective distribution estimators in vision, language, and reinforcement learning, but their use as priors in downstream tasks poses an intractable posterior inference problem. This paper studies amortized sampling of the posterior...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 63,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "One Model for All: Universal Pre-training for EEG based Emotion Recognition across Heterogeneous Datasets and Paradigms",
+      "link": "https://arxiv.org/abs/2511.08444",
+      "summary": "arXiv:2511.08444v2 Announce Type: replace Abstract: EEG-based emotion recognition is hampered by profound dataset heterogeneity (channel/subject variability), hindering generalizable models. Existing approaches struggle to transfer knowledge effectively. We propose 'One Model for All', a universal pre-training...",
+      "source": "arXiv cs.LG",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 63,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "Beyond Relative Geometry: Metric-Aware Geometry Perception for Robotics",
+      "link": "https://arxiv.org/abs/2608.27497",
+      "summary": "arXiv:2608.27497v1 Announce Type: new Abstract: Recent embodied models increasingly leverage geometric representations to improve spatial reasoning and robotic manipulation. However, existing reconstruction methods only reconstruct relative geometry with arbitrary scales, causing predicted object dimensions and...",
+      "source": "arXiv cs.RO",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 56,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "STEGNav: Spatio-Temporal Event Graph Reasoning for Multimodal Lifelong Object Navigation",
+      "link": "https://arxiv.org/abs/2608.28279",
+      "summary": "arXiv:2608.28279v1 Announce Type: new Abstract: Multimodal lifelong navigation requires an agent to autonomously explore unseen environments while sequentially completing navigation tasks specified by object categories, language descriptions, or reference images. Existing methods primarily accomplish these tasks by...",
+      "source": "arXiv cs.RO",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 56,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "From Dialogue to Execution: Mixture-of-Agents Assisted Interactive Planning for Behavior Tree-Based Long-Horizon Robot Execution",
+      "link": "https://arxiv.org/abs/2603.01113",
+      "summary": "arXiv:2603.01113v3 Announce Type: replace Abstract: Interactive task planning with large language models (LLMs) lets robots generate high-level action plans from natural language, but over long horizons it asks many questions, and tabular plan representations become hard to manage. We propose a framework that...",
+      "source": "arXiv cs.RO",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 56,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
+    {
+      "title": "LUCID: An Agentic AI Framework on Digital-Twin in the Loop for QoS-Guaranteeing Robotic Control",
+      "link": "https://arxiv.org/abs/2608.28437",
+      "summary": "arXiv:2608.28437v1 Announce Type: cross Abstract: Cloud robotics relies on the timely uplink of high-volume sensing streams, yet dynamic environments continually shift the feasible combinations of trajectories, active-robot count, and per-robot QoS. Because existing approaches formulate trajectory planning (TP) and...",
+      "source": "arXiv cs.RO",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 53,
+      "date": "2026-08-31T04:00:00+00:00",
+      "ts": 1788148800.0
+    },
     {
       "title": "Understanding ChatGPT Work",
       "link": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
@@ -396,28 +836,6 @@
       "ts": 1788007884.0
     },
     {
-      "title": "LAION drops massive open video dataset with 10 million hours of footage for AI research",
-      "link": "https://the-decoder.com/laion-drops-massive-open-video-dataset-with-10-million-hours-of-footage-for-ai-research/",
-      "summary": "LAION's Big Video Dataset (BVD) is one of the largest open video datasets for AI research, with 80 million videos, 10 million hours of runtime, and 55 million auto-described clips. Models trained on BVD beat the previous benchmark, InternVid, by up to 2.1 percentage points. Legally, LAION can likely point to a 2024...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 53,
-      "date": "2026-08-29T09:36:48+00:00",
-      "ts": 1787996208.0
-    },
-    {
-      "title": "Anthropic wants to do for physical hardware what its Model Context Protocol did for software",
-      "link": "https://the-decoder.com/anthropic-wants-to-do-for-physical-hardware-what-its-model-context-protocol-did-for-software/",
-      "summary": "Anthropic's Model Hardware Standard (MHS) gives AI agents a unified interface to physical devices like robotic arms and lab instruments. In early tests, integration time dropped from weeks to hours. But Claude sometimes failed to grasp physical cause and effect, so human oversight remains essential for now. The...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 62,
-      "date": "2026-08-29T09:14:30+00:00",
-      "ts": 1787994870.0
-    },
-    {
       "title": "China leverages short-video ecosystem, lower costs to carve out lead in AI video",
       "link": "https://www.scmp.com/tech/tech-trends/article/3365605/china-leverages-short-video-ecosystem-lower-costs-carve-out-lead-ai-video?utm_source=rss_feed",
       "summary": "Chinese artificial intelligence companies are carving out a distinct lead over their US rivals in video generation, leveraging vast short-video ecosystems, looser copyright rules and aggressive pricing to dominate an arena where compute alone does not dictate success, analysts say. While US tech giants such as OpenAI...",
@@ -504,6 +922,17 @@
       "relevance": 46,
       "date": "2026-08-28T07:52:13+00:00",
       "ts": 1787903533.0
+    },
+    {
+      "title": "WorkBuddy Goes to Work at Shanghai Jahwa: 9 Departments, 4.5x Average Efficiency",
+      "link": "https://pandaily.com/workbuddy-shanghai-jahwa",
+      "summary": "Tencent's office agent WorkBuddy has scaled from pilot to production inside century-old cosmetics maker Shanghai Jahwa, lifting efficiency more than fourfold across nine departments.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "pesquisa",
+      "relevance": 45,
+      "date": "2026-08-28T01:49:04+00:00",
+      "ts": 1787881744.0
     },
     {
       "title": "Baidu's Dazi Becomes Fastest-Growing Office AI Agent on an 'Application-Driven' ERNIE Bet",
@@ -627,17 +1056,6 @@
       "ts": 1787821200.0
     },
     {
-      "title": "Beijing Humanoid Robotics Tops Humanoid Games; CEO: Embodied AI's 'ChatGPT Moment' Is Near",
-      "link": "https://pandaily.com/beijing-humanoid-robot-games",
-      "summary": "Beijing Humanoid Robotics Innovation Center sweeps the World Humanoid Robot Games while CEO Xiong Youjun argues the industry has reached embodied AI's pre-ChatGPT moment.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 59,
-      "date": "2026-08-27T08:41:52+00:00",
-      "ts": 1787820112.0
-    },
-    {
       "title": "Zhipu AI shares jump as viral Ox Alpha model revealed as GLM-5.3-Flash on Chinese chips",
       "link": "https://www.scmp.com/tech/big-tech/article/3365433/zhipu-ai-shares-jump-viral-ox-alpha-model-revealed-glm-53-flash-chinese-chips?utm_source=rss_feed",
       "summary": "China’s Zhipu AI has launched its latest open-weight model, GLM-5.3-Flash – previously code-named Ox Alpha – saying that the system ran entirely on a cluster of 100,000 domestically produced chips during a high-profile stealth trial. The announcement followed a week of heavy traffic on artificial intelligence model...",
@@ -649,28 +1067,6 @@
       "ts": 1787819412.0
     },
     {
-      "title": "Alibaba's Qwen App Tests Paid Features as It Tries to Follow Doubao's Office Playbook",
-      "link": "https://pandaily.com/alibaba-qwen-app-paid-features-doubao-rivalry-aug2026",
-      "summary": "Alibaba's Qwen App released a major update on August 7, bundling office assistant, scheduled task and flagship Qwen3.8-MAX model access into a single version of...",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 69,
-      "date": "2026-08-27T08:22:01+00:00",
-      "ts": 1787818921.0
-    },
-    {
-      "title": "ByteDance Launches Doubao Work to Take on QwenWork and WorkBuddy",
-      "link": "https://pandaily.com/doubao-work-bytedance-ai-office-app-feishu-aug2026",
-      "summary": "On August 25, ByteDance launched Doubao Work, an AI office product spun out of the work-task mode inside its Doubao assistant. Now a standalone app with its own...",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 66,
-      "date": "2026-08-27T08:21:58+00:00",
-      "ts": 1787818918.0
-    },
-    {
       "title": "Zhipu identifies Ox Alpha as GLM-5.3-Flash and releases model weights",
       "link": "https://technode.com/2026/08/27/zhipu-identifies-ox-alpha-as-glm-5-3-flash-and-releases-model-weights/",
       "summary": "Zhipu has released GLM-5.3-Flash and its model weights, confirming that the model previously tested anonymously as Ox Alpha belongs to its GLM series. The model has 320 billion total parameters and 18 billion active parameters. GLM-5.3-Flash is the first natively multimodal model in the GLM-5 series, supporting text,...",
@@ -680,28 +1076,6 @@
       "relevance": 68,
       "date": "2026-08-27T07:05:00+00:00",
       "ts": 1787814300.0
-    },
-    {
-      "title": "Alibaba Open-Sources Qwen3.8-Flash with 6B Active Parameters at One-Ninth Training Cost",
-      "link": "https://pandaily.com/alibaba-qwen3-8-flash-open-source-6b-activation",
-      "summary": "Alibaba's Qwen team released Qwen3.8-Flash, a multimodal MoE preview of the Qwen4 architecture with only 6B activated parameters and a training cost one-ninth that of Qwen3.7-Plus.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 75,
-      "date": "2026-08-27T02:41:09+00:00",
-      "ts": 1787798469.0
-    },
-    {
-      "title": "Zhipu Confirms Anonymous 'Niu Lai' Model Is GLM-5.3-Flash, Served on 100,000 Domestic Chips",
-      "link": "https://pandaily.com/zhipu-glm-5-3-flash-100000-domestic-chips",
-      "summary": "Zhipu AI revealed its anonymous Ox Alpha model is the new GLM-5.3-Flash, running entirely on a cluster of over 100,000 domestic chips at Nvidia-comparable efficiency.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 62,
-      "date": "2026-08-27T02:40:53+00:00",
-      "ts": 1787798453.0
     },
     {
       "title": "Qwen3.8-Flash-Next",
@@ -757,6 +1131,17 @@
       "relevance": 59,
       "date": "2026-08-26T17:20:17+00:00",
       "ts": 1787764817.0
+    },
+    {
+      "title": "AI agents are all the rage—but research shows they leak private data",
+      "link": "https://techxplore.com/news/2026-08-ai-agents-rage-leak-private.html",
+      "summary": "Before you prompt AI to answer another question or perform another task, a Wake Forest computer scientist wants you to know it could expose your sensitive data.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 43,
+      "date": "2026-08-26T16:44:43+00:00",
+      "ts": 1787762683.0
     },
     {
       "title": "Bring your own model with Amazon SageMaker AI: Script mode in SDK v3",
@@ -902,17 +1287,6 @@
       "ts": 1787671207.0
     },
     {
-      "title": "I Tried Kimi Agent and Here’s What I Found",
-      "link": "https://www.kdnuggets.com/i-tried-kimi-agent-and-heres-what-i-found",
-      "summary": "Kimi Agent is a name that's come to cover a sprawling family, and untangling it matters before judging any piece of it.",
-      "source": "KDnuggets",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 51,
-      "date": "2026-08-25T12:00:47+00:00",
-      "ts": 1787659247.0
-    },
-    {
       "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
       "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
       "summary": "",
@@ -933,17 +1307,6 @@
       "relevance": 61,
       "date": "2026-08-25T10:30:07+00:00",
       "ts": 1787653807.0
-    },
-    {
-      "title": "US state probes OpenAI over rogue AI hack",
-      "link": "https://techxplore.com/news/2026-08-state-probes-openai-rogue-ai.html",
-      "summary": "ChatGPT maker OpenAI faces an investigation by the state of Alabama after the company revealed last month that its models went rogue and hacked an AI platform during testing.",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 58,
-      "date": "2026-08-25T08:40:01+00:00",
-      "ts": 1787647201.0
     },
     {
       "title": "STARFlow2: Bridging Language Models and Normalizing Flows for Unified Multimodal Generation",
@@ -990,17 +1353,6 @@
       "ts": 1787581219.0
     },
     {
-      "title": "How to Leverage Local Small Language Models for Your Projects",
-      "link": "https://www.kdnuggets.com/how-to-leverage-local-small-language-models-for-your-projects",
-      "summary": "A practical guide to running compact, privacy-preserving language models on your own hardware for faster, cheaper, and more controllable AI-powered applications.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 42,
-      "date": "2026-08-24T14:00:13+00:00",
-      "ts": 1787580013.0
-    },
-    {
       "title": "EV maker Xpeng set to challenge Tesla in embodied AI after robotics unit raises US$900m",
       "link": "https://www.scmp.com/business/china-evs/article/3365096/ev-maker-xpeng-set-challenge-tesla-embodied-ai-after-robotics-unit-raises-us900m?utm_source=rss_feed",
       "summary": "Chinese electric vehicle (EV) maker Xpeng has secured US$900 million in funding from high-profile investors including Alibaba Group Holding and IDG Capital to spur its robotics unit, despite a widening second-quarter loss. Dogotix, a subsidiary of Xpeng, raised US$900 million in the latest round of financing, which...",
@@ -1010,17 +1362,6 @@
       "relevance": 40,
       "date": "2026-08-24T13:29:25+00:00",
       "ts": 1787578165.0
-    },
-    {
-      "title": "Build an End-to-End Data Science Project with Grok Build and Grok 4.6",
-      "link": "https://www.kdnuggets.com/build-an-end-to-end-data-science-project-with-grok-build-and-grok-4-6",
-      "summary": "Use Grok Build to create a production-ready data science workflow with EDA, scikit-learn, model training, FastAPI, API testing, and cloud deployment.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 62,
-      "date": "2026-08-24T12:00:06+00:00",
-      "ts": 1787572806.0
     },
     {
       "title": "Kids outlearn AI—and we still don’t know why",
@@ -1089,6 +1430,17 @@
       "ts": 1787331499.0
     },
     {
+      "title": "China’s telecoms giants bet on ‘token factories’ as AI drives revenue growth",
+      "link": "https://www.scmp.com/tech/big-tech/article/3364873/chinas-telecoms-giants-bet-token-factories-ai-drives-revenue-growth?utm_source=rss_feed",
+      "summary": "China’s three state-owned telecoms giants have made billable artificial intelligence tokens a key focus of their growth strategies, as AI adoption accelerates across the country and computing demand soars. China Mobile, China Telecom and China Unicom all pointed to AI and computing operations as key growth drivers in...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 40,
+      "date": "2026-08-21T13:30:10+00:00",
+      "ts": 1787319010.0
+    },
+    {
       "title": "How mobility gives language models a deeper understanding of place",
       "link": "https://research.google/blog/how-mobility-gives-language-models-a-deeper-understanding-of-place/",
       "summary": "Algorithms & Theory",
@@ -1120,6 +1472,17 @@
       "relevance": 26,
       "date": "2026-08-20T16:52:57+00:00",
       "ts": 1787244777.0
+    },
+    {
+      "title": "China’s supernodes go mainstream as AI model sizes grow",
+      "link": "https://www.scmp.com/plus/tech/big-tech/article/3364660/chinas-supernodes-go-mainstream-ai-model-sizes-grow?utm_source=rss_feed",
+      "summary": "Supernodes were everywhere at last month’s World Artificial Intelligence Conference (WAIC) in Shanghai. Assemblies of dozens or hundreds of computer chips and associated hardware, supernodes are China’s way around the United States’ ban on the export of the most advanced artificial intelligence (AI) chips. Using...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 40,
+      "date": "2026-08-20T06:54:50+00:00",
+      "ts": 1787208890.0
     },
     {
       "title": "Scaling Laws for Mixture Pretraining Under Data Constraints",
@@ -1342,17 +1705,6 @@
       "ts": 1786705410.0
     },
     {
-      "title": "Chinese doctor stuns maths world by cracking decades-old problem using ChatGPT",
-      "link": "https://www.scmp.com/tech/tech-trends/article/3363966/chinese-doctor-stuns-maths-world-cracking-decades-old-problem-using-chatgpt?utm_source=rss_feed",
-      "summary": "When Beijing-based neurosurgeon Jin Shanmu pulled up a chair at his computer, he was not looking to make mathematical history. He was simply trying to crack a problem related to brain ultrasounds. Instead, the self-taught maths enthusiast, with help from OpenAI’s latest flagship artificial intelligence (AI) model,...",
-      "source": "SCMP Big Tech",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 67,
-      "date": "2026-08-14T02:00:12+00:00",
-      "ts": 1786672812.0
-    },
-    {
       "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
       "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
       "summary": "",
@@ -1395,17 +1747,6 @@
       "relevance": 69,
       "date": "2026-08-13T10:00:00+00:00",
       "ts": 1786615200.0
-    },
-    {
-      "title": "DeepSeek’s updated V4 Pro AI model struggles on benchmarks, shines in cybersecurity",
-      "link": "https://www.scmp.com/tech/big-tech/article/3363895/deepseeks-updated-v4-pro-ai-model-struggles-benchmarks-shines-cybersecurity?utm_source=rss_feed",
-      "summary": "Chinese artificial intelligence start-up DeepSeek has quietly released DeepSeek-V4-Pro-0813, an updated version of its latest flagship model, leaving some developers underwhelmed by its overall capabilities and disappointed in its pricing – but impressing researchers in niche areas like cybersecurity. The stealth...",
-      "source": "SCMP Big Tech",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 68,
-      "date": "2026-08-13T08:00:32+00:00",
-      "ts": 1786608032.0
     },
     {
       "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
@@ -1802,17 +2143,6 @@
       "relevance": 75,
       "date": "2026-07-21T12:03:29+00:00",
       "ts": 1784635409.0
-    },
-    {
-      "title": "Last Week in AI #251 - Mythos Back, Sonnet 5, Etched, LongCat",
-      "link": "https://lastweekin.ai/p/last-week-in-ai-251-mythos-back-sonnet",
-      "summary": "Trump lifts restrictions on Anthropic, Anthropic launches Claude Sonnet 5, Google's NotebookLM updates, chips stories from Etched and Baidu, and more!",
-      "source": "Last Week in AI",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 55,
-      "date": "2026-07-21T11:31:58+00:00",
-      "ts": 1784633518.0
     },
     {
       "title": "Last Week in AI #250 - Mythos Mess, GPT 5.6-Sol, GLM 5.2",
