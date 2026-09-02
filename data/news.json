@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-01T20:18:36.578636+00:00",
-  "count": 180,
-  "china_count": 51,
-  "japan_count": 2,
+  "generated_at": "2026-09-02T02:01:07.975574+00:00",
+  "count": 182,
+  "china_count": 49,
+  "japan_count": 1,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1162 itens)",
+      "status": "ok (1163 itens)",
       "kept": 12
     },
     {
       "source": "Google AI / DeepMind",
       "status": "ok (20 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "Google Research",
@@ -26,7 +26,7 @@
     },
     {
       "source": "Hugging Face",
-      "status": "ok (853 itens)",
+      "status": "ok (854 itens)",
       "kept": 12
     },
     {
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -132,7 +132,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 3
     },
     {
       "source": "Ars Technica",
@@ -142,7 +142,7 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "Wired AI",
@@ -227,7 +227,7 @@
     {
       "source": "SCMP Big Tech",
       "status": "ok (50 itens)",
-      "kept": 9
+      "kept": 8
     },
     {
       "source": "ChinaTalk",
@@ -277,7 +277,7 @@
     {
       "source": "The Japan Times",
       "status": "ok (30 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Japan Today",
@@ -297,6 +297,105 @@
   ],
   "items": [
     {
+      "title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "link": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "summary": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Science 0.1 benchmark...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 61,
+      "date": "2026-09-01T23:57:28+00:00",
+      "ts": 1788307048.0
+    },
+    {
+      "title": "Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+      "summary": "Anthropic says its newest AI models, Fable 5.1 and Mythos 5.1, address criticisms from customers about price, data retention, and overzealous safeguards. The company claims Claude Fable 5.1 offers stronger performance than Fable 5, but costs around 25 percent less typically and up to 45 percent less for complex...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 65,
+      "date": "2026-09-01T22:01:36+00:00",
+      "ts": 1788300096.0
+    },
+    {
+      "title": "OpenAI to launch new model with 'stronger safeguards' after hack",
+      "link": "https://japantoday.com/category/tech/openai-to-launch-new-model-with-%27stronger-safeguards%27-after-hack",
+      "summary": "ChatGPT maker OpenAI said Tuesday it was preparing to release its newest powerful model, known as Astra, after implementing \"stronger safeguards\" following a rogue cyberattack involving a different…",
+      "source": "Japan Today",
+      "region": "japan",
+      "category": "modelo",
+      "relevance": 62,
+      "date": "2026-09-01T21:47:56+00:00",
+      "ts": 1788299276.0
+    },
+    {
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "link": "https://huggingface.co/blog/allenai/benchmirt",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 32,
+      "date": "2026-09-01T21:39:07+00:00",
+      "ts": 1788298747.0
+    },
+    {
+      "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
+      "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+      "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 47,
+      "date": "2026-09-01T21:06:24+00:00",
+      "ts": 1788296784.0
+    },
+    {
+      "title": "Google’s Android update tackles motion sickness, accessibility, and more",
+      "link": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
+      "summary": "While some of the features see Google playing catch-up to Apple, which already offers similar features for iPhone users, others specifically leverage Gemini to provide various improvements.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 40,
+      "date": "2026-09-01T20:53:05+00:00",
+      "ts": 1788295985.0
+    },
+    {
+      "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
+      "summary": "After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development of a different unreleased model suite, Astra, in order to shore up its safety work, the company wrote Tuesday in a blog post. In July, an unreleased OpenAI model broke out of its restricted...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 40,
+      "date": "2026-09-01T20:45:49+00:00",
+      "ts": 1788295549.0
+    },
+    {
+      "title": "The latest AI news we announced in August 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "summary": "Transitioning cards: 1. Text \"Gemini 3.7 Flash\" next to the Gemini logo icon; 2. a photo of a pixel phone; 3. Google Gemini logo above the text \"Claim your student plan for 1 year at no cost\"",
+      "source": "Google AI / DeepMind",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 49,
+      "date": "2026-09-01T20:45:00+00:00",
+      "ts": 1788295500.0
+    },
+    {
+      "title": "Anthropic opens Claude AI text detection to regulators, media, fact-checkers, and others",
+      "link": "https://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others/",
+      "summary": "Anthropic is launching an API that lets regulators, media outlets, and researchers check whether text carries Claude's digital watermark. The EU AI Act now requires invisible watermarks in AI-generated text. Critics warn the technology could hurt text quality and create transparency problems where contracts ban AI...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 67,
+      "date": "2026-09-01T20:40:36+00:00",
+      "ts": 1788295236.0
+    },
+    {
       "title": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less",
       "link": "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less/",
       "summary": "Anthropic launches Claude Fable 5.1 and Mythos 5.1, its most capable AI models yet. Fable 5.1 doubles its predecessor's score on Terminal-Bench-Science and improves agentic coding by over 30 percent. Costs drop by up to 45 percent for long, autonomous runs with many tool calls. The article Anthropic's Claude Fable 5.1...",
@@ -304,8 +403,8 @@
       "region": "global",
       "category": "modelo",
       "relevance": 73,
-      "date": "2026-09-01T20:01:55+00:00",
-      "ts": 1788292915.0
+      "date": "2026-09-01T20:32:55+00:00",
+      "ts": 1788294775.0
     },
     {
       "title": "A roadmap for agentic 7G AI-powered wireless networks",
@@ -438,28 +537,6 @@
       "relevance": 77,
       "date": "2026-09-01T08:51:45+00:00",
       "ts": 1788252705.0
-    },
-    {
-      "title": "ChatGPT becomes first AI chatbot to face tougher EU rules",
-      "link": "https://japantoday.com/category/tech/chatgpt-becomes-first-ai-chatbot-to-face-tougher-eu-rules",
-      "summary": "ChatGPT will have to comply with tougher safety rules after the EU added it Monday to a list of digital services subject to greater legal scrutiny in Europe,…",
-      "source": "Japan Today",
-      "region": "japan",
-      "category": "modelo",
-      "relevance": 55,
-      "date": "2026-09-01T07:31:55+00:00",
-      "ts": 1788247915.0
-    },
-    {
-      "title": "Apple claims OpenAI is using confidential Apple material and destroying evidence",
-      "link": "https://www.japantimes.co.jp/business/2026/09/01/tech/apple-openai-evidence-trade-secrets/",
-      "summary": "A court brief has been filed in support of Apple's motion for expedited pretrial fact-finding in the lawsuit, which accuses the ChatGPT-maker of stealing trade secrets.",
-      "source": "The Japan Times",
-      "region": "japan",
-      "category": "modelo",
-      "relevance": 46,
-      "date": "2026-09-01T05:44:00+00:00",
-      "ts": 1788241440.0
     },
     {
       "title": "Former Qwen Tech Chief Lin Junyang Launches Pragmatik Labs with a Two-Billion-Dollar Valuation — and Pivots from Foundation Models to Agents",
@@ -990,17 +1067,6 @@
       "ts": 1788189899.0
     },
     {
-      "title": "ChatGPT now faces stricter EU oversight as a very large search engine",
-      "link": "https://the-decoder.com/chatgpt-now-faces-stricter-eu-oversight-as-a-very-large-search-engine/",
-      "summary": "The EU Commission is classifying ChatGPT as a very large search engine under the Digital Services Act for the first time, with at least 45 million monthly EU users. By the end of 2026, OpenAI has to deliver risk assessments, transparency reports, and an ad archive, among other things. Whether the Commission can also...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 62,
-      "date": "2026-08-31T14:31:37+00:00",
-      "ts": 1788186697.0
-    },
-    {
       "title": "Researcher explores what consciousness really means—and whether it might one day emerge in a machine",
       "link": "https://techxplore.com/news/2026-08-explores-consciousness-day-emerge-machine.html",
       "summary": "Could a machine ever feel pain or pleasure? Could it have its own inner experience of the world? As artificial intelligence grows more fluent in conversation, reasoning and problem-solving, this question is migrating from science fiction to the lab. It is of particular interest to researchers probing the origins of...",
@@ -1032,17 +1098,6 @@
       "relevance": 53,
       "date": "2026-08-31T13:41:40+00:00",
       "ts": 1788183700.0
-    },
-    {
-      "title": "ChatGPT to face tougher regulation in the EU",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
-      "summary": "OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws regulating major...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 57,
-      "date": "2026-08-31T13:27:36+00:00",
-      "ts": 1788182856.0
     },
     {
       "title": "Why RAG Complexity Should Be Earned",
@@ -1228,8 +1283,8 @@
       "region": "global",
       "category": "modelo",
       "relevance": 34,
-      "date": "2026-08-27T17:37:20+00:00",
-      "ts": 1787852240.0
+      "date": "2026-08-27T17:37:00+00:00",
+      "ts": 1787852220.0
     },
     {
       "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
@@ -1694,17 +1749,6 @@
       "ts": 1787011200.0
     },
     {
-      "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
-      "link": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
-      "summary": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.7T parameters , and Luna is size unknown but presumably a whole lot bigger than 27B. Qwen...",
-      "source": "Simon Willison",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 70,
-      "date": "2026-08-17T23:58:14+00:00",
-      "ts": 1787011094.0
-    },
-    {
       "title": "Teaching Everyone to Fish for Tokens",
       "link": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
       "summary": "Nvidia wants you building your own model, not buying from Anthropic/OpenAI.",
@@ -1758,17 +1802,6 @@
       "relevance": 47,
       "date": "2026-08-16T08:00:08+00:00",
       "ts": 1786867208.0
-    },
-    {
-      "title": "Home province of DeepSeek, Moonshot founders seeks to retain, attract future AI talent",
-      "link": "https://www.scmp.com/tech/big-tech/article/3364095/home-province-deepseek-moonshot-founders-seeks-retain-attract-future-ai-talent?utm_source=rss_feed",
-      "summary": "China’s southern manufacturing powerhouse of Guangdong province welcomed nearly 40 computer science students from Tsinghua University this week, part of a targeted push by local authorities to bridge a widening gap in China’s artificial intelligence race by attracting top-tier talent from Beijing. Despite raising two...",
-      "source": "SCMP Big Tech",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 62,
-      "date": "2026-08-16T03:00:12+00:00",
-      "ts": 1786849212.0
     },
     {
       "title": "Building an AI Text Detector From Scratch",
@@ -2132,17 +2165,6 @@
       "relevance": 71,
       "date": "2026-07-27T03:30:00+00:00",
       "ts": 1785123000.0
-    },
-    {
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-      "link": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 32,
-      "date": "2026-07-27T00:00:00+00:00",
-      "ts": 1785110400.0
     },
     {
       "title": "Microsoft reportedly evaluates Moonshot AI’s Kimi K3 for Copilot",
