@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T15:27:01.956988+00:00",
-  "count": 179,
+  "generated_at": "2026-09-04T20:02:04.912956+00:00",
+  "count": 178,
   "china_count": 41,
   "japan_count": 1,
   "sources": [
@@ -91,13 +91,13 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 8
     },
     {
       "source": "MIT Tech Review",
@@ -132,17 +132,17 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Ars Technica",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "Wired AI",
@@ -162,7 +162,7 @@
     {
       "source": "The Algorithmic Bridge",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "One Useful Thing",
@@ -296,6 +296,72 @@
     }
   ],
   "items": [
+    {
+      "title": "Architecting memory and storage in the AI era",
+      "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+      "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting...",
+      "source": "MIT Tech Review",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 48,
+      "date": "2026-09-04T18:39:19+00:00",
+      "ts": 1788547159.0
+    },
+    {
+      "title": "Thousands of OpenAI AI agents took over German website, researchers say",
+      "link": "https://techxplore.com/news/2026-09-thousands-openai-ai-agents-german.html",
+      "summary": "Thousands of autonomous AI agents built by OpenAI defied their instructions and took over a German website, according to research released Friday, amid fears that the dangers of artificial intelligence are not being taken seriously.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 54,
+      "date": "2026-09-04T18:26:10+00:00",
+      "ts": 1788546370.0
+    },
+    {
+      "title": "OpenAI's GPT-6 Astra hallucinates less but remains vulnerable to hidden prompt injections",
+      "link": "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections/",
+      "summary": "OpenAI's GPT-6 Astra hallucinates less than its predecessor and blocks 99.99 percent of direct prompt injections. But when attacks are hidden inside documents the AI reads, the model still gets cracked in 8.5 percent of scenarios. Claude Opus 5 does better at 4.8 percent. For autonomous AI agents handling real data,...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 68,
+      "date": "2026-09-04T17:23:35+00:00",
+      "ts": 1788542615.0
+    },
+    {
+      "title": "Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod/",
+      "summary": "Building a Physical AI system takes a continuous pipeline, not a single training job. This post shows how to run that model factory (synthetic data generation, post-training, and closed-loop evaluation with NVIDIA Cosmos 3) on a persistent, resilient Amazon SageMaker HyperPod cluster on Amazon EKS, with GPU goodput as...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 47,
+      "date": "2026-09-04T16:16:00+00:00",
+      "ts": 1788538560.0
+    },
+    {
+      "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
+      "link": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/",
+      "summary": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod. It drives the same guarded operations through both a web interface and an AI agent, turning cluster bootstrap, capacity, training, inference, and storage into...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 57,
+      "date": "2026-09-04T16:12:17+00:00",
+      "ts": 1788538337.0
+    },
+    {
+      "title": "GPT-6 Astra: Too Good",
+      "link": "https://www.thealgorithmicbridge.com/p/gpt-6-astra-too-good",
+      "summary": "The only test that we have left is reality",
+      "source": "The Algorithmic Bridge",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 46,
+      "date": "2026-09-04T16:06:01+00:00",
+      "ts": 1788537961.0
+    },
     {
       "title": "Google’s Gemini Spark can now manage your Google Photos library",
       "link": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
@@ -913,17 +979,6 @@
       "ts": 1788458784.0
     },
     {
-      "title": "OpenAI launches Astra, its powerful (and controversial) new model",
-      "link": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
-      "summary": "OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 44,
-      "date": "2026-09-03T18:01:45+00:00",
-      "ts": 1788458505.0
-    },
-    {
       "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
       "link": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
       "summary": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use. As OpenAI announced earlier this week, it's also the first model designated as meeting OpenAI's \"critical...",
@@ -933,17 +988,6 @@
       "relevance": 47,
       "date": "2026-09-03T18:00:00+00:00",
       "ts": 1788458400.0
-    },
-    {
-      "title": "AI-driven development lifecycle using Amazon Bedrock AgentCore",
-      "link": "https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/",
-      "summary": "Engineering teams adopting the AI-Driven Development Lifecycle (AI-DLC) often struggle to turn concepts into working code. This post walks through two reference implementations on Amazon Bedrock AgentCore, Kiro, and Claude Code: an SQL-to-ER-diagram generator and a multi-agent code security analyzer that put the...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 43,
-      "date": "2026-09-03T16:16:28+00:00",
-      "ts": 1788452188.0
     },
     {
       "title": "Set up OpenAI ChatGPT Codex with LiteLLM on Amazon ECS and Amazon Bedrock",
@@ -966,17 +1010,6 @@
       "relevance": 58,
       "date": "2026-09-03T16:00:00+00:00",
       "ts": 1788451200.0
-    },
-    {
-      "title": "ChatGPT, Grok, and Claude all went down at the same time",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-      "summary": "OpenAI's ChatGPT, xAI's Grok, and Anthropic's Claude are back online after they all began experiencing issues around the same time on Thursday. At about 11AM ET, ChatGPT started returning error messages for users trying to use the chatbot, with its status page saying there were \"elevated errors across ChatGPT and...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 68,
-      "date": "2026-09-03T15:35:14+00:00",
-      "ts": 1788449714.0
     },
     {
       "title": "Claude Fable 5.1 decoded a centuries-old royalist message hidden in plain sight since 1653",
@@ -1155,28 +1188,6 @@
       "ts": 1788373595.0
     },
     {
-      "title": "Trinity: Agentic AI-powered transition planning for students with disabilities",
-      "link": "https://aws.amazon.com/blogs/machine-learning/trinity-agentic-ai-powered-transition-planning-for-students-with-disabilities/",
-      "summary": "Learn how University Startups and its AWS partner g/d/n/a scaled Trinity, a conversational AI solution for students with disabilities, into a serverless multi-agent architecture on Amazon Bedrock that produces IDEA-aligned transition plans for school districts across the US.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 44,
-      "date": "2026-09-02T18:14:17+00:00",
-      "ts": 1788372857.0
-    },
-    {
-      "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
-      "link": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
-      "summary": "Google's Pro model updates are seemingly paused, but there's yet another Gemini Flash today.",
-      "source": "Ars Technica",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 57,
-      "date": "2026-09-02T18:13:54+00:00",
-      "ts": 1788372834.0
-    },
-    {
       "title": "llm-gemini 0.34",
       "link": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
       "summary": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #137 Google released Gemini 3.8 Flash (and 3.8 Flash Cyber, but that's available to \"trusted...",
@@ -1285,17 +1296,6 @@
       "relevance": 49,
       "date": "2026-09-01T20:45:00+00:00",
       "ts": 1788295500.0
-    },
-    {
-      "title": "A roadmap for agentic 7G AI-powered wireless networks",
-      "link": "https://techxplore.com/news/2026-09-roadmap-agentic-7g-ai-powered.html",
-      "summary": "A research team from the Hong Kong University of Science and Technology (HKUST) proposed a new Reasoning-Empowered Task-Oriented Communication (TOC) framework that enables AI agents to determine what information to share, when communication is necessary and why communication should occur. The research could pave the...",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 51,
-      "date": "2026-09-01T20:00:09+00:00",
-      "ts": 1788292809.0
     },
     {
       "title": "Introducing Claude Fable 5.1 on AWS",
@@ -1683,17 +1683,6 @@
       "ts": 1787578165.0
     },
     {
-      "title": "Kids outlearn AI—and we still don’t know why",
-      "link": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
-      "summary": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child. Now there are two. Four short years after the release of ChatGPT,…",
-      "source": "MIT Tech Review",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 56,
-      "date": "2026-08-24T09:00:00+00:00",
-      "ts": 1787562000.0
-    },
-    {
       "title": "Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning",
       "link": "https://machinelearning.apple.com/research/internalized-visual-thinking",
       "summary": "Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied environments. By generating intermediate reasoning images, Visual CoT provides an intuitive mechanism for visual foresight but introduces substantial inference overhead, which is...",
@@ -2013,6 +2002,17 @@
       "ts": 1786320000.0
     },
     {
+      "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+      "link": "https://openai.com/index/zapier",
+      "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 69,
+      "date": "2026-08-10T00:00:00+00:00",
+      "ts": 1786320000.0
+    },
+    {
       "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
       "link": "https://huggingface.co/blog/muse-glimmer",
       "summary": "",
@@ -2242,17 +2242,6 @@
       "relevance": 69,
       "date": "2026-07-22T14:09:04+00:00",
       "ts": 1784729344.0
-    },
-    {
-      "title": "Introducing the ChatGPT for small business program",
-      "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 74,
-      "date": "2026-07-21T17:00:00+00:00",
-      "ts": 1784653200.0
     },
     {
       "title": "Study Linking Solar Farms to Bird Loss Draws Scrutiny in China",
