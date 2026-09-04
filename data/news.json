@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-03T20:17:28.488331+00:00",
-  "count": 181,
+  "generated_at": "2026-09-04T02:02:48.503018+00:00",
+  "count": 179,
   "china_count": 43,
-  "japan_count": 1,
+  "japan_count": 0,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1164 itens)",
+      "status": "ok (1169 itens)",
       "kept": 12
     },
     {
@@ -106,8 +106,8 @@
     },
     {
       "source": "VentureBeat AI",
-      "status": "ok (7 itens)",
-      "kept": 1
+      "status": "ERRO: HTTP Error 429: Too Many Requests",
+      "kept": 0
     },
     {
       "source": "IEEE Spectrum",
@@ -162,7 +162,7 @@
     {
       "source": "The Algorithmic Bridge",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "One Useful Thing",
@@ -222,12 +222,12 @@
     {
       "source": "SCMP Tech",
       "status": "ok (50 itens)",
-      "kept": 7
+      "kept": 6
     },
     {
       "source": "SCMP Big Tech",
       "status": "ok (50 itens)",
-      "kept": 7
+      "kept": 8
     },
     {
       "source": "ChinaTalk",
@@ -256,8 +256,8 @@
     },
     {
       "source": "Sixth Tone",
-      "status": "ERRO: <urlopen error timed out>",
-      "kept": 0
+      "status": "ok (51 itens)",
+      "kept": 1
     },
     {
       "source": "Caixin Global",
@@ -282,7 +282,7 @@
     {
       "source": "Japan Today",
       "status": "ok (30 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Japan Industry News",
@@ -296,6 +296,28 @@
     }
   ],
   "items": [
+    {
+      "title": "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today",
+      "link": "https://www.wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today/",
+      "summary": "ChatGPT, Claude, and Grok all suffered outages at nearly the exact same time for reasons that remain murky.",
+      "source": "Wired AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 64,
+      "date": "2026-09-03T21:56:21+00:00",
+      "ts": 1788472581.0
+    },
+    {
+      "title": "GPT‑6 Astra",
+      "link": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+      "summary": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say about it yet. It's...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 65,
+      "date": "2026-09-03T20:18:41+00:00",
+      "ts": 1788466721.0
+    },
     {
       "title": "GPT-6 Astra is the first model making OpenAI willing to declare the \"AGI era\"",
       "link": "https://the-decoder.com/gpt-6-astra-is-the-first-model-making-openai-willing-to-declare-the-agi-era/",
@@ -968,17 +990,6 @@
       "ts": 1788393600.0
     },
     {
-      "title": "Trump administration backs OpenAI in New York Times' copyright case over training of chatbots",
-      "link": "https://japantoday.com/category/tech/trump-administration-backs-openai-in-new-york-times%27-copyright-case-over-training-of-chatbots",
-      "summary": "The Trump administration is wading into a legal fight between OpenAI and the New York Times, backing the ChatGPT-maker's argument in a closely watched case over how it…",
-      "source": "Japan Today",
-      "region": "japan",
-      "category": "modelo",
-      "relevance": 53,
-      "date": "2026-09-02T21:29:54+00:00",
-      "ts": 1788384594.0
-    },
-    {
       "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
       "link": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-5-6-models-on-amazon-bedrock-from-australia-with-global-cross-region-inference/",
       "summary": "Australian teams can now access OpenAI GPT-5.6 Sol, Terra, and Luna models on Amazon Bedrock with global cross-Region inference from the Asia Pacific (Sydney) and Asia Pacific (Melbourne) Regions. This post shows how to invoke the models, use prompt caching, set up Codex with OpenID Connect authentication, and monitor...",
@@ -1109,17 +1120,6 @@
       "relevance": 51,
       "date": "2026-09-02T16:20:03+00:00",
       "ts": 1788366003.0
-    },
-    {
-      "title": "The Logical End Point of AI Job Interviews Is Two Bots Talking to Each Other",
-      "link": "https://www.wired.com/story/bot-vs-bot-job-interview-ai/",
-      "summary": "Christopher was sick of being ghosted by AI recruiters. So he unleashed ChatGPT on his robot interviewer.",
-      "source": "Wired AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 48,
-      "date": "2026-09-02T15:51:46+00:00",
-      "ts": 1788364306.0
     },
     {
       "title": "Proactive cyber defense for governments and enterprises",
@@ -1408,17 +1408,6 @@
       "ts": 1787852220.0
     },
     {
-      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
-      "link": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
-      "summary": "Presented by Gravitee Agent complexity is the insidious shadow lurking inside enterprises right now that needs a light shone on it. That’s because enterprises don't deploy a single agent and watch it run, they deploy fleets, each one calling APIs, calling other agents, reaching into applications that were never built...",
-      "source": "VentureBeat AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 42,
-      "date": "2026-08-27T14:01:00+00:00",
-      "ts": 1787839260.0
-    },
-    {
       "title": "Alibaba pushes into South America’s AI market with launch of Brazil data centres",
       "link": "https://www.scmp.com/tech/big-tech/article/3365491/alibaba-pushes-south-americas-ai-market-launch-brazil-data-centres?utm_source=rss_feed",
       "summary": "Alibaba Group Holding has launched its first data centres in South America, as the Chinese technology giant ramps up its artificial intelligence infrastructure buildout in emerging markets amid an intensifying US-China AI rivalry. The Hangzhou-based company announced on Thursday that its new Brazilian venture would...",
@@ -1444,10 +1433,10 @@
       "title": "Zhipu AI shares jump as viral Ox Alpha model revealed as GLM-5.3-Flash on Chinese chips",
       "link": "https://www.scmp.com/tech/big-tech/article/3365433/zhipu-ai-shares-jump-viral-ox-alpha-model-revealed-glm-53-flash-chinese-chips?utm_source=rss_feed",
       "summary": "China’s Zhipu AI has launched its latest open-weight model, GLM-5.3-Flash – previously code-named Ox Alpha – saying that the system ran entirely on a cluster of 100,000 domestically produced chips during a high-profile stealth trial. The announcement followed a week of heavy traffic on artificial intelligence model...",
-      "source": "SCMP Tech",
+      "source": "SCMP Big Tech",
       "region": "china",
       "category": "modelo",
-      "relevance": 64,
+      "relevance": 65,
       "date": "2026-08-27T08:30:12+00:00",
       "ts": 1787819412.0
     },
@@ -1703,17 +1692,6 @@
       "relevance": 62,
       "date": "2026-08-21T16:58:19+00:00",
       "ts": 1787331499.0
-    },
-    {
-      "title": "Quoting Matt Webb",
-      "link": "https://simonwillison.net/2026/Aug/21/matt-webb/",
-      "summary": "After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 56,
-      "date": "2026-08-21T15:06:26+00:00",
-      "ts": 1787324786.0
     },
     {
       "title": "China’s telecoms giants bet on ‘token factories’ as AI drives revenue growth",
@@ -2277,15 +2255,15 @@
       "ts": 1784626691.0
     },
     {
-      "title": "7 Consequences of America Finally Losing Its AI Edge to China",
-      "link": "https://www.thealgorithmicbridge.com/p/7-consequences-of-america-finally",
-      "summary": "Moonshot, DeepSeek, Zhipu, etc., will cause huge trouble",
-      "source": "The Algorithmic Bridge",
+      "title": "Study Linking Solar Farms to Bird Loss Draws Scrutiny in China",
+      "link": "https://www.sixthtone.com/news/1018949/Study Linking Solar Farms to Bird Loss Draws Scrutiny in China",
+      "summary": "China’s scientific community has questioned a recent study in the country that concluded solar farms may reduce bird diversity, interrogating the paper’s data and statistical methods.",
+      "source": "Sixth Tone",
       "region": "china",
-      "category": "modelo",
-      "relevance": 53,
-      "date": "2026-07-20T21:37:20+00:00",
-      "ts": 1784583440.0
+      "category": "pesquisa",
+      "relevance": 41,
+      "date": null,
+      "ts": 0
     }
   ]
 }
