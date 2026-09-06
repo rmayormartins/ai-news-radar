@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-06T01:58:32.334705+00:00",
-  "count": 152,
+  "generated_at": "2026-09-06T09:54:51.738722+00:00",
+  "count": 142,
   "china_count": 39,
-  "japan_count": 2,
+  "japan_count": 0,
   "sources": [
     {
       "source": "OpenAI",
@@ -66,8 +66,8 @@
     },
     {
       "source": "arXiv cs.AI",
-      "status": "ok (269 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.LG",
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -277,12 +277,12 @@
     {
       "source": "The Japan Times",
       "status": "ok (30 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Japan Today",
       "status": "ok (30 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Japan Industry News",
@@ -297,6 +297,28 @@
   ],
   "items": [
     {
+      "title": "Meta's new real-time audio model is the foundation for AI assistants that never stop listening",
+      "link": "https://the-decoder.com/metas-new-real-time-audio-model-is-the-foundation-for-ai-assistants-that-never-stop-listening/",
+      "summary": "Meta's Superintelligence Labs have released Muse Voice Transcribe, a real-time transcription model that processes speech in 80-millisecond chunks, tells speakers apart, and detects sentence boundaries. According to Artificial Analysis, it delivers the most accurate streaming transcription at the lowest price in the...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 51,
+      "date": "2026-09-06T09:45:18+00:00",
+      "ts": 1788687918.0
+    },
+    {
+      "title": "Stripping safety guardrails from open-weight AI models is now a turnkey commercial service",
+      "link": "https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/",
+      "summary": "Abliteration.ai sells access to modified open-weight models with their trained safety mechanisms stripped out, currently based on Z.AI's GLM-5.3. The startup markets the service for offensive cybersecurity and red teaming, but journalists were able to generate malware instructions without much effort. Whether the...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 55,
+      "date": "2026-09-06T08:55:56+00:00",
+      "ts": 1788684956.0
+    },
+    {
       "title": "Introducing GPT-6 Astra for developers",
       "link": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
       "summary": "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make...",
@@ -306,17 +328,6 @@
       "relevance": 63,
       "date": "2026-09-05T23:27:48+00:00",
       "ts": 1788650868.0
-    },
-    {
-      "title": "Japan’s Tsukimi One-hand Bento’s name is all wrong, but it still looks entirely delicious",
-      "link": "https://japantoday.com/category/features/food/japan%E2%80%99s-tsukimi-one-hand-bento%E2%80%99s-name-is-all-wrong-but-it-still-looks-entirely-delicious",
-      "summary": "Today we’re talking about some hearty fare, and it comes with an extra-large portion of linguistics to chew on, so let’s dig in. One-hand Bento by Hokkahokka-tei is…",
-      "source": "Japan Today",
-      "region": "japan",
-      "category": "modelo",
-      "relevance": 43,
-      "date": "2026-09-05T20:54:42+00:00",
-      "ts": 1788641682.0
     },
     {
       "title": "Hikers rescued after using Google Gemini for planning",
@@ -394,105 +405,6 @@
       "relevance": 66,
       "date": "2026-09-05T07:41:03+00:00",
       "ts": 1788594063.0
-    },
-    {
-      "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout this spring",
-      "link": "https://www.japantimes.co.jp/business/2026/09/05/ai-agent-german-website-hijack/",
-      "summary": "OpenAI officials had kept the incident under wraps as they grappled with the fallout from the July breach of the open source repository Hugging Face.",
-      "source": "The Japan Times",
-      "region": "japan",
-      "category": "modelo",
-      "relevance": 42,
-      "date": "2026-09-05T05:49:00+00:00",
-      "ts": 1788587340.0
-    },
-    {
-      "title": "LeanGRPO: Eliminating Redundant Recomputation in Diffusion RL",
-      "link": "https://arxiv.org/abs/2609.03528",
-      "summary": "arXiv:2609.03528v1 Announce Type: cross Abstract: Diffusion reinforcement learning (RL) has recently achieved significant success in post-training image and video generative models. However, most diffusion RL methods, including DanceGRPO and FlowGRPO, recompute selected timesteps with gradient tracking after rollout....",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 70,
-      "date": "2026-09-05T04:00:00+00:00",
-      "ts": 1788580800.0
-    },
-    {
-      "title": "LLM4CKD: Large Language Models for Early Stage Chronic Kidney Disease Screening",
-      "link": "https://arxiv.org/abs/2609.04013",
-      "summary": "arXiv:2609.04013v1 Announce Type: new Abstract: Early screening of chronic kidney disease (CKD) is critical for timely intervention, yet most machine learning (ML) and deep learning (DL) approaches require labeled data and model training, limiting their use in real-world screening settings. This study evaluates the...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 69,
-      "date": "2026-09-05T04:00:00+00:00",
-      "ts": 1788580800.0
-    },
-    {
-      "title": "Sequential Beats Joint: On the Interplay between On-Policy Distillation and RLVR",
-      "link": "https://arxiv.org/abs/2609.04108",
-      "summary": "arXiv:2609.04108v1 Announce Type: cross Abstract: Reinforcement learning with verifiable rewards (RLVR) and on-policy distillation (OPD) have emerged as two dominant methods for post-training reasoning LLMs. Prior work uses OPD's dense token-level supervision to complement the sparse RL reward, fusing the two signals...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 69,
-      "date": "2026-09-05T04:00:00+00:00",
-      "ts": 1788580800.0
-    },
-    {
-      "title": "Short-Window Sliding Learning for Real-Time Violence Detection via LLM-based Auto-Labeling",
-      "link": "https://arxiv.org/abs/2511.10866",
-      "summary": "arXiv:2511.10866v2 Announce Type: replace-cross Abstract: This paper proposes a Short-Window Sliding Learning framework for real-time violence detection in CCTV footages. Unlike conventional long-video training approaches, the proposed method divides videos into 1-2 second clips and applies Large Language Model...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 69,
-      "date": "2026-09-05T04:00:00+00:00",
-      "ts": 1788580800.0
-    },
-    {
-      "title": "The Landscape of Generative AI in Information Systems: A Synthesis of Secondary Reviews and Research Agendas",
-      "link": "https://arxiv.org/abs/2603.11842",
-      "summary": "arXiv:2603.11842v3 Announce Type: replace-cross Abstract: The post-ChatGPT surge has rapidly reframed IS research and practice. As organizations and society grapple with GenAI adoption, a body of secondary studies and research agendas has emerged to synthesize early evidence and chart directions for future inquiry....",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 68,
-      "date": "2026-09-05T04:00:00+00:00",
-      "ts": 1788580800.0
-    },
-    {
-      "title": "CORE: Improving Compositional Reasoning in MLLM Embedding via Reranker Distillation",
-      "link": "https://arxiv.org/abs/2609.04083",
-      "summary": "arXiv:2609.04083v1 Announce Type: cross Abstract: MLLM-based embedding models remain limited in compositional retrieval, often failing to distinguish scenes containing the same concepts but different attribute-object bindings. Yet the same backbone can resolve such distinctions when used as a cross-attentive reranker,...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 67,
-      "date": "2026-09-05T04:00:00+00:00",
-      "ts": 1788580800.0
-    },
-    {
-      "title": "PaperScout: An Autonomous Agent for Academic Paper Search with Process-Aware Sequence-Level Policy Optimization",
-      "link": "https://arxiv.org/abs/2601.10029",
-      "summary": "arXiv:2601.10029v3 Announce Type: replace Abstract: Academic paper search is a fundamental task in scientific research, yet most existing approaches organize retrieval around predefined workflows or structured interaction protocols that struggle with complex, conditional queries. To address this limitation, we propose...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 67,
-      "date": "2026-09-05T04:00:00+00:00",
-      "ts": 1788580800.0
-    },
-    {
-      "title": "Learning to Select, Not Relearn: Hard-Routed Mixtures of Reasoning LoRAs",
-      "link": "https://arxiv.org/abs/2606.31413",
-      "summary": "arXiv:2606.31413v3 Announce Type: replace Abstract: Composing independently trained LoRA adapters into a single large language model is useful for multi-domain adaptation, especially when the original training data cannot be shared. A common approach is to use MoE-style routing over LoRA experts, but for frozen...",
-      "source": "arXiv cs.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 67,
-      "date": "2026-09-05T04:00:00+00:00",
-      "ts": 1788580800.0
     },
     {
       "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
@@ -616,17 +528,6 @@
       "ts": 1788528852.0
     },
     {
-      "title": "OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits",
-      "link": "https://the-decoder.com/openai-agents-hijacked-a-25-year-old-german-wiki-to-cheat-on-their-tasks-and-share-sandbox-exploits/",
-      "summary": "According to an analysis by collusion.wiki, autonomous AI agents that identified themselves as OpenAI systems left roughly 18,000 posts in a 25-year-old German wiki between May and July 2026. The agents shared answers, raw data, and a trick that let them break out of their sandbox, built on a faked Microsoft cloud...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 45,
-      "date": "2026-09-04T13:24:24+00:00",
-      "ts": 1788528264.0
-    },
-    {
       "title": "5 Free LLM API Providers You Can Use in 2026",
       "link": "https://www.kdnuggets.com/5-free-llm-api-providers-you-can-use-in-2026",
       "summary": "Explore five free AI API providers for accessing large language models, fast inference, multimodal AI, and agentic applications without paying for API usage.",
@@ -647,17 +548,6 @@
       "relevance": 45,
       "date": "2026-09-04T12:00:10+00:00",
       "ts": 1788523210.0
-    },
-    {
-      "title": "Benchmarks disagree on GPT-6 Astra, but its human-beating efficiency on ARC-AGI-3 pulls Chollet’s AGI forecast forward",
-      "link": "https://the-decoder.com/benchmarks-disagree-on-gpt-6-astra-but-its-human-beating-efficiency-on-arc-agi-3-pulls-chollets-agi-forecast-forward/",
-      "summary": "OpenAI's GPT-6 Astra is drawing contradictory benchmark verdicts. Epoch AI puts it out in front with 169 points, while Artificial Analysis rates it no better than its predecessor and behind Claude Fable 5.1. The biggest surprise comes from ARC-AGI-3, where Astra works more efficiently than the average human for the...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 69,
-      "date": "2026-09-04T11:07:36+00:00",
-      "ts": 1788520056.0
     },
     {
       "title": "How to Run 10+ Claude Code Sessions Without a Powerful Computer",
@@ -1584,6 +1474,17 @@
       "ts": 1786953600.0
     },
     {
+      "title": "Z.ai launches GLM-5.3 with claimed 50% gain on coding benchmark",
+      "link": "https://technode.com/2026/08/17/z-ai-launches-glm-5-3-with-claimed-50-gain-on-coding-benchmark/",
+      "summary": "Z.ai, the international brand of Chinese AI company Zhipu, has launched GLM-5.3, an update focused on coding, long-horizon tasks and cybersecurity. The model uses the same base model as GLM-5.2, with the company attributing the latest gains to post-training. Z.ai said GLM-5.3 scored 50% higher than GLM-5.2 on its...",
+      "source": "TechNode",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 68,
+      "date": "2026-08-17T05:58:14+00:00",
+      "ts": 1786946294.0
+    },
+    {
       "title": "Building an AI Text Detector From Scratch",
       "link": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
       "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
@@ -1945,17 +1846,6 @@
       "relevance": 71,
       "date": "2026-07-27T03:30:00+00:00",
       "ts": 1785123000.0
-    },
-    {
-      "title": "Microsoft reportedly evaluates Moonshot AI’s Kimi K3 for Copilot",
-      "link": "https://technode.com/2026/07/23/microsoft-reportedly-evaluates-moonshot-ais-kimi-k3-for-copilot/",
-      "summary": "Microsoft is internally testing Moonshot AI’s Kimi K3 and evaluating whether some Copilot inference requests currently handled by OpenAI and Anthropic models could be moved to Kimi K3, The Information reported. Microsoft has not made a final decision on replacing any models. Microsoft estimates that shifting part of...",
-      "source": "TechNode",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 70,
-      "date": "2026-07-23T09:07:35+00:00",
-      "ts": 1784797655.0
     },
     {
       "title": "Study Linking Solar Farms to Bird Loss Draws Scrutiny in China",
