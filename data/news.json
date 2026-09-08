@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-08T15:40:13.603443+00:00",
-  "count": 140,
-  "china_count": 40,
+  "generated_at": "2026-09-08T20:29:22.824010+00:00",
+  "count": 142,
+  "china_count": 41,
   "japan_count": 0,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1175 itens)",
+      "status": "ok (1180 itens)",
       "kept": 12
     },
     {
@@ -91,13 +91,13 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 8
+      "kept": 9
     },
     {
       "source": "MIT Tech Review",
@@ -117,7 +117,7 @@
     {
       "source": "KDnuggets",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "TechXplore (IA/ML)",
@@ -132,7 +132,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Ars Technica",
@@ -142,12 +142,12 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "Wired AI",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Analytics India",
@@ -187,7 +187,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Synced (机器之心)",
@@ -297,6 +297,94 @@
   ],
   "items": [
     {
+      "title": "ChatGPT Sketch turns your bad drawings into detailed AI images",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
+      "summary": "OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside ChatGPT and then tell ChatGPT how you want it to make an image […]",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-09-08T20:16:09+00:00",
+      "ts": 1788898569.0
+    },
+    {
+      "title": "OpenAI researcher allegedly pressured mathematician to drop Anthropic co-author from math breakthrough paper",
+      "link": "https://the-decoder.com/openai-researcher-allegedly-pressured-mathematician-to-drop-anthropic-co-author-from-math-breakthrough-paper/",
+      "summary": "Mathematician Tristan Buckmaster says an OpenAI researcher pressured him after information about his AI-assisted progress on the Navier-Stokes equations allegedly reached the company. The researcher tried to remove his co-author because he works at Anthropic and threatened Buckmaster when he refused, according to...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 49,
+      "date": "2026-09-08T19:23:04+00:00",
+      "ts": 1788895384.0
+    },
+    {
+      "title": "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod",
+      "link": "https://aws.amazon.com/blogs/machine-learning/pathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/",
+      "summary": "Pathway's Baby Dragon Hatchling (BDH) is a brain-inspired, post-transformer architecture that reasons in latent space instead of emitting chain-of-thought tokens. See how Pathway develops and scales BDH on Amazon SageMaker HyperPod, and how BDH-CQ set a new cost-efficiency mark on the ARC-AGI-1 benchmark.",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 56,
+      "date": "2026-09-08T19:12:51+00:00",
+      "ts": 1788894771.0
+    },
+    {
+      "title": "How to Maximize GPT-6 Astra",
+      "link": "https://towardsdatascience.com/how-to-maximize-gpt-6-astra/",
+      "summary": "My first impressions of OpenAI's new frontier model The post How to Maximize GPT-6 Astra appeared first on Towards Data Science .",
+      "source": "Towards Data Science",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 54,
+      "date": "2026-09-08T18:00:35+00:00",
+      "ts": 1788890435.0
+    },
+    {
+      "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1",
+      "link": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-1/",
+      "summary": "Managed MLflow on Amazon SageMaker AI now syncs richer model metadata (training metrics, evaluation results, inference specs, and lineage) into the SageMaker AI Model Registry, with lifecycle stage promotion. Part 1 shows how to govern candidate models in a single account using IAM guardrails.",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 51,
+      "date": "2026-09-08T17:03:20+00:00",
+      "ts": 1788887000.0
+    },
+    {
+      "title": "Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6",
+      "link": "https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6/",
+      "summary": "Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across G5, G6, G6e, and G7 GPU instances on Amazon SageMaker AI. Compare throughput, latency, and cost-per-token, and see how G7's NVIDIA Blackwell GPUs deliver measurable price-performance gains for real-time LLM inference.",
+      "source": "AWS Machine Learning",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 67,
+      "date": "2026-09-08T16:21:57+00:00",
+      "ts": 1788884517.0
+    },
+    {
+      "title": "How HPE Zerto built an agentic troubleshooting system with Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/",
+      "summary": "HPE Zerto built an agentic troubleshooting system powered by Amazon Bedrock that runs on-premises inside the customer environment. This post describes the multi-agent architecture, the on-premises deployment model built with Strands Agents, and the engineering challenges of grounding agents in live disaster recovery...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 49,
+      "date": "2026-09-08T16:15:23+00:00",
+      "ts": 1788884123.0
+    },
+    {
+      "title": "From RAG to Agentic AI: Building the Next Generation of Intelligent Enterprise Systems",
+      "link": "https://www.kdnuggets.com/from-rag-to-agentic-ai-building-the-next-generation-of-intelligent-enterprise-systems",
+      "summary": "Over the past several years, I have worked through three successive generations of intelligent retrieval systems, each solving problems the previous generation could not. Here is what I have learned.",
+      "source": "KDnuggets",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 51,
+      "date": "2026-09-08T16:00:12+00:00",
+      "ts": 1788883212.0
+    },
+    {
       "title": "Patagonia has what AI data centers want, including no resistance so far",
       "link": "https://the-decoder.com/patagonia-has-what-ai-data-centers-want-including-no-resistance-so-far/",
       "summary": "Argentina's Patagonia is drawing attention as a possible site for large AI data centers. The article Patagonia has what AI data centers want, including no resistance so far appeared first on The Decoder .",
@@ -332,7 +420,7 @@
     {
       "title": "Mistral raises €3B as sovereign AI becomes big business",
       "link": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
-      "summary": "The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe and PSG Equity.",
+      "summary": "The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe, and PSG Equity.",
       "source": "TechCrunch",
       "region": "global",
       "category": "modelo",
@@ -427,6 +515,17 @@
       "relevance": 58,
       "date": "2026-09-08T06:30:37+00:00",
       "ts": 1788849037.0
+    },
+    {
+      "title": "New method blends real-time 3D rendering with more accurate surface geometry",
+      "link": "https://techxplore.com/news/2026-09-method-blends-real-3d-accurate.html",
+      "summary": "Reconstructing a three-dimensional object or environment from multiple photographs is a central problem in computer vision. The resulting models support applications such as robotics, augmented and virtual reality, digital twins, and cultural heritage preservation. An effective reconstruction system must represent...",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-09-07T20:00:05+00:00",
+      "ts": 1788811205.0
     },
     {
       "title": "GPT-6 Astra beat Portal start to finish without human help in under 24 hours",
@@ -594,17 +693,6 @@
       "ts": 1788650868.0
     },
     {
-      "title": "Hikers rescued after using Google Gemini for planning",
-      "link": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-      "summary": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\"",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 49,
-      "date": "2026-09-05T19:35:24+00:00",
-      "ts": 1788636924.0
-    },
-    {
       "title": "Long AI conversations reveal misinformation vulnerabilities across seven leading chatbots",
       "link": "https://techxplore.com/news/2026-09-ai-conversations-reveal-misinformation-vulnerabilities.html",
       "summary": "The results are in: Which AI model is the most fallible? Persuadable? Correctible? University of Arizona researchers assessed seven different generative AI large language models, or LLMs, for these three qualities during lengthy conversations. Their work, published in Nature's Scientific Reports, reveals intrinsic...",
@@ -636,17 +724,6 @@
       "relevance": 54,
       "date": "2026-09-04T18:26:10+00:00",
       "ts": 1788546370.0
-    },
-    {
-      "title": "Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
-      "link": "https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod/",
-      "summary": "Building a Physical AI system takes a continuous pipeline, not a single training job. This post shows how to run that model factory (synthetic data generation, post-training, and closed-loop evaluation with NVIDIA Cosmos 3) on a persistent, resilient Amazon SageMaker HyperPod cluster on Amazon EKS, with GPU goodput as...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 47,
-      "date": "2026-09-04T16:16:00+00:00",
-      "ts": 1788538560.0
     },
     {
       "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
@@ -770,17 +847,6 @@
       "ts": 1788461761.0
     },
     {
-      "title": "GPT-6 Astra Is Here—and OpenAI Thinks It May Kick Off the AGI Era",
-      "link": "https://www.wired.com/story/openai-says-gpt-6-can-use-a-computer-better-than-a-human/",
-      "summary": "OpenAI leaders think the company’s next generation model, which excels at computer use and coding, may mark a major milestone in AI development.",
-      "source": "Wired AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 57,
-      "date": "2026-09-03T18:06:24+00:00",
-      "ts": 1788458784.0
-    },
-    {
       "title": "Set up OpenAI ChatGPT Codex with LiteLLM on Amazon ECS and Amazon Bedrock",
       "link": "https://aws.amazon.com/blogs/machine-learning/set-up-openai-chatgpt-codex-with-litellm-on-amazon-ecs-and-amazon-bedrock/",
       "summary": "Deploy a customer-operated LiteLLM gateway on Amazon ECS with AWS Fargate, connect it to an OpenAI model on Amazon Bedrock, and configure Codex to route requests through the gateway's Responses API with scoped identities, budgets, rate limits, and telemetry. We also compare direct IAM Identity Center access and a...",
@@ -858,28 +924,6 @@
       "ts": 1788393600.0
     },
     {
-      "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
-      "link": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-5-6-models-on-amazon-bedrock-from-australia-with-global-cross-region-inference/",
-      "summary": "Australian teams can now access OpenAI GPT-5.6 Sol, Terra, and Luna models on Amazon Bedrock with global cross-Region inference from the Asia Pacific (Sydney) and Asia Pacific (Melbourne) Regions. This post shows how to invoke the models, use prompt caching, set up Codex with OpenID Connect authentication, and monitor...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 49,
-      "date": "2026-09-02T21:22:05+00:00",
-      "ts": 1788384125.0
-    },
-    {
-      "title": "Researchers develop cost-efficient method for detecting hallucinations in large language models",
-      "link": "https://techxplore.com/news/2026-09-efficient-method-hallucinations-large-language.html",
-      "summary": "Researchers from Skoltech and Sberbank's Center for Practical Artificial Intelligence have proposed a new method, TOHA, for detecting hallucinations in large language models operating in retrieval-augmented generation (RAG) systems. The approach analyzes the topological structure of a model's attention maps and makes...",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 65,
-      "date": "2026-09-02T20:40:04+00:00",
-      "ts": 1788381604.0
-    },
-    {
       "title": "From MIT to IBM, expediting AI and quantum deployment",
       "link": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
       "summary": "MIT affiliates engage with the MIT-IBM Computing Research Lab to bring rigorous theory to production systems.",
@@ -889,17 +933,6 @@
       "relevance": 35,
       "date": "2026-09-02T20:25:00+00:00",
       "ts": 1788380700.0
-    },
-    {
-      "title": "Modernizing and scaling support operations with generative AI on AWS",
-      "link": "https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws/",
-      "summary": "Learn how to build a generative AI-based support operations platform on AWS that converts training videos into structured SOPs, applies Retrieval-Augmented Generation to guide ticket resolution, and uses machine learning to predict SLA risk and prioritize work.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 51,
-      "date": "2026-09-02T18:26:35+00:00",
-      "ts": 1788373595.0
     },
     {
       "title": "llm-anthropic 0.28",
@@ -999,17 +1032,6 @@
       "relevance": 49,
       "date": "2026-09-01T20:45:00+00:00",
       "ts": 1788295500.0
-    },
-    {
-      "title": "Introducing Claude Fable 5.1 on AWS",
-      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws/",
-      "summary": "Claude Fable 5.1 is now available on Amazon Bedrock and Claude Platform on AWS. This post covers Claude Fable 5.1's improvements, the Enterprise Frontier Safeguards for keeping your data in a cloud environment you control, and how to start building with the model on Amazon Bedrock.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 64,
-      "date": "2026-09-01T19:12:43+00:00",
-      "ts": 1788289963.0
     },
     {
       "title": "Mapping global methane emissions from space with deep learning",
