@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T20:13:52.263974+00:00",
-  "count": 182,
-  "china_count": 45,
+  "generated_at": "2026-09-11T02:05:55.341277+00:00",
+  "count": 183,
+  "china_count": 46,
   "japan_count": 0,
   "sources": [
     {
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -132,7 +132,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Ars Technica",
@@ -296,6 +296,39 @@
     }
   ],
   "items": [
+    {
+      "title": "AI-powered VR helps planners design better cities",
+      "link": "https://techxplore.com/news/2026-09-ai-powered-vr-planners-cities.html",
+      "summary": "Artificial intelligence (AI) combined with virtual reality (VR) could guide us through tomorrow's cities before they are even built, according to research in the International Journal of Environment and Pollution. Such models could be useful for architects, planners and policymakers.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-09-11T00:20:01+00:00",
+      "ts": 1789086001.0
+    },
+    {
+      "title": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching",
+      "link": "https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/",
+      "summary": "Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network. Learn how model caching cuts cold starts from tens of minutes to seconds, how it works, and how to...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 53,
+      "date": "2026-09-10T21:37:49+00:00",
+      "ts": 1789076269.0
+    },
+    {
+      "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+      "link": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+      "summary": "A new report released Thursday by Anthropic alleges persistent distillation attacks by China-based AI companies, which have escalated in recent months as competition in the space has intensified.",
+      "source": "TechCrunch",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 65,
+      "date": "2026-09-10T20:57:30+00:00",
+      "ts": 1789073850.0
+    },
     {
       "title": "Q&A: Researcher calls for independent testing of powerful AI models",
       "link": "https://techxplore.com/news/2026-09-qa-independent-powerful-ai.html",
@@ -1177,17 +1210,6 @@
       "ts": 1788890435.0
     },
     {
-      "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1",
-      "link": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-1/",
-      "summary": "Managed MLflow on Amazon SageMaker AI now syncs richer model metadata (training metrics, evaluation results, inference specs, and lineage) into the SageMaker AI Model Registry, with lifecycle stage promotion. Part 1 shows how to govern candidate models in a single account using IAM guardrails.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 51,
-      "date": "2026-09-08T17:03:20+00:00",
-      "ts": 1788887000.0
-    },
-    {
       "title": "Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6",
       "link": "https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6/",
       "summary": "Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across G5, G6, G6e, and G7 GPU instances on Amazon SageMaker AI. Compare throughput, latency, and cost-per-token, and see how G7's NVIDIA Blackwell GPUs deliver measurable price-performance gains for real-time LLM inference.",
@@ -1285,17 +1307,6 @@
       "relevance": 58,
       "date": "2026-09-08T06:30:37+00:00",
       "ts": 1788849037.0
-    },
-    {
-      "title": "New method blends real-time 3D rendering with more accurate surface geometry",
-      "link": "https://techxplore.com/news/2026-09-method-blends-real-3d-accurate.html",
-      "summary": "Reconstructing a three-dimensional object or environment from multiple photographs is a central problem in computer vision. The resulting models support applications such as robotics, augmented and virtual reality, digital twins, and cultural heritage preservation. An effective reconstruction system must represent...",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 42,
-      "date": "2026-09-07T20:00:05+00:00",
-      "ts": 1788811205.0
     },
     {
       "title": "Last Week in AI #343 - GPT-6, OpenAI’s agents chatted on a wiki, Fable 5.1",
