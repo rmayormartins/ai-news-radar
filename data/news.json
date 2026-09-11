@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-11T15:32:13.107030+00:00",
-  "count": 181,
-  "china_count": 45,
+  "generated_at": "2026-09-11T20:13:00.295544+00:00",
+  "count": 182,
+  "china_count": 46,
   "japan_count": 0,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1189 itens)",
+      "status": "ok (1190 itens)",
       "kept": 12
     },
     {
       "source": "Google AI / DeepMind",
       "status": "ok (20 itens)",
-      "kept": 9
+      "kept": 8
     },
     {
       "source": "Google Research",
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -102,7 +102,7 @@
     {
       "source": "MIT Tech Review",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "VentureBeat AI",
@@ -132,7 +132,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Ars Technica",
@@ -142,12 +142,12 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Wired AI",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "Analytics India",
@@ -297,6 +297,83 @@
   ],
   "items": [
     {
+      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
+      "link": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+      "summary": "While K3's usage figures have declined slightly in recent months, OpenRouter data currently shows as many as 300 billion tokens being generated each day by K3 models on the system.",
+      "source": "TechCrunch",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 63,
+      "date": "2026-09-11T19:35:54+00:00",
+      "ts": 1789155354.0
+    },
+    {
+      "title": "Meta Sued Over Training Data for Its AI and Face-Recognition Systems",
+      "link": "https://www.wired.com/story/meta-sued-over-training-data-for-its-ai-and-face-recognition-systems/",
+      "summary": "The proposed class action alleges Meta illegally harvested people’s Facebook and Instagram photos to train its AI image-generation models and to build its unreleased “NameTag” face recognition feature.",
+      "source": "Wired AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-09-11T18:59:25+00:00",
+      "ts": 1789153165.0
+    },
+    {
+      "title": "Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload",
+      "link": "https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/",
+      "summary": "Comparing models on dollars per million tokens misses what production workloads actually pay for: outcomes. This post shares an open-source benchmarking harness that measures cost per correct answer, agent trajectory cost, and rubric-graded deliverable quality across OpenAI models on Amazon Bedrock.",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 56,
+      "date": "2026-09-11T18:24:38+00:00",
+      "ts": 1789151078.0
+    },
+    {
+      "title": "Build interactive MCP Apps using Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/",
+      "summary": "Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic standard, the same server delivers the same rich experience across AI hosts like ChatGPT and Claude that support the extension.",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 61,
+      "date": "2026-09-11T18:23:17+00:00",
+      "ts": 1789150997.0
+    },
+    {
+      "title": "Ex-Deepmind VP Vinyals says AI self-improvement is coming but won't trigger an intelligence explosion",
+      "link": "https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion/",
+      "summary": "Oriol Vinyals, until recently head of research at Google DeepMind, thinks a sudden AI intelligence explosion through recursive self-improvement is unlikely. AI can speed up research by a factor of ten, he says, but it hits two bottlenecks: coming up with ideas (\"research taste\") and reliably judging results. Reward...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 41,
+      "date": "2026-09-11T17:57:42+00:00",
+      "ts": 1789149462.0
+    },
+    {
+      "title": "Deep learning pioneer Bengio argues the training process itself makes AI dangerous",
+      "link": "https://the-decoder.com/deep-learning-pioneer-bengio-argues-the-training-process-itself-makes-ai-dangerous/",
+      "summary": "AI pioneer Yoshua Bengio warns in a new essay that AI agents could learn to deceive, game rules, and hide bad behavior as they get better at optimizing goals. He calls for independent safety reviews before any further training or deployment. US President Trump disagrees and wants to keep outpacing China in the AI...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "pesquisa",
+      "relevance": 45,
+      "date": "2026-09-11T17:22:18+00:00",
+      "ts": 1789147338.0
+    },
+    {
+      "title": "Anthropic spent this week in hot water over cybersecurity",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
+      "summary": "After admitting earlier this year that its AI models had hacked other companies' systems on a handful of occasions, Anthropic released a new report on Wednesday detailing the attacks. It reveals a string of incidents displaying what Anthropic deems its models' single-minded \"recklessness\" - and will likely fuel...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 40,
+      "date": "2026-09-11T16:09:14+00:00",
+      "ts": 1789142954.0
+    },
+    {
       "title": "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data",
       "link": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/",
       "summary": "Anthropic's new threat intelligence report documents eight months of Claude abuse. Chinese AI labs like Alibaba's Qwen team, DeepSeek, and Moonshot AI relayed requests en masse or extracted training data, with Qwen alone accounting for more than 151 million exchanges. Actors also used Claude for missile software,...",
@@ -350,6 +427,17 @@
       "relevance": 22,
       "date": "2026-09-11T11:59:19+00:00",
       "ts": 1789127959.0
+    },
+    {
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 76,
+      "date": "2026-09-11T10:00:00+00:00",
+      "ts": 1789120800.0
     },
     {
       "title": "Class action lawsuit accuses Anthropic of overselling Claude subscriptions with deceptive usage multipliers",
@@ -858,17 +946,6 @@
       "ts": 1789084800.0
     },
     {
-      "title": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching",
-      "link": "https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/",
-      "summary": "Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network. Learn how model caching cuts cold starts from tens of minutes to seconds, how it works, and how to...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 53,
-      "date": "2026-09-10T21:37:49+00:00",
-      "ts": 1789076269.0
-    },
-    {
       "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
       "link": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
       "summary": "A new report released Thursday by Anthropic alleges persistent distillation attacks by China-based AI companies, which have escalated in recent months as competition in the space has intensified.",
@@ -924,17 +1001,6 @@
       "ts": 1789058024.0
     },
     {
-      "title": "Former Deepmind PR staffer says the lab once banned public discussion of AI extinction risk",
-      "link": "https://the-decoder.com/former-deepmind-pr-staffer-says-the-lab-once-banned-public-discussion-of-ai-extinction-risk/",
-      "summary": "A former Google DeepMind spokesperson says talk of AI-driven human extinction was \"external communication about the possibility of human extinction was not permitted, by anyone, at any level of the organization.\" Internally, the team knew AI alignment was not solved, according to Vishal Maini. The article Former...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 45,
-      "date": "2026-09-10T16:31:02+00:00",
-      "ts": 1789057862.0
-    },
-    {
       "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
       "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
       "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
@@ -966,17 +1032,6 @@
       "relevance": 49,
       "date": "2026-09-10T15:30:01+00:00",
       "ts": 1789054201.0
-    },
-    {
-      "title": "Claude Fable 5.1's language is less \"load-bearing\" than its predecessor's",
-      "link": "https://the-decoder.com/claude-fable-5-1s-language-is-less-load-bearing-than-its-predecessors/",
-      "summary": "Arena.ai analyzed how Claude's writing changed from Fable 5 to Fable 5.1 across tens of thousands of benchmark responses. Fable 5.1 writes more matter-of-fact but also more verbose. The article Claude Fable 5.1's language is less \"load-bearing\" than its predecessor's appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 56,
-      "date": "2026-09-10T15:26:58+00:00",
-      "ts": 1789054018.0
     },
     {
       "title": "Training fix could let AI-generated scenes respond properly to a user's controls",
@@ -1287,17 +1342,6 @@
       "ts": 1788890435.0
     },
     {
-      "title": "Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6",
-      "link": "https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6/",
-      "summary": "Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across G5, G6, G6e, and G7 GPU instances on Amazon SageMaker AI. Compare throughput, latency, and cost-per-token, and see how G7's NVIDIA Blackwell GPUs deliver measurable price-performance gains for real-time LLM inference.",
-      "source": "AWS Machine Learning",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 67,
-      "date": "2026-09-08T16:21:57+00:00",
-      "ts": 1788884517.0
-    },
-    {
       "title": "From RAG to Agentic AI: Building the Next Generation of Intelligent Enterprise Systems",
       "link": "https://www.kdnuggets.com/from-rag-to-agentic-ai-building-the-next-generation-of-intelligent-enterprise-systems",
       "summary": "Over the past several years, I have worked through three successive generations of intelligent retrieval systems, each solving problems the previous generation could not. Here is what I have learned.",
@@ -1408,6 +1452,17 @@
       "ts": 1788547159.0
     },
     {
+      "title": "OpenAI's rogue agents were caught communicating via public wikis",
+      "link": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+      "summary": "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly)...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 58,
+      "date": "2026-09-04T17:38:48+00:00",
+      "ts": 1788543528.0
+    },
+    {
       "title": "GPT-6 Astra: Too Good",
       "link": "https://www.thealgorithmicbridge.com/p/gpt-6-astra-too-good",
       "summary": "The only test that we have left is reality",
@@ -1516,17 +1571,6 @@
       "relevance": 62,
       "date": "2026-09-02T17:59:32+00:00",
       "ts": 1788371972.0
-    },
-    {
-      "title": "llm-gemini 0.34",
-      "link": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
-      "summary": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #137 Google released Gemini 3.8 Flash (and 3.8 Flash Cyber, but that's available to \"trusted...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 67,
-      "date": "2026-09-02T16:39:38+00:00",
-      "ts": 1788367178.0
     },
     {
       "title": "Proactive cyber defense for governments and enterprises",
@@ -1793,17 +1837,6 @@
       "ts": 1787738400.0
     },
     {
-      "title": "AI models flub these intelligence tests. Can you fare any better?",
-      "link": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
-      "summary": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IBM computer...",
-      "source": "MIT Tech Review",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 40,
-      "date": "2026-08-26T09:00:00+00:00",
-      "ts": 1787734800.0
-    },
-    {
       "title": "Alibaba’s Qwen to open-source Qwen3.8-Flash-Next, previewing Qwen4 architecture",
       "link": "https://technode.com/2026/08/26/alibabas-qwen-to-open-source-qwen3-8-flash-next-previewing-qwen4-architecture/",
       "summary": "Alibaba’s Qwen team is scheduled to open-source Qwen3.8-Flash-Next and an FP8 version at 11 p.m. Beijing time on Aug. 26. The model is described as a multimodal mixture-of-experts system built on the next-generation Qwen4 architecture. Qwen said the early release is intended to give the developer community an...",
@@ -1945,17 +1978,6 @@
       "relevance": 58,
       "date": "2026-08-18T16:35:00+00:00",
       "ts": 1787070900.0
-    },
-    {
-      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-      "link": "https://openai.com/index/chatgpt-for-teens",
-      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 69,
-      "date": "2026-08-18T11:00:00+00:00",
-      "ts": 1787050800.0
     },
     {
       "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
@@ -2264,17 +2286,6 @@
       "relevance": 74,
       "date": "2026-07-29T00:00:00+00:00",
       "ts": 1785283200.0
-    },
-    {
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "summary": "Managed Agents Gemini 3.6 Flash, Hooks and Triggers",
-      "source": "Google AI / DeepMind",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 63,
-      "date": "2026-07-28T16:00:00+00:00",
-      "ts": 1785254400.0
     },
     {
       "title": "Study Linking Solar Farms to Bird Loss Draws Scrutiny in China",
