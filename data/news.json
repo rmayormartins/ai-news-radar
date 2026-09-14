@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T17:15:23.182421+00:00",
-  "count": 181,
-  "china_count": 44,
+  "generated_at": "2026-09-14T21:11:10.635964+00:00",
+  "count": 180,
+  "china_count": 43,
   "japan_count": 0,
   "sources": [
     {
@@ -12,7 +12,7 @@
     {
       "source": "Google AI / DeepMind",
       "status": "ok (20 itens)",
-      "kept": 8
+      "kept": 9
     },
     {
       "source": "Google Research",
@@ -97,7 +97,7 @@
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "MIT Tech Review",
@@ -116,8 +116,8 @@
     },
     {
       "source": "KDnuggets",
-      "status": "ok (10 itens)",
-      "kept": 3
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "TechXplore (IA/ML)",
@@ -297,6 +297,61 @@
   ],
   "items": [
     {
+      "title": "OpenAI stuck fighting Musk antitrust suit after Apple finds a way out",
+      "link": "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/",
+      "summary": "Musk stops attacking Apple over ChatGPT integration but not OpenAI.",
+      "source": "Ars Technica",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 48,
+      "date": "2026-09-14T19:45:13+00:00",
+      "ts": 1789415113.0
+    },
+    {
+      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
+      "source": "Google AI / DeepMind",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 41,
+      "date": "2026-09-14T19:00:00+00:00",
+      "ts": 1789412400.0
+    },
+    {
+      "title": "When to Use One Model and When to Use a Team of Agents",
+      "link": "https://towardsdatascience.com/when-to-use-one-model-and-when-to-use-a-team-of-agents/",
+      "summary": "When Codex is the right shape for the problem, when Claude Code is, and how I split 5 specialist agents between them on dense AI capacity work. The post When to Use One Model and When to Use a Team of Agents appeared first on Towards Data Science .",
+      "source": "Towards Data Science",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 47,
+      "date": "2026-09-14T17:52:20+00:00",
+      "ts": 1789408340.0
+    },
+    {
+      "title": "Harder, better, safer, stronger: Three-way AI improves cybersecurity",
+      "link": "https://techxplore.com/news/2026-09-harder-safer-stronger-ai-cybersecurity.html",
+      "summary": "A new deep-learning architecture could deflect cyberattacks by combining several methods for analyzing network traffic, according to research published in the International Journal of Business Intelligence and Data Mining. The approach addresses a weakness in standard intrusion-detection systems, which struggle with...",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 51,
+      "date": "2026-09-14T17:40:01+00:00",
+      "ts": 1789407601.0
+    },
+    {
+      "title": "OpenAI has hundreds of contract workers reading your ChatGPT conversations",
+      "link": "https://the-decoder.com/openai-has-hundreds-of-contract-workers-reading-your-chatgpt-conversations/",
+      "summary": "OpenAI has hundreds of contract workers reading real ChatGPT conversations and rating them on a scale of one to seven, partly to reduce flattery and human-like behavior, 404 Media reports. The prompts are anonymized but can still contain sensitive data. Users who don't want their chats reviewed by humans have to...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 59,
+      "date": "2026-09-14T17:15:28+00:00",
+      "ts": 1789406128.0
+    },
+    {
       "title": "'Hardflow' algorithm could help generative AI produce high-quality outputs that obey strict requirements",
       "link": "https://techxplore.com/news/2026-09-hardflow-algorithm-generative-ai-high.html",
       "summary": "MIT researchers have developed a new technique that helps generative artificial intelligence models find solutions to high-stakes problems. In these settings, a plausible answer is not enough: The output often must also satisfy nonnegotiable safety, physical or task-specific requirements, known as hard constraints.",
@@ -350,17 +405,6 @@
       "relevance": 54,
       "date": "2026-09-14T15:20:04+00:00",
       "ts": 1789399204.0
-    },
-    {
-      "title": "Why DeepSeek-V4.1-Flash Is Such an Exciting Open Model Release",
-      "link": "https://www.kdnuggets.com/why-deepseek-v4-1-flash-is-such-an-exciting-open-model-release",
-      "summary": "DeepSeek-V4.1-Flash shows how Causal Encoder-Decoder architecture, MoE, KV cache compression, CSA2, cheaper prefill, and efficient decoding can make powerful open-source AI models far more efficient to run.",
-      "source": "KDnuggets",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 68,
-      "date": "2026-09-14T12:00:09+00:00",
-      "ts": 1789387209.0
     },
     {
       "title": "Sam Altman calls for pacing AI development but promises rapid progress will continue",
@@ -990,28 +1034,6 @@
       "ts": 1789142693.0
     },
     {
-      "title": "Get AI models 'under control,' EU tells tech firms after hacks",
-      "link": "https://techxplore.com/news/2026-09-ai-eu-tech-firms-hacks.html",
-      "summary": "Top tech firms need to get their powerful artificial intelligence models \"under control,\" the European Union warned Friday after a series of hacks by AI agents.",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 42,
-      "date": "2026-09-11T13:40:07+00:00",
-      "ts": 1789134007.0
-    },
-    {
-      "title": "Claude users found ways around safeguards for bioweapons research",
-      "link": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
-      "summary": "Some dangerous biology looks much like legitimate research, complicating AI safeguards.",
-      "source": "Ars Technica",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 52,
-      "date": "2026-09-11T13:02:35+00:00",
-      "ts": 1789131755.0
-    },
-    {
       "title": "Open-Source AI & Open Models Reading List",
       "link": "https://www.interconnects.ai/p/open-source-ai-reading-list",
       "summary": "How to get up to speed on open models and their implications.",
@@ -1144,6 +1166,17 @@
       "ts": 1789084800.0
     },
     {
+      "title": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching",
+      "link": "https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/",
+      "summary": "Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network. Learn how model caching cuts cold starts from tens of minutes to seconds, how it works, and how to...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 53,
+      "date": "2026-09-10T21:37:49+00:00",
+      "ts": 1789076269.0
+    },
+    {
       "title": "Q&A: Researcher calls for independent testing of powerful AI models",
       "link": "https://techxplore.com/news/2026-09-qa-independent-powerful-ai.html",
       "summary": "For Nicolas Papernot, the secret to strengthening cybersecurity in the age of AI is transparency—sharing information about threats and allowing researchers to probe these systems before attackers do.",
@@ -1153,17 +1186,6 @@
       "relevance": 45,
       "date": "2026-09-10T18:00:01+00:00",
       "ts": 1789063201.0
-    },
-    {
-      "title": "A Candid Abacus AI Review: The All-in-One AI Platform for Professionals & Enterprises",
-      "link": "https://www.kdnuggets.com/2026/09/abacus/abacus-ai-candid-review/",
-      "summary": "If you’re paying for ChatGPT, Claude, and another AI tool simultaneously, this review is for you. It covers what an AI platform like Abacus AI actually includes, how the credit system works in practice, and whether it genuinely replaces your current stack or just adds to it.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 57,
-      "date": "2026-09-10T17:00:30+00:00",
-      "ts": 1789059630.0
     },
     {
       "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
@@ -1331,17 +1353,6 @@
       "ts": 1788968184.0
     },
     {
-      "title": "7 Approaches to Efficient LLM Training on Limited Hardware",
-      "link": "https://www.kdnuggets.com/7-approaches-to-efficient-llm-training-on-limited-hardware",
-      "summary": "Learn seven engineering techniques to train large language models on consumer GPUs without running out of memory.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 54,
-      "date": "2026-09-09T12:00:50+00:00",
-      "ts": 1788955250.0
-    },
-    {
       "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
       "link": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
       "summary": "A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
@@ -1397,26 +1408,15 @@
       "ts": 1788931986.0
     },
     {
-      "title": "Take on your most ambitious work with GPT-6 Astra on Amazon Bedrock",
-      "link": "https://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/",
-      "summary": "GPT-6 Astra from OpenAI is now generally available on Amazon Bedrock. It brings deeper reasoning and sharper judgment to your most demanding tasks, running on the Amazon Bedrock inference engine built for high performance, security, and scale.",
-      "source": "AWS Machine Learning",
+      "title": "Some thoughts on the Navier–Stokes Millennium Prize Problem",
+      "link": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+      "summary": "On the Navier–Stokes Millennium Prize Problem introduces an impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000. The...",
+      "source": "Simon Willison",
       "region": "global",
       "category": "modelo",
-      "relevance": 62,
-      "date": "2026-09-08T22:06:58+00:00",
-      "ts": 1788905218.0
-    },
-    {
-      "title": "How to Maximize GPT-6 Astra",
-      "link": "https://towardsdatascience.com/how-to-maximize-gpt-6-astra/",
-      "summary": "My first impressions of OpenAI's new frontier model The post How to Maximize GPT-6 Astra appeared first on Towards Data Science .",
-      "source": "Towards Data Science",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 54,
-      "date": "2026-09-08T18:00:35+00:00",
-      "ts": 1788890435.0
+      "relevance": 47,
+      "date": "2026-09-08T23:55:12+00:00",
+      "ts": 1788911712.0
     },
     {
       "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
@@ -1461,17 +1461,6 @@
       "relevance": 60,
       "date": "2026-09-07T23:54:54+00:00",
       "ts": 1788825294.0
-    },
-    {
-      "title": "Mercator ↔ Equal Earth",
-      "link": "https://simonwillison.net/2026/Sep/7/equal-earth/",
-      "summary": "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and Equal Earth using D3. Tags: geospatial , d3 , vibe-coding , gpt-6-astra",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 49,
-      "date": "2026-09-07T16:24:16+00:00",
-      "ts": 1788798256.0
     },
     {
       "title": "Last Week in AI #343 - GPT-6, OpenAI’s agents chatted on a wiki, Fable 5.1",
