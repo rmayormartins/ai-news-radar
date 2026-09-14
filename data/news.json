@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T20:00:08.837030+00:00",
-  "count": 151,
+  "generated_at": "2026-09-14T02:25:51.278360+00:00",
+  "count": 152,
   "china_count": 45,
-  "japan_count": 0,
+  "japan_count": 1,
   "sources": [
     {
       "source": "OpenAI",
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -277,7 +277,7 @@
     {
       "source": "The Japan Times",
       "status": "ok (30 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Japan Today",
@@ -296,6 +296,39 @@
     }
   ],
   "items": [
+    {
+      "title": "Shanghai AI Lab and SJTU Open-Source NCP-ArchPreview Latent-Space Model",
+      "link": "https://pandaily.com/shanghai-ai-lab-sjtu-ncp-archpreview-open-source",
+      "summary": "Shanghai Artificial Intelligence Laboratory and Shanghai Jiao Tong University's LUMIA Lab open-sourced NCP-ArchPreview, an 8.9B latent-space model that jointly trains next-concept and next-token prediction, matching a 7B baseline loss on ~51.3% of tokens.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-09-14T01:50:35+00:00",
+      "ts": 1789350635.0
+    },
+    {
+      "title": "DeepSeek Routes All V4-Pro API Traffic to V4.1-Flash at Flash Rates",
+      "link": "https://pandaily.com/deepseek-v4-pro-api-routes-to-v41-flash-sept-14",
+      "summary": "From 04:00 UTC on Sept. 14, DeepSeek serves every deepseek-v4-pro request with V4.1-Flash at Flash pricing until V4.1-Pro ships — an operational cutover for pinned Pro model IDs.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 60,
+      "date": "2026-09-14T01:48:17+00:00",
+      "ts": 1789350497.0
+    },
+    {
+      "title": "Formula One leader Kimi Antonelli plans to keep foot on gas in title race",
+      "link": "https://www.japantimes.co.jp/sports/2026/09/14/more-sports/kimiantonelli-title-race/",
+      "summary": "The 20-year-old Italian benefitted from the poor fortune of McLaren's Lando Norris to claim his eighth win of the season.",
+      "source": "The Japan Times",
+      "region": "japan",
+      "category": "modelo",
+      "relevance": 48,
+      "date": "2026-09-14T01:05:00+00:00",
+      "ts": 1789347900.0
+    },
     {
       "title": "Elevenlabs makes Music v2.5 available via app and API with free and pro tier options",
       "link": "https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/",
@@ -594,6 +627,17 @@
       "ts": 1789117200.0
     },
     {
+      "title": "Researcher Claims 6TB China LLM Router Logs Exposed Enterprise Credentials",
+      "link": "https://pandaily.com/china-llm-router-logs-6tb-credential-leak-researcher-claim",
+      "summary": "Security researcher Chaofan Shou said he obtained about 6TB of invocation logs from a Chinese large-model relay and found SSH keys, cloud credentials and tokens tied to enterprises. The report is presented as a supply-chain risk claim pending confirmation.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 54,
+      "date": "2026-09-11T07:58:17+00:00",
+      "ts": 1789113497.0
+    },
+    {
       "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
       "link": "https://techxplore.com/news/2026-09-anthropic-blocked-misuse-ai-biological.html",
       "summary": "Anthropic said Thursday it has blocked efforts by bad actors to use its artificial intelligence models for malicious activity such as cyberattacks, surveillance, and research that could have led to biological weapons.",
@@ -781,6 +825,17 @@
       "ts": 1789032384.0
     },
     {
+      "title": "JD.com Open-Sources JoyAI-EchoWM Interactive Audiovisual World Model at JDD",
+      "link": "https://pandaily.com/jd-joyai-echowm-open-source-interactive-audiovisual-world-model",
+      "summary": "JD.com open-sourced JoyAI-EchoWM and EchoWM-Flash at JDD, scoring about 81.6–81.7 on WBench Navigation with unified camera-intent control and native audio-video generation, alongside plans for a large domestic GPU cluster and logistics Superbrain 3.0.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 47,
+      "date": "2026-09-10T09:01:22+00:00",
+      "ts": 1789030882.0
+    },
+    {
       "title": "DeepSeek Ships V4.1 Flash GA With Causal-Encoder-Decoder MoE as V4 Pro Retires",
       "link": "https://pandaily.com/deepseek-v41-flash-official-ga-replaces-v4-pro",
       "summary": "DeepSeek has released V4.1 Flash for general availability, a 552B MoE model with Causal-Encoder-Decoder architecture and native vision. New Flash pricing started September 10, V4 Pro routes to Flash on September 14, and the app merges modes into one smart mode.",
@@ -823,39 +878,6 @@
       "relevance": 68,
       "date": "2026-09-10T06:21:43+00:00",
       "ts": 1789021303.0
-    },
-    {
-      "title": "Alibaba Opens Qwen3.8-2.4T-A95B Weights as First Qwen-Max-Class MoE",
-      "link": "https://pandaily.com/alibaba-qwen3-8-2-4t-a95b-open-weights-max-class-moe",
-      "summary": "Alibaba's Qwen team published open weights for Qwen3.8-2.4T-A95B, a 2.4-trillion-parameter MoE with 95 billion active parameters. Hybrid attention and long context target agentic workloads, with same-period SageMaker HyperPod and vLLM recipes.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 74,
-      "date": "2026-09-10T04:59:35+00:00",
-      "ts": 1789016375.0
-    },
-    {
-      "title": "Ant Group Opens Ling-3.0-flash-VL Multimodal Model With Vision Feedback Loop",
-      "link": "https://pandaily.com/ant-group-ling-3-0-flash-vl-open-source-vision-feedback",
-      "summary": "Ant Group and inclusionAI open-sourced Ling-3.0-flash-VL, a 124B MoE multimodal model with 5.5B active parameters. BF16 and FP8 weights arrived September 9 with a vision feedback loop for agentic GUI, front-end and medical tasks.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 69,
-      "date": "2026-09-10T04:59:01+00:00",
-      "ts": 1789016341.0
-    },
-    {
-      "title": "AgiBot Unveils GE-Act 2.0 Native World-Action Model With 100x Data Scaling",
-      "link": "https://pandaily.com/agibot-ge-act-2-native-world-action-model-scaling",
-      "summary": "AgiBot released GE-Act 2.0, a native world-action model pretrained from random initialization on embodied data. Scaling from 300 to 30,000 hours unlocked zero-shot skills such as towel folding across two robot embodiments.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 59,
-      "date": "2026-09-10T04:58:26+00:00",
-      "ts": 1789016306.0
     },
     {
       "title": ".blend URL Viewer",
@@ -977,17 +999,6 @@
       "relevance": 70,
       "date": "2026-09-09T11:00:00+00:00",
       "ts": 1788951600.0
-    },
-    {
-      "title": "Xiaomi XRing O3 Enters Mass Production as MiMo Goes On-Device and O100/D100 Target 2027",
-      "link": "https://pandaily.com/xiaomi-xring-o3-mass-production-mimo-o100-d100-roadmap",
-      "summary": "Xiaomi's XRing O3 SoC has entered mass production with MiMo running on-device, while the O100 AI accelerator and D100 intelligent-driving chip are targeted for commercial use in the first half of 2027. The move extends Xiaomi's in-house chip and on-device AI strategy beyond a single handset launch.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 64,
-      "date": "2026-09-09T09:57:25+00:00",
-      "ts": 1788947845.0
     },
     {
       "title": "Meta launches personal AI agent, Muse, emphasizes safety and privacy",
@@ -1771,6 +1782,17 @@
       "ts": 1786551276.0
     },
     {
+      "title": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
+      "link": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality/",
+      "summary": "Generative AI",
+      "source": "Google Research",
+      "region": "global",
+      "category": "geral",
+      "relevance": 24,
+      "date": "2026-08-12T09:51:00+00:00",
+      "ts": 1786528260.0
+    },
+    {
       "title": "From assistance to execution: How enterprises put AI to work",
       "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
       "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
@@ -1791,6 +1813,17 @@
       "relevance": 46,
       "date": "2026-08-11T17:00:00+00:00",
       "ts": 1786467600.0
+    },
+    {
+      "title": "With a feel for physics, AI models simulate a wider range of real-world scenarios",
+      "link": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
+      "summary": "“GeoPT” helps AI models understand the basics of physics so they can simulate how objects respond to things like wind and water more efficiently and accurately.",
+      "source": "MIT News (IA)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 31,
+      "date": "2026-08-10T19:25:00+00:00",
+      "ts": 1786389900.0
     },
     {
       "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
@@ -1846,6 +1879,17 @@
       "relevance": 60,
       "date": "2026-08-10T00:00:00+00:00",
       "ts": 1786320000.0
+    },
+    {
+      "title": "Solving the solvent problem",
+      "link": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
+      "summary": "By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option.",
+      "source": "MIT News (IA)",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 29,
+      "date": "2026-08-04T18:50:00+00:00",
+      "ts": 1785869400.0
     },
     {
       "title": "The benefits of medical AI assistance vary based on user expertise",
@@ -1912,39 +1956,6 @@
       "relevance": 69,
       "date": "2026-07-31T07:19:25+00:00",
       "ts": 1785482365.0
-    },
-    {
-      "title": "Daniela Rus receives Bavarian Minister-President's High-Tech Prize",
-      "link": "https://news.mit.edu/2026/daniela-rus-receives-bavarian-minister-presidents-high-tech-prize-0730",
-      "summary": "Director of CSAIL and MIT professor honored for her contributions to robotics, artificial intelligence, and autonomous systems.",
-      "source": "MIT News (IA)",
-      "region": "global",
-      "category": "geral",
-      "relevance": 35,
-      "date": "2026-07-30T21:00:00+00:00",
-      "ts": 1785445200.0
-    },
-    {
-      "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
-      "link": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
-      "summary": "General Science",
-      "source": "Google Research",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 39,
-      "date": "2026-07-30T20:36:36+00:00",
-      "ts": 1785443796.0
-    },
-    {
-      "title": "Connecting research to policy on Capitol Hill",
-      "link": "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730",
-      "summary": "MIT students and postdocs discussed science funding and research with policymakers in Washington during the MIT Science Policy Initiative’s annual Congressional Visit Days.",
-      "source": "MIT News (IA)",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 37,
-      "date": "2026-07-30T20:35:00+00:00",
-      "ts": 1785443700.0
     },
     {
       "title": "Study Linking Solar Farms to Bird Loss Draws Scrutiny in China",
