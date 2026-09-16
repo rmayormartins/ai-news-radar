@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-16T15:47:09.038151+00:00",
-  "count": 185,
-  "china_count": 44,
+  "generated_at": "2026-09-16T20:38:53.080613+00:00",
+  "count": 184,
+  "china_count": 43,
   "japan_count": 0,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1195 itens)",
+      "status": "ok (1197 itens)",
       "kept": 12
     },
     {
@@ -91,13 +91,13 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 9
+      "kept": 10
     },
     {
       "source": "MIT Tech Review",
@@ -116,8 +116,8 @@
     },
     {
       "source": "KDnuggets",
-      "status": "ok (10 itens)",
-      "kept": 4
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "TechXplore (IA/ML)",
@@ -132,17 +132,17 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "Ars Technica",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 3
     },
     {
       "source": "Wired AI",
@@ -296,6 +296,116 @@
     }
   ],
   "items": [
+    {
+      "title": "EU president warns AI agents \"escaping their environment\" are just a preview of what's coming",
+      "link": "https://the-decoder.com/eu-president-warns-ai-agents-escaping-their-environment-are-just-a-preview-of-whats-coming/",
+      "summary": "Ursula von der Leyen plans to invite the major frontier labs to talks and use the AI Act to help set global AI safety standards. She cited autonomous hacking and self-improving models as immediate risks. The article EU president warns AI agents \"escaping their environment\" are just a preview of what's coming appeared...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-09-16T19:02:25+00:00",
+      "ts": 1789585345.0
+    },
+    {
+      "title": "Fault tolerant distributed training on Amazon EKS using NVRx",
+      "link": "https://aws.amazon.com/blogs/machine-learning/fault-tolerant-distributed-training-on-amazon-eks-using-nvrx/",
+      "summary": "Integrate NVIDIA Resiliency Extension (NVRx) into PyTorch FSDP training on Amazon EKS to overlap checkpoint I/O with training and recover from GPU faults in seconds. This post covers async checkpointing, in-process restart, and ft_launcher in-job restart, with H100 benchmarks at 2 to 8 nodes showing 99%+ training...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-09-16T18:59:25+00:00",
+      "ts": 1789585165.0
+    },
+    {
+      "title": "Apple is reportedly building an enterprise AI server with its own M8 Ultra chips",
+      "link": "https://the-decoder.com/apple-is-reportedly-building-an-enterprise-ai-server-with-its-own-m8-ultra-chips/",
+      "summary": "According to The Information, Apple is working on an enterprise server with two or four M8 Ultra chips for the AI inference market, with a possible launch no earlier than 2029. Apple is considering Nvidia's NVLink Fusion technology to connect the chips. The project could get a boost from OpenAI and Anthropic already...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 54,
+      "date": "2026-09-16T18:16:27+00:00",
+      "ts": 1789582587.0
+    },
+    {
+      "title": "Claude Cowork and chat are now one Claude",
+      "link": "https://simonwillison.net/2026/Sep/16/one-claude/",
+      "summary": "Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 47,
+      "date": "2026-09-16T18:09:49+00:00",
+      "ts": 1789582189.0
+    },
+    {
+      "title": "Google Deepmind launches interdisciplinary institute to tackle the big questions around AGI",
+      "link": "https://the-decoder.com/google-deepmind-launches-interdisciplinary-institute-to-tackle-the-big-questions-around-agi/",
+      "summary": "Google Deepmind has founded the Deepmind Institute (DMI), an interdisciplinary research platform focused on AGI. Led by Demis Hassabis, Shane Legg, and James Manyika, the institute tackles questions around safety, governance, and control risks, drawing on experts from the arts, humanities, and policy alongside...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 46,
+      "date": "2026-09-16T17:00:28+00:00",
+      "ts": 1789578028.0
+    },
+    {
+      "title": "Your AI agents can now control your Google Home devices",
+      "link": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+      "summary": "Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 63,
+      "date": "2026-09-16T17:00:00+00:00",
+      "ts": 1789578000.0
+    },
+    {
+      "title": "Google will now let any AI agent run your smart home",
+      "link": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+      "summary": "Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model Context Protocol. Google Home MCP is a new integration that lets third-party AI agents control and monitor your smart home and...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 50,
+      "date": "2026-09-16T17:00:00+00:00",
+      "ts": 1789578000.0
+    },
+    {
+      "title": "Anthropic merges Claude Chat, Cowork, and more into a single product",
+      "link": "https://the-decoder.com/anthropic-merges-claude-chat-cowork-and-more-into-a-single-product/",
+      "summary": "Anthropic is merging Claude Chat and Cowork into a single product. Instead of users picking between interfaces, Claude now decides on its own whether a task needs a quick answer or a bigger workflow. The update also adds Claude Docs and Claude Slides for creating documents and presentations directly in the chat. Pro...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 50,
+      "date": "2026-09-16T16:31:41+00:00",
+      "ts": 1789576301.0
+    },
+    {
+      "title": "Claude comes for Gemini with its own take on Docs and Slides",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides",
+      "summary": "Claude is getting a pair of new tools today: Docs and Slides. They'll let you create documents and presentations through Claude chats, which you can export, edit, and share with other users. As part of the announcement, Anthropic is also simplifying how Claude chats work, merging regular chats and Cowork into \"one...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 57,
+      "date": "2026-09-16T16:30:00+00:00",
+      "ts": 1789576200.0
+    },
+    {
+      "title": "Anthropic merges Claude chat and Cowork in one interface",
+      "link": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+      "summary": "Anthropic is initially releasing these features to Pro and Max plan subscribers.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 46,
+      "date": "2026-09-16T16:30:00+00:00",
+      "ts": 1789576200.0
+    },
     {
       "title": "Former OpenAI researcher builds an AI model that judges options instead of writing text",
       "link": "https://the-decoder.com/former-openai-researcher-builds-an-ai-model-that-judges-options-instead-of-writing-text/",
@@ -869,6 +979,17 @@
       "ts": 1789523418.0
     },
     {
+      "title": "Glyph: A Multi-Strategy Agentic System for Column Description and Sensitivity-Ontology Tagging of Enterprise Data Catalogs",
+      "link": "https://machinelearning.apple.com/research/glyph-column-description-tagging",
+      "summary": "Enterprise data lakes accumulate tables faster than human stewards can document or classify them, leaving columns with missing descriptions and unassigned governance labels. This documentation debt undermines data discovery, access control, and regulatory compliance. We present Glyph, a production system that frames...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 51,
+      "date": "2026-09-16T00:00:00+00:00",
+      "ts": 1789516800.0
+    },
+    {
       "title": "Shared Selective Persistent Memory for Agentic LLM Systems",
       "link": "https://machinelearning.apple.com/research/shared-selective-persistent-memory",
       "summary": "Agentic LLM systems that generate code through multi-turn tool use face a fundamental context problem: each session starts from zero, discarding the configuration choices, domain constraints, data schemas, and tool-use patterns that made previous sessions productive. Naively persisting entire conversation histories is...",
@@ -891,17 +1012,6 @@
       "ts": 1789512427.0
     },
     {
-      "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
-      "link": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
-      "summary": "A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 60,
-      "date": "2026-09-15T20:12:53+00:00",
-      "ts": 1789503173.0
-    },
-    {
       "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
       "link": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/",
       "summary": "Algorithms & Theory",
@@ -911,6 +1021,17 @@
       "relevance": 34,
       "date": "2026-09-15T20:00:35+00:00",
       "ts": 1789502435.0
+    },
+    {
+      "title": "Ex-Google worker adds to AI alarm, warns of 'potential to kill us all'",
+      "link": "https://techxplore.com/news/2026-09-google-worker-ai-alarm-potential.html",
+      "summary": "A former Google DeepMind employee warned that rapidly advancing artificial intelligence could become uncontrollable and has \"the potential to kill us all,\" adding to a growing list of industry insiders sounding the alarm.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 45,
+      "date": "2026-09-15T19:20:08+00:00",
+      "ts": 1789500008.0
     },
     {
       "title": "Google launches Gemini 3.8 Live to take on OpenAI's GPT-Live-1 at a fraction of the cost",
@@ -946,17 +1067,6 @@
       "ts": 1789494668.0
     },
     {
-      "title": "Orchestration and Execution: How JONI Approaches the Agent Layer",
-      "link": "https://www.kdnuggets.com/2026/09/finpr/orchestration-and-execution-how-joni-approaches-the-agent-layer",
-      "summary": "Explore how JONI approaches AI agent orchestration with persistent runtimes, multi-model routing, execution capabilities, and reliability beyond simple content generation.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 45,
-      "date": "2026-09-15T17:00:24+00:00",
-      "ts": 1789491624.0
-    },
-    {
       "title": "Build an AI-powered product tagging system with Amazon SageMaker serverless model customization",
       "link": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/",
       "summary": "Manually tagging thousands of catalog products is slow and inconsistent. This walkthrough shows how to customize Qwen3-8B with supervised fine-tuning (SFT) and reinforcement learning with verifiable rewards (RLVR) on Amazon SageMaker serverless model customization, then deploy it for asynchronous inference to build a...",
@@ -988,17 +1098,6 @@
       "relevance": 44,
       "date": "2026-09-15T15:00:00+00:00",
       "ts": 1789484400.0
-    },
-    {
-      "title": "After warning AI is too dangerous, Bill Gates bets a billion on its upside",
-      "link": "https://the-decoder.com/after-warning-ai-is-too-dangerous-bill-gates-bets-a-billion-on-its-upside/",
-      "summary": "The Gates Foundation is investing at least a billion dollars over two years to make AI tools more widely available in health, education, and agriculture. Bill Gates warns that more than 90 percent of the training data behind early language models came from English sources, and that speech recognition fails 60 percent...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 46,
-      "date": "2026-09-15T14:26:48+00:00",
-      "ts": 1789482408.0
     },
     {
       "title": "AI imagines a harsher social world, expecting punishment where people expect inaction",
@@ -1056,28 +1155,6 @@
       "ts": 1789475414.0
     },
     {
-      "title": "5 Free Microsoft GitHub Courses to Learn Data Science and Artificial Intelligence",
-      "link": "https://www.kdnuggets.com/5-free-microsoft-github-courses-to-learn-data-science-and-artificial-intelligence",
-      "summary": "Explore five free Microsoft GitHub courses covering data science, machine learning, artificial intelligence, generative AI, LLMs, RAG, fine-tuning, and AI agents.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 58,
-      "date": "2026-09-15T12:00:29+00:00",
-      "ts": 1789473629.0
-    },
-    {
-      "title": "Apple brings a fully revamped Siri built on Google's Gemini, but not to the EU",
-      "link": "https://the-decoder.com/apple-brings-a-fully-revamped-siri-built-on-googles-gemini-but-not-to-the-eu/",
-      "summary": "Apple is shipping its rebuilt \"Siri AI\" after years of delay, built on Google's Gemini models and running partly on the device, partly through Private Cloud Compute. Early testers praise multi-step requests and screen context, but report hallucinations and gaps with personal context. In the EU, the assistant stays...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 62,
-      "date": "2026-09-15T10:33:03+00:00",
-      "ts": 1789468383.0
-    },
-    {
       "title": "DeepSeek Open-Sources Harness Agent Runtime With Everything-Is-a-Plugin Design",
       "link": "https://pandaily.com/deepseek-harness-open-source-agent-framework",
       "summary": "DeepSeek released DeepSeek Harness, an MIT-licensed agent runtime in developer preview where models, tools, sessions, sandboxes and UI are Cordis plugins, with npm packages advancing through the v0.1.5-rc line.",
@@ -1098,17 +1175,6 @@
       "relevance": 40,
       "date": "2026-09-15T09:30:05+00:00",
       "ts": 1789464605.0
-    },
-    {
-      "title": "Not everyone is convinced that Big AI's proposed slowdown is really about safety",
-      "link": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety/",
-      "summary": "OpenAI, Anthropic, and Google want to slow down frontier AI development, citing safety concerns. But critics from across the industry and politics are pushing back. Cohere CEO Aidan Gomez calls the initiative a \"cartel by another name\" designed to shut out competitors, and the White House and Trump himself are...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "geral",
-      "relevance": 26,
-      "date": "2026-09-15T09:04:36+00:00",
-      "ts": 1789463076.0
     },
     {
       "title": "Tsingway and BAAI Open-Source Open3D-PIMC for 3D Compute Chips Under FlagOS",
@@ -1133,17 +1199,6 @@
       "ts": 1789438060.0
     },
     {
-      "title": "OpenAI stuck fighting Musk antitrust suit after Apple finds a way out",
-      "link": "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/",
-      "summary": "Musk stops attacking Apple over ChatGPT integration but not OpenAI.",
-      "source": "Ars Technica",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 48,
-      "date": "2026-09-14T19:45:13+00:00",
-      "ts": 1789415113.0
-    },
-    {
       "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
       "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
       "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
@@ -1166,17 +1221,6 @@
       "ts": 1789408340.0
     },
     {
-      "title": "Harder, better, safer, stronger: Three-way AI improves cybersecurity",
-      "link": "https://techxplore.com/news/2026-09-harder-safer-stronger-ai-cybersecurity.html",
-      "summary": "A new deep-learning architecture could deflect cyberattacks by combining several methods for analyzing network traffic, according to research published in the International Journal of Business Intelligence and Data Mining. The approach addresses a weakness in standard intrusion-detection systems, which struggle with...",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 51,
-      "date": "2026-09-14T17:40:01+00:00",
-      "ts": 1789407601.0
-    },
-    {
       "title": "AI agents blew the whistle on their cheating colleagues",
       "link": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
       "summary": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep swarms of...",
@@ -1197,17 +1241,6 @@
       "relevance": 56,
       "date": "2026-09-14T15:47:12+00:00",
       "ts": 1789400832.0
-    },
-    {
-      "title": "Why DeepSeek-V4.1-Flash Is Such an Exciting Open Model Release",
-      "link": "https://www.kdnuggets.com/why-deepseek-v4-1-flash-is-such-an-exciting-open-model-release",
-      "summary": "DeepSeek-V4.1-Flash shows how Causal Encoder-Decoder architecture, MoE, KV cache compression, CSA2, cheaper prefill, and efficient decoding can make powerful open-source AI models far more efficient to run.",
-      "source": "KDnuggets",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 68,
-      "date": "2026-09-14T12:00:09+00:00",
-      "ts": 1789387209.0
     },
     {
       "title": "Moonshot Rolls Out Kimi K2.8 Preview Across Kimi Code and Work",
@@ -1375,17 +1408,6 @@
       "ts": 1789084800.0
     },
     {
-      "title": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
-      "link": "https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/",
-      "summary": "Amazon SageMaker Inference now offers prefix-aware routing, a routing strategy that sends requests sharing the same prompt prefix to the same instance so the KV cache stays warm. In benchmarks on Llama 3.1 70B, it reduced P50 time-to-first-token by up to 77% and raised KV cache hit rates from about 25% to over 80%.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 49,
-      "date": "2026-09-10T21:58:09+00:00",
-      "ts": 1789077489.0
-    },
-    {
       "title": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching",
       "link": "https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/",
       "summary": "Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network. Learn how model caching cuts cold starts from tens of minutes to seconds, how it works, and how to...",
@@ -1395,17 +1417,6 @@
       "relevance": 53,
       "date": "2026-09-10T21:37:49+00:00",
       "ts": 1789076269.0
-    },
-    {
-      "title": "A Candid Abacus AI Review: The All-in-One AI Platform for Professionals & Enterprises",
-      "link": "https://www.kdnuggets.com/2026/09/abacus/abacus-ai-candid-review/",
-      "summary": "If you’re paying for ChatGPT, Claude, and another AI tool simultaneously, this review is for you. It covers what an AI platform like Abacus AI actually includes, how the credit system works in practice, and whether it genuinely replaces your current stack or just adds to it.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 57,
-      "date": "2026-09-10T17:00:30+00:00",
-      "ts": 1789059630.0
     },
     {
       "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
@@ -1582,17 +1593,6 @@
       "relevance": 58,
       "date": "2026-09-08T06:30:37+00:00",
       "ts": 1788849037.0
-    },
-    {
-      "title": "llm 0.35",
-      "link": "https://simonwillison.net/2026/Sep/7/llm/",
-      "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 60,
-      "date": "2026-09-07T23:54:54+00:00",
-      "ts": 1788825294.0
     },
     {
       "title": "Last Week in AI #343 - GPT-6, OpenAI’s agents chatted on a wiki, Fable 5.1",
@@ -1934,17 +1934,6 @@
       "relevance": 71,
       "date": "2026-08-26T06:46:22+00:00",
       "ts": 1787726782.0
-    },
-    {
-      "title": "IDEA Prune: An Integrated Enlarge-and-Prune Pipeline in Generative Language Model Pretraining",
-      "link": "https://machinelearning.apple.com/research/idea-prune-pipeline",
-      "summary": "Recent advancements in large language models have intensified the need for efficient and deployable models within limited inference budgets. Structured pruning pipelines have shown promise in token efficiency compared to training target-size models from scratch. In this paper, we advocate incorporating enlarged model...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 67,
-      "date": "2026-08-26T00:00:00+00:00",
-      "ts": 1787702400.0
     },
     {
       "title": "PROOF-Gen: From Optimized Data to Better Distillation",
