@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-17T15:53:43.461992+00:00",
-  "count": 182,
+  "generated_at": "2026-09-17T20:45:31.401135+00:00",
+  "count": 184,
   "china_count": 44,
   "japan_count": 0,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1206 itens)",
+      "status": "ok (1207 itens)",
       "kept": 12
     },
     {
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -132,7 +132,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 3
     },
     {
       "source": "Ars Technica",
@@ -297,7 +297,73 @@
   ],
   "items": [
     {
-      "title": "GPT-6 Astra: Pokemon champion in 18 hours, potato farmer after one Creeper mishap",
+      "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+      "link": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
+      "summary": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 50,
+      "date": "2026-09-17T20:34:24+00:00",
+      "ts": 1789677264.0
+    },
+    {
+      "title": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
+      "link": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+      "summary": "Newly unsealed court filings show Microsoft privately called OpenAI's data practices \"theft\" while both companies scraped paywalled Times content, built datasets from it, and warned internally it would gut publishers.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 43,
+      "date": "2026-09-17T19:46:08+00:00",
+      "ts": 1789674368.0
+    },
+    {
+      "title": "OpenAI reportedly closes in on solving the Hodge conjecture, its second Millennium Prize Problem",
+      "link": "https://the-decoder.com/openai-reportedly-closes-in-on-solving-the-hodge-conjecture-its-second-millennium-prize-problem/",
+      "summary": "OpenAI is reportedly tackling the next Millennium Prize Problem. After its still unconfirmed solution to the Navier-Stokes problem, the company is now working on the Hodge conjecture. Employees expect a solution soon, but any announcement could be delayed. After the PR crisis around Navier-Stokes, OpenAI wants to get...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "geral",
+      "relevance": 22,
+      "date": "2026-09-17T19:05:56+00:00",
+      "ts": 1789671956.0
+    },
+    {
+      "title": "Anthropic keeps pushing Claude Code toward autonomous coding with new parallel agent workflows",
+      "link": "https://the-decoder.com/anthropic-keeps-pushing-claude-code-toward-autonomous-coding-with-new-parallel-agent-workflows/",
+      "summary": "Anthropic has rebuilt Projects in Claude Code. A coordinator now splits tasks across parallel cloud threads that independently open pull requests and run tests. All threads share a common memory. The beta is available to select Pro and Max subscribers. The article Anthropic keeps pushing Claude Code toward autonomous...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 63,
+      "date": "2026-09-17T18:35:01+00:00",
+      "ts": 1789670101.0
+    },
+    {
+      "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
+      "link": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
+      "summary": "Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods for training and monitoring open models.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 60,
+      "date": "2026-09-17T17:15:59+00:00",
+      "ts": 1789665359.0
+    },
+    {
+      "title": "Implementing defense-in-depth authorization for MCP tools on Amazon Quick",
+      "link": "https://aws.amazon.com/blogs/machine-learning/implementing-defense-in-depth-authorization-for-mcp-tools-on-amazon-quick/",
+      "summary": "Learn how to enforce defense-in-depth authorization for Model Context Protocol (MCP) tools on Amazon Quick. This walkthrough wires Microsoft Entra ID group and claims-based JWTs through an Amazon Bedrock AgentCore Gateway interceptor to apply per-user, per-tool role-based and attribute-based access control, with a...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-09-17T15:30:17+00:00",
+      "ts": 1789659017.0
+    },
+    {
+      "title": "GPT-6 Astra crushes Pokemon, Factorio, and Fallout 3 then spirals into Minecraft potato farming after one bad Creeper",
       "link": "https://the-decoder.com/gpt-6-astra-pokemon-champion-in-18-hours-potato-farmer-after-one-creeper-mishap/",
       "summary": "OpenAI's GPT-6 Astra shows a sharp jump in video games. Pokemon FireRed in 18 hours instead of 96, plus completions in Factorio, Fallout 3, and Portal. Why? The model distills experience into compact rules. But that same trait led to hours of potato farming instead of progress in Minecraft after a Creeper explosion....",
       "source": "The Decoder",
@@ -350,17 +416,6 @@
       "relevance": 58,
       "date": "2026-09-17T11:00:02+00:00",
       "ts": 1789642802.0
-    },
-    {
-      "title": "Comp AI sets eyes on a continuously agentic future for security and compliance",
-      "link": "https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince/",
-      "summary": "Comp AI, a cybersecurity and compliance startup, announced a $34 million Series A round led by Roo Capital and Grand Ventures.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 43,
-      "date": "2026-09-17T11:00:00+00:00",
-      "ts": 1789642800.0
     },
     {
       "title": "OpenRouter's staggering token chart is the AI bubble debate in a single image",
@@ -957,17 +1012,6 @@
       "ts": 1789578000.0
     },
     {
-      "title": "Anthropic merges Claude Chat, Cowork, and more into a single product",
-      "link": "https://the-decoder.com/anthropic-merges-claude-chat-cowork-and-more-into-a-single-product/",
-      "summary": "Anthropic is merging Claude Chat and Cowork into a single product. Instead of users picking between interfaces, Claude now decides on its own whether a task needs a quick answer or a bigger workflow. The update also adds Claude Docs and Claude Slides for creating documents and presentations directly in the chat. Pro...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 50,
-      "date": "2026-09-16T16:31:41+00:00",
-      "ts": 1789576301.0
-    },
-    {
       "title": "Claude comes for Gemini with its own take on Docs and Slides",
       "link": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides",
       "summary": "Claude is getting a pair of new tools today: Docs and Slides. They'll let you create documents and presentations through Claude chats, which you can export, edit, and share with other users. As part of the announcement, Anthropic is also simplifying how Claude chats work, merging regular chats and Cowork into \"one...",
@@ -977,17 +1021,6 @@
       "relevance": 57,
       "date": "2026-09-16T16:30:00+00:00",
       "ts": 1789576200.0
-    },
-    {
-      "title": "Former OpenAI researcher builds an AI model that judges options instead of writing text",
-      "link": "https://the-decoder.com/former-openai-researcher-builds-an-ai-model-that-judges-options-instead-of-writing-text/",
-      "summary": "TypeSafe AI, founded by former OpenAI researcher Diogo Almeida, is releasing a model that deliberately generates no text. Instead of chat responses, \"Jev\" delivers pure classifications for software, with response times starting at 70 milliseconds and extremely low token prices. The approach doesn't protect against...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 53,
-      "date": "2026-09-16T15:19:19+00:00",
-      "ts": 1789571959.0
     },
     {
       "title": "Single-Phase Direct Liquid Cooling Is Proven for the Next Decade of Ultra-Dense Compute",
@@ -1362,17 +1395,6 @@
       "relevance": 43,
       "date": "2026-09-11T18:26:38+00:00",
       "ts": 1789151198.0
-    },
-    {
-      "title": "Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload",
-      "link": "https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/",
-      "summary": "Comparing models on dollars per million tokens misses what production workloads actually pay for: outcomes. This post shares an open-source benchmarking harness that measures cost per correct answer, agent trajectory cost, and rubric-graded deliverable quality across OpenAI models on Amazon Bedrock.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 56,
-      "date": "2026-09-11T18:24:38+00:00",
-      "ts": 1789151078.0
     },
     {
       "title": "Quoting huggingface.co/security.txt",
