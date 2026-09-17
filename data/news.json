@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-17T10:39:44.001061+00:00",
-  "count": 186,
-  "china_count": 46,
+  "generated_at": "2026-09-17T15:53:43.461992+00:00",
+  "count": 182,
+  "china_count": 44,
   "japan_count": 0,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1198 itens)",
+      "status": "ok (1206 itens)",
       "kept": 12
     },
     {
@@ -116,8 +116,8 @@
     },
     {
       "source": "KDnuggets",
-      "status": "ok (10 itens)",
-      "kept": 4
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "TechXplore (IA/ML)",
@@ -132,7 +132,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Ars Technica",
@@ -187,7 +187,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "Synced (机器之心)",
@@ -296,6 +296,72 @@
     }
   ],
   "items": [
+    {
+      "title": "GPT-6 Astra: Pokemon champion in 18 hours, potato farmer after one Creeper mishap",
+      "link": "https://the-decoder.com/gpt-6-astra-pokemon-champion-in-18-hours-potato-farmer-after-one-creeper-mishap/",
+      "summary": "OpenAI's GPT-6 Astra shows a sharp jump in video games. Pokemon FireRed in 18 hours instead of 96, plus completions in Factorio, Fallout 3, and Portal. Why? The model distills experience into compact rules. But that same trait led to hours of potato farming instead of progress in Minecraft after a Creeper explosion....",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 64,
+      "date": "2026-09-17T14:42:05+00:00",
+      "ts": 1789656125.0
+    },
+    {
+      "title": "An OpenAI model kept slipping prompt injections into its own notes, and researchers still aren't sure why",
+      "link": "https://the-decoder.com/an-openai-model-kept-slipping-prompt-injections-into-its-own-notes-and-researchers-still-arent-sure-why/",
+      "summary": "OpenAI is publishing a framework for systematically reporting AI misalignment and launching it with six reports. In one case an unreleased model from the Astra family wrote prompt injections into its own summaries during training, including a \"Breach Alert\" intended to override subsequent instructions. The article An...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 65,
+      "date": "2026-09-17T13:37:55+00:00",
+      "ts": 1789652275.0
+    },
+    {
+      "title": "Inside the suddenly explosive world of AI safety",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
+      "summary": "On a sunny July day in Berkeley, California, the country's top AI safety researchers gathered on an unmarked floor of an unmarked building. They had come together for a \"war room\" to dissect the high-profile cybersecurity incident that had rocked the AI industry hours earlier. An unreleased OpenAI model had gone...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 47,
+      "date": "2026-09-17T11:30:00+00:00",
+      "ts": 1789644600.0
+    },
+    {
+      "title": "AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer",
+      "link": "https://the-decoder.com/ai-agent-swarms-are-a-massive-waste-of-tokens-with-zero-quality-gain-says-openai-codex-developer/",
+      "summary": "OpenAI Codex developer Eric Provencher warns that running more than two parallel sub-agents almost always burns tokens without improving quality because agents don't trust each other and end up double-checking everyone's work. He calls this the \"coordination tax\" and points to a project where 1,393 agents spent...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 46,
+      "date": "2026-09-17T11:03:32+00:00",
+      "ts": 1789643012.0
+    },
+    {
+      "title": "When Does Graph RAG Actually Add Value? A Hands-On Experiment",
+      "link": "https://towardsdatascience.com/when-does-graph-rag-actually-add-value-a-hands-on-experiment/",
+      "summary": "I built four AI retrieval architectures on a laptop and benchmarked them against the same set of documents and questions. Here’s what the results taught me about the trade-offs between plain RAG, graph RAG, and simply putting everything into a frontier model’s context window. The post When Does Graph RAG Actually Add...",
+      "source": "Towards Data Science",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 58,
+      "date": "2026-09-17T11:00:02+00:00",
+      "ts": 1789642802.0
+    },
+    {
+      "title": "Comp AI sets eyes on a continuously agentic future for security and compliance",
+      "link": "https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince/",
+      "summary": "Comp AI, a cybersecurity and compliance startup, announced a $34 million Series A round led by Roo Capital and Grand Ventures.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 43,
+      "date": "2026-09-17T11:00:00+00:00",
+      "ts": 1789642800.0
+    },
     {
       "title": "OpenRouter's staggering token chart is the AI bubble debate in a single image",
       "link": "https://the-decoder.com/openrouters-staggering-token-chart-is-the-ai-bubble-debate-in-a-single-image/",
@@ -770,6 +836,17 @@
       "ts": 1789610361.0
     },
     {
+      "title": "REVERSAL-BENCH: A Reversibility Axis and Reset Oracle for Measuring the Reset-Free RL Cliff",
+      "link": "https://machinelearning.apple.com/research/reversal-bench-rl-cliff",
+      "summary": "A central goal of autonomous reinforcement learning is continuous policy training without external resets. However, existing paradigms largely depend on underlying environmental reversibility, a property absent in real world manipulation, where events such as pushing objects off tables or spilling granular substances...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 54,
+      "date": "2026-09-17T00:00:00+00:00",
+      "ts": 1789603200.0
+    },
+    {
       "title": "datasette 1.0a40",
       "link": "https://simonwillison.net/2026/Sep/16/datasette/",
       "summary": "Release: datasette 1.0a40 Same security fix as 0.65.5 , plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia . I've migrated Datasette to httpx2 for features like the internal datasette.client.get()...",
@@ -812,6 +889,17 @@
       "relevance": 57,
       "date": "2026-09-16T19:02:25+00:00",
       "ts": 1789585345.0
+    },
+    {
+      "title": "Improving HCLS AI reasoning with open-source agent skills",
+      "link": "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/",
+      "summary": "AI agents on foundation models often misapply healthcare and life sciences decision frameworks, citing the right guideline but applying it incorrectly. This post shares 38 open-source agent skills across 11 HCLS domains that close this gap, with installation steps, three worked use cases, and a 410-prompt evaluation...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 48,
+      "date": "2026-09-16T19:00:00+00:00",
+      "ts": 1789585200.0
     },
     {
       "title": "Fault tolerant distributed training on Amazon EKS using NVRx",
@@ -858,17 +946,6 @@
       "ts": 1789578028.0
     },
     {
-      "title": "Your AI agents can now control your Google Home devices",
-      "link": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
-      "summary": "Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 63,
-      "date": "2026-09-16T17:00:00+00:00",
-      "ts": 1789578000.0
-    },
-    {
       "title": "Google will now let any AI agent run your smart home",
       "link": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
       "summary": "Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model Context Protocol. Google Home MCP is a new integration that lets third-party AI agents control and monitor your smart home and...",
@@ -902,17 +979,6 @@
       "ts": 1789576200.0
     },
     {
-      "title": "Anthropic merges Claude chat and Cowork in one interface",
-      "link": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
-      "summary": "Anthropic is initially releasing these features to Pro and Max plan subscribers.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 46,
-      "date": "2026-09-16T16:30:00+00:00",
-      "ts": 1789576200.0
-    },
-    {
       "title": "Former OpenAI researcher builds an AI model that judges options instead of writing text",
       "link": "https://the-decoder.com/former-openai-researcher-builds-an-ai-model-that-judges-options-instead-of-writing-text/",
       "summary": "TypeSafe AI, founded by former OpenAI researcher Diogo Almeida, is releasing a model that deliberately generates no text. Instead of chat responses, \"Jev\" delivers pure classifications for software, with response times starting at 70 milliseconds and extremely low token prices. The approach doesn't protect against...",
@@ -922,28 +988,6 @@
       "relevance": 53,
       "date": "2026-09-16T15:19:19+00:00",
       "ts": 1789571959.0
-    },
-    {
-      "title": "Mozilla's new Smart Window assistant runs on Mistral's models",
-      "link": "https://the-decoder.com/mozillas-new-smart-window-assistant-runs-on-mistrals-models/",
-      "summary": "Mistral and Mozilla are teaming up to offer AI-powered browsing that puts privacy first. The article Mozilla's new Smart Window assistant runs on Mistral's models appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 57,
-      "date": "2026-09-16T15:01:38+00:00",
-      "ts": 1789570898.0
-    },
-    {
-      "title": "Political opposites unite in Washington to rein in AI",
-      "link": "https://the-decoder.com/political-opposites-unite-in-washington-to-rein-in-ai/",
-      "summary": "From Bernie Sanders to Steve Bannon, political opposites in Washington are jointly demanding hard brakes on artificial intelligence. Sanders wants a construction freeze on data centers, while OpenAI is backing the FRONTIER Act and its mandatory outside safety audits for the first time. Despite Trump's skepticism,...",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 47,
-      "date": "2026-09-16T14:59:58+00:00",
-      "ts": 1789570798.0
     },
     {
       "title": "Single-Phase Direct Liquid Cooling Is Proven for the Next Decade of Ultra-Dense Compute",
@@ -988,17 +1032,6 @@
       "relevance": 64,
       "date": "2026-09-16T10:46:58+00:00",
       "ts": 1789555618.0
-    },
-    {
-      "title": "Nearly one in five AI researchers already expected an extinction scenario from AI back in 2024",
-      "link": "https://the-decoder.com/nearly-one-in-five-ai-researchers-already-expected-an-extinction-scenario-from-ai-back-in-2024/",
-      "summary": "Anthropic researcher Jacob Coxon sparked an intense debate about existential AI risks with a single tweet. OpenAI researcher Daniel Selsam warns of a \"ticking time bomb,\" and a former Deepmind researcher says AI could kill us all. In a survey of more than 1,500 leading AI researchers, the average estimated probability...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 52,
-      "date": "2026-09-16T10:20:02+00:00",
-      "ts": 1789554002.0
     },
     {
       "title": "How AI models decide not to answer a question",
@@ -1122,17 +1155,6 @@
       "ts": 1789516800.0
     },
     {
-      "title": "How Value Induction Reshapes LLM Behaviour",
-      "link": "https://machinelearning.apple.com/research/value-induction-llm-behaviour",
-      "summary": "Conversational Large Language Models are post-trained on language that expresses specific behavioural traits, such as curiosity, open-mindedness, and empathy, and values, such as helpfulness, harmlessness, and honesty. This is done to increase utility, ensure safety, and improve the experience of the people...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 44,
-      "date": "2026-09-16T00:00:00+00:00",
-      "ts": 1789516800.0
-    },
-    {
       "title": "Gemini Live audio",
       "link": "https://simonwillison.net/2026/Sep/15/gemini-live/",
       "summary": "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the documentation and had it build me this web UI for trying out the new models. You can select a...",
@@ -1166,17 +1188,6 @@
       "ts": 1789494668.0
     },
     {
-      "title": "Orchestration and Execution: How JONI Approaches the Agent Layer",
-      "link": "https://www.kdnuggets.com/2026/09/finpr/orchestration-and-execution-how-joni-approaches-the-agent-layer",
-      "summary": "Explore how JONI approaches AI agent orchestration with persistent runtimes, multi-model routing, execution capabilities, and reliability beyond simple content generation.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 45,
-      "date": "2026-09-15T17:00:24+00:00",
-      "ts": 1789491624.0
-    },
-    {
       "title": "Build an AI-powered product tagging system with Amazon SageMaker serverless model customization",
       "link": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/",
       "summary": "Manually tagging thousands of catalog products is slow and inconsistent. This walkthrough shows how to customize Qwen3-8B with supervised fine-tuning (SFT) and reinforcement learning with verifiable rewards (RLVR) on Amazon SageMaker serverless model customization, then deploy it for asynchronous inference to build a...",
@@ -1197,17 +1208,6 @@
       "relevance": 32,
       "date": "2026-09-15T16:00:44+00:00",
       "ts": 1789488044.0
-    },
-    {
-      "title": "Meta’s new One subscriptions put a price on social media and AI",
-      "link": "https://www.theverge.com/tech/995453/meta-one-subscriptions-ai",
-      "summary": "Shortly after launching its new do-everything AI assistant Muse, Meta's launching subscription bundles that pair its standalone app subscriptions with extra AI usage. Some of the new Meta One bundles were in testing earlier this year, but are now available globally starting today, with several tiers for individual...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 44,
-      "date": "2026-09-15T15:00:00+00:00",
-      "ts": 1789484400.0
     },
     {
       "title": "AI imagines a harsher social world, expecting punishment where people expect inaction",
@@ -1265,17 +1265,6 @@
       "ts": 1789475414.0
     },
     {
-      "title": "5 Free Microsoft GitHub Courses to Learn Data Science and Artificial Intelligence",
-      "link": "https://www.kdnuggets.com/5-free-microsoft-github-courses-to-learn-data-science-and-artificial-intelligence",
-      "summary": "Explore five free Microsoft GitHub courses covering data science, machine learning, artificial intelligence, generative AI, LLMs, RAG, fine-tuning, and AI agents.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 58,
-      "date": "2026-09-15T12:00:29+00:00",
-      "ts": 1789473629.0
-    },
-    {
       "title": "Forget AI KPIs: how China’s tech giants are rationing tokens for employees",
       "link": "https://www.scmp.com/tech/big-tech/article/3367593/forget-ai-kpis-how-chinas-tech-giants-are-rationing-tokens-employees?utm_source=rss_feed",
       "summary": "When generative artificial intelligence first swept through China’s technology sector, workers faced a clear directive from management: use AI and use it often. Consuming vast numbers of AI tokens – the basic unit of computing power needed to process text or write code – became a badge of honour, with companies often...",
@@ -1331,17 +1320,6 @@
       "ts": 1789400832.0
     },
     {
-      "title": "Why DeepSeek-V4.1-Flash Is Such an Exciting Open Model Release",
-      "link": "https://www.kdnuggets.com/why-deepseek-v4-1-flash-is-such-an-exciting-open-model-release",
-      "summary": "DeepSeek-V4.1-Flash shows how Causal Encoder-Decoder architecture, MoE, KV cache compression, CSA2, cheaper prefill, and efficient decoding can make powerful open-source AI models far more efficient to run.",
-      "source": "KDnuggets",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 68,
-      "date": "2026-09-14T12:00:09+00:00",
-      "ts": 1789387209.0
-    },
-    {
       "title": "New method enables AI for safety-critical situations",
       "link": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
       "summary": "The “HardFlow” algorithm could help generative AI models produce high-quality outputs that obey strict requirements when “pretty close” doesn’t cut it.",
@@ -1375,6 +1353,17 @@
       "ts": 1789221602.0
     },
     {
+      "title": "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations",
+      "link": "https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/",
+      "summary": "Multi-agent systems fail in ways traditional monitoring misses. This post presents a dual-layer approach to monitoring production agents: Amazon Bedrock AgentCore Evaluations for continuous quality scoring and AWS DevOps Agent for autonomous infrastructure investigation, shown on a four-agent airline reservation...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 43,
+      "date": "2026-09-11T18:26:38+00:00",
+      "ts": 1789151198.0
+    },
+    {
       "title": "Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload",
       "link": "https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/",
       "summary": "Comparing models on dollars per million tokens misses what production workloads actually pay for: outcomes. This post shares an open-source benchmarking harness that measures cost per correct answer, agent trajectory cost, and rubric-graded deliverable quality across OpenAI models on Amazon Bedrock.",
@@ -1384,17 +1373,6 @@
       "relevance": 56,
       "date": "2026-09-11T18:24:38+00:00",
       "ts": 1789151078.0
-    },
-    {
-      "title": "Build interactive MCP Apps using Amazon Bedrock AgentCore",
-      "link": "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/",
-      "summary": "Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic standard, the same server delivers the same rich experience across AI hosts like ChatGPT and Claude that support the extension.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 61,
-      "date": "2026-09-11T18:23:17+00:00",
-      "ts": 1789150997.0
     },
     {
       "title": "Quoting huggingface.co/security.txt",
@@ -1450,28 +1428,6 @@
       "relevance": 47,
       "date": "2026-09-11T00:00:00+00:00",
       "ts": 1789084800.0
-    },
-    {
-      "title": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching",
-      "link": "https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/",
-      "summary": "Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network. Learn how model caching cuts cold starts from tens of minutes to seconds, how it works, and how to...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 53,
-      "date": "2026-09-10T21:37:49+00:00",
-      "ts": 1789076269.0
-    },
-    {
-      "title": "A Candid Abacus AI Review: The All-in-One AI Platform for Professionals & Enterprises",
-      "link": "https://www.kdnuggets.com/2026/09/abacus/abacus-ai-candid-review/",
-      "summary": "If you’re paying for ChatGPT, Claude, and another AI tool simultaneously, this review is for you. It covers what an AI platform like Abacus AI actually includes, how the credit system works in practice, and whether it genuinely replaces your current stack or just adds to it.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 57,
-      "date": "2026-09-10T17:00:30+00:00",
-      "ts": 1789059630.0
     },
     {
       "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
