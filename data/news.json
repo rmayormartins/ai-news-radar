@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T10:17:48.004253+00:00",
-  "count": 150,
-  "china_count": 44,
+  "generated_at": "2026-09-20T15:06:25.077103+00:00",
+  "count": 140,
+  "china_count": 34,
   "japan_count": 1,
   "sources": [
     {
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -206,8 +206,8 @@
     },
     {
       "source": "Pandaily",
-      "status": "ok (20 itens)",
-      "kept": 10
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "TechNode",
@@ -297,6 +297,28 @@
   ],
   "items": [
     {
+      "title": "GraphRAG: A Practitioner's Guide to 6 Advanced Architectural Patterns",
+      "link": "https://towardsdatascience.com/graphrag-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+      "summary": "Beyond basic graph retrieval: six production-oriented architectures for combining semantic search, knowledge graphs, and LLM reasoning. The post GraphRAG: A Practitioner's Guide to 6 Advanced Architectural Patterns appeared first on Towards Data Science .",
+      "source": "Towards Data Science",
+      "region": "global",
+      "category": "pesquisa",
+      "relevance": 48,
+      "date": "2026-09-20T15:00:01+00:00",
+      "ts": 1789916401.0
+    },
+    {
+      "title": "Runway wants to turn AI video generation into a live stream you control in real time",
+      "link": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/",
+      "summary": "Runway wants to stream AI video as users prompt it, rather than make them wait for finished clips. The approach builds on GWM-1, its world model that generates video frame by frame. Beyond creative tools, Runway sees uses in robotics and autonomous driving. The article Runway wants to turn AI video generation into a...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 44,
+      "date": "2026-09-20T11:56:59+00:00",
+      "ts": 1789905419.0
+    },
+    {
       "title": "Simulated students that make realistic mistakes help AI tutors learn faster",
       "link": "https://the-decoder.com/simulated-students-that-make-realistic-mistakes-help-ai-tutors-learn-faster/",
       "summary": "Microsoft and the University of Illinois built StudentSim to replicate individual students from limited data and give AI tutors fast, low-cost feedback. In tests covering 60 students across chess, English, and math, it outperformed GPT-5.4. A chess tutor trained with StudentSim also earned the highest expert ratings...",
@@ -319,17 +341,6 @@
       "ts": 1789894326.0
     },
     {
-      "title": "StepFun Launches Step 5 Preview: 600B Sparse MoE, 1M Context, Weights Open Oct 15",
-      "link": "https://pandaily.com/stepfun-step-5-preview-600b-moe-1m-context",
-      "summary": "StepFun’s Step 5 Preview pairs a 600B/27B sparse MoE with a 92-layer narrow-deep stack and 1M context for long-horizon agents, with weights planned for October 15.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 57,
-      "date": "2026-09-20T08:12:41+00:00",
-      "ts": 1789891961.0
-    },
-    {
       "title": "Altman’s opaque AI is creating a new security dilemma",
       "link": "https://www.japantimes.co.jp/commentary/2026/09/20/world/opaque-ai-security-dilemma/",
       "summary": "OpenAI has launched a new model called Astra that uses a method called \"recurrent depth\" that can make reasoning more efficient.",
@@ -339,50 +350,6 @@
       "relevance": 55,
       "date": "2026-09-20T03:55:00+00:00",
       "ts": 1789876500.0
-    },
-    {
-      "title": "HarmonyOS 7 Casts Xiaoyi as System Agent With 2,100+ Capabilities and Partner Skills",
-      "link": "https://pandaily.com/harmonyos-7-xiaoyi-system-agent-skills",
-      "summary": "Post-launch HarmonyOS 7 coverage frames Xiaoyi as an OS-level agent with 2,100+ system capabilities, 2,000+ agents, and 500+ partner Skills for multi-app task chains.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 65,
-      "date": "2026-09-20T02:55:48+00:00",
-      "ts": 1789872948.0
-    },
-    {
-      "title": "ZGCM-1-7B Opens Full Weights, Data, and Code for Math and Agentic Search",
-      "link": "https://pandaily.com/zgcm-1-7b-open-math-agentic-search",
-      "summary": "Zhongguancun Academy’s ZGCM-1-7B posts ~97% on MATH-500, ~75% on AIME 2026, and ~63% on WebWalkerQA while releasing weights, data, and training code.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "pesquisa",
-      "relevance": 56,
-      "date": "2026-09-20T02:55:18+00:00",
-      "ts": 1789872918.0
-    },
-    {
-      "title": "China Mobile Open-Sources Open-RAIL Middleware to Link VLA/WAM Models With Robot Hardware",
-      "link": "https://pandaily.com/china-mobile-open-rail-vla-wam-middleware",
-      "summary": "China Mobile’s Open-RAIL middleware adds async inference, hardware abstraction, and ~50–100 LOC model hooks so VLA/WAM stacks can drive heterogeneous robots end to end.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 55,
-      "date": "2026-09-20T02:54:07+00:00",
-      "ts": 1789872847.0
-    },
-    {
-      "title": "DeepSeek-V4.1-Flash Ships Causal Encoder–Decoder MoE With 1M Context and Extreme KV Compression",
-      "link": "https://pandaily.com/deepseek-v4-1-flash-causal-encoder-decoder-1m-kv",
-      "summary": "DeepSeek’s V4.1-Flash pairs a 552B Causal Encoder–Decoder MoE with 1M context, CSA2+FP4 KV at ~890 bytes/token, and API access as deepseek-flash.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 62,
-      "date": "2026-09-20T02:53:32+00:00",
-      "ts": 1789872812.0
     },
     {
       "title": "Google’s Gemini is the latest AI model to hack other companies",
@@ -471,72 +438,6 @@
       "relevance": 29,
       "date": "2026-09-19T10:37:04+00:00",
       "ts": 1789814224.0
-    },
-    {
-      "title": "Google's Gemini also accidentally hacked three real companies during security testing",
-      "link": "https://the-decoder.com/googles-gemini-also-accidentally-hacked-three-real-companies-during-security-testing/",
-      "summary": "During a security test run by the firm Irregular, Google's AI model Gemini escaped into the open internet and hacked three real companies, guessing passwords and pulling login credentials from public sources. The cause was a flawed test environment that had internet access left on accidentally. The same firm triggered...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 59,
-      "date": "2026-09-19T09:31:03+00:00",
-      "ts": 1789810263.0
-    },
-    {
-      "title": "Huaruizhipu Praxis One Brings ~106 TOPS Embodied Edge Compute on MediaTek Genio Pro 5100",
-      "link": "https://pandaily.com/huaruizhipu-praxis-one-mediatek-genio-pro-5100-edge",
-      "summary": "Huaruizhipu launched Praxis One, a single-SoC physical-AI edge platform on MediaTek Genio Pro 5100 (~106 TOPS NPU) for heavy-duty robots, shown at Hangzhou's China Robot Summit week.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 46,
-      "date": "2026-09-19T08:11:40+00:00",
-      "ts": 1789805500.0
-    },
-    {
-      "title": "Alibaba DAMO Academy Open-Sources Expert-Level Abdominal CT Model DAMO RADAR in Science",
-      "link": "https://pandaily.com/alibaba-damo-radar-expert-abdominal-ct-science-open-source",
-      "summary": "DAMO RADAR, an open-weight abdominal CT AI from Alibaba DAMO Academy published in Science, flags 146 findings across 18 organs with AUC ~0.913 and expert-level reader-study results.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 60,
-      "date": "2026-09-19T08:10:28+00:00",
-      "ts": 1789805428.0
-    },
-    {
-      "title": "SenseTime SenseNova U1.5 Brings 8B-MoT Native Unified Vision With Open Training Code",
-      "link": "https://pandaily.com/sensetime-sensenova-u15-8b-mot-native-unified-vision",
-      "summary": "SenseTime's SenseNova U1.5 is an 8B Mixture-of-Transformers native unified vision model—no external encoder/VAE—with up to 4K generation and open SFT/RL/distillation training code.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 57,
-      "date": "2026-09-19T08:09:52+00:00",
-      "ts": 1789805392.0
-    },
-    {
-      "title": "OPPO ColorOS 17 Adds On-Device Linear-Attention Model and Persona X Agents",
-      "link": "https://pandaily.com/coloros-17-on-device-linear-attention-persona-x",
-      "summary": "At ODC 2026, OPPO unveiled ColorOS 17 with an on-device Linear Attention model (128K context, lower memory and energy), Persona X memory engine, and Agent Matrix upgrades for Breeno.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "pesquisa",
-      "relevance": 46,
-      "date": "2026-09-19T02:22:35+00:00",
-      "ts": 1789784555.0
-    },
-    {
-      "title": "Alibaba Ships Qwen3.8-Omni-Flash Native Omnimodal Model With 1M Context",
-      "link": "https://pandaily.com/qwen3-8-omni-flash-native-omni-model",
-      "summary": "Alibaba's Qwen team launched Qwen3.8-Omni-Flash, a native text/image/audio/video model with 1M context, ~26% average gains vs Omni-Plus, open Qwen-Live Harness, and steep API audio price cuts.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 70,
-      "date": "2026-09-19T02:22:05+00:00",
-      "ts": 1789784525.0
     },
     {
       "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
@@ -1021,17 +922,6 @@
       "relevance": 41,
       "date": "2026-09-14T19:00:00+00:00",
       "ts": 1789412400.0
-    },
-    {
-      "title": "When to Use One Model and When to Use a Team of Agents",
-      "link": "https://towardsdatascience.com/when-to-use-one-model-and-when-to-use-a-team-of-agents/",
-      "summary": "When Codex is the right shape for the problem, when Claude Code is, and how I split 5 specialist agents between them on dense AI capacity work. The post When to Use One Model and When to Use a Team of Agents appeared first on Towards Data Science .",
-      "source": "Towards Data Science",
-      "region": "global",
-      "category": "modelo",
-      "relevance": 47,
-      "date": "2026-09-14T17:52:20+00:00",
-      "ts": 1789408340.0
     },
     {
       "title": "AI agents blew the whistle on their cheating colleagues",
