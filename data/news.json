@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-20T19:59:21.184456+00:00",
-  "count": 128,
-  "china_count": 38,
-  "japan_count": 1,
+  "generated_at": "2026-09-21T02:24:08.093010+00:00",
+  "count": 147,
+  "china_count": 46,
+  "japan_count": 0,
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ERRO: <urlopen error [Errno 104] Connection reset by peer>",
-      "kept": 0
+      "status": "ok (1210 itens)",
+      "kept": 12
     },
     {
       "source": "Google AI / DeepMind",
@@ -91,7 +91,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -221,8 +221,8 @@
     },
     {
       "source": "SCMP Tech",
-      "status": "ERRO: <urlopen error [Errno 104] Connection reset by peer>",
-      "kept": 0
+      "status": "ok (50 itens)",
+      "kept": 8
     },
     {
       "source": "SCMP Big Tech",
@@ -277,7 +277,7 @@
     {
       "source": "The Japan Times",
       "status": "ok (30 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Japan Today",
@@ -296,6 +296,17 @@
     }
   ],
   "items": [
+    {
+      "title": "llm-keys-ui 0.1",
+      "link": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+      "summary": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key. I don't like pasting...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 51,
+      "date": "2026-09-20T19:22:19+00:00",
+      "ts": 1789932139.0
+    },
     {
       "title": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
       "link": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/",
@@ -363,6 +374,17 @@
       "ts": 1789894326.0
     },
     {
+      "title": "Huawei’s Zhu Zhaosheng: Ascend Past Ecosystem Inflection With Five-Dimension Agentic Computing",
+      "link": "https://pandaily.com/huawei-zhu-zhaosheng-ascend-agentic-thinkpro-pto",
+      "summary": "Zhu Zhaosheng says Ascend has crossed an ecosystem inflection, highlighting ThinkPro, open PTO ISA, Ascend 950 SIMD+SIMT, CANN MAU above 5,200, and 10k-NPU community compute.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "pesquisa",
+      "relevance": 45,
+      "date": "2026-09-20T08:13:17+00:00",
+      "ts": 1789891997.0
+    },
+    {
       "title": "StepFun Launches Step 5 Preview: 600B Sparse MoE, 1M Context, Weights Open Oct 15",
       "link": "https://pandaily.com/stepfun-step-5-preview-600b-moe-1m-context",
       "summary": "StepFun’s Step 5 Preview pairs a 600B/27B sparse MoE with a 92-layer narrow-deep stack and 1M context for long-horizon agents, with weights planned for October 15.",
@@ -372,17 +394,6 @@
       "relevance": 57,
       "date": "2026-09-20T08:12:41+00:00",
       "ts": 1789891961.0
-    },
-    {
-      "title": "Altman’s opaque AI is creating a new security dilemma",
-      "link": "https://www.japantimes.co.jp/commentary/2026/09/20/world/opaque-ai-security-dilemma/",
-      "summary": "OpenAI has launched a new model called Astra that uses a method called \"recurrent depth\" that can make reasoning more efficient.",
-      "source": "The Japan Times",
-      "region": "japan",
-      "category": "modelo",
-      "relevance": 55,
-      "date": "2026-09-20T03:55:00+00:00",
-      "ts": 1789876500.0
     },
     {
       "title": "HarmonyOS 7 Casts Xiaoyi as System Agent With 2,100+ Capabilities and Partner Skills",
@@ -405,6 +416,17 @@
       "relevance": 56,
       "date": "2026-09-20T02:55:18+00:00",
       "ts": 1789872918.0
+    },
+    {
+      "title": "Huawei Cloud Rolls Out AgentArts and Agentic Cloud Stack for Enterprise AI at Connect 2026",
+      "link": "https://pandaily.com/huawei-cloud-agentarts-agentic-cloud-connect-2026",
+      "summary": "At Connect 2026, Huawei Cloud said AgentArts already serves 100+ enterprises alongside openJiuwen, Agentic MaaS, and Industry AI Foundry assets for production agents.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "pesquisa",
+      "relevance": 45,
+      "date": "2026-09-20T02:54:44+00:00",
+      "ts": 1789872884.0
     },
     {
       "title": "China Mobile Open-Sources Open-RAIL Middleware to Link VLA/WAM Models With Robot Hardware",
@@ -528,28 +550,6 @@
       "ts": 1789805392.0
     },
     {
-      "title": "OPPO ColorOS 17 Adds On-Device Linear-Attention Model and Persona X Agents",
-      "link": "https://pandaily.com/coloros-17-on-device-linear-attention-persona-x",
-      "summary": "At ODC 2026, OPPO unveiled ColorOS 17 with an on-device Linear Attention model (128K context, lower memory and energy), Persona X memory engine, and Agent Matrix upgrades for Breeno.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "pesquisa",
-      "relevance": 46,
-      "date": "2026-09-19T02:22:35+00:00",
-      "ts": 1789784555.0
-    },
-    {
-      "title": "Alibaba Ships Qwen3.8-Omni-Flash Native Omnimodal Model With 1M Context",
-      "link": "https://pandaily.com/qwen3-8-omni-flash-native-omni-model",
-      "summary": "Alibaba's Qwen team launched Qwen3.8-Omni-Flash, a native text/image/audio/video model with 1M context, ~26% average gains vs Omni-Plus, open Qwen-Live Harness, and steep API audio price cuts.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "relevance": 70,
-      "date": "2026-09-19T02:22:05+00:00",
-      "ts": 1789784525.0
-    },
-    {
       "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
       "link": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
       "summary": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta. In one...",
@@ -619,10 +619,10 @@
       "title": "Alibaba open-sources medical AI model that can detect cancer and nearly 150 conditions",
       "link": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions?utm_source=rss_feed",
       "summary": "Alibaba Group Holding’s research arm, Damo Academy, has open-sourced an artificial intelligence model capable of identifying nearly 150 abdominal conditions – including cancers – by reading computed tomography (CT) scans, marking the latest step in the firm’s growing medical AI efforts. The vision-language model,...",
-      "source": "SCMP Big Tech",
+      "source": "SCMP Tech",
       "region": "china",
       "category": "modelo",
-      "relevance": 57,
+      "relevance": 55,
       "date": "2026-09-18T14:30:05+00:00",
       "ts": 1789741805.0
     },
@@ -682,6 +682,17 @@
       "ts": 1789732806.0
     },
     {
+      "title": "Top Chinese AI models make 10% of OpenAI, Anthropic revenue despite high valuations: report",
+      "link": "https://www.scmp.com/tech/big-tech/article/3367991/top-chinese-ai-models-make-10-openai-anthropic-revenue-despite-high-valuations-report?utm_source=rss_feed",
+      "summary": "Chinese artificial intelligence models from seven major developers combined generate only about 10 per cent of the revenue reported for OpenAI and Anthropic, even as investor enthusiasm remains intense, according to US-based research firm Rhodium Group. The Chinese AI models earned an estimated US$10.7 billion in...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 44,
+      "date": "2026-09-18T09:00:06+00:00",
+      "ts": 1789722006.0
+    },
+    {
       "title": "Anthropic says its model Claude is helping to build the next version of itself",
       "link": "https://techxplore.com/news/2026-09-anthropic-claude-version.html",
       "summary": "Anthropic's Claude is helping the company develop the next, more intelligent version of the model, the artificial intelligence lab said in an announcement Thursday.",
@@ -693,6 +704,17 @@
       "ts": 1789713553.0
     },
     {
+      "title": "China to see major shift to Huawei for AI model training in 2027: deputy chair",
+      "link": "https://www.scmp.com/tech/big-tech/article/3367955/china-see-major-shift-huawei-ai-model-training-2027-rotating-chair?utm_source=rss_feed",
+      "summary": "Huawei Technologies expects a major domestic shift towards its artificial intelligence computing infrastructure for model training next year, as its Ascend processors gain ground on Nvidia in China despite supply constraints, according to rotating chairman Eric Xu Zhijun. “I believe that starting from next year, a lot...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 49,
+      "date": "2026-09-18T04:59:31+00:00",
+      "ts": 1789707571.0
+    },
+    {
       "title": "Dynamically Scaled Activation Steering",
       "link": "https://machinelearning.apple.com/research/dynamically-scaled-activation-steering",
       "summary": "Activation steering has emerged as a powerful method for guiding the behavior of generative models towards desired outcomes such as toxicity mitigation. However, most existing methods apply interventions uniformly across all inputs, degrading model performance when steering is unnecessary. We introduce Dynamically...",
@@ -702,17 +724,6 @@
       "relevance": 52,
       "date": "2026-09-18T00:00:00+00:00",
       "ts": 1789689600.0
-    },
-    {
-      "title": "Self-generated prompt injections in compaction summaries",
-      "link": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
-      "summary": "Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide \"six reports on unexpected or concerning model behavior we’ve observed in the last six months\". This one here is my favorite: they caught some of their models in training deliberately subverting...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "pesquisa",
-      "relevance": 48,
-      "date": "2026-09-17T20:57:55+00:00",
-      "ts": 1789678675.0
     },
     {
       "title": "What’s So Good About ChatGPT Work? Here’s What I Found",
@@ -735,6 +746,17 @@
       "relevance": 58,
       "date": "2026-09-17T11:00:02+00:00",
       "ts": 1789642802.0
+    },
+    {
+      "title": "Huawei quickens AI chip pace, promises next entrant 3 quarters early",
+      "link": "https://www.scmp.com/tech/big-tech/article/3367832/huawei-quickens-ai-chip-pace-promises-next-entrant-3-quarters-early?utm_source=rss_feed",
+      "summary": "Huawei Technologies said on Thursday that it would launch its next-generation artificial intelligence chip in the first quarter of 2027, moving the target launch forward by nine months as the firm aggressively expands its ecosystem amid China’s self-sufficiency push. David Wang Tao, rotating and acting chairman for...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 40,
+      "date": "2026-09-17T06:36:28+00:00",
+      "ts": 1789626988.0
     },
     {
       "title": "REVERSAL-BENCH: A Reversibility Axis and Reset Oracle for Measuring the Reset-Free RL Cliff",
@@ -806,10 +828,10 @@
       "title": "Kimi creator Moonshot draws global funds seeking ‘top-tier’ Chinese AI developers: sources",
       "link": "https://www.scmp.com/tech/big-tech/article/3367723/kimi-creator-moonshot-draws-global-investors-seeking-top-tier-chinese-ai-developers?utm_source=rss_feed",
       "summary": "China’s Moonshot AI has attracted global investor interest spanning Europe, Asia and the Middle East, people familiar with the matter say, as international capital scrambles for access to Chinese frontier artificial intelligence labs, betting on their high-stakes race against US rivals. The Beijing-based developer of...",
-      "source": "SCMP Big Tech",
+      "source": "SCMP Tech",
       "region": "china",
       "category": "modelo",
-      "relevance": 66,
+      "relevance": 64,
       "date": "2026-09-16T10:46:58+00:00",
       "ts": 1789555618.0
     },
@@ -946,6 +968,17 @@
       "ts": 1789477200.0
     },
     {
+      "title": "DeepSeek AI engineer slams Anthropic, OpenAI over ‘pacing’ calls, invokes Nazi Germany",
+      "link": "https://www.scmp.com/tech/article/3367605/deepseek-ai-engineer-slams-anthropic-openai-over-pacing-calls-invokes-nazi-germany?utm_source=rss_feed",
+      "summary": "A DeepSeek engineer has issued a stark warning about the potential concentration of advanced artificial intelligence and resources in proprietary US developers Anthropic and OpenAI, intensifying a growing debate in China over calls by US industry leaders to “pace” AI development amid safety concerns. The comments...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 52,
+      "date": "2026-09-15T12:30:14+00:00",
+      "ts": 1789475414.0
+    },
+    {
       "title": "5 Free Microsoft GitHub Courses to Learn Data Science and Artificial Intelligence",
       "link": "https://www.kdnuggets.com/5-free-microsoft-github-courses-to-learn-data-science-and-artificial-intelligence",
       "summary": "Explore five free Microsoft GitHub courses covering data science, machine learning, artificial intelligence, generative AI, LLMs, RAG, fine-tuning, and AI agents.",
@@ -1023,13 +1056,24 @@
       "ts": 1789130185.0
     },
     {
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 76,
+      "date": "2026-09-11T10:00:00+00:00",
+      "ts": 1789120800.0
+    },
+    {
       "title": "Ant to let AI agents shop via 10 digital wallets, from AlipayHK to Starryblu to KakaoPay",
       "link": "https://www.scmp.com/tech/big-tech/article/3367183/ant-international-let-ai-agents-shop-across-alipayhk-starryblu-kakaopay-and-toss?utm_source=rss_feed",
       "summary": "Ant International, the overseas affiliate of Chinese fintech giant Ant Group, is making a major bid to power the next phase of mobile payments: letting autonomous artificial intelligence agents handle your electronic wallet to make purchases. The company on Friday open-sourced its Agentic Mobile Protocol (AMP) on...",
-      "source": "SCMP Big Tech",
+      "source": "SCMP Tech",
       "region": "china",
       "category": "pesquisa",
-      "relevance": 54,
+      "relevance": 51,
       "date": "2026-09-11T09:30:05+00:00",
       "ts": 1789119005.0
     },
@@ -1043,6 +1087,17 @@
       "relevance": 47,
       "date": "2026-09-11T00:00:00+00:00",
       "ts": 1789084800.0
+    },
+    {
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 69,
+      "date": "2026-09-10T16:00:00+00:00",
+      "ts": 1789056000.0
     },
     {
       "title": "3 ways to prep for your next big race with Search",
@@ -1059,12 +1114,34 @@
       "title": "DeepSeek says new Flash AI model beats Kimi K3 on cyber, coding benchmarks",
       "link": "https://www.scmp.com/tech/big-tech/article/3367051/deepseek-says-new-flash-ai-model-beats-kimi-k3-cyber-coding-benchmarks?utm_source=rss_feed",
       "summary": "DeepSeek has released its V4.1 Flash model, claiming it outperforms its previous flagship while cutting inference costs and boosting speeds – the latest salvo in China’s aggressive price-and-performance war. The Chinese artificial intelligence developer said on Thursday that V4.1 Flash used a new...",
-      "source": "SCMP Big Tech",
+      "source": "SCMP Tech",
       "region": "china",
       "category": "modelo",
-      "relevance": 72,
+      "relevance": 71,
       "date": "2026-09-10T09:26:24+00:00",
       "ts": 1789032384.0
+    },
+    {
+      "title": "Kimi maker Moonshot AI to explore dual Hong Kong and Shanghai IPOs to boost capital: sources",
+      "link": "https://www.scmp.com/tech/tech-trends/article/3367027/kimi-maker-moonshot-ai-explore-dual-hong-kong-and-shanghai-ipos-boost-capital-sources?utm_source=rss_feed",
+      "summary": "Chinese artificial intelligence start-up Moonshot AI, developer of the popular Kimi K3 model, may explore options for dual listings in Hong Kong and Shanghai in pursuit of greater capital and exposure, according to two people familiar with the matter. Since a meeting with its financial backers in July, when the...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 64,
+      "date": "2026-09-10T07:50:14+00:00",
+      "ts": 1789026614.0
+    },
+    {
+      "title": "Introducing ChatGPT for Financial Services",
+      "link": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 74,
+      "date": "2026-09-10T07:00:00+00:00",
+      "ts": 1789023600.0
     },
     {
       "title": "DeepSeek formally launches V4.1 Flash, routes V4 Pro requests to Flash",
@@ -1109,6 +1186,28 @@
       "relevance": 68,
       "date": "2026-09-09T11:14:25+00:00",
       "ts": 1788952465.0
+    },
+    {
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 70,
+      "date": "2026-09-09T11:00:00+00:00",
+      "ts": 1788951600.0
+    },
+    {
+      "title": "Alibaba sends AI ‘digital employees’ to work in rival apps from ByteDance, Tencent",
+      "link": "https://www.scmp.com/tech/big-tech/article/3366919/alibaba-sends-ai-digital-employees-work-rival-apps-bytedance-tencent?utm_source=rss_feed",
+      "summary": "Alibaba Group Holding is giving users the ability to put artificial intelligence-powered “digital employees” to work within rival office platforms, opening a new competitive front against ByteDance and Tencent Holdings in enterprise AI. The latest version of the QoderWake tool, launched by Alibaba Cloud on Tuesday,...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 48,
+      "date": "2026-09-09T10:30:06+00:00",
+      "ts": 1788949806.0
     },
     {
       "title": "LWiAI Podcast #256 - Fable 5.1, Astra Tease, Gemini 3.8 Flash",
@@ -1177,6 +1276,17 @@
       "ts": 1788786169.0
     },
     {
+      "title": "Huawei unveils new trifold smartphone powered by Tau Scaling Law-based Kirin chip",
+      "link": "https://www.scmp.com/tech/tech-trends/article/3366650/huawei-unveils-new-trifold-smartphone-powered-tau-scaling-law-based-kirin-chip?utm_source=rss_feed",
+      "summary": "Huawei Technologies has unveiled its first smartphone powered by a next-generation mobile processor based on the company’s proprietary Tau Scaling Law, continuing its push to boost chip performance while reducing reliance on advanced foreign semiconductor equipment. Speaking at a launch event in Guangzhou on Monday,...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "pesquisa",
+      "relevance": 48,
+      "date": "2026-09-07T10:32:07+00:00",
+      "ts": 1788777127.0
+    },
+    {
       "title": "Alibaba’s Qwen releases open-source model for autonomous driving",
       "link": "https://technode.com/2026/09/07/qwen-drive-autonomous-driving/",
       "summary": "Alibaba’s Qwen team has released Qwen-Drive-1.0-4B, an open-source model that combines driving-scene understanding with planning a vehicle’s movements. Developed with Huazhong University of Science and Technology, it uses Qwen3.5-4B as its vision-language foundation and adds separate components for 3D perception and...",
@@ -1230,6 +1340,28 @@
       "relevance": 66,
       "date": "2026-09-03T13:00:02+00:00",
       "ts": 1788440402.0
+    },
+    {
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "link": "https://openai.com/index/gpt-6-astra",
+      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 71,
+      "date": "2026-09-03T11:00:00+00:00",
+      "ts": 1788433200.0
+    },
+    {
+      "title": "Are Z.ai and MiniMax heading down opposite financial paths months after Hong Kong IPOs?",
+      "link": "https://www.scmp.com/tech/tech-trends/article/3366253/are-zai-and-minimax-heading-down-opposite-financial-paths-months-after-hong-kong-ipos?utm_source=rss_feed",
+      "summary": "When two of China’s leading AI pioneers went public in Hong Kong in January, they pitched investors on a shared promise: capturing the explosive demand for artificial intelligence at home and abroad. Their first-half earnings, however, suggest that narrative could be splintering into two different trajectories. While...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "relevance": 42,
+      "date": "2026-09-03T10:38:59+00:00",
+      "ts": 1788431939.0
     },
     {
       "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
@@ -1408,6 +1540,17 @@
       "ts": 1787852220.0
     },
     {
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 72,
+      "date": "2026-08-27T09:00:00+00:00",
+      "ts": 1787821200.0
+    },
+    {
       "title": "Zhipu identifies Ox Alpha as GLM-5.3-Flash and releases model weights",
       "link": "https://technode.com/2026/08/27/zhipu-identifies-ox-alpha-as-glm-5-3-flash-and-releases-model-weights/",
       "summary": "Zhipu has released GLM-5.3-Flash and its model weights, confirming that the model previously tested anonymously as Ox Alpha belongs to its GLM series. The model has 320 billion total parameters and 18 billion active parameters. GLM-5.3-Flash is the first natively multimodal model in the GLM-5 series, supporting text,...",
@@ -1428,6 +1571,17 @@
       "relevance": 34,
       "date": "2026-08-26T18:42:43+00:00",
       "ts": 1787769763.0
+    },
+    {
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 69,
+      "date": "2026-08-26T10:00:00+00:00",
+      "ts": 1787738400.0
     },
     {
       "title": "Alibaba’s Qwen to open-source Qwen3.8-Flash-Next, previewing Qwen4 architecture",
@@ -1540,6 +1694,17 @@
       "ts": 1787070900.0
     },
     {
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "link": "https://openai.com/index/chatgpt-for-teens",
+      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 69,
+      "date": "2026-08-18T11:00:00+00:00",
+      "ts": 1787050800.0
+    },
+    {
       "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
       "link": "https://huggingface.co/blog/multi-vector-encoder",
       "summary": "",
@@ -1628,6 +1793,28 @@
       "ts": 1786641364.0
     },
     {
+      "title": "The builder’s guide to GPT‑5.6",
+      "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 71,
+      "date": "2026-08-13T11:00:00+00:00",
+      "ts": 1786618800.0
+    },
+    {
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "link": "https://openai.com/index/previewing-ultrafast",
+      "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 69,
+      "date": "2026-08-13T10:00:00+00:00",
+      "ts": 1786615200.0
+    },
+    {
       "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
       "link": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
       "summary": "",
@@ -1637,6 +1824,17 @@
       "relevance": 51,
       "date": "2026-08-12T16:14:36+00:00",
       "ts": 1786551276.0
+    },
+    {
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 73,
+      "date": "2026-08-12T06:00:00+00:00",
+      "ts": 1786514400.0
     },
     {
       "title": "With a feel for physics, AI models simulate a wider range of real-world scenarios",
@@ -1670,6 +1868,17 @@
       "relevance": 44,
       "date": "2026-08-10T13:02:42+00:00",
       "ts": 1786366962.0
+    },
+    {
+      "title": "Premium seats are coming to ChatGPT Business",
+      "link": "https://openai.com/index/premium-seats-chatgpt-business",
+      "summary": "Premium seats are now available on ChatGPT Business, with 5x more usage, no five-hour usage limit, and flexible seat options for every teammate.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "relevance": 71,
+      "date": "2026-08-10T00:00:00+00:00",
+      "ts": 1786320000.0
     },
     {
       "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
