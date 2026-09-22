@@ -52,6 +52,26 @@ Ate a primeira coleta, a pagina mostra um seed pequeno e um aviso para rodar o w
 - **Pesquisa:** papers, metodos, arquiteturas, benchmarks.
 - **IA na China:** itens de origem chinesa (fontes chinesas + deteccao por palavra-chave).
 
+## Temas especiais (chavinhas)
+
+Painel lateral com chaves para ligar temas. Com tudo desligado, o feed mostra tudo; ligando
+um ou mais, mostra so as noticias desses temas (combinacao por OU). A escolha fica salva no
+navegador.
+
+- **Temas:** Humanoides, Modelos, Agentes.
+- **Areas:** Biomedica, Defesa, Telecom.
+
+O coletor grava os temas de cada item no campo `topics` do `news.json`. A deteccao usa
+palavras inteiras (lista `TOPIC_TERMS` em `fetch_news.py`): o tema vale se aparecer no titulo
+ou com 2 ou mais termos distintos no resumo. "Modelos" tambem inclui todo item de categoria
+modelo. Itens de IA com tema especial ganham um bonus leve de relevancia, para noticias de
+nicho (telecom, defesa) nao serem cortadas pelo filtro. Para ajustar, edite `TOPIC_TERMS`.
+
+As fontes de tema especial (robotica, biomedica, defesa, telecom, incluindo Teletime e
+TeleSintese) sao marcadas com `niche: True`: so entra item com mencao explicita a IA (palavra
+inteira) e, quando o item tem tema especial, o corte de relevancia cai para `LOW_BAR`.
+O status de cada fonte (ok ou erro) fica na lista `sources` do `news.json`.
+
 Cada card tras um medidor **SNR** (relevancia estimada de 0 a 100). Da pra buscar por texto
 (modelo, lab, tema), filtrar por fonte e ordenar por recencia ou relevancia.
 
