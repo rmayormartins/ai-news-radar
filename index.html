@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI RADAR // monitor de inteligencia artificial</title>
-<meta name="description" content="Radar de noticias de IA: modelos, pesquisa e o que os laboratorios andam fazendo, com aba dedicada a IA na China. Sinal sobre ruido.">
+<meta name="description" content="Radar de noticias de IA: modelos, pesquisa e o que os laboratorios andam fazendo, com aba dedicada a IA na China e temas especiais (humanoides, agentes, biomedica, defesa, telecom). Sinal sobre ruido.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
@@ -23,11 +23,16 @@
     --accent-dim:#123c39;
     --china:#ff5a52;       /* sinal China */
     --china-dim:#3a1916;
-    --japan:#ff7ec8;       /* sinal Japao (sakura) */
-    --japan-dim:#371830;
     --model:#f5a524;       /* categoria modelo */
     --research:#8a8fff;    /* categoria pesquisa */
     --general:#6b8096;     /* categoria geral */
+    /* temas especiais */
+    --t-humanoides:#e879f9;
+    --t-modelos:#f5a524;
+    --t-agentes:#9be15d;
+    --t-biomedica:#5ec8ff;
+    --t-defesa:#c8b07a;
+    --t-telecom:#ff8a3d;
     --radius:3px;
     --maxw:1320px;
   }
@@ -87,7 +92,6 @@
   .stat{display:flex;flex-direction:column;align-items:flex-end;line-height:1.1}
   .stat .n{font-family:"JetBrains Mono";font-size:18px;font-weight:700;color:var(--text)}
   .stat .n.cn{color:var(--china)}
-  .stat .n.jp{color:var(--japan)}
   .stat .l{font-family:"JetBrains Mono";font-size:9px;letter-spacing:1px;color:var(--muted);text-transform:uppercase;margin-top:3px}
   .live{display:flex;align-items:center;gap:7px;font-family:"JetBrains Mono";font-size:10px;color:var(--text-2);letter-spacing:.5px}
   .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 8px var(--accent);animation:pulse 2s ease-in-out infinite}
@@ -136,11 +140,9 @@
   .navbtn[data-view="modelo"] .ico{background:var(--model)}
   .navbtn[data-view="pesquisa"] .ico{background:var(--research)}
   .navbtn[data-view="china"] .ico{background:var(--china)}
-  .navbtn[data-view="japan"] .ico{background:var(--japan)}
   .navbtn .cnt{margin-left:auto;font-family:"JetBrains Mono";font-size:11px;color:var(--muted)}
   .navbtn.active .cnt{color:var(--text-2)}
   .navbtn[data-view="china"].active{border-color:#5a2420}
-  .navbtn[data-view="japan"].active{border-color:#5a2450}
 
   .srcrow{display:flex;align-items:center;gap:8px;padding:5px 6px;cursor:pointer;border-radius:var(--radius);font-family:"JetBrains Mono";font-size:11.5px;color:var(--text-2)}
   .srcrow:hover{background:var(--panel-2)}
@@ -148,7 +150,6 @@
   .srcrow .sn{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .srcrow .sc{margin-left:auto;color:var(--muted)}
   .srcrow.cn .sn{color:#ffb0ab}
-  .srcrow.jp .sn{color:#ffb3e0}
 
   .legend{font-family:"JetBrains Mono";font-size:10.5px;color:var(--muted);line-height:1.8}
   .legend .row{display:flex;align-items:center;gap:8px}
@@ -212,8 +213,20 @@
   .switch.on .knob{left:15px;background:var(--accent)}
   .switch.cn.on .track{background:var(--china-dim);border-color:var(--china)}
   .switch.cn.on .knob{background:var(--china)}
-  .switch.jp.on .track{background:var(--japan-dim);border-color:var(--japan)}
-  .switch.jp.on .knob{background:var(--japan)}
+
+  /* painel temas especiais */
+  .topics .grp{font-family:"JetBrains Mono";font-size:9px;letter-spacing:1.4px;text-transform:uppercase;color:var(--muted);padding:6px 2px 2px}
+  .topics .grp:first-child{padding-top:0}
+  .topics .switch{--tc:var(--accent)}
+  .topics .switch .tn{flex:1}
+  .topics .switch .cnt{font-size:10.5px;color:var(--muted)}
+  .topics .switch.on .track{background:color-mix(in srgb, var(--tc) 22%, var(--panel));border-color:var(--tc)}
+  .topics .switch.on .knob{background:var(--tc)}
+  .topics .switch.on .tn{color:var(--tc)}
+  .topics .hint{font-family:"JetBrains Mono";font-size:9.5px;color:var(--muted);line-height:1.5;padding:6px 2px 0}
+  #topic-clear{background:none;border:none;color:var(--muted);font-family:inherit;font-size:9px;cursor:pointer;letter-spacing:1px;visibility:hidden}
+  #topic-clear.show{visibility:visible}
+  #topic-clear:hover{color:var(--accent)}
 
   /* botao traduzir */
   .trbtn[aria-pressed="true"]{border-color:var(--accent);color:var(--text)}
@@ -232,7 +245,6 @@
   .card.c-modelo::before{background:var(--model)}
   .card.c-pesquisa::before{background:var(--research)}
   .card.c-china::before{background:var(--china)}
-  .card.c-japan::before{background:var(--japan)}
   .card:hover{border-color:var(--line-soft);transform:translateX(2px)}
   .card .meta{grid-column:1/2;display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-family:"JetBrains Mono";font-size:10.5px}
   .chip{padding:2px 7px;border-radius:2px;letter-spacing:.6px;text-transform:uppercase;font-weight:500;border:1px solid var(--line-soft)}
@@ -240,7 +252,7 @@
   .chip.pesquisa{color:var(--research);border-color:#33356a}
   .chip.geral{color:var(--general);border-color:#34414f}
   .chip.china{color:var(--china);border-color:#5a2420;background:var(--china-dim)}
-  .chip.japan{color:var(--japan);border-color:#5a2450;background:var(--japan-dim)}
+  .chip.tp{color:var(--tc);border-color:color-mix(in srgb, var(--tc) 38%, transparent);background:color-mix(in srgb, var(--tc) 9%, transparent)}
   .src{color:var(--text-2)}
   .when{color:var(--muted);margin-left:auto}
   .card h3{grid-column:1/2;margin:2px 0 0;font-size:16.5px;font-weight:600;line-height:1.32;letter-spacing:.2px}
@@ -255,7 +267,6 @@
   .snr .bar{width:4px;background:var(--line-soft);border-radius:1px}
   .snr .bar.on{background:var(--accent)}
   .snr.cn .bar.on{background:var(--china)}
-  .snr.jp .bar.on{background:var(--japan)}
   .snr .val{font-family:"JetBrains Mono";font-size:11px;font-weight:700;color:var(--text-2)}
   .snr .lbl{font-family:"JetBrains Mono";font-size:8px;letter-spacing:1px;color:var(--muted);text-transform:uppercase}
 
@@ -304,7 +315,7 @@
       <div class="live"><span class="dot"></span><span id="updated">sincronizando...</span></div>
       <div class="stat"><span class="n" id="stat-total">0</span><span class="l">sinais</span></div>
       <div class="stat"><span class="n cn" id="stat-china">0</span><span class="l">china</span></div>
-      <div class="stat"><span class="n jp" id="stat-japan">0</span><span class="l">japao</span></div>
+      <div class="stat"><span class="n" id="stat-topics" style="color:var(--t-agentes)">0</span><span class="l">temas</span></div>
     </div>
   </div>
 </header>
@@ -332,8 +343,12 @@
         <button class="navbtn" data-view="modelo"><span class="ico"></span>Modelos<span class="cnt" data-cnt="modelo">0</span></button>
         <button class="navbtn" data-view="pesquisa"><span class="ico"></span>Pesquisa<span class="cnt" data-cnt="pesquisa">0</span></button>
         <button class="navbtn" data-view="china"><span class="ico"></span>IA na China<span class="cnt" data-cnt="china">0</span></button>
-        <button class="navbtn" data-view="japan"><span class="ico"></span>IA no Japao<span class="cnt" data-cnt="japan">0</span></button>
       </div>
+    </div>
+
+    <div class="panel topics">
+      <h2>Temas especiais <button id="topic-clear">limpar</button></h2>
+      <div class="body" id="topics"></div>
     </div>
 
     <div class="panel fontes-panel">
@@ -347,10 +362,6 @@
           <span class="track"><span class="knob"></span></span>
           <span>mostrar so IA da China</span>
         </div>
-        <div class="switch jp" id="only-japan" role="switch" aria-checked="false" tabindex="0">
-          <span class="track"><span class="knob"></span></span>
-          <span>mostrar so IA do Japao</span>
-        </div>
       </div>
       <div class="body" id="sources"></div>
     </div>
@@ -362,7 +373,7 @@
         <div class="row"><span class="sw" style="background:var(--research)"></span>pesquisa: paper / metodo</div>
         <div class="row"><span class="sw" style="background:var(--general)"></span>geral: movimento do setor</div>
         <div class="row"><span class="sw" style="background:var(--china)"></span>china: origem chinesa</div>
-        <div class="row"><span class="sw" style="background:var(--japan)"></span>japao: origem japonesa</div>
+        <div class="row"><span class="sw" style="background:var(--t-agentes)"></span>chips coloridos: temas especiais</div>
         <div class="row" style="margin-top:6px;color:var(--text-2)">SNR = relevancia estimada (0 a 100)</div>
       </div>
     </div>
@@ -396,7 +407,7 @@
   <div class="ft">
     <span class="serif">sinal sobre ruido.</span>
     <span>AI RADAR // coleta automatica via GitHub Actions, servido por GitHub Pages</span>
-    <span>fontes: labs, arXiv, imprensa especializada e IA chinesa</span>
+    <span>fontes: labs, arXiv, imprensa especializada, IA chinesa e temas especiais</span>
   </div>
 </footer>
 
@@ -416,7 +427,17 @@ const INLINE_FALLBACK = {
 };
 
 const PAGE = 25; // quantas noticias por bloco no "mostrar mais"
-const state = { data:null, view:"todas", q:"", sort:"recencia", range:0, hideResearch:false, onlyChina:false, onlyJapan:false, translate:false, sources:new Set(), allSources:[], shown:PAGE };
+// temas especiais: o coletor grava item.topics; as chavinhas filtram por eles (OU)
+const TOPICS = [
+  {grp:"Temas", k:"humanoides", l:"Humanoides"},
+  {grp:"Temas", k:"modelos",    l:"Modelos"},
+  {grp:"Temas", k:"agentes",    l:"Agentes"},
+  {grp:"Areas", k:"biomedica",  l:"Biomedica"},
+  {grp:"Areas", k:"defesa",     l:"Defesa"},
+  {grp:"Areas", k:"telecom",    l:"Telecom"},
+];
+const TOPIC_LABEL = Object.fromEntries(TOPICS.map(t=>[t.k,t.l]));
+const state = { data:null, view:"todas", q:"", sort:"recencia", range:0, hideResearch:false, onlyChina:false, topics:new Set(), translate:false, sources:new Set(), allSources:[], shown:PAGE };
 const trCache = new Map(); // texto original -> traducao PT (cache da sessao)
 
 const $ = s => document.querySelector(s);
@@ -459,15 +480,19 @@ function passesCommon(it){
   return true;
 }
 function matches(it){ return passesView(it, state.view); }
+const topicsOf = it => Array.isArray(it.topics) ? it.topics : [];
+function passesTopics(it){
+  if(!state.topics.size) return true;
+  return topicsOf(it).some(t=>state.topics.has(t));
+}
 
 // regra completa de uma faixa: filtros comuns + faixa + ocultar pesquisa.
 // "ocultar pesquisa" vale em todas as faixas, menos quando voce abre a faixa Pesquisa.
-function passesView(it, view){
+function passesView(it, view, ignoreTopics){
   if(!passesCommon(it)) return false;
+  if(!ignoreTopics && !passesTopics(it)) return false;
   if(state.onlyChina && it.region!=="china") return false;
-  if(state.onlyJapan && it.region!=="japan") return false;
   if(view==="china" && it.region!=="china") return false;
-  if(view==="japan" && it.region!=="japan") return false;
   if((view==="modelo"||view==="pesquisa") && it.category!==view) return false;
   if(state.hideResearch && view!=="pesquisa" && it.category==="pesquisa") return false;
   return true;
@@ -483,20 +508,24 @@ function render(){
   setCnt("modelo",items.filter(i=>passesView(i,"modelo")).length);
   setCnt("pesquisa",items.filter(i=>passesView(i,"pesquisa")).length);
   setCnt("china",items.filter(i=>passesView(i,"china")).length);
-  setCnt("japan",items.filter(i=>passesView(i,"japan")).length);
+  // contador de cada tema: quantos itens da faixa atual tem esse tema
+  const base=items.filter(i=>passesView(i,state.view,true));
+  TOPICS.forEach(t=>setCnt("t-"+t.k, base.filter(i=>topicsOf(i).includes(t.k)).length));
 
   if(!all.length){ feed.innerHTML=emptyHTML(); morebar.innerHTML=""; return; }
 
   const shown=Math.min(state.shown, all.length);
   feed.innerHTML=all.slice(0,shown).map(it=>{
-    const isCN=it.region==="china", isJP=it.region==="japan";
-    const cls = isCN ? "c-china" : isJP ? "c-japan" : ("c-"+it.category);
-    const regChip = isCN ? `<span class="chip china">china</span>`
-                  : isJP ? `<span class="chip japan">japao</span>` : "";
-    const snrReg = isCN ? "cn" : isJP ? "jp" : "";
+    const isCN=it.region==="china";
+    const cls = isCN ? "c-china" : ("c-"+it.category);
+    const regChip = isCN ? `<span class="chip china">china</span>` : "";
+    const snrReg = isCN ? "cn" : "";
     const catChip = `<span class="chip ${it.category}">${it.category}</span>`;
+    // chips de tema (modelos ja aparece como categoria, entao so mostra os outros)
+    const tpChips = topicsOf(it).filter(t=>t!=="modelos" && TOPIC_LABEL[t])
+      .map(t=>`<span class="chip tp" style="--tc:var(--t-${t})">${TOPIC_LABEL[t].toLowerCase()}</span>`).join("");
     return `<article class="card ${cls}">
-      <div class="meta">${regChip}${catChip}<span class="src">${esc(it.source)}</span><span class="when">${rel(it.date)}</span></div>
+      <div class="meta">${regChip}${catChip}${tpChips}<span class="src">${esc(it.source)}</span><span class="when">${rel(it.date)}</span></div>
       <h3><a href="${esc(it.link)}" target="_blank" rel="noopener">${esc(it.title)}</a></h3>
       ${it.summary?`<p>${esc(it.summary)}</p>`:""}
       <a class="open" href="${esc(it.link)}" target="_blank" rel="noopener">abrir fonte &#8599;</a>
@@ -524,9 +553,10 @@ function emptyHTML(){
     return `<div class="empty"><b>Sem sinais da China nesta janela</b>
       Ajuste a busca ou as fontes. Na primeira vez, rode o workflow <code>update-news</code> em Actions para popular os feeds chineses (Synced, Pandaily, TechNode, KrASIA, ChinAI).</div>`;
   }
-  if(state.view==="japan"){
-    return `<div class="empty"><b>Sem sinais do Japao nesta janela</b>
-      Ajuste a busca ou as fontes. Na primeira vez, rode o workflow <code>update-news</code> em Actions para popular os feeds japoneses (Japan AI News, Sakana AI, The Japan Times, NHK World).</div>`;
+  if(state.topics.size){
+    const names=[...state.topics].map(k=>TOPIC_LABEL[k]).join(", ");
+    return `<div class="empty"><b>Nenhum sinal para: ${esc(names)}</b>
+      Ligue outros temas, amplie o periodo ou use <code>limpar</code> no painel Temas especiais.</div>`;
   }
   return `<div class="empty"><b>Nenhum sinal com esse filtro</b>
     Tente limpar a busca ou reativar fontes na barra lateral.</div>`;
@@ -539,7 +569,7 @@ function buildSources(){
   state.data.items.forEach(i=>{ map[i.source]=map[i.source]||{n:0,reg:i.region}; map[i.source].n++; if(i.region!=="global") map[i.source].reg=i.region; });
   state.allSources=Object.keys(map).sort((a,b)=>map[b].n-map[a].n);
   $("#sources").innerHTML=state.allSources.map(s=>{
-    const rc = map[s].reg==="china" ? "cn" : map[s].reg==="japan" ? "jp" : "";
+    const rc = map[s].reg==="china" ? "cn" : "";
     return `<label class="srcrow ${rc}"><input type="checkbox" value="${esc(s)}"><span class="sn">${esc(s)}</span><span class="sc">${map[s].n}</span></label>`;
   }).join("");
   $("#sources").querySelectorAll("input").forEach(inp=>inp.addEventListener("change",()=>{
@@ -552,10 +582,10 @@ function applyData(d){
   // header
   const total=state.data.items.length;
   const cn=state.data.items.filter(i=>i.region==="china").length;
-  const jp=state.data.items.filter(i=>i.region==="japan").length;
+  const tp=state.data.items.filter(i=>topicsOf(i).some(t=>t!=="modelos")).length;
   $("#stat-total").textContent=total;
   $("#stat-china").textContent=cn;
-  $("#stat-japan").textContent=jp;
+  $("#stat-topics").textContent=tp;
   const gen=state.data.generated_at?new Date(state.data.generated_at):null;
   $("#updated").textContent = gen ? "atualizado "+rel(state.data.generated_at)+" atras" : "dados locais";
 
@@ -622,10 +652,8 @@ $("#views").addEventListener("click",e=>{
   const b=e.target.closest(".navbtn"); if(!b) return;
   state.view=b.dataset.view;
   document.querySelectorAll(".navbtn").forEach(x=>x.classList.toggle("active",x===b));
-  // a faixa de regiao ja restringe por origem: limpa as chaves "so China/so Japao"
-  if(state.view==="china" || state.view==="japan"){
-    state.onlyChina=false; state.onlyJapan=false; syncRegionSwitches();
-  }
+  // a faixa China ja restringe por origem: desliga a chave "so China"
+  if(state.view==="china"){ state.onlyChina=false; syncRegionSwitches(); }
   resetAndRender();
 });
 $("#q").addEventListener("input",e=>{ state.q=e.target.value.trim().toLowerCase(); resetAndRender(); });
@@ -654,27 +682,50 @@ hr.addEventListener("keydown",e=>{ if(e.key===" "||e.key==="Enter"){ e.preventDe
 
 // chave: mostrar so IA da China
 const oc=$("#only-china");
-const oj=$("#only-japan");
 function syncRegionSwitches(){
   oc.classList.toggle("on",state.onlyChina); oc.setAttribute("aria-checked",state.onlyChina?"true":"false");
-  oj.classList.toggle("on",state.onlyJapan); oj.setAttribute("aria-checked",state.onlyJapan?"true":"false");
 }
 function toggleOC(){
   state.onlyChina=!state.onlyChina;
-  if(state.onlyChina) state.onlyJapan=false;   // exclusivas: uma regiao por vez
-  syncRegionSwitches();
-  resetAndRender();
-}
-function toggleOJ(){
-  state.onlyJapan=!state.onlyJapan;
-  if(state.onlyJapan) state.onlyChina=false;
   syncRegionSwitches();
   resetAndRender();
 }
 oc.addEventListener("click",toggleOC);
 oc.addEventListener("keydown",e=>{ if(e.key===" "||e.key==="Enter"){ e.preventDefault(); toggleOC(); } });
-oj.addEventListener("click",toggleOJ);
-oj.addEventListener("keydown",e=>{ if(e.key===" "||e.key==="Enter"){ e.preventDefault(); toggleOJ(); } });
+
+// painel: temas especiais (chavinhas). Lembra a escolha neste navegador.
+const TKEY="airadar.topics";
+try{ JSON.parse(localStorage.getItem(TKEY)||"[]").forEach(k=>{ if(TOPIC_LABEL[k]) state.topics.add(k); }); }catch(e){}
+function buildTopics(){
+  let html="", g="";
+  TOPICS.forEach(t=>{
+    if(t.grp!==g){ g=t.grp; html+=`<div class="grp">${g}</div>`; }
+    html+=`<div class="switch" data-topic="${t.k}" role="switch" aria-checked="false" tabindex="0" style="--tc:var(--t-${t.k})">
+      <span class="track"><span class="knob"></span></span><span class="tn">${t.l}</span><span class="cnt" data-cnt="t-${t.k}">0</span></div>`;
+  });
+  html+=`<div class="hint">ligue um ou mais: o feed mostra so esses temas</div>`;
+  $("#topics").innerHTML=html;
+  syncTopics();
+}
+function syncTopics(){
+  document.querySelectorAll("#topics .switch").forEach(sw=>{
+    const on=state.topics.has(sw.dataset.topic);
+    sw.classList.toggle("on",on); sw.setAttribute("aria-checked",on?"true":"false");
+  });
+  $("#topic-clear").classList.toggle("show",state.topics.size>0);
+  try{ localStorage.setItem(TKEY,JSON.stringify([...state.topics])); }catch(e){}
+}
+function toggleTopic(k){
+  state.topics.has(k) ? state.topics.delete(k) : state.topics.add(k);
+  syncTopics(); resetAndRender();
+}
+$("#topics").addEventListener("click",e=>{ const sw=e.target.closest(".switch"); if(sw) toggleTopic(sw.dataset.topic); });
+$("#topics").addEventListener("keydown",e=>{
+  const sw=e.target.closest(".switch");
+  if(sw && (e.key===" "||e.key==="Enter")){ e.preventDefault(); toggleTopic(sw.dataset.topic); }
+});
+$("#topic-clear").addEventListener("click",()=>{ state.topics.clear(); syncTopics(); resetAndRender(); });
+buildTopics();
 
 // botao: traduzir para PT
 $("#translate").addEventListener("click",()=>{
