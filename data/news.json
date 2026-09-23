@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-23T15:47:11.794455+00:00",
-  "count": 273,
+  "generated_at": "2026-09-23T20:51:32.653855+00:00",
+  "count": 272,
   "china_count": 54,
   "topic_counts": {
-    "humanoides": 8,
-    "modelos": 164,
+    "humanoides": 9,
+    "modelos": 167,
     "agentes": 48,
-    "biomedica": 18,
-    "defesa": 14,
-    "telecom": 29
+    "biomedica": 16,
+    "defesa": 15,
+    "telecom": 26
   },
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1222 itens)",
+      "status": "ok (1227 itens)",
       "kept": 12
     },
     {
@@ -109,7 +109,7 @@
     {
       "source": "MIT Tech Review",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "VentureBeat AI",
@@ -139,7 +139,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "Ars Technica",
@@ -149,12 +149,12 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 5
     },
     {
       "source": "Wired AI",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Analytics India",
@@ -223,7 +223,7 @@
     },
     {
       "source": "KrASIA / 36Kr",
-      "status": "ERRO: The read operation timed out",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -279,7 +279,7 @@
     {
       "source": "Microsoft Research",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "The Guardian (IA)",
@@ -299,12 +299,12 @@
     {
       "source": "The AI Insider",
       "status": "ok (9 itens)",
-      "kept": 6
+      "kept": 4
     },
     {
       "source": "AIwire",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "The Robot Report",
@@ -349,7 +349,7 @@
     {
       "source": "DefenseScoop",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "Breaking Defense",
@@ -379,7 +379,7 @@
     {
       "source": "Light Reading",
       "status": "ok (50 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "IEEE ComSoc Tech Blog",
@@ -393,8 +393,8 @@
     },
     {
       "source": "Total Telecom",
-      "status": "ok (10 itens)",
-      "kept": 4
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "TeckNexus",
@@ -429,19 +429,174 @@
   ],
   "items": [
     {
-      "title": "37,000 AI Agents Are Running a Virtual Biotech at Stanford",
-      "link": "https://www.hpcwire.com/aiwire/2026/09/23/37000-ai-agents-are-running-a-virtual-biotech-at-stanford/",
-      "summary": "A new biotech startup has spun out of a Stanford Medicine lab. It has 37,000 employees, and none of them are human. Of course, that means no office, no payroll and no business lunches. But there’s not even a lab. It is an AI-powered virtual biotech company created by associate professor of biomedical data science […]...",
+      "title": "Cisco AI Research: AgenticOps Scaling Quickly in the Enterprise",
+      "link": "https://www.hpcwire.com/aiwire/2026/09/23/cisco-ai-research-agenticops-scaling-quickly-in-the-enterprise/",
+      "summary": "New Cisco and Omdia research shows 95% of enterprises say their existing AIOps tools can’t keep up, and more than half have already moved to AgenticOps SAN JOSE, Calif., Sept. 23, 2026 — Cisco today announced the release of The Impact of Agentic AI on Network Operations, new research examining the state of network...",
       "source": "AIwire",
       "region": "global",
       "category": "pesquisa",
+      "topics": [],
+      "relevance": 56,
+      "date": "2026-09-23T18:49:20+00:00",
+      "ts": 1790189360.0
+    },
+    {
+      "title": "Agentic AI has already seeped into network operations, but trust remains critical – study",
+      "link": "https://www.lightreading.com/ai-machine-learning/agentic-ai-has-already-seeped-into-network-operations-but-trust-remains-critical-study",
+      "summary": "Large companies are leaning into agentic AI to manage network operations as humans are becoming overwhelmed by alerts that need to be monitored and resolved, finds a new Omdia/Cisco survey.",
+      "source": "Light Reading",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 49,
+      "date": "2026-09-23T18:45:00+00:00",
+      "ts": 1790189100.0
+    },
+    {
+      "title": "GenAI.mil attracts about half a million ‘power users’ as Pentagon pushes forward with frontier models",
+      "link": "https://defensescoop.com/2026/09/23/genai-mil-pentagon-frontier-models-defensetalks/",
+      "summary": "Senior defense officials provided an update on the department’s adoption of AI at DefenseTalks. The post GenAI.mil attracts about half a million ‘power users’ as Pentagon pushes forward with frontier models appeared first on DefenseScoop .",
+      "source": "DefenseScoop",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "defesa",
+        "modelos"
+      ],
+      "relevance": 35,
+      "date": "2026-09-23T18:25:18+00:00",
+      "ts": 1790187918.0
+    },
+    {
+      "title": "Use open weight models as your AI coding agent with Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/",
+      "summary": "Pair OpenCode, an open-source terminal-native AI coding agent, with open weight models on Amazon Bedrock to get a secure, flexible, pay-per-use coding assistant. Learn how to configure multi-model workflows, match the right model to each task, and keep your data in your own AWS account with no infrastructure to manage.",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
       "topics": [
         "agentes",
-        "biomedica"
+        "modelos"
       ],
-      "relevance": 44,
-      "date": "2026-09-23T15:36:10+00:00",
-      "ts": 1790177770.0
+      "relevance": 51,
+      "date": "2026-09-23T18:17:44+00:00",
+      "ts": 1790187464.0
+    },
+    {
+      "title": "Anthropic’s biolab made a discovery it’s comparing to Crispr",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr",
+      "summary": "Anthropic says its AI Claude has \"autonomously discovered\" a new enzyme system similar to machinery behind the powerful gene-editing tool Crispr. It's the first result from Anthropic's newly-launched wet lab and an early test of Claude's usefulness for science as the company prepares to go public. The company says...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 50,
+      "date": "2026-09-23T18:00:00+00:00",
+      "ts": 1790186400.0
+    },
+    {
+      "title": "ChatGPT Voice gets closer to \"Her\" with email, calendar, and Slack access",
+      "link": "https://the-decoder.com/chatgpt-voice-gets-closer-to-her-with-email-calendar-and-slack-access/",
+      "summary": "ChatGPT Voice now runs on OpenAI's new GPT-6 Astra, Sol, and Luna models and can tap into plugins like email, calendar, and Slack. Users can manage appointments, send emails, or build websites just by talking. The update moves OpenAI closer to the everyday AI assistant Sam Altman has long compared to the one in the...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 66,
+      "date": "2026-09-23T17:57:37+00:00",
+      "ts": 1790186257.0
+    },
+    {
+      "title": "Google's new Flash TTS models let you design AI voices from scratch using text descriptions",
+      "link": "https://the-decoder.com/googles-new-flash-tts-models-let-you-design-ai-voices-from-scratch-using-text-descriptions/",
+      "summary": "Google is introducing two new text-to-speech models, Gemini 3.8 Flash TTS and Flash-Lite TTS, which support more than 100 languages. Flash TTS can create new voices from text descriptions, and both models let users add stage directions to individual lines and generate two-voice dialogue from a single script. A voice...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 58,
+      "date": "2026-09-23T17:39:10+00:00",
+      "ts": 1790185150.0
+    },
+    {
+      "title": "Gemini 3.8 TTS Playground",
+      "link": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+      "summary": "Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts . They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second audio sample of your voice or a voice you have the rights to...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 62,
+      "date": "2026-09-23T17:12:27+00:00",
+      "ts": 1790183547.0
+    },
+    {
+      "title": "ChatGPT mobile app gets voice-based agentic features",
+      "link": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/",
+      "summary": "Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 65,
+      "date": "2026-09-23T17:00:00+00:00",
+      "ts": 1790182800.0
+    },
+    {
+      "title": "YouTube adds AI tools to Creator Studio with script coaching, smart thumbnails, and Gemini editing",
+      "link": "https://the-decoder.com/youtube-adds-ai-tools-to-creator-studio-with-script-coaching-smart-thumbnails-and-gemini-editing/",
+      "summary": "YouTube is adding AI tools to its creator studio. A storytelling assistant analyzes scripts and rough cuts, Gemini becomes a chat-based editing assistant for Shorts, and a new live translation feature turns English streams into Spanish. The article YouTube adds AI tools to Creator Studio with script coaching, smart...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 50,
+      "date": "2026-09-23T16:37:43+00:00",
+      "ts": 1790181463.0
+    },
+    {
+      "title": "Bernie Sanders proposes banning ‘superintelligence’ and putting violators in prison",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act",
+      "summary": "Sen. Bernie Sanders (I-VT) and Rep. Greg Casar (D-TX) have introduced new legislation that would ban anyone from developing artificial superintelligence - a technology the bill describes as capable of the \"destruction or disempowerment of humanity,\" including by overthrowing the government. Under the Ban Artificial...",
+      "source": "The Verge AI",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 43,
+      "date": "2026-09-23T16:23:05+00:00",
+      "ts": 1790180585.0
+    },
+    {
+      "title": "Offloaded inference for real-world physical AI robotics",
+      "link": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
+      "summary": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI workloads. The post Offloaded inference for real-world physical AI robotics appeared...",
+      "source": "Microsoft Research",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "humanoides",
+        "modelos"
+      ],
+      "relevance": 56,
+      "date": "2026-09-23T16:01:36+00:00",
+      "ts": 1790179296.0
     },
     {
       "title": "What’s unique about Northcom’s Falcon Peak 26.2 counter-drone exercise",
@@ -589,35 +744,6 @@
       "ts": 1790171543.0
     },
     {
-      "title": "Nvidia Releases Isaac ROS 5.0 With New AI Agent Tools for Robotics Developers",
-      "link": "https://theaiinsider.tech/2026/09/23/nvidia-releases-isaac-ros-5-0-with-new-ai-agent-tools-for-robotics-developers/",
-      "summary": "Insider Brief Nvidia has released Isaac ROS 5.0, an update to its open-source robotics software that adds tools for AI agents, expanded ROS support and new capabilities for perception and manipulation. According to Nvidia, Isaac ROS is a collection of GPU-accelerated software packages built on the Robot Operating...",
-      "source": "The AI Insider",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 58,
-      "date": "2026-09-23T13:34:54+00:00",
-      "ts": 1790170494.0
-    },
-    {
-      "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-09-23T13:17:01+00:00",
-      "ts": 1790169421.0
-    },
-    {
       "title": "Veja no Boletim TELETIME: desafios das MVNOs e Brasil na ONU",
       "link": "https://teletime.com.br/23/09/2026/boletim-teletime-mvnos/",
       "summary": "A edição de 23 de setembro do Boletim TELETIME aborda os desafios das operadoras móveis virtuais (MVNOs) e a percepção da Anatel sobre possíveis mudanças regulatórias no segmento. O discurso do Brasil durante a Assembleia Geral da ONU, com defesa da regulação de IA e das big techs, e a carta da Conexis aos...",
@@ -644,20 +770,6 @@
       "relevance": 68,
       "date": "2026-09-23T12:31:20+00:00",
       "ts": 1790166680.0
-    },
-    {
-      "title": "Robotiq Open-Sources New Software Tools for Adaptive Grippers",
-      "link": "https://theaiinsider.tech/2026/09/23/robotiq-open-sources-new-software-tools-for-adaptive-grippers/",
-      "summary": "Insider Brief Robotiq has released three open-source software tools for its adaptive grippers, giving robotics developers company-maintained options for ROS 2, C++ development and Nvidia Isaac Sim. According to the company, the releases include a C++ software development kit, an official ROS 2 package and updated...",
-      "source": "The AI Insider",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 46,
-      "date": "2026-09-23T12:04:40+00:00",
-      "ts": 1790165080.0
     },
     {
       "title": "A new AI framework could help cities plan for future traffic",
@@ -712,6 +824,20 @@
       "relevance": 69,
       "date": "2026-09-23T09:14:20+00:00",
       "ts": 1790154860.0
+    },
+    {
+      "title": "The AI Hype Index: AI loves cheating",
+      "link": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
+      "summary": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two top mathematicians’ answer sheets). Anthropic’s models have also hacked into other companies’...",
+      "source": "MIT Tech Review",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 48,
+      "date": "2026-09-23T09:00:00+00:00",
+      "ts": 1790154000.0
     },
     {
       "title": "Anthropic, OpenAI release cheaper AI even as safety fears grow",
@@ -1650,20 +1776,6 @@
       "ts": 1790098081.0
     },
     {
-      "title": "Claude Opus 5.5 matches Fable 5.1 performance at lower cost and promises less \"Claudish\" writing",
-      "link": "https://the-decoder.com/claude-opus-5-5-matches-fable-5-1-at-40-percent-lower-cost-as-anthropic-promises-to-fix-claudish-writing/",
-      "summary": "Anthropic is launching Claude Opus 5.5, the first model in a new generation. The company says it matches Claude Fable 5.1 on most tasks while costing about 40 percent less to run than Opus 5. Anthropic's benchmarks also put it ahead of OpenAI's GPT-6 Astra on most tasks, despite being significantly cheaper. Sonnet 5.5...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 73,
-      "date": "2026-09-22T17:11:07+00:00",
-      "ts": 1790097067.0
-    },
-    {
       "title": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
       "link": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
       "summary": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, Nvidia, OpenAI, Palantir, Replit, and...",
@@ -1722,46 +1834,6 @@
       "ts": 1790092800.0
     },
     {
-      "title": "llm-typesafe 0.1a0",
-      "link": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
-      "summary": "Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model . Install it like this: llm install llm-typesafe Then set an API key ( get one here , the waitlist seems to move pretty fast): llm keys set typesafe # Paste key And now you can ask yes/no \"noul\" questions like...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 55,
-      "date": "2026-09-22T15:54:16+00:00",
-      "ts": 1790092456.0
-    },
-    {
-      "title": "OpenAI calls for international standards on AI that could improve itself",
-      "link": "https://the-decoder.com/openai-calls-for-international-standards-on-ai-that-could-improve-itself/",
-      "summary": "OpenAI wants international standards for recursive self-improvement, where AI systems independently build the next generation of AI. Without safeguards, humans could lose control over this process. OpenAI says the US should take the lead on global measurement standards and oversight rules. The article OpenAI calls for...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "geral",
-      "topics": [],
-      "relevance": 22,
-      "date": "2026-09-22T15:29:51+00:00",
-      "ts": 1790090991.0
-    },
-    {
-      "title": "Vodafone and Ericsson trial AI-powered real-time translation and noise-free calls",
-      "link": "https://totaltele.com/vodafone-and-ericsson-trial-ai-powered-real-time-translation-and-noise-free-calls/",
-      "summary": "Vodafone and Ericsson have successfully demonstrated two AI-powered voice services, real-time noise cancellation and language translation, running directly within the mobile network. The post Vodafone and Ericsson trial AI-powered real-time translation and noise-free calls appeared first on Total Telecom .",
-      "source": "Total Telecom",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 22,
-      "date": "2026-09-22T15:15:18+00:00",
-      "ts": 1790090118.0
-    },
-    {
       "title": "Build a Speaker-Recognition App with Claude Code",
       "link": "https://towardsdatascience.com/build-a-speaker-recognition-app-with-claude-code/",
       "summary": "Learn how to effectively code up an internal tool using Claude code or Codex The post Build a Speaker-Recognition App with Claude Code appeared first on Towards Data Science .",
@@ -1774,20 +1846,6 @@
       "relevance": 43,
       "date": "2026-09-22T14:00:02+00:00",
       "ts": 1790085602.0
-    },
-    {
-      "title": "A tiny software layer from lab-grown neurons promises faster, cheaper AI video",
-      "link": "https://the-decoder.com/a-tiny-software-layer-from-lab-grown-neurons-promises-faster-cheaper-ai-video/",
-      "summary": "The Biological Computing Co. wants to team up with AWS to sell a text-to-video model that's supposed to run five times faster and 80 percent cheaper thanks to a software layer derived from real nerve cells. The tiny layer adds less than 0.1 percent to the base model, but the startup won't say which model that is. The...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 37,
-      "date": "2026-09-22T13:58:20+00:00",
-      "ts": 1790085500.0
     },
     {
       "title": "The Army’s Digital Transformation: Inside TechNet Augusta 2026",
@@ -1874,18 +1932,6 @@
       "relevance": 55,
       "date": "2026-09-22T11:04:51+00:00",
       "ts": 1790075091.0
-    },
-    {
-      "title": "A New Chatbot Wants to Unlock the Secrets in Tattered Ancient Greek Records",
-      "link": "https://www.wired.com/story/apollo-ai-model-ancient-greek-secrets-papyrus/",
-      "summary": "In the hope of uncovering new details about ancient life, researchers have developed a large language model that fills in the gaps in papyrus fragments.",
-      "source": "Wired AI",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 46,
-      "date": "2026-09-22T09:30:00+00:00",
-      "ts": 1790069400.0
     },
     {
       "title": "Shanghai AI Lab Ships Intern-S2-397B Science Multimodal Model With Memory Decoder",
@@ -2015,21 +2061,6 @@
       "relevance": 43,
       "date": "2026-09-21T23:18:07+00:00",
       "ts": 1790032687.0
-    },
-    {
-      "title": "MindWalk Deploys OpenFold3 on AMD GPUs in Vultr Cloud for Drug Discovery",
-      "link": "https://www.hpcwire.com/aiwire/2026/09/21/mindwalk-deploys-openfold3-on-amd-gpus-in-vultr-cloud-for-drug-discovery/",
-      "summary": "AUSTIN, Texas, Sept. 21, 2026 — MindWalk Holdings Corp., a Bio-Native AI company, today announced results from a production deployment of the open-source OpenFold3 structure prediction model, run with engineering partners AMD and Vultr on Vultr Kubernetes Engine and Vultr Cloud GPU powered by AMD Instinct MI325X GPUs...",
-      "source": "AIwire",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "biomedica",
-        "modelos"
-      ],
-      "relevance": 48,
-      "date": "2026-09-21T22:36:41+00:00",
-      "ts": 1790030201.0
     },
     {
       "title": "Telecom Equipment Market Extends Recovery as AI Infrastructure Spending Accelerates",
@@ -2366,21 +2397,6 @@
       "ts": 1789745933.0
     },
     {
-      "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
-      "link": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
-      "summary": "Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and get back a real-time endpoint with the right serving container, autoscaling, Amazon CloudWatch alarms, and a verified teardown path.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-09-18T15:25:23+00:00",
-      "ts": 1789745123.0
-    },
-    {
       "title": "Open-source benchmark tests whether AI agents can engineer working robots",
       "link": "https://techxplore.com/news/2026-09-source-benchmark-ai-agents-robots.html",
       "summary": "With the rapid rise of artificial intelligence in daily life, software coding has become increasingly automated, with powerful AI systems known as coding agents able to write and revise computer programs almost autonomously. But what happens when an AI agent must contend not just with digital command lines, but with...",
@@ -2589,20 +2605,6 @@
       "relevance": 47,
       "date": "2026-09-17T16:18:34+00:00",
       "ts": 1789661914.0
-    },
-    {
-      "title": "Openreach: Ask Me Anything about my Crystal Ball",
-      "link": "https://totaltele.com/openreach-ask-me-anything-about-my-crystal-ball/",
-      "summary": "The UK’s largest fibre network operator is using AI tools to prevent thousands of full fibre broadband cancellations each month The post Openreach: Ask Me Anything about my Crystal Ball appeared first on Total Telecom .",
-      "source": "Total Telecom",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 22,
-      "date": "2026-09-17T14:36:31+00:00",
-      "ts": 1789655791.0
     },
     {
       "title": "The Economics of Telecom AI Agents – Model Choice, Retrieval, Tokens and Escalation Costs",
@@ -2943,20 +2945,6 @@
       "relevance": 64,
       "date": "2026-09-14T15:00:52+00:00",
       "ts": 1789398052.0
-    },
-    {
-      "title": "Samsung and Verizon test ISAC capabilities in Dallas",
-      "link": "https://totaltele.com/samsung-and-verizon-test-isac-capabilities-in-dallas/",
-      "summary": "Showcasing the industry’s first AI-powered ISAC trial on vRAN, the companies proved how sensing networks enable real-time intelligence for large-scale events The post Samsung and Verizon test ISAC capabilities in Dallas appeared first on Total Telecom .",
-      "source": "Total Telecom",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 22,
-      "date": "2026-09-14T13:35:25+00:00",
-      "ts": 1789392925.0
     },
     {
       "title": "New method enables AI for safety-critical situations",
@@ -3429,20 +3417,6 @@
       "ts": 1788537961.0
     },
     {
-      "title": "Huawei latest SingleRAN 22.1 launch targets the Agentverse",
-      "link": "https://totaltele.com/huawei-latest-singleran-22-1-launch-targets-the-agentverse/",
-      "summary": "News The company says its new SingleRAN 22.1 wireless software aims to build a multidimensional foundation for the Mobile AI network As AI models grow more advanced, the use of AI agents continues to proliferate. According to forecasts from IDC, there will be more than 1 billion actively deployed AI agents by 2029,...",
-      "source": "Total Telecom",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 49,
-      "date": "2026-09-04T10:09:26+00:00",
-      "ts": 1788516566.0
-    },
-    {
       "title": "Moonshot AI – creator of Kimi K3 model – has filed for Hong Kong IPO: sources",
       "link": "https://www.scmp.com/tech/big-tech/article/3366271/moonshot-ai-creator-kimi-k3-model-has-filed-hong-kong-ipo-sources?utm_source=rss_feed",
       "summary": "Chinese artificial intelligence start-up Moonshot AI – developer of the leading Kimi K3 model – has confidentially filed for an initial public offering in Hong Kong, according to two people with knowledge of the matter, as the firm seeks to tap public markets to fund its rapid expansion. The Beijing-based company was...",
@@ -3892,6 +3866,20 @@
       "relevance": 26,
       "date": "2026-08-21T10:54:00+00:00",
       "ts": 1787309640.0
+    },
+    {
+      "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+      "link": "https://huggingface.co/blog/pwc-search",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 40,
+      "date": "2026-08-21T00:00:00+00:00",
+      "ts": 1787270400.0
     },
     {
       "title": "Broadening access to Skala creates a faster path to predictive DFT",
