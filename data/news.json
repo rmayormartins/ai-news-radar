@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-23T20:51:32.653855+00:00",
+  "generated_at": "2026-09-24T02:16:35.767244+00:00",
   "count": 272,
   "china_count": 54,
   "topic_counts": {
     "humanoides": 9,
-    "modelos": 167,
-    "agentes": 48,
+    "modelos": 161,
+    "agentes": 49,
     "biomedica": 16,
-    "defesa": 15,
-    "telecom": 26
+    "defesa": 14,
+    "telecom": 30
   },
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1227 itens)",
+      "status": "ok (1228 itens)",
       "kept": 12
     },
     {
@@ -88,7 +88,7 @@
     },
     {
       "source": "arXiv cs.CV",
-      "status": "ok (382 itens)",
+      "status": "ok (211 itens)",
       "kept": 6
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -139,17 +139,17 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "Ars Technica",
       "status": "ok (20 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 2
     },
     {
       "source": "Wired AI",
@@ -284,11 +284,11 @@
     {
       "source": "The Guardian (IA)",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "AI News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -304,7 +304,7 @@
     {
       "source": "AIwire",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "The Robot Report",
@@ -339,12 +339,12 @@
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "arXiv eess.IV (imagem)",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 1
     },
     {
       "source": "DefenseScoop",
@@ -393,8 +393,8 @@
     },
     {
       "source": "Total Telecom",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 4
     },
     {
       "source": "TeckNexus",
@@ -428,6 +428,94 @@
     }
   ],
   "items": [
+    {
+      "title": "SenseTime Ships SenseNova U1 Pro Image Model With Up to 8K Output via Raccoon and API",
+      "link": "https://pandaily.com/sensetime-sensenova-u1-pro-image-model-8k-raccoon-api",
+      "summary": "SenseTime released the production SenseNova U1 Pro image-creation model through its Raccoon app and SenseNova API, citing interleaved text-image chain-of-thought generation and output resolution up to 8K with custom aspect ratios.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 52,
+      "date": "2026-09-24T02:02:03+00:00",
+      "ts": 1790215323.0
+    },
+    {
+      "title": "Alibaba Cloud Unveils Qwen Book AI Agent PC: Skill Keyboard, AI Island Display and Omarchy OS Collab",
+      "link": "https://pandaily.com/alibaba-cloud-qwen-book-ai-agent-pc-skill-keyboard-omarchy",
+      "summary": "Alibaba Cloud debuted Qwen Book, its first AI agent PC, at Apsara 2026 with a Skill keyboard array, AI Island status display and an Omarchy open-source desktop OS collaboration, opening a Day One tester program toward December trials.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 67,
+      "date": "2026-09-24T02:01:27+00:00",
+      "ts": 1790215287.0
+    },
+    {
+      "title": "Alibaba Launches Qwen Intelligence Phone-Agent Stack; Honor Magic9 Named First Formal Adopter",
+      "link": "https://pandaily.com/alibaba-qwen-intelligence-phone-agent-stack-honor-magic9",
+      "summary": "At Apsara 2026, Alibaba released Qwen Intelligence, a modular phone-agent platform spanning Mobile Planner, Mobile-Use and Creative agents plus an OS Harness, with Honor's forthcoming Magic9 series as the first formal adopter.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 68,
+      "date": "2026-09-24T02:00:50+00:00",
+      "ts": 1790215250.0
+    },
+    {
+      "title": "Xiaomi Details HySparse2 for MiMo-V3: Two-Level KV Sharing Cuts 1M-Token Prefill FLOPs About 5× vs Hybrid SWA",
+      "link": "https://pandaily.com/xiaomi-hysparse2-mimo-v3-two-level-kv-sharing-prefill",
+      "summary": "Xiaomi's LLM-Core team published HySparse2, a hybrid sparse-attention design with two-level KV sharing aimed at MiMo-V3-class agentic models, reporting about 5× lower 1M-token prefill FLOPs versus Hybrid SWA on an 80B-A3B MoE.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "pesquisa",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 65,
+      "date": "2026-09-24T02:00:12+00:00",
+      "ts": 1790215212.0
+    },
+    {
+      "title": "Tumor digital twins took months to build—AI now drafts them in minutes",
+      "link": "https://medicalxpress.com/news/2026-09-tumor-digital-twins-months-ai.html",
+      "summary": "Until now, building a digital model of a tumor required scientists to review extensive literature, train in specialized software and master multiple programming languages. From start to finish, the process often took months, if not years, of specialized work.",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "biomedica",
+        "modelos"
+      ],
+      "relevance": 35,
+      "date": "2026-09-23T23:40:06+00:00",
+      "ts": 1790206806.0
+    },
+    {
+      "title": "Anthropic says its biology lab has already found something big",
+      "link": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
+      "summary": "But maybe the biggest reveal is that Anthropic has not let Claude run loose in its biology lab. Humans are still, so far, in the loop.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "biomedica",
+        "modelos"
+      ],
+      "relevance": 44,
+      "date": "2026-09-23T22:17:39+00:00",
+      "ts": 1790201859.0
+    },
     {
       "title": "Cisco AI Research: AgenticOps Scaling Quickly in the Enterprise",
       "link": "https://www.hpcwire.com/aiwire/2026/09/23/cisco-ai-research-agenticops-scaling-quickly-in-the-enterprise/",
@@ -868,20 +956,6 @@
       "ts": 1790151626.0
     },
     {
-      "title": "Alibaba Upgrades Qwen Audio Suite: LiveTranslate Latency Cut and Qwen-Audio-3.1 ASR/TTS/Realtime",
-      "link": "https://pandaily.com/alibaba-qwen-livetranslate-audio-3-1-asr-tts-realtime",
-      "summary": "At Apsara 2026, Alibaba debuted Qwen3.8-LiveTranslate with LAAL latency cut from about 2.8 to 2.3 seconds and unveiled the Qwen-Audio-3.1 family spanning ASR, TTS, Realtime and TTS-Next cinematic soundscapes.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 50,
-      "date": "2026-09-23T07:43:40+00:00",
-      "ts": 1790149420.0
-    },
-    {
       "title": "Alibaba Cloud Unveils Agentic Cloud Stack: AgentCore, Next-Gen CPFS and HPN 8.0 Pro",
       "link": "https://pandaily.com/alibaba-cloud-agentic-cloud-agentcore-cpfs-hpn-8-0-pro",
       "summary": "At Apsara 2026, Alibaba Cloud framed an Agentic Cloud around AgentCore for full-lifecycle agent governance, a next-generation CPFS storage system with hundred-TB/s-class throughput claims, and HPN 8.0 Pro AI networking rated at 100 petabits of bandwidth.",
@@ -1009,20 +1083,6 @@
       "ts": 1790136000.0
     },
     {
-      "title": "Layer-Aware Position Embeddings for Visual Token Pruning in Multimodal Large Language Models",
-      "link": "https://arxiv.org/abs/2609.23715",
-      "summary": "arXiv:2609.23715v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) incur substantial computational overhead due to the reliance on hundreds of visual tokens to represent images. While token pruning has emerged as a promising approach to reduce the inference cost of MLLMs, existing methods...",
-      "source": "arXiv cs.CV",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 72,
-      "date": "2026-09-23T04:00:00+00:00",
-      "ts": 1790136000.0
-    },
-    {
       "title": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
       "link": "https://arxiv.org/abs/2609.26777",
       "summary": "arXiv:2609.26777v1 Announce Type: new Abstract: We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple changes across the serving stack, including model support, runtime execution, and public APIs....",
@@ -1065,33 +1125,6 @@
       "ts": 1790136000.0
     },
     {
-      "title": "SLICEChat: Progressive In-Encoder Token Pruning for Whole-Slide Pathology Language Models",
-      "link": "https://arxiv.org/abs/2609.24894",
-      "summary": "arXiv:2609.24894v1 Announce Type: new Abstract: Whole-slide pathology images (WSIs) contain gigapixel-scale visual content, creating a major scalability challenge for slide-level multimodal large language models (MLLMs). Existing approaches process thousands of patch tokens and typically apply compression only after...",
-      "source": "arXiv cs.CV",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "biomedica",
-        "modelos"
-      ],
-      "relevance": 71,
-      "date": "2026-09-23T04:00:00+00:00",
-      "ts": 1790136000.0
-    },
-    {
-      "title": "Towards Training-free Automatic Proxy Discovery via Large Language Models for Mixed Precision Quantization",
-      "link": "https://arxiv.org/abs/2512.07419",
-      "summary": "arXiv:2512.07419v3 Announce Type: replace-cross Abstract: Mixed-Precision Quantization (MPQ) liberates Deep Neural Networks (DNNs) from the Out-Of-Memory (OOM) bottleneck and has garnered increasing research attention. However, conventional methods either rely on costly differentiable optimization search, which is...",
-      "source": "arXiv cs.CV",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 71,
-      "date": "2026-09-23T04:00:00+00:00",
-      "ts": 1790136000.0
-    },
-    {
       "title": "Qwen-Audio-3.1-Realtime: Towards Reliable Agentic Voice Interaction",
       "link": "https://arxiv.org/abs/2609.25176",
       "summary": "arXiv:2609.25176v1 Announce Type: cross Abstract: Real-time voice assistants must reason over evolving requests, execute actions, and follow conversational rules. Qwen-Audio-3.1-Realtime brings these requirements together through Think, Act, and Speak and Coordinate. Think combines Core-Cocktail supervised fine-tuning...",
@@ -1107,24 +1140,24 @@
       "ts": 1790136000.0
     },
     {
-      "title": "QwenVLConnector: A Fast, Unified Medical VLM Chatbot for Fine-Grained Clinical Perception and Text Generation",
-      "link": "https://arxiv.org/abs/2609.23139",
-      "summary": "arXiv:2609.23139v1 Announce Type: new Abstract: Most medical vision-language models (VLMs) excel at open-ended report generation and VQA but provide limited support for structured, fine-grained clinical perception within a unified interface. We present QwenVLConnector, a Qwen2.5-VL-based medical chatbot that unifies...",
+      "title": "Cellular-Communication-Level Interpretability for Pathology Foundation Models via Graph Distillation on Microenvironment",
+      "link": "https://arxiv.org/abs/2609.26073",
+      "summary": "arXiv:2609.26073v1 Announce Type: new Abstract: Pathology foundation models (PFMs) provide strong tile-level representations but remain difficult to interpret at the cellular and microenvironmental scales that underpin clinical reasoning. We introduce Graph-Interpreter (G-Interp), a graph-distillation framework that...",
       "source": "arXiv cs.CV",
-      "region": "china",
-      "category": "modelo",
+      "region": "global",
+      "category": "pesquisa",
       "topics": [
         "biomedica",
-        "modelos"
+        "telecom"
       ],
       "relevance": 70,
       "date": "2026-09-23T04:00:00+00:00",
       "ts": 1790136000.0
     },
     {
-      "title": "A$^2$Safe: Counterfactual Evidence-Aligned Adaptive Agent Collaboration for Safe and Effective Visual Question Answering",
-      "link": "https://arxiv.org/abs/2609.24098",
-      "summary": "arXiv:2609.24098v1 Announce Type: new Abstract: Visual Question Answering (VQA) with Multimodal Large Language Models (MLLMs) requires not only producing safe and effective responses, but also grounding safety decisions in the multimodal evidence that determines risk. Recent safety-alignment methods improve refusal...",
+      "title": "OpenQlaw: An Agentic AI Assistant for Analysis of 2D Quantum Materials",
+      "link": "https://arxiv.org/abs/2603.17043",
+      "summary": "arXiv:2603.17043v2 Announce Type: replace Abstract: Physics-aware multimodal large language models (MLLMs) can localize and characterize two-dimensional (2D) material flakes from optical microscopy images, producing rich candidate observations and scientific reasoning. However, downstream workflows also require...",
       "source": "arXiv cs.CV",
       "region": "global",
       "category": "pesquisa",
@@ -1136,15 +1169,14 @@
       "ts": 1790136000.0
     },
     {
-      "title": "Benchmarking Off-the-Shelf Multimodal AI Models Against Dermatologists on Patient-Captured Skin Images",
-      "link": "https://arxiv.org/abs/2609.24190",
-      "summary": "arXiv:2609.24190v1 Announce Type: new Abstract: Artificial intelligence (AI) has advanced at a rapid pace in recent years. Initially, breakthroughs in large language models caught widespread attention. However, recent generations of frontier AI models have adopted multimodal capabilities as a first class citizen, with...",
+      "title": "BVB: Benchmarking Agentic Video Understanding via Programmatic Reconstruction in Blender",
+      "link": "https://arxiv.org/abs/2609.15478",
+      "summary": "arXiv:2609.15478v2 Announce Type: replace Abstract: Multimodal agents can create complex videos in software such as Blender by coding without relying on diffusion models. Yet video understanding benchmarks still evaluate models mainly through question answering. If an agent truly understands a video, it can...",
       "source": "arXiv cs.CV",
       "region": "global",
-      "category": "modelo",
+      "category": "pesquisa",
       "topics": [
-        "biomedica",
-        "modelos"
+        "agentes"
       ],
       "relevance": 70,
       "date": "2026-09-23T04:00:00+00:00",
@@ -1221,6 +1253,18 @@
       "ts": 1790136000.0
     },
     {
+      "title": "Calibrating Retrieval Geometry: Reliability-Guided Training-Free Aggregation for Visual Place Recognition",
+      "link": "https://arxiv.org/abs/2609.25937",
+      "summary": "arXiv:2609.25937v1 Announce Type: new Abstract: Frozen visual foundation models provide transferable features for visual place recognition, but fixed aggregation can suppress useful distinctions in new environments. We introduce TFA, a reliability-guided, training-free aggregation method requiring neither place labels...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 68,
+      "date": "2026-09-23T04:00:00+00:00",
+      "ts": 1790136000.0
+    },
+    {
       "title": "ufakzeka-1: Building and Evaluating a 151M-Parameter Turkish Language Model from Scratch",
       "link": "https://arxiv.org/abs/2609.25081",
       "summary": "arXiv:2609.25081v1 Announce Type: new Abstract: We describe ufakzeka-1, a 151M-parameter (182M with embeddings) decoder-only Turkish language model pretrained from scratch on 13.5B tokens of openly licensed text and instruction-tuned for chat, at a total cost of about \\$286 in cloud GPU, API and notebook time. The...",
@@ -1254,6 +1298,34 @@
       "region": "global",
       "category": "pesquisa",
       "topics": [],
+      "relevance": 67,
+      "date": "2026-09-23T04:00:00+00:00",
+      "ts": 1790136000.0
+    },
+    {
+      "title": "GAD-MambaUNet: Direction-Group Mamba with Gradient-Adaptive DINOv3 Distillation for Lightweight Medical Image Segmentation",
+      "link": "https://arxiv.org/abs/2609.26729",
+      "summary": "arXiv:2609.26729v1 Announce Type: new Abstract: In this paper, we proposed GAD-MambaUNet, a lightweight medical image segmentation network that combines efficient local modeling, direction--group state-space interaction, and training-time foundation-model supervision. To improve contextual modeling in compact...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 67,
+      "date": "2026-09-23T04:00:00+00:00",
+      "ts": 1790136000.0
+    },
+    {
+      "title": "HARMONY: Hierarchical Agentic Reasoning for MONocular Image-to-Scene Synthesis",
+      "link": "https://arxiv.org/abs/2609.26793",
+      "summary": "arXiv:2609.26793v1 Announce Type: new Abstract: Compositional 3D scene reconstruction has recently been explored from two directions: agentic reasoning that provides semantic understanding of spatial relationships but lacks precise alignment with input images; and visual geometry foundation models that predict dense...",
+      "source": "arXiv cs.CV",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
       "relevance": 67,
       "date": "2026-09-23T04:00:00+00:00",
       "ts": 1790136000.0
@@ -1454,20 +1526,6 @@
       "ts": 1790136000.0
     },
     {
-      "title": "IViT: A Novel Interpretable Visual Transformer for Skin Disease Detection",
-      "link": "https://arxiv.org/abs/2606.22892",
-      "summary": "arXiv:2606.22892v2 Announce Type: replace Abstract: The clinical diagnosis of skin diseases is susceptible to interference from inter-class similarity of skin lesions, and over-reliance on clinicians'experience easily leads to subjective bias. Although existing deep learning aided diagnosis methods achieve competitive...",
-      "source": "arXiv eess.IV (imagem)",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 54,
-      "date": "2026-09-23T04:00:00+00:00",
-      "ts": 1790136000.0
-    },
-    {
       "title": "Recursive Flow: A Generative Framework for MIMO Channel Estimation",
       "link": "https://arxiv.org/abs/2601.15767",
       "summary": "arXiv:2601.15767v3 Announce Type: cross Abstract: Channel estimation is a fundamental challenge in massive multiple-input multiple-output systems, where estimation accuracy governs the spectral efficiency and link reliability. In this work, we introduce Recursive Flow (RC-Flow), a novel solver that leverages...",
@@ -1504,20 +1562,6 @@
         "telecom"
       ],
       "relevance": 48,
-      "date": "2026-09-23T04:00:00+00:00",
-      "ts": 1790136000.0
-    },
-    {
-      "title": "Mammo-LIFE: Longitudinal Mammographic Imaging and Clinical Feature Enrichment for Post-Radiotherapy Outcome Prediction",
-      "link": "https://arxiv.org/abs/2609.26443",
-      "summary": "arXiv:2609.26443v1 Announce Type: cross Abstract: Recent advances in Artificial Intelligence (AI)-powered Computer-Aided Diagnosis (CAD) systems have substantially improved breast cancer screening, diagnosis, and prognosis. Comparatively, postradiotherapy outcome prediction using paired longitudinal mammograms has...",
-      "source": "arXiv eess.IV (imagem)",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 44,
       "date": "2026-09-23T04:00:00+00:00",
       "ts": 1790136000.0
     },
@@ -1578,6 +1622,18 @@
       "ts": 1790128358.0
     },
     {
+      "title": "How to Guide Your Language Flow",
+      "link": "https://machinelearning.apple.com/research/guide-language-flow",
+      "summary": "We introduce a new method to guide flow matching models. Our approach, which we call probe guidance, uses the frozen internal states of an existing diffusion model to construct a guidance signal. This works using a similar principle as autoguidance, but eliminates the need for an additional forward pass at inference...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 65,
+      "date": "2026-09-23T00:00:00+00:00",
+      "ts": 1790121600.0
+    },
+    {
       "title": "Rebellions NPUs now run four SK Telecom AI services",
       "link": "https://rcrwireless.com/20260922/ai/rebellions-npus-sk-telecom",
       "summary": "Rebellions’ ATOM-Max chips move from pilot to production in SK Telecom’s consumer services In sum – what we know: ￼South Korean AI-chip company Rebellions says its neural processing unit infrastructure is now…",
@@ -1619,20 +1675,6 @@
       "relevance": 41,
       "date": "2026-09-22T21:31:19+00:00",
       "ts": 1790112679.0
-    },
-    {
-      "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
-      "summary": "Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says its new OS3 \"agentic operating system\" runs in the cloud but operates locally across Windows, Mac, and Linux devices. According to Rabbit,...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 41,
-      "date": "2026-09-22T20:52:40+00:00",
-      "ts": 1790110360.0
     },
     {
       "title": "Navy CIO: Investing in connectivity key to continued ‘maritime dominance’",
@@ -1776,35 +1818,6 @@
       "ts": 1790098081.0
     },
     {
-      "title": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
-      "summary": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, Nvidia, OpenAI, Palantir, Replit, and...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "defesa",
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-09-22T16:34:08+00:00",
-      "ts": 1790094848.0
-    },
-    {
-      "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
-      "summary": "Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday, Anthropic says Opus 5.5 comes with improvements to certain risky behaviors, including attempts to escape the company's testing sandbox. It's the first model...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 59,
-      "date": "2026-09-22T16:30:00+00:00",
-      "ts": 1790094600.0
-    },
-    {
       "title": "Orange takes Nokia AI-RAN into live network testing",
       "link": "https://rcrwireless.com/20260922/network-infrastructure/orange-takes-nokia-ai-ran-into-live-network-testing",
       "summary": "Orange is preparing to test Nokia’s AI-RAN platform in its live network, putting claimed radio-efficiency gains to the commercial test while exploring the bigger proposition of shared compute for AI…",
@@ -1832,6 +1845,20 @@
       "relevance": 42,
       "date": "2026-09-22T16:00:00+00:00",
       "ts": 1790092800.0
+    },
+    {
+      "title": "Vodafone and Ericsson trial AI-powered real-time translation and noise-free calls",
+      "link": "https://totaltele.com/vodafone-and-ericsson-trial-ai-powered-real-time-translation-and-noise-free-calls/",
+      "summary": "Vodafone and Ericsson have successfully demonstrated two AI-powered voice services, real-time noise cancellation and language translation, running directly within the mobile network. The post Vodafone and Ericsson trial AI-powered real-time translation and noise-free calls appeared first on Total Telecom .",
+      "source": "Total Telecom",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 22,
+      "date": "2026-09-22T15:15:18+00:00",
+      "ts": 1790090118.0
     },
     {
       "title": "Build a Speaker-Recognition App with Claude Code",
@@ -1963,20 +1990,6 @@
       "ts": 1790060798.0
     },
     {
-      "title": "British Columbia sues OpenAI and Sam Altman over Tumbler Ridge mass school shooting",
-      "link": "https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting",
-      "summary": "Canadian province alleges deadly attack could have been prevented if company had warned police of shooter’s ChatGPT use British Columbia has sued OpenAI , saying a mass shooting at a school in the Canadian province could have been prevented if the company had warned local ⁠law enforcement that the shooter ⁠had used...",
-      "source": "The Guardian (IA)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 46,
-      "date": "2026-09-22T04:29:22+00:00",
-      "ts": 1790051362.0
-    },
-    {
       "title": "Ant Group consolidates Alipay operations in big bet on AI ‘agentic commerce’",
       "link": "https://www.scmp.com/tech/tech-trends/article/3368325/ant-group-consolidates-alipay-operations-big-bet-ai-agentic-commerce?utm_source=rss_feed",
       "summary": "Chinese fintech giant Ant Group has revamped its online payments operations by creating a new business group for Alipay, as it sharpens its artificial intelligence focus on “agentic commerce” to drive new growth. Ant, an Alibaba Group Holding affiliate, merged its Digital Payment Business Group, Alipay Business Group...",
@@ -1989,50 +2002,6 @@
       "relevance": 49,
       "date": "2026-09-22T03:41:25+00:00",
       "ts": 1790048485.0
-    },
-    {
-      "title": "ByteDance Doubao Phone Agent Goes MCP/A2A-First With GUI Fallback",
-      "link": "https://pandaily.com/bytedance-doubao-phone-agent-mcp-a2a-gui-fallback",
-      "summary": "Doubao's consumer phone assistant prioritizes MCP and A2A protocol calls to apps, keeping GUI-agent automation as a SAEP-bounded fallback rather than the default path.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 59,
-      "date": "2026-09-22T02:01:46+00:00",
-      "ts": 1790042506.0
-    },
-    {
-      "title": "Xiaomi Open-Sources MiMo-V2.6 Pro and Flash Weights Plus RL Stack",
-      "link": "https://pandaily.com/xiaomi-mimo-v2-6-pro-flash-open-weights-rl-environments",
-      "summary": "Xiaomi open-sourced MiMo-V2.6-Pro and Flash weights with RL code and 7,000-plus task environments, focusing on downloadable checkpoints rather than the prior livestream dashboard story.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "telecom",
-        "modelos"
-      ],
-      "relevance": 58,
-      "date": "2026-09-22T02:01:08+00:00",
-      "ts": 1790042468.0
-    },
-    {
-      "title": "Light Origins Open-Sources Light-O1-Preview 6B Whole-Body Model",
-      "link": "https://pandaily.com/light-origins-light-o1-preview-6b-apache-human-video",
-      "summary": "Light Origins released Light-O1-Preview, a 6B Apache-2.0 model that turns human-video action priors into robot whole-body trajectories, distinct from its LightNav-0 navigation stack.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 66,
-      "date": "2026-09-22T02:00:32+00:00",
-      "ts": 1790042432.0
     },
     {
       "title": "Transformers now runs llama.cpp quants",
@@ -2061,6 +2030,21 @@
       "relevance": 43,
       "date": "2026-09-21T23:18:07+00:00",
       "ts": 1790032687.0
+    },
+    {
+      "title": "MindWalk Deploys OpenFold3 on AMD GPUs in Vultr Cloud for Drug Discovery",
+      "link": "https://www.hpcwire.com/aiwire/2026/09/21/mindwalk-deploys-openfold3-on-amd-gpus-in-vultr-cloud-for-drug-discovery/",
+      "summary": "AUSTIN, Texas, Sept. 21, 2026 — MindWalk Holdings Corp., a Bio-Native AI company, today announced results from a production deployment of the open-source OpenFold3 structure prediction model, run with engineering partners AMD and Vultr on Vultr Kubernetes Engine and Vultr Cloud GPU powered by AMD Instinct MI325X GPUs...",
+      "source": "AIwire",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "biomedica",
+        "modelos"
+      ],
+      "relevance": 48,
+      "date": "2026-09-21T22:36:41+00:00",
+      "ts": 1790030201.0
     },
     {
       "title": "Telecom Equipment Market Extends Recovery as AI Infrastructure Spending Accelerates",
@@ -2592,19 +2576,18 @@
       "ts": 1789675841.0
     },
     {
-      "title": "Covert uploads and megalomania: OpenAI details new \"misaligned\" agent incidents",
-      "link": "https://arstechnica.com/ai/2026/09/covert-uploads-and-megalomania-openai-details-new-misaligned-agent-incidents/",
-      "summary": "Model maker commits to new framework for reporting misaligned models.",
-      "source": "Ars Technica",
+      "title": "Openreach: Ask Me Anything about my Crystal Ball",
+      "link": "https://totaltele.com/openreach-ask-me-anything-about-my-crystal-ball/",
+      "summary": "The UK’s largest fibre network operator is using AI tools to prevent thousands of full fibre broadband cancellations each month The post Openreach: Ask Me Anything about my Crystal Ball appeared first on Total Telecom .",
+      "source": "Total Telecom",
       "region": "global",
-      "category": "modelo",
+      "category": "geral",
       "topics": [
-        "agentes",
-        "modelos"
+        "telecom"
       ],
-      "relevance": 47,
-      "date": "2026-09-17T16:18:34+00:00",
-      "ts": 1789661914.0
+      "relevance": 22,
+      "date": "2026-09-17T14:36:31+00:00",
+      "ts": 1789655791.0
     },
     {
       "title": "The Economics of Telecom AI Agents – Model Choice, Retrieval, Tokens and Escalation Costs",
@@ -2866,6 +2849,20 @@
       "ts": 1789502400.0
     },
     {
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 39,
+      "date": "2026-09-15T16:00:44+00:00",
+      "ts": 1789488044.0
+    },
+    {
       "title": "The AI Inference Revolution Is Here",
       "link": "https://spectrum.ieee.org/inference-hardware-revolution",
       "summary": "Since about 2020, AI has largely focused on training bigger and better models. Large language models (LLMs) ballooned from millions of parameters to trillions. This proved effective: The largest version of OpenAI’s GPT-3, released in 2020, correctly answered just 43.9 percent of questions on a popular...",
@@ -2945,6 +2942,20 @@
       "relevance": 64,
       "date": "2026-09-14T15:00:52+00:00",
       "ts": 1789398052.0
+    },
+    {
+      "title": "Samsung and Verizon test ISAC capabilities in Dallas",
+      "link": "https://totaltele.com/samsung-and-verizon-test-isac-capabilities-in-dallas/",
+      "summary": "Showcasing the industry’s first AI-powered ISAC trial on vRAN, the companies proved how sensing networks enable real-time intelligence for large-scale events The post Samsung and Verizon test ISAC capabilities in Dallas appeared first on Total Telecom .",
+      "source": "Total Telecom",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 22,
+      "date": "2026-09-14T13:35:25+00:00",
+      "ts": 1789392925.0
     },
     {
       "title": "New method enables AI for safety-critical situations",
@@ -3087,18 +3098,6 @@
       "relevance": 57,
       "date": "2026-09-11T09:30:05+00:00",
       "ts": 1789119005.0
-    },
-    {
-      "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
-      "link": "https://machinelearning.apple.com/research/discosign-gloss-translation",
-      "summary": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sign language comprehension. We introduce DiscoSign, a computational approach for discourse-aware text to sign language gloss translation grounded in linguistic research. We address...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 47,
-      "date": "2026-09-11T00:00:00+00:00",
-      "ts": 1789084800.0
     },
     {
       "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
@@ -3415,6 +3414,20 @@
       "relevance": 46,
       "date": "2026-09-04T16:06:01+00:00",
       "ts": 1788537961.0
+    },
+    {
+      "title": "Huawei latest SingleRAN 22.1 launch targets the Agentverse",
+      "link": "https://totaltele.com/huawei-latest-singleran-22-1-launch-targets-the-agentverse/",
+      "summary": "News The company says its new SingleRAN 22.1 wireless software aims to build a multidimensional foundation for the Mobile AI network As AI models grow more advanced, the use of AI agents continues to proliferate. According to forecasts from IDC, there will be more than 1 billion actively deployed AI agents by 2029,...",
+      "source": "Total Telecom",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 49,
+      "date": "2026-09-04T10:09:26+00:00",
+      "ts": 1788516566.0
     },
     {
       "title": "Moonshot AI – creator of Kimi K3 model – has filed for Hong Kong IPO: sources",
@@ -3920,6 +3933,20 @@
       "ts": 1787070900.0
     },
     {
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "link": "https://openai.com/index/chatgpt-for-teens",
+      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 69,
+      "date": "2026-08-18T11:00:00+00:00",
+      "ts": 1787050800.0
+    },
+    {
       "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
       "link": "https://huggingface.co/blog/multi-vector-encoder",
       "summary": "",
@@ -4140,35 +4167,6 @@
       "relevance": 44,
       "date": "2026-08-10T13:02:42+00:00",
       "ts": 1786366962.0
-    },
-    {
-      "title": "Premium seats are coming to ChatGPT Business",
-      "link": "https://openai.com/index/premium-seats-chatgpt-business",
-      "summary": "Premium seats are now available on ChatGPT Business, with 5x more usage, no five-hour usage limit, and flexible seat options for every teammate.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 71,
-      "date": "2026-08-10T00:00:00+00:00",
-      "ts": 1786320000.0
-    },
-    {
-      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "link": "https://huggingface.co/blog/muse-glimmer",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 63,
-      "date": "2026-08-10T00:00:00+00:00",
-      "ts": 1786320000.0
     },
     {
       "title": "Study Linking Solar Farms to Bird Loss Draws Scrutiny in China",
