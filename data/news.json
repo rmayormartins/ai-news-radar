@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-26T20:22:40.596062+00:00",
-  "count": 252,
+  "generated_at": "2026-09-27T02:34:06.627866+00:00",
+  "count": 254,
   "china_count": 55,
   "topic_counts": {
-    "humanoides": 9,
-    "modelos": 149,
-    "agentes": 51,
-    "biomedica": 11,
+    "humanoides": 10,
+    "modelos": 150,
+    "agentes": 52,
+    "biomedica": 12,
     "defesa": 19,
-    "telecom": 25
+    "telecom": 26
   },
   "sources": [
     {
@@ -98,7 +98,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -139,7 +139,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "Ars Technica",
@@ -284,11 +284,11 @@
     {
       "source": "The Guardian (IA)",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "AI News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -299,7 +299,7 @@
     {
       "source": "The AI Insider",
       "status": "ok (9 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "AIwire",
@@ -384,7 +384,7 @@
     {
       "source": "IEEE ComSoc Tech Blog",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 4
     },
     {
       "source": "The 3G4G Blog",
@@ -429,6 +429,49 @@
   ],
   "items": [
     {
+      "title": "Google’s Project Suncatcher: Satellite Orbit Validation of AI Accelerator Compute and Thermal Management",
+      "link": "https://techblog.comsoc.org/2026/09/26/googles-project-suncatcher-satellite-orbit-validation-of-ai-accelerator-compute-and-thermal-management/",
+      "summary": "Executive Summary: On Thursday, October 1st, Google plans to launch an experimental satellite designed to assess whether AI inference workloads can operate correctly in low Earth orbit. The spacecraft, designated MVP, is a technology demonstrator for Project Suncatcher, Google’s research initiative exploring...",
+      "source": "IEEE ComSoc Tech Blog",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "telecom",
+        "modelos"
+      ],
+      "relevance": 58,
+      "date": "2026-09-27T02:00:18+00:00",
+      "ts": 1790474418.0
+    },
+    {
+      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+      "link": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+      "summary": "The limited test covers select products and users, with a broader rollout planned for later in October.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 51,
+      "date": "2026-09-27T01:30:00+00:00",
+      "ts": 1790472600.0
+    },
+    {
+      "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
+      "link": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
+      "summary": "Decision follows disclosures that OpenAI agents searching government websites had acted in unexpected ways OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount. The decision to halt development came just hours after the company disclosed Friday that...",
+      "source": "The Guardian (IA)",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 55,
+      "date": "2026-09-27T01:10:21+00:00",
+      "ts": 1790471421.0
+    },
+    {
       "title": "Former Ukrainian Defense Minister Fedorov pitches a private-sector robot army",
       "link": "https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/",
       "summary": "Former Ukrainian Defense Minister Mykhailo Fedorov has announced \"Army of Robots,\" a private combat robotics initiative. The robots would handle casualty evacuation, mine clearance, and combat. Drones already account for 95 percent of target engagements, he says. The article Former Ukrainian Defense Minister Fedorov...",
@@ -472,7 +515,7 @@
     {
       "title": "Heads of OpenAI and Anthropic called to face Senate inquiry after rogue agent incidents",
       "link": "https://www.theguardian.com/australia-news/2026/sep/27/sam-altman-openai-dario-amodei-anthropic-senate-inquiry-medicare-hack-rogue-ai-agent-leak",
-      "summary": "Sam Altman and Dario Amodei have been invited to appear before the Greens-led inquiry into AI and datacentres Get our new political email , free app or daily news podcast The chief executives of OpenAI and Anthropic have been called to face a Senate inquiry after rogue OpenAI agents hacked Australian and US government...",
+      "summary": "Sam Altman and Dario Amodei have been invited to appear before the Greens-led inquiry into AI and datacentres Follow our Australia news live blog for latest updates Get our new political email , free app or daily news podcast The chief executives of OpenAI and Anthropic have been called to face a Senate inquiry after...",
       "source": "The Guardian (IA)",
       "region": "global",
       "category": "pesquisa",
@@ -482,6 +525,20 @@
       "relevance": 43,
       "date": "2026-09-26T14:00:37+00:00",
       "ts": 1790431237.0
+    },
+    {
+      "title": "Light Origins Launches Light-O1 Foundation Model for Robot Learning",
+      "link": "https://theaiinsider.tech/2026/09/26/light-origins-launches-light-o1-foundation-model-for-robot-learning/",
+      "summary": "Insider Brief Light Origins announced the launch Light-O1, its first general-purpose embodied foundation model, using human actions recovered from internet video to give robots a reusable starting point for learning different tasks. The China-based company, which raised a Pre-A round of several hundred million yuan in...",
+      "source": "The AI Insider",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 62,
+      "date": "2026-09-26T11:26:15+00:00",
+      "ts": 1790421975.0
     },
     {
       "title": "Oxford lets OpenAI train its AI models on Bodleian Library",
@@ -776,6 +833,21 @@
       "ts": 1790395200.0
     },
     {
+      "title": "Feather Raises $7.6M in Pre-Seed Funding to Build Humanoid Platform for Third-Party Developers",
+      "link": "https://theaiinsider.tech/2026/09/26/feather-raises-7-6m-in-pre-seed-funding-to-build-humanoid-platform-for-third-party-developers/",
+      "summary": "Insider Brief Feather Robotics has raised $7.6 million in pre-seed funding to expand a modular humanoid robot platform for developers building physical AI applications. Gradient led the round, with participation from Builder Capital, Geometry, Seed Innovations and Virgo VC, according to Seed Innovations. Feather...",
+      "source": "The AI Insider",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "humanoides",
+        "modelos"
+      ],
+      "relevance": 40,
+      "date": "2026-09-26T02:13:54+00:00",
+      "ts": 1790388834.0
+    },
+    {
       "title": "OpenAI says agents leaked 53 images from ChatGPT users in latest example of rogue activity",
       "link": "https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
       "summary": "Disclosure reveals ⁠new area of privacy risk for the company and illustrates ​how difficult it is to inventory unauthorized activity tied to its agents Two ⁠months after OpenAI disclosed the accidental hacking of Hugging Face, the ChatGPT maker is still working to understand the full scope of its rogue agent activity,...",
@@ -1015,6 +1087,22 @@
       "ts": 1790352586.0
     },
     {
+      "title": "BigHat Biosciences Closes $75M Series C Financing to Advance AI-Designed Therapeutics and Leading Agentic Data Platform for Rapid Protein Design",
+      "link": "https://theaiinsider.tech/2026/09/25/bighat-biosciences-closes-75m-series-c-financing-to-advance-ai-designed-therapeutics-and-leading-agentic-data-platform-for-rapid-protein-design/",
+      "summary": "Insider Brief PRESS RELEASE — BigHat Biosciences, a clinical-stage, AI-driven protein therapeutics platform company, has announced the completion of a $75 million Series C financing, bringing its total funding raised to date to $223 million. The round was co-led by DFJ Growth & Premji Invest with participation from...",
+      "source": "The AI Insider",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "biomedica",
+        "modelos"
+      ],
+      "relevance": 59,
+      "date": "2026-09-25T16:04:54+00:00",
+      "ts": 1790352294.0
+    },
+    {
       "title": "Meta’s AI Tamagotchi bet is…working?",
       "link": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
       "summary": "When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace? Now it’s turned into model drop week for both companies as Anthropic rolled out Opus 5.5, followed by OpenAI’s GPT-6 model updates just 90 minutes later. But the company that stole the...",
@@ -1053,6 +1141,21 @@
       "relevance": 42,
       "date": "2026-09-25T15:39:48+00:00",
       "ts": 1790350788.0
+    },
+    {
+      "title": "Google Expands Gemini’s Agentic Reach With AI Calling and a Virtual Closet in Google Photos",
+      "link": "https://theaiinsider.tech/2026/09/25/google-expands-geminis-agentic-reach-with-ai-calling-and-a-virtual-closet-in-google-photos/",
+      "summary": "Google is rolling out two new AI features that push Gemini further into users’ daily lives, one that lets the assistant phone businesses on a user’s behalf and another that turns photos into a digital wardrobe. The first, Call for Me, is launching as an experiment for U.S. Pixel 11 owners with a Gemini subscription […]",
+      "source": "The AI Insider",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 66,
+      "date": "2026-09-25T14:54:37+00:00",
+      "ts": 1790348077.0
     },
     {
       "title": "Rakuten Mobile builds AI on its O-RAN foundation",
@@ -2516,20 +2619,6 @@
       "ts": 1789589401.0
     },
     {
-      "title": "Huawei Chairman: Strategic Focus on AI Computing & Connectivity Infrastructure",
-      "link": "https://techblog.comsoc.org/2026/09/16/huawei-chairman-ai-computing-connectivity-infrastructure-focus/",
-      "summary": "Note: Perplexity.ai was use to research this article. According to Chairman Guo Ping, Huawei aims to position itself as a full-stack provider of AI-era computing and connectivity infrastructure—effectively a Chinese counterpart to Nvidia in the infrastructure layer rather than in foundation-model development. In...",
-      "source": "IEEE ComSoc Tech Blog",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 48,
-      "date": "2026-09-16T17:42:45+00:00",
-      "ts": 1789580565.0
-    },
-    {
       "title": "OpenAI testa agentes patrocinados e amplia anúncios no ChatGPT",
       "link": "https://telesintese.com.br/openai-testa-agentes-patrocinados-e-amplia-anuncios-no-chatgpt/",
       "summary": "Modelo permite conversas com marcas após anúncios e avança com ferramentas de gestão, CRM e comércio eletrônico. O post OpenAI testa agentes patrocinados e amplia anúncios no ChatGPT apareceu primeiro em TeleSíntese .",
@@ -2649,20 +2738,6 @@
       "relevance": 50,
       "date": "2026-09-15T22:24:34+00:00",
       "ts": 1789511074.0
-    },
-    {
-      "title": "Bain: AI to greatly increase network operator expenses; network re-engineering needed!",
-      "link": "https://techblog.comsoc.org/2026/09/15/bain-ai-to-greatly-increase-network-operator-expenses-network-re-engineering-needed/",
-      "summary": "Introduction by Bain: “Over the next three to five years, the operating cost structure used by telecom operators is likely to undergo one of the most significant shifts in decades. As AI agents become embedded across customer care, network operations, software engineering, and enterprise functions, tokens will account...",
-      "source": "IEEE ComSoc Tech Blog",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 40,
-      "date": "2026-09-15T21:22:31+00:00",
-      "ts": 1789507351.0
     },
     {
       "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
@@ -3009,50 +3084,6 @@
       "relevance": 26,
       "date": "2026-09-09T16:00:00+00:00",
       "ts": 1788969600.0
-    },
-    {
-      "title": "Meta Launches Muse, a Personal AI Agent That Handles Everyday Tasks",
-      "link": "https://theaiinsider.tech/2026/09/09/meta-launches-muse-a-personal-ai-agent-that-handles-everyday-tasks/",
-      "summary": "Meta has introduced Muse, a personal AI agent designed to perform everyday tasks for consumers by connecting to their email, calendars, payment systems, and other frequently used apps. The launch comes less than two weeks after Meta agreed to an $18 billion multistate settlement over social media’s consumer harms....",
-      "source": "The AI Insider",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 42,
-      "date": "2026-09-09T15:58:14+00:00",
-      "ts": 1788969494.0
-    },
-    {
-      "title": "Sequoia Leads $30M Round for Cymphony to Secure Enterprise AI Agents",
-      "link": "https://theaiinsider.tech/2026/09/09/sequoia-leads-30m-round-for-cymphony-to-secure-enterprise-ai-agents/",
-      "summary": "Cymphony, a New York- and Tel Aviv-based startup, has raised $30 million to help enterprises manage security risks posed by AI agents operating alongside human employees. The funding includes a $25 million Series A co-led by Sequoia Capital and SMBC Fin Atlas Beyond Fund, valuing the company at more than $100 million,...",
-      "source": "The AI Insider",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 44,
-      "date": "2026-09-09T15:24:28+00:00",
-      "ts": 1788967468.0
-    },
-    {
-      "title": "Google and Accenture Deepen AI Push as Chrome Accelerates Release Cycle to Fight Security Threats",
-      "link": "https://theaiinsider.tech/2026/09/09/google-and-accenture-deepen-ai-push-as-chrome-accelerates-release-cycle-to-fight-security-threats/",
-      "summary": "Google is moving aggressively on two fronts to strengthen its position in the AI era: speeding up how quickly Chrome ships updates, and deepening its enterprise AI partnership with Accenture. Chrome has officially shifted from a four-week to a two-week release schedule, with Chrome 153 launching Tuesday across...",
-      "source": "The AI Insider",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 43,
-      "date": "2026-09-09T15:10:16+00:00",
-      "ts": 1788966616.0
     },
     {
       "title": "AI controller translates VR, video and language commands into humanoid robot actions",
