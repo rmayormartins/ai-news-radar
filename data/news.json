@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-27T02:34:06.627866+00:00",
-  "count": 254,
-  "china_count": 55,
+  "generated_at": "2026-09-27T11:02:29.404589+00:00",
+  "count": 240,
+  "china_count": 51,
   "topic_counts": {
     "humanoides": 10,
-    "modelos": 150,
-    "agentes": 52,
-    "biomedica": 12,
-    "defesa": 19,
+    "modelos": 145,
+    "agentes": 46,
+    "biomedica": 11,
+    "defesa": 18,
     "telecom": 26
   },
   "sources": [
@@ -78,8 +78,8 @@
     },
     {
       "source": "arXiv cs.LG",
-      "status": "ok (331 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.CL",
@@ -88,8 +88,8 @@
     },
     {
       "source": "arXiv cs.CV",
-      "status": "ok (199 itens)",
-      "kept": 6
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.RO",
@@ -429,6 +429,72 @@
   ],
   "items": [
     {
+      "title": "Researchers plug GPT-6 Astra directly into a robot and let it clean up an unfamiliar kitchen",
+      "link": "https://the-decoder.com/researchers-plug-gpt-6-astra-directly-into-a-robot-and-let-it-clean-up-an-unfamiliar-kitchen/",
+      "summary": "Researchers from Stanford and Caltech had a humanoid robot powered by GPT-6 Astra independently tidy up an unfamiliar kitchen. Their HomeBody system skips a specially trained control layer, letting the language model call directly into modular skills like grasping and navigating. The article Researchers plug GPT-6...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 63,
+      "date": "2026-09-27T10:59:11+00:00",
+      "ts": 1790506751.0
+    },
+    {
+      "title": "OpenAI says 80 to 90 percent of its research already targets GPT 7 and beyond",
+      "link": "https://the-decoder.com/openai-says-80-to-90-percent-of-its-research-already-targets-gpt-7-and-beyond/",
+      "summary": "Boris Power, OpenAI's Head of Applied Research, says 80 to 90 percent of the company's research goes toward GPT 7, GPT 8, and beyond. Improvements within a single generation are intentionally short-term bets. But Power doesn't see model performance as the biggest problem. Most users don't even know what they can do...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 63,
+      "date": "2026-09-27T10:36:29+00:00",
+      "ts": 1790505389.0
+    },
+    {
+      "title": "OpenAI pauses training of latest models after agents probed US government sites in unexpected ways",
+      "link": "https://techxplore.com/news/2026-09-openai-latest-agents-probed-sites.html",
+      "summary": "OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 55,
+      "date": "2026-09-27T10:26:34+00:00",
+      "ts": 1790504794.0
+    },
+    {
+      "title": "Tens of thousands of security probes show OpenAI's Hugging Face incident was just the beginning",
+      "link": "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning/",
+      "summary": "OpenAI and Anthropic are investigating tens of thousands of incidents in which their AI agents independently hacked websites, used stolen login credentials, or tried to evade monitoring systems. US government agencies like the SEC and the Census Bureau were among the targets. OpenAI has paused training on its most...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 49,
+      "date": "2026-09-27T09:23:36+00:00",
+      "ts": 1790501016.0
+    },
+    {
+      "title": "Goldman Sachs expects Big Tech to spend $1.2 trillion on AI infrastructure by 2027, dwarfing Wall Street estimates",
+      "link": "https://the-decoder.com/goldman-sachs-expects-big-tech-to-spend-1-2-trillion-on-ai-infrastructure-by-2027-dwarfing-wall-street-estimates/",
+      "summary": "Goldman Sachs projects that Amazon, Alphabet, Microsoft, Oracle, and Meta will pour a combined $1.2 trillion into AI infrastructure in 2027, more than 50 percent above this year's levels. Measured against GDP, it would be the biggest investment cycle since railroad construction in the 19th century. Bottlenecks in...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "geral",
+      "topics": [],
+      "relevance": 29,
+      "date": "2026-09-27T08:17:47+00:00",
+      "ts": 1790497067.0
+    },
+    {
       "title": "Google’s Project Suncatcher: Satellite Orbit Validation of AI Accelerator Compute and Thermal Management",
       "link": "https://techblog.comsoc.org/2026/09/26/googles-project-suncatcher-satellite-orbit-validation-of-ai-accelerator-compute-and-thermal-management/",
       "summary": "Executive Summary: On Thursday, October 1st, Google plans to launch an experimental satellite designed to assess whether AI inference workloads can operate correctly in low Earth orbit. The spacecraft, designated MVP, is a technology demonstrator for Project Suncatcher, Google’s research initiative exploring...",
@@ -641,198 +707,6 @@
       "ts": 1790413596.0
     },
     {
-      "title": "Breaking Failure Cascades: Step-Aware Reinforcement Learning for Medical Multimodal Reasoning",
-      "link": "https://arxiv.org/abs/2606.31825",
-      "summary": "arXiv:2606.31825v2 Announce Type: replace Abstract: Recent multimodal large language models have shown great promise in clinical image reasoning, but existing post-training pipelines remain predominantly outcome-centric, relying on final answer correctness or sequence-level preferences. This suffers from sparse credit...",
-      "source": "arXiv cs.CV",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "biomedica",
-        "modelos"
-      ],
-      "relevance": 75,
-      "date": "2026-09-26T04:00:00+00:00",
-      "ts": 1790395200.0
-    },
-    {
-      "title": "Accelerating Video Diffusion via Training-Free Trajectory Routing",
-      "link": "https://arxiv.org/abs/2609.30096",
-      "summary": "arXiv:2609.30096v1 Announce Type: new Abstract: Video diffusion is computationally expensive, as it requires executing a large model across many denoising steps. Even with step-distillation, inference remains expensive because every distilled step still requires a costly model evaluation. We present TRACK:...",
-      "source": "arXiv cs.CV",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 73,
-      "date": "2026-09-26T04:00:00+00:00",
-      "ts": 1790395200.0
-    },
-    {
-      "title": "Paging the Experts: A Reproducible Characterization of Flash-Backed MoE Inference on iPhone",
-      "link": "https://arxiv.org/abs/2609.29032",
-      "summary": "arXiv:2609.29032v1 Announce Type: cross Abstract: Sparse activation reduces mixture-of-experts computation without eliminating the need to store all experts. We present Routide, a Swift/MLX runtime that executes the text path of a pinned public Qwen3.6-35B-A3B quantized checkpoint while keeping expert weights in...",
-      "source": "arXiv cs.LG",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 72,
-      "date": "2026-09-26T04:00:00+00:00",
-      "ts": 1790395200.0
-    },
-    {
-      "title": "KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization",
-      "link": "https://arxiv.org/abs/2609.30059",
-      "summary": "arXiv:2609.30059v1 Announce Type: cross Abstract: Deep learning inference and training performance depends critically on GPU kernel efficiency. Modern compilers such as PyTorch Inductor automatically generate GPU kernels from high-level model code, but frequently underperform expert-written implementations by wide...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 70,
-      "date": "2026-09-26T04:00:00+00:00",
-      "ts": 1790395200.0
-    },
-    {
-      "title": "AgenticCADedit: A Stateful, Tool-Mediated Agentic Approach to Multimodal 3D CAD Editing",
-      "link": "https://arxiv.org/abs/2609.29621",
-      "summary": "arXiv:2609.29621v1 Announce Type: new Abstract: Computer-aided design is central to industrial manufacturing, and much of a designer's daily work consists of editing existing models from multimodal requests involving speech, sketches, and model interaction. Existing neural CAD approaches focus predominantly on...",
-      "source": "arXiv cs.CV",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 70,
-      "date": "2026-09-26T04:00:00+00:00",
-      "ts": 1790395200.0
-    },
-    {
-      "title": "Pistis Technical Report",
-      "link": "https://arxiv.org/abs/2609.28554",
-      "summary": "arXiv:2609.28554v1 Announce Type: cross Abstract: We introduce the Pistis model family, comprising 27B- and 9B-parameter multimodal large language models built on Qwen3.6 and Qwen3.5, respectively, and developed through a general and scalable post-training framework. The framework first establishes a strong foundation...",
-      "source": "arXiv cs.CV",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 70,
-      "date": "2026-09-26T04:00:00+00:00",
-      "ts": 1790395200.0
-    },
-    {
-      "title": "A Manifold-Aware Topic Modeling Approach via Rank-Based Prototypes",
-      "link": "https://arxiv.org/abs/2609.29630",
-      "summary": "arXiv:2609.29630v1 Announce Type: new Abstract: Recent topic models leverage pretrained embeddings, but neural architectures produce latent representations without grounding in specific texts, and clustering-based pipelines assign representative documents only post hoc, relying on absolute distances distorted by...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 69,
-      "date": "2026-09-26T04:00:00+00:00",
-      "ts": 1790395200.0
-    },
-    {
-      "title": "Long-Tail Adaptive Flow Matching with Explicit Conditional Consistency Guidance for Precise Multimodal Face Synthesis",
-      "link": "https://arxiv.org/abs/2609.29581",
-      "summary": "arXiv:2609.29581v1 Announce Type: new Abstract: Although diffusion-based methods have substantially improved the controllability of multimodal face synthesis, their semantic alignment remains suboptimal because most existing approaches rely on implicit latent-space objectives to model the relationship between...",
-      "source": "arXiv cs.CV",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 69,
-      "date": "2026-09-26T04:00:00+00:00",
-      "ts": 1790395200.0
-    },
-    {
-      "title": "RECLAIM: Can Agents Reproduce the Claims of Machine Learning Papers?",
-      "link": "https://arxiv.org/abs/2609.28850",
-      "summary": "arXiv:2609.28850v1 Announce Type: cross Abstract: Reproducing a machine learning paper involves most research steps, from installing software and debugging to running experiments, work that AI agents increasingly do. We introduce RECLAIM, a benchmark of 100 NeurIPS 2025 papers that can be rebuilt yearly from new...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 68,
-      "date": "2026-09-26T04:00:00+00:00",
-      "ts": 1790395200.0
-    },
-    {
-      "title": "Forecast-Dojo: Replayable Environments for Benchmarking and Training LLM Forecasting Agents",
-      "link": "https://arxiv.org/abs/2609.28876",
-      "summary": "arXiv:2609.28876v1 Announce Type: cross Abstract: We introduce Forecast-Dojo, a replayable environment for benchmarking and training LLM forecasting agents. It combines resolved prediction-market questions with dated news, allowing agents to research an event and revisit their predictions at successive historical...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "modelos",
-        "agentes"
-      ],
-      "relevance": 68,
-      "date": "2026-09-26T04:00:00+00:00",
-      "ts": 1790395200.0
-    },
-    {
-      "title": "EvoTreeNAD: Genealogy-Guided Evolution for LLM-Driven Neural Architecture Discovery",
-      "link": "https://arxiv.org/abs/2609.29016",
-      "summary": "arXiv:2609.29016v1 Announce Type: cross Abstract: AI-driven scientific discovery accelerates research by autonomously developing solutions and designs. Large language model (LLM) agents support this process through iterative generation and evaluation. Yet these iterations alone do not ensure cumulative progress or...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 68,
-      "date": "2026-09-26T04:00:00+00:00",
-      "ts": 1790395200.0
-    },
-    {
-      "title": "Rufus-Air: An Open LLM Post-Training Recipe",
-      "link": "https://arxiv.org/abs/2609.29421",
-      "summary": "arXiv:2609.29421v1 Announce Type: cross Abstract: Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding Agent, Search Agent, and RLHF. We document the...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 68,
-      "date": "2026-09-26T04:00:00+00:00",
-      "ts": 1790395200.0
-    },
-    {
-      "title": "Learning Generalizable Behaviors for Terminal Agents",
-      "link": "https://arxiv.org/abs/2608.22631",
-      "summary": "arXiv:2608.22631v3 Announce Type: replace Abstract: Terminal agents are a compelling application of large language models (LLMs), with the potential to integrate deeply into users' daily workflows. Reinforcement learning (RL) is a key technique for improving their capabilities, making scalable training environments a...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 68,
-      "date": "2026-09-26T04:00:00+00:00",
-      "ts": 1790395200.0
-    },
-    {
-      "title": "Industrial Anomaly Detection via Defect-Grounded Reasoning in Visual Latent Space",
-      "link": "https://arxiv.org/abs/2609.29457",
-      "summary": "arXiv:2609.29457v1 Announce Type: new Abstract: Industrial anomaly detection (IAD) is evolving beyond conventional detection and localization toward multimodal inspection systems that can describe, explain, and reason about fine-grained defects. Although recent multimodal large language model (MLLM)-based methods...",
-      "source": "arXiv cs.CV",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 68,
-      "date": "2026-09-26T04:00:00+00:00",
-      "ts": 1790395200.0
-    },
-    {
       "title": "Feather Raises $7.6M in Pre-Seed Funding to Build Humanoid Platform for Third-Party Developers",
       "link": "https://theaiinsider.tech/2026/09/26/feather-raises-7-6m-in-pre-seed-funding-to-build-humanoid-platform-for-third-party-developers/",
       "summary": "Insider Brief Feather Robotics has raised $7.6 million in pre-seed funding to expand a modular humanoid robot platform for developers building physical AI applications. Gradient led the round, with participation from Builder Capital, Geometry, Seed Innovations and Virgo VC, according to Seed Innovations. Feather...",
@@ -965,20 +839,6 @@
       "ts": 1790364119.0
     },
     {
-      "title": "Pentagon was right to slap Anthropic with a security supply chain risk label, federal court says",
-      "link": "https://the-decoder.com/pentagon-was-right-to-slap-anthropic-with-a-security-supply-chain-risk-label-federal-court-says/",
-      "summary": "A federal appeals court has upheld the Pentagon's decision to bar Anthropic from military contracts. Defense Secretary Hegseth argues the company's safety restrictions could jeopardize military operations. Anthropic says the designation has already cost it billions. The article Pentagon was right to slap Anthropic...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "defesa"
-      ],
-      "relevance": 37,
-      "date": "2026-09-25T18:40:22+00:00",
-      "ts": 1790361622.0
-    },
-    {
       "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
       "link": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
       "summary": "When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace? Now it’s turned into model drop week for both companies as Anthropic rolled out Opus 5.5, followed by OpenAI’s GPT-6 model updates just 90 minutes later. But the company that stole the...",
@@ -993,18 +853,6 @@
       "ts": 1790360567.0
     },
     {
-      "title": "Another Google Deepmind researcher quits, says building superintelligent AI soon is \"inherently irresponsible\"",
-      "link": "https://the-decoder.com/another-google-deepmind-researcher-quits-says-building-superintelligent-ai-soon-is-inherently-irresponsible/",
-      "summary": "Google Deepmind researcher Robert O'Callahan has quit, saying AI's \"current rate of change is far too high.\" He worked on chip design tools that helped make AI cheaper and faster, a contribution he can no longer justify. Many colleagues share his concerns but rarely speak out, he says. The article Another Google...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 41,
-      "date": "2026-09-25T17:55:51+00:00",
-      "ts": 1790358951.0
-    },
-    {
       "title": "Hitachi Joins the Tokenomics Foundation",
       "link": "https://www.hpcwire.com/aiwire/2026/09/25/hitachi-joins-the-tokenomics-foundation/",
       "summary": "Global systems integrator to collaborate on defining standards, benchmarks, and practices for enterprise AI consumption DALLAS, Sept. 25, 2026 — Hitachi Digital Services has announced that Hitachi, Ltd. has joined the Tokenomics Foundation as a General Member. Launched by the Linux Foundation, the Tokenomics...",
@@ -1017,20 +865,6 @@
       "relevance": 42,
       "date": "2026-09-25T16:33:48+00:00",
       "ts": 1790354028.0
-    },
-    {
-      "title": "Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing",
-      "link": "https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/",
-      "summary": "Microsoft is splitting its Copilot app into three sections: Home, Code, and a new agent called \"Autopilot.\" Built on OpenClaw, the agent runs continuously in the cloud, where it can monitor Teams channels and complete tasks on its own, according to Microsoft. For Autopilot and Code, the company is also switching to...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 37,
-      "date": "2026-09-25T16:30:57+00:00",
-      "ts": 1790353857.0
     },
     {
       "title": "Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput",
@@ -1196,20 +1030,6 @@
       "relevance": 44,
       "date": "2026-09-25T12:30:01+00:00",
       "ts": 1790339401.0
-    },
-    {
-      "title": "Meta's Muse agent gives every user a full cloud computer running Ubuntu Linux",
-      "link": "https://the-decoder.com/metas-muse-agent-gives-every-user-a-full-cloud-computer-running-ubuntu-linux/",
-      "summary": "Meta gives every Muse user a free cloud computer running Ubuntu Linux where they can install software, write code, and browse the web. A \"Sentinel\" process monitors sensitive actions outside the user's workspace, while users can inspect every file in the system. With over 500,000 users in its first week, Meta is...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 42,
-      "date": "2026-09-25T12:22:27+00:00",
-      "ts": 1790338947.0
     },
     {
       "title": "AI-RAN – “not front-of-house stuff” (Telco Diary)",
@@ -1750,18 +1570,6 @@
       "relevance": 44,
       "date": "2026-09-23T14:46:36+00:00",
       "ts": 1790174796.0
-    },
-    {
-      "title": "A new AI framework could help cities plan for future traffic",
-      "link": "https://techxplore.com/news/2026-09-ai-framework-cities-future-traffic.html",
-      "summary": "Traffic jams are usually treated as a problem to be measured after they form. Anton Rozhkov and his colleagues are exploring a different approach: giving planners state-of-the-art tools that can anticipate congestion, locate where it is most likely to emerge and translate complex traffic models into plain-language...",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 45,
-      "date": "2026-09-23T11:20:02+00:00",
-      "ts": 1790162402.0
     },
     {
       "title": "Humanoid robots navigate narrow gaps and obstacles with whole-body AI control",
@@ -3180,6 +2988,20 @@
       "ts": 1788876925.0
     },
     {
+      "title": "Introducing ChatGPT Images 2.5",
+      "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 68,
+      "date": "2026-09-08T11:30:00+00:00",
+      "ts": 1788867000.0
+    },
+    {
       "title": "Chinese AI firms Z.ai and MiniMax could remain loss-making until 2030, Macquarie says",
       "link": "https://www.scmp.com/tech/tech-trends/article/3366784/chinese-ai-firms-zai-and-minimax-could-remain-loss-making-until-2030-macquarie-says?utm_source=rss_feed",
       "summary": "Chinese artificial intelligence companies Z.ai and MiniMax could remain loss-making through 2030 even as their revenues surge, underscoring the enormous cost of competing at the technological frontier, according to Macquarie Group’s head of Asia internet and software research Ellie Jiang. One reason cited was the...",
@@ -3672,6 +3494,20 @@
       "ts": 1787657964.0
     },
     {
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "link": "https://openai.com/index/introducing-admin-plugin",
+      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 68,
+      "date": "2026-08-25T00:00:00+00:00",
+      "ts": 1787616000.0
+    },
+    {
       "title": "How Claude Watermarks AI-Generated Text",
       "link": "https://magazine.sebastianraschka.com/p/claude-watermarking",
       "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
@@ -3903,34 +3739,6 @@
       "relevance": 53,
       "date": "2026-08-13T17:16:04+00:00",
       "ts": 1786641364.0
-    },
-    {
-      "title": "The builder’s guide to GPT‑5.6",
-      "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 71,
-      "date": "2026-08-13T11:00:00+00:00",
-      "ts": 1786618800.0
-    },
-    {
-      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-      "link": "https://openai.com/index/previewing-ultrafast",
-      "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 69,
-      "date": "2026-08-13T10:00:00+00:00",
-      "ts": 1786615200.0
     },
     {
       "title": "Study Linking Solar Farms to Bird Loss Draws Scrutiny in China",
