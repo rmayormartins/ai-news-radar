@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-28T22:45:29.320646+00:00",
-  "count": 291,
+  "generated_at": "2026-09-29T03:19:46.383980+00:00",
+  "count": 290,
   "china_count": 52,
   "topic_counts": {
-    "humanoides": 9,
-    "modelos": 165,
-    "agentes": 62,
+    "humanoides": 10,
+    "modelos": 167,
+    "agentes": 61,
     "biomedica": 11,
     "defesa": 17,
-    "telecom": 31
+    "telecom": 29
   },
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1233 itens)",
+      "status": "ok (1234 itens)",
       "kept": 12
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -139,7 +139,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "Ars Technica",
@@ -284,11 +284,11 @@
     {
       "source": "The Guardian (IA)",
       "status": "ok (20 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "AI News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -339,7 +339,7 @@
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "arXiv eess.IV (imagem)",
@@ -419,7 +419,7 @@
     {
       "source": "Teletime (BR)",
       "status": "ok (30 itens)",
-      "kept": 3
+      "kept": 1
     },
     {
       "source": "TeleSintese (BR)",
@@ -428,6 +428,64 @@
     }
   ],
   "items": [
+    {
+      "title": "Delta Intelligence Ships Delta-0 Native Humanoid Foundation Model",
+      "link": "https://pandaily.com/delta-intelligence-delta-0-native-humanoid-foundation-model",
+      "summary": "On September 28, 2026 Delta Intelligence released Delta-0, a brain-cerebellum-force humanoid foundation model that demoed 32 planned steps and nine household tasks in about 210 seconds of continuous loco-manipulation.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "humanoides",
+        "modelos"
+      ],
+      "relevance": 58,
+      "date": "2026-09-29T02:14:09+00:00",
+      "ts": 1790648049.0
+    },
+    {
+      "title": "AI model achieves 89% accuracy in identifying arrhythmia-related abnormalities in atrial tissue",
+      "link": "https://medicalxpress.com/news/2026-09-ai-accuracy-arrhythmia-abnormalities-atrial.html",
+      "summary": "Researchers from the COR group at the Institute of Information and Communications Technologies (ITACA) of the Universitat Politècnica de València (UPV) have developed an artificial intelligence model capable of locating and quantifying tissue abnormalities associated with atrial cardiomyopathy using electrical...",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 42,
+      "date": "2026-09-28T23:40:05+00:00",
+      "ts": 1790638805.0
+    },
+    {
+      "title": "Meta’s AI agent Muse gives out user’s home address without permission, sending buyer to his house",
+      "link": "https://www.theguardian.com/technology/2026/sep/28/metas-ai-agent-muse-home-address",
+      "summary": "The new AI agent, Muse, was released last week and has been downloaded by 3 million users When Usman asked if a keyboard for sale on Facebook Marketplace was still available on Saturday, he received an enthusiastic and immediate response. “Yep still available!” wrote Matt Robb. Continue reading...",
+      "source": "The Guardian (IA)",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 50,
+      "date": "2026-09-28T23:31:42+00:00",
+      "ts": 1790638302.0
+    },
+    {
+      "title": "OpenAI scraps release of new model over safety concerns in internal testing",
+      "link": "https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped",
+      "summary": "GPT-6.1 Astra showed deceptive behavior and tried to use external tools despite knowing it would be unsafe OpenAI is scrapping the release of GPT-6.1 Astra, a next-generation ⁠AI model planned for an October debut, over safety concerns raised by researchers ⁠during internal testing, the ⁠Wall ​Street Journal reported...",
+      "source": "The Guardian (IA)",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 58,
+      "date": "2026-09-28T23:02:28+00:00",
+      "ts": 1790636548.0
+    },
     {
       "title": "Grok 4.7 is now available on Amazon Bedrock",
       "link": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
@@ -527,14 +585,15 @@
     {
       "title": "Nvidia launches new platform for reining in rogue AI agents",
       "link": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
-      "summary": "As the debate rages over whether the recent spate of rogue AI agents is a step toward AGI or a more conventional engineering problem, Nvidia is offering its own answer to problem. Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI...",
+      "summary": "Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI agents to ensure they stay within their test environments even if they attempt to break out.",
       "source": "TechCrunch",
       "region": "global",
-      "category": "pesquisa",
+      "category": "modelo",
       "topics": [
-        "agentes"
+        "agentes",
+        "modelos"
       ],
-      "relevance": 49,
+      "relevance": 42,
       "date": "2026-09-28T18:31:23+00:00",
       "ts": 1790620283.0
     },
@@ -598,7 +657,7 @@
     {
       "title": "Google is killing off Gemini’s Gems in favor of ‘skills’",
       "link": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
-      "summary": "As all-in-one AI agents like Meta's Muse and Instinct take off, Google is opting to end a feature which built task-specific agents.",
+      "summary": "As all-in-one AI agents like Meta's Muse and Instinct take off, Google is opting to end a feature that built task-specific agents.",
       "source": "TechCrunch",
       "region": "global",
       "category": "modelo",
@@ -1019,6 +1078,34 @@
       "relevance": 57,
       "date": "2026-09-28T07:44:38+00:00",
       "ts": 1790581478.0
+    },
+    {
+      "title": "Youshu Quantum Ships UnitarySpark Desktop Base and UnitaryLab 2.5",
+      "link": "https://pandaily.com/youshu-quantum-unitaryspark-unitarylab-2-5-desktop-quantum",
+      "summary": "Youshu Quantum launched UnitarySpark, a local desktop hetero compute base, and UnitaryLab 2.5 public beta on September 20, 2026, pairing NL Agent control with Schrödingerization-based quantum science workflows.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 50,
+      "date": "2026-09-28T07:43:07+00:00",
+      "ts": 1790581387.0
+    },
+    {
+      "title": "DeepSeek Harness Desktop Preview: Electron Packages on Win and Mac",
+      "link": "https://pandaily.com/deepseek-harness-desktop-preview-electron-win-mac-nightly",
+      "summary": "DeepSeek Harness desktop preview Electron packages for Windows and macOS appeared on download.deepseek.com around September 25, 2026, framed as RC/nightly builds rather than a GA launch.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 54,
+      "date": "2026-09-28T07:42:10+00:00",
+      "ts": 1790581330.0
     },
     {
       "title": "Huawei Open-Sources openPangu-2.0 Pretrain, SFT and RL Training Code on Ascend",
@@ -1818,20 +1905,6 @@
       "ts": 1790474418.0
     },
     {
-      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
-      "link": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
-      "summary": "The limited test covers select products and users, with a broader rollout planned for later in October.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 51,
-      "date": "2026-09-27T01:30:00+00:00",
-      "ts": 1790472600.0
-    },
-    {
       "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
       "link": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
       "summary": "Decision follows disclosures that OpenAI agents searching government websites had acted in unexpected ways OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount. The decision to halt development came just hours after the company disclosed Friday that...",
@@ -1873,20 +1946,6 @@
       "relevance": 43,
       "date": "2026-09-26T14:00:37+00:00",
       "ts": 1790431237.0
-    },
-    {
-      "title": "Oxford lets OpenAI train its AI models on Bodleian Library",
-      "link": "https://www.theguardian.com/technology/2026/sep/26/oxford-university-bodleian-library-open-ai-chat-gpt",
-      "summary": "University staff voice concerns over reputational risk of partnering with company behind ChatGPT The University of Oxford has allowed the company behind ChatGPT to train its AI models on historical texts from its Bodleian Library, as tech companies scour academic institutions for fresh data. The Bodleian material...",
-      "source": "The Guardian (IA)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-09-26T11:00:36+00:00",
-      "ts": 1790420436.0
     },
     {
       "title": "US court sides with Pentagon in Anthropic AI ban",
@@ -2158,20 +2217,6 @@
       "ts": 1790321400.0
     },
     {
-      "title": "FonNet lança AIKS, subsidiária de IA para provedores e data centers",
-      "link": "https://teletime.com.br/24/09/2026/aiks-ia-isps-data-centers/",
-      "summary": "Com operação independente, AIKS chega ao mercado com serviços gerenciados de TI, desenvolvimento de software, soluções de IA e observabilidade; empresa mira fornecer tecnologia para operadoras de telecom, provedores de Internet, data centers e ambientes corporativos",
-      "source": "Teletime (BR)",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 22,
-      "date": "2026-09-24T22:06:55+00:00",
-      "ts": 1790287615.0
-    },
-    {
       "title": "Segurança da informação precisa tratar IA como defesa e ativo crítico",
       "link": "https://telesintese.com.br/seguranca-da-informacao-precisa-tratar-ia-como-defesa-e-ativo-critico/",
       "summary": "A inteligência artificial amplia a capacidade dos atacantes, porém a leitura limitada a esse risco produz uma estratégia incompleta. O post Segurança da informação precisa tratar IA como defesa e ativo crítico apareceu primeiro em TeleSíntese .",
@@ -2196,20 +2241,6 @@
       "relevance": 24,
       "date": "2026-09-24T19:40:00+00:00",
       "ts": 1790278800.0
-    },
-    {
-      "title": "Claro empresas implanta plataforma de gestão de nuvem e IA no TCU",
-      "link": "https://teletime.com.br/24/09/2026/claro-empresas-nuvem-ia-tcu/",
-      "summary": "Solução da Claro empresas permite que o TCU gerencia diversas serviços de nuvem (AWS, Microsoft Azure, Google Cloud e Oracle) a partir de um mesmo sistema, além de suportar cargas de trabalho com IA; órgão utiliza o Chat TCU, um assistente de IA que trabalha com 19 modelos de linguagem, em cima da infraestrutura da...",
-      "source": "Teletime (BR)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 43,
-      "date": "2026-09-24T18:45:40+00:00",
-      "ts": 1790275540.0
     },
     {
       "title": "Synopsys and TSMC Partner to Accelerate AI Systems Innovation with Agentic AI and Advanced Design",
@@ -2409,50 +2440,6 @@
       "relevance": 45,
       "date": "2026-09-24T04:00:00+00:00",
       "ts": 1790222400.0
-    },
-    {
-      "title": "Alibaba Cloud Unveils Qwen Book AI Agent PC: Skill Keyboard, AI Island Display and Omarchy OS Collab",
-      "link": "https://pandaily.com/alibaba-cloud-qwen-book-ai-agent-pc-skill-keyboard-omarchy",
-      "summary": "Alibaba Cloud debuted Qwen Book, its first AI agent PC, at Apsara 2026 with a Skill keyboard array, AI Island status display and an Omarchy open-source desktop OS collaboration, opening a Day One tester program toward December trials.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 67,
-      "date": "2026-09-24T02:01:27+00:00",
-      "ts": 1790215287.0
-    },
-    {
-      "title": "Alibaba Launches Qwen Intelligence Phone-Agent Stack; Honor Magic9 Named First Formal Adopter",
-      "link": "https://pandaily.com/alibaba-qwen-intelligence-phone-agent-stack-honor-magic9",
-      "summary": "At Apsara 2026, Alibaba released Qwen Intelligence, a modular phone-agent platform spanning Mobile Planner, Mobile-Use and Creative agents plus an OS Harness, with Honor's forthcoming Magic9 series as the first formal adopter.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 68,
-      "date": "2026-09-24T02:00:50+00:00",
-      "ts": 1790215250.0
-    },
-    {
-      "title": "Xiaomi Details HySparse2 for MiMo-V3: Two-Level KV Sharing Cuts 1M-Token Prefill FLOPs About 5× vs Hybrid SWA",
-      "link": "https://pandaily.com/xiaomi-hysparse2-mimo-v3-two-level-kv-sharing-prefill",
-      "summary": "Xiaomi's LLM-Core team published HySparse2, a hybrid sparse-attention design with two-level KV sharing aimed at MiMo-V3-class agentic models, reporting about 5× lower 1M-token prefill FLOPs versus Hybrid SWA on an 80B-A3B MoE.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "pesquisa",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 65,
-      "date": "2026-09-24T02:00:12+00:00",
-      "ts": 1790215212.0
     },
     {
       "title": "GenAI.mil saw more than 2 million users in one week, top DOD official says",
