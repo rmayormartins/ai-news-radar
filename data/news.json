@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-03T10:49:27.348490+00:00",
+  "generated_at": "2026-10-03T15:25:23.814173+00:00",
   "count": 221,
   "china_count": 46,
   "topic_counts": {
-    "humanoides": 9,
-    "modelos": 144,
+    "humanoides": 10,
+    "modelos": 145,
     "agentes": 28,
     "biomedica": 7,
     "defesa": 14,
@@ -98,7 +98,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -194,7 +194,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "Synced (机器之心)",
@@ -288,7 +288,7 @@
     },
     {
       "source": "AI News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -309,7 +309,7 @@
     {
       "source": "The Robot Report",
       "status": "ok (15 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "IEEE Spectrum Robotica",
@@ -428,6 +428,46 @@
     }
   ],
   "items": [
+    {
+      "title": "The physical AI race will be won in the patent office",
+      "link": "https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/",
+      "summary": "Patent protection is important for robotics startups, but they should be strategic in determining what IP is important, says Lightbringer. The post The physical AI race will be won in the patent office appeared first on The Robot Report .",
+      "source": "The Robot Report",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "humanoides"
+      ],
+      "relevance": 30,
+      "date": "2026-10-03T14:30:07+00:00",
+      "ts": 1791037807.0
+    },
+    {
+      "title": "\"Muse Gadgets\" turns AI hardware into an open-source DIY project",
+      "link": "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
+      "summary": "Meta announced Muse Gadgets, an open-source project that lets hobbyists build their own AI hardware using ESP32 boards and connect it to Meta's AI agent Muse. The team also produced 5,000 units of the \"Muse Home Link,\" a USB-C device for smart home control. The open-source approach also helps Meta figure out which AI...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 53,
+      "date": "2026-10-03T14:28:51+00:00",
+      "ts": 1791037731.0
+    },
+    {
+      "title": "Another OpenAI safety departure adds to a pattern of researchers leaving with public warnings",
+      "link": "https://the-decoder.com/another-openai-safety-departure-adds-to-a-pattern-of-researchers-leaving-with-public-warnings/",
+      "summary": "David Robinson, who worked on safety systems at OpenAI, left the company and is blasting its safety culture. He points to AI agents that were accidentally released and a model that bypassed its internet access restrictions. AI companies need to operate like nuclear power plants, with multiple layers of redundancy...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 59,
+      "date": "2026-10-03T14:01:14+00:00",
+      "ts": 1791036074.0
+    },
     {
       "title": "Deepmind researchers propose \"Artificial Symbiotic Intelligence\" as an alternative to the singularity",
       "link": "https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity/",
@@ -651,30 +691,6 @@
       "relevance": 50,
       "date": "2026-10-02T13:00:39+00:00",
       "ts": 1790946039.0
-    },
-    {
-      "title": "Three firings and a fourth departure shake up OpenAI's safety team",
-      "link": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/",
-      "summary": "OpenAI has parted ways with three researchers who allegedly leaked confidential information to an outside AI safety organization, according to the Wall Street Journal. The article Three firings and a fourth departure shake up OpenAI's safety team appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 35,
-      "date": "2026-10-02T12:51:08+00:00",
-      "ts": 1790945468.0
-    },
-    {
-      "title": "AI beats licensed accountants on speed and accuracy, but still can't close the books without supervision",
-      "link": "https://the-decoder.com/ai-beats-licensed-accountants-on-speed-and-accuracy-but-still-cant-close-the-books-without-supervision/",
-      "summary": "According to a Mercor study, current AI models now outperform licensed CPAs on structured accounting tasks in both speed and accuracy. Eighteen months ago, they still lagged far behind. On the more demanding APEX Benchmark, though, no model fully completes all the tasks. Without human oversight, AI still can't close...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 50,
-      "date": "2026-10-02T11:15:24+00:00",
-      "ts": 1790939724.0
     },
     {
       "title": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data",
@@ -1921,18 +1937,6 @@
       "relevance": 57,
       "date": "2026-09-28T00:00:00+00:00",
       "ts": 1790553600.0
-    },
-    {
-      "title": "GraphRAG with TypeSafe Jev: A System One Approach to Scalable Knowledge Graphs",
-      "link": "https://towardsdatascience.com/graphrag-with-typesafe-jev-a-system-one-approach-to-scalable-knowledge-graphs/",
-      "summary": "How calibrated decision models can handle high-frequency graph decisions while LLMs remain focused on reasoning, synthesis, and open-ended generation. The post GraphRAG with TypeSafe Jev: A System One Approach to Scalable Knowledge Graphs appeared first on Towards Data Science .",
-      "source": "Towards Data Science",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 54,
-      "date": "2026-09-27T15:00:01+00:00",
-      "ts": 1790521201.0
     },
     {
       "title": "Google’s Project Suncatcher: Satellite Orbit Validation of AI Accelerator Compute and Thermal Management",
