@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-03T20:20:50.773586+00:00",
-  "count": 221,
-  "china_count": 45,
+  "generated_at": "2026-10-04T03:26:29.475625+00:00",
+  "count": 217,
+  "china_count": 43,
   "topic_counts": {
-    "humanoides": 10,
-    "modelos": 145,
+    "humanoides": 9,
+    "modelos": 143,
     "agentes": 27,
     "biomedica": 7,
     "defesa": 14,
@@ -33,7 +33,7 @@
     },
     {
       "source": "Hugging Face",
-      "status": "ok (872 itens)",
+      "status": "ok (873 itens)",
       "kept": 12
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -123,8 +123,8 @@
     },
     {
       "source": "KDnuggets",
-      "status": "ok (10 itens)",
-      "kept": 2
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "TechXplore (IA/ML)",
@@ -214,7 +214,7 @@
     {
       "source": "Pandaily",
       "status": "ok (20 itens)",
-      "kept": 10
+      "kept": 8
     },
     {
       "source": "TechNode",
@@ -288,7 +288,7 @@
     },
     {
       "source": "AI News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -428,6 +428,35 @@
     }
   ],
   "items": [
+    {
+      "title": "Huawei's openJiuwen Open-Sources X-Router to Pick the Right Model for Each Agent Request",
+      "link": "https://pandaily.com/huawei-openjiuwen-x-router-self-evolving-model-router-agents",
+      "summary": "openJiuwen's X-Router sends easy agent requests to light models and hard ones to stronger models, learning from feedback. Tests show near-baseline scores at roughly half the cost.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 55,
+      "date": "2026-10-04T02:04:51+00:00",
+      "ts": 1791079491.0
+    },
+    {
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "link": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 39,
+      "date": "2026-10-03T22:56:48+00:00",
+      "ts": 1791068208.0
+    },
     {
       "title": "Apparently, OpenAI isn't trying to build \"magic intelligence in the sky\" anymore",
       "link": "https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/",
@@ -901,6 +930,20 @@
       "ts": 1790871655.0
     },
     {
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "link": "https://openai.com/index/albertsons-reimagining-retail",
+      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 67,
+      "date": "2026-10-01T16:00:00+00:00",
+      "ts": 1790870400.0
+    },
+    {
       "title": "“Where the agentic world kicks in” – Verizon draws the line, marks the difference",
       "link": "https://rcrwireless.com/20261001/ai-infrastructure/agentic-verizon-draws-line-marks-difference",
       "summary": "Verizon is moving from scripted RAN automation towards agentic network operations, where AI reasons across domains, shares context and takes action – with the operator retaining control of intent, outcomes…",
@@ -1284,18 +1327,6 @@
       "ts": 1790777011.0
     },
     {
-      "title": "Did AI Just Solve One of Mathematics’ Biggest Problems?",
-      "link": "https://www.kdnuggets.com/did-ai-just-solve-one-of-mathematics-biggest-problems",
-      "summary": "OpenAI’s agents reached a proposed solution in 88 hours. But the human research that came before, and the controversy that followed, raise a harder question: what actually counts as an AI discovery?",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 41,
-      "date": "2026-09-30T14:00:26+00:00",
-      "ts": 1790776826.0
-    },
-    {
       "title": "Telcos don’t have an AI problem; they have a voice estate visibility problem",
       "link": "https://techblog.comsoc.org/2026/09/30/telcos-dont-have-an-ai-problem-they-have-a-voice-estate-visibility-problem/",
       "summary": "By Satish Barot, Co-founder and CTO, Klearcom with Shazia Hasnie AI is increasing telecom interdependence This author has spent around twenty years building telephony products, and the last few watching what happens when AI gets added to them. The models are usually fine, but the voice estates around them are not....",
@@ -1323,20 +1354,6 @@
       "relevance": 22,
       "date": "2026-09-30T13:43:15+00:00",
       "ts": 1790775795.0
-    },
-    {
-      "title": "Ollama for Managing Local Language Models: A KDnuggets Cheat Sheet",
-      "link": "https://www.kdnuggets.com/ollama-for-managing-local-language-models-a-kdnuggets-cheat-sheet",
-      "summary": "Ollama pulls model weights, keeps an HTTP server on port 11434, and hands any client an OpenAI-shaped endpoint pointed at your own machine. Learn how to manage, configure, and optimize using Ollama right here.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 61,
-      "date": "2026-09-30T12:00:18+00:00",
-      "ts": 1790769618.0
     },
     {
       "title": "Anthropic raises alarm over elite hacking ability of Chinese firm Z.ai’s GLM-5.3",
@@ -1433,49 +1450,6 @@
       "relevance": 59,
       "date": "2026-09-30T08:04:26+00:00",
       "ts": 1790755466.0
-    },
-    {
-      "title": "Simate Debuts Simate-beta Physical AI Fast System, Says It Tops RoboDojo Benchmark",
-      "link": "https://pandaily.com/simate-beta-physical-ai-fast-system-robodojo-autoresearch",
-      "summary": "Three-month-old Simate released Simate-beta, a fast-reaction physical AI model it says ranks first on RoboDojo with a 33.95 average score, developed with an agent-driven research pipeline.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "pesquisa",
-      "topics": [
-        "humanoides"
-      ],
-      "relevance": 67,
-      "date": "2026-09-30T08:04:13+00:00",
-      "ts": 1790755453.0
-    },
-    {
-      "title": "IQuest Research Open-Sources IQuest-Q1, a 320B MoE Model for Agentic Coding With 15B Active Parameters",
-      "link": "https://pandaily.com/iquest-research-iquest-q1-320b-moe-15b-active-open-weights-agentic-coding",
-      "summary": "IQuest Research released open weights for IQuest-Q1, a 320B sparse MoE with 15B active parameters built for command-line coding agents, with 512K context and 84.5 on CyberGym.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 74,
-      "date": "2026-09-30T08:03:45+00:00",
-      "ts": 1790755425.0
-    },
-    {
-      "title": "DeepSeek Open-Sources Ascend Versions of TileLang, DeepGEMM and DeepEP as Huawei Details SuperPoD Flex",
-      "link": "https://pandaily.com/deepseek-ascend-infra-oss-tilelang-deepgemm-deepep-superpod-flex",
-      "summary": "DeepSeek released Ascend versions of TileLang, DeepGEMM, DeepEP, TileKernels, FlashMLA and DeepSelect, while Huawei detailed a jointly defined 128-card SuperPoD Flex design.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 64,
-      "date": "2026-09-30T08:03:31+00:00",
-      "ts": 1790755411.0
     },
     {
       "title": "ChatGPT maker wants to be the App Store for AI as safety concerns grow",
@@ -3094,20 +3068,6 @@
       "ts": 1788393600.0
     },
     {
-      "title": "Give Your Coding Agents a Memory You Own",
-      "link": "https://huggingface.co/blog/funes",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 33,
-      "date": "2026-09-03T00:00:00+00:00",
-      "ts": 1788393600.0
-    },
-    {
       "title": "Proactive cyber defense for governments and enterprises",
       "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
       "summary": "Introducing Fairwind Program",
@@ -3479,20 +3439,6 @@
       "relevance": 43,
       "date": "2026-08-20T16:00:00+00:00",
       "ts": 1787241600.0
-    },
-    {
-      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
-      "link": "https://openai.com/index/stampli",
-      "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 68,
-      "date": "2026-08-20T00:00:00+00:00",
-      "ts": 1787184000.0
     }
   ]
 }
