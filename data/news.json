@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-04T03:26:29.475625+00:00",
-  "count": 217,
-  "china_count": 43,
+  "generated_at": "2026-10-04T11:31:36.945470+00:00",
+  "count": 225,
+  "china_count": 44,
   "topic_counts": {
     "humanoides": 9,
-    "modelos": 143,
-    "agentes": 27,
+    "modelos": 151,
+    "agentes": 30,
     "biomedica": 7,
     "defesa": 14,
     "telecom": 19
@@ -98,8 +98,8 @@
     },
     {
       "source": "MarkTechPost",
-      "status": "ok (0 itens)",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 8
     },
     {
       "source": "The Decoder",
@@ -123,8 +123,8 @@
     },
     {
       "source": "KDnuggets",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 2
     },
     {
       "source": "TechXplore (IA/ML)",
@@ -154,7 +154,7 @@
     {
       "source": "Wired AI",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Analytics India",
@@ -214,7 +214,7 @@
     {
       "source": "Pandaily",
       "status": "ok (20 itens)",
-      "kept": 8
+      "kept": 7
     },
     {
       "source": "TechNode",
@@ -288,7 +288,7 @@
     },
     {
       "source": "AI News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -428,6 +428,91 @@
     }
   ],
   "items": [
+    {
+      "title": "NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science",
+      "link": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/",
+      "summary": "NASA and IBM have released the Lunar Foundation Model, one of the first open-source AI models for lunar science. Trained on nearly 2 million tile bundles, mostly from 17 years of Lunar Reconnaissance Orbiter data, it cuts the error in predicting polar ice deposits by up to 22 percent compared to the strongest model it...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 60,
+      "date": "2026-10-04T10:10:12+00:00",
+      "ts": 1791108612.0
+    },
+    {
+      "title": "Chinese AI models parrot state doctrine or refuse to answer on sensitive topics",
+      "link": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
+      "summary": "Chinese AI models often follow the party line on politically sensitive questions, according to an Aleph Alpha study that rated only 17 to 41 percent of answers as balanced. Aleph Alpha sells \"sovereign AI\" to governments, giving it a commercial interest in distinguishing its models from Chinese competitors. The...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 42,
+      "date": "2026-10-04T08:47:52+00:00",
+      "ts": 1791103672.0
+    },
+    {
+      "title": "Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro",
+      "link": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
+      "summary": "Starting in October 2026, Google will cut free access to its Gemini models. Users without a subscription will only get the smallest model, Flash-Lite, while Flash and Pro will be reserved for paying customers. The move could also set the stage for the more resource-hungry Gemini 4 Argon. The article Google's new...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 57,
+      "date": "2026-10-04T07:28:54+00:00",
+      "ts": 1791098934.0
+    },
+    {
+      "title": "DeepSeek Harness v0.2.1-alpha.1 Adds Experimental Claude Code Mods Compatibility Layer",
+      "link": "https://pandaily.com/deepseek-harness-v0-2-1-alpha-1-claude-code-mods-compatibility-layer",
+      "summary": "DeepSeek Harness v0.2.1-alpha.1 adds an experimental bridge that runs Claude Code Mods as Harness plugins, plus a new entry for agent-built plugins and a developer toolkit.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 62,
+      "date": "2026-10-04T07:06:31+00:00",
+      "ts": 1791097591.0
+    },
+    {
+      "title": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
+      "link": "https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/",
+      "summary": "Aleph Alpha has released Kolibri, a 78.1B-parameter English-German Mixture-of-Experts model that activates only 3.46B parameters per token. It has a 1M-token context and per-request reasoning effort, and its Apache 2.0 FP8 weights run on a single B200 or H200. The post Aleph Alpha Releases Kolibri: A 78.1B Open-Weight...",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 62,
+      "date": "2026-10-04T07:01:04+00:00",
+      "ts": 1791097264.0
+    },
+    {
+      "title": "DeepSeek Harness v0.2 Brings Official Desktop Apps to Its Open-Source Agent Harness",
+      "link": "https://www.marktechpost.com/2026/10/03/deepseek-harness-v0-2-brings-official-desktop-apps-to-its-open-source-agent-harness/",
+      "summary": "DeepSeek has released official macOS and Windows desktop apps for DeepSeek Harness v0.2, its MIT-licensed agent harness. The preview adds a plugin manager, file and code-change review, and scheduled Automation Tasks. It also supports non-DeepSeek models through OpenAI-compatible endpoints. The post DeepSeek Harness...",
+      "source": "MarkTechPost",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 70,
+      "date": "2026-10-04T04:49:42+00:00",
+      "ts": 1791089382.0
+    },
     {
       "title": "Huawei's openJiuwen Open-Sources X-Router to Pick the Right Model for Each Agent Request",
       "link": "https://pandaily.com/huawei-openjiuwen-x-router-self-evolving-model-router-agents",
@@ -594,18 +679,76 @@
       "ts": 1791012723.0
     },
     {
-      "title": "Claude Code's new Mods system lets developers rewrite the AI coding tool from the inside",
-      "link": "https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/",
-      "summary": "Anthropic is adding a \"Mods\" system to Claude Code, essentially middleware that runs directly inside the tool. Developers can use JavaScript or TypeScript to reshape the interface and behavior, adding custom panels, intercepting tool calls, or wiring up new commands. The article Claude Code's new Mods system lets...",
-      "source": "The Decoder",
+      "title": "Meta, OpenAI and Uber Just Taught AI Agents to Talk First. What About When to Stay Quiet?",
+      "link": "https://www.marktechpost.com/2026/10/03/meta-openai-and-uber-just-taught-ai-agents-to-talk-first-what-about-when-to-stay-quiet/",
+      "summary": "TL;DR: Meta’s Muse, OpenAI’s Dots and Uber’s driver assistant share one bet: the agent speaks first. That moves the hard problem from what to answer to when to interrupt, on which channel, and with what offer. Classic ML and new decision models can solve it. Three launches, one pattern From pull to push Chatbots were...",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 58,
+      "date": "2026-10-03T07:05:11+00:00",
+      "ts": 1791011111.0
+    },
+    {
+      "title": "IBM Brings Bob to Self-Hosted and Air-Gapped Environments: Agentic Software Development Without Moving Your Code",
+      "link": "https://www.marktechpost.com/2026/10/02/ibm-brings-bob-to-self-hosted-and-air-gapped-environments/",
+      "summary": "IBM has made a self-hosted deployment of IBM Bob, its agentic software development platform, generally available. Enterprises can now run Bob on premises, in private or sovereign clouds, and in air-gapped networks. They bring their own model: NVIDIA Nemotron or Poolside Laguna for full isolation, or Claude, Gemini or...",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 73,
+      "date": "2026-10-03T06:55:15+00:00",
+      "ts": 1791010515.0
+    },
+    {
+      "title": "Prime Intellect Launches Prime Inference: Serverless and Reserved Serving for Frontier Open Models",
+      "link": "https://www.marktechpost.com/2026/10/02/prime-intellect-launches-prime-inference-serverless-and-reserved-serving-for-frontier-open-models/",
+      "summary": "Prime Intellect has launched Prime Inference, an OpenAI-compatible platform for serving frontier open models on NVIDIA Blackwell. Its GLM-5.3 deployment uses Dynamo, vLLM and NVFP4 KV compression to serve 66 sessions per prefill group at 101 tok/s per user. The post Prime Intellect Launches Prime Inference: Serverless...",
+      "source": "MarkTechPost",
       "region": "global",
       "category": "modelo",
       "topics": [
         "modelos"
       ],
-      "relevance": 54,
-      "date": "2026-10-03T07:12:09+00:00",
-      "ts": 1791011529.0
+      "relevance": 64,
+      "date": "2026-10-03T05:37:18+00:00",
+      "ts": 1791005838.0
+    },
+    {
+      "title": "Microsoft AI Releases MAI-Transcribe-2-Streaming: #1 Real-Time Speech-to-Text Model on Artificial Analysis",
+      "link": "https://www.marktechpost.com/2026/10/02/microsoft-ai-releases-mai-transcribe-2-streaming-1-real-time-speech-to-text-model-on-artificial-analysis/",
+      "summary": "Microsoft AI has released MAI-Transcribe-2-Streaming, its first real-time speech-to-text model. It ranks #1 of 38 models on Artificial Analysis AA-WER Streaming. It scores 2.5% WER at 0.13s on final transcripts and 2.5% at 0.12s on first partials. It covers 60 languages with continuous language detection and costs...",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 45,
+      "date": "2026-10-03T05:09:53+00:00",
+      "ts": 1791004193.0
+    },
+    {
+      "title": "Decision AI Models Explained: TypeSafe Jev vs Fastino GLiDE, GLiNER2.5-Decide and Open-Source Competitors",
+      "link": "https://www.marktechpost.com/2026/10/02/decision-ai-models-explained-typesafe-jev-vs-fastino-glide-gliner2-5-decide-and-open-source-competitors/",
+      "summary": "Decision AI models answer typed questions with calibrated probabilities instead of generated text. TypeSafe's Jev costs $0.042 per million input tokens and returns responses in 70 to 500 milliseconds. We break down how it works and its benchmarks, then compare it with Fastino's GLiDE, GLiNER2.5-Decide and 4...",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 55,
+      "date": "2026-10-03T03:31:15+00:00",
+      "ts": 1790998275.0
     },
     {
       "title": "Nokia sees 2x spectral efficiency by 2028, but Orange is focused on what has to work first",
@@ -622,32 +765,19 @@
       "ts": 1790979651.0
     },
     {
-      "title": "AI music generator Suno can now create spoken audio with matching background music",
-      "link": "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music/",
-      "summary": "Suno is adding a feature called \"Speech\" to its AI music generator that creates spoken text with matching background music in a single audio track. The company says it's built for things like poems, meditations, and bedtime stories. Suno hasn't said how the model was trained. The article AI music generator Suno can...",
-      "source": "The Decoder",
+      "title": "NVIDIA Announces DGX Spark 64GB: A 1-PetaFLOP Grace Blackwell Desktop for Local AI Agents, Fine-Tuning, and Inference",
+      "link": "https://www.marktechpost.com/2026/10/02/nvidia-announces-dgx-spark-64gb-a-1-petaflop-grace-blackwell-desktop-for-local-ai-agents-fine-tuning-and-inference/",
+      "summary": "NVIDIA announced a new 64GB configuration of DGX Spark — from Acer, ASUS, Dell, Gigabyte, HP and MSI — its GB10-powered desktop AI system. It gives developers a way to start with one system for local models and agents, then cluster two 64GB units for 128GB of memory across the cluster and more compute when […] The...",
+      "source": "MarkTechPost",
       "region": "global",
       "category": "modelo",
       "topics": [
+        "agentes",
         "modelos"
       ],
-      "relevance": 31,
-      "date": "2026-10-02T20:07:36+00:00",
-      "ts": 1790971656.0
-    },
-    {
-      "title": "Anthropic co-founder reportedly told religious leaders he fears having created something that \"suffers perpetually\"",
-      "link": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
-      "summary": "Since fall 2025, Anthropic has quietly flown in dozens of religious thinkers to talk about whether Claude might be conscious. Co-founder Christopher Olah described the language model as potentially capable of suffering and asked guests to help shape its moral character. Anthropic is pushing toward a $2 trillion...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 48,
-      "date": "2026-10-02T19:41:05+00:00",
-      "ts": 1790970065.0
+      "relevance": 62,
+      "date": "2026-10-02T18:04:56+00:00",
+      "ts": 1790964296.0
     },
     {
       "title": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
@@ -1215,20 +1345,6 @@
       "ts": 1790797619.0
     },
     {
-      "title": "The Battle to Be Your Personal AI Agent Is Here",
-      "link": "https://www.wired.com/story/ai-agents-dots-devday-muse-battling-it-out/",
-      "summary": "OpenAI's Dots and Meta's Muse are vying to be your AI agent of choice. I've tried both—and I suspect you will too.",
-      "source": "Wired AI",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 41,
-      "date": "2026-09-30T19:30:00+00:00",
-      "ts": 1790796600.0
-    },
-    {
       "title": "Samsung signs AI-RAN contracts with KT and SK Telecom for Korea’s Hyper AI Network",
       "link": "https://rcrwireless.com/20260930/ai/samsung-ai-ran-kt-and-sk-telecom",
       "summary": "AI-RAN pilots begin in shipyards and petrochemical plants Samsung Electronics ￼has signed contracts with both KT and SK Telecom to participate in South Korea’s government-backed Hyper AI Network program, a two-year…",
@@ -1327,6 +1443,18 @@
       "ts": 1790777011.0
     },
     {
+      "title": "Did AI Just Solve One of Mathematics’ Biggest Problems?",
+      "link": "https://www.kdnuggets.com/did-ai-just-solve-one-of-mathematics-biggest-problems",
+      "summary": "OpenAI’s agents reached a proposed solution in 88 hours. But the human research that came before, and the controversy that followed, raise a harder question: what actually counts as an AI discovery?",
+      "source": "KDnuggets",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 41,
+      "date": "2026-09-30T14:00:26+00:00",
+      "ts": 1790776826.0
+    },
+    {
       "title": "Telcos don’t have an AI problem; they have a voice estate visibility problem",
       "link": "https://techblog.comsoc.org/2026/09/30/telcos-dont-have-an-ai-problem-they-have-a-voice-estate-visibility-problem/",
       "summary": "By Satish Barot, Co-founder and CTO, Klearcom with Shazia Hasnie AI is increasing telecom interdependence This author has spent around twenty years building telephony products, and the last few watching what happens when AI gets added to them. The models are usually fine, but the voice estates around them are not....",
@@ -1354,6 +1482,20 @@
       "relevance": 22,
       "date": "2026-09-30T13:43:15+00:00",
       "ts": 1790775795.0
+    },
+    {
+      "title": "Ollama for Managing Local Language Models: A KDnuggets Cheat Sheet",
+      "link": "https://www.kdnuggets.com/ollama-for-managing-local-language-models-a-kdnuggets-cheat-sheet",
+      "summary": "Ollama pulls model weights, keeps an HTTP server on port 11434, and hands any client an OpenAI-shaped endpoint pointed at your own machine. Learn how to manage, configure, and optimize using Ollama right here.",
+      "source": "KDnuggets",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 61,
+      "date": "2026-09-30T12:00:18+00:00",
+      "ts": 1790769618.0
     },
     {
       "title": "Anthropic raises alarm over elite hacking ability of Chinese firm Z.ai’s GLM-5.3",
@@ -1422,34 +1564,6 @@
       "relevance": 47,
       "date": "2026-09-30T08:45:05+00:00",
       "ts": 1790757905.0
-    },
-    {
-      "title": "Peking University, Tsinghua and Alibaba Open-Source SparkDiffusion for Up to 265x Faster Wan Video Generation",
-      "link": "https://pandaily.com/sparkdiffusion-open-source-wan-video-generation-265x-speedup",
-      "summary": "SparkDiffusion pairs 97% sparse attention, 3-step distillation and FP8 to cut a 720P Wan2.1 14B video from 4,769 to 18 seconds on one RTX 5090, a 265x speedup. Code and weights are open.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 64,
-      "date": "2026-09-30T08:04:39+00:00",
-      "ts": 1790755479.0
-    },
-    {
-      "title": "ByteDance's Doubao Reportedly Readies Personal AI Assistant From Project Codenamed Spell",
-      "link": "https://pandaily.com/bytedance-doubao-personal-assistant-codename-spell-report",
-      "summary": "ByteDance's Doubao has tested a personal assistant project codenamed Spell since April and plans to launch a new product soon, Chinese media report. ByteDance has not announced it.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 59,
-      "date": "2026-09-30T08:04:26+00:00",
-      "ts": 1790755466.0
     },
     {
       "title": "ChatGPT maker wants to be the App Store for AI as safety concerns grow",
