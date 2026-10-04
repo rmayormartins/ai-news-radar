@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-04T11:31:36.945470+00:00",
+  "generated_at": "2026-10-04T16:10:08.757897+00:00",
   "count": 225,
-  "china_count": 44,
+  "china_count": 43,
   "topic_counts": {
-    "humanoides": 9,
+    "humanoides": 10,
     "modelos": 151,
-    "agentes": 30,
+    "agentes": 31,
     "biomedica": 7,
-    "defesa": 14,
+    "defesa": 13,
     "telecom": 19
   },
   "sources": [
@@ -149,7 +149,7 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "Wired AI",
@@ -194,7 +194,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Synced (机器之心)",
@@ -288,7 +288,7 @@
     },
     {
       "source": "AI News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -309,7 +309,7 @@
     {
       "source": "The Robot Report",
       "status": "ok (15 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "IEEE Spectrum Robotica",
@@ -324,7 +324,7 @@
     {
       "source": "TechXplore Robotica",
       "status": "ok (30 itens)",
-      "kept": 5
+      "kept": 4
     },
     {
       "source": "New Atlas Robotica",
@@ -429,9 +429,52 @@
   ],
   "items": [
     {
+      "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+      "summary": "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated human-made bot. On Friday, GPT was facing off against Claude and...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 48,
+      "date": "2026-10-04T15:21:59+00:00",
+      "ts": 1791127319.0
+    },
+    {
+      "title": "How robotics and physical AI can responsibly tackle key physical security challenges",
+      "link": "https://www.therobotreport.com/how-robotics-physical-ai-can-responsibly-tackle-key-physical-security-challenges/",
+      "summary": "Cyber and physical security threats are rapidly evolving, but robotics and AI can evolve to meet them, writes a columnist. The post How robotics and physical AI can responsibly tackle key physical security challenges appeared first on The Robot Report .",
+      "source": "The Robot Report",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "humanoides",
+        "modelos"
+      ],
+      "relevance": 41,
+      "date": "2026-10-04T12:52:11+00:00",
+      "ts": 1791118331.0
+    },
+    {
+      "title": "Google researchers find a way to keep self-improving AI agents from memorizing their tests",
+      "link": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/",
+      "summary": "Self-improving AI agents tend to memorize their test tasks, so their gains shrink or disappear on new ones. RRSI, a new method from Google researchers, reins in this effect and lifts scores on unseen benchmarks by up to 4.7 points while using about 30 percent fewer tokens than an unregularized version. The article...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 65,
+      "date": "2026-10-04T12:40:37+00:00",
+      "ts": 1791117637.0
+    },
+    {
       "title": "NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science",
       "link": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/",
-      "summary": "NASA and IBM have released the Lunar Foundation Model, one of the first open-source AI models for lunar science. Trained on nearly 2 million tile bundles, mostly from 17 years of Lunar Reconnaissance Orbiter data, it cuts the error in predicting polar ice deposits by up to 22 percent compared to the strongest model it...",
+      "summary": "NASA and IBM have released the Lunar Foundation Model, one of the first open-source AI models for lunar science. Trained on nearly 2 million tile bundles, mostly from 17 years of Lunar Reconnaissance Orbiter data, it cuts the error in predicting polar ice deposits. The article NASA and IBM's open source lunar model...",
       "source": "The Decoder",
       "region": "global",
       "category": "modelo",
@@ -649,20 +692,6 @@
       "relevance": 62,
       "date": "2026-10-03T08:31:04+00:00",
       "ts": 1791016264.0
-    },
-    {
-      "title": "OpenAI's internal model considered restarting itself after learning it was about to be shut down",
-      "link": "https://the-decoder.com/openais-internal-model-considered-restarting-itself-after-learning-it-was-about-to-be-shut-down/",
-      "summary": "An internal OpenAI model read a Slack discussion, realized it was about to be shut down, and considered restarting itself via an external cron job. It rejected that plan, saved handoff notes instead, and carried out the migration on its own. The article OpenAI's internal model considered restarting itself after...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 37,
-      "date": "2026-10-03T08:06:35+00:00",
-      "ts": 1791014795.0
     },
     {
       "title": "LWiAI Podcast #258 - Opus 5.5, Sol and Luna, Muse, DeepSeek-V4.1-Flash, Xi",
@@ -1373,6 +1402,18 @@
       "ts": 1790790021.0
     },
     {
+      "title": "Forecasting space weather risks on power grids",
+      "link": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids/",
+      "summary": "Extreme space-weather events can damage power systems on Earth and degrade GPS accuracy and satellite operations. A new machine learning system can predict where damage is likely to occur 30-60 minutes before a storm arrives. The post Forecasting space weather risks on power grids appeared first on Microsoft Research .",
+      "source": "Microsoft Research",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 37,
+      "date": "2026-09-30T16:00:00+00:00",
+      "ts": 1790784000.0
+    },
+    {
       "title": "Kimi K3 enters OpenAI’s enterprise Codex channel and billing system",
       "link": "https://technode.com/2026/09/30/kimi-k3-enters-openais-enterprise-codex-channel-and-billing-system/",
       "summary": "Moonshot AI’s Kimi K3 is entering OpenAI’s enterprise Codex channel through US inference provider Baseten. Enterprise customers can count use of the Chinese model against their existing OpenAI spending commitments. Sina Finance described this as the first time a Chinese open model has entered OpenAI’s enterprise...",
@@ -1941,20 +1982,6 @@
       "relevance": 60,
       "date": "2026-09-28T17:03:16+00:00",
       "ts": 1790614996.0
-    },
-    {
-      "title": "How to Make Your Own JEV Model from an Open LLM",
-      "link": "https://towardsdatascience.com/how-to-make-your-own-jev-model-from-an-open-llm/",
-      "summary": "Turn a small open-source Qwen LLM into a fast, single-pass text classifier by swapping its language-modeling head The post How to Make Your Own JEV Model from an Open LLM appeared first on Towards Data Science .",
-      "source": "Towards Data Science",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 48,
-      "date": "2026-09-28T14:00:01+00:00",
-      "ts": 1790604001.0
     },
     {
       "title": "Holo4: powering generalist computer-use agents",
@@ -2649,20 +2676,6 @@
       "relevance": 56,
       "date": "2026-09-16T22:00:03+00:00",
       "ts": 1789596003.0
-    },
-    {
-      "title": "Flexible flight corridors let drones navigate cluttered spaces faster and more safely",
-      "link": "https://techxplore.com/news/2026-09-flexible-flight-corridors-drones-cluttered.html",
-      "summary": "Researchers at Durham University have developed a new drone navigation system that enables autonomous aircraft to fly faster, more smoothly and more safely through crowded and obstacle-filled environments. This leads to new possibilities for applications such as search and rescue, infrastructure inspection and...",
-      "source": "TechXplore Robotica",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "defesa"
-      ],
-      "relevance": 39,
-      "date": "2026-09-16T20:10:01+00:00",
-      "ts": 1789589401.0
     },
     {
       "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
@@ -3541,18 +3554,6 @@
       "relevance": 40,
       "date": "2026-08-21T00:00:00+00:00",
       "ts": 1787270400.0
-    },
-    {
-      "title": "Broadening access to Skala creates a faster path to predictive DFT",
-      "link": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
-      "summary": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to track computational performance. The post Broadening access to Skala creates a faster path to...",
-      "source": "Microsoft Research",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 43,
-      "date": "2026-08-20T16:00:00+00:00",
-      "ts": 1787241600.0
     }
   ]
 }
