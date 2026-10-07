@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-06T22:01:16.631974+00:00",
-  "count": 288,
+  "generated_at": "2026-10-07T03:21:38.006800+00:00",
+  "count": 286,
   "china_count": 55,
   "topic_counts": {
     "humanoides": 10,
-    "modelos": 176,
-    "agentes": 48,
+    "modelos": 175,
+    "agentes": 49,
     "biomedica": 14,
     "defesa": 15,
-    "telecom": 29
+    "telecom": 28
   },
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1249 itens)",
+      "status": "ok (1251 itens)",
       "kept": 12
     },
     {
@@ -99,7 +99,7 @@
     {
       "source": "MarkTechPost",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 6
     },
     {
       "source": "The Decoder",
@@ -149,7 +149,7 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "Wired AI",
@@ -394,7 +394,7 @@
     {
       "source": "Total Telecom",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "TeckNexus",
@@ -424,10 +424,38 @@
     {
       "source": "TeleSintese (BR)",
       "status": "ok (100 itens)",
-      "kept": 5
+      "kept": 4
     }
   ],
   "items": [
+    {
+      "title": "Chinese Team Maps Rice's Full Life Cycle in 3D Cell Atlas Published in Cell",
+      "link": "https://pandaily.com/rice-full-lifecycle-3d-spatiotemporal-cell-atlas-cell-sustech-bgi",
+      "summary": "SUSTech-led collaborators publish in Cell a seed-to-seed 3D spatiotemporal rice cell atlas with an open portal and RICE scGPT single-cell foundation model.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 52,
+      "date": "2026-10-07T02:14:57+00:00",
+      "ts": 1791339297.0
+    },
+    {
+      "title": "OpenAI drops another batch of mathematical breakthroughs",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+      "summary": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both impressed and unsettled parts of the mathematical community...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 47,
+      "date": "2026-10-06T23:26:38+00:00",
+      "ts": 1791329198.0
+    },
     {
       "title": "llm-mistral 0.16",
       "link": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
@@ -1048,6 +1076,20 @@
       "relevance": 71,
       "date": "2026-10-06T12:11:22+00:00",
       "ts": 1791288682.0
+    },
+    {
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "link": "https://openai.com/index/jump-trading",
+      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 74,
+      "date": "2026-10-06T12:00:00+00:00",
+      "ts": 1791288000.0
     },
     {
       "title": "Researchers stretch LeCun's JEPA AI into a universal world model that works from physics to biology",
@@ -1826,6 +1868,20 @@
       "ts": 1791259200.0
     },
     {
+      "title": "RISED: Rubrics for Agentic Multi-Environment Selection and Self-Distillation",
+      "link": "https://machinelearning.apple.com/research/rised-multi-environment-selection",
+      "summary": "Training a single LLM agent jointly across diverse interactive environments has attracted increasing attention as a route to generalist agents. Existing curriculum and data-selection strategies often allocate training at the environment level or prioritize local reward-based signals, without explicitly considering...",
+      "source": "Apple ML Research",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 67,
+      "date": "2026-10-06T00:00:00+00:00",
+      "ts": 1791244800.0
+    },
+    {
       "title": "Introducing GLM 5.3 on Amazon Bedrock",
       "link": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
       "summary": "GLM 5.3 from Z.ai is now available on Amazon Bedrock: a 753B-parameter mixture-of-experts model built for coding and long-horizon agentic tasks. Learn how to invoke it with the OpenAI-compatible APIs, cut cost and latency with prompt caching, and run an authorized security test with the open-source Strix agent.",
@@ -2292,20 +2348,6 @@
       "ts": 1791168215.0
     },
     {
-      "title": "Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks",
-      "link": "https://www.marktechpost.com/2026/10/04/can-an-open-model-do-security-research-cantinas-apex-flash-1-solves-40-of-60-held-out-bug-tasks/",
-      "summary": "Cantina Security, with Yeta Labs, has released apex-flash-1, an open-weights model trained specifically for vulnerability research. It is a reinforcement learning fine-tune of Z.ai’s GLM-5.3-Flash, released on Hugging Face under the MIT license. Is it deployable? Yes, the MIT weights serve on vLLM, SGLang or...",
-      "source": "MarkTechPost",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 73,
-      "date": "2026-10-05T01:47:28+00:00",
-      "ts": 1791164848.0
-    },
-    {
       "title": "Qwen3.8 27B addition in words",
       "link": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
       "summary": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those results: I'm confident GPT-4o didn't cheat...",
@@ -2333,20 +2375,6 @@
       "relevance": 41,
       "date": "2026-10-04T12:52:11+00:00",
       "ts": 1791118331.0
-    },
-    {
-      "title": "DeepSeek Harness v0.2.1-alpha.1 Adds Experimental Claude Code Mods Compatibility Layer",
-      "link": "https://pandaily.com/deepseek-harness-v0-2-1-alpha-1-claude-code-mods-compatibility-layer",
-      "summary": "DeepSeek Harness v0.2.1-alpha.1 adds an experimental bridge that runs Claude Code Mods as Harness plugins, plus a new entry for agent-built plugins and a developer toolkit.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 62,
-      "date": "2026-10-04T07:06:31+00:00",
-      "ts": 1791097591.0
     },
     {
       "title": "The Agent Said It Was Done. The Database Disagreed.",
@@ -2569,20 +2597,6 @@
       "relevance": 48,
       "date": "2026-10-01T16:20:55+00:00",
       "ts": 1790871655.0
-    },
-    {
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "link": "https://openai.com/index/albertsons-reimagining-retail",
-      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 67,
-      "date": "2026-10-01T16:00:00+00:00",
-      "ts": 1790870400.0
     },
     {
       "title": "Autonomous Operations for Private Networks: What Enterprise Networks Can Borrow From Telco Autonomy",
@@ -3031,18 +3045,6 @@
       "ts": 1790654400.0
     },
     {
-      "title": "The Communication Bottleneck: A Round-Trip Study of Tree-Structured Expression Serialization in Language Models",
-      "link": "https://machinelearning.apple.com/research/communication-bottleneck-serialization",
-      "summary": "When language models reason in chain-of-thought or exchange free-text intermediates, they serialize structured information into natural language. How much tree-structured compositional content survives this bottleneck? We propose a round-trip protocol that answers this question empirically for tree-structured...",
-      "source": "Apple ML Research",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 52,
-      "date": "2026-09-29T00:00:00+00:00",
-      "ts": 1790640000.0
-    },
-    {
       "title": "llm-anthropic 0.30",
       "link": "https://simonwillison.net/2026/Sep/28/llm-anthropic/",
       "summary": "Release: llm-anthropic 0.30 In addition to Claude Sonnet 5.5, this release adds the ability to run llm anthropic refresh to refresh the list of Anthropic models directly from their API - which means I don't need to push a new release just to add support for a newly released model. I also added an llm anthropic count...",
@@ -3180,20 +3182,6 @@
       "relevance": 22,
       "date": "2026-09-24T21:33:03+00:00",
       "ts": 1790285583.0
-    },
-    {
-      "title": "Google Cloud dobra infraestrutura e traz dados do Gemini ao Brasil",
-      "link": "https://telesintese.com.br/google-cloud-dobra-infraestrutura-e-traz-dados-do-gemini-ao-brasil/",
-      "summary": "Processamento local começa em 15 de outubro; empresa também disponibiliza GPUs Blackwell, mas não revela valor do investimento. O post Google Cloud dobra infraestrutura e traz dados do Gemini ao Brasil apareceu primeiro em TeleSíntese .",
-      "source": "TeleSintese (BR)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 51,
-      "date": "2026-09-24T16:13:39+00:00",
-      "ts": 1790266419.0
     },
     {
       "title": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
@@ -3600,20 +3588,6 @@
       "relevance": 51,
       "date": "2026-09-18T04:59:31+00:00",
       "ts": 1789707571.0
-    },
-    {
-      "title": "Openreach: Ask Me Anything about my Crystal Ball",
-      "link": "https://totaltele.com/openreach-ask-me-anything-about-my-crystal-ball/",
-      "summary": "The UK’s largest fibre network operator is using AI tools to prevent thousands of full fibre broadband cancellations each month The post Openreach: Ask Me Anything about my Crystal Ball appeared first on Total Telecom .",
-      "source": "Total Telecom",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 22,
-      "date": "2026-09-17T14:36:31+00:00",
-      "ts": 1789655791.0
     },
     {
       "title": "Compact AI training method reduces navigation conflicts in crowded environments",
