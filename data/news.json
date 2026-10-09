@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-08T22:39:26.577510+00:00",
-  "count": 288,
-  "china_count": 52,
+  "generated_at": "2026-10-09T03:42:11.224304+00:00",
+  "count": 290,
+  "china_count": 54,
   "topic_counts": {
-    "humanoides": 12,
-    "modelos": 180,
+    "humanoides": 11,
+    "modelos": 181,
     "agentes": 50,
-    "biomedica": 13,
+    "biomedica": 15,
     "defesa": 18,
     "telecom": 27
   },
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1257 itens)",
+      "status": "ok (1258 itens)",
       "kept": 12
     },
     {
@@ -214,7 +214,7 @@
     {
       "source": "Pandaily",
       "status": "ok (20 itens)",
-      "kept": 7
+      "kept": 9
     },
     {
       "source": "TechNode",
@@ -284,7 +284,7 @@
     {
       "source": "The Guardian (IA)",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "AI News",
@@ -299,7 +299,7 @@
     {
       "source": "The AI Insider",
       "status": "ok (9 itens)",
-      "kept": 3
+      "kept": 1
     },
     {
       "source": "AIwire",
@@ -339,7 +339,7 @@
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "arXiv eess.IV (imagem)",
@@ -428,6 +428,64 @@
     }
   ],
   "items": [
+    {
+      "title": "CAIR Unveils CARES 4.0, a Multimodal Clinical Agent That Gives Doctors Suggestions, Not Verdicts",
+      "link": "https://pandaily.com/cair-cas-hong-kong-cares-4-0-multimodal-clinical-ai-agent-open-source",
+      "summary": "CAIR, the Chinese Academy of Sciences' Hong Kong AI and robotics centre, unveiled CARES 4.0, a clinical agent that drafts reports and analyses for doctors to review.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "biomedica",
+        "modelos"
+      ],
+      "relevance": 55,
+      "date": "2026-10-09T02:37:36+00:00",
+      "ts": 1791513456.0
+    },
+    {
+      "title": "ByteDance Seed Paper Finds a 'Phase Sensitivity' Blind Spot in Chunked KV-Cache Compression",
+      "link": "https://pandaily.com/bytedance-seed-phase-sensitivity-chunked-kv-cache-compression-deepseek-v4",
+      "summary": "A ByteDance Seed paper finds retrieval accuracy in chunk-compressed models such as DeepSeek-V4 can swing by up to 40 points depending on where a token sits.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 60,
+      "date": "2026-10-09T02:36:37+00:00",
+      "ts": 1791513397.0
+    },
+    {
+      "title": "Anthropic bans users from ‘needless abusive or cruel behavior’ towards Claude",
+      "link": "https://www.theguardian.com/technology/2026/oct/08/anthropic-bans-abusive-behavior-claude",
+      "summary": "A spokesperson behind the tech company’s AI chatbot has not yet specified what counts as abusive or cruel content Anthropic has barred users from exhibiting “sustained and needless abusive or cruel behavior” toward its models, as the company’s leaders continue to ponder machine consciousness. The Verge first reported...",
+      "source": "The Guardian (IA)",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 56,
+      "date": "2026-10-09T01:25:42+00:00",
+      "ts": 1791509142.0
+    },
+    {
+      "title": "How health care can benefit from AI, without costing the world",
+      "link": "https://medicalxpress.com/news/2026-10-health-benefit-ai-world.html",
+      "summary": "Artificial intelligence (AI) has had a transformative effect on health care. The technology has been tested and applied in almost every area, from disease diagnostics to AI-powered digital clinics.",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 29,
+      "date": "2026-10-09T00:20:01+00:00",
+      "ts": 1791505201.0
+    },
     {
       "title": "Bipartisan Senate bill would push DOD to expand its oversight of in-use commercial frontier AI models",
       "link": "https://defensescoop.com/2026/10/08/senate-bill-expand-dod-oversight-commercial-frontier-ai-models/",
@@ -673,21 +731,6 @@
       "ts": 1791476255.0
     },
     {
-      "title": "Nous Research Raises $90M Series B at $1.5B Valuation to Bring Hermes AI Agents to Enterprises",
-      "link": "https://theaiinsider.tech/2026/10/08/nous-research-secures-90m-series-b-at-1-5b-valuation-to-bring-hermes-ai-agents-to-enterprises/",
-      "summary": "Nous Research, the startup behind the open source Hermes Agent, has secured a $90 million Series B at a $1.5 billion valuation, confirming earlier reporting by TechCrunch. The round was led by Robot Ventures, with participation from Nvidia, Union Square Ventures, Menlo Ventures, Samsung and 1789 Capital, where Donald...",
-      "source": "The AI Insider",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 57,
-      "date": "2026-10-08T16:12:42+00:00",
-      "ts": 1791475962.0
-    },
-    {
       "title": "Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost",
       "link": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
       "summary": "Goodfire just launched what it says is a cheaper way to keep AI agents in check: Instead of paying a second AI to read everything an agent does, its monitors peek inside the model while it works and only call in backup when something looks fishy.",
@@ -886,21 +929,6 @@
       "relevance": 62,
       "date": "2026-10-08T13:23:58+00:00",
       "ts": 1791465838.0
-    },
-    {
-      "title": "AWS Launches Open-Source Physical AI Toolchain for Robotics Development",
-      "link": "https://theaiinsider.tech/2026/10/08/aws-launches-open-source-physical-ai-toolchain-for-robotics-development/",
-      "summary": "Insider Brief Amazon Web Services has launched an open-source toolchain designed to help manufacturers and robotics developers train, simulate, deploy and improve the systems that supply the AI for physical AI. According to AWS, the Physical AI Toolchain on AWS is designed for everything from industrial automation and...",
-      "source": "The AI Insider",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "humanoides",
-        "modelos"
-      ],
-      "relevance": 48,
-      "date": "2026-10-08T13:17:15+00:00",
-      "ts": 1791465435.0
     },
     {
       "title": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
@@ -1181,7 +1209,7 @@
     {
       "title": "Multi-Agent Coordination via Support-Preserving Distillation",
       "link": "https://arxiv.org/abs/2610.10087",
-      "summary": "arXiv:2610.10087v1 Announce Type: new Abstract: Offline MARL increasingly relies on generative policies to model multimodal joint behavior, typically by distilling a centralized teacher into decentralized one-step actors under the CTDE. We identify a failure mode at the teacher training stage: standard flow-based...",
+      "summary": "arXiv:2610.10087v2 Announce Type: new Abstract: Offline MARL increasingly relies on generative policies to model multimodal joint behavior, typically by distilling a centralized teacher into decentralized one-step actors under the CTDE. We identify a failure mode at the teacher training stage: standard flow-based...",
       "source": "arXiv cs.LG",
       "region": "global",
       "category": "pesquisa",
@@ -1473,7 +1501,7 @@
     {
       "title": "HarnessIR: Harnessing Multimodal Foundation Models for Universal Real-World Image Restoration",
       "link": "https://arxiv.org/abs/2610.10133",
-      "summary": "arXiv:2610.10133v1 Announce Type: new Abstract: Real-world low-quality images suffer from complex mixed degradations, including but not limited to noise, blur, atmospheric effects, etc. Recent agentic methods usually model real-world image restoration (Real-IR) as a sequential tool calling problem over task-specific...",
+      "summary": "arXiv:2610.10133v2 Announce Type: new Abstract: Real-world low-quality images suffer from complex mixed degradations, including but not limited to noise, blur, atmospheric effects, etc. Recent agentic methods usually model real-world image restoration (Real-IR) as a sequential tool calling problem over task-specific...",
       "source": "arXiv cs.CV",
       "region": "global",
       "category": "pesquisa",
@@ -1579,7 +1607,7 @@
     {
       "title": "RoboIRS: Inference-Time Internal Representation Steering for Generalist Robot Policies",
       "link": "https://arxiv.org/abs/2610.04681",
-      "summary": "arXiv:2610.04681v2 Announce Type: replace Abstract: Vision-language-action (VLA) and world-action models (WAMs) often degrade under out-of-distribution task variations despite retaining partial task capability. To recover such capability, we propose RoboIRS, an inference-time internal representation steering method...",
+      "summary": "arXiv:2610.04681v3 Announce Type: replace Abstract: Vision-language-action (VLA) and world-action models (WAMs) often degrade under out-of-distribution task variations despite retaining partial task capability. To recover such capability, we propose RoboIRS, an inference-time internal representation steering method...",
       "source": "arXiv cs.RO",
       "region": "global",
       "category": "pesquisa",
@@ -2240,6 +2268,20 @@
       "relevance": 51,
       "date": "2026-10-07T07:06:23+00:00",
       "ts": 1791356783.0
+    },
+    {
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "link": "https://openai.com/index/radisson",
+      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 67,
+      "date": "2026-10-07T07:00:00+00:00",
+      "ts": 1791356400.0
     },
     {
       "title": "Meta AI Open-Sources Rebalancer: A C++ Assignment Solver That Runs About 40 Million Placement Problems a Day",
@@ -4419,20 +4461,6 @@
       "relevance": 42,
       "date": "2026-08-25T11:39:24+00:00",
       "ts": 1787657964.0
-    },
-    {
-      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-      "link": "https://openai.com/index/introducing-admin-plugin",
-      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 68,
-      "date": "2026-08-25T00:00:00+00:00",
-      "ts": 1787616000.0
     }
   ]
 }
