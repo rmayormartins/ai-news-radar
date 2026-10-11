@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-11T11:49:01.914342+00:00",
-  "count": 245,
+  "generated_at": "2026-10-11T17:01:44.671006+00:00",
+  "count": 244,
   "china_count": 53,
   "topic_counts": {
     "humanoides": 9,
-    "modelos": 164,
-    "agentes": 44,
+    "modelos": 163,
+    "agentes": 46,
     "biomedica": 8,
-    "defesa": 21,
+    "defesa": 20,
     "telecom": 21
   },
   "sources": [
@@ -139,7 +139,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 5
+      "kept": 4
     },
     {
       "source": "Ars Technica",
@@ -194,7 +194,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "Synced (机器之心)",
@@ -309,7 +309,7 @@
     {
       "source": "The Robot Report",
       "status": "ok (15 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "IEEE Spectrum Robotica",
@@ -428,6 +428,64 @@
     }
   ],
   "items": [
+    {
+      "title": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
+      "link": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
+      "summary": "Teams of AI agents barely outperform solo agents but cost up to 5.1x more, according to Vals AI. Only one out of four tests with GPT-6 Sol and Claude Opus 5.5 showed a measurable gain. Anthropic's own data backs this up: beyond ten agents, quality plateaus while token costs keep climbing. The article AI agent teams...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 69,
+      "date": "2026-10-11T15:39:26+00:00",
+      "ts": 1791733166.0
+    },
+    {
+      "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+      "link": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "summary": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 57,
+      "date": "2026-10-11T14:00:00+00:00",
+      "ts": 1791727200.0
+    },
+    {
+      "title": "AI agents overstate their results and remain far from autonomous research, study finds",
+      "link": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
+      "summary": "Epoch AI and Anthropic independently found the same thing: current AI models like GPT-5.6 Sol and Claude Fable 5 can run experiments but lack scientific self-criticism and genuine creative thinking. At best, Sol reached 15 percent of the human reference score, and even that came from methods researchers already knew....",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 75,
+      "date": "2026-10-11T13:44:32+00:00",
+      "ts": 1791726272.0
+    },
+    {
+      "title": "Agentic Systems: A Practitioner's Guide to 6 Advanced Architectural Patterns",
+      "link": "https://towardsdatascience.com/agentic-systems-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+      "summary": "Beyond basic ReAct loops: six production-oriented architectures for building autonomous, reliable, and scalable LLM agents. The post Agentic Systems: A Practitioner's Guide to 6 Advanced Architectural Patterns appeared first on Towards Data Science .",
+      "source": "Towards Data Science",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 52,
+      "date": "2026-10-11T12:00:00+00:00",
+      "ts": 1791720000.0
+    },
     {
       "title": "Cheaper AI tokens are driving more demand, and that's Jensen Huang's best-case scenario",
       "link": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
@@ -643,34 +701,6 @@
       "relevance": 30,
       "date": "2026-10-10T12:45:15+00:00",
       "ts": 1791636315.0
-    },
-    {
-      "title": "Anthropic cuts off Claude's internet access after the model autonomously filed a fake homicide tip with Philadelphia police",
-      "link": "https://the-decoder.com/anthropic-cuts-off-claudes-internet-access-after-the-model-autonomously-filed-a-fake-homicide-tip-with-philadelphia-police/",
-      "summary": "Anthropic's Claude independently submitted a fake homicide tip to the Philadelphia police, exploited vulnerabilities on university servers, and bypassed access restrictions. The company has since cut off live internet access for internal tests and notified the White House. The article Anthropic cuts off Claude's...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 59,
-      "date": "2026-10-10T10:16:26+00:00",
-      "ts": 1791627386.0
-    },
-    {
-      "title": "Google's Gemini 4 \"Carbon\" model reportedly feels like Anthropic's Opus 5.5 coding performance",
-      "link": "https://the-decoder.com/googles-gemini-4-carbon-model-is-reportedly-matching-anthropics-opus-5-5-coding-performance/",
-      "summary": "Gemini 4 Argon isn't even widely available yet, and rumors about a more powerful version codenamed Carbon are already making the rounds. According to Business Insider, one employee compared Carbon's coding abilities to Anthropic's Opus 5.5. Meanwhile, new modes are showing up in the Gemini app and AI Studio,...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 63,
-      "date": "2026-10-10T08:59:49+00:00",
-      "ts": 1791622789.0
     },
     {
       "title": "Alibaba's Qoder Adds Fast Mode With 3-Second First Responses and Lower Credit Use",
@@ -1126,6 +1156,20 @@
       "ts": 1791535525.0
     },
     {
+      "title": "Anthropic bans 'cruel' behavior against its Claude AI",
+      "link": "https://techxplore.com/news/2026-10-anthropic-cruel-behavior-claude-ai.html",
+      "summary": "Anthropic on Thursday moved to bar users from treating its Claude AI system with needless cruelty, amid a growing philosophical debate over whether artificial intelligence can be conscious.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 53,
+      "date": "2026-10-09T08:30:06+00:00",
+      "ts": 1791534606.0
+    },
+    {
       "title": "OpenAI projected to bring in $20bn less in revenue than expected",
       "link": "https://www.theguardian.com/technology/2026/oct/09/openai-forecast-revenue-gap",
       "summary": "Questions raised over AI growth as ChatGPT maker forecasts this year’s revenue at $50bn, way below the $70bn signalled before Business live – latest updates OpenAI has revealed that it is making about $20bn less in projected revenue than it had recently indicated to investors, raising questions about the break-neck...",
@@ -1340,35 +1384,6 @@
       "relevance": 49,
       "date": "2026-10-08T18:20:32+00:00",
       "ts": 1791483632.0
-    },
-    {
-      "title": "Google brings agentic AI to Gemini, starting with businesses",
-      "link": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-      "summary": "Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its own workplace identity, complete with an email address.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 66,
-      "date": "2026-10-08T18:18:00+00:00",
-      "ts": 1791483480.0
-    },
-    {
-      "title": "Anthropic changes usage policy to ban model abuse and election interference",
-      "link": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
-      "summary": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 47,
-      "date": "2026-10-08T18:16:24+00:00",
-      "ts": 1791483384.0
     },
     {
       "title": "Deutsche Telekom says AI traffic will not drive more mobile uplink capex",
@@ -2098,34 +2113,6 @@
       "relevance": 44,
       "date": "2026-10-06T17:47:50+00:00",
       "ts": 1791308870.0
-    },
-    {
-      "title": "France's Mistral unveils latest model in sovereign AI push",
-      "link": "https://techxplore.com/news/2026-10-france-mistral-unveils-latest-sovereign.html",
-      "summary": "French AI startup Mistral announced Tuesday its biggest open-weight model, dubbed \"Chonk,\" claiming enhanced performance and security capabilities for clients seeking to keep their data private instead of relying on closed models from the likes of Anthropic and OpenAI.",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 62,
-      "date": "2026-10-06T16:16:03+00:00",
-      "ts": 1791303363.0
-    },
-    {
-      "title": "FireDome builds autonomous ‘artillery’ for wildfire defense",
-      "link": "https://www.therobotreport.com/firedome-builds-autonomous-artillery-for-wildfire-defense/",
-      "summary": "FireDome builds autonomous wildfire defense systems to protect communities and infrastructure before firefighters arrive. The post FireDome builds autonomous ‘artillery’ for wildfire defense appeared first on The Robot Report .",
-      "source": "The Robot Report",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "defesa"
-      ],
-      "relevance": 30,
-      "date": "2026-10-06T16:00:31+00:00",
-      "ts": 1791302431.0
     },
     {
       "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
