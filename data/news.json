@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-13T22:05:34.727138+00:00",
+  "generated_at": "2026-10-14T02:44:54.524251+00:00",
   "count": 242,
-  "china_count": 51,
+  "china_count": 49,
   "topic_counts": {
     "humanoides": 10,
-    "modelos": 168,
+    "modelos": 170,
     "agentes": 46,
-    "biomedica": 7,
+    "biomedica": 6,
     "defesa": 15,
     "telecom": 21
   },
@@ -288,7 +288,7 @@
     },
     {
       "source": "AI News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -299,7 +299,7 @@
     {
       "source": "The AI Insider",
       "status": "ok (9 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "AIwire",
@@ -339,7 +339,7 @@
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "arXiv eess.IV (imagem)",
@@ -428,6 +428,63 @@
     }
   ],
   "items": [
+    {
+      "title": "Army converts Futures and Concepts Command to Futures and Autonomy Command",
+      "link": "https://www.defenseone.com/technology/2026/10/army-converts-futures-and-concepts-command-futures-and-autonomy-command/416576/",
+      "summary": "Officials released more details about its component organization under the Defense Department’s new Autonomous Warfare Command.",
+      "source": "Defense One (Tech)",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "defesa",
+        "modelos"
+      ],
+      "relevance": 40,
+      "date": "2026-10-14T00:55:24+00:00",
+      "ts": 1791939324.0
+    },
+    {
+      "title": "Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It",
+      "link": "https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/",
+      "summary": "Meta released Muse Wonder and Muse Wonder Full, 1M-context agent models. Muse Wonder costs $4/$20 per million tokens on Meta Model API. Wonder Full, on Muse Code plans, leads DeepSWE and SWE-Marathon. The post Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It appeared first on...",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 67,
+      "date": "2026-10-13T22:53:44+00:00",
+      "ts": 1791932024.0
+    },
+    {
+      "title": "Google Begins Gemini 4 Argon Frontier Model Rollout",
+      "link": "https://theaiinsider.tech/2026/10/13/google-begins-gemini-4-argon-rollout/",
+      "summary": "Insider Brief Google has launched Gemini 4 Argon for developers, enterprises and consumers, setting introductory API pricing for the frontier model as it moves beyond the early-access and demonstration phase. According to Google, Argon is now available globally through the paid Gemini API in AI Studio and the Gemini...",
+      "source": "The AI Insider",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 68,
+      "date": "2026-10-13T22:33:04+00:00",
+      "ts": 1791930784.0
+    },
+    {
+      "title": "llm-gemini 0.35",
+      "link": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+      "summary": "Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs,...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 69,
+      "date": "2026-10-13T22:28:54+00:00",
+      "ts": 1791930534.0
+    },
     {
       "title": "AI in your oven? Anthropic warns models ‘months away’ from self-replication on smart devices",
       "link": "https://www.theguardian.com/technology/2026/oct/13/anthropic-ai-replicators-warning",
@@ -555,20 +612,6 @@
       "relevance": 76,
       "date": "2026-10-13T18:00:49+00:00",
       "ts": 1791914449.0
-    },
-    {
-      "title": "Patients engage with epilepsy monitor in real time, improving seizure detection",
-      "link": "https://medicalxpress.com/news/2026-10-patients-engage-epilepsy-real-seizure.html",
-      "summary": "A team has built an AI-based interface that enables real-time communication between patients and epilepsy monitoring devices. As part of a small clinical study at the University of Pennsylvania in Philadelphia, patients used a smartphone application to inquire about their own physiological data and received accurate...",
-      "source": "Medical Xpress",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 34,
-      "date": "2026-10-13T17:40:20+00:00",
-      "ts": 1791913220.0
     },
     {
       "title": "Machine learning pioneer Michael I. Jordan dismantles AI doom rhetoric as \"grand moralizing performance\"",
@@ -1559,20 +1602,6 @@
       "ts": 1791636315.0
     },
     {
-      "title": "Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model",
-      "link": "https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/",
-      "summary": "Microsoft has released Microsoft-Decision-1, a decision model for routing, classification, verification and agent control. Microsoft-Decision-1 is a decision-scoring model that returns a calibrated probability for each fixed answer option instead of generated text. It is post-trained from Alibaba’s Qwen3.5-9B and...",
-      "source": "MarkTechPost",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 67,
-      "date": "2026-10-10T06:03:09+00:00",
-      "ts": 1791612189.0
-    },
-    {
       "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
       "link": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
       "summary": "One damaged data center has supercomputers used for training Yandex’s AI model.",
@@ -2463,20 +2492,6 @@
       "relevance": 52,
       "date": "2026-10-05T13:29:32+00:00",
       "ts": 1791206972.0
-    },
-    {
-      "title": "Qwen3.8 27B addition in words",
-      "link": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
-      "summary": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those results: I'm confident GPT-4o didn't cheat...",
-      "source": "Simon Willison",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 64,
-      "date": "2026-10-04T23:34:00+00:00",
-      "ts": 1791156840.0
     },
     {
       "title": "The Agent Said It Was Done. The Database Disagreed.",
@@ -3447,20 +3462,6 @@
       "relevance": 68,
       "date": "2026-09-10T06:21:43+00:00",
       "ts": 1789021303.0
-    },
-    {
-      "title": "AI-powered biowarfare is coming; the Army lays plans to ‘fight through’ it",
-      "link": "https://www.defenseone.com/technology/2026/09/ai-powered-biowarfare-looms-army-lays-plans-fight-through-it/415886/",
-      "summary": "A new strategy aims to prepare to “deploy, fight, and win decisively in a bio-contested environment” by 2035.",
-      "source": "Defense One (Tech)",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "defesa"
-      ],
-      "relevance": 22,
-      "date": "2026-09-09T21:12:01+00:00",
-      "ts": 1788988321.0
     },
     {
       "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
