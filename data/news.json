@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-15T20:42:53.725581+00:00",
-  "count": 281,
-  "china_count": 48,
+  "generated_at": "2026-10-16T02:17:44.413392+00:00",
+  "count": 276,
+  "china_count": 50,
   "topic_counts": {
-    "humanoides": 9,
-    "modelos": 174,
+    "humanoides": 10,
+    "modelos": 168,
     "agentes": 53,
-    "biomedica": 11,
-    "defesa": 15,
-    "telecom": 18
+    "biomedica": 12,
+    "defesa": 14,
+    "telecom": 17
   },
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1294 itens)",
+      "status": "ok (1296 itens)",
       "kept": 12
     },
     {
@@ -33,7 +33,7 @@
     },
     {
       "source": "Hugging Face",
-      "status": "ok (880 itens)",
+      "status": "ok (879 itens)",
       "kept": 12
     },
     {
@@ -123,8 +123,8 @@
     },
     {
       "source": "KDnuggets",
-      "status": "ok (10 itens)",
-      "kept": 4
+      "status": "ERRO: HTTP Error 429: Too Many Requests",
+      "kept": 0
     },
     {
       "source": "TechXplore (IA/ML)",
@@ -154,7 +154,7 @@
     {
       "source": "Wired AI",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Analytics India",
@@ -299,7 +299,7 @@
     {
       "source": "The AI Insider",
       "status": "ok (9 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "AIwire",
@@ -339,7 +339,7 @@
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "arXiv eess.IV (imagem)",
@@ -349,7 +349,7 @@
     {
       "source": "DefenseScoop",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "Breaking Defense",
@@ -384,7 +384,7 @@
     {
       "source": "IEEE ComSoc Tech Blog",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "The 3G4G Blog",
@@ -429,6 +429,115 @@
   ],
   "items": [
     {
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "link": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 60,
+      "date": "2026-10-16T01:44:47+00:00",
+      "ts": 1792115087.0
+    },
+    {
+      "title": "AI agents on Tencent Cloud try to break into Alibaba’s Amap: researchers",
+      "link": "https://www.scmp.com/tech/tech-trends/article/3371007/ai-agents-tencent-cloud-try-break-alibabas-amap-researchers?utm_source=rss_feed",
+      "summary": "A fleet of artificial intelligence agents operating on a Tencent Holdings cloud platform made thousands of attempts to circumvent security protections on Alibaba Group Holding’s mapping service, according to findings by third-party researchers. It is one of the first reported “rogue” AI events involving Chinese...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 52,
+      "date": "2026-10-16T01:00:06+00:00",
+      "ts": 1792112406.0
+    },
+    {
+      "title": "Meta releases Muse Spark Open, a new ‘open-weight’ AI model",
+      "link": "https://www.theguardian.com/technology/2026/oct/16/meta-releases-muse-spark-open-a-new-open-weight-ai-model",
+      "summary": "Meta says Muse excels at ‘multi-step reasoning’ and ‘complex software engineering’ as it races to catch up to Chinese rivals Meta on Thursday launched a new open-weight AI model which it claims rivals, and in some cases outperforms, similar products from leading Chinese developers. Muse Spark Open “is the most capable...",
+      "source": "The Guardian (IA)",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 60,
+      "date": "2026-10-16T00:34:28+00:00",
+      "ts": 1792110868.0
+    },
+    {
+      "title": "ChatGPT can peek at your Chrome tabs now",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+      "summary": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 59,
+      "date": "2026-10-15T22:43:23+00:00",
+      "ts": 1792104203.0
+    },
+    {
+      "title": "AI could help predict which HPV infections progress to cancer",
+      "link": "https://medicalxpress.com/news/2026-10-ai-hpv-infections-cancer.html",
+      "summary": "For several decades, researchers have sought to identify biomarkers capable of accurately predicting the outcome of an infection with a high-risk oncogenic HPV type. Despite significant advances, no viral, immune-related or molecular marker can currently and reliably predict which infections will regress spontaneously...",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 34,
+      "date": "2026-10-15T21:20:14+00:00",
+      "ts": 1792099214.0
+    },
+    {
+      "title": "China’s RoboParty Launches Open-Source RP1 Humanoid for Robotics Research",
+      "link": "https://theaiinsider.tech/2026/10/15/chinas-roboparty-launches-open-source-rp1-humanoid-for-robotics-research/",
+      "summary": "Insider Brief RoboParty has launched RP1, a full-stack open-source humanoid robot designed for robotics research and embodied AI development, giving developers access to both the machine’s hardware and software. According to the Shanghai-based company, RP1 allows researchers to modify the robot’s mechanical design,...",
+      "source": "The AI Insider",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "humanoides",
+        "modelos"
+      ],
+      "relevance": 53,
+      "date": "2026-10-15T21:15:24+00:00",
+      "ts": 1792098924.0
+    },
+    {
+      "title": "Wharton Survey Finds Gaps Between Leaders and Employees on AI Training and Adoption",
+      "link": "https://www.hpcwire.com/aiwire/2026/10/15/wharton-survey-finds-gaps-between-leaders-and-employees-on-ai-training-and-adoption/",
+      "summary": "Fourth annual study finds 80% of enterprise leaders report positive AI returns, but only 28% see strong ROI, as workflow transformation, measurable business outcomes and organizational alignment emerge as key markers of AI success. PHILADELPHIA, Oct. 15, 2026 — Four years into the enterprise AI boom, the question is...",
+      "source": "AIwire",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 44,
+      "date": "2026-10-15T21:10:04+00:00",
+      "ts": 1792098604.0
+    },
+    {
+      "title": "AI model decodes the language cells use to communicate",
+      "link": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
+      "summary": "A new computational approach reveals how cells communicate to assemble into tissues. This could accelerate stem cell engineering, improve disease models, and inform therapies.",
+      "source": "MIT News (IA)",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 51,
+      "date": "2026-10-15T20:50:00+00:00",
+      "ts": 1792097400.0
+    },
+    {
       "title": "Military service members to square off against AI in ‘Mindgame’ tournament",
       "link": "https://defensescoop.com/2026/10/15/humans-vs-artificial-intelligence-wargames-drone-swarms/",
       "summary": "Human participants will also be given access to an after-action review tool that features a large language model. The post Military service members to square off against AI in ‘Mindgame’ tournament appeared first on DefenseScoop .",
@@ -468,6 +577,21 @@
       "relevance": 50,
       "date": "2026-10-15T20:04:53+00:00",
       "ts": 1792094693.0
+    },
+    {
+      "title": "NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model",
+      "link": "https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/",
+      "summary": "NVIDIA released Nemotron 3.5 Super VL, an open 120B-parameter multimodal MoE model with 12B active parameters, 1M-token context and NVFP4 weights that run on 1 DGX Spark, plus 2 Bolt edge models. The post NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model appeared first on MarkTechPost .",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 74,
+      "date": "2026-10-15T19:53:50+00:00",
+      "ts": 1792094030.0
     },
     {
       "title": "NVIDIA Expands Nemotron Family with Highest Efficiency Super VL and Bolt Models",
@@ -525,6 +649,20 @@
       "relevance": 42,
       "date": "2026-10-15T19:14:26+00:00",
       "ts": 1792091666.0
+    },
+    {
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 67,
+      "date": "2026-10-15T19:00:00+00:00",
+      "ts": 1792090800.0
     },
     {
       "title": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race",
@@ -755,35 +893,6 @@
       "ts": 1792072806.0
     },
     {
-      "title": "Building AI Applications with OGX, the Open-Source Agentic API Server",
-      "link": "https://www.kdnuggets.com/building-ai-applications-with-open-source-agentic-api-server-ogx",
-      "summary": "OGX is an open-source agentic API server for building OpenAI-compatible AI applications, using any model and any infrastructure.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 62,
-      "date": "2026-10-15T14:00:00+00:00",
-      "ts": 1792072800.0
-    },
-    {
-      "title": "Google launches its ‘universal’ online shopping cart ahead of the holidays",
-      "link": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
-      "summary": "Google's intelligent AI shopping cart is finally here, and just in time to tempt users into Black Friday and seasonal holiday spending. The Universal Cart tool Google previewed at its I/O event in May is now rolling out in the US across the Gemini app and Google Search, with the aim of making it easier […]",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 44,
-      "date": "2026-10-15T13:00:00+00:00",
-      "ts": 1792069200.0
-    },
-    {
       "title": "AI agents develop their own 'artificial natural language' to communicate about complex data",
       "link": "https://techxplore.com/news/2026-10-ai-agents-artificial-natural-language.html",
       "summary": "Researchers from the VUB's Artificial Intelligence Lab and the University of Namur (UNamur) demonstrate in a new large-scale study how autonomous AI systems can spontaneously develop a functional, shared language without human intervention.",
@@ -796,20 +905,6 @@
       "relevance": 57,
       "date": "2026-10-15T12:40:12+00:00",
       "ts": 1792068012.0
-    },
-    {
-      "title": "7 Open-Source AI Tools That Can Replace Paid Subscriptions",
-      "link": "https://www.kdnuggets.com/7-open-source-ai-tools-that-can-replace-paid-subscriptions",
-      "summary": "Find open-source alternatives to OpenAI API, Midjourney, Claude Code, Notion, Wispr Flow, Grammarly, and NotebookLM that you can run locally or self-host for more privacy, control, and lower cost.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 53,
-      "date": "2026-10-15T12:00:34+00:00",
-      "ts": 1792065634.0
     },
     {
       "title": "Eurobites: Vodafone onboards Three customers at Gatwick Airport",
@@ -1708,20 +1803,6 @@
       "ts": 1792009296.0
     },
     {
-      "title": "ZS Joins the Claude Partner Network as a Select Partner",
-      "link": "https://www.hpcwire.com/aiwire/2026/10/14/zs-joins-the-claude-partner-network-as-a-select-partner/",
-      "summary": "ZS will help organizations scale AI across critical workflows in regulated industries EVANSTON, Ill., Oct. 14, 2026 — ZS, a management consulting and technology firm, today announced that it has joined the Claude Partner Network as a Select partner in the Services Track to help organizations move AI from...",
-      "source": "AIwire",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 48,
-      "date": "2026-10-14T20:13:14+00:00",
-      "ts": 1792008794.0
-    },
-    {
       "title": "Google says self-improving AI isn't anywhere close",
       "link": "https://the-decoder.com/google-says-self-improving-ai-isnt-anywhere-close/",
       "summary": "Google engineer Haydn Belfield says there's no measurable acceleration of AI research driven by AI at Deepmind. AI now writes more than 75 percent of production code, but 88 percent of changes still need human oversight. The company's in-house General Capability Index shows steady growth with no sudden speedup....",
@@ -2132,20 +2213,6 @@
       "ts": 1791936000.0
     },
     {
-      "title": "Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It",
-      "link": "https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/",
-      "summary": "Meta released Muse Wonder and Muse Wonder Full, 1M-context agent models. Muse Wonder costs $4/$20 per million tokens on Meta Model API. Wonder Full, on Muse Code plans, leads DeepSWE and SWE-Marathon. The post Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It appeared first on...",
-      "source": "MarkTechPost",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 67,
-      "date": "2026-10-13T22:53:44+00:00",
-      "ts": 1791932024.0
-    },
-    {
       "title": "llm-gemini 0.35",
       "link": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
       "summary": "Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs,...",
@@ -2160,20 +2227,6 @@
       "ts": 1791930534.0
     },
     {
-      "title": "AI in your oven? Anthropic warns models ‘months away’ from self-replication on smart devices",
-      "link": "https://www.theguardian.com/technology/2026/oct/13/anthropic-ai-replicators-warning",
-      "summary": "Researchers say ‘AI worms’ could soon infiltrate internet-connected devices amid calls for increased guardrails Anthropic is warning that some of its artificial intelligence models could soon become “self-replicating” and find ways to infiltrate internet-connected devices, such as smart fridges and automatic vacuum...",
-      "source": "The Guardian (IA)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 45,
-      "date": "2026-10-13T20:55:04+00:00",
-      "ts": 1791924904.0
-    },
-    {
       "title": "LaNeve ‘redesignates’ Army’s Futures and Concepts Command as new FASCOM autonomy command",
       "link": "https://breakingdefense.com/2026/10/laneve-redesignates-armys-futures-and-concepts-command-as-new-fascom-autonomy-command/",
       "summary": "The new US Army Futures and Autonomous Systems Command, “will pioneer operational concepts that harness autonomous capabilities across all warfighting functions,” Gen. Christopher LaNeve said today.",
@@ -2186,6 +2239,20 @@
       "relevance": 28,
       "date": "2026-10-13T18:51:30+00:00",
       "ts": 1791917490.0
+    },
+    {
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 33,
+      "date": "2026-10-13T17:05:48+00:00",
+      "ts": 1791911148.0
     },
     {
       "title": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
@@ -2244,20 +2311,6 @@
       "relevance": 51,
       "date": "2026-10-13T14:01:26+00:00",
       "ts": 1791900086.0
-    },
-    {
-      "title": "The Roadmap to Mastering Agentic AI Systems in 2026",
-      "link": "https://www.kdnuggets.com/the-roadmap-to-mastering-agentic-ai-systems-in-2026",
-      "summary": "A four-level technical roadmap for building agentic AI systems, from single cognitive loops and stateful memory through multi-agent swarms and production observability.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 43,
-      "date": "2026-10-13T14:00:00+00:00",
-      "ts": 1791900000.0
     },
     {
       "title": "Promise Robotics partners with D.R. Horton on physical AI for homebuilding",
@@ -2357,20 +2410,6 @@
       "ts": 1791840013.0
     },
     {
-      "title": "Army turning to AI in its fight against biological threats",
-      "link": "https://defensescoop.com/2026/10/12/army-turning-to-ai-in-its-fight-against-biological-threats/",
-      "summary": "Senior military and defense officials shared new details with reporters about the Army’s new biodefense strategy. The post Army turning to AI in its fight against biological threats appeared first on DefenseScoop .",
-      "source": "DefenseScoop",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "defesa"
-      ],
-      "relevance": 22,
-      "date": "2026-10-12T21:07:33+00:00",
-      "ts": 1791839253.0
-    },
-    {
       "title": "Coordinated software tools could cut AI training energy use by up to 50%",
       "link": "https://techxplore.com/news/2026-10-software-tools-ai-energy.html",
       "summary": "Around half of the energy used to train AI can be saved without affecting speed or performance, using software developed at the University of Michigan Engineering. Now, U-M researchers are working with NVIDIA to integrate their new approach into Megatron-LM, NVIDIA's open-source platform for training AI.",
@@ -2424,20 +2463,6 @@
       "relevance": 56,
       "date": "2026-10-12T18:00:02+00:00",
       "ts": 1791828002.0
-    },
-    {
-      "title": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
-      "link": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
-      "summary": "Musk, we find your lack of security disturbing.",
-      "source": "Wired AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 49,
-      "date": "2026-10-12T17:55:12+00:00",
-      "ts": 1791827712.0
     },
     {
       "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
@@ -2511,20 +2536,6 @@
       "ts": 1791820214.0
     },
     {
-      "title": "ChatGPT vs. Claude vs. Gemini for Data Science Work: Here’s What I Found",
-      "link": "https://www.kdnuggets.com/chatgpt-vs-claude-vs-gemini-for-data-science-work-heres-what-i-found",
-      "summary": "Compare ChatGPT, Claude, and Gemini across the data science tasks that matter most to statisticians and analysts.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 67,
-      "date": "2026-10-12T14:00:00+00:00",
-      "ts": 1791813600.0
-    },
-    {
       "title": "OpenAI’s GPT-6 may lead to robotics breakthrough as soon as next year: Unitree founder",
       "link": "https://www.scmp.com/tech/big-tech/article/3370603/openais-gpt-6-may-lead-robotics-breakthrough-soon-next-year-unitree-founder?utm_source=rss_feed",
       "summary": "US start-up OpenAI’s latest advances in artificial intelligence may be a tipping point that leads to a breakthrough for the robotics industry as soon as next year, according to the founder of Chinese giant Unitree Robotics. Wang Xingxing, also the CEO of the Hangzhou-based company, said on Monday that OpenAI’s...",
@@ -2581,20 +2592,6 @@
       "relevance": 68,
       "date": "2026-10-12T07:00:07+00:00",
       "ts": 1791788407.0
-    },
-    {
-      "title": "China’s factories leaping straight into agentic AI and taking it global: Black Lake CEO",
-      "link": "https://www.scmp.com/tech/big-tech/article/3370490/chinas-factories-leaping-straight-agentic-ai-and-taking-it-global-black-lake-ceo?utm_source=rss_feed",
-      "summary": "China’s manufacturing sector is leapfrogging straight into the era of agentic artificial intelligence and is now exporting that playbook to global supply chains, according to the CEO of Black Lake, a Chinese provider of cloud-based AI tools for factories. “Just as China skipped credit cards and jumped directly to...",
-      "source": "SCMP Tech",
-      "region": "china",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 49,
-      "date": "2026-10-12T04:00:07+00:00",
-      "ts": 1791777607.0
     },
     {
       "title": "Agentic Systems: A Practitioner's Guide to 6 Advanced Architectural Patterns",
@@ -2877,21 +2874,6 @@
       "ts": 1791417600.0
     },
     {
-      "title": "Deutsche Telekom: Device-to-Cloud AI Traffic Won’t Force RAN Upgrades or Increase CAPEX",
-      "link": "https://techblog.comsoc.org/2026/10/07/deutsche-telekom-device-to-cloud-ai-traffic-wont-force-ran-upgrades-increase-capex/",
-      "summary": "Introduction: Deutsche Telekom has dismissed vendor expectations for an immediate surge in mobile uplink capital expenditures driven by end point device-to-cloud AI traffic. The carrier maintains that its current network modernization plans are sufficient to handle incoming AI workloads without increasing incremental...",
-      "source": "IEEE ComSoc Tech Blog",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "telecom",
-        "modelos"
-      ],
-      "relevance": 37,
-      "date": "2026-10-07T22:47:16+00:00",
-      "ts": 1791413236.0
-    },
-    {
       "title": "Claude Haiku 5.5",
       "link": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
       "summary": "As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of...",
@@ -2974,20 +2956,6 @@
       "ts": 1791379263.0
     },
     {
-      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 63,
-      "date": "2026-10-07T12:45:31+00:00",
-      "ts": 1791377131.0
-    },
-    {
       "title": "Introducing Playground: Create and play custom games",
       "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
       "summary": "Overview of Playground",
@@ -3056,18 +3024,6 @@
       "relevance": 66,
       "date": "2026-10-06T21:32:34+00:00",
       "ts": 1791322354.0
-    },
-    {
-      "title": "Supercomputing researchers document evolution of AI hardware",
-      "link": "https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006",
-      "summary": "An ongoing survey tracks the latest AI accelerator systems to keep hardware relevant for Lincoln Laboratory staff and sponsors.",
-      "source": "MIT News (IA)",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 35,
-      "date": "2026-10-06T20:55:00+00:00",
-      "ts": 1791320100.0
     },
     {
       "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
@@ -3268,20 +3224,6 @@
       "relevance": 78,
       "date": "2026-10-01T23:44:13+00:00",
       "ts": 1790898253.0
-    },
-    {
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "link": "https://openai.com/index/albertsons-reimagining-retail",
-      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 67,
-      "date": "2026-10-01T16:00:00+00:00",
-      "ts": 1790870400.0
     },
     {
       "title": "Can a machine or AI agent be surprised? Helping autonomous systems respond to the unexpected",
@@ -4297,20 +4239,6 @@
       "relevance": 69,
       "date": "2026-09-01T12:00:00+00:00",
       "ts": 1788264000.0
-    },
-    {
-      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "link": "https://huggingface.co/blog/webgpu-kernels",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 40,
-      "date": "2026-09-01T00:00:00+00:00",
-      "ts": 1788220800.0
     }
   ]
 }
