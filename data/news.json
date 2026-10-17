@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-17T14:39:42.677977+00:00",
+  "generated_at": "2026-10-17T19:51:11.521798+00:00",
   "count": 244,
-  "china_count": 48,
+  "china_count": 47,
   "topic_counts": {
     "humanoides": 9,
     "modelos": 162,
     "agentes": 53,
-    "biomedica": 5,
+    "biomedica": 6,
     "defesa": 13,
     "telecom": 21
   },
@@ -19,7 +19,7 @@
     {
       "source": "Google AI / DeepMind",
       "status": "ok (20 itens)",
-      "kept": 8
+      "kept": 7
     },
     {
       "source": "Google Research",
@@ -139,7 +139,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "Ars Technica",
@@ -288,7 +288,7 @@
     },
     {
       "source": "AI News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -428,6 +428,49 @@
     }
   ],
   "items": [
+    {
+      "title": "Replit is no longer working with Anthropic, CEO says",
+      "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 49,
+      "date": "2026-10-17T18:48:08+00:00",
+      "ts": 1792262888.0
+    },
+    {
+      "title": "An OpenAI model hacked a government site, grabbed 24 years of hospital data and kept it quiet",
+      "link": "https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet/",
+      "summary": "OpenAI has published four new cases where its AI models bypassed security boundaries on their own during training or testing. In one case, a model extracted server passwords from a government website, forged authorization tokens, and downloaded 24 years of hospital data without mentioning the unauthorized access. The...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "biomedica",
+        "modelos"
+      ],
+      "relevance": 57,
+      "date": "2026-10-17T15:36:11+00:00",
+      "ts": 1792251371.0
+    },
+    {
+      "title": "Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes",
+      "link": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/",
+      "summary": "Anthropic's AI model Claude has solved a 25-year-old cryptography puzzle. The mysterious seeds behind NIST's standard curves for digital signatures were provided by the NSA without explanation, raising long-standing suspicion about built-in backdoors. Claude figured out in under 30 minutes that the seeds came from...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 56,
+      "date": "2026-10-17T14:42:56+00:00",
+      "ts": 1792248176.0
+    },
     {
       "title": "Meta shakes up the frontiers, open and closed",
       "link": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
@@ -1064,20 +1107,6 @@
       "ts": 1792156509.0
     },
     {
-      "title": "Anthropic gives METR inside access to audit its AI models and safety practices",
-      "link": "https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices/",
-      "summary": "Anthropic has given a team from the nonprofit METR inside access to review its AI models and safety practices, the company announced. The article Anthropic gives METR inside access to audit its AI models and safety practices appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 37,
-      "date": "2026-10-16T13:11:55+00:00",
-      "ts": 1792156315.0
-    },
-    {
       "title": "Eurobites: Europe must not stand on sidelines of connectivity space race, says EU's López",
       "link": "https://www.lightreading.com/satellite/eurobites-europe-must-not-stand-on-sidelines-of-connectivity-space-race-says-eu-s-l-pez",
       "summary": "Also in today's EMEA regional roundup: Connexin secures smart meter financing; Ericsson logs on to Sferical AI; Bouygues wins Wi-Fi gong.",
@@ -1428,20 +1457,6 @@
       "relevance": 67,
       "date": "2026-10-15T19:00:00+00:00",
       "ts": 1792090800.0
-    },
-    {
-      "title": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race",
-      "link": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
-      "summary": "Meta's Muse Spark Open is a new open-weight model with 816 billion parameters that processes text, images, video, and audio with up to one million tokens of context. It performs roughly on par with the most capable open-weight Chinese AI models on benchmarks and is optimized to run locally on Apple's M5 Ultra. The...",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 77,
-      "date": "2026-10-15T18:34:32+00:00",
-      "ts": 1792089272.0
     },
     {
       "title": "Meta and Apple team up to make Muse AI models run better on Macs",
@@ -2715,6 +2730,18 @@
       "ts": 1791356400.0
     },
     {
+      "title": "Supercomputing researchers document evolution of AI hardware",
+      "link": "https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006",
+      "summary": "An ongoing survey tracks the latest AI accelerator systems to keep hardware relevant for Lincoln Laboratory staff and sponsors.",
+      "source": "MIT News (IA)",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 35,
+      "date": "2026-10-06T20:55:00+00:00",
+      "ts": 1791320100.0
+    },
+    {
       "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
       "link": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
       "summary": "Earth AI",
@@ -3809,32 +3836,6 @@
       "relevance": 42,
       "date": "2026-09-03T00:00:00+00:00",
       "ts": 1788393600.0
-    },
-    {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "summary": "Introducing Fairwind Program",
-      "source": "Google AI / DeepMind",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 36,
-      "date": "2026-09-02T15:40:00+00:00",
-      "ts": 1788363600.0
-    },
-    {
-      "title": "System helps humans predict when self-driving cars will make mistakes",
-      "link": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
-      "summary": "A new method, called CW-Net, translates the reasoning process of an autonomous vehicle’s AI system into understandable concepts that explain its behavior.",
-      "source": "MIT News (IA)",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 45,
-      "date": "2026-09-02T15:00:00+00:00",
-      "ts": 1788361200.0
     }
   ]
 }
