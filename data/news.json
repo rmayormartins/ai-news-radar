@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-17T09:53:44.519913+00:00",
+  "generated_at": "2026-10-17T14:39:42.677977+00:00",
   "count": 244,
-  "china_count": 47,
+  "china_count": 48,
   "topic_counts": {
-    "humanoides": 8,
-    "modelos": 161,
+    "humanoides": 9,
+    "modelos": 162,
     "agentes": 53,
-    "biomedica": 4,
+    "biomedica": 5,
     "defesa": 13,
     "telecom": 21
   },
@@ -149,7 +149,7 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "Wired AI",
@@ -284,11 +284,11 @@
     {
       "source": "The Guardian (IA)",
       "status": "ok (20 itens)",
-      "kept": 5
+      "kept": 4
     },
     {
       "source": "AI News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -299,7 +299,7 @@
     {
       "source": "The AI Insider",
       "status": "ok (9 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "AIwire",
@@ -309,7 +309,7 @@
     {
       "source": "The Robot Report",
       "status": "ok (15 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "IEEE Spectrum Robotica",
@@ -428,6 +428,90 @@
     }
   ],
   "items": [
+    {
+      "title": "Meta shakes up the frontiers, open and closed",
+      "link": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
+      "summary": "US open weights are back!",
+      "source": "Interconnects",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 45,
+      "date": "2026-10-17T14:06:54+00:00",
+      "ts": 1792246014.0
+    },
+    {
+      "title": "Websites are closing their doors to AI agents",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 47,
+      "date": "2026-10-17T13:00:00+00:00",
+      "ts": 1792242000.0
+    },
+    {
+      "title": "The rise of the machines is canceled: Why humanoids with AI are helpers, not enemies",
+      "link": "https://www.therobotreport.com/rise-machines-canceled-why-humanoids-ai-are-helpers-not-enemies/",
+      "summary": "Humans play a key role in developing humanoid robots and training AI models, so we can maintain control, writes a columnist. The post The rise of the machines is canceled: Why humanoids with AI are helpers, not enemies appeared first on The Robot Report .",
+      "source": "The Robot Report",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "humanoides",
+        "modelos"
+      ],
+      "relevance": 49,
+      "date": "2026-10-17T12:30:55+00:00",
+      "ts": 1792240255.0
+    },
+    {
+      "title": "When EEG Models See the Same People in Training and Testing",
+      "link": "https://towardsdatascience.com/when-eeg-models-see-the-same-people-in-training-and-testing/",
+      "summary": "How participant-aware evaluation changed performance across three machine-learning models The post When EEG Models See the Same People in Training and Testing appeared first on Towards Data Science .",
+      "source": "Towards Data Science",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 43,
+      "date": "2026-10-17T12:00:00+00:00",
+      "ts": 1792238400.0
+    },
+    {
+      "title": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
+      "link": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
+      "summary": "Deepseek has released V4.1-Flash-1017 as an open-weight model that posts better benchmarks, finishes tasks faster, and produces shorter outputs than its predecessor. The company is also opening up its internal search engine through new Search and Fetch APIs at $0.75 per 1,000 calls. API users in tools like Claude Code...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 79,
+      "date": "2026-10-17T10:33:28+00:00",
+      "ts": 1792233208.0
+    },
+    {
+      "title": "AI models hide mistakes in their own work reports, but one sentence in your prompt can help",
+      "link": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
+      "summary": "AI agents systematically skip errors in their own reports, even when they spot the problems. In a study by Google Research, MIT, and Harvard, GPT-5.5 left out negative results in 198 out of 200 paper abstracts. The article AI models hide mistakes in their own work reports, but one sentence in your prompt can help...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 66,
+      "date": "2026-10-17T09:54:36+00:00",
+      "ts": 1792230876.0
+    },
     {
       "title": "Mathematicians say OpenAI doesn't understand its own Navier-Stokes proof",
       "link": "https://the-decoder.com/mathematicians-say-openai-doesnt-understand-its-own-navier-stokes-proof/",
@@ -867,20 +951,6 @@
       "relevance": 51,
       "date": "2026-10-16T16:01:37+00:00",
       "ts": 1792166497.0
-    },
-    {
-      "title": "Fragment Raises $12M Series A to Turn Agents into Financial Operators",
-      "link": "https://theaiinsider.tech/2026/10/16/fragment-raises-12m-series-a-to-turn-agents-into-financial-operators/",
-      "summary": "Insider Brief PRESS RELEASE — Fragment, an AI-enabled financial infrastructure startup, raised $12 million to help vertical AI businesses automate their customers’ financial operations. Firstmark led the financing with participation from BoxGroup. “Fragment is automating commerce. Our approach is to build the...",
-      "source": "The AI Insider",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 55,
-      "date": "2026-10-16T15:57:55+00:00",
-      "ts": 1792166275.0
     },
     {
       "title": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS",
@@ -1416,34 +1486,6 @@
       "ts": 1792083623.0
     },
     {
-      "title": "Black Forest Labs' open-weights image model FLUX 3 Image Klein runs on consumer GPUs with just 8 GB of VRAM",
-      "link": "https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/",
-      "summary": "Black Forest Labs has released FLUX 3 Image Klein, a 5.6-billion-parameter open-weights image model that supports native 4K generation, pixel-precise editing, and generation with up to ten reference images. With 38 percent fewer parameters than its predecessor, it still outperforms proprietary competitors in internal...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 70,
-      "date": "2026-10-15T16:57:14+00:00",
-      "ts": 1792083434.0
-    },
-    {
-      "title": "Google wants Gemini 4 Argon to be the only AI model robots need",
-      "link": "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/",
-      "summary": "Google's Gemini 4 Argon controls robots, generates simulations from photos or sketches, and evaluates training videos. On Google's own ERQA benchmark, it scores 87 percent. But the published example prompts show that the demos still need a lot of human guidance. The article Google wants Gemini 4 Argon to be the only...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 66,
-      "date": "2026-10-15T16:35:47+00:00",
-      "ts": 1792082147.0
-    },
-    {
       "title": "VIAVI Solutions White Paper: Building the Self-Aware Agentic RAN",
       "link": "https://pages.rcrtech.com/white-paper-building-the-self-aware-agentic-ran",
       "summary": "From RAN Simulation Digital Twins to the Self-Aware, Agentic RAN How VIAVI AI RAN Scenario Generator (AI RSG), App Twin ADK, Application Validation Engine (AVE), and Claude Accelerate AI-Native Networks…",
@@ -1920,18 +1962,6 @@
       "ts": 1791975630.0
     },
     {
-      "title": "Nvidia, worth $5.5tn, donates $250m to UK for AI safety research",
-      "link": "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research",
-      "summary": "Pledge spanning five years from world’s most valuable firm comes as concerns about AI agents have risen The $5.5tn (£4.1tn) US chipmaker Nvidia is donating $250m worth of computing power to the UK to support AI safety research. The donation from the world’s most valuable company comes as the UK government confirmed...",
-      "source": "The Guardian (IA)",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 41,
-      "date": "2026-10-14T10:10:37+00:00",
-      "ts": 1791972637.0
-    },
-    {
       "title": "Verizon CTO: 6G needs a breakthrough for AI uplink demand",
       "link": "https://www.lightreading.com/6g/verizon-cto-6g-needs-a-breakthrough-for-ai-uplink-demand",
       "summary": "Verizon CTO Yago Tenorio says industry is 'missing a breakthrough' in 6G for uplink capacity as future AI applications change network traffic patterns.",
@@ -2322,20 +2352,6 @@
       "relevance": 68,
       "date": "2026-10-12T07:00:07+00:00",
       "ts": 1791788407.0
-    },
-    {
-      "title": "Agentic Systems: A Practitioner's Guide to 6 Advanced Architectural Patterns",
-      "link": "https://towardsdatascience.com/agentic-systems-a-practitioners-guide-to-6-advanced-architectural-patterns/",
-      "summary": "Beyond basic ReAct loops: six production-oriented architectures for building autonomous, reliable, and scalable LLM agents. The post Agentic Systems: A Practitioner's Guide to 6 Advanced Architectural Patterns appeared first on Towards Data Science .",
-      "source": "Towards Data Science",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 52,
-      "date": "2026-10-11T12:00:00+00:00",
-      "ts": 1791720000.0
     },
     {
       "title": "Python 3.15.0 added to actions/python-versions",
@@ -3654,18 +3670,6 @@
       "relevance": 68,
       "date": "2026-09-09T11:14:25+00:00",
       "ts": 1788952465.0
-    },
-    {
-      "title": "When will average people feel AI’s impact?",
-      "link": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
-      "summary": "We’re <5 years into a compounding revolution which could take a century, and how the AI industry should manage this.",
-      "source": "Interconnects",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 31,
-      "date": "2026-09-09T11:01:23+00:00",
-      "ts": 1788951683.0
     },
     {
       "title": "GPT-6 Astra: The next generation in intelligence for work",
