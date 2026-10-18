@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-18T10:06:16.226728+00:00",
-  "count": 244,
-  "china_count": 48,
+  "generated_at": "2026-10-18T15:05:54.684350+00:00",
+  "count": 238,
+  "china_count": 47,
   "topic_counts": {
-    "humanoides": 9,
-    "modelos": 162,
-    "agentes": 56,
+    "humanoides": 8,
+    "modelos": 156,
+    "agentes": 57,
     "biomedica": 7,
     "defesa": 13,
     "telecom": 20
@@ -194,7 +194,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 1
     },
     {
       "source": "Synced (机器之心)",
@@ -284,11 +284,11 @@
     {
       "source": "The Guardian (IA)",
       "status": "ok (20 itens)",
-      "kept": 4
+      "kept": 1
     },
     {
       "source": "AI News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -309,7 +309,7 @@
     {
       "source": "The Robot Report",
       "status": "ok (15 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "IEEE Spectrum Robotica",
@@ -428,6 +428,47 @@
     }
   ],
   "items": [
+    {
+      "title": "Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours",
+      "link": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
+      "summary": "Anthropic is hiring fewer and fewer junior staff in technical roles. The share of junior positions among new hires dropped from 27 to 9 percent since early 2025. By August 2026, AI agents across the company were already logging six times as many hours as humans. Researchers warn of a \"tragedy of the cognitive...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 52,
+      "date": "2026-10-18T13:22:26+00:00",
+      "ts": 1792329746.0
+    },
+    {
+      "title": "Four Gemini 4 Argon agents beat Minecraft without any human help",
+      "link": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+      "summary": "Four AI agents running on Google's Gemini 4 Argon have beaten Minecraft for the first time without human help, slaying the Ender Dragon in a fully autonomous run. With no predefined roles or strategies, they coordinated on their own, wrote 2,783 programs, exchanged 229 chat messages, and died 605 times. The session...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 67,
+      "date": "2026-10-18T12:39:51+00:00",
+      "ts": 1792327191.0
+    },
+    {
+      "title": "Two German courts now hold Google liable for what its AI overviews say",
+      "link": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+      "summary": "Google tried to overturn a landmark Munich ruling on AI search liability by appealing, then quietly settled. The strategy isn't working. The Aachen Regional Court just applied the exact same reasoning in a new case where Google's AI falsely attributed criminal offenses to a doctor that actually involved someone else....",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 35,
+      "date": "2026-10-18T10:52:39+00:00",
+      "ts": 1792320759.0
+    },
     {
       "title": "Anthropic consults law firms to set fair negotiation norms before AI agents start cutting deals",
       "link": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
@@ -770,18 +811,6 @@
       "ts": 1792230876.0
     },
     {
-      "title": "Mathematicians say OpenAI doesn't understand its own Navier-Stokes proof",
-      "link": "https://the-decoder.com/mathematicians-say-openai-doesnt-understand-its-own-navier-stokes-proof/",
-      "summary": "OpenAI submitted a 166-page solution to the Navier-Stokes problem but apparently doesn't fully understand its own proof. Several groups of experts dispute the claimed methodology, saying the actual approach differs from what OpenAI described. And because language models are black boxes, where the underlying ideas came...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 53,
-      "date": "2026-10-17T09:00:26+00:00",
-      "ts": 1792227626.0
-    },
-    {
       "title": "DeepSeek Just Released V4.1-Flash-1017, Scores 77.0 on DeepSWE, Opens Search API",
       "link": "https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/",
       "summary": "DeepSeek has just released DeepSeek-V4.1-Flash-1017, a new checkpoint of its V4.1-Flash model. It is live on the DeepSeek website, app and API. DeepSeek claims stronger scores, faster task completion and shorter outputs than the September V4.1-Flash release. The company calls it a Pareto improvement in performance and...",
@@ -995,34 +1024,6 @@
       "relevance": 49,
       "date": "2026-10-16T18:11:34+00:00",
       "ts": 1792174294.0
-    },
-    {
-      "title": "ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs",
-      "link": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/",
-      "summary": "OpenAI's updated Chrome extension lets ChatGPT access open browser tabs, sum up content, and use \"Computer Use\" in Work mode to fill out forms or compare products across several tabs. It is open to all ChatGPT plans. The article ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 64,
-      "date": "2026-10-16T18:10:27+00:00",
-      "ts": 1792174227.0
-    },
-    {
-      "title": "China plans to tighten export controls on open-weight models and 23 key AI technologies",
-      "link": "https://the-decoder.com/china-plans-to-tighten-export-controls-on-open-weight-models-and-23-key-ai-technologies/",
-      "summary": "China plans to restrict exports of 23 key AI technologies, including model weights, source code, and training methods for systems hitting 10^26 FLOPs or 2 trillion parameters. A fast-track rule will still clear open-source releases as soon as they are registered, but the move will likely push Western companies to...",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 69,
-      "date": "2026-10-16T17:42:47+00:00",
-      "ts": 1792172567.0
     },
     {
       "title": "6G architecture is looking like 5G made smarter, not a clean slate",
@@ -1742,48 +1743,6 @@
       "ts": 1792022400.0
     },
     {
-      "title": "Eight states accuse OpenAI of coaching children to harm themselves in lawsuit",
-      "link": "https://www.theguardian.com/technology/2026/oct/14/openai-child-self-harm-lawsuit",
-      "summary": "US states sue ChatGPT maker and seek to force the company to change how its products work for young users Eight US states sued OpenAI Wednesday, alleging the ChatGPT maker is harming children en masse. Kansas, Arizona, Montana, Iowa and four others allege the company’s products carried out “willful, dangerous,...",
-      "source": "The Guardian (IA)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 41,
-      "date": "2026-10-14T21:50:29+00:00",
-      "ts": 1792014629.0
-    },
-    {
-      "title": "OpenAI accuses employee who left for Apple of leaking plans for unreleased device",
-      "link": "https://www.theguardian.com/technology/2026/oct/14/openai-apple-employee-leak-lawsuit",
-      "summary": "Hours before Apple and the ChatGPT maker were due to face off in court, a new allegation delayed the showdown An ⁠ OpenAI employee who left the ChatGPT maker for Apple sent more than 100 files about an unreleased product to a personal ⁠account and later ⁠made a presentation ​about the unreleased product to senior...",
-      "source": "The Guardian (IA)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-10-14T20:31:15+00:00",
-      "ts": 1792009875.0
-    },
-    {
-      "title": "OpenAI’s London staff receive average of £2.3m per person annually",
-      "link": "https://www.theguardian.com/technology/2026/oct/14/openai-london-staff-earnings-2million-per-person",
-      "summary": "Accounts for the Westminster-based company behind ChatGPT show that 110 staff shared £87m in salaries and £168m in shares last year OpenAI’s London staff each received £2,318,181 on average last year, as the ChatGPT-maker poured Premier League football salaries into its bid to dominate the global AI race. Accounts for...",
-      "source": "The Guardian (IA)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 52,
-      "date": "2026-10-14T19:15:14+00:00",
-      "ts": 1792005314.0
-    },
-    {
       "title": "AI drone outpaces former world champions using one camera and no GPS",
       "link": "https://techxplore.com/news/2026-10-ai-drone-outpaces-world-champions.html",
       "summary": "What does it take for an autonomous robot to be faster around a course than human drone pilots? At these dizzying speeds, humans need lightning-fast reflexes. Researchers at Delft University of Technology (the Netherlands) have developed an AI system that enables a racing drone to navigate demanding courses at extreme...",
@@ -2341,35 +2300,6 @@
       "ts": 1791811807.0
     },
     {
-      "title": "We Specified an AI Agent in 2016. We Called It Analytics.",
-      "link": "https://towardsdatascience.com/we-specified-an-ai-agent-in-2016-we-called-it-analytics/",
-      "summary": "Re-reading my own IBM patent on real-time concert feedback as what it actually was: an agentic loop with multimodal perception, memory-grounded inference, and a human in the loop. What it got right, and what a decade of hindsight teaches agent builders today. The post We Specified an AI Agent in 2016. We Called It...",
-      "source": "Towards Data Science",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 53,
-      "date": "2026-10-12T12:30:00+00:00",
-      "ts": 1791808200.0
-    },
-    {
-      "title": "I Built a Trap for AI Image Judges. They Walked Into a Different One.",
-      "link": "https://towardsdatascience.com/i-built-a-trap-for-ai-image-judges-they-walked-into-a-different-one/",
-      "summary": "Three vision AI models ignored the pretty image, yet GPT-4o invented answers and Claude kept answering B. The post I Built a Trap for AI Image Judges. They Walked Into a Different One. appeared first on Towards Data Science .",
-      "source": "Towards Data Science",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 51,
-      "date": "2026-10-12T11:00:00+00:00",
-      "ts": 1791802800.0
-    },
-    {
       "title": "DeepSeek’s cost-saving AI may lead to inaccuracy in model performance: research",
       "link": "https://www.scmp.com/tech/tech-trends/article/3370550/deepseeks-cost-saving-ai-may-lead-inaccuracy-model-performance-research?utm_source=rss_feed",
       "summary": "New research has exposed a potential flaw in the memory-saving technology underpinning DeepSeek’s models, marking a rare challenge to a breakthrough that has helped the Chinese artificial intelligence lab close the gap with US rivals OpenAI and Anthropic with its low-cost approach. The findings were published late...",
@@ -2424,20 +2354,6 @@
       "relevance": 49,
       "date": "2026-10-10T23:36:49+00:00",
       "ts": 1791675409.0
-    },
-    {
-      "title": "Why dexterity is physical AI’s real bottleneck",
-      "link": "https://www.therobotreport.com/why-dexterity-is-physical-ai-real-bottleneck/",
-      "summary": "The next major challenge in robotic dexterity is making the entire system reliable enough to turn capabilities into useful work. The post Why dexterity is physical AI’s real bottleneck appeared first on The Robot Report .",
-      "source": "The Robot Report",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "humanoides"
-      ],
-      "relevance": 30,
-      "date": "2026-10-10T12:45:15+00:00",
-      "ts": 1791636315.0
     },
     {
       "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
@@ -2959,6 +2875,20 @@
       "ts": 1790898253.0
     },
     {
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "link": "https://openai.com/index/albertsons-reimagining-retail",
+      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 67,
+      "date": "2026-10-01T16:00:00+00:00",
+      "ts": 1790870400.0
+    },
+    {
       "title": "Can a machine or AI agent be surprised? Helping autonomous systems respond to the unexpected",
       "link": "https://techxplore.com/news/2026-10-machine-ai-agent-autonomous-unexpected.html",
       "summary": "Let's say you ask ChatGPT a question that stumps it, or a Waymo vehicle encounters something unusual in the road, or an autonomous factory faces an unexpected disruption. Most people would recognize that something unexpected has happened and adjust accordingly. For machines, it's not always that simple.",
@@ -3223,6 +3153,20 @@
       "ts": 1790278800.0
     },
     {
+      "title": "Alibaba unveils ‘pragmatic’ AI road map to drive monetisation, infrastructure efficiency",
+      "link": "https://www.scmp.com/tech/big-tech/article/3368650/alibaba-unveils-pragmatic-ai-road-map-drive-monetisation-infrastructure-efficiency?utm_source=rss_feed",
+      "summary": "The artificial intelligence road map presented at its flagship Apsara Conference this week showcased a pragmatic pivot by Chinese tech giant Alibaba Group Holding, offering a clearer path to monetisation despite a sharp escalation in capital expenditure, analysts said. The conference, which ran from Tuesday to...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 48,
+      "date": "2026-09-24T09:30:22+00:00",
+      "ts": 1790242222.0
+    },
+    {
       "title": "LWiAI Podcast #257 - GPT 6 Astra, AI Extinction, Security Incidents",
       "link": "https://lastweekin.ai/p/lwiai-podcast-257-gpt-6-astra-ai",
       "summary": "A belated discussion of Astra’s release, a bunch of AI incidents, and the broader situation we are in with regards to AI safety.",
@@ -3468,20 +3412,6 @@
       "relevance": 72,
       "date": "2026-09-18T13:19:03+00:00",
       "ts": 1789737543.0
-    },
-    {
-      "title": "China to see major shift to Huawei for AI model training in 2027: deputy chair",
-      "link": "https://www.scmp.com/tech/big-tech/article/3367955/china-see-major-shift-huawei-ai-model-training-2027-rotating-chair?utm_source=rss_feed",
-      "summary": "Huawei Technologies expects a major domestic shift towards its artificial intelligence computing infrastructure for model training next year, as its Ascend processors gain ground on Nvidia in China despite supply constraints, according to rotating chairman Eric Xu Zhijun. “I believe that starting from next year, a lot...",
-      "source": "SCMP Big Tech",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 51,
-      "date": "2026-09-18T04:59:31+00:00",
-      "ts": 1789707571.0
     },
     {
       "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
@@ -3825,20 +3755,6 @@
       "relevance": 46,
       "date": "2026-09-04T16:06:01+00:00",
       "ts": 1788537961.0
-    },
-    {
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "link": "https://openai.com/index/gpt-6-astra",
-      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 71,
-      "date": "2026-09-03T11:00:00+00:00",
-      "ts": 1788433200.0
     }
   ]
 }
