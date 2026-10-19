@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-18T19:51:48.051653+00:00",
+  "generated_at": "2026-10-19T02:26:20.972480+00:00",
   "count": 236,
   "china_count": 47,
   "topic_counts": {
     "humanoides": 8,
-    "modelos": 154,
+    "modelos": 153,
     "agentes": 57,
-    "biomedica": 7,
+    "biomedica": 8,
     "defesa": 12,
     "telecom": 20
   },
@@ -139,7 +139,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 7
+      "kept": 6
     },
     {
       "source": "Ars Technica",
@@ -339,7 +339,7 @@
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "arXiv eess.IV (imagem)",
@@ -393,7 +393,7 @@
     },
     {
       "source": "Total Telecom",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (10 itens)",
       "kept": 0
     },
     {
@@ -428,6 +428,49 @@
     }
   ],
   "items": [
+    {
+      "title": "VAST Open-Sources EdenLive, a Real-Time Model That Renders Simple Game Footage as Detailed Video",
+      "link": "https://pandaily.com/vast-edenlive-open-source-real-time-generative-renderer-world-model-5b-14b-rtx-5090",
+      "summary": "Upstream code keeps the game state while EdenLive renders it into detailed frames. VAST says its 5B model tops 24 FPS at 720p on a single RTX 5090. Weights and code are open.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 52,
+      "date": "2026-10-19T01:47:28+00:00",
+      "ts": 1792374448.0
+    },
+    {
+      "title": "AI platform allows real-time conversation between patients and their medical devices",
+      "link": "https://medicalxpress.com/news/2026-10-ai-platform-real-conversation-patients.html",
+      "summary": "A new AI-driven platform could allow people to interact with their medical devices by sending messages using a smartphone application and receiving feedback in real time. Participants in a proof-of-concept study undergoing monitoring for seizures could ask questions about their brain activity, receive personalized...",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 34,
+      "date": "2026-10-18T21:00:06+00:00",
+      "ts": 1792357206.0
+    },
+    {
+      "title": "TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web",
+      "link": "https://www.marktechpost.com/2026/10/18/tinyfish-free-search-ai-agent-token-cost/",
+      "summary": "An AI agent that reads the web pays 2 kinds of cost. The first is the retrieval charge: what a search or fetch API bills per request. The second is model processing: content passed from retrieved pages into an AI model consumes tokens, while reasoning and generated responses add further costs. TinyFish, a web...",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 66,
+      "date": "2026-10-18T18:20:28+00:00",
+      "ts": 1792347628.0
+    },
     {
       "title": "Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours",
       "link": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
@@ -925,21 +968,6 @@
       "ts": 1792203013.0
     },
     {
-      "title": "DeepSeek Adds Standalone Search and Fetch APIs for Agents, Priced at 5 Yuan per 1,000 Calls",
-      "link": "https://pandaily.com/deepseek-api-search-fetch-endpoints-5-yuan-per-1000-requests-5-qps-agents-rag",
-      "summary": "The new endpoints return structured web results or a page as Markdown. Each costs 5 yuan per 1,000 successful requests and is capped at 5 queries per second per account.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 62,
-      "date": "2026-10-17T02:09:35+00:00",
-      "ts": 1792202975.0
-    },
-    {
       "title": "Perplexity Open-Sources SPACE, a Firecracker MicroVM Sandbox for AI Agents",
       "link": "https://www.marktechpost.com/2026/10/16/perplexity-open-sources-space-firecracker-microvm-sandbox-ai-agents/",
       "summary": "Perplexity has open-sourced SPACE, the sandbox platform behind every task in Perplexity Computer. The Perplexity SPACE sandbox gives each agent task its own Firecracker microVM. Credentials and outbound traffic are controlled from outside that VM. The code ships under Apache 2.0 on GitHub. For teams building coding or...",
@@ -1266,20 +1294,6 @@
       "ts": 1792126800.0
     },
     {
-      "title": "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
-      "link": "https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model/",
-      "summary": "Meta released Muse Spark Open, an 816B-parameter open-weight MoE model with 42B active parameters and a 1M-token context. It leads open models on MCP-Atlas and runs on 2 M5 Ultra Mac Studios. The post Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context appeared first on MarkTechPost .",
-      "source": "MarkTechPost",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-10-16T02:26:04+00:00",
-      "ts": 1792117564.0
-    },
-    {
       "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
       "link": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
       "summary": "",
@@ -1530,20 +1544,6 @@
       "relevance": 70,
       "date": "2026-10-15T15:00:24+00:00",
       "ts": 1792076424.0
-    },
-    {
-      "title": "Google’s Universal Cart shopping tool launches in the US",
-      "link": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-      "summary": "The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 50,
-      "date": "2026-10-15T14:29:33+00:00",
-      "ts": 1792074573.0
     },
     {
       "title": "LLMs show a human-like double standard when judging others' reasoning",
