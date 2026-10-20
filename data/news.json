@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-19T21:59:56.824567+00:00",
-  "count": 266,
-  "china_count": 53,
+  "generated_at": "2026-10-20T02:39:27.639504+00:00",
+  "count": 264,
+  "china_count": 50,
   "topic_counts": {
     "humanoides": 9,
-    "modelos": 163,
+    "modelos": 161,
     "agentes": 75,
-    "biomedica": 7,
+    "biomedica": 8,
     "defesa": 10,
     "telecom": 29
   },
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1299 itens)",
+      "status": "ok (1300 itens)",
       "kept": 12
     },
     {
@@ -214,7 +214,7 @@
     {
       "source": "Pandaily",
       "status": "ok (20 itens)",
-      "kept": 10
+      "kept": 7
     },
     {
       "source": "TechNode",
@@ -288,7 +288,7 @@
     },
     {
       "source": "AI News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 403: Forbidden",
       "kept": 0
     },
     {
@@ -299,7 +299,7 @@
     {
       "source": "The AI Insider",
       "status": "ok (9 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "AIwire",
@@ -339,7 +339,7 @@
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "arXiv eess.IV (imagem)",
@@ -384,7 +384,7 @@
     {
       "source": "IEEE ComSoc Tech Blog",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "The 3G4G Blog",
@@ -393,7 +393,7 @@
     },
     {
       "source": "Total Telecom",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (10 itens)",
       "kept": 0
     },
     {
@@ -429,6 +429,77 @@
   ],
   "items": [
     {
+      "title": "X Square Robot Launches X2Real, an Evolving Simulation Benchmark It Says Tracks Real-Robot Results",
+      "link": "https://pandaily.com/x-square-robot-x2real-evolving-simulation-benchmark-embodied-ai-sim-to-real",
+      "summary": "X2Real calibrates simulated robots against real hardware, spans 44 tasks in 10 categories, and uses AI agents to write new tests. The company reports 0.96 sim-to-real success correlation.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 53,
+      "date": "2026-10-20T01:50:01+00:00",
+      "ts": 1792461001.0
+    },
+    {
+      "title": "Meet Drex Max: Nace AI’s Multimodal Decision Model for Computer-Use Agents with a Score 67.59",
+      "link": "https://www.marktechpost.com/2026/10/19/nace-ai-drex-max-multimodal-decision-model/",
+      "summary": "Nace AI released Drex Max, a multimodal decision model that reads text and screenshots and returns calibrated probabilities. Nace reports 67.59 on Decision Index 0.3.2 at $0.06 per 1M input tokens. The post Meet Drex Max: Nace AI’s Multimodal Decision Model for Computer-Use Agents with a Score 67.59 appeared first on...",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 64,
+      "date": "2026-10-20T00:03:38+00:00",
+      "ts": 1792454618.0
+    },
+    {
+      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/",
+      "summary": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 54,
+      "date": "2026-10-19T23:32:19+00:00",
+      "ts": 1792452739.0
+    },
+    {
+      "title": "AI facial health recognition tools help physicians assess age and survival risk to guide personalized treatment",
+      "link": "https://medicalxpress.com/news/2026-10-ai-facial-health-recognition-tools.html",
+      "summary": "Researchers are using AI tools to analyze simple facial photographs to determine key indicators of a person's health. Mass General Brigham researchers built FAHR-Face (Foundation Artificial Intelligence for Health Recognition), a large AI foundation model trained on over 40 million face images.",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "biomedica",
+        "modelos"
+      ],
+      "relevance": 50,
+      "date": "2026-10-19T22:30:02+00:00",
+      "ts": 1792449002.0
+    },
+    {
+      "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+      "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "summary": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 55,
+      "date": "2026-10-19T22:04:28+00:00",
+      "ts": 1792447468.0
+    },
+    {
       "title": "Percival AI can uncover unseen health issues in CT scans",
       "link": "https://medicalxpress.com/news/2026-10-percival-ai-uncover-unseen-health.html",
       "summary": "When analyzed by a new artificial intelligence model developed at Penn Medicine, CT scans reveal much about a patient's health beyond the specific condition they were originally ordered for, according to a new study published in npj Digital Medicine. The AI model, dubbed Percival, can uncover nearly hidden patterns in...",
@@ -442,6 +513,20 @@
       "relevance": 47,
       "date": "2026-10-19T21:30:02+00:00",
       "ts": 1792445402.0
+    },
+    {
+      "title": "Skyfall AI Unveils Frontier Engineering World Model SKY-001",
+      "link": "https://theaiinsider.tech/2026/10/19/skyfall-ai-unveils-frontier-engineering-world-model-sky-001/",
+      "summary": "Insider Brief Skyfall AI has unveiled SKY-001, a world model designed to handle the spatial reasoning and long-term planning needed to create complex physical products in computer-aided design and building-design software. According to the San Francisco-based startup, current language models can struggle with...",
+      "source": "The AI Insider",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 42,
+      "date": "2026-10-19T21:14:06+00:00",
+      "ts": 1792444446.0
     },
     {
       "title": "Germany Signs Agreement with Nvidia to Develop Advanced Industrial and Physical AI",
@@ -476,7 +561,7 @@
     {
       "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
       "link": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
-      "summary": "OpenCode is an open-source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
+      "summary": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
       "source": "TechCrunch",
       "region": "global",
       "category": "modelo",
@@ -1551,48 +1636,6 @@
       "ts": 1792296000.0
     },
     {
-      "title": "Tsinghua, ModelBest and OpenBMB Release PilotDeck 2.0, an Open-Source Agent Operating System",
-      "link": "https://pandaily.com/pilotdeck-2-0-open-source-agent-os-tsinghua-thunlp-modelbest-openbmb-white-box-memory-smart-routing",
-      "summary": "PilotDeck 2.0 isolates each project in its own WorkSpace, makes agent memory visible and editable, and routes routine subtasks to lighter models, cutting long-task cost by about 83% in team tests.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 58,
-      "date": "2026-10-18T01:58:33+00:00",
-      "ts": 1792288713.0
-    },
-    {
-      "title": "DeepSeek Makes V4.1-Flash-1017 Official With MIT-Licensed Weights and Stronger Agentic Coding",
-      "link": "https://pandaily.com/deepseek-v4-1-flash-1017-official-release-mit-weights-terminal-bench-wish-style-programming",
-      "summary": "The minor update lifts Terminal-Bench 4.0 from 31.2 to 42.3, trims run time and output length, and is tuned for DeepSeek Harness and Tencent's CodeBuddy and WorkBuddy. Price is unchanged.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 67,
-      "date": "2026-10-18T01:58:25+00:00",
-      "ts": 1792288705.0
-    },
-    {
-      "title": "Peng Cheng Cloud Brain III Puts 10,000P of Domestic AI Computing Into Trial Operation",
-      "link": "https://pandaily.com/peng-cheng-cloud-brain-iii-10000p-domestic-ai-computing-trial-operation-wcnc-2026",
-      "summary": "Peng Cheng Laboratory's flagship AI computing facility now runs 10,000P while construction continues toward a planned 16,000P, serving domestic model training and AI for science research.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 53,
-      "date": "2026-10-18T01:55:24+00:00",
-      "ts": 1792288524.0
-    },
-    {
       "title": "Meta removes language that raised scraping and AI training concerns",
       "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
       "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
@@ -1720,34 +1763,6 @@
       "ts": 1792224011.0
     },
     {
-      "title": "Shanghai AI Laboratory Releases Atria Dawn Full Version With a 512K Context Window",
-      "link": "https://pandaily.com/shanghai-ai-lab-atria-dawn-full-release-512k-context-jobbench-weights-coming-soon",
-      "summary": "The agent model built on a 744B MoE GLM-5.2 base moves past its September preview with higher scores on JobBench, WideSearch and PaperBench. Full weights are still marked 'Coming soon'.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 74,
-      "date": "2026-10-17T07:36:36+00:00",
-      "ts": 1792222596.0
-    },
-    {
-      "title": "20 Jev Alternatives: The Decision Models Taking On TypeSafe in 2026",
-      "link": "https://www.marktechpost.com/2026/10/17/20-jev-alternatives-the-decision-models-taking-on-typesafe-in-2026/",
-      "summary": "TypeSafe launched Jev on September 15, 2026. It is a decision model, not a chatbot. You define the allowed answers, and Jev returns a label, a score or a yes/no probability. In about 4 weeks, at least 20 Jev alternatives shipped. They come from Cloudflare, OpenAI, Perplexity, Liquid AI, AWS’s Strands Labs and...",
-      "source": "MarkTechPost",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 49,
-      "date": "2026-10-17T07:26:39+00:00",
-      "ts": 1792221999.0
-    },
-    {
       "title": "Telecom lidera adoção de IA generativa, mas é cautelosa na escala",
       "link": "https://telesintese.com.br/telecom-lidera-adocao-de-ia-generativa-mas-e-cautelosa-na-escala/",
       "summary": "Se há um setor que hoje está à frente de todos os outros na adoção de inteligência artificial agêntica, é o de telecomunicações. O post Telecom lidera adoção de IA generativa, mas é cautelosa na escala apareceu primeiro em TeleSíntese .",
@@ -1831,20 +1846,6 @@
       "relevance": 59,
       "date": "2026-10-16T16:30:00+00:00",
       "ts": 1792168200.0
-    },
-    {
-      "title": "Elorian’s first AI model wants to reason with images, not just about them",
-      "link": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
-      "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 51,
-      "date": "2026-10-16T16:01:37+00:00",
-      "ts": 1792166497.0
     },
     {
       "title": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS",
@@ -2744,20 +2745,6 @@
       "ts": 1791849526.0
     },
     {
-      "title": "Microsoft Maia 300 Accelerator Chip: Co-Designing AI Inference for Improved Performance per Watt",
-      "link": "https://techblog.comsoc.org/2026/10/12/microsoft-maia-300-accelerator-chip-co-designing-ai-inference-for-performance-per-watt/",
-      "summary": "Microsoft’s third-generation custom AI accelerator silicon (made by TSMC) combines a multi-process-node chiplet architecture with higher-density racks, targeting improved compute efficiency and lower infrastructure costs. Executive Summary: Microsoft announced its Maia 300 AI accelerator on October 12, 2026, outlining...",
-      "source": "IEEE ComSoc Tech Blog",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 48,
-      "date": "2026-10-12T23:21:43+00:00",
-      "ts": 1791847303.0
-    },
-    {
       "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
       "link": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
       "summary": "If you’ve ever wondered how Claude and similar AI agents can answer complex questions in seconds and where they get the information, you’re not alone. Gurmeet Saran works to find that answer every day as an engineer at Anthropic in San Francisco, the AI research company behind Claude. The IEEE senior member is...",
@@ -2771,20 +2758,6 @@
       "relevance": 56,
       "date": "2026-10-12T18:00:02+00:00",
       "ts": 1791828002.0
-    },
-    {
-      "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
-      "link": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
-      "summary": "Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand, Malaysia, and Taipei. This post covers the Converse and OpenAI-compatible APIs, IAM and SCP permissions, quota sizing, and monitoring inference from your source Region.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 64,
-      "date": "2026-10-12T17:52:22+00:00",
-      "ts": 1791827542.0
     },
     {
       "title": "Simulating student learning for better AI tutoring",
@@ -2971,6 +2944,20 @@
       "ts": 1791522418.0
     },
     {
+      "title": "ttok 1.0",
+      "link": "https://simonwillison.net/2026/Oct/9/ttok/",
+      "summary": "Release: ttok 1.0 I released ttok 0.4 , ran uv tool upgrade ttok , piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instead! I figured switching the default was a reasonable excuse to finally ship a 1.0. OpenAI haven't...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 52,
+      "date": "2026-10-09T00:34:43+00:00",
+      "ts": 1791506083.0
+    },
+    {
       "title": "ttok 0.4",
       "link": "https://simonwillison.net/2026/Oct/8/ttok/",
       "summary": "Release: ttok 0.4 ttok is my CLI tool for counting tokens, using OpenAI's open source tiktoken library. It hasn't been in updated in a couple of years, but I finally fixed a Click warning, updated CI, and added a --list-models command to list available models. It works with uvx , so you can count tokens in anything...",
@@ -3050,20 +3037,6 @@
       "relevance": 63,
       "date": "2026-10-08T00:00:00+00:00",
       "ts": 1791417600.0
-    },
-    {
-      "title": "Claude Haiku 5.5",
-      "link": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
-      "summary": "As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 64,
-      "date": "2026-10-07T20:56:21+00:00",
-      "ts": 1791406581.0
     },
     {
       "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
