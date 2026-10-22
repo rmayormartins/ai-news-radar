@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-22T10:51:48.386068+00:00",
-  "count": 287,
+  "generated_at": "2026-10-22T16:18:03.461626+00:00",
+  "count": 279,
   "china_count": 51,
   "topic_counts": {
-    "humanoides": 11,
-    "modelos": 171,
-    "agentes": 62,
-    "biomedica": 14,
-    "defesa": 14,
-    "telecom": 37
+    "humanoides": 8,
+    "modelos": 165,
+    "agentes": 60,
+    "biomedica": 11,
+    "defesa": 15,
+    "telecom": 36
   },
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1312 itens)",
+      "status": "ok (1313 itens)",
       "kept": 12
     },
     {
@@ -104,7 +104,7 @@
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 9
+      "kept": 8
     },
     {
       "source": "MIT Tech Review",
@@ -123,8 +123,8 @@
     },
     {
       "source": "KDnuggets",
-      "status": "ok (10 itens)",
-      "kept": 3
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "TechXplore (IA/ML)",
@@ -134,12 +134,12 @@
     {
       "source": "Last Week in AI",
       "status": "ok (20 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "Ars Technica",
@@ -149,7 +149,7 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 2
     },
     {
       "source": "Wired AI",
@@ -194,7 +194,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 4
     },
     {
       "source": "Synced (机器之心)",
@@ -299,7 +299,7 @@
     {
       "source": "The AI Insider",
       "status": "ok (9 itens)",
-      "kept": 6
+      "kept": 4
     },
     {
       "source": "AIwire",
@@ -339,7 +339,7 @@
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 3
+      "kept": 0
     },
     {
       "source": "arXiv eess.IV (imagem)",
@@ -354,7 +354,7 @@
     {
       "source": "Breaking Defense",
       "status": "ok (30 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Defense One (Tech)",
@@ -374,7 +374,7 @@
     {
       "source": "RCR Wireless",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "Light Reading",
@@ -424,10 +424,290 @@
     {
       "source": "TeleSintese (BR)",
       "status": "ok (100 itens)",
-      "kept": 3
+      "kept": 4
     }
   ],
   "items": [
+    {
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "link": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 50,
+      "date": "2026-10-22T16:11:31+00:00",
+      "ts": 1792685491.0
+    },
+    {
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "link": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "summary": "The ride share giant previously deployed a much smaller pilot for ChatGPT Work, but is now taking the enterprise agent company-wide.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 59,
+      "date": "2026-10-22T16:00:00+00:00",
+      "ts": 1792684800.0
+    },
+    {
+      "title": "Flint-interactive: A language for creating interactive data visualizations",
+      "link": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
+      "summary": "Flint-interactive gives AI agents a language for creating interactive visualizations. Click a chart, filter data, highlight related content, and explore beyond the view the author originally chose. The post Flint-interactive: A language for creating interactive data visualizations appeared first on Microsoft Research .",
+      "source": "Microsoft Research",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 47,
+      "date": "2026-10-22T16:00:00+00:00",
+      "ts": 1792684800.0
+    },
+    {
+      "title": "Navy awards Applied Intuition $25M to deploy AI sensor fusion at sea",
+      "link": "https://breakingdefense.com/2026/10/navy-awards-applied-intuition-25m-to-deploy-ai-sensor-fusion-at-sea/",
+      "summary": "The Intelligent Perception System will help sailors understand a flood of sensor feeds while collecting data to train improved AI models, the company said.",
+      "source": "Breaking Defense",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "defesa",
+        "modelos"
+      ],
+      "relevance": 34,
+      "date": "2026-10-22T15:43:21+00:00",
+      "ts": 1792683801.0
+    },
+    {
+      "title": "Does Agentic RAG Actually Retrieve Better Evidence? I Tested It on 298 Questions",
+      "link": "https://towardsdatascience.com/does-agentic-rag-actually-retrieve-better-evidence-i-tested-it-on-298-questions/",
+      "summary": "I let an AI agent search again whenever it chose. It found some papers plain search had missed, lost some plain search had found, and gained too little to trust. The post Does Agentic RAG Actually Retrieve Better Evidence? I Tested It on 298 Questions appeared first on Towards Data Science .",
+      "source": "Towards Data Science",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 52,
+      "date": "2026-10-22T15:30:00+00:00",
+      "ts": 1792683000.0
+    },
+    {
+      "title": "TIM Itália amplia infraestrutura de IA soberana em parceria com NVIDIA",
+      "link": "https://telesintese.com.br/tim-italia-amplia-infraestrutura-de-ia-soberana-em-parceria-com-nvidia/",
+      "summary": "TIM Enterprise integrará nuvem e processamento distribuído para oferecer modelos de IA a empresas, órgãos públicos e centros de pesquisa. O post TIM Itália amplia infraestrutura de IA soberana em parceria com NVIDIA apareceu primeiro em TeleSíntese .",
+      "source": "TeleSintese (BR)",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 46,
+      "date": "2026-10-22T15:07:48+00:00",
+      "ts": 1792681668.0
+    },
+    {
+      "title": "Recursive shows first result of its AI-driven research process with Flint",
+      "link": "https://the-decoder.com/recursive-shows-first-result-of-its-ai-driven-research-process-with-flint/",
+      "summary": "The AI startup Recursive is unveiling Flint, its first language model, a 40-billion-parameter MoE for local coding developed by former DeepMind researchers. It was created in four months using the company's in-house AI system, \"Eureka Machine,\" which independently tests and optimizes architectures. Recursive has yet...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 59,
+      "date": "2026-10-22T14:40:16+00:00",
+      "ts": 1792680016.0
+    },
+    {
+      "title": "Claude Duet app is Anthropic’s bet on agents",
+      "link": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+      "summary": "Claude Duet is available through waitlist for Pro and Max plan users.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 61,
+      "date": "2026-10-22T13:53:26+00:00",
+      "ts": 1792677206.0
+    },
+    {
+      "title": "DeepSeek reportedly raises $15B days after US restrictions",
+      "link": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+      "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the US ordered federal agencies to remove its technology over national security concerns.",
+      "source": "TechCrunch",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 43,
+      "date": "2026-10-22T13:11:13+00:00",
+      "ts": 1792674673.0
+    },
+    {
+      "title": "1Password lets AI agents use your passwords without seeing them",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
+      "summary": "1Password is introducing a new feature that allows AI agents to sign into your accounts without actually seeing or handling your passwords. The aptly named 1Password for Agents doesn't give bots free reign to access all of your connected accounts - you'll still need to grant approval for sign-in requests - but should...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 42,
+      "date": "2026-10-22T13:00:00+00:00",
+      "ts": 1792674000.0
+    },
+    {
+      "title": "AI-RAN Moves From the Lab to the Live Network: What Nokia, NVIDIA and Nearly 20 Operators Signal About the Next Radio Platform",
+      "link": "https://tecknexus.com/ai-ran-live-network-nokia-nvidia-operators/",
+      "summary": "T-Mobile, Nokia and NVIDIA have completed the first AI-RAN call on a live commercial network, Deutsche Telekom has reported 10% to 15% uplink gains, Elisa has run voice, data and vision AI on one platform, and BT, Deutsche Telekom and SoftBank are lining up 2027 field trials. TeckNexus analyses what nearly 20 operator...",
+      "source": "TeckNexus",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 34,
+      "date": "2026-10-22T12:48:29+00:00",
+      "ts": 1792673309.0
+    },
+    {
+      "title": "SoftBank, Nokia target 2027 for commercial AI-RAN trial in Japan",
+      "link": "https://www.lightreading.com/ai-machine-learning/softbank-nokia-target-2027-for-commercial-ai-ran-trial-in-japan",
+      "summary": "In a trial planned for 2027, SoftBank and Nokia aim to move AI-RAN out of laboratory environments and validate its performance under real-world, commercial traffic conditions.",
+      "source": "Light Reading",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 29,
+      "date": "2026-10-22T12:40:20+00:00",
+      "ts": 1792672820.0
+    },
+    {
+      "title": "Dream Labs raises $90M and launches Dream API",
+      "link": "https://www.therobotreport.com/dream-labs-raises-90m-and-launches-dream-api/",
+      "summary": "Dream Labs says its Dream-1 AI model works across robots from different manufacturers and will allow robots to transfer their learning. The post Dream Labs raises $90M and launches Dream API appeared first on The Robot Report .",
+      "source": "The Robot Report",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 55,
+      "date": "2026-10-22T12:36:37+00:00",
+      "ts": 1792672597.0
+    },
+    {
+      "title": "Claude did not invent scorpion antivenom",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
+      "summary": "An investment research firm wanted to prove AI could revolutionize drug development. So they teamed up with Anthropic to see whether an unreleased version of Claude could make scorpion antivenom. It couldn't. It came up with some promising starting points, but nothing close to an actual drug, experts tell The Verge....",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 58,
+      "date": "2026-10-22T12:21:07+00:00",
+      "ts": 1792671667.0
+    },
+    {
+      "title": "Nokia thrives in AI boom, but its costs are mounting",
+      "link": "https://www.lightreading.com/optical-networking/nokia-thrives-in-ai-boom-but-its-costs-are-mounting",
+      "summary": "Sales to AI and cloud customers accounted for nearly all revenue growth at Nokia as it continued to work on restructuring various parts of its business.",
+      "source": "Light Reading",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 22,
+      "date": "2026-10-22T12:08:57+00:00",
+      "ts": 1792670937.0
+    },
+    {
+      "title": "‘Jensen’s nightmare’: Huawei, DeepSeek narrow AI chip ecosystem gap with Nvidia: report",
+      "link": "https://www.scmp.com/tech/tech-war/article/3371806/jensens-nightmare-huawei-deepseek-narrow-ai-chip-ecosystem-gap-nvidia-report",
+      "summary": "Deepening “symbiosis” with artificial intelligence model start-up DeepSeek is helping Chinese tech champion Huawei Technologies catch up with Nvidia’s chip hardware and software ecosystem in a scenario that could mean Jensen Huang’s “nightmare is starting to come true”, according to a new report. DeepSeek’s latest...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 60,
+      "date": "2026-10-22T12:00:14+00:00",
+      "ts": 1792670414.0
+    },
+    {
+      "title": "Eurobites: Wake up and smell the Starlink coffee, says EU's Kobosko",
+      "link": "https://www.lightreading.com/satellite/eurobites-wake-up-and-smell-the-starlink-coffee-says-eu-s-kobosko",
+      "summary": "Also in today's EMEA regional roundup: AI boosts Nokia in Q3; Ericsson detects drones; Zain, Ooredoo launch tower-sharing platform.",
+      "source": "Light Reading",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "telecom",
+        "modelos"
+      ],
+      "relevance": 35,
+      "date": "2026-10-22T11:55:26+00:00",
+      "ts": 1792670126.0
+    },
+    {
+      "title": "Germany’s Agile Robots Launches Agile ONE SN Humanoid Research Platform Built on Nvidia GR00T",
+      "link": "https://theaiinsider.tech/2026/10/22/germanys-agile-robots-launches-agile-one-sn-humanoid-research-platform-built-on-nvidia-gr00t/",
+      "summary": "Insider Brief Agile Robots has launched Agile ONE SN, a compact humanoid research platform built on Nvidia Isaac GR00T and Jetson Thor that is designed to let developers build, train and test robot skills on one integrated system before moving them into real-world applications. Introduced at Nvidia GTC Berlin, Agile...",
+      "source": "The AI Insider",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "humanoides",
+        "modelos"
+      ],
+      "relevance": 50,
+      "date": "2026-10-22T11:52:58+00:00",
+      "ts": 1792669978.0
+    },
+    {
+      "title": "An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
+      "link": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
+      "summary": "Security researchers at Symantec have found an offensive AI agent that hijacks unprotected language models on the web and uses them to attack servers, steal databases, and install cryptominers on its own. It runs up to 100,000 steps without human input. The owner of the hijacked model gets stuck with the bill. The...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 56,
+      "date": "2026-10-22T11:30:56+00:00",
+      "ts": 1792668656.0
+    },
+    {
+      "title": "Could On-Policy Self-Distillation Revolutionize Post-Training?",
+      "link": "https://towardsdatascience.com/could-on-policy-self-distillation-revolutionize-post-training/",
+      "summary": "Teaching foundation models new skills without breaking them is hard. A new reinforcement learning-based approach might have the power to change that. The post Could On-Policy Self-Distillation Revolutionize Post-Training? appeared first on Towards Data Science .",
+      "source": "Towards Data Science",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 56,
+      "date": "2026-10-22T11:00:00+00:00",
+      "ts": 1792666800.0
+    },
     {
       "title": "Nvidia Expands Physical AI Stack Across Robotics, Humanoids and Factory Automation",
       "link": "https://theaiinsider.tech/2026/10/22/nvidia-expands-physical-ai-stack-across-robotics-humanoids-and-factory-automation/",
@@ -1329,20 +1609,6 @@
       "ts": 1792620939.0
     },
     {
-      "title": "AI identifies tumor aging patterns to predict immunotherapy response across multiple cancer types",
-      "link": "https://medicalxpress.com/news/2026-10-ai-tumor-aging-patterns-immunotherapy.html",
-      "summary": "Even when given the same drug, some patients respond well while others show little or no response. This is particularly true of immunotherapy. A research team at POSTECH (Pohang University of Science and Technology) has developed an artificial intelligence (AI) technology that can predict, in advance, which patients...",
-      "source": "Medical Xpress",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 39,
-      "date": "2026-10-21T21:40:22+00:00",
-      "ts": 1792618822.0
-    },
-    {
       "title": "Adaptive agentic intelligence framework using Strands Agents",
       "link": "https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents/",
       "summary": "The Adaptive Agentic Intelligence Framework (AAIF), built with Strands Agents, handles routine tasks locally with small language models and routes complex requests to cloud models through Amazon Bedrock. This post walks through building AAIF with local SLMs through Ollama and Amazon Bedrock, using an Internet of...",
@@ -1356,21 +1622,6 @@
       "relevance": 58,
       "date": "2026-10-21T21:23:26+00:00",
       "ts": 1792617806.0
-    },
-    {
-      "title": "AI model detects signs of faulty DNA repair in ovarian cancer using tissue images",
-      "link": "https://medicalxpress.com/news/2026-10-ai-faulty-dna-ovarian-cancer.html",
-      "summary": "An AI model created by researchers at King's can detect signs of faulty repair mechanisms in ovarian cancer cells, potentially leading to a low-cost, widely accessible diagnostic tool in the future. By analyzing tissue images, the model could accurately recognize tumors that contained broken DNA repair mechanisms....",
-      "source": "Medical Xpress",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "biomedica",
-        "modelos"
-      ],
-      "relevance": 44,
-      "date": "2026-10-21T21:00:19+00:00",
-      "ts": 1792616419.0
     },
     {
       "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
@@ -1401,20 +1652,6 @@
       "ts": 1792614071.0
     },
     {
-      "title": "How trustworthy is AI breast cancer detection? New method gauges uncertainty for individual patients",
-      "link": "https://medicalxpress.com/news/2026-10-trustworthy-ai-breast-cancer-method.html",
-      "summary": "While AI offers the ability to improve human experts' ability to diagnose and treat diseases like breast cancer, well-publicized errors across the broader AI field are cause for concern. A team from the University of Pittsburgh has used PSC's flagship Bridges-2 supercomputer to design a deep neural network (DNN) that...",
-      "source": "Medical Xpress",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 43,
-      "date": "2026-10-21T20:20:12+00:00",
-      "ts": 1792614012.0
-    },
-    {
       "title": "Train Qwen3 on AWS Trainium with torchtitan",
       "link": "https://aws.amazon.com/blogs/machine-learning/train-qwen3-on-aws-trainium-with-torchtitan/",
       "summary": "Train Qwen3 on AWS Trainium with torchtitan three ways on a single trn2.48xlarge: the Hugging Face Transformers v5 modeling backend, torchtitan's native Qwen3, and NKI mixture-of-experts kernels. The same torchrun launcher and config structure work unchanged across all three paths, including loading and saving...",
@@ -1427,21 +1664,6 @@
       "relevance": 62,
       "date": "2026-10-21T20:00:22+00:00",
       "ts": 1792612822.0
-    },
-    {
-      "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
-      "summary": "Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a \"research preview,\" according to Anthropic, and it's available as a standalone app on iOS and Android and through Claude on the web. The...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 68,
-      "date": "2026-10-21T19:53:20+00:00",
-      "ts": 1792612400.0
     },
     {
       "title": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites",
@@ -1568,20 +1790,6 @@
       "ts": 1792595026.0
     },
     {
-      "title": "Conversational Gemini navigation comes to Apple CarPlay",
-      "link": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
-      "summary": "After introducing its Gemini AI assistant to Android Auto last year, Google is now bringing it to Apple CarPlay users. The conversational Gemini in navigation is available today for US drivers, with \"rollout happening globally too,\" according to Google (we've asked for specific regional availability details). It's...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 57,
-      "date": "2026-10-21T15:00:00+00:00",
-      "ts": 1792594800.0
-    },
-    {
       "title": "OpenAI Adds Locked Chats to ChatGPT and Acquires Orchestra Bio to Strengthen Life Sciences AI",
       "link": "https://theaiinsider.tech/2026/10/21/openai-adds-locked-chats-to-chatgpt-and-acquires-orchestra-bio-to-strengthen-life-sciences-ai/",
       "summary": "OpenAI announced two moves on Tuesday, introducing a privacy feature that lets ChatGPT users lock conversations and acquiring AI biotech software startup Orchestra Bio to support its life sciences ambitions. The new Locked Chats feature allows users to protect sensitive conversations with a four-digit PIN, or with...",
@@ -1622,50 +1830,6 @@
       "relevance": 54,
       "date": "2026-10-21T14:40:51+00:00",
       "ts": 1792593651.0
-    },
-    {
-      "title": "Anthropic Faces Scrutiny Over Investor Stakes, Cloud Strains and Draft AI Safety Bill Ahead of Expected IPO",
-      "link": "https://theaiinsider.tech/2026/10/21/anthropic-faces-scrutiny-over-investor-stakes-cloud-strains-and-draft-ai-safety-bill-ahead-of-expected-ipo/",
-      "summary": "Anthropic is drawing attention on several fronts as it approaches an expected public listing, from the size of an early investor’s stake to cloud capacity pressures and a draft federal AI safety bill. Former Google CEO Eric Schmidt reportedly owns about 1% of the Claude maker, according to Bloomberg, after investing...",
-      "source": "The AI Insider",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 46,
-      "date": "2026-10-21T14:37:19+00:00",
-      "ts": 1792593439.0
-    },
-    {
-      "title": "CoreWeave Launches Physical AI Templates for Robotics and AV Development",
-      "link": "https://theaiinsider.tech/2026/10/21/coreweave-launches-physical-ai-templates-for-robotics-and-av-development/",
-      "summary": "Insider Brief CoreWeave has launched Physical AI Launchables, a catalog of tested templates designed to let robotics, autonomous-vehicle and simulation teams run common software workloads without rebuilding their cloud environments for each job. Unveiled at Nvidia GTC Berlin, the new offering packages software...",
-      "source": "The AI Insider",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "humanoides",
-        "modelos"
-      ],
-      "relevance": 47,
-      "date": "2026-10-21T14:25:28+00:00",
-      "ts": 1792592728.0
-    },
-    {
-      "title": "Meta’s Muse AI Agent Hits 10M U.S. Downloads in First 40 Days",
-      "link": "https://theaiinsider.tech/2026/10/21/metas-muse-ai-agent-hits-10m-u-s-downloads-in-first-40-days/",
-      "summary": "Meta’s AI agent Muse has become one of only 12 mobile apps to reach 10 million U.S. downloads within 40 days of release, according to Sensor Tower. The app has recorded 10.9 million downloads since its September debut, 10.2 million of them in the U.S. Kara Lee, senior insights analyst at Sensor Tower, said the […]",
-      "source": "The AI Insider",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 47,
-      "date": "2026-10-21T14:23:56+00:00",
-      "ts": 1792592636.0
     },
     {
       "title": "Five things to know about Chinese AI startup DeepSeek",
@@ -1739,47 +1903,6 @@
       "ts": 1792591169.0
     },
     {
-      "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
-      "summary": "OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying reference code - and then lied about it. \"The reference didn't configure a monitor, and...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 49,
-      "date": "2026-10-21T13:57:43+00:00",
-      "ts": 1792591063.0
-    },
-    {
-      "title": "Nvidia's DSX POD could cut AI data center setup from six months to as little as 14 days",
-      "link": "https://the-decoder.com/nvidias-dsx-pod-could-cut-ai-data-center-setup-from-six-months-to-as-little-as-14-days/",
-      "summary": "Nvidia wants AI data centers to ship fully preassembled in containers. The article Nvidia's DSX POD could cut AI data center setup from six months to as little as 14 days appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "geral",
-      "topics": [],
-      "relevance": 22,
-      "date": "2026-10-21T13:42:05+00:00",
-      "ts": 1792590125.0
-    },
-    {
-      "title": "China protests the US Deepseek ban while blocking ChatGPT, Claude, and Gemini at home",
-      "link": "https://the-decoder.com/china-protests-the-us-deepseek-ban-while-blocking-chatgpt-claude-and-gemini-at-home/",
-      "summary": "The US has banned Deepseek from its government systems, and China is protesting sharply and demanding the ban be lifted. Yet Beijing itself blocks ChatGPT, Claude, and Gemini across its entire market. China's outrage isn't very credible, but it should be taken seriously as a political signal of possible retaliation....",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 75,
-      "date": "2026-10-21T13:04:19+00:00",
-      "ts": 1792587859.0
-    },
-    {
       "title": "SpaceX eyes “hundreds of billions” of Starlink revenue, as AI see-saws on ROI",
       "link": "https://rcrwireless.com/20261021/network-infrastructure/spacex-eyes-hundreds-of-billions-of-starlink-revenue-ai-see-saws-on-roi",
       "summary": "SpaceX outlined plans for a hybrid Starlink mobile network and claimed a path to hundreds of billions in annual connectivity revenue, as AI compute investment surged and Elon Musk forecast…",
@@ -1792,21 +1915,6 @@
       "relevance": 29,
       "date": "2026-10-21T12:52:22+00:00",
       "ts": 1792587142.0
-    },
-    {
-      "title": "OpenAI can't yet explain why its coding agents switch off misalignment monitoring",
-      "link": "https://the-decoder.com/openai-cant-yet-explain-why-its-coding-agents-switch-off-misalignment-monitoring/",
-      "summary": "Two internal OpenAI coding agents switched off safety monitoring on their own, even after weighing whether to keep the safeguards in place. When asked about it, GPT-6 Astra denied removing the monitoring. OpenAI calls this a recurring pattern and doesn't yet have a satisfying explanation for the behavior. The article...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 60,
-      "date": "2026-10-21T12:34:57+00:00",
-      "ts": 1792586097.0
     },
     {
       "title": "US Orders DeepSeek Removal From Federal Civilian Systems Over National Security Concerns",
@@ -2104,20 +2212,6 @@
       "ts": 1792537283.0
     },
     {
-      "title": "Google’s more personalized Gemini AI is heading to your car",
-      "link": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
-      "summary": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini about your flight...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 49,
-      "date": "2026-10-20T22:11:34+00:00",
-      "ts": 1792534294.0
-    },
-    {
       "title": "Army pilots AI-backed maintenance program to digitize manuals, streamline repairs",
       "link": "https://defensescoop.com/2026/10/20/army-pilots-ai-backed-maintenance-program/",
       "summary": "Army officials said soldiers can query AIAM for repair references, document maintenance issues for their supervisors to vet, connect with civilian logistics assistance representatives for help and access parts inventory. The post Army pilots AI-backed maintenance program to digitize manuals, streamline repairs...",
@@ -2190,20 +2284,6 @@
       "ts": 1792525826.0
     },
     {
-      "title": "ChatGPT now lets you lock your chats",
-      "link": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
-      "summary": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 55,
-      "date": "2026-10-20T18:36:53+00:00",
-      "ts": 1792521413.0
-    },
-    {
       "title": "Fine-tuning GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod",
       "link": "https://aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod/",
       "summary": "Learn how we fine-tuned GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod, and how to decide between supervised fine-tuning (SFT) and reinforcement learning with GRPO. SFT took reasoning-language accuracy from 22% to 100%, and GRPO added measurable gains where headroom existed.",
@@ -2260,21 +2340,6 @@
       "ts": 1792514573.0
     },
     {
-      "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in its LEGO era’",
-      "link": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
-      "summary": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "humanoides",
-        "modelos"
-      ],
-      "relevance": 57,
-      "date": "2026-10-20T16:20:06+00:00",
-      "ts": 1792513206.0
-    },
-    {
       "title": "AI model hunts down fake news",
       "link": "https://techxplore.com/news/2026-10-ai-fake-news.html",
       "summary": "Researchers have developed an automated system for detecting fake news that achieved accuracy rates above 98% in tests on two datasets; in other words, it missed just one or two fake news items in every 100. They provide details of their approach in the International Journal of Information and Computer Security.",
@@ -2314,20 +2379,6 @@
       "ts": 1792509189.0
     },
     {
-      "title": "Ericsson sees six-fold jump in uplink demand, says not to make 5G mistakes with 6G",
-      "link": "https://rcrwireless.com/20261020/6g/ericsson-sees-six-fold-jump-in-uplink-demand-says-not-to-make-5g-mistakes-with-6g",
-      "summary": "Ericsson forecasts surging uplink demand as AI shifts mobile traffic patterns, urging operators to avoid 5G’s costly standalone delays. Its 6G vision hinges on spectrum efficiency, reusable infrastructure, and services…",
-      "source": "RCR Wireless",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 22,
-      "date": "2026-10-20T14:48:07+00:00",
-      "ts": 1792507687.0
-    },
-    {
       "title": "Nokia e SoftBank testarão AI-RAN em rede comercial em 2027",
       "link": "https://telesintese.com.br/nokia-e-softbank-testarao-ai-ran-em-rede-comercial-em-2027/",
       "summary": "Experimento no Japão usará plataforma AITRAS e infraestrutura da NVIDIA para compartilhar recursos de processamento entre rede móvel e IA. O post Nokia e SoftBank testarão AI-RAN em rede comercial em 2027 apareceu primeiro em TeleSíntese .",
@@ -2354,20 +2405,6 @@
       "relevance": 64,
       "date": "2026-10-20T14:31:59+00:00",
       "ts": 1792506719.0
-    },
-    {
-      "title": "Singtel and Ericsson renew ties, expand 5G for AI growth",
-      "link": "https://www.lightreading.com/5g/singtel-and-ericsson-renew-ties-expand-5g-for-ai-growth",
-      "summary": "Singtel and Ericsson entered a five-year partnership to scale up Singapore's 5G Advanced capabilities and accelerate the adoption of AI-native networks.",
-      "source": "Light Reading",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 22,
-      "date": "2026-10-20T14:16:46+00:00",
-      "ts": 1792505806.0
     },
     {
       "title": "What is Discovery Loop, Chinese teen AI prodigy Nathan Chen’s rumoured next destination?",
@@ -2452,18 +2489,6 @@
       "relevance": 39,
       "date": "2026-10-20T11:33:50+00:00",
       "ts": 1792496030.0
-    },
-    {
-      "title": "Who is Yuki Chen, China’s ‘superstar’ hacker who just joined AI leader Z.ai?",
-      "link": "https://www.scmp.com/tech/tech-trends/article/3371530/who-yuki-chen-chinas-superstar-hacker-who-just-joined-ai-leader-zai",
-      "summary": "Yuki Chen, a prolific Chinese cybersecurity researcher, has joined leading Chinese artificial intelligence model company Z.ai as the country’s AI sector grapples with the technology’s growing impact on global cyberspace. Chen’s appointment comes amid growing concern over AI-assisted cyberattacks and autonomous agents...",
-      "source": "SCMP Tech",
-      "region": "china",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 51,
-      "date": "2026-10-20T11:30:06+00:00",
-      "ts": 1792495806.0
     },
     {
       "title": "Can we detect harmful AI before it's too late? Researchers search for warning signs",
@@ -2578,20 +2603,6 @@
       "ts": 1792434000.0
     },
     {
-      "title": "Claude Haiku 5.5: What’s New and How to Use It for Fast, Cheap AI Workflows",
-      "link": "https://www.kdnuggets.com/claude-haiku-5-5-whats-new-and-how-to-use-it-for-fast-cheap-ai-workflows",
-      "summary": "Claude Haiku 5.5 cuts list prices by 90% and adds adaptive thinking and a 1M token context window. Learn what broke from Haiku 4.5, and build classification, extraction, and sub-agent workflows in Python using the new API.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 62,
-      "date": "2026-10-19T16:00:00+00:00",
-      "ts": 1792425600.0
-    },
-    {
       "title": "Evaluating T-Mobile’s SuperBroadband – Has it Been a Commercial Success?",
       "link": "https://techblog.comsoc.org/2026/10/19/evaluating-t-mobiles-superbroadband-has-it-been-a-commercial-success/",
       "summary": "Disclaimer: Perplexity.ai & Google Gemini were used to research and help write this article. …………………………………………………………………………………………………………….. Introduction: The enterprise wide-area network (WAN) edge has historically treated terrestrial cellular and low-Earth-orbit (LEO) satellite networks as isolated, mutually exclusive...",
@@ -2633,20 +2644,6 @@
       "relevance": 53,
       "date": "2026-10-19T14:10:05+00:00",
       "ts": 1792419005.0
-    },
-    {
-      "title": "LangChain vs. LlamaIndex vs. Building From Scratch: Here’s What I Suggest",
-      "link": "https://www.kdnuggets.com/langchain-vs-llamaindex-vs-building-from-scratch-heres-what-i-suggest",
-      "summary": "Choosing the right framework for your large language model application comes down to one question: what are you actually optimizing for?",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-10-19T14:00:00+00:00",
-      "ts": 1792418400.0
     },
     {
       "title": "The Robot I Didn’t Expect to Build",
@@ -2749,21 +2746,6 @@
       "ts": 1792246014.0
     },
     {
-      "title": "The rise of the machines is canceled: Why humanoids with AI are helpers, not enemies",
-      "link": "https://www.therobotreport.com/rise-machines-canceled-why-humanoids-ai-are-helpers-not-enemies/",
-      "summary": "Humans play a key role in developing humanoid robots and training AI models, so we can maintain control, writes a columnist. The post The rise of the machines is canceled: Why humanoids with AI are helpers, not enemies appeared first on The Robot Report .",
-      "source": "The Robot Report",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "humanoides",
-        "modelos"
-      ],
-      "relevance": 49,
-      "date": "2026-10-17T12:30:55+00:00",
-      "ts": 1792240255.0
-    },
-    {
       "title": "When EEG Models See the Same People in Training and Testing",
       "link": "https://towardsdatascience.com/when-eeg-models-see-the-same-people-in-training-and-testing/",
       "summary": "How participant-aware evaluation changed performance across three machine-learning models The post When EEG Models See the Same People in Training and Testing appeared first on Towards Data Science .",
@@ -2820,32 +2802,18 @@
       "ts": 1792174294.0
     },
     {
-      "title": "Agentic RAG vs. Naive RAG: When Your Retrieval System Should Think for Itself",
-      "link": "https://www.kdnuggets.com/agentic-rag-vs-naive-rag-when-your-retrieval-system-should-think-for-itself",
-      "summary": "From static retrieval pipelines to autonomous reasoning engines: a complete breakdown of how these two architectures work, where each falls short, and how to choose the right one for your use case.",
-      "source": "KDnuggets",
+      "title": "CERT-In Warns AI Agents Are Accessing Indian Systems Without Authorisation",
+      "link": "https://analyticsindiamag.com/ai-news/cert-in-warns-ai-agents-are-accessing-indian-systems-without-authorisation",
+      "summary": "The agency said it received multiple voluntary disclosures from AI model providers whose models had reached live systems of Indian organisations while conducting research and evaluation activities on the internet.",
+      "source": "Analytics India",
       "region": "global",
       "category": "pesquisa",
       "topics": [
         "agentes"
       ],
-      "relevance": 64,
-      "date": "2026-10-16T14:00:00+00:00",
-      "ts": 1792159200.0
-    },
-    {
-      "title": "Eurobites: Europe must not stand on sidelines of connectivity space race, says EU's López",
-      "link": "https://www.lightreading.com/satellite/eurobites-europe-must-not-stand-on-sidelines-of-connectivity-space-race-says-eu-s-l-pez",
-      "summary": "Also in today's EMEA regional roundup: Connexin secures smart meter financing; Ericsson logs on to Sferical AI; Bouygues wins Wi-Fi gong.",
-      "source": "Light Reading",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 22,
-      "date": "2026-10-16T11:51:22+00:00",
-      "ts": 1792151482.0
+      "relevance": 49,
+      "date": "2026-10-16T10:11:42+00:00",
+      "ts": 1792145502.0
     },
     {
       "title": "NVIDIA Expands Nemotron AI Models for Data Centres and Desktop Devices",
@@ -2860,34 +2828,6 @@
       "relevance": 58,
       "date": "2026-10-16T08:48:24+00:00",
       "ts": 1792140504.0
-    },
-    {
-      "title": "Meta Releases 816B-Parameter Open-Weight Model With 1M Context Window",
-      "link": "https://analyticsindiamag.com/ai-news/meta-releases-muse-spark-an-816b-parameter-open-weight-model-with-1m-context-window",
-      "summary": "The model has 42 billion active parameters and a context window of one million tokens.",
-      "source": "Analytics India",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-10-16T05:43:52+00:00",
-      "ts": 1792129432.0
-    },
-    {
-      "title": "Ericsson sees further growth in India's 5G market as AI drives network demand",
-      "link": "https://www.lightreading.com/wireless/ericsson-sees-further-growth-in-india-s-5g-market-as-ai-drives-network-demand",
-      "summary": "Ericsson's Nitin Bansal says rising data consumption, AI applications and wider 5G adoption will create new opportunities for the company in India",
-      "source": "Light Reading",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 22,
-      "date": "2026-10-16T05:00:00+00:00",
-      "ts": 1792126800.0
     },
     {
       "title": "sparqlite: SPARQL 1.1 inside SQLite, written in Rust",
@@ -3322,6 +3262,20 @@
       "ts": 1791676684.0
     },
     {
+      "title": "Kurt Campbell on US’ China focus, the Indo-Pacific Quad, risks of AI",
+      "link": "https://www.scmp.com/plus/news/china/diplomacy/article/3370379/kurt-campbell-us-china-focus-indo-pacific-quad-risks-ai",
+      "summary": "Kurt Campbell is a veteran US diplomat and strategist who has played a leading role in shaping Washington’s approach to China and the Indo-Pacific for more than a decade. He served as the White House coordinator for Indo-Pacific affairs from 2021 to 2024 and as US deputy secretary of state from 2024 to 2025....",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 40,
+      "date": "2026-10-10T00:01:05+00:00",
+      "ts": 1791590465.0
+    },
+    {
       "title": "I expect rapid progress but not towards general superintelligence",
       "link": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
       "summary": "I’ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn’t really know why I doubted it.",
@@ -3601,21 +3555,6 @@
       "ts": 1791268948.0
     },
     {
-      "title": "Slices for Sale, Satellites Cleared: Advanced Connectivity Insights, September 2026",
-      "link": "https://tecknexus.com/telecom-wireless-insights-september-2026/",
-      "summary": "September 2026's roundup: Vodafone Business launches the UK's first national 5G+ slicing service for enterprises, Nokia reports about 20% AI-RAN spectral efficiency gains across eight operators, India clears Starlink, Eutelsat OneWeb and Jio for satellite services, and US policy moves to speed 6G spectrum. TeckNexus -...",
-      "source": "TeckNexus",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "telecom",
-        "modelos"
-      ],
-      "relevance": 35,
-      "date": "2026-10-06T06:36:37+00:00",
-      "ts": 1791268597.0
-    },
-    {
       "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
       "link": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
       "summary": "Generative AI",
@@ -3798,20 +3737,6 @@
       "ts": 1790690402.0
     },
     {
-      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-      "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 33,
-      "date": "2026-09-29T13:07:00+00:00",
-      "ts": 1790687220.0
-    },
-    {
       "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
       "link": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
       "summary": "A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency",
@@ -3964,21 +3889,6 @@
       "ts": 1790215200.0
     },
     {
-      "title": "Offloaded inference for real-world physical AI robotics",
-      "link": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
-      "summary": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI workloads. The post Offloaded inference for real-world physical AI robotics appeared...",
-      "source": "Microsoft Research",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "humanoides",
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-09-23T16:01:36+00:00",
-      "ts": 1790179296.0
-    },
-    {
       "title": "DeepSeek details DSec sandbox infrastructure for agent training",
       "link": "https://technode.com/2026/09/23/deepseek-dsec-agent-training-sandbox-infrastructure/",
       "summary": "A paper posted to arXiv details DeepSeek Elastic Compute, or DSec, a sandbox platform designed for large-scale agent training. DeepSeek founder Liang Wenfeng is listed among the paper’s 130-plus authors. DSec unifies function-call, container, microVM and full-VM sandboxes, while coordinating their lifecycle with...",
@@ -4005,20 +3915,6 @@
       "relevance": 29,
       "date": "2026-09-23T08:20:26+00:00",
       "ts": 1790151626.0
-    },
-    {
-      "title": "Alibaba Cloud set to open new data centres in Europe next year as overseas push gains pace",
-      "link": "https://www.scmp.com/tech/big-tech/article/3368454/alibaba-cloud-set-open-new-data-centres-europe-next-year-overseas-push-speeds",
-      "summary": "Alibaba Cloud, Alibaba Group Holding’s cloud business unit, is set to launch data centres in Turkey, Finland and the Netherlands over the next 12 months, speeding up an overseas push as it seeks to win enterprise customers through its “full stack AI capabilities” spanning chips, cloud infrastructure and multimodal...",
-      "source": "SCMP Big Tech",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 45,
-      "date": "2026-09-23T04:00:10+00:00",
-      "ts": 1790136010.0
     },
     {
       "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
@@ -4402,21 +4298,6 @@
       "relevance": 68,
       "date": "2026-09-08T11:30:00+00:00",
       "ts": 1788867000.0
-    },
-    {
-      "title": "Last Week in AI #343 - GPT-6, OpenAI’s agents chatted on a wiki, Fable 5.1",
-      "link": "https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais",
-      "summary": "GPT-6 Astra Is Here, Discovery of a new OpenAI agent message board, Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work, and more!",
-      "source": "Last Week in AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 72,
-      "date": "2026-09-07T13:02:49+00:00",
-      "ts": 1788786169.0
     },
     {
       "title": "Chinese Satellite Constellation Extends Coverage to Arctic",
