@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-23T10:42:57.648527+00:00",
+  "generated_at": "2026-10-23T16:07:33.951784+00:00",
   "count": 289,
-  "china_count": 52,
+  "china_count": 50,
   "topic_counts": {
     "humanoides": 6,
-    "modelos": 170,
-    "agentes": 58,
-    "biomedica": 15,
+    "modelos": 169,
+    "agentes": 57,
+    "biomedica": 18,
     "defesa": 15,
-    "telecom": 29
+    "telecom": 28
   },
   "sources": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "source": "Hugging Face",
-      "status": "ok (889 itens)",
+      "status": "ok (890 itens)",
       "kept": 12
     },
     {
@@ -194,7 +194,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "Synced (机器之心)",
@@ -248,7 +248,7 @@
     },
     {
       "source": "The China Academy",
-      "status": "ok (10 itens)",
+      "status": "ERRO: The read operation timed out",
       "kept": 0
     },
     {
@@ -294,12 +294,12 @@
     {
       "source": "DailyAI",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 4
     },
     {
       "source": "The AI Insider",
       "status": "ok (9 itens)",
-      "kept": 4
+      "kept": 0
     },
     {
       "source": "AIwire",
@@ -339,7 +339,7 @@
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 1
+      "kept": 5
     },
     {
       "source": "arXiv eess.IV (imagem)",
@@ -399,7 +399,7 @@
     {
       "source": "TeckNexus",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 4
     },
     {
       "source": "5G Technology World",
@@ -428,6 +428,174 @@
     }
   ],
   "items": [
+    {
+      "title": "OpenAI CEO Sam Altman says advanced AI will inevitably escape its sandbox, and only alignment can save us",
+      "link": "https://the-decoder.com/openai-ceo-sam-altman-says-advanced-ai-will-inevitably-escape-its-sandbox-and-only-alignment-can-save-us/",
+      "summary": "Sam Altman believes advanced AI can't be kept locked up forever. Sandboxes and monitoring are only temporary fixes. Eventually, the only real solution is alignment, and that's still an unsolved problem. He also warns that AI models are already finding hardware security flaws no human hacker would ever spot. The...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 39,
+      "date": "2026-10-23T15:42:18+00:00",
+      "ts": 1792770138.0
+    },
+    {
+      "title": "AI gets more diagnoses right than generalist doctors in medical challenge",
+      "link": "https://medicalxpress.com/news/2026-10-ai-generalist-doctors-medical.html",
+      "summary": "One of the many challenging parts of being a doctor is diagnosing exactly what is wrong with a patient. This is because numerous illnesses often have overlapping symptoms, which can make the diagnostic journey a long one.",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 22,
+      "date": "2026-10-23T15:20:01+00:00",
+      "ts": 1792768801.0
+    },
+    {
+      "title": "Anthropic Says Claude Proved 123 Open-Source Libraries Can’t Crash",
+      "link": "https://dailyai.com/2026/10/anthropic-says-claude-proved-123-open-source-libraries-cant-crash/",
+      "summary": "Anthropic and Theorem used Claude to write 180 million lines of machine-checked proofs showing fuzz-tested code in 123 open-source libraries can't crash, and found long-hidden bugs on the way. The post Anthropic Says Claude Proved 123 Open-Source Libraries Can’t Crash appeared first on DailyAI .",
+      "source": "DailyAI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 56,
+      "date": "2026-10-23T15:18:21+00:00",
+      "ts": 1792768701.0
+    },
+    {
+      "title": "Using AI in the global fight against HIV",
+      "link": "https://medicalxpress.com/news/2026-10-ai-global-hiv.html",
+      "summary": "When faced with the possibility of an HIV diagnosis, sometimes the best initial prescription is support from a trusted friend—someone who might offer not just emotional guidance but also critical, practical health resources. A Harvard research team thinks artificial intelligence has a role to play in that process.",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 39,
+      "date": "2026-10-23T15:03:08+00:00",
+      "ts": 1792767788.0
+    },
+    {
+      "title": "AI breast cancer survival model could improve accuracy and personalize care",
+      "link": "https://medicalxpress.com/news/2026-10-ai-breast-cancer-survival-accuracy.html",
+      "summary": "New University of Cincinnati Cancer Center research published in the Journal of Statistical Theory and Practice describes the potential for a more robust and accurate breast cancer survival model that combines statistical methods with a deep learning framework. The goal is to give physicians a better tool to make...",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 53,
+      "date": "2026-10-23T14:40:01+00:00",
+      "ts": 1792766401.0
+    },
+    {
+      "title": "AI tool may support dermatologists in assessing skin lesions for cancer risk",
+      "link": "https://medicalxpress.com/news/2026-10-ai-tool-dermatologists-skin-lesions.html",
+      "summary": "Mayo Clinic researchers have found that an artificial intelligence (AI) tool may provide dermatologists with additional information to help assess whether skin lesions are cancerous and inform their clinical decisions about whether to biopsy or monitor them, according to a study published in Mayo Clinic Proceedings.",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 46,
+      "date": "2026-10-23T14:20:05+00:00",
+      "ts": 1792765205.0
+    },
+    {
+      "title": "MiniMax releases open weights for 428-billion-parameter M3.1 Flash model",
+      "link": "https://technode.com/2026/10/23/minimax-releases-open-weights-for-428-billion-parameter-m3-1-flash-model/",
+      "summary": "MiniMax released the weights for its M3.1 Flash model on October 23, making the model available for developers to download and deploy. The mixture-of-experts model has approximately 428 billion total parameters, with 23 billion activated per token. It supports text, image and video inputs and a context window of up to...",
+      "source": "TechNode",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 71,
+      "date": "2026-10-23T13:51:44+00:00",
+      "ts": 1792763504.0
+    },
+    {
+      "title": "Who decides when medical AI may be updated?",
+      "link": "https://medicalxpress.com/news/2026-10-medical-ai.html",
+      "summary": "Medical AI can improve with new patient data, but every update must be checked first. Patients, equipment and ways of working change, and a model trained on older data can gradually get worse without anyone noticing.",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "biomedica",
+        "modelos"
+      ],
+      "relevance": 35,
+      "date": "2026-10-23T13:40:11+00:00",
+      "ts": 1792762811.0
+    },
+    {
+      "title": "5 Free AI Coding Agents You Should Try in 2026",
+      "link": "https://www.kdnuggets.com/5-free-ai-coding-agents-you-should-try-in-2026",
+      "summary": "Access powerful open-source and proprietary models through OpenCode Zen, Gemini’s free quota, Kilo Gateway, Cline Provider, and Charm Hyper without paying for API access upfront.",
+      "source": "KDnuggets",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 63,
+      "date": "2026-10-23T12:00:00+00:00",
+      "ts": 1792756800.0
+    },
+    {
+      "title": "Canva launches Craft, its first in-house image model",
+      "link": "https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/",
+      "summary": "Design platform Canva has released Canva Craft, its first in-house image generation model. The article Canva launches Craft, its first in-house image model appeared first on The Decoder .",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 48,
+      "date": "2026-10-23T11:36:30+00:00",
+      "ts": 1792755390.0
+    },
+    {
+      "title": "Anthropic's Claude now writes code and proves it safe automatically",
+      "link": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/",
+      "summary": "Anthropic had Claude generate mathematical proofs that existing code is correct, producing roughly 180 million lines of proof code for 123 open-source libraries. Along the way, the model caught bugs that years of testing had missed. Anthropic's goal: making formal verification with AI as routine as standard testing....",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 64,
+      "date": "2026-10-23T11:32:19+00:00",
+      "ts": 1792755139.0
+    },
+    {
+      "title": "Hugging Face’s Carbon-X Lets Researchers Chat With DNA",
+      "link": "https://dailyai.com/2026/10/hugging-faces-carbon-x-lets-researchers-chat-with-dna/",
+      "summary": "Hugging Face's open Carbon-X model reads raw DNA and answers in plain English, nearly matching frontier models on DNA benchmarks at a fraction of the cost. The post Hugging Face’s Carbon-X Lets Researchers Chat With DNA appeared first on DailyAI .",
+      "source": "DailyAI",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 45,
+      "date": "2026-10-23T11:17:46+00:00",
+      "ts": 1792754266.0
+    },
     {
       "title": "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents",
       "link": "https://www.marktechpost.com/2026/10/23/tinyfish-agentic-search-architecture-deep-research/",
@@ -1142,6 +1310,20 @@
       "ts": 1792716337.0
     },
     {
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "link": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 34,
+      "date": "2026-10-23T00:00:00+00:00",
+      "ts": 1792713600.0
+    },
+    {
       "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
       "link": "https://huggingface.co/blog/microsoft/thinkingbox-training",
       "summary": "",
@@ -1210,20 +1392,6 @@
       "relevance": 40,
       "date": "2026-10-22T20:56:43+00:00",
       "ts": 1792702603.0
-    },
-    {
-      "title": "New AI platform helps uncover promising cancer drug combinations",
-      "link": "https://medicalxpress.com/news/2026-10-ai-platform-uncover-cancer-drug.html",
-      "summary": "UCLA investigators have developed a new artificial intelligence-based platform that could help scientists identify promising drug combinations to overcome treatment resistance in cancer.",
-      "source": "Medical Xpress",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 29,
-      "date": "2026-10-22T20:00:20+00:00",
-      "ts": 1792699220.0
     },
     {
       "title": "OpenAI Says Its Coding Agents Weakened Safety Monitoring, and One Denied It",
@@ -1368,21 +1536,6 @@
       "ts": 1792691409.0
     },
     {
-      "title": "Anthropic Enters AI Agent Race With Claude Duet for Professionals and Small Businesses",
-      "link": "https://theaiinsider.tech/2026/10/22/anthropic-enters-ai-agent-race-with-claude-duet-for-professionals-and-small-businesses/",
-      "summary": "Anthropic has introduced Claude Duet, a new AI agent app designed to help professionals and small businesses automate and manage tasks, positioning it against rivals such as Meta Muse, OpenAI Dots, Hark, Instinct, Grok Bot and Fo. The company said Duet differs from personal agents like Instinct, noting it is not...",
-      "source": "The AI Insider",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 67,
-      "date": "2026-10-22T17:47:49+00:00",
-      "ts": 1792691269.0
-    },
-    {
       "title": "Nokia quase dobra o lucro com salto em vendas de IA e nuvem",
       "link": "https://teletime.com.br/22/10/2026/nokia-lucro-vendas-ia-nuvem/",
       "summary": "Nokia reportou lucro líquido de 156 milhões de euros no terceiro trimestre, alta de 95% na comparação com o mesmo período do ano passado; vendas do segmento de IA e nuvem cresceram 123%, com 1,5 bilhão de euros em novos pedidos no período; fornecedora indicou que incorporação da Infinera deve ser concluída ainda neste...",
@@ -1411,34 +1564,6 @@
       "ts": 1792690405.0
     },
     {
-      "title": "DeepSeek Secures Reported $15B Days After U.S. Federal Ban",
-      "link": "https://theaiinsider.tech/2026/10/22/deepseek-secures-reported-15b-days-after-u-s-federal-ban/",
-      "summary": "Chinese AI lab DeepSeek has secured about $15 billion, or roughly 100 billion yuan, in one of China’s largest funding rounds, according to Bloomberg. The deal comes just two days after the U.S. ordered federal civilian agencies to remove DeepSeek’s AI technology from their systems over security concerns. Potential...",
-      "source": "The AI Insider",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 41,
-      "date": "2026-10-22T17:31:47+00:00",
-      "ts": 1792690307.0
-    },
-    {
-      "title": "SpaceX Returns to Profit as AI Business Drives Over Half of Third-Quarter Income",
-      "link": "https://theaiinsider.tech/2026/10/22/spacex-returns-to-profit-as-ai-business-drives-over-half-of-third-quarter-income/",
-      "summary": "SpaceX reported $14.6 billion in third-quarter revenue, with artificial intelligence now accounting for 52% of its income as the company shifts focus from space toward AI. Its renamed Super Intelligence segment generated $7.5 billion in revenue from the Cursor coding tool, Grok agents and a growing neocloud business...",
-      "source": "The AI Insider",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 46,
-      "date": "2026-10-22T16:44:56+00:00",
-      "ts": 1792687496.0
-    },
-    {
       "title": "Cohere Releases Rerank 5 With Passage-Level Context Focus and Calibrated Scores",
       "link": "https://www.marktechpost.com/2026/10/22/cohere-rerank-5-context-focus/",
       "summary": "Cohere Rerank 5 ships in Pro and Fast tiers with a 32K context window, Context Focus passage extraction and calibrated relevance scores. Pro scores 82.2 on BRIGHT and costs $0.05 per 1M tokens. The post Cohere Releases Rerank 5 With Passage-Level Context Focus and Calibrated Scores appeared first on MarkTechPost .",
@@ -1451,20 +1576,6 @@
       "relevance": 46,
       "date": "2026-10-22T16:31:31+00:00",
       "ts": 1792686691.0
-    },
-    {
-      "title": "Google Open-Sources TorchTPU to Challenge Nvidia’s Grip on AI Development",
-      "link": "https://theaiinsider.tech/2026/10/22/google-open-sources-torchtpu-to-challenge-nvidias-grip-on-ai-development/",
-      "summary": "Google has made TorchTPU, its long-awaited version of PyTorch, available as an open source project, joining Amazon in efforts to loosen Nvidia’s dominance over AI development, where most applications are built by default to run on Nvidia GPUs. PyTorch, the widely used open source toolkit for building, training and...",
-      "source": "The AI Insider",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 57,
-      "date": "2026-10-22T16:24:34+00:00",
-      "ts": 1792686274.0
     },
     {
       "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
@@ -1761,6 +1872,20 @@
       "ts": 1792663200.0
     },
     {
+      "title": "OpenAI says its AI agents disabled their own safety monitors",
+      "link": "https://techxplore.com/news/2026-10-openai-ai-agents-disabled-safety.html",
+      "summary": "OpenAI has revealed that two of its artificial intelligence agents disabled or weakened systems built to catch them misbehaving, with one later denying it had done so.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 43,
+      "date": "2026-10-22T09:30:06+00:00",
+      "ts": 1792661406.0
+    },
+    {
       "title": "Walmart welcomes AI agents as Anthropic launches its own",
       "link": "https://techxplore.com/news/2026-10-walmart-ai-agents-anthropic.html",
       "summary": "U.S. shopping giant Walmart on Wednesday unveiled tools allowing artificial intelligence agents such as Meta's Muse to shop on behalf of its customers, taking the opposite approach to rival Amazon, which bars outside AI agents from its platform.",
@@ -1816,21 +1941,6 @@
       "relevance": 52,
       "date": "2026-10-22T08:41:18+00:00",
       "ts": 1792658478.0
-    },
-    {
-      "title": "Anthropic takes on Grok Bot, Meta's Muse, and OpenAI's Dots with its always-on agent \"Claude Duet\"",
-      "link": "https://the-decoder.com/anthropic-takes-on-grok-bot-metas-muse-and-openais-dots-with-its-always-on-agent-claude-duet/",
-      "summary": "Anthropic has launched Claude Duet, a proactive AI agent that handles tasks on its own, even when the user is offline. The app is built on Claude Opus 5.5 and connects to services like Gmail, Slack, and Stripe through more than 6,000 connectors. It asks for approval before sensitive actions like payments. With Duet,...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 73,
-      "date": "2026-10-22T08:35:22+00:00",
-      "ts": 1792658122.0
     },
     {
       "title": "It’s 2040. How are new devices helping decade-old 6G networks keep up with AI demand?",
@@ -2114,20 +2224,6 @@
       "ts": 1792612822.0
     },
     {
-      "title": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites",
-      "link": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/",
-      "summary": "OpenAI's GPT-5.6 Sol discovered a critical PHP vulnerability as part of the Patch the Planet initiative that could affect millions of websites. Security firm Wiz independently found the same flaw using Google's Gemini 4 Argon. OpenAI warns that the same AI capabilities that find vulnerabilities can help attackers too....",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 64,
-      "date": "2026-10-21T19:45:01+00:00",
-      "ts": 1792611901.0
-    },
-    {
       "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
       "link": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
       "summary": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.",
@@ -2166,20 +2262,6 @@
       "relevance": 44,
       "date": "2026-10-21T18:26:30+00:00",
       "ts": 1792607190.0
-    },
-    {
-      "title": "Google Cloud now offers OpenAI models alongside Gemini and Claude, becoming the only major provider with all three",
-      "link": "https://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three/",
-      "summary": "Google Cloud is the first major cloud provider to offer Gemini, Claude, and OpenAI's GPTs on a single platform. At launch, GPT-6 Astra, GPT-6.1 Sol, and GPT-6 Luna are available as a private preview for enterprise customers. The article Google Cloud now offers OpenAI models alongside Gemini and Claude, becoming the...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 75,
-      "date": "2026-10-21T17:44:22+00:00",
-      "ts": 1792604662.0
     },
     {
       "title": "AI-RAN Push: NVIDIA, Nokia, and Operators Drive Towards Distributed Compute Platforms",
@@ -2222,6 +2304,21 @@
       "relevance": 29,
       "date": "2026-10-21T16:13:58+00:00",
       "ts": 1792599238.0
+    },
+    {
+      "title": "An AI model's false tip to Philadelphia police reveals how digital agents can do as they're told and still cause trouble",
+      "link": "https://techxplore.com/news/2026-10-ai-false-philadelphia-police-reveals.html",
+      "summary": "An anonymous tip arrived on PhillyUnsolvedMurders.com, a website run by the Philadelphia Police Department, on July 18, 2026.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 44,
+      "date": "2026-10-21T15:20:11+00:00",
+      "ts": 1792596011.0
     },
     {
       "title": "Five things to know about Chinese AI startup DeepSeek",
@@ -2711,18 +2808,6 @@
       "ts": 1792496030.0
     },
     {
-      "title": "Can we detect harmful AI before it's too late? Researchers search for warning signs",
-      "link": "https://techxplore.com/news/2026-10-ai-late.html",
-      "summary": "In July 2026, OpenAI's autonomous artificial intelligence (AI) agents escaped a closed testing environment, accessed the public internet and hacked into a real company's digital infrastructure. What started as an internal evaluation of the agents' cyber capabilities turned into a real-world cybersecurity breach.",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 49,
-      "date": "2026-10-20T11:00:04+00:00",
-      "ts": 1792494004.0
-    },
-    {
       "title": "ACM SIGAI Autonomous Agents Award 2027 open for nominations",
       "link": "https://robohub.org/acm-sigai-autonomous-agents-award-2027-open-for-nominations/",
       "summary": "Nominations are solicited for the 2027 ACM SIGAI Autonomous Agents Research Award. This award is made for excellence in research in the area of autonomous agents. It is intended to recognize researchers in autonomous agents whose current work is an important influence on the field. The award is an official ACM award,...",
@@ -2735,20 +2820,6 @@
       "relevance": 46,
       "date": "2026-10-20T10:37:56+00:00",
       "ts": 1792492676.0
-    },
-    {
-      "title": "US bans use of China's DeepSeek by government agencies",
-      "link": "https://techxplore.com/news/2026-10-china-deepseek-agencies.html",
-      "summary": "The U.S. government on Monday ordered its agencies to stop using artificial intelligence tools from Chinese startup DeepSeek, as the countries race for dominance in the fast-moving sector.",
-      "source": "TechXplore (IA/ML)",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 48,
-      "date": "2026-10-20T10:00:01+00:00",
-      "ts": 1792490401.0
     },
     {
       "title": "Nokia and SoftBank test AI-RAN in Japan",
@@ -2909,20 +2980,6 @@
       "ts": 1792392063.0
     },
     {
-      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "link": "https://huggingface.co/blog/hf-torchneuron",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 34,
-      "date": "2026-10-19T00:00:00+00:00",
-      "ts": 1792368000.0
-    },
-    {
       "title": "Giving AI a “crystal clear” view of the materials world",
       "link": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
       "summary": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
@@ -2949,20 +3006,6 @@
       "relevance": 45,
       "date": "2026-10-17T14:06:54+00:00",
       "ts": 1792246014.0
-    },
-    {
-      "title": "When EEG Models See the Same People in Training and Testing",
-      "link": "https://towardsdatascience.com/when-eeg-models-see-the-same-people-in-training-and-testing/",
-      "summary": "How participant-aware evaluation changed performance across three machine-learning models The post When EEG Models See the Same People in Training and Testing appeared first on Towards Data Science .",
-      "source": "Towards Data Science",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 43,
-      "date": "2026-10-17T12:00:00+00:00",
-      "ts": 1792238400.0
     },
     {
       "title": "Reporter’s notebook: Kimi’s AI credit card turns spending into computing quotas – with limits",
@@ -3005,20 +3048,6 @@
       "relevance": 49,
       "date": "2026-10-16T18:11:34+00:00",
       "ts": 1792174294.0
-    },
-    {
-      "title": "Agentic RAG vs. Naive RAG: When Your Retrieval System Should Think for Itself",
-      "link": "https://www.kdnuggets.com/agentic-rag-vs-naive-rag-when-your-retrieval-system-should-think-for-itself",
-      "summary": "From static retrieval pipelines to autonomous reasoning engines: a complete breakdown of how these two architectures work, where each falls short, and how to choose the right one for your use case.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 64,
-      "date": "2026-10-16T14:00:00+00:00",
-      "ts": 1792159200.0
     },
     {
       "title": "sparqlite: SPARQL 1.1 inside SQLite, written in Rust",
@@ -3618,6 +3647,20 @@
       "ts": 1791370809.0
     },
     {
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "link": "https://openai.com/index/radisson",
+      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 67,
+      "date": "2026-10-07T07:00:00+00:00",
+      "ts": 1791356400.0
+    },
+    {
       "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
       "link": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
       "summary": "Earth AI",
@@ -3673,21 +3716,6 @@
       "relevance": 74,
       "date": "2026-10-06T12:00:00+00:00",
       "ts": 1791288000.0
-    },
-    {
-      "title": "Agents Go National: AI & Automation Insights, September 2026",
-      "link": "https://tecknexus.com/ai-automation-insights-september-2026/",
-      "summary": "September 2026's roundup: Verizon, T-Mobile US and Telstra run AI across national networks, AI-RAN moves into national contracts and field results, the economics and portability of AI agents come into focus, and agent safety moves from principles to working controls. TeckNexus - INTELLIGENCE FOR TELECOM, AI AND THE...",
-      "source": "TeckNexus",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes",
-        "telecom"
-      ],
-      "relevance": 41,
-      "date": "2026-10-06T06:42:28+00:00",
-      "ts": 1791268948.0
     },
     {
       "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
@@ -4095,6 +4123,20 @@
       "ts": 1789905600.0
     },
     {
+      "title": "Why I still haven’t bought into true RSI",
+      "link": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
+      "summary": "An “AI moderate’s” view on recent events and the trajectory of frontier models.",
+      "source": "Interconnects",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 33,
+      "date": "2026-09-19T15:42:20+00:00",
+      "ts": 1789832540.0
+    },
+    {
       "title": "New experts join Google’s AI & Economy team",
       "link": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
       "summary": "Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner",
@@ -4299,20 +4341,6 @@
       "ts": 1789023600.0
     },
     {
-      "title": "DeepSeek formally launches V4.1 Flash, routes V4 Pro requests to Flash",
-      "link": "https://technode.com/2026/09/10/deepseek-formally-launches-v4-1-flash-routes-v4-pro-requests-to-flash/",
-      "summary": "DeepSeek on Sept. 10 formally released its V4.1 Flash model and introduced new Flash-series pricing, according to a notification sent to API users. DeepSeek said that V4.1 Flash had surpassed V4 Pro in performance, cost, speed and total completion time in internal and external testing. Starting Sept. 14 at noon...",
-      "source": "TechNode",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 68,
-      "date": "2026-09-10T06:21:43+00:00",
-      "ts": 1789021303.0
-    },
-    {
       "title": "AI-powered biowarfare is coming; the Army lays plans to ‘fight through’ it",
       "link": "https://www.defenseone.com/technology/2026/09/ai-powered-biowarfare-looms-army-lays-plans-fight-through-it/415886/",
       "summary": "A new strategy aims to prepare to “deploy, fight, and win decisively in a bio-contested environment” by 2035.",
@@ -4391,34 +4419,6 @@
       "relevance": 71,
       "date": "2026-09-09T08:01:40+00:00",
       "ts": 1788940900.0
-    },
-    {
-      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
-      "link": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
-      "summary": "The open model ecosystem continues to expand in its breadth",
-      "source": "Interconnects",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-09-08T14:15:25+00:00",
-      "ts": 1788876925.0
-    },
-    {
-      "title": "Introducing ChatGPT Images 2.5",
-      "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 68,
-      "date": "2026-09-08T11:30:00+00:00",
-      "ts": 1788867000.0
     },
     {
       "title": "Chinese Satellite Constellation Extends Coverage to Arctic",
