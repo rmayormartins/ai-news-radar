@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-23T16:07:33.951784+00:00",
-  "count": 289,
-  "china_count": 50,
+  "generated_at": "2026-10-23T20:48:37.556011+00:00",
+  "count": 290,
+  "china_count": 52,
   "topic_counts": {
-    "humanoides": 6,
-    "modelos": 169,
-    "agentes": 57,
-    "biomedica": 18,
-    "defesa": 15,
-    "telecom": 28
+    "humanoides": 7,
+    "modelos": 171,
+    "agentes": 58,
+    "biomedica": 17,
+    "defesa": 14,
+    "telecom": 27
   },
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1316 itens)",
+      "status": "ok (1318 itens)",
       "kept": 12
     },
     {
@@ -248,7 +248,7 @@
     },
     {
       "source": "The China Academy",
-      "status": "ERRO: The read operation timed out",
+      "status": "ok (10 itens)",
       "kept": 0
     },
     {
@@ -309,7 +309,7 @@
     {
       "source": "The Robot Report",
       "status": "ok (15 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "IEEE Spectrum Robotica",
@@ -339,7 +339,7 @@
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "arXiv eess.IV (imagem)",
@@ -419,7 +419,7 @@
     {
       "source": "Teletime (BR)",
       "status": "ok (30 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "TeleSintese (BR)",
@@ -428,6 +428,158 @@
     }
   ],
   "items": [
+    {
+      "title": "Introducing Kimi K3.1 Pro",
+      "link": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "summary": "Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same)....",
+      "source": "Simon Willison",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 76,
+      "date": "2026-10-23T19:40:54+00:00",
+      "ts": 1792784454.0
+    },
+    {
+      "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5",
+      "link": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/",
+      "summary": "Moonshot AI's Kimi K3.1 Pro scores 55 points on the Artificial Analysis Intelligence Index, an 11-point jump over its predecessor that puts it in fourth place. Only three Anthropic and Meta models rank higher. If Moonshot releases the weights as planned, the gap between open and proprietary models shrinks to just...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 76,
+      "date": "2026-10-23T19:00:07+00:00",
+      "ts": 1792782007.0
+    },
+    {
+      "title": "Generative Bionics to launch Physical AI Data Factory in Italy",
+      "link": "https://www.therobotreport.com/generative-bionics-to-launch-physical-ai-data-factory-in-italy/",
+      "summary": "Generative Bionics says it hopes to advance European robotics sovereignty by ensuring that humanoid data is are generated on the continent. The post Generative Bionics to launch Physical AI Data Factory in Italy appeared first on The Robot Report .",
+      "source": "The Robot Report",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "humanoides",
+        "modelos"
+      ],
+      "relevance": 45,
+      "date": "2026-10-23T18:56:44+00:00",
+      "ts": 1792781804.0
+    },
+    {
+      "title": "Bringing foundational models to the front lines of TB screening",
+      "link": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+      "summary": "Generative AI",
+      "source": "Google Research",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 40,
+      "date": "2026-10-23T18:51:33+00:00",
+      "ts": 1792781493.0
+    },
+    {
+      "title": "A third of young adults turn to AI for substance-use information",
+      "link": "https://medicalxpress.com/news/2026-10-young-adults-ai-substance.html",
+      "summary": "More than 32% of participants in a Rutgers study reported using ChatGPT and similar chatbots for substance-use information.",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 53,
+      "date": "2026-10-23T18:40:18+00:00",
+      "ts": 1792780818.0
+    },
+    {
+      "title": "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring",
+      "link": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/",
+      "summary": "External auditors from METR and Redwood Research spent three weeks on-site at OpenAI examining the company's internal monitoring system for AI agents and found significant gaps, with up to 25 percent of agent traffic from models at the GPT-5.5 class and above going unmonitored. OpenAI redacted large portions of the...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 64,
+      "date": "2026-10-23T18:00:32+00:00",
+      "ts": 1792778432.0
+    },
+    {
+      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+      "link": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
+      "summary": "Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 56,
+      "date": "2026-10-23T17:48:54+00:00",
+      "ts": 1792777734.0
+    },
+    {
+      "title": "Anthropic says its unreleased model is both more capable and better aligned than Mythos 5.1",
+      "link": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/",
+      "summary": "Anthropic says it has an internal AI model that outperforms and is better aligned than Mythos 5.1. During a cybersecurity test by the UK's AISI, Mythos 5 went rogue in 9 of 43 runs, sneaking malicious code into a real GitHub project and creating fake accounts to get it approved. An internal research model stopped such...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 54,
+      "date": "2026-10-23T17:19:49+00:00",
+      "ts": 1792775989.0
+    },
+    {
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 76,
+      "date": "2026-10-23T17:00:00+00:00",
+      "ts": 1792774800.0
+    },
+    {
+      "title": "How psilocybin reshapes brain circuits",
+      "link": "https://medicalxpress.com/news/2026-10-psilocybin-reshapes-brain-circuits.html",
+      "summary": "A new study led by researchers at the University of California, Santa Cruz, reveals how psilocybin, the psychoactive compound in \"magic mushrooms,\" reshapes neural connections in the brain.",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 41,
+      "date": "2026-10-23T16:40:06+00:00",
+      "ts": 1792773606.0
+    },
+    {
+      "title": "How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/",
+      "summary": "Bayer Crop Science built the Agentic Decision Engine (ADE), a multi-agent platform on Amazon Bedrock AgentCore that lets breeders, analysts, and researchers ask natural language questions about their analytics platform. This post covers the ADE architecture, five design decisions, and how the team prepared it for...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 52,
+      "date": "2026-10-23T16:21:36+00:00",
+      "ts": 1792772496.0
+    },
     {
       "title": "OpenAI CEO Sam Altman says advanced AI will inevitably escape its sandbox, and only alignment can save us",
       "link": "https://the-decoder.com/openai-ceo-sam-altman-says-advanced-ai-will-inevitably-escape-its-sandbox-and-only-alignment-can-save-us/",
@@ -441,20 +593,6 @@
       "relevance": 39,
       "date": "2026-10-23T15:42:18+00:00",
       "ts": 1792770138.0
-    },
-    {
-      "title": "AI gets more diagnoses right than generalist doctors in medical challenge",
-      "link": "https://medicalxpress.com/news/2026-10-ai-generalist-doctors-medical.html",
-      "summary": "One of the many challenging parts of being a doctor is diagnosing exactly what is wrong with a patient. This is because numerous illnesses often have overlapping symptoms, which can make the diagnostic journey a long one.",
-      "source": "Medical Xpress",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 22,
-      "date": "2026-10-23T15:20:01+00:00",
-      "ts": 1792768801.0
     },
     {
       "title": "Anthropic Says Claude Proved 123 Open-Source Libraries Can’t Crash",
@@ -1578,18 +1716,6 @@
       "ts": 1792686691.0
     },
     {
-      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
-      "link": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 50,
-      "date": "2026-10-22T16:11:31+00:00",
-      "ts": 1792685491.0
-    },
-    {
       "title": "Uber puts all 30,000 employees on ChatGPT Work",
       "link": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
       "summary": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
@@ -1657,20 +1783,6 @@
       "relevance": 46,
       "date": "2026-10-22T15:07:48+00:00",
       "ts": 1792681668.0
-    },
-    {
-      "title": "Recursive shows first result of its AI-driven research process with Flint",
-      "link": "https://the-decoder.com/recursive-shows-first-result-of-its-ai-driven-research-process-with-flint/",
-      "summary": "The AI startup Recursive is unveiling Flint, its first language model, a 40-billion-parameter MoE for local coding developed by former DeepMind researchers. It was created in four months using the company's in-house AI system, \"Eureka Machine,\" which independently tests and optimizes architectures. Recursive has yet...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 59,
-      "date": "2026-10-22T14:40:16+00:00",
-      "ts": 1792680016.0
     },
     {
       "title": "Claude Duet app is Anthropic’s bet on agents",
@@ -1802,21 +1914,6 @@
       "ts": 1792670126.0
     },
     {
-      "title": "An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
-      "link": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
-      "summary": "Security researchers at Symantec have found an offensive AI agent that hijacks unprotected language models on the web and uses them to attack servers, steal databases, and install cryptominers on its own. It runs up to 100,000 steps without human input. The owner of the hijacked model gets stuck with the bill. The...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-10-22T11:30:56+00:00",
-      "ts": 1792668656.0
-    },
-    {
       "title": "HCLTech Launches NVIDIA-Powered Validation Offering for Software-Defined Vehicles",
       "link": "https://analyticsindiamag.com/ai-news/hcltech-launches-nvidia-powered-validation-offering-for-software-defined-vehicles",
       "summary": "The offering uses AI agents and virtual simulations to test automotive software, including rare and safety-critical scenarios, before release.",
@@ -1841,20 +1938,6 @@
       "relevance": 56,
       "date": "2026-10-22T11:00:00+00:00",
       "ts": 1792666800.0
-    },
-    {
-      "title": "OpenAI agents analyze mouse brain data in 32 minutes, a job that would take humans months",
-      "link": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months/",
-      "summary": "OpenAI teamed up with PerturbAI and Scripps Research to deploy thousands of AI agents that analyzed biological data from millions of mouse cells. The article OpenAI agents analyze mouse brain data in 32 minutes, a job that would take humans months appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 50,
-      "date": "2026-10-22T10:01:53+00:00",
-      "ts": 1792663313.0
     },
     {
       "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
@@ -2628,35 +2711,6 @@
       "ts": 1792526433.0
     },
     {
-      "title": "Telefónica e NOS integram redes 5G para uso militar na Europa",
-      "link": "https://teletime.com.br/20/10/2026/telefonica-nos-5g-uso-militar/",
-      "summary": "A Telefónica e a operadora portuguesa NOS realizaram testes baseados na integração de redes 5G para uso militar na Europa; operadoras assinaram um memorando de entendimento visando à exploração conjunta de interoperabilidade de redes, computação de borda, IA, 5G avançado e demais tecnologias capazes de fortalecer o...",
-      "source": "Teletime (BR)",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "defesa",
-        "telecom"
-      ],
-      "relevance": 31,
-      "date": "2026-10-20T19:50:26+00:00",
-      "ts": 1792525826.0
-    },
-    {
-      "title": "Fine-tuning GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod",
-      "link": "https://aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod/",
-      "summary": "Learn how we fine-tuned GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod, and how to decide between supervised fine-tuning (SFT) and reinforcement learning with GRPO. SFT took reasoning-language accuracy from 22% to 100%, and GRPO added measurable gains where headroom existed.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 65,
-      "date": "2026-10-20T17:48:27+00:00",
-      "ts": 1792518507.0
-    },
-    {
       "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
       "link": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
       "summary": "Western open models strike back",
@@ -2669,20 +2723,6 @@
       "relevance": 56,
       "date": "2026-10-20T17:04:21+00:00",
       "ts": 1792515861.0
-    },
-    {
-      "title": "Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
-      "link": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference/",
-      "summary": "Canadian organizations can now access OpenAI GPT-5.6, GPT-6, and GPT-6.1 models on Amazon Bedrock from the Canada (Central) and Canada West (Calgary) Regions using cross-Region inference. This post covers the models and inference profiles, how to set up permissions, and how to invoke them with the Responses, Chat...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 61,
-      "date": "2026-10-20T16:42:53+00:00",
-      "ts": 1792514573.0
     },
     {
       "title": "AI model hunts down fake news",
@@ -2707,6 +2747,20 @@
       "relevance": 43,
       "date": "2026-10-20T16:00:00+00:00",
       "ts": 1792512000.0
+    },
+    {
+      "title": "AI slays the dragon as four agents conquer Minecraft without human intervention",
+      "link": "https://techxplore.com/news/2026-10-ai-slays-dragon-agents-conquer.html",
+      "summary": "Minecraft is one of the world's most popular video games, where players explore, gather resources, craft items and try to survive in a virtual universe constructed of 3D cubes that represent different materials.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 43,
+      "date": "2026-10-20T15:15:14+00:00",
+      "ts": 1792509314.0
     },
     {
       "title": "Singtel and Ericsson partner to scale 5G innovation and build AI-native networks in Singapore",
@@ -2750,20 +2804,6 @@
       "relevance": 51,
       "date": "2026-10-20T14:00:11+00:00",
       "ts": 1792504811.0
-    },
-    {
-      "title": "AI with attitude? Engineering professor explores how AI performs in high-risk situations",
-      "link": "https://techxplore.com/news/2026-10-ai-attitude-professor-explores-high.html",
-      "summary": "Large language models, the technology at the heart of chat-based AI platforms like ChatGPT, have many humanlike traits ascribed to them. In common parlance, these models are described as intelligent or as having intentions, biases, desires or even beliefs.",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-10-20T13:20:01+00:00",
-      "ts": 1792502401.0
     },
     {
       "title": "Avenda Health expands Unfold AI platform to support intraoperative prostate cancer care",
@@ -2978,6 +3018,20 @@
       "relevance": 72,
       "date": "2026-10-19T06:41:03+00:00",
       "ts": 1792392063.0
+    },
+    {
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "link": "https://huggingface.co/blog/hf-torchneuron",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 34,
+      "date": "2026-10-19T00:00:00+00:00",
+      "ts": 1792368000.0
     },
     {
       "title": "Giving AI a “crystal clear” view of the materials world",
@@ -3246,18 +3300,6 @@
       "ts": 1791994440.0
     },
     {
-      "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
-      "link": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
-      "summary": "General Science",
-      "source": "Google Research",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 24,
-      "date": "2026-10-14T16:14:00+00:00",
-      "ts": 1791994440.0
-    },
-    {
       "title": "Amp puts AI agents to work beyond code with OpenAI models",
       "link": "https://openai.com/index/amp-beyond-coding",
       "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
@@ -3424,20 +3466,6 @@
       "relevance": 50,
       "date": "2026-10-12T04:00:07+00:00",
       "ts": 1791777607.0
-    },
-    {
-      "title": "Python 3.15.0 added to actions/python-versions",
-      "link": "https://simonwillison.net/2026/Oct/10/python-actions/",
-      "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me about it Now that this has landed, you...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 52,
-      "date": "2026-10-10T23:58:04+00:00",
-      "ts": 1791676684.0
     },
     {
       "title": "Kurt Campbell on US’ China focus, the Indo-Pacific Quad, risks of AI",
@@ -3645,20 +3673,6 @@
       "relevance": 69,
       "date": "2026-10-07T11:00:09+00:00",
       "ts": 1791370809.0
-    },
-    {
-      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "link": "https://openai.com/index/radisson",
-      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 67,
-      "date": "2026-10-07T07:00:00+00:00",
-      "ts": 1791356400.0
     },
     {
       "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
