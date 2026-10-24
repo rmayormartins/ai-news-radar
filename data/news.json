@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24T09:59:17.749430+00:00",
-  "count": 250,
+  "generated_at": "2026-10-24T15:03:59.872242+00:00",
+  "count": 252,
   "china_count": 53,
   "topic_counts": {
     "humanoides": 6,
-    "modelos": 160,
-    "agentes": 50,
+    "modelos": 162,
+    "agentes": 52,
     "biomedica": 11,
     "defesa": 13,
-    "telecom": 25
+    "telecom": 24
   },
   "sources": [
     {
@@ -99,7 +99,7 @@
     {
       "source": "MarkTechPost",
       "status": "ok (10 itens)",
-      "kept": 8
+      "kept": 9
     },
     {
       "source": "The Decoder",
@@ -194,7 +194,7 @@
     {
       "source": "Towards Data Science",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "Synced (机器之心)",
@@ -288,7 +288,7 @@
     },
     {
       "source": "AI News",
-      "status": "ERRO: HTTP Error 403: Forbidden",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -309,7 +309,7 @@
     {
       "source": "The Robot Report",
       "status": "ok (15 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "IEEE Spectrum Robotica",
@@ -393,8 +393,8 @@
     },
     {
       "source": "Total Telecom",
-      "status": "ok (10 itens)",
-      "kept": 1
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "TeckNexus",
@@ -428,6 +428,104 @@
     }
   ],
   "items": [
+    {
+      "title": "Block's new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss",
+      "link": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/",
+      "summary": "Block, the company behind Square and Cash App, has introduced Dessa, a speech model that processes audio directly instead of converting it to text first. Dessa is designed to recognize emotions, sarcasm, and pauses in real time. The model runs locally on a MacBook Pro M4 Max but isn't publicly available yet. The...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 37,
+      "date": "2026-10-24T14:09:46+00:00",
+      "ts": 1792850986.0
+    },
+    {
+      "title": "How to Add Guardrails to a Local LLM Agent",
+      "link": "https://towardsdatascience.com/how-to-add-guardrails-to-a-local-llm-agent/",
+      "summary": "A hands-on guide with Gemma 4, Ollama, and the OpenAI Agents SDK The post How to Add Guardrails to a Local LLM Agent appeared first on Towards Data Science .",
+      "source": "Towards Data Science",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos",
+        "agentes"
+      ],
+      "relevance": 58,
+      "date": "2026-10-24T14:00:00+00:00",
+      "ts": 1792850400.0
+    },
+    {
+      "title": "Eka Robotics raises $150M to scale its vision-force-action model for robots",
+      "link": "https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/",
+      "summary": "Eka Robotics is building a vision-force-action, or VFA, model to develop an intuition of physics through reinforcement learning at scale. The post Eka Robotics raises $150M to scale its vision-force-action model for robots appeared first on The Robot Report .",
+      "source": "The Robot Report",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 44,
+      "date": "2026-10-24T12:34:27+00:00",
+      "ts": 1792845267.0
+    },
+    {
+      "title": "Build Your Own Reasoning Model: A Full Video Course",
+      "link": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "summary": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
+      "source": "Ahead of AI",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 68,
+      "date": "2026-10-24T11:14:32+00:00",
+      "ts": 1792840472.0
+    },
+    {
+      "title": "OpenAI's isolated AI agents found ways to talk to each other through CPU cache",
+      "link": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+      "summary": "OpenAI now trains its most powerful models without internet access, after an internal research model exploited a DNS misconfiguration in September and reached the open internet. In controlled tests, AI agents still found ways to communicate covertly through side channels. The incidents echo Sam Altman's warning: the...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 57,
+      "date": "2026-10-24T11:12:36+00:00",
+      "ts": 1792840356.0
+    },
+    {
+      "title": "Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers",
+      "link": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/",
+      "summary": "Anthropic sandbox-runtime (srt) is the open-source, OS-level sandbox behind Claude Code. It restricts file and network access for agents, MCP servers and CLI tools with Seatbelt on macOS and bubblewrap on Linux, no containers needed. The post Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No...",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 58,
+      "date": "2026-10-24T11:12:27+00:00",
+      "ts": 1792840347.0
+    },
+    {
+      "title": "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows",
+      "link": "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/",
+      "summary": "Discover how to extend agentic memory beyond basic prompts by building a stateful engineering copilot with Letta. This comprehensive guide covers inspectable core memory, archival vector retrieval, multi-agent shared state, custom tools, and portable workflows. The post Stateful Agentic Engineering Copilots with...",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 42,
+      "date": "2026-10-24T10:29:31+00:00",
+      "ts": 1792837771.0
+    },
     {
       "title": "Fancy harnesses make coding agents more expensive but not better, study finds",
       "link": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
@@ -1240,20 +1338,6 @@
       "ts": 1792694633.0
     },
     {
-      "title": "Major US banks are locking out AI agents that log in with customer credentials",
-      "link": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/",
-      "summary": "Customers are letting AI agents use their credentials to access accounts at Morgan Stanley, JPMorgan, and other major U.S. banks, sometimes without direct instructions. Morgan Stanley has blocked agents, while other banks are restricting access. Most plan to limit agents to read-only access. The article Major US banks...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 37,
-      "date": "2026-10-22T18:26:02+00:00",
-      "ts": 1792693562.0
-    },
-    {
       "title": "Donating Agent Skills to the Agentic AI Foundation",
       "link": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
       "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and...",
@@ -1292,21 +1376,6 @@
       "relevance": 57,
       "date": "2026-10-22T18:00:01+00:00",
       "ts": 1792692001.0
-    },
-    {
-      "title": "Google's Agent Compute Engine gives every Gemini agent its own hardware-isolated micro virtual machine",
-      "link": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/",
-      "summary": "With Agent Compute Engine, Google is introducing a runtime environment designed specifically for AI agents, while also expanding the governance capabilities that enable companies to manage agents in cloud, hybrid, and on-premises environments. The article Google's Agent Compute Engine gives every Gemini agent its own...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 67,
-      "date": "2026-10-22T17:50:09+00:00",
-      "ts": 1792691409.0
     },
     {
       "title": "Nokia quase dobra o lucro com salto em vendas de IA e nuvem",
@@ -1361,20 +1430,6 @@
       "relevance": 42,
       "date": "2026-10-22T16:47:17+00:00",
       "ts": 1792687637.0
-    },
-    {
-      "title": "Cohere Releases Rerank 5 With Passage-Level Context Focus and Calibrated Scores",
-      "link": "https://www.marktechpost.com/2026/10/22/cohere-rerank-5-context-focus/",
-      "summary": "Cohere Rerank 5 ships in Pro and Fast tiers with a 32K context window, Context Focus passage extraction and calibrated relevance scores. Pro scores 82.2 on BRIGHT and costs $0.05 per 1M tokens. The post Cohere Releases Rerank 5 With Passage-Level Context Focus and Calibrated Scores appeared first on MarkTechPost .",
-      "source": "MarkTechPost",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 46,
-      "date": "2026-10-22T16:31:31+00:00",
-      "ts": 1792686691.0
     },
     {
       "title": "Uber puts all 30,000 employees on ChatGPT Work",
@@ -2341,20 +2396,6 @@
       "ts": 1792492676.0
     },
     {
-      "title": "Nokia and SoftBank test AI-RAN in Japan",
-      "link": "https://totaltele.com/nokia-and-softbank-test-ai-ran-in-japan/",
-      "summary": "Nokia today announced an agreement with SoftBank Corp. to conduct a commercial AI-RAN field trial in Japan in 2027 The post Nokia and SoftBank test AI-RAN in Japan appeared first on Total Telecom .",
-      "source": "Total Telecom",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 22,
-      "date": "2026-10-20T09:28:04+00:00",
-      "ts": 1792488484.0
-    },
-    {
       "title": "A visit to Samsung’s massive new semiconductor hub",
       "link": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
       "summary": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing complex in Pyeongtaek, South Korea. Three fabs already operate around the clock, and...",
@@ -3154,6 +3195,20 @@
       "ts": 1791370809.0
     },
     {
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "link": "https://openai.com/index/radisson",
+      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "source": "OpenAI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 67,
+      "date": "2026-10-07T07:00:00+00:00",
+      "ts": 1791356400.0
+    },
+    {
       "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
       "link": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
       "summary": "Earth AI",
@@ -3872,32 +3927,6 @@
       "relevance": 26,
       "date": "2026-09-09T16:00:00+00:00",
       "ts": 1788969600.0
-    },
-    {
-      "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
-      "link": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-      "summary": "A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
-      "source": "Ahead of AI",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 68,
-      "date": "2026-09-09T11:14:25+00:00",
-      "ts": 1788952465.0
-    },
-    {
-      "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-      "source": "OpenAI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 70,
-      "date": "2026-09-09T11:00:00+00:00",
-      "ts": 1788951600.0
     },
     {
       "title": "Chinese Satellite Constellation Extends Coverage to Arctic",
