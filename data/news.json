@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-26T22:06:41.077555+00:00",
-  "count": 280,
-  "china_count": 50,
+  "generated_at": "2026-10-27T02:56:21.875071+00:00",
+  "count": 278,
+  "china_count": 51,
   "topic_counts": {
     "humanoides": 8,
-    "modelos": 165,
+    "modelos": 167,
     "agentes": 63,
     "biomedica": 11,
-    "defesa": 13,
-    "telecom": 22
+    "defesa": 12,
+    "telecom": 23
   },
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1324 itens)",
+      "status": "ok (1325 itens)",
       "kept": 12
     },
     {
@@ -139,7 +139,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 7
+      "kept": 6
     },
     {
       "source": "Ars Technica",
@@ -189,7 +189,7 @@
     {
       "source": "Unite.AI",
       "status": "ok (25 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "Towards Data Science",
@@ -284,11 +284,11 @@
     {
       "source": "The Guardian (IA)",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "AI News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: The read operation timed out",
       "kept": 0
     },
     {
@@ -339,7 +339,7 @@
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "arXiv eess.IV (imagem)",
@@ -359,7 +359,7 @@
     {
       "source": "Defense One (Tech)",
       "status": "ok (25 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "Army Technology",
@@ -384,7 +384,7 @@
     {
       "source": "IEEE ComSoc Tech Blog",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "The 3G4G Blog",
@@ -428,6 +428,150 @@
     }
   ],
   "items": [
+    {
+      "title": "Infinigence AI Builds a Three-Body Character Agent, Halving First-Token Time With Split Inference",
+      "link": "https://pandaily.com/infinigence-ai-three-body-universe-character-agent-agentworks-pdd-heterogeneous-inference",
+      "summary": "Infinigence AI and Three-Body Universe launched a character agent from the novel. It runs on Infinigence's AgentWorks platform and a split inference setup that cuts first-token time by 51.5%.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 55,
+      "date": "2026-10-27T02:52:41+00:00",
+      "ts": 1793069561.0
+    },
+    {
+      "title": "Rock Matrix Open-Sources EdgeRock-4B, Cutting Qwen3.5-4B's 256K KV Cache From 8 GiB to 72 MiB",
+      "link": "https://pandaily.com/rock-matrix-edgerock-4b-open-source-bounded-state-model-qwen3-5-4b-72mib-kv-cache",
+      "summary": "Built from Qwen3.5-4B with HKUST and CMU, EdgeRock-4B keeps a fixed 72 MiB KV cache at 256K context and serves 6.42 times the throughput while keeping most of its reasoning scores.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 59,
+      "date": "2026-10-27T02:52:23+00:00",
+      "ts": 1793069543.0
+    },
+    {
+      "title": "Tencent Hunyuan Open-Sources Hy-SimulMT, a Speech-to-Speech Interpreter With About 3 Seconds of Lag",
+      "link": "https://pandaily.com/tencent-hunyuan-hy-simulmt-open-source-simultaneous-interpretation-voice-cloning-streamlaal",
+      "summary": "Hy-SimulMT translates Chinese and English speech in real time in the speaker's own voice. Tencent puts its official StreamLAAL latency at about 3 seconds on long-form speech.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 57,
+      "date": "2026-10-27T02:52:09+00:00",
+      "ts": 1793069529.0
+    },
+    {
+      "title": "OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work",
+      "link": "https://www.marktechpost.com/2026/10/26/openai-gpt-6-1-terra/",
+      "summary": "OpenAI released GPT-6.1 Terra, a fast computer-use and vision model priced at $1/$5 per million tokens. It matches GPT-6 Astra’s medium-effort Agents’ Last Exam score at $0.29 per task versus $4.82. The post OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work appeared first on MarkTechPost .",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 75,
+      "date": "2026-10-27T02:45:27+00:00",
+      "ts": 1793069127.0
+    },
+    {
+      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "link": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
+      "source": "TechCrunch",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 64,
+      "date": "2026-10-27T01:12:21+00:00",
+      "ts": 1793063541.0
+    },
+    {
+      "title": "GPT-6.1 Terra",
+      "link": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+      "summary": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra , a fast, efficient model that combines detailed visual reasoning and precise computer...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 71,
+      "date": "2026-10-26T23:53:07+00:00",
+      "ts": 1793058787.0
+    },
+    {
+      "title": "Analysis: Why Carriers Are Fighting Mid-Band Satellite D2D Spectrum at the FCC",
+      "link": "https://techblog.comsoc.org/2026/10/26/analysis-why-carriers-are-fighting-mid-band-satellite-d2d-spectrum-at-the-fcc/",
+      "summary": "Disclaimer: Google Gemini was used for research in this article. ……………………………………………………………………………………………………………………………………………….. Executive Summary: Ahead of the FCC’s October 29th open meeting on Supplemental Coverage from Space (SCS), CTIA filed a joint petition on behalf of AT&T, Verizon, and T-Mobile on October 22nd. The...",
+      "source": "IEEE ComSoc Tech Blog",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "telecom",
+        "modelos"
+      ],
+      "relevance": 58,
+      "date": "2026-10-26T23:26:39+00:00",
+      "ts": 1793057199.0
+    },
+    {
+      "title": "symplr Launches AI Time and Scheduling to Predict Healthcare Staffing Needs",
+      "link": "https://www.unite.ai/symplr-ai-time-scheduling-predictive-healthcare-staffing/",
+      "summary": "A hospital staffing gap often becomes most expensive when there is little time left to solve it. Managers scramble for coverage, nurses field last-minute requests, and overtime or premium labor fills the remaining holes. symplr is trying to move those decisions earlier with the launch of symplr Time and Scheduling, an...",
+      "source": "Unite.AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "biomedica",
+        "modelos"
+      ],
+      "relevance": 45,
+      "date": "2026-10-26T23:12:12+00:00",
+      "ts": 1793056332.0
+    },
+    {
+      "title": "Cloudflare Says GLM-5.3 Bug Leaked 155 Responses Across Tenant Sessions",
+      "link": "https://www.unite.ai/cloudflare-says-glm-5-3-bug-leaked-155-responses-across-tenant-sessions/",
+      "summary": "Cloudflare on October 26, 2026 published an incident report disclosing a cross-request KV cache exposure in the GLM-5.3 model on its Workers AI platform, under which 155 responses to very long prompts contained data from other customers' sessions. Security researcher Gadi Evron of Knostic reported the tenant-isolation...",
+      "source": "Unite.AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 53,
+      "date": "2026-10-26T23:05:13+00:00",
+      "ts": 1793055913.0
+    },
+    {
+      "title": "OpenAI Says Its Models Produced Three Proofs in Math, CS, and Physics",
+      "link": "https://www.unite.ai/openai-says-its-models-produced-three-proofs-in-math-cs-and-physics/",
+      "summary": "OpenAI said in an announcement on October 26, 2026, that its internal models produced three research results in mathematics, computer science, and physics, including a disproof of the Exponential Time Hypothesis, a longstanding conjecture in computational complexity theory. In the company's view, the AI-generated...",
+      "source": "Unite.AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 43,
+      "date": "2026-10-26T22:17:01+00:00",
+      "ts": 1793053021.0
+    },
     {
       "title": "Vertiv Launches SmartIT Pre-Engineered AI Infrastructure Platform",
       "link": "https://www.unite.ai/vertiv-launches-smartit-pre-engineered-ai-infrastructure-platform/",
@@ -509,20 +653,6 @@
       "ts": 1793037015.0
     },
     {
-      "title": "AI chatbots can be a valuable health resource for older adults—if they embrace 'informed skepticism'",
-      "link": "https://medicalxpress.com/news/2026-10-ai-chatbots-valuable-health-resource.html",
-      "summary": "It's easy to stereotype older adults as tech-averse or novice tech users. Yet a growing number of adults age 60 and older are embracing artificial intelligence, using it for entertainment, planning trips and even accessing health information.",
-      "source": "Medical Xpress",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 29,
-      "date": "2026-10-26T17:50:02+00:00",
-      "ts": 1793037002.0
-    },
-    {
       "title": "From Prompts to Agents: How AI is Reshaping the Marketing Team",
       "link": "https://www.unite.ai/ai-agents-marketing-teams-human-judgment/",
       "summary": "For the first few years of generative AI, marketers have been one of its earliest adopters learning how to prompt and asking AI to brainstorm campaign ideas, create outlines, summarize research, and draft copy. The technology made individual tasks faster, but the basic structure of marketing work stayed largely the...",
@@ -564,20 +694,6 @@
       "relevance": 56,
       "date": "2026-10-26T16:22:58+00:00",
       "ts": 1793031778.0
-    },
-    {
-      "title": "Anthropic reveals rapid revenue gains and larger losses in stock market filing",
-      "link": "https://www.theguardian.com/technology/2026/oct/26/anthropic-files-listing-stock-market",
-      "summary": "Market debut of AI company behind Claude chatbot will be one of largest in US history, a test of the AI boom’s financial viability Anthropic has publicly filed for a stock market listing in what is slated to be one of the largest debuts in history. The company’s float on the US market will serve as a test of the...",
-      "source": "The Guardian (IA)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 42,
-      "date": "2026-10-26T16:22:28+00:00",
-      "ts": 1793031748.0
     },
     {
       "title": "IA eleva em 20% eficiência espectral do 5G em teste da Nokia e O2",
@@ -1536,18 +1652,6 @@
       "ts": 1792930338.0
     },
     {
-      "title": "What Is Data Poisoning? How Attackers Corrupt AI Models and Datasets",
-      "link": "https://www.unite.ai/what-is-data-poisoning-how-attackers-corrupt-ai-models-and-datasets/",
-      "summary": "Data poisoning manipulates training, fine-tuning, evaluation, or retrieval data so an AI system learns corrupted behavior or produces attacker-chosen outcomes. This guide explains the mechanism, trade-offs, evaluation, and controls that matter in practice.",
-      "source": "Unite.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 53,
-      "date": "2026-10-25T12:00:00+00:00",
-      "ts": 1792929600.0
-    },
-    {
       "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
       "link": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
       "summary": "#20",
@@ -1574,18 +1678,6 @@
       "relevance": 61,
       "date": "2026-10-25T11:32:29+00:00",
       "ts": 1792927949.0
-    },
-    {
-      "title": "AI21 Labs Releases LIFT-Bench to Curb Reward Hacking in RL Training",
-      "link": "https://www.unite.ai/ai21-labs-releases-lift-bench-to-curb-reward-hacking-in-rl-training/",
-      "summary": "AI21 Labs released LIFT-Bench on October 25, 2026, an instruction-following benchmark in which every constraint is scoped to one section of a document and the task content itself is scored, alongside LIFT-Train, a 34,258-task training counterpart, and the open pipeline that generated both. A companion paper, \"LIFT:...",
-      "source": "Unite.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 56,
-      "date": "2026-10-25T10:28:13+00:00",
-      "ts": 1792924093.0
     },
     {
       "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
@@ -1712,21 +1804,6 @@
       "ts": 1792895418.0
     },
     {
-      "title": "China Mobile Opens an Auto-Industry AI Foundation With 112.7 EFLOPS and Six Agents for Carmakers",
-      "link": "https://pandaily.com/china-mobile-auto-industry-ai-foundation-112-eflops-six-agents-open-to-carmakers",
-      "summary": "A China Mobile-led national AI pilot base for the auto sector opened a shared compute, data and model platform, with six agents for design, process planning, inspection, maintenance and driving.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 51,
-      "date": "2026-10-25T01:57:29+00:00",
-      "ts": 1792893449.0
-    },
-    {
       "title": "Block’s new voice model sounds eerily human",
       "link": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
       "summary": "Typically, speech models are paired with a large language model for knowledge retrieval. Block said that Dessa's knowledge stems from the conversational data it has.",
@@ -1794,49 +1871,6 @@
       "relevance": 68,
       "date": "2026-10-24T11:14:32+00:00",
       "ts": 1792840472.0
-    },
-    {
-      "title": "Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers",
-      "link": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/",
-      "summary": "Anthropic sandbox-runtime (srt) is the open-source, OS-level sandbox behind Claude Code. It restricts file and network access for agents, MCP servers and CLI tools with Seatbelt on macOS and bubblewrap on Linux, no containers needed. The post Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No...",
-      "source": "MarkTechPost",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 58,
-      "date": "2026-10-24T11:12:27+00:00",
-      "ts": 1792840347.0
-    },
-    {
-      "title": "360's Zhou Hongyi Says Its Sovereign AI Operating System Is Already in Use at Some Organizations",
-      "link": "https://pandaily.com/360-zhou-hongyi-sovereign-ai-operating-system-enterprise-private-deployment-agent-factory",
-      "summary": "360 founder Zhou Hongyi says the company's sovereign AI operating system, covering compute, models, knowledge bases and an agent factory under customer control, is now used by some organizations.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 63,
-      "date": "2026-10-24T07:07:49+00:00",
-      "ts": 1792825669.0
-    },
-    {
-      "title": "Qwen Go! Adds My Apps, Letting Users Build Shareable Apps by Description With Alibaba Cloud Meoo",
-      "link": "https://pandaily.com/qwen-go-my-apps-no-code-shareable-apps-alibaba-cloud-meoo-invite-beta",
-      "summary": "Qwen Go! now lets users build long-lasting, shareable apps just by describing them. The My Apps feature runs on Alibaba Cloud's Meoo, which handles building, databases and deployment.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 50,
-      "date": "2026-10-24T07:07:35+00:00",
-      "ts": 1792825655.0
     },
     {
       "title": "Introducing Kimi K3.1 Pro",
@@ -2117,34 +2151,6 @@
       "relevance": 44,
       "date": "2026-10-22T19:07:09+00:00",
       "ts": 1792696029.0
-    },
-    {
-      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-      "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-      "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 46,
-      "date": "2026-10-22T19:00:00+00:00",
-      "ts": 1792695600.0
-    },
-    {
-      "title": "Canva releases its first image generation model",
-      "link": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-      "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 43,
-      "date": "2026-10-22T19:00:00+00:00",
-      "ts": 1792695600.0
     },
     {
       "title": "Donating Agent Skills to the Agentic AI Foundation",
@@ -3455,20 +3461,6 @@
       "ts": 1791855605.0
     },
     {
-      "title": "llm-meta-ai 0.2",
-      "link": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-      "summary": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol. I updated my llm-meta-ai plugin for the new model. Here are pelicans for...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 60,
-      "date": "2026-10-12T23:58:46+00:00",
-      "ts": 1791849526.0
-    },
-    {
       "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
       "link": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
       "summary": "If you’ve ever wondered how Claude and similar AI agents can answer complex questions in seconds and where they get the information, you’re not alone. Gurmeet Saran works to find that answer every day as an engineer at Anthropic in San Francisco, the AI research company behind Claude. The IEEE senior member is...",
@@ -4275,20 +4267,6 @@
       "relevance": 46,
       "date": "2026-09-14T04:00:00+00:00",
       "ts": 1789358400.0
-    },
-    {
-      "title": "Russia is weaponizing US-built AI to make killer drones, cyberattack bots, and fake news",
-      "link": "https://www.defenseone.com/technology/2026/09/russia-weaponizing-us-built-ai-make-killer-drones-cyberattack-bots-and-fake-news/415949/",
-      "summary": "AI companies are sounding alarms, but the Trump administration isn’t acting on them.",
-      "source": "Defense One (Tech)",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "defesa"
-      ],
-      "relevance": 22,
-      "date": "2026-09-11T22:53:22+00:00",
-      "ts": 1789167202.0
     },
     {
       "title": "Chinese Satellite Constellation Extends Coverage to Arctic",
