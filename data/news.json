@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-27T17:02:05.629805+00:00",
+  "generated_at": "2026-10-27T21:36:36.791734+00:00",
   "count": 295,
-  "china_count": 51,
+  "china_count": 53,
   "topic_counts": {
     "humanoides": 7,
-    "modelos": 185,
-    "agentes": 63,
-    "biomedica": 11,
-    "defesa": 9,
-    "telecom": 30
+    "modelos": 189,
+    "agentes": 61,
+    "biomedica": 12,
+    "defesa": 8,
+    "telecom": 31
   },
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1327 itens)",
+      "status": "ok (1328 itens)",
       "kept": 12
     },
     {
@@ -33,7 +33,7 @@
     },
     {
       "source": "Hugging Face",
-      "status": "ok (890 itens)",
+      "status": "ok (891 itens)",
       "kept": 12
     },
     {
@@ -104,7 +104,7 @@
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 9
+      "kept": 10
     },
     {
       "source": "MIT Tech Review",
@@ -149,12 +149,12 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Wired AI",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "Analytics India",
@@ -189,7 +189,7 @@
     {
       "source": "Unite.AI",
       "status": "ok (25 itens)",
-      "kept": 8
+      "kept": 7
     },
     {
       "source": "Towards Data Science",
@@ -288,7 +288,7 @@
     },
     {
       "source": "AI News",
-      "status": "ERRO: HTTP Error 502: Bad Gateway",
+      "status": "ERRO: The read operation timed out",
       "kept": 0
     },
     {
@@ -299,7 +299,7 @@
     {
       "source": "The AI Insider",
       "status": "ok (9 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "AIwire",
@@ -339,7 +339,7 @@
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "arXiv eess.IV (imagem)",
@@ -349,7 +349,7 @@
     {
       "source": "DefenseScoop",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Breaking Defense",
@@ -374,7 +374,7 @@
     {
       "source": "RCR Wireless",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "Light Reading",
@@ -429,6 +429,205 @@
   ],
   "items": [
     {
+      "title": "Liquid AI Releases LFM3: 6 Open-Weight 2B-Class Multimodal Models",
+      "link": "https://www.marktechpost.com/2026/10/27/liquid-ai-lfm3-open-weight-2b-multimodal-models/",
+      "summary": "Liquid AI released LFM3, 6 open-weight 2B-class models for text, vision, audio, omni and decisions. LFM3-1.7B uses a tri-hybrid backbone, a 256K context window and fits in about 1 GB at 4-bit. The post Liquid AI Releases LFM3: 6 Open-Weight 2B-Class Multimodal Models appeared first on MarkTechPost .",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 61,
+      "date": "2026-10-27T21:08:02+00:00",
+      "ts": 1793135282.0
+    },
+    {
+      "title": "QorusDocs Launches QPilot Workspace to Ground Proposal Agents in Firm Knowledge",
+      "link": "https://www.unite.ai/qorusdocs-launches-qpilot-workspace-to-ground-proposal-agents-in-firm-knowledge/",
+      "summary": "QorusDocs has launched QPilot Workspace, a shared environment where business development teams and AI agents create proposals, pitches, and responses to requests for proposals. Announced October 27, the workspace combines firm-specific knowledge with drafting, review, and document-production workflows inside Microsoft...",
+      "source": "Unite.AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 45,
+      "date": "2026-10-27T20:56:29+00:00",
+      "ts": 1793134589.0
+    },
+    {
+      "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+      "summary": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of the company's...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 42,
+      "date": "2026-10-27T20:48:58+00:00",
+      "ts": 1793134138.0
+    },
+    {
+      "title": "Anthropic Reports Early Drug Development Progress With Claude",
+      "link": "https://www.unite.ai/anthropic-reports-early-drug-development-progress-with-claude/",
+      "summary": "Anthropic on October 27, 2026 published a progress update on its life sciences work, reporting early results from research partnerships with six drug development organizations — BigHat Biosciences, Bristol Myers Squibb, Divergence Labs, Enveda, Generate Biomedicines, and The Column Group — alongside its first in-house...",
+      "source": "Unite.AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "biomedica",
+        "modelos"
+      ],
+      "relevance": 57,
+      "date": "2026-10-27T20:42:05+00:00",
+      "ts": 1793133725.0
+    },
+    {
+      "title": "Alibaba's latest Qwen models routed some requests through company servers, researchers find",
+      "link": "https://the-decoder.com/alibabas-latest-qwen-models-routed-some-requests-through-company-servers-researchers-find/",
+      "summary": "Alibaba's Qwen 3.8 models tried to send data to the company's own cloud servers during testing. Palisade Research finds the behavior in three models from the 3.8 generation, while older models aren't affected. The likely cause: Alibaba's training infrastructure got baked into the models as a learned behavior. The...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 67,
+      "date": "2026-10-27T19:45:49+00:00",
+      "ts": 1793130349.0
+    },
+    {
+      "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
+      "link": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
+      "summary": "In breathless press releases and posts, the company has touted its models’ ability to deliver scientific breakthroughs. But its IPO filing taps the brakes on just how fast its AI will lead to big discoveries.",
+      "source": "Wired AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "biomedica",
+        "modelos"
+      ],
+      "relevance": 41,
+      "date": "2026-10-27T19:39:04+00:00",
+      "ts": 1793129944.0
+    },
+    {
+      "title": "Anthropic Finds Analysts Defer to AI Agents in Judgment Study",
+      "link": "https://www.unite.ai/anthropic-finds-analysts-defer-to-ai-agents-in-judgment-study/",
+      "summary": "Anthropic on October 27, 2026 published a randomized controlled trial in which 50 professional analysts using Claude Code followed their agent's secretly assigned preference 86% of the time on open analytical judgment calls. The study, authored by Amaç Herdağdelen, Hailey Joren, and Alex Tamkin, examines whether...",
+      "source": "Unite.AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 53,
+      "date": "2026-10-27T19:10:11+00:00",
+      "ts": 1793128211.0
+    },
+    {
+      "title": "DailyAI Briefing: AI breaks a computing rule, plus 4 more",
+      "link": "https://dailyai.com/2026/10/dailyai-briefing-ai-breaks-a-computing-rule-plus-4-more/",
+      "summary": "OpenAI and Anthropic both say AI disproved a decades-old computer science rule, and the FTC wants Anthropic's executives under oath. Plus Qwen tries to phone Beijing, Siri gets a memory, and ChatGPT turns election fakes into cartoons. The post DailyAI Briefing: AI breaks a computing rule, plus 4 more appeared first on...",
+      "source": "DailyAI",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 62,
+      "date": "2026-10-27T18:06:54+00:00",
+      "ts": 1793124414.0
+    },
+    {
+      "title": "Monetizing 6G: sensing first, gigabits second",
+      "link": "https://rcrwireless.com/20261027/6g/monetizing-6g-sensing-business-case",
+      "summary": "Sensing, physical AI and spectrum lead the 6G business case In sum – what to know: 6G monetization will depend on selling business outcomes and intelligent automation rather than connectivity…",
+      "source": "RCR Wireless",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 22,
+      "date": "2026-10-27T18:01:54+00:00",
+      "ts": 1793124114.0
+    },
+    {
+      "title": "Liquid AI Launches LFM3 Family of Six Open-Weight 2B-Class Models",
+      "link": "https://www.unite.ai/liquid-ai-launches-lfm3-family-of-six-open-weight-2b-class-models/",
+      "summary": "Liquid AI announced LFM3 on October 27, 2026, a new generation of open-weight Liquid Foundation Models that brings text, vision, audio, omni, and decision models onto one shared backbone. The first release, detailed in a post on the Hugging Face blog, covers six models in the 2B parameter range. Six Models on One...",
+      "source": "Unite.AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 53,
+      "date": "2026-10-27T17:37:15+00:00",
+      "ts": 1793122635.0
+    },
+    {
+      "title": "Google Deepmind's Genie 4 puts a modern spin on agent designs that predate LLMs",
+      "link": "https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms/",
+      "summary": "Google Deepmind has introduced Genie 4, a real-time world model that simulates interactive 3D worlds with sound and talking characters. Gemini models help plan in the background to keep the simulation consistent. Genie 4 is still an early research model, and longer sessions lead to visual inconsistencies. The article...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 66,
+      "date": "2026-10-27T17:25:09+00:00",
+      "ts": 1793121909.0
+    },
+    {
+      "title": "Build specialized multimodal models with LFM3",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 42,
+      "date": "2026-10-27T17:16:52+00:00",
+      "ts": 1793121412.0
+    },
+    {
+      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+      "link": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+      "summary": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 42,
+      "date": "2026-10-27T17:08:08+00:00",
+      "ts": 1793120888.0
+    },
+    {
+      "title": "Invesco and Anthropic Connect Portfolio Tools for Advisors in Claude",
+      "link": "https://www.unite.ai/invesco-and-anthropic-connect-portfolio-tools-for-advisors-in-claude/",
+      "summary": "Invesco Ltd. announced on October 27, 2026 that it is working with Anthropic to make its portfolio intelligence and practice management resources available through Claude for Financial Advisors, using a new Invesco connector. The firm said the connector will provide a toolkit that helps advisors strengthen their...",
+      "source": "Unite.AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 52,
+      "date": "2026-10-27T17:06:01+00:00",
+      "ts": 1793120761.0
+    },
+    {
       "title": "Oracle Expands OpenAI Partnership With Four Enterprise AI Offerings",
       "link": "https://www.unite.ai/oracle-expands-openai-partnership-with-four-enterprise-ai-offerings/",
       "summary": "Oracle announced a major new collaboration with OpenAI at Oracle AI World in Las Vegas on October 27, 2026, introducing an expanded suite of four offerings that bring OpenAI models, ChatGPT, and Codex together with Oracle's applications, data, and cloud infrastructure. The suite consists of Oracle AI Workspace, Oracle...",
@@ -441,20 +640,6 @@
       "relevance": 60,
       "date": "2026-10-27T16:40:01+00:00",
       "ts": 1793119201.0
-    },
-    {
-      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
-      "link": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
-      "summary": "Google DeepMind released Genie 4, a world model with real-time audio, more realistic simulations, and mid-simulation text prompts, in research preview for trusted testers.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 44,
-      "date": "2026-10-27T16:30:57+00:00",
-      "ts": 1793118657.0
     },
     {
       "title": "NVIDIA, Oracle Plan Multi-Gigawatt Vera Rubin Expansion on OCI",
@@ -481,20 +666,6 @@
       "relevance": 29,
       "date": "2026-10-27T16:25:18+00:00",
       "ts": 1793118318.0
-    },
-    {
-      "title": "Google DeepMind Rolls Out Genie 4 World Model in Research Preview",
-      "link": "https://www.unite.ai/google-deepmind-rolls-out-genie-4-world-model-in-research-preview/",
-      "summary": "Google DeepMind announced Genie 4, its new world model for real-time interactive simulation, on October 27, 2026, releasing it as a research preview to trusted testers. The announcement, authored by Raia Hadsell, Diego Rivas and Hang Qi, describes Genie 4 as natively multimodal, with music, ambient noises and...",
-      "source": "Unite.AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 49,
-      "date": "2026-10-27T16:21:02+00:00",
-      "ts": 1793118062.0
     },
     {
       "title": "Telecom R&D Rewired for AI: What the Nokia and LTTS Engineering Partnership Signals",
@@ -555,18 +726,6 @@
       "ts": 1793113826.0
     },
     {
-      "title": "Confident Science Papers Sway AI Judges – Regardless of Merit",
-      "link": "https://www.unite.ai/confident-science-papers-sway-ai-judges-regardless-of-merit/",
-      "summary": "Confidence is a distinct advantage in evolution – and, according to a new research paper from Germany, also an advantage when a scientific paper is getting reviewed by Large Language Models (LLMs) instead of an author's peers (an increasingly frequent necessity, as the volume of science papers balloons thanks to the...",
-      "source": "Unite.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 49,
-      "date": "2026-10-27T14:59:25+00:00",
-      "ts": 1793113165.0
-    },
-    {
       "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
       "link": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
       "summary": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
@@ -577,21 +736,6 @@
       "relevance": 43,
       "date": "2026-10-27T14:59:09+00:00",
       "ts": 1793113149.0
-    },
-    {
-      "title": "Bito Launches Governor to Cut Coding-Agent Costs With Context and Model Routing",
-      "link": "https://www.unite.ai/bito-governor-context-model-routing-coding-agent-costs/",
-      "summary": "A coding agent can spend much of a session finding the right files before it makes a useful change. Each search adds context that may travel back to a model on later turns, turning a modest task into a growing inference bill. Bito is targeting both sides of that cost with Governor, a new model router that combines...",
-      "source": "Unite.AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 52,
-      "date": "2026-10-27T14:30:35+00:00",
-      "ts": 1793111435.0
     },
     {
       "title": "OpenAI and Anthropic Say AI Broke the Same Computer Science Rule",
@@ -606,21 +750,6 @@
       "relevance": 45,
       "date": "2026-10-27T14:27:18+00:00",
       "ts": 1793111238.0
-    },
-    {
-      "title": "AI's preference for drugs with a strong online presence may cost millions",
-      "link": "https://medicalxpress.com/news/2026-10-ai-drugs-strong-online-presence.html",
-      "summary": "Large language models (LLMs), such as ChatGPT and Claude, are increasingly being used to provide health information to the public. Although this is beneficial for improving access to treatment information, their limitations were revealed by a new study that found LLMs were biased in their treatment choices and that...",
-      "source": "Medical Xpress",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "biomedica",
-        "modelos"
-      ],
-      "relevance": 69,
-      "date": "2026-10-27T14:11:04+00:00",
-      "ts": 1793110264.0
     },
     {
       "title": "‘Meaningless as a laptop screensaver’: reviewers slate Musk’s AI-made Odyssey film",
@@ -651,20 +780,6 @@
       "ts": 1793109324.0
     },
     {
-      "title": "Opera Launches WebAI, Bringing Local AI Models to Its Browsers",
-      "link": "https://www.unite.ai/opera-launches-webai-bringing-local-ai-models-to-its-browsers/",
-      "summary": "Opera announced on October 27, 2026, that it began shipping local AI models directly in its browsers, making AI that runs on a user's own computer a central part of the next generation of Opera browsers. The first capabilities are available as an opt-in early preview in Opera One, with Opera GX and Opera Neon to...",
-      "source": "Unite.AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 44,
-      "date": "2026-10-27T13:44:10+00:00",
-      "ts": 1793108650.0
-    },
-    {
       "title": "AI needs more than incremental 6G fixes, says Verizon – as uplink ratio shifts 1:1, LA28 looms",
       "link": "https://rcrwireless.com/20261027/carriers/ai-needs-more-than-incremental-6g-fixes-says-verizon-as-uplink-ratio-shifts-11-la28-looms",
       "summary": "Verizon CTO Yago Tenorio says 6G needs an architectural rethink to handle AI-driven uplink demand, avoid repeating 5G’s standardization mistakes, and embed autonomous network operations and commercial use cases from…",
@@ -691,35 +806,6 @@
       "relevance": 47,
       "date": "2026-10-27T13:33:13+00:00",
       "ts": 1793107993.0
-    },
-    {
-      "title": "Salesforce Adds Agent Evals and Cost Controls to Agent Fabric",
-      "link": "https://www.unite.ai/salesforce-adds-agent-evals-and-cost-controls-to-agent-fabric/",
-      "summary": "Salesforce announced on October 27, 2026, a set of additions to Agent Fabric, its AI control plane for managing and governing agents across platforms, headlined by Agent Evals, API Evals, and advanced cost controls. Salesforce said the platform handles more than 1.2 billion requests daily. The announcement frames the...",
-      "source": "Unite.AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 42,
-      "date": "2026-10-27T13:29:18+00:00",
-      "ts": 1793107758.0
-    },
-    {
-      "title": "Guidewire Launches Platform Approach to Agentic Insurance",
-      "link": "https://www.unite.ai/guidewire-launches-platform-approach-to-agentic-insurance/",
-      "summary": "Guidewire launched a new platform approach to agentic insurance on October 27, 2026, at its Connections 2026 customer conference in Las Vegas, presenting a portfolio of agents and agentic capabilities spanning underwriting, claims, and the underlying data platform. Guidewire described the approach as an open, secure,...",
-      "source": "Unite.AI",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 53,
-      "date": "2026-10-27T13:07:10+00:00",
-      "ts": 1793106430.0
     },
     {
       "title": "Mirendil Launches Fern 0.1, Its First Model, With 10M-Token Context",
@@ -968,20 +1054,6 @@
       "relevance": 57,
       "date": "2026-10-27T08:15:06+00:00",
       "ts": 1793088906.0
-    },
-    {
-      "title": "Financial Providers Are Ready For Agentic AI Onboarding, But Consumers Aren’t, Study Warns",
-      "link": "https://theaiinsider.tech/2026/10/27/financial-providers-are-ready-for-agentic-ai-onboarding-but-consumers-arent-study-warns/",
-      "summary": "Insider Brief PRESS RELEASE — Financial services providers are preparing for a future in which AI agents open accounts on behalf of customers, but consumers are far from ready to hand over control. New research from Signicat, the European leader in digital identity and fraud prevention solutions, finds that 65% of...",
-      "source": "The AI Insider",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 59,
-      "date": "2026-10-27T08:12:37+00:00",
-      "ts": 1793088757.0
     },
     {
       "title": "ByteDance's Dreamina Opens a Short-Drama Studio With Its Own Script, Image and Storyboard Models",
@@ -1849,18 +1921,6 @@
       "ts": 1793038422.0
     },
     {
-      "title": "Researchers find six patterns that make AI text so exhausting to read",
-      "link": "https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/",
-      "summary": "A study from New York University and the University of Texas at Austin shows that frontier language models systematically overuse linguistic patterns that are hard for humans to parse. The researchers trace the problem to training on code and math, where correctness gets rewarded but clarity doesn't. Smaller models,...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 56,
-      "date": "2026-10-26T17:50:15+00:00",
-      "ts": 1793037015.0
-    },
-    {
       "title": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK",
       "link": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
       "summary": "Build enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS CDK: an agent that routes across two knowledge bases, retrieves through the AgentCore Gateway, and returns grounded, cited answers, with seven layers of observability and both on-demand and continuous evaluation, all deployed as...",
@@ -2058,20 +2118,6 @@
       "relevance": 50,
       "date": "2026-10-26T09:49:10+00:00",
       "ts": 1793008150.0
-    },
-    {
-      "title": "OpenAI Restarts Frontier Training After Its Own Agents Spent Billions of Tokens Testing the Locks",
-      "link": "https://dailyai.com/2026/10/openai-restarts-frontier-training-after-its-own-agents-spent-billions-of-tokens-testing-the-locks/",
-      "summary": "OpenAI says teams of its own AI agents spent hundreds of billions of tokens trying to escape its training sandboxes before it restarted frontier training. Along the way, a 9.8-rated web bug surfaced. The post OpenAI Restarts Frontier Training After Its Own Agents Spent Billions of Tokens Testing the Locks appeared...",
-      "source": "DailyAI",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 53,
-      "date": "2026-10-26T09:16:35+00:00",
-      "ts": 1793006195.0
     },
     {
       "title": "Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang",
@@ -2316,20 +2362,6 @@
       "ts": 1792928940.0
     },
     {
-      "title": "Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner",
-      "link": "https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner/",
-      "summary": "Anthropic has launched OSS Scanner, a free, opt-in vulnerability scanner for critical open-source projects. The Anthropic OSS Scanner runs the company’s strongest models, including Claude Mythos, against enrolled codebases. Reports go straight to maintainers without human review. That trade delivers faster findings,...",
-      "source": "MarkTechPost",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 61,
-      "date": "2026-10-25T11:32:29+00:00",
-      "ts": 1792927949.0
-    },
-    {
       "title": "China’s tech giants are paying 1 million yuan for a new kind of AI engineer",
       "link": "https://www.scmp.com/tech/tech-trends/article/3371925/chinas-tech-giants-are-paying-1-million-yuan-new-kind-ai-engineer",
       "summary": "Chinese technology giants are dangling annual pay packages approaching 1 million yuan (US$149,739) to attract artificial intelligence engineers who can turn AI models into commercial applications. Companies including ByteDance, Tencent Holdings and Alibaba Group Holding are stepping up recruitment and training of the...",
@@ -2409,6 +2441,20 @@
       "relevance": 68,
       "date": "2026-10-24T11:14:32+00:00",
       "ts": 1792840472.0
+    },
+    {
+      "title": "Quick Study",
+      "link": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+      "summary": "Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush See also my previous experiment getting Claude Fable to simulate a watercolor illustration with P5.js. Quick Study...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 50,
+      "date": "2026-10-23T21:35:13+00:00",
+      "ts": 1792791313.0
     },
     {
       "title": "Introducing Kimi K3.1 Pro",
@@ -2662,6 +2708,21 @@
       "ts": 1792692001.0
     },
     {
+      "title": "Stream low-latency speech from AI agents using Kokoro TTS on Amazon SageMaker AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/stream-low-latency-speech-from-ai-agents-using-kokoro-tts-on-amazon-sagemaker-ai/",
+      "summary": "Voice agents often wait for an agent's full response before starting speech synthesis, adding latency users feel directly. This post shows how to stream each sentence to a Kokoro-82M text-to-speech model on Amazon SageMaker AI as the agent produces it, and how to get that audio back to a browser over Server-Sent...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 44,
+      "date": "2026-10-22T17:45:58+00:00",
+      "ts": 1792691158.0
+    },
+    {
       "title": "Flint-interactive: A language for creating interactive data visualizations",
       "link": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
       "summary": "Flint-interactive gives AI agents a language for creating interactive visualizations. Click a chart, filter data, highlight related content, and explore beyond the view the author originally chose. The post Flint-interactive: A language for creating interactive data visualizations appeared first on Microsoft Research .",
@@ -2898,35 +2959,6 @@
       "relevance": 23,
       "date": "2026-10-21T23:56:34+00:00",
       "ts": 1792626994.0
-    },
-    {
-      "title": "5 production challenges in multi-agent systems and how Deep Insight solved them",
-      "link": "https://aws.amazon.com/blogs/machine-learning/5-production-challenges-in-multi-agent-systems-and-how-deep-insight-solved-them/",
-      "summary": "Many teams build a multi-agent AI prototype in days but hit a wall in production. This post defines five production challenges (orchestration, per-agent model selection, reliable operation, secure code execution, and monitoring) and shows how Deep Insight, an open source multi-agent system on AWS, solves each.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 51,
-      "date": "2026-10-21T23:36:47+00:00",
-      "ts": 1792625807.0
-    },
-    {
-      "title": "Air Force starting to game out sustainment framework for CCA drones",
-      "link": "https://defensescoop.com/2026/10/21/air-force-cca-drones-sustainment-plan/",
-      "summary": "Once the AI-enabled uncrewed systems are fielded, the Air Force will need its maintenance enterprise to help keep them flying and ready for combat. The post Air Force starting to game out sustainment framework for CCA drones appeared first on DefenseScoop .",
-      "source": "DefenseScoop",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "defesa"
-      ],
-      "relevance": 22,
-      "date": "2026-10-21T20:21:11+00:00",
-      "ts": 1792614071.0
     },
     {
       "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
@@ -3345,20 +3377,6 @@
       "ts": 1792392063.0
     },
     {
-      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "link": "https://huggingface.co/blog/hf-torchneuron",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 34,
-      "date": "2026-10-19T00:00:00+00:00",
-      "ts": 1792368000.0
-    },
-    {
       "title": "Giving AI a “crystal clear” view of the materials world",
       "link": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
       "summary": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
@@ -3717,20 +3735,6 @@
       "relevance": 50,
       "date": "2026-10-13T16:00:00+00:00",
       "ts": 1791907200.0
-    },
-    {
-      "title": "web-edit 0.1a1",
-      "link": "https://simonwillison.net/2026/Oct/13/web-edit/",
-      "summary": "Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling , projects",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-10-13T01:40:05+00:00",
-      "ts": 1791855605.0
     },
     {
       "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
