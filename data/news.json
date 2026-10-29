@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-29T11:58:04.444539+00:00",
-  "count": 256,
+  "generated_at": "2026-10-29T18:02:38.425262+00:00",
+  "count": 250,
   "china_count": 56,
   "topic_counts": {
-    "humanoides": 9,
-    "modelos": 184,
+    "humanoides": 7,
+    "modelos": 177,
     "agentes": 54,
     "biomedica": 8,
-    "defesa": 8,
-    "telecom": 22
+    "defesa": 9,
+    "telecom": 20
   },
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1334 itens)",
+      "status": "ok (1337 itens)",
       "kept": 12
     },
     {
@@ -33,7 +33,7 @@
     },
     {
       "source": "Hugging Face",
-      "status": "ok (891 itens)",
+      "status": "ok (894 itens)",
       "kept": 12
     },
     {
@@ -104,7 +104,7 @@
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 9
+      "kept": 7
     },
     {
       "source": "MIT Tech Review",
@@ -124,7 +124,7 @@
     {
       "source": "KDnuggets",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "TechXplore (IA/ML)",
@@ -189,7 +189,7 @@
     {
       "source": "Unite.AI",
       "status": "ok (25 itens)",
-      "kept": 8
+      "kept": 4
     },
     {
       "source": "Towards Data Science",
@@ -284,7 +284,7 @@
     {
       "source": "The Guardian (IA)",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "AI News",
@@ -294,7 +294,7 @@
     {
       "source": "DailyAI",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "The AI Insider",
@@ -309,7 +309,7 @@
     {
       "source": "The Robot Report",
       "status": "ok (15 itens)",
-      "kept": 5
+      "kept": 4
     },
     {
       "source": "IEEE Spectrum Robotica",
@@ -339,7 +339,7 @@
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "arXiv eess.IV (imagem)",
@@ -373,8 +373,8 @@
     },
     {
       "source": "RCR Wireless",
-      "status": "ok (10 itens)",
-      "kept": 2
+      "status": "ERRO: HTTP Error 520: <none>",
+      "kept": 0
     },
     {
       "source": "Light Reading",
@@ -393,8 +393,8 @@
     },
     {
       "source": "Total Telecom",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 1
     },
     {
       "source": "TeckNexus",
@@ -428,6 +428,305 @@
     }
   ],
   "items": [
+    {
+      "title": "Baseten Releases Joey-1, a 2B Open-Weights Decision Model",
+      "link": "https://www.unite.ai/baseten-releases-joey-1-a-2b-open-weights-decision-model/",
+      "summary": "Baseten on October 29, 2026 released joey-1, a 2B-parameter decision model developed by its in-house research lab Base Labs, priced at $0.01 per million tokens and available through Baseten Model APIs and as open weights on Hugging Face. With joey-1, the Base Labs decision model family now spans three sizes. The...",
+      "source": "Unite.AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 67,
+      "date": "2026-10-29T17:49:03+00:00",
+      "ts": 1793296143.0
+    },
+    {
+      "title": "Improving AI-generated images, pixel by pixel",
+      "link": "https://techxplore.com/news/2026-10-ai-generated-images-pixel.html",
+      "summary": "If you have ever used an artificial intelligence text-to-image generator like ChatGPT or Google Gemini, you may have encountered a common but maddening problem: The image looks nearly perfect, but when you ask the AI to fix one small detail, it messes up something unrelated.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 61,
+      "date": "2026-10-29T17:20:19+00:00",
+      "ts": 1793294419.0
+    },
+    {
+      "title": "OpenAI Expands Monitoring to Detect Frontier Model Misalignment",
+      "link": "https://www.unite.ai/openai-expands-monitoring-to-detect-frontier-model-misalignment/",
+      "summary": "OpenAI on October 29, 2026 published a detailed account of its expanded multilayer system for detecting misaligned behavior in its frontier models, extending monitoring across training, evaluation, internal use, and, with modifications, external deployment. OpenAI said the expansion followed the Hugging Face incident,...",
+      "source": "Unite.AI",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 47,
+      "date": "2026-10-29T17:11:03+00:00",
+      "ts": 1793293863.0
+    },
+    {
+      "title": "Building a multiplayer game world with autonomous Fable-class models",
+      "link": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+      "summary": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 53,
+      "date": "2026-10-29T17:00:26+00:00",
+      "ts": 1793293226.0
+    },
+    {
+      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+      "link": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+      "summary": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "defesa",
+        "modelos"
+      ],
+      "relevance": 48,
+      "date": "2026-10-29T16:21:00+00:00",
+      "ts": 1793290860.0
+    },
+    {
+      "title": "Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS",
+      "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks/",
+      "summary": "NVIDIA Nemotron 3.5 Super VL is a 120B-parameter mixture-of-experts model that pairs reasoning and tool use with multimodal understanding. This post explores its architecture and use cases, then shows how to deploy it on Amazon EKS, EKS Auto Mode, and Amazon SageMaker HyperPod EKS with NVIDIA Dynamo and vLLM.",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 73,
+      "date": "2026-10-29T16:11:08+00:00",
+      "ts": 1793290268.0
+    },
+    {
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "link": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios,...",
+      "source": "NVIDIA Blog",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 51,
+      "date": "2026-10-29T16:00:35+00:00",
+      "ts": 1793289635.0
+    },
+    {
+      "title": "ConnectWise Launches RMM Agent to Investigate IT Tickets With Technician-Approved Fixes",
+      "link": "https://www.unite.ai/connectwise-rmm-agent-investigates-it-tickets-technician-approved-fixes/",
+      "summary": "ConnectWise has launched RMM Agent, bringing AI-led endpoint investigation into the service ticket where technicians already work. Announced on October 29, the product examines a linked device, tests possible causes, and stages a remedy from a vetted catalog. Every device change requires a technician's explicit...",
+      "source": "Unite.AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 42,
+      "date": "2026-10-29T15:47:25+00:00",
+      "ts": 1793288845.0
+    },
+    {
+      "title": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
+      "link": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/",
+      "summary": "Mistral has released the weights for Large 4, aka \"Le Chonk,\" a trillion-parameter model trained entirely in Europe. Mistral says it beats its open rivals at coding, and independent testing shows it's fast and fairly cheap. It still can't match China's top models, scoring 26 points to the 32 posted by DeepSeek V4.1...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 71,
+      "date": "2026-10-29T15:25:27+00:00",
+      "ts": 1793287527.0
+    },
+    {
+      "title": "What is it like to work when your co-workers are AI agents?",
+      "link": "https://www.theguardian.com/technology/2026/oct/29/ai-agent-coworker",
+      "summary": "Using AI for roles from executive assistants to chiefs of staff, companies are boasting about doing more with less, creating tension with their human workers On an average workday, Dhruv Amin chats with dozens of colleagues to get things done at his AI startup Anything. He might ask Gwen, his executive assistant, to...",
+      "source": "The Guardian (IA)",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 43,
+      "date": "2026-10-29T15:00:46+00:00",
+      "ts": 1793286046.0
+    },
+    {
+      "title": "Mistral’s 1-Trillion-Parameter Le Chonk Checkpoint Lands on Hugging Face",
+      "link": "https://www.unite.ai/mistrals-1-trillion-parameter-le-chonk-checkpoint-lands-on-hugging-face/",
+      "summary": "Mistral AI on October 29, 2026 released the weights of Mistral Large 4, its flagship 1-trillion-parameter natively multimodal model known as Le Chonk, making the checkpoint downloadable from Hugging Face for self-hosting and available across its API and partner platforms under a modified MIT open-weight license. The...",
+      "source": "Unite.AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 72,
+      "date": "2026-10-29T14:48:27+00:00",
+      "ts": 1793285307.0
+    },
+    {
+      "title": "Nvidia Releases Open-Weight Nemotron 3.5 Transcribe Model for Multilingual Voice AI",
+      "link": "https://theaiinsider.tech/2026/10/29/nvidia-releases-open-weight-nemotron-3-5-transcribe-model-for-multilingual-voice-ai/",
+      "summary": "Nvidia has released Nemotron 3.5 Transcribe, a free, open-weight model that transcribes audio in up to 40 languages, alongside version 2 of Granary, its open source speech dataset. The company said the model can translate 31 languages to and from English, process recordings of up to an hour, and distinguish between as...",
+      "source": "The AI Insider",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 68,
+      "date": "2026-10-29T14:36:36+00:00",
+      "ts": 1793284596.0
+    },
+    {
+      "title": "You Can Now Text ChatGPT’s Dot Agent, but It Isn’t End-to-End Encrypted",
+      "link": "https://dailyai.com/2026/10/you-can-now-text-chatgpts-dot-agent-but-it-isnt-end-to-end-encrypted/",
+      "summary": "US ChatGPT Pro users can now text OpenAI's Dot agent over iMessage or RCS. OpenAI says the messages pass through a third party and aren't end-to-end encrypted. The post You Can Now Text ChatGPT’s Dot Agent, but It Isn’t End-to-End Encrypted appeared first on DailyAI .",
+      "source": "DailyAI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 65,
+      "date": "2026-10-29T14:15:33+00:00",
+      "ts": 1793283333.0
+    },
+    {
+      "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
+      "link": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
+      "summary": "The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity.",
+      "source": "Wired AI",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 67,
+      "date": "2026-10-29T14:00:00+00:00",
+      "ts": 1793282400.0
+    },
+    {
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "link": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "summary": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 63,
+      "date": "2026-10-29T14:00:00+00:00",
+      "ts": 1793282400.0
+    },
+    {
+      "title": "Grok can launch a thousand ships—but this AI remake of the 'Odyssey' can't make us feel",
+      "link": "https://techxplore.com/news/2026-10-grok-thousand-ships-ai-remake.html",
+      "summary": "Imagine a father pretending to be insane because he wants to stay with his son and his family and not go to war. When his son's life is in danger, he is forced to disclose the truth and is obliged to leave his son to go to war.",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 54,
+      "date": "2026-10-29T13:30:01+00:00",
+      "ts": 1793280601.0
+    },
+    {
+      "title": "OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses",
+      "link": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses/",
+      "summary": "Chinese AI labs are now mainly tapping OpenAI's most powerful model, GPT-6 Astra, instead of Anthropic's Claude. The article OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses appeared first on The Decoder .",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 65,
+      "date": "2026-10-29T13:20:14+00:00",
+      "ts": 1793280014.0
+    },
+    {
+      "title": "Fluent language makes a hallucinatory chatbot just as credible as a curt, flawless one",
+      "link": "https://techxplore.com/news/2026-10-fluent-language-hallucinatory-chatbot-credible.html",
+      "summary": "Most people are by now quite familiar with ChatGPT, Gemini, Claude and other chatbots: Every day, people ask millions of questions and receive neatly formulated answers in return. Yet these language models still tend to run wild with so-called \"hallucinations\": unreliable, dubious answers that are presented with great...",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 65,
+      "date": "2026-10-29T13:00:14+00:00",
+      "ts": 1793278814.0
+    },
+    {
+      "title": "Casap Closes $56M Series B to Scale AI Agents Across Financial Services",
+      "link": "https://theaiinsider.tech/2026/10/29/casap-closes-56m-series-b-to-scale-ai-agents-across-financial-services/",
+      "summary": "Casap, an AI agent platform built for financial services, has closed an oversubscribed $56 million Series B led by Base10 Partners, with strategic participation from Experian and Synchrony and continued backing from Emergence Capital and Lightspeed Venture Partners. The round brings total funding to $90 million and...",
+      "source": "The AI Insider",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 44,
+      "date": "2026-10-29T12:52:57+00:00",
+      "ts": 1793278377.0
+    },
+    {
+      "title": "Nearly half of severely distressed generative AI users turn to chatbots for emotional support, study finds",
+      "link": "https://medicalxpress.com/news/2026-10-severely-distressed-generative-ai-users.html",
+      "summary": "A new study has found that almost one in three Israeli adults surveyed who use generative artificial intelligence (AI) tools reported seeking emotional support, coping advice or mental health assistance from platforms such as ChatGPT and Gemini. Among users experiencing severe psychological distress, that figure rose...",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 64,
+      "date": "2026-10-29T12:40:07+00:00",
+      "ts": 1793277607.0
+    },
+    {
+      "title": "Agent Containment Becomes an Operational Discipline: Securing AI That Acts on Its Own",
+      "link": "https://tecknexus.com/ai-agent-containment-security-controls-telecom-networks/",
+      "summary": "Recent incidents involving long-running AI agents, a pause in frontier model development and new tools from NVIDIA, Red Hat and Doxx.net show agent containment becoming an operational discipline. TeckNexus maps the layers of AI agent containment, explains why telecom networks sit at the centre of the effort, and sets...",
+      "source": "TeckNexus",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 47,
+      "date": "2026-10-29T12:13:49+00:00",
+      "ts": 1793276029.0
+    },
     {
       "title": "Articul8 Launches Bivia To Help Enterprise AI Agents Make Decisions",
       "link": "https://analyticsindiamag.com/ai-news/articul8-launches-bivia-to-help-enterprise-ai-agents-make-decisions",
@@ -484,21 +783,6 @@
       "relevance": 40,
       "date": "2026-10-29T10:11:12+00:00",
       "ts": 1793268672.0
-    },
-    {
-      "title": "AGIBOT Unveils Worken Framework to Quantify Robots’ Useful Output",
-      "link": "https://www.unite.ai/agibot-unveils-worken-framework-to-quantify-robots-useful-output/",
-      "summary": "AGIBOT introduced Worken, a proposed framework for measuring how much productive work robots perform once deployed, at AGIBOT Innovation Day 2026 in Shanghai on October 29, 2026. The company also used the event to unveil its AHA3 integrated hardware platform, debut the GO-3 Preview embodied foundation model and the...",
-      "source": "Unite.AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "humanoides",
-        "modelos"
-      ],
-      "relevance": 42,
-      "date": "2026-10-29T10:05:02+00:00",
-      "ts": 1793268302.0
     },
     {
       "title": "How to get started with AI agents, and which are best for specific tasks",
@@ -570,6 +854,20 @@
       "relevance": 57,
       "date": "2026-10-29T07:50:39+00:00",
       "ts": 1793260239.0
+    },
+    {
+      "title": "AI traffic growth could strain India's networks as telcos face monetization challenge",
+      "link": "https://www.lightreading.com/ai-machine-learning/ai-traffic-growth-could-strain-india-s-networks-as-telcos-face-monetization-challenge",
+      "summary": "As AI traffic grows, India's telecom service providers may need targeted network upgrades to handle rising uplink demand even as they struggle with monetization.",
+      "source": "Light Reading",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 22,
+      "date": "2026-10-29T07:30:00+00:00",
+      "ts": 1793259000.0
     },
     {
       "title": "AssemblyAI Ships AssemblyAI-TTS-1: A $15 per 1M Character Text-to-Speech API for Voice Agents",
@@ -781,6 +1079,34 @@
       "ts": 1793239228.0
     },
     {
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "link": "https://huggingface.co/blog/mistral-large4",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 49,
+      "date": "2026-10-29T00:00:00+00:00",
+      "ts": 1793232000.0
+    },
+    {
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "link": "https://huggingface.co/blog/anydecisionmodel",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 42,
+      "date": "2026-10-29T00:00:00+00:00",
+      "ts": 1793232000.0
+    },
+    {
       "title": "PsiQuantum Targets AI Data Center Networks with Silicon-Photonic Optical Switching",
       "link": "https://techblog.comsoc.org/2026/10/28/psiquantum-targets-ai-data-center-networks-with-silicon-photonic-optical-switching/",
       "summary": "Disclaimer: ChatGPT was used extensively for research contained in this article. …………………………………………………………………………………………………………………………………….. Introduction: As AI workloads expand and AI clusters grow, the networks connecting GPUs and other accelerators are becoming an increasingly important constraint on performance, power...",
@@ -795,35 +1121,6 @@
       "ts": 1793230318.0
     },
     {
-      "title": "OpenAI and ServiceNow Expand Partnership With ChatGPT Workflow Plugin",
-      "link": "https://www.unite.ai/openai-and-servicenow-expand-partnership-with-chatgpt-workflow-plugin/",
-      "summary": "OpenAI and ServiceNow announced an expanded partnership on October 28, 2026, that brings more OpenAI models and agents into ServiceNow products and connects ServiceNow workflows with ChatGPT and Codex, spanning application development, cybersecurity, voice-driven risk assessment, and new deployments inside both...",
-      "source": "Unite.AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 64,
-      "date": "2026-10-28T20:45:02+00:00",
-      "ts": 1793220302.0
-    },
-    {
-      "title": "Digitate Adds Governed IT Agents and MCP Integration With ignio Hummingbird",
-      "link": "https://www.unite.ai/digitate-ignio-hummingbird-governed-it-agents-mcp/",
-      "summary": "An AI assistant can explain why a business system has failed without resolving the failure. The harder step is connecting that explanation to an authorised action, carrying it out and checking that it worked. Digitate is addressing that gap with ignio Hummingbird, a release that combines specialised IT operations...",
-      "source": "Unite.AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 42,
-      "date": "2026-10-28T20:38:08+00:00",
-      "ts": 1793219888.0
-    },
-    {
       "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
       "link": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
       "summary": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and GPT-6 Astra trailing...",
@@ -836,35 +1133,6 @@
       "relevance": 75,
       "date": "2026-10-28T20:03:00+00:00",
       "ts": 1793217780.0
-    },
-    {
-      "title": "Kindo Launches Deep Hat Sift to Cut Unnecessary AI Agent Runs",
-      "link": "https://www.unite.ai/kindo-deep-hat-sift-ai-agent-event-triage/",
-      "summary": "An AI agent that reads every security alert or log entry incurs a cost even when its conclusion is that nothing needs doing. At enterprise volumes, those uneventful investigations can become a substantial workload of their own. Kindo has launched Deep Hat Sift, a model designed to decide which incoming events warrant...",
-      "source": "Unite.AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 49,
-      "date": "2026-10-28T19:58:52+00:00",
-      "ts": 1793217532.0
-    },
-    {
-      "title": "Anthropic Adds Smart Reports, Surveys, Pooled Budgets to Claude Enterprise",
-      "link": "https://www.unite.ai/anthropic-adds-smart-reports-surveys-pooled-budgets-to-claude-enterprise/",
-      "summary": "Anthropic made three Claude Enterprise features generally available on October 28, 2026: smart reports that analyze what teams accomplish with Claude and what that work costs, in-app surveys that gather employee feedback, and pooled group budgets that let administrators set one shared monthly spending pool per team....",
-      "source": "Unite.AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 52,
-      "date": "2026-10-28T19:41:13+00:00",
-      "ts": 1793216473.0
     },
     {
       "title": "Anthropic: Early Progress on Accelerating Drug Development with Claude",
@@ -922,20 +1190,6 @@
       "relevance": 69,
       "date": "2026-10-28T19:17:58+00:00",
       "ts": 1793215078.0
-    },
-    {
-      "title": "Staged Rollout Sends Google’s Gemini 4 Carbon To Cyber Defenders First",
-      "link": "https://www.unite.ai/staged-rollout-sends-googles-gemini-4-carbon-to-cyber-defenders-first/",
-      "summary": "Google announced Gemini 4 Carbon on October 28, 2026, describing it as the company's strongest frontier model, and said it will reach users through a staged rollout that begins with a subset of cyber defenders rather than a broad release. In the announcement, Koray Kavukcuoglu, SVP of Google DeepMind and Chief AI...",
-      "source": "Unite.AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 60,
-      "date": "2026-10-28T19:07:02+00:00",
-      "ts": 1793214422.0
     },
     {
       "title": "Intel and Oracle Plan Multiyear Expansion of Xeon Computing on OCI",
@@ -1150,49 +1404,6 @@
       "ts": 1793203654.0
     },
     {
-      "title": "Plato Raises $16 Million Series A to Build Simulated Workplaces for AI Agents",
-      "link": "https://www.unite.ai/plato-raises-16-million-series-a-simulated-workplaces-ai-agents/",
-      "summary": "Plato has raised $16 million in Series A funding to build simulated workplaces where AI models can practice using software, navigating business decisions, and completing complex jobs before they operate in live systems. Nava Ventures led the round, with participation from Gradient Ventures, Transpose Platform, and...",
-      "source": "Unite.AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 42,
-      "date": "2026-10-28T16:02:35+00:00",
-      "ts": 1793203355.0
-    },
-    {
-      "title": "Slack Code API Reaches General Availability on All Slack Plans",
-      "link": "https://www.unite.ai/slack-code-api-reaches-general-availability-on-all-slack-plans/",
-      "summary": "Slack made the Slack Code API generally available on all Slack plans on October 28, 2026, opening the code-channel system it launched in August 2026 to any developer's agent. In a post on Slack's developer blog, the company said more than 150 customers and partners had asked for access to build code-channel...",
-      "source": "Unite.AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 47,
-      "date": "2026-10-28T16:02:01+00:00",
-      "ts": 1793203321.0
-    },
-    {
-      "title": "What is artificial general intelligence—and is it already here?",
-      "link": "https://techxplore.com/news/2026-10-artificial-general-intelligence.html",
-      "summary": "OpenAI's president, Greg Brockman, recently suggested that its advanced model, known as GPT-6 Astra, could mark the arrival of something called artificial general intelligence, or AGI.",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 47,
-      "date": "2026-10-28T16:00:34+00:00",
-      "ts": 1793203234.0
-    },
-    {
       "title": "Nvidia's open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
       "link": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/",
       "summary": "Nvidia has released Nemotron 3.5 Transcribe, an open speech recognition model that handles transcription, speaker recognition, and translation and takes its instructions as text prompts. It leads several benchmarks and uses only a sixth of the active parameters of its strongest open rival. Nvidia is also shipping a...",
@@ -1205,34 +1416,6 @@
       "relevance": 63,
       "date": "2026-10-28T15:49:39+00:00",
       "ts": 1793202579.0
-    },
-    {
-      "title": "Rime Launches Customizable Speech-to-Speech AI Model for Enterprise Voice Applications",
-      "link": "https://theaiinsider.tech/2026/10/28/rime-launches-customizable-speech-to-speech-ai-model-for-enterprise-voice-applications/",
-      "summary": "Insider Brief Rime has launched Prism, a customizable speech-to-speech AI model designed to let companies fine-tune voice systems and run them on their own infrastructure. According to the San Francisco voice AI company, Prism can be deployed on-premises or in a private cloud, giving businesses control over customer...",
-      "source": "The AI Insider",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 47,
-      "date": "2026-10-28T15:31:45+00:00",
-      "ts": 1793201505.0
-    },
-    {
-      "title": "New Artificial Analysis index widens the gap between open and closed models",
-      "link": "https://the-decoder.com/new-artificial-analysis-index-widens-the-gap-between-open-and-closed-models/",
-      "summary": "Artificial Analysis overhauled its Intelligence Index, causing Kimi K3.1 Pro to drop five spots in the rankings. The article New Artificial Analysis index widens the gap between open and closed models appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 44,
-      "date": "2026-10-28T15:04:43+00:00",
-      "ts": 1793199883.0
     },
     {
       "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
@@ -1390,21 +1573,6 @@
       "ts": 1793193270.0
     },
     {
-      "title": "China Physical AI Roundup: Unitree Earnings, AgiBot Robot Launch, XPeng Robotaxi Update, Plus Funding & Xiaomi’s New Hand",
-      "link": "https://theaiinsider.tech/2026/10/28/china-physical-ai-roundup-unitree-earnings-agibot-robot-launch-xpeng-robotaxi-update-plus-funding-rounds-xiaomis-new-hand/",
-      "summary": "Insider Brief China’s robotics industry continues to ride a wave of investment, product launches and commercial deployments. New developments include Unitree’s surging revenue and research spending, fresh funding for humanoid and tactile-sensing technologies, and advances in robotic manipulation and autonomous...",
-      "source": "The AI Insider",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "humanoides",
-        "modelos"
-      ],
-      "relevance": 45,
-      "date": "2026-10-28T13:11:14+00:00",
-      "ts": 1793193074.0
-    },
-    {
       "title": "Telcos as Sovereign AI Landlords: Turning Land, Power and Fibre into National AI Capacity",
       "link": "https://tecknexus.com/sovereign-ai-infrastructure-telcos-ai-landlords/",
       "summary": "Chief Telecom's new AI data centre in Taiwan, Bell Canada's Regina facility, Globe Telecom's $1 billion plan and Elisa's €100 million in data centre connectivity orders show telcos turning their physical assets into national AI capacity. TeckNexus examines four sovereign AI infrastructure models for operators, the...",
@@ -1434,20 +1602,6 @@
       "ts": 1793190010.0
     },
     {
-      "title": "With AI writing the code, entrepreneurial thinking is now what counts most for newcomers at Anthropic",
-      "link": "https://the-decoder.com/with-ai-writing-the-code-entrepreneurial-thinking-is-now-what-counts-most-for-newcomers-at-anthropic/",
-      "summary": "Anthropic manager Felix Rieseberg says the classic coding interview is dead because Claude now solves small programming tasks better than job candidates do. He'd rather see prototypes that show taste, empathy, and principled thinking, since in his words, \"hunger beats tenure.\" That sounds empowering, but it pushes the...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 43,
-      "date": "2026-10-28T11:15:00+00:00",
-      "ts": 1793186100.0
-    },
-    {
       "title": "Telcos want more than efficiency from agentic AI",
       "link": "https://www.lightreading.com/ai-machine-learning/telcos-want-more-than-efficiency-from-agentic-ai",
       "summary": "Orange, Telenor and Vodafone explored how they plan to turn agentic AI into measurable operational and customer outcomes during a recent webinar.",
@@ -1461,21 +1615,6 @@
       "relevance": 48,
       "date": "2026-10-28T10:59:08+00:00",
       "ts": 1793185148.0
-    },
-    {
-      "title": "AI agents hacked Anthropic, maker of arguably the most capable AI models for cyberdefense",
-      "link": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/",
-      "summary": "Cybersecurity startup Cathedral used AI agents to break into Anthropic's internal systems through third-party software as part of a bug bounty program. Anthropic confirmed access to sales, HR, and IT data but disputes how deep the breach went. The incident shows how vulnerable even leading AI labs are through their...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 54,
-      "date": "2026-10-28T10:56:24+00:00",
-      "ts": 1793184984.0
     },
     {
       "title": "Legora is building the agentic operating system for legal work",
@@ -1509,14 +1648,14 @@
     {
       "title": "VMO2 judges Ericsson vs. Nokia on AI-RAN",
       "link": "https://www.lightreading.com/5g/vmo2-judges-ericsson-vs-nokia-on-ai-ran",
-      "summary": "Virgin Media O2 has installed an Nvidia processor at a busy Nokia site in central London to see if it offers genuine AI benefits.",
+      "summary": "Virgin Media O2 ...",
       "source": "Light Reading",
       "region": "global",
       "category": "geral",
       "topics": [
         "telecom"
       ],
-      "relevance": 29,
+      "relevance": 22,
       "date": "2026-10-28T08:30:00+00:00",
       "ts": 1793176200.0
     },
@@ -1634,20 +1773,6 @@
       "ts": 1793152365.0
     },
     {
-      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-      "link": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-      "summary": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 59,
-      "date": "2026-10-27T23:34:27+00:00",
-      "ts": 1793144067.0
-    },
-    {
       "title": "Oracle Integrates NVIDIA and Google AI Accelerators with its High-Performance Cloud Networking Infrastructure",
       "link": "https://techblog.comsoc.org/2026/10/27/oracle-integrates-nvidia-and-google-ai-accelerators-with-high-performance-cloud-networking/",
       "summary": "Disclaimer: ChatGPT was used extensively for research included in this article. ………………………………………………………………………………………………………………………………………………………………… Introduction: Oracle’s multiple announcements on October 27th illustrate how AI cloud infrastructure is evolving beyond simply providing access to GPUs. Oracle Cloud...",
@@ -1702,20 +1827,6 @@
       "ts": 1793135282.0
     },
     {
-      "title": "Alibaba's latest Qwen models routed some requests through company servers, researchers find",
-      "link": "https://the-decoder.com/alibabas-latest-qwen-models-routed-some-requests-through-company-servers-researchers-find/",
-      "summary": "Alibaba's Qwen 3.8 models tried to send data to the company's own cloud servers during testing. Palisade Research finds the behavior in three models from the 3.8 generation, while older models aren't affected. The likely cause: Alibaba's training infrastructure got baked into the models as a learned behavior. The...",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 67,
-      "date": "2026-10-27T19:45:49+00:00",
-      "ts": 1793130349.0
-    },
-    {
       "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
       "link": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
       "summary": "In breathless press releases and posts, the company has touted its models’ ability to deliver scientific breakthroughs. But its IPO filing taps the brakes on just how fast its AI will lead to big discoveries.",
@@ -1731,20 +1842,6 @@
       "ts": 1793129944.0
     },
     {
-      "title": "Monetizing 6G: sensing first, gigabits second",
-      "link": "https://rcrwireless.com/20261027/6g/monetizing-6g-sensing-business-case",
-      "summary": "Sensing, physical AI and spectrum lead the 6G business case In sum – what to know: 6G monetization will depend on selling business outcomes and intelligent automation rather than connectivity…",
-      "source": "RCR Wireless",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 22,
-      "date": "2026-10-27T18:01:54+00:00",
-      "ts": 1793124114.0
-    },
-    {
       "title": "Build specialized multimodal models with LFM3",
       "link": "https://huggingface.co/blog/LiquidAI/lfm3",
       "summary": "",
@@ -1757,20 +1854,6 @@
       "relevance": 42,
       "date": "2026-10-27T17:16:52+00:00",
       "ts": 1793121412.0
-    },
-    {
-      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
-      "link": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
-      "summary": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 42,
-      "date": "2026-10-27T17:08:08+00:00",
-      "ts": 1793120888.0
     },
     {
       "title": "Operadoras adotam estratégias distintas para incluir IA em planos",
@@ -1859,34 +1942,6 @@
       "ts": 1793110121.0
     },
     {
-      "title": "AI needs more than incremental 6G fixes, says Verizon – as uplink ratio shifts 1:1, LA28 looms",
-      "link": "https://rcrwireless.com/20261027/carriers/ai-needs-more-than-incremental-6g-fixes-says-verizon-as-uplink-ratio-shifts-11-la28-looms",
-      "summary": "Verizon CTO Yago Tenorio says 6G needs an architectural rethink to handle AI-driven uplink demand, avoid repeating 5G’s standardization mistakes, and embed autonomous network operations and commercial use cases from…",
-      "source": "RCR Wireless",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 29,
-      "date": "2026-10-27T13:34:43+00:00",
-      "ts": 1793108083.0
-    },
-    {
-      "title": "Is AI Really Changing Network Traffic? Inside the Uplink Debate",
-      "link": "https://tecknexus.com/ai-uplink-traffic-debate-mobile-fixed-networks/",
-      "summary": "Deutsche Telekom says AI uplink traffic will not raise its radio spending, T-Mobile sees no measurable change yet, but fixed upstream usage is up 19.2% and forecasts point to uplink tripling by 2031. TeckNexus explains why both sides can be right, how operators will absorb uplink growth within existing budgets, and...",
-      "source": "TeckNexus",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 22,
-      "date": "2026-10-27T12:09:35+00:00",
-      "ts": 1793102975.0
-    },
-    {
       "title": "Google Gemini Omni: What It Actually Does, What It Costs, and How It Compares",
       "link": "https://www.kdnuggets.com/google-gemini-omni-what-it-actually-does-what-it-costs-and-how-it-compares",
       "summary": "Gemini Omni is a member of Google's Gemini generative model family, built specifically to create output from any combination of input types, starting with video.",
@@ -1929,19 +1984,32 @@
       "ts": 1793101419.0
     },
     {
-      "title": "I Tested Every Major AI Agent for a Day. Here’s the Best One",
-      "link": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/",
-      "summary": "I ranked six AI agents—from Meta’s Muse to Anthropic’s Claude Duet—on how well they completed basic tasks.",
-      "source": "Wired AI",
+      "title": "Tata Communications goes all-in on AI-ready fiber",
+      "link": "https://www.lightreading.com/cable-technology/tata-communications-goes-all-in-on-ai-ready-fiber",
+      "summary": "Tata Communications says planned 10,000km fiber network will prepare India for the high-capacity, data center-to-data center connectivity demands of the AI era.",
+      "source": "Light Reading",
       "region": "global",
+      "category": "geral",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 22,
+      "date": "2026-10-27T11:07:06+00:00",
+      "ts": 1793099226.0
+    },
+    {
+      "title": "Cohere Says Alibaba’s Qwen Model Tried to Upload Test File to Beijing Server",
+      "link": "https://analyticsindiamag.com/ai-news/cohere-says-alibabas-qwen-model-tried-to-upload-test-file-to-beijing-server",
+      "summary": "Cohere reported Alibaba's Qwen model tried to upload a test file during a security evaluation, but the sandbox blocked the request.",
+      "source": "Analytics India",
+      "region": "china",
       "category": "modelo",
       "topics": [
-        "agentes",
         "modelos"
       ],
-      "relevance": 51,
-      "date": "2026-10-27T09:30:00+00:00",
-      "ts": 1793093400.0
+      "relevance": 53,
+      "date": "2026-10-27T10:51:24+00:00",
+      "ts": 1793098284.0
     },
     {
       "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
@@ -1972,20 +2040,6 @@
       "ts": 1793080810.0
     },
     {
-      "title": "OpenAI Launches GPT-6.1 Terra With 50% Lower API Prices, Resumes Frontier AI Training",
-      "link": "https://analyticsindiamag.com/ai-news/openai-launches-gpt-61-terra-with-50-lower-api-prices-resumes-frontier-ai-training",
-      "summary": "OpenAI has launched GPT-6.1 Terra, a model that combines visual reasoning, computer use and coding, with API prices 50% lower than those of GPT-5.6 Terra and GP",
-      "source": "Analytics India",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 68,
-      "date": "2026-10-27T04:51:49+00:00",
-      "ts": 1793076709.0
-    },
-    {
       "title": "GPT-6.1 Terra",
       "link": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
       "summary": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra , a fast, efficient model that combines detailed visual reasoning and precise computer...",
@@ -2013,20 +2067,6 @@
       "relevance": 58,
       "date": "2026-10-26T23:26:39+00:00",
       "ts": 1793057199.0
-    },
-    {
-      "title": "Quoting Jason Koebler",
-      "link": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
-      "summary": "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that they have discovered...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 49,
-      "date": "2026-10-26T19:00:25+00:00",
-      "ts": 1793041225.0
     },
     {
       "title": "IA eleva em 20% eficiência espectral do 5G em teste da Nokia e O2",
@@ -2072,34 +2112,6 @@
       "ts": 1793012400.0
     },
     {
-      "title": "From Carnegie to Claude: AI wealth could reshape philanthropy",
-      "link": "https://techxplore.com/news/2026-10-carnegie-claude-ai-wealth-reshape.html",
-      "summary": "A wave of American wealth created by artificial intelligence companies could produce some of the largest charitable sums since the era of Andrew Carnegie and John D. Rockefeller, raising questions about where the money goes.",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 51,
-      "date": "2026-10-26T10:20:01+00:00",
-      "ts": 1793010001.0
-    },
-    {
-      "title": "Anthropic's AI model accessed US voter data: Report",
-      "link": "https://techxplore.com/news/2026-10-anthropic-ai-accessed-voter.html",
-      "summary": "Anthropic's Claude AI model bypassed a paywall and accessed publicly available voter data in the U.S. state of Georgia without human authorization, Axios reported on Sunday.",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 50,
-      "date": "2026-10-26T09:49:10+00:00",
-      "ts": 1793008150.0
-    },
-    {
       "title": "Chinese video AI models beat US rivals in visual quality, but lag on safeguards: HKU study",
       "link": "https://www.scmp.com/tech/tech-trends/article/3372107/chinese-video-ai-models-beat-us-rivals-visual-quality-lag-safeguards-hku-study",
       "summary": "Chinese AI video-generation models have surpassed leading US rivals in visual quality, but several fall behind in safety precautions, according to researchers at the University of Hong Kong. ByteDance’s Seedance 2.0 Pro took top spot in a ranking of 12 leading artificial intelligence video-generation models, scoring...",
@@ -2139,20 +2151,6 @@
       "relevance": 68,
       "date": "2026-10-26T01:13:11+00:00",
       "ts": 1792977191.0
-    },
-    {
-      "title": "China shoots ahead on AI video models",
-      "link": "https://www.scmp.com/plus/tech/big-tech/article/3371915/china-shoots-ahead-ai-video-models",
-      "summary": "While few dispute that China is narrowing the gap with the United States in developing artificial intelligence (AI) models, there is one area where Chinese firms are already the undisputed leaders: video. China has seen a proliferation of advanced generative AI video models – systems trained on visual data to generate...",
-      "source": "SCMP Big Tech",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 40,
-      "date": "2026-10-26T01:06:01+00:00",
-      "ts": 1792976761.0
     },
     {
       "title": "Agentic AI in Production: Why Your Agent Keeps Answering After Its Tools Fail",
@@ -2361,21 +2359,6 @@
       "ts": 1792763504.0
     },
     {
-      "title": "5 Free AI Coding Agents You Should Try in 2026",
-      "link": "https://www.kdnuggets.com/5-free-ai-coding-agents-you-should-try-in-2026",
-      "summary": "Access powerful open-source and proprietary models through OpenCode Zen, Gemini’s free quota, Kilo Gateway, Cline Provider, and Charm Hyper without paying for API access upfront.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 63,
-      "date": "2026-10-23T12:00:00+00:00",
-      "ts": 1792756800.0
-    },
-    {
       "title": "DeepSeek, MiniMax secure open-source licences days after new China export rules: state media",
       "link": "https://www.scmp.com/tech/policy/article/3371880/deepseek-minimax-secure-open-source-licenses-days-after-new-china-export-rules-state-media",
       "summary": "Chinese artificial intelligence model developers DeepSeek and MiniMax have completed export registration procedures and proceeded with open-source releases and overseas licensing activities, according to Chinese state media, days after Beijing moved to tighten oversight on AI tech transfers. Yuyuan Tantian, an...",
@@ -2388,20 +2371,6 @@
       "relevance": 69,
       "date": "2026-10-23T06:00:25+00:00",
       "ts": 1792735225.0
-    },
-    {
-      "title": "Does Your Model Run on AWS Trainium? Look It Up",
-      "link": "https://huggingface.co/blog/torch-neuronx-model-support",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 34,
-      "date": "2026-10-23T00:00:00+00:00",
-      "ts": 1792713600.0
     },
     {
       "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
@@ -2472,20 +2441,6 @@
       "ts": 1792692004.0
     },
     {
-      "title": "Write your own training loop — without managing GPUs — with Amazon SageMaker training session APIs",
-      "link": "https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions/",
-      "summary": "Amazon SageMaker AI training session APIs let you write your own LLM training loop (SFT, RL, or custom objectives) in a Python script while the service runs the GPUs. This post introduces the programming model and three SDK clients, then walks through a GRPO loop on GSM8K and a reinforcement learning workload on...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 57,
-      "date": "2026-10-22T18:00:01+00:00",
-      "ts": 1792692001.0
-    },
-    {
       "title": "Flint-interactive: A language for creating interactive data visualizations",
       "link": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
       "summary": "Flint-interactive gives AI agents a language for creating interactive visualizations. Click a chart, filter data, highlight related content, and explore beyond the view the author originally chose. The post Flint-interactive: A language for creating interactive data visualizations appeared first on Microsoft Research .",
@@ -2512,34 +2467,6 @@
       "ts": 1792681668.0
     },
     {
-      "title": "SoftBank, Nokia target 2027 for commercial AI-RAN trial in Japan",
-      "link": "https://www.lightreading.com/ai-machine-learning/softbank-nokia-target-2027-for-commercial-ai-ran-trial-in-japan",
-      "summary": "In a trial planned for 2027, SoftBank and Nokia aim to move AI-RAN out of laboratory environments and validate its performance under real-world, commercial traffic conditions.",
-      "source": "Light Reading",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 29,
-      "date": "2026-10-22T12:40:20+00:00",
-      "ts": 1792672820.0
-    },
-    {
-      "title": "Dream Labs raises $90M and launches Dream API",
-      "link": "https://www.therobotreport.com/dream-labs-raises-90m-and-launches-dream-api/",
-      "summary": "Dream Labs says its Dream-1 AI model works across robots from different manufacturers and will allow robots to transfer their learning. The post Dream Labs raises $90M and launches Dream API appeared first on The Robot Report .",
-      "source": "The Robot Report",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 55,
-      "date": "2026-10-22T12:36:37+00:00",
-      "ts": 1792672597.0
-    },
-    {
       "title": "‘Jensen’s nightmare’: Huawei, DeepSeek narrow AI chip ecosystem gap with Nvidia: report",
       "link": "https://www.scmp.com/tech/tech-war/article/3371806/jensens-nightmare-huawei-deepseek-narrow-ai-chip-ecosystem-gap-nvidia-report",
       "summary": "Deepening “symbiosis” with artificial intelligence model start-up DeepSeek is helping Chinese tech champion Huawei Technologies catch up with Nvidia’s chip hardware and software ecosystem in a scenario that could mean Jensen Huang’s “nightmare is starting to come true”, according to a new report. DeepSeek’s latest...",
@@ -2552,21 +2479,6 @@
       "relevance": 60,
       "date": "2026-10-22T12:00:14+00:00",
       "ts": 1792670414.0
-    },
-    {
-      "title": "Eurobites: Wake up and smell the Starlink coffee, says EU's Kobosko",
-      "link": "https://www.lightreading.com/satellite/eurobites-wake-up-and-smell-the-starlink-coffee-says-eu-s-kobosko",
-      "summary": "Also in today's EMEA regional roundup: AI boosts Nokia in Q3; Ericsson detects drones; Zain, Ooredoo launch tower-sharing platform.",
-      "source": "Light Reading",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "telecom",
-        "modelos"
-      ],
-      "relevance": 35,
-      "date": "2026-10-22T11:55:26+00:00",
-      "ts": 1792670126.0
     },
     {
       "title": "AI’s hidden storage bill: What inference leaves behind",
@@ -2637,6 +2549,20 @@
       "relevance": 23,
       "date": "2026-10-21T23:56:34+00:00",
       "ts": 1792626994.0
+    },
+    {
+      "title": "Telecall avança na implantação de rede 5G com IA na Colômbia",
+      "link": "https://telesintese.com.br/telecall-avanca-na-implantacao-de-rede-5g-com-ia-na-colombia/",
+      "summary": "A iniciativa utilizará espectro próprio na faixa de 3,5 GHz e contempla tanto o atendimento de áreas urbanas com maior demanda por conectividade quanto a oferta de banda larga em localidades com infraestrutura limitada O post Telecall avança na implantação de rede 5G com IA na Colômbia apareceu primeiro em TeleSíntese...",
+      "source": "TeleSintese (BR)",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 22,
+      "date": "2026-10-21T22:26:37+00:00",
+      "ts": 1792621597.0
     },
     {
       "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
@@ -2750,20 +2676,6 @@
       "ts": 1792578640.0
     },
     {
-      "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
-      "link": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
-      "summary": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA OpenShell Reference Architecture, announced today, is part of NVIDIA’s growing portfolio of technologies that enables organizations to safely deploy agents at scale. NVIDIA Confidential Computing is the infrastructure layer that protects the models...",
-      "source": "NVIDIA Blog",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 50,
-      "date": "2026-10-21T10:30:02+00:00",
-      "ts": 1792578602.0
-    },
-    {
       "title": "DeepSeek open-sources inference framework with support for Nvidia and Huawei chips",
       "link": "https://technode.com/2026/10/21/deepseek-open-sources-inference-framework-with-support-for-nvidia-and-huawei-chips/",
       "summary": "DeepSeek released DeepInfer, the inference framework behind its large-scale model services, on October 20. The framework supports Nvidia GPUs and Huawei Ascend processors and provides capabilities including distributed inference, speculative decoding and structured output. DeepSeek said the release is intended to help...",
@@ -2872,20 +2784,6 @@
       "ts": 1792512000.0
     },
     {
-      "title": "Nokia e SoftBank testarão AI-RAN em rede comercial em 2027",
-      "link": "https://telesintese.com.br/nokia-e-softbank-testarao-ai-ran-em-rede-comercial-em-2027/",
-      "summary": "Experimento no Japão usará plataforma AITRAS e infraestrutura da NVIDIA para compartilhar recursos de processamento entre rede móvel e IA. O post Nokia e SoftBank testarão AI-RAN em rede comercial em 2027 apareceu primeiro em TeleSíntese .",
-      "source": "TeleSintese (BR)",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 29,
-      "date": "2026-10-20T14:42:46+00:00",
-      "ts": 1792507366.0
-    },
-    {
       "title": "ACM SIGAI Autonomous Agents Award 2027 open for nominations",
       "link": "https://robohub.org/acm-sigai-autonomous-agents-award-2027-open-for-nominations/",
       "summary": "Nominations are solicited for the 2027 ACM SIGAI Autonomous Agents Research Award. This award is made for excellence in research in the area of autonomous agents. It is intended to recognize researchers in autonomous agents whose current work is an important influence on the field. The award is an official ACM award,...",
@@ -2898,6 +2796,32 @@
       "relevance": 46,
       "date": "2026-10-20T10:37:56+00:00",
       "ts": 1792492676.0
+    },
+    {
+      "title": "Nokia and SoftBank test AI-RAN in Japan",
+      "link": "https://totaltele.com/nokia-and-softbank-test-ai-ran-in-japan/",
+      "summary": "Nokia today announced an agreement with SoftBank Corp. to conduct a commercial AI-RAN field trial in Japan in 2027 The post Nokia and SoftBank test AI-RAN in Japan appeared first on Total Telecom .",
+      "source": "Total Telecom",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 22,
+      "date": "2026-10-20T09:28:04+00:00",
+      "ts": 1792488484.0
+    },
+    {
+      "title": "Alibaba’s RISC-V IP powers over 6 billion shipped chips as tech giant targets AI, autos",
+      "link": "https://www.scmp.com/tech/big-tech/article/3371402/alibabas-risc-v-ip-powers-over-6-billion-shipped-chips-tech-giant-targets-ai-autos",
+      "summary": "Alibaba Group Holding’s research arm, Damo Academy, has seen more than 6 billion chips shipped based on its XuanTie RISC-V architecture, marking a milestone as the tech giant doubles down on the open standard in artificial intelligence and automotive systems. Meng Jianyi, chief scientist at Damo Academy, announced the...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 47,
+      "date": "2026-10-20T00:30:10+00:00",
+      "ts": 1792456210.0
     },
     {
       "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
@@ -3961,20 +3885,6 @@
       "relevance": 34,
       "date": "2026-09-15T20:00:00+00:00",
       "ts": 1789502400.0
-    },
-    {
-      "title": "Your Agent Aced the Task. Will It Do It Again?",
-      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 39,
-      "date": "2026-09-15T16:00:44+00:00",
-      "ts": 1789488044.0
     },
     {
       "title": "New insights from Google’s AI & Economy ATLAS",
