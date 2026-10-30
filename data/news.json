@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-30T17:27:53.892038+00:00",
-  "count": 271,
-  "china_count": 60,
+  "generated_at": "2026-10-30T21:47:43.304223+00:00",
+  "count": 273,
+  "china_count": 59,
   "topic_counts": {
     "humanoides": 13,
-    "modelos": 187,
-    "agentes": 56,
+    "modelos": 189,
+    "agentes": 57,
     "biomedica": 16,
-    "defesa": 10,
-    "telecom": 24
+    "defesa": 11,
+    "telecom": 25
   },
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1339 itens)",
+      "status": "ok (1340 itens)",
       "kept": 12
     },
     {
@@ -104,7 +104,7 @@
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 7
     },
     {
       "source": "MIT Tech Review",
@@ -144,12 +144,12 @@
     {
       "source": "Ars Technica",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 4
     },
     {
       "source": "Wired AI",
@@ -284,7 +284,7 @@
     {
       "source": "The Guardian (IA)",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "AI News",
@@ -294,7 +294,7 @@
     {
       "source": "DailyAI",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 6
     },
     {
       "source": "The AI Insider",
@@ -429,9 +429,196 @@
   ],
   "items": [
     {
+      "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
+      "link": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
+      "summary": "This week on “Uncanny Valley,” we discuss the contractor who plugged their AI agent into a Pentagon system, Anthropic’s IPO filing, and the volunteers gearing up to counter ICE at the midterms.",
+      "source": "Wired AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "defesa",
+        "modelos"
+      ],
+      "relevance": 58,
+      "date": "2026-10-30T21:19:26+00:00",
+      "ts": 1793395166.0
+    },
+    {
+      "title": "The biggest names in AI are backing a new way to opt out of scraping",
+      "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "summary": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 49,
+      "date": "2026-10-30T20:26:10+00:00",
+      "ts": 1793391970.0
+    },
+    {
+      "title": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making",
+      "link": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
+      "summary": "An AI agent performed brain surgery on an epileptic mouse, picking the drug, the brain target, and the injection coordinates on its own. According to lead researcher Ocana-Santero, it's the first time an AI agent has autonomously chosen a treatment and delivered it to a living mammal. But when a calibration error hit...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 67,
+      "date": "2026-10-30T19:42:59+00:00",
+      "ts": 1793389379.0
+    },
+    {
+      "title": "Google’s satellite AI server transmits its first response to Earth",
+      "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "telecom",
+        "modelos"
+      ],
+      "relevance": 45,
+      "date": "2026-10-30T18:21:38+00:00",
+      "ts": 1793384498.0
+    },
+    {
+      "title": "Malicious Claude Code extension in Cursor's marketplace attempted remote access and data theft",
+      "link": "https://the-decoder.com/malicious-claude-code-extension-in-cursors-marketplace-attempted-remote-access-and-data-theft/",
+      "summary": "A tampered Claude Code extension was live on the Cursor marketplace for about 11 hours, affecting up to 5,000 users. It tried to steal user data and set up remote access. Cursor took the entire marketplace offline and reinstated it after confirming there was no further risk. The article Malicious Claude Code extension...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 47,
+      "date": "2026-10-30T18:16:10+00:00",
+      "ts": 1793384170.0
+    },
+    {
+      "title": "DailyAI Briefing: Amazon burns $42.4bn on AI, plus 4 more",
+      "link": "https://dailyai.com/2026/10/dailyai-briefing-amazon-burns-42-4bn-on-ai-plus-4-more/",
+      "summary": "Amazon spent $42.4 billion more cash than it made in a year as it built for AI, and a report says Chinese labs trained on GPT-6 Astra. Plus Mistral's free trillion-parameter model, a less flattering free ChatGPT, and Reddit's AI Mode traffic loss. The post DailyAI Briefing: Amazon burns $42.4bn on AI, plus 4 more...",
+      "source": "DailyAI",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 63,
+      "date": "2026-10-30T18:01:56+00:00",
+      "ts": 1793383316.0
+    },
+    {
+      "title": "nemotron-halloween",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 49,
+      "date": "2026-10-30T17:57:24+00:00",
+      "ts": 1793383044.0
+    },
+    {
+      "title": "Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9%",
+      "link": "https://www.marktechpost.com/2026/10/30/microsoft-tokeneconomizer-coding-agent-cost-control/",
+      "summary": "Microsoft Research and UC Berkeley released TokenEconomizer, an open-source plugin that learns from past sessions to cut coding agent token costs by 18.4% to 30.9% on SWE-Bench, with no change to the agent. The post Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9% appeared first on...",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 58,
+      "date": "2026-10-30T17:53:37+00:00",
+      "ts": 1793382817.0
+    },
+    {
+      "title": "OpenAI sets new behavioral guidelines for AI models that have already proven hard to control",
+      "link": "https://the-decoder.com/openai-sets-new-behavioral-guidelines-for-ai-models-that-have-already-proven-hard-to-control/",
+      "summary": "OpenAI has updated its Model Spec, restructuring its AI behavior guidelines around five core values, including faithfulness to human intent and correctability. GPT models should now draw on conversation history to figure out what users actually want and disclose their own assumptions. Whether the models follow these...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 52,
+      "date": "2026-10-30T17:44:59+00:00",
+      "ts": 1793382299.0
+    },
+    {
+      "title": "Redes e sistemas legados desafiam expansão da IA e geração de receita em telecom",
+      "link": "https://telesintese.com.br/redes-e-sistemas-legados-desafiam-expansao-da-ia-e-geracao-de-receita/",
+      "summary": "Pesquisa da Deloitte mostra entraves à integração da IA; 22% das empresas de tecnologia, mídia e telecom relatam aumento de receita. O post Redes e sistemas legados desafiam expansão da IA e geração de receita em telecom apareceu primeiro em TeleSíntese .",
+      "source": "TeleSintese (BR)",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 29,
+      "date": "2026-10-30T17:38:17+00:00",
+      "ts": 1793381897.0
+    },
+    {
+      "title": "Was I wrong about open models & cyber risks?",
+      "link": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+      "summary": "Last week coined the term “Black October“ after an onslaught of critical vulnerability disclosures, including PHP2Shell and GitLab, signified the moment when the cyber risks of AI models started to materialize.",
+      "source": "Interconnects",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 39,
+      "date": "2026-10-30T17:36:56+00:00",
+      "ts": 1793381816.0
+    },
+    {
+      "title": "AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare",
+      "link": "https://www.marktechpost.com/2026/10/30/ai-security-agents-claude-codex-mantis-cloudflare/",
+      "summary": "Anthropic, OpenAI, Cloudflare and Google each released an AI agent that hunts security bugs in source code. All 4 use the same find, disprove, then patch loop. Here is how they differ, plus 12 more tools. The post AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare appeared first on MarkTechPost .",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 67,
+      "date": "2026-10-30T17:34:15+00:00",
+      "ts": 1793381655.0
+    },
+    {
+      "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+      "link": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/",
+      "summary": "The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US). This post walks through a controlled local deployment that routes model inference to Amazon Bedrock in AWS GovCloud (US-West) using API-mode sign-in, a managed device policy, a named AWS profile, and network restrictions, so a security...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 71,
+      "date": "2026-10-30T17:27:45+00:00",
+      "ts": 1793381265.0
+    },
+    {
       "title": "Google’s first data center satellite is online and writing poetry",
       "link": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
-      "summary": "The first TPU in space is a running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+      "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
       "source": "TechCrunch",
       "region": "global",
       "category": "modelo",
@@ -1781,20 +1968,6 @@
       "ts": 1793280601.0
     },
     {
-      "title": "OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses",
-      "link": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses/",
-      "summary": "Chinese AI labs are now mainly tapping OpenAI's most powerful model, GPT-6 Astra, instead of Anthropic's Claude. The article OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 65,
-      "date": "2026-10-29T13:20:14+00:00",
-      "ts": 1793280014.0
-    },
-    {
       "title": "Fluent language makes a hallucinatory chatbot just as credible as a curt, flawless one",
       "link": "https://techxplore.com/news/2026-10-fluent-language-hallucinatory-chatbot-credible.html",
       "summary": "Most people are by now quite familiar with ChatGPT, Gemini, Claude and other chatbots: Every day, people ask millions of questions and receive neatly formulated answers in return. Yet these language models still tend to run wild with so-called \"hallucinations\": unreliable, dubious answers that are presented with great...",
@@ -2098,20 +2271,6 @@
       "ts": 1793215678.0
     },
     {
-      "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
-      "link": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
-      "summary": "Just two weeks after Gemini 4 Argon, Google DeepMind is releasing Gemini 4 Carbon, which tops the Artificial Analysis Intelligence Index v5 with 59 points. Google says the model is built for extended agent workflows and the full cyber defense lifecycle. Because of those advanced security capabilities, access is...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 69,
-      "date": "2026-10-28T19:17:58+00:00",
-      "ts": 1793215078.0
-    },
-    {
       "title": "Intel and Oracle Plan Multiyear Expansion of Xeon Computing on OCI",
       "link": "https://www.hpcwire.com/aiwire/2026/10/28/intel-and-oracle-plan-multiyear-expansion-of-xeon-computing-on-oci/",
       "summary": "LAS VEGAS, Oct. 28, 2026 — Intel and Oracle have announced plans for a multiyear collaboration intended to expand Intel Xeon-based computing on Oracle Cloud Infrastructure (OCI). The collaboration is intended to meet the growing demand for enterprise applications, agentic AI, and inference, and is expected to span...",
@@ -2164,35 +2323,6 @@
       "relevance": 55,
       "date": "2026-10-28T18:19:54+00:00",
       "ts": 1793211594.0
-    },
-    {
-      "title": "Google DeepMind Introduces Gemini 4 Carbon, Its Top Model for Cyber Defense and Coding",
-      "link": "https://www.marktechpost.com/2026/10/28/google-deepmind-gemini-4-carbon-frontier-model/",
-      "summary": "Google DeepMind introduced Gemini 4 Carbon, a frontier model that scores 59 on the Artificial Analysis Intelligence Index and 88.2% on SEC-bench Pro. Access starts with vetted cyber defenders, at $2/$10 per million tokens. The post Google DeepMind Introduces Gemini 4 Carbon, Its Top Model for Cyber Defense and Coding...",
-      "source": "MarkTechPost",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 62,
-      "date": "2026-10-28T17:48:38+00:00",
-      "ts": 1793209718.0
-    },
-    {
-      "title": "MiniMax Open-Sources MCode Stack: 15 Agent Skills Its Coding Team Uses Daily",
-      "link": "https://www.marktechpost.com/2026/10/28/minimax-open-sources-mcode-stack-agent-skills/",
-      "summary": "MiniMax has open-sourced MCode Stack, an MIT-licensed repo of 17 SKILL.md skills and 5 checklists that its MiniMax Code team uses daily for code review, subagent splits, context budgets and long-running commands. The post MiniMax Open-Sources MCode Stack: 15 Agent Skills Its Coding Team Uses Daily appeared first on...",
-      "source": "MarkTechPost",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 63,
-      "date": "2026-10-28T17:20:29+00:00",
-      "ts": 1793208029.0
     },
     {
       "title": "Prophecy Launches DataGPT, Bringing Enterprise Data Workflows to Claude, ChatGPT, and Copilot",
@@ -2252,20 +2382,6 @@
       "relevance": 64,
       "date": "2026-10-28T15:00:46+00:00",
       "ts": 1793199646.0
-    },
-    {
-      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 47,
-      "date": "2026-10-28T14:58:17+00:00",
-      "ts": 1793199497.0
     },
     {
       "title": "Oracle e OpenAI vão integrar o ChatGPT a sistemas corporativos",
@@ -2411,6 +2527,18 @@
       "ts": 1793129944.0
     },
     {
+      "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "link": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "summary": "Education Innovation",
+      "source": "Google Research",
+      "region": "global",
+      "category": "geral",
+      "topics": [],
+      "relevance": 24,
+      "date": "2026-10-27T17:35:00+00:00",
+      "ts": 1793122500.0
+    },
+    {
       "title": "Build specialized multimodal models with LFM3",
       "link": "https://huggingface.co/blog/LiquidAI/lfm3",
       "summary": "",
@@ -2440,20 +2568,6 @@
       "ts": 1793115000.0
     },
     {
-      "title": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
-      "link": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
-      "summary": "A government watchdog is considering a probe into the Home Office’s use of ChatGPT technology to process asylum claims amid concerns over the tools’ accuracy and secrecy surrounding their use.",
-      "source": "Wired AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 48,
-      "date": "2026-10-27T15:10:26+00:00",
-      "ts": 1793113826.0
-    },
-    {
       "title": "Retell uses OpenAI models to help power 100M monthly calls",
       "link": "https://openai.com/index/retell-ai",
       "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
@@ -2466,20 +2580,6 @@
       "relevance": 68,
       "date": "2026-10-27T15:00:00+00:00",
       "ts": 1793113200.0
-    },
-    {
-      "title": "‘Meaningless as a laptop screensaver’: reviewers slate Musk’s AI-made Odyssey film",
-      "link": "https://www.theguardian.com/technology/2026/oct/27/reviewers-slate-musk-ai-grok-odyssey-film-nolan",
-      "summary": "Tesla tycoon launched Grok project after criticising Christoper Nolan’s diverse casting for his Homeric blockbuster Elon Musk has released an AI-generated rival to Christopher Nolan’s The Odyssey after pledging to make a version “true to the art of Homer”. Having criticised the hit movie in the summer, the tycoon said...",
-      "source": "The Guardian (IA)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 51,
-      "date": "2026-10-27T14:08:41+00:00",
-      "ts": 1793110121.0
     },
     {
       "title": "Google Gemini Omni: What It Actually Does, What It Costs, and How It Compares",
@@ -2756,20 +2856,6 @@
       "ts": 1792774800.0
     },
     {
-      "title": "How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations",
-      "link": "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/",
-      "summary": "Bayer Crop Science built the Agentic Decision Engine (ADE), a multi-agent platform on Amazon Bedrock AgentCore that lets breeders, analysts, and researchers ask natural language questions about their analytics platform. This post covers the ADE architecture, five design decisions, and how the team prepared it for...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 52,
-      "date": "2026-10-23T16:21:36+00:00",
-      "ts": 1792772496.0
-    },
-    {
       "title": "MiniMax releases open weights for 428-billion-parameter M3.1 Flash model",
       "link": "https://technode.com/2026/10/23/minimax-releases-open-weights-for-428-billion-parameter-m3-1-flash-model/",
       "summary": "MiniMax released the weights for its M3.1 Flash model on October 23, making the model available for developers to download and deploy. The mixture-of-experts model has approximately 428 billion total parameters, with 23 billion activated per token. It supports text, image and video inputs and a context window of up to...",
@@ -2948,34 +3034,6 @@
       "relevance": 71,
       "date": "2026-10-22T00:00:00+00:00",
       "ts": 1792627200.0
-    },
-    {
-      "title": "Telecall avança na implantação de rede 5G com IA na Colômbia",
-      "link": "https://telesintese.com.br/telecall-avanca-na-implantacao-de-rede-5g-com-ia-na-colombia/",
-      "summary": "A iniciativa utilizará espectro próprio na faixa de 3,5 GHz e contempla tanto o atendimento de áreas urbanas com maior demanda por conectividade quanto a oferta de banda larga em localidades com infraestrutura limitada O post Telecall avança na implantação de rede 5G com IA na Colômbia apareceu primeiro em TeleSíntese...",
-      "source": "TeleSintese (BR)",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 22,
-      "date": "2026-10-21T22:26:37+00:00",
-      "ts": 1792621597.0
-    },
-    {
-      "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
-      "link": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
-      "summary": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks.",
-      "source": "Ars Technica",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 50,
-      "date": "2026-10-21T18:51:42+00:00",
-      "ts": 1792608702.0
     },
     {
       "title": "Empowering frontline maternal care with AI-assisted ultrasound",
@@ -4158,20 +4216,6 @@
       "ts": 1789905600.0
     },
     {
-      "title": "Why I still haven’t bought into true RSI",
-      "link": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
-      "summary": "An “AI moderate’s” view on recent events and the trajectory of frontier models.",
-      "source": "Interconnects",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 33,
-      "date": "2026-09-19T15:42:20+00:00",
-      "ts": 1789832540.0
-    },
-    {
       "title": "New experts join Google’s AI & Economy team",
       "link": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
       "summary": "Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner",
@@ -4196,20 +4240,6 @@
       "relevance": 72,
       "date": "2026-09-18T13:19:03+00:00",
       "ts": 1789737543.0
-    },
-    {
-      "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
-      "link": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/",
-      "summary": "Algorithms & Theory",
-      "source": "Google Research",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 34,
-      "date": "2026-09-15T20:00:00+00:00",
-      "ts": 1789502400.0
     },
     {
       "title": "Chinese Satellite Constellation Extends Coverage to Arctic",
