@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-30T21:47:43.304223+00:00",
-  "count": 273,
-  "china_count": 59,
+  "generated_at": "2026-10-31T03:19:03.729913+00:00",
+  "count": 268,
+  "china_count": 57,
   "topic_counts": {
-    "humanoides": 13,
-    "modelos": 189,
-    "agentes": 57,
+    "humanoides": 14,
+    "modelos": 185,
+    "agentes": 54,
     "biomedica": 16,
-    "defesa": 11,
-    "telecom": 25
+    "defesa": 10,
+    "telecom": 24
   },
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1340 itens)",
+      "status": "ok (1341 itens)",
       "kept": 12
     },
     {
@@ -139,7 +139,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 1
     },
     {
       "source": "Ars Technica",
@@ -214,7 +214,7 @@
     {
       "source": "Pandaily",
       "status": "ok (20 itens)",
-      "kept": 10
+      "kept": 7
     },
     {
       "source": "TechNode",
@@ -288,7 +288,7 @@
     },
     {
       "source": "AI News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 502: Bad Gateway",
       "kept": 0
     },
     {
@@ -429,9 +429,67 @@
   ],
   "items": [
     {
+      "title": "Tencent Cloud Launches Data and Training Stack for Robots and Self-Driving, Plans TCLake XPhysis",
+      "link": "https://pandaily.com/tencent-cloud-physical-ai-multimodal-data-training-inference-embodied-autonomous-driving-tclake-xphysis",
+      "summary": "Tencent Cloud launched an integrated multimodal data processing and model training stack for embodied AI and autonomous driving, and said it will release a TCLake XPhysis physical AI platform.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "humanoides",
+        "modelos"
+      ],
+      "relevance": 69,
+      "date": "2026-10-31T03:06:23+00:00",
+      "ts": 1793415983.0
+    },
+    {
+      "title": "DeepSeek Website Code Points to Cyber, a Dedicated Cybersecurity Model in Limited Testing",
+      "link": "https://pandaily.com/deepseek-cyber-cybersecurity-model-front-end-code-cyber-personal-v3-cyber-enterprise-v4-cyber-key",
+      "summary": "Code on DeepSeek's website references Cyber, a cybersecurity model with personal and enterprise versions, ID checks and a separate Cyber Key. DeepSeek has not announced it; testing looks limited.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 54,
+      "date": "2026-10-31T02:53:02+00:00",
+      "ts": 1793415182.0
+    },
+    {
+      "title": "Intel and Broadcom Demonstrate IEEE 802.11bn/Wi-Fi 8 Interoperability",
+      "link": "https://techblog.comsoc.org/2026/10/30/intel-and-broadcom-demonstrate-ieee-802-11bn-wi-fi-8-interoperability/",
+      "summary": "Disclaimer: ChatGPT was used for research in this article, but the author had to frequently checkpoint its AI work for omissions and accuracy. ………………………………………………………………………………………………………………………………………………… Introduction: Wi-Fi 8, based on the IEEE 802.11bn amendment, reached an important development milestone with a public...",
+      "source": "IEEE ComSoc Tech Blog",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "telecom",
+        "modelos"
+      ],
+      "relevance": 63,
+      "date": "2026-10-31T00:52:04+00:00",
+      "ts": 1793407924.0
+    },
+    {
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This...",
+      "source": "The Verge AI",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 40,
+      "date": "2026-10-30T22:32:53+00:00",
+      "ts": 1793399573.0
+    },
+    {
       "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
       "link": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
-      "summary": "This week on “Uncanny Valley,” we discuss the contractor who plugged their AI agent into a Pentagon system, Anthropic’s IPO filing, and the volunteers gearing up to counter ICE at the midterms.",
+      "summary": "This week on Uncanny Valley, we also discuss Anthropic’s IPO filing and the volunteers gearing up to counter ICE at the midterms.",
       "source": "Wired AI",
       "region": "global",
       "category": "modelo",
@@ -440,7 +498,7 @@
         "defesa",
         "modelos"
       ],
-      "relevance": 58,
+      "relevance": 56,
       "date": "2026-10-30T21:19:26+00:00",
       "ts": 1793395166.0
     },
@@ -1584,21 +1642,6 @@
       "ts": 1793325624.0
     },
     {
-      "title": "DeepSeek Harness Pre-Release Lets Its Main Agent Hand Off Tasks to Local Codex and Claude Code",
-      "link": "https://pandaily.com/deepseek-harness-v0-2-2-alpha-2-subagent-oar-delegate-tasks-codex-cli-claude-code",
-      "summary": "DeepSeek Harness v0.2.2-alpha.2 adds an experimental subagent_oar tool that sends self-contained tasks to a locally installed Codex CLI or Claude Code, plus PR views and a stats plugin.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 69,
-      "date": "2026-10-30T01:59:41+00:00",
-      "ts": 1793325581.0
-    },
-    {
       "title": "Can Digital Twins Deliver Real Energy Savings for AI Data Center Cooling?",
       "link": "https://techblog.comsoc.org/2026/10/29/can-digital-twins-deliver-real-energy-savings-for-ai-data-center-cooling/",
       "summary": "Disclaimer: ChatGPT was used extensively for research and writing this article. …………………………………………………………………………………………………………………. Introduction: Data center cooling systems consume significant auxiliary energy, yet optimization studies rarely quantify the gap between theoretically optimal and operationally deployable...",
@@ -1695,34 +1738,6 @@
       "ts": 1793301556.0
     },
     {
-      "title": "T-Mobile’s Strategy of Deploying Multi-Vendor AI-RAN on “Kinetic Edge” using AWS Pillars",
-      "link": "https://techblog.comsoc.org/2026/10/29/t-mobiles-strategy-of-deploying-multi-vendor-ai-ran-on-kinetic-edge-using-aws-pillars/",
-      "summary": "Introduction: During its Q3 2026 earnings call, T-Mobile US announced a definitive step away from traditional, single-purpose radio access networks (RANs) by detailing the real-world deployment of its “Kinetic Edge” [1.] architecture which operates on AWS infrastructure. By combining a multi-vendor AI-RAN footprint...",
-      "source": "IEEE ComSoc Tech Blog",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 26,
-      "date": "2026-10-29T19:06:15+00:00",
-      "ts": 1793300775.0
-    },
-    {
-      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
-      "summary": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 52,
-      "date": "2026-10-29T18:45:31+00:00",
-      "ts": 1793299531.0
-    },
-    {
       "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
       "link": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
       "summary": "Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched.",
@@ -1808,20 +1823,6 @@
       "ts": 1793293226.0
     },
     {
-      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "link": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
-      "summary": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 63,
-      "date": "2026-10-29T17:00:00+00:00",
-      "ts": 1793293200.0
-    },
-    {
       "title": "How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway",
       "link": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/",
       "summary": "MoEngage turned roughly 400 private REST APIs across 7 AWS Regions into permission-scoped agent tools with Amazon Bedrock AgentCore Gateway. No per-service MCP servers, no public endpoints, and no 400-tool context bloat. See how OpenAPI specs, Cedar policies, and managed Amazon VPC Lattice egress made it work.",
@@ -1835,21 +1836,6 @@
       "relevance": 48,
       "date": "2026-10-29T16:54:52+00:00",
       "ts": 1793292892.0
-    },
-    {
-      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
-      "link": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
-      "summary": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "defesa",
-        "modelos"
-      ],
-      "relevance": 48,
-      "date": "2026-10-29T16:21:00+00:00",
-      "ts": 1793290860.0
     },
     {
       "title": "Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS",
@@ -2126,36 +2112,6 @@
       "ts": 1793258916.0
     },
     {
-      "title": "Tencent Launches Buddy One, Linking Its Office Apps on One WorkBuddy Agent, and Tencent Drive",
-      "link": "https://pandaily.com/tencent-buddy-one-cross-app-ai-workbuddy-agent-tencent-drive-cli-mcp-launch",
-      "summary": "Tencent launched Buddy One, linking Tencent Docs, Tencent Meeting, ima and a new cloud drive to one WorkBuddy agent with shared accounts and credits. Tencent Drive links to agents via CLI and MCP.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 47,
-      "date": "2026-10-29T07:07:38+00:00",
-      "ts": 1793257658.0
-    },
-    {
-      "title": "DiffuSpace Open-Sources Clover-35B-A3B, a Diffusion Language Model Built for Agents and Coding",
-      "link": "https://pandaily.com/diffuspace-clover-35b-a3b-preview-open-source-diffusion-language-model-swe-bench-73-6",
-      "summary": "DiffuSpace has open-sourced Clover-35B-A3B-Preview, a 35B-parameter MoE diffusion language model. The team reports 73.6 on SWE-bench Verified and 515 tokens/s on one H200 in agent tasks.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 66,
-      "date": "2026-10-29T07:07:25+00:00",
-      "ts": 1793257645.0
-    },
-    {
       "title": "NVIDIA Releases Nemotron 3.5 Transcribe: An Open 30B MoE Model for 40-Language Transcription with ~4B Active Parameters",
       "link": "https://www.marktechpost.com/2026/10/28/nvidia-nemotron-3-5-transcribe-open-speech-llm/",
       "summary": "NVIDIA released Nemotron 3.5 Transcribe, an open-weights speech LLM with 4.3B active parameters. It transcribes 40 languages, adds speaker labels and word timestamps, and posts a 4.71% mean WER on the English Open ASR Leaderboard. The post NVIDIA Releases Nemotron 3.5 Transcribe: An Open 30B MoE Model for 40-Language...",
@@ -2168,36 +2124,6 @@
       "relevance": 72,
       "date": "2026-10-29T04:41:24+00:00",
       "ts": 1793248884.0
-    },
-    {
-      "title": "China Releases First Fengyun Satellite AI Models for Typhoon Analysis and Severe Storm Warnings",
-      "link": "https://pandaily.com/first-fengyun-satellite-extreme-weather-ai-models-typhoon-cloud-image-interpretation-severe-convection-nowcasting",
-      "summary": "The first Fengyun weather satellite AI models for extreme weather were released on October 29: one interprets typhoon cloud imagery every 15 minutes, the other forecasts severe convection hours ahead.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "telecom",
-        "modelos"
-      ],
-      "relevance": 48,
-      "date": "2026-10-29T02:07:59+00:00",
-      "ts": 1793239679.0
-    },
-    {
-      "title": "DingTalk Open-Sources Its DWS Command-Line Tool for AI Agents, With a Build for HarmonyOS PCs",
-      "link": "https://pandaily.com/dingtalk-open-sources-dws-workspace-cli-ai-agents-harmonyos-pc-openharmony-arm64-build",
-      "summary": "DingTalk has open-sourced DWS, a command-line tool that lets people and AI agents work with chats, meetings, docs, calendars and approvals, and added an OpenHarmony build validated on HarmonyOS PCs.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 47,
-      "date": "2026-10-29T02:07:16+00:00",
-      "ts": 1793239636.0
     },
     {
       "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
@@ -2695,6 +2621,20 @@
       "ts": 1793057199.0
     },
     {
+      "title": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
+      "summary": "Build enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS CDK: an agent that routes across two knowledge bases, retrieves through the AgentCore Gateway, and returns grounded, cited answers, with seven layers of observability and both on-demand and continuous evaluation, all deployed as...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 48,
+      "date": "2026-10-26T17:15:14+00:00",
+      "ts": 1793034914.0
+    },
+    {
       "title": "IA eleva em 20% eficiência espectral do 5G em teste da Nokia e O2",
       "link": "https://telesintese.com.br/ia-eleva-em-20-eficiencia-espectral-do-5g-em-teste-da-nokia-e-o2/",
       "summary": "Tecnologia de IA preditiva ajustou recursos de rádio conforme a demanda em Londres, permitindo transportar mais dados com o mesmo espectro. O post IA eleva em 20% eficiência espectral do 5G em teste da Nokia e O2 apareceu primeiro em TeleSíntese .",
@@ -2828,18 +2768,6 @@
       "relevance": 40,
       "date": "2026-10-23T18:51:33+00:00",
       "ts": 1792781493.0
-    },
-    {
-      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
-      "link": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
-      "summary": "Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 56,
-      "date": "2026-10-23T17:48:54+00:00",
-      "ts": 1792777734.0
     },
     {
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
