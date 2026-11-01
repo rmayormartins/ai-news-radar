@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-31T20:47:22.844726+00:00",
-  "count": 232,
-  "china_count": 51,
+  "generated_at": "2026-11-01T03:18:12.550606+00:00",
+  "count": 235,
+  "china_count": 54,
   "topic_counts": {
     "humanoides": 11,
-    "modelos": 163,
+    "modelos": 167,
     "agentes": 51,
     "biomedica": 10,
     "defesa": 10,
@@ -214,7 +214,7 @@
     {
       "source": "Pandaily",
       "status": "ok (20 itens)",
-      "kept": 6
+      "kept": 9
     },
     {
       "source": "TechNode",
@@ -288,7 +288,7 @@
     },
     {
       "source": "AI News",
-      "status": "ERRO: HTTP Error 502: Bad Gateway",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -428,6 +428,77 @@
     }
   ],
   "items": [
+    {
+      "title": "SenseTime Open-Sources SenseNova-Loop-9B-Preview, a Looped Model That Runs Its Middle Layers Twice",
+      "link": "https://pandaily.com/sensetime-sensenova-loop-9b-preview-looped-transformer-mhc-open-source-apache-2",
+      "summary": "SenseTime's open-source SenseNova-Loop-9B-Preview runs a shared 24-layer block twice, giving 56 layer passes from 32 layers, and adds two-stream mHC. Weights are Apache 2.0.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 48,
+      "date": "2026-11-01T01:52:55+00:00",
+      "ts": 1793497975.0
+    },
+    {
+      "title": "Westlake University Opens a World Model Research Center Led by Yu Kaicheng",
+      "link": "https://pandaily.com/westlake-university-world-model-research-center-yu-kaicheng-jin-yaochu-physical-intelligence",
+      "summary": "Westlake University opened a world model research center at its Yungu Campus on October 31, directed by Yu Kaicheng with Jin Yaochu as chief scientist, to focus on physical intelligence.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 42,
+      "date": "2026-11-01T01:51:27+00:00",
+      "ts": 1793497887.0
+    },
+    {
+      "title": "DeepSeek Harness Team Open-Sources a Super-agent Prototype That Finds and Fixes Bugs on Its Own",
+      "link": "https://pandaily.com/deepseek-harness-super-agent-prototype-router-worker-event-driven-watchdog-open-source-mit",
+      "summary": "DeepSeek's Harness team released an MIT-licensed Super-agent prototype: a resident Router dispatches work to isolated Workers that react to GitHub and chat events, fix bugs and open PRs.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 66,
+      "date": "2026-11-01T01:49:36+00:00",
+      "ts": 1793497776.0
+    },
+    {
+      "title": "How We Took Over ChatGPT Accounts",
+      "link": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "summary": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are displayed in a sandboxed iframe. It's...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 64,
+      "date": "2026-10-31T23:15:22+00:00",
+      "ts": 1793488522.0
+    },
+    {
+      "title": "datasette-llm 0.1a9",
+      "link": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "summary": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasette Agent without needing to explicitly...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 54,
+      "date": "2026-10-31T22:10:01+00:00",
+      "ts": 1793484601.0
+    },
     {
       "title": "Anthropic's watermark rollout leaves a loophole on two older Claude models",
       "link": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
@@ -2384,20 +2455,6 @@
       "ts": 1792703849.0
     },
     {
-      "title": "Donating Agent Skills to the Agentic AI Foundation",
-      "link": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
-      "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 53,
-      "date": "2026-10-22T18:09:56+00:00",
-      "ts": 1792692596.0
-    },
-    {
       "title": "Flint-interactive: A language for creating interactive data visualizations",
       "link": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
       "summary": "Flint-interactive gives AI agents a language for creating interactive visualizations. Click a chart, filter data, highlight related content, and explore beyond the view the author originally chose. The post Flint-interactive: A language for creating interactive data visualizations appeared first on Microsoft Research .",
@@ -2796,20 +2853,6 @@
       "relevance": 49,
       "date": "2026-10-16T18:11:34+00:00",
       "ts": 1792174294.0
-    },
-    {
-      "title": "sparqlite: SPARQL 1.1 inside SQLite, written in Rust",
-      "link": "https://simonwillison.net/2026/Oct/16/sqlite-sparql-rust/",
-      "summary": "Research: sparqlite: SPARQL 1.1 inside SQLite, written in Rust This research task is really an experiment in running Claude Code for web in \"Ultracode\" mode, as described in Orchestrate subagents at scale with dynamic workflows in the Claude Code documentation. With Ultracode turned on, Claude Code makes aggressive...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 51,
-      "date": "2026-10-16T01:58:00+00:00",
-      "ts": 1792115880.0
     },
     {
       "title": "How Localiza reorganized work around generative AI",
