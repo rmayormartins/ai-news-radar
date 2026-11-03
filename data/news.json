@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-03T13:16:17.466475+00:00",
-  "count": 276,
-  "china_count": 60,
+  "generated_at": "2026-11-03T22:41:31.373505+00:00",
+  "count": 277,
+  "china_count": 58,
   "topic_counts": {
-    "humanoides": 12,
+    "humanoides": 10,
     "modelos": 171,
-    "agentes": 67,
-    "biomedica": 15,
-    "defesa": 11,
+    "agentes": 65,
+    "biomedica": 17,
+    "defesa": 14,
     "telecom": 25
   },
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1349 itens)",
+      "status": "ok (1354 itens)",
       "kept": 12
     },
     {
@@ -33,7 +33,7 @@
     },
     {
       "source": "Hugging Face",
-      "status": "ok (895 itens)",
+      "status": "ok (896 itens)",
       "kept": 12
     },
     {
@@ -139,7 +139,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 1
     },
     {
       "source": "Ars Technica",
@@ -149,12 +149,12 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 1
     },
     {
       "source": "Wired AI",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "Analytics India",
@@ -214,7 +214,7 @@
     {
       "source": "Pandaily",
       "status": "ok (20 itens)",
-      "kept": 9
+      "kept": 8
     },
     {
       "source": "TechNode",
@@ -253,7 +253,7 @@
     },
     {
       "source": "China Internet Watch",
-      "status": "ERRO: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.chinainternetwatch.com'. (_ssl.c:1010)>",
+      "status": "ERRO: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.chinainternetwatch.com'. (_ssl.c:1011)>",
       "kept": 0
     },
     {
@@ -294,12 +294,12 @@
     {
       "source": "DailyAI",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "The AI Insider",
       "status": "ok (9 itens)",
-      "kept": 1
+      "kept": 5
     },
     {
       "source": "AIwire",
@@ -309,7 +309,7 @@
     {
       "source": "The Robot Report",
       "status": "ok (15 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "IEEE Spectrum Robotica",
@@ -334,12 +334,12 @@
     {
       "source": "STAT News",
       "status": "ok (20 itens)",
-      "kept": 0
+      "kept": 1
     },
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "arXiv eess.IV (imagem)",
@@ -349,12 +349,12 @@
     {
       "source": "DefenseScoop",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "Breaking Defense",
       "status": "ok (30 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Defense One (Tech)",
@@ -374,7 +374,7 @@
     {
       "source": "RCR Wireless",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "Light Reading",
@@ -424,10 +424,380 @@
     {
       "source": "TeleSintese (BR)",
       "status": "ok (100 itens)",
-      "kept": 5
+      "kept": 4
     }
   ],
   "items": [
+    {
+      "title": "AI may help tailor treatment for childhood brain tumors",
+      "link": "https://medicalxpress.com/news/2026-11-ai-tailor-treatment-childhood-brain.html",
+      "summary": "Choosing the right treatment for a child with a malignant brain tumor requires a careful balance. Therapy must be strong enough to keep the cancer from coming back, but it can also cause lasting side effects that affect learning, development and quality of life. Now, an international team led by researchers at...",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 34,
+      "date": "2026-11-03T21:40:06+00:00",
+      "ts": 1793742006.0
+    },
+    {
+      "title": "Kimi Launches Game Development Solution With K3.1 Agents Working Inside Unity, Unreal and Blender",
+      "link": "https://pandaily.com/kimi-game-development-creative-solution-k3-1-kimi-code-work-unity-unreal-engine-blender-20-hours",
+      "summary": "Kimi's new game development solution pairs K3.1 models with Kimi Code and Kimi Work agents that edit Unity, Unreal Engine and Blender projects, including a 20-hour unattended run.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 68,
+      "date": "2026-11-03T20:54:09+00:00",
+      "ts": 1793739249.0
+    },
+    {
+      "title": "Huawei Cloud to Retire openPangu-2.0 Models From MaaS, Recommends DeepSeek-V4.1-Flash and GLM-5.3",
+      "link": "https://pandaily.com/huawei-cloud-maas-openpangu-2-0-flash-pro-offline-nov-30-deepseek-v4-1-flash-glm-5-3",
+      "summary": "Huawei Cloud stops selling openPangu-2.0-Flash and Pro on MaaS on Nov 6 and retires them Nov 30, pointing users to DeepSeek-V4.1-Flash-1017 and GLM-5.3.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 64,
+      "date": "2026-11-03T20:53:34+00:00",
+      "ts": 1793739214.0
+    },
+    {
+      "title": "AI-supported screening strategy could improve cervical cancer detection in low-resource settings",
+      "link": "https://medicalxpress.com/news/2026-11-ai-screening-strategy-cervical-cancer.html",
+      "summary": "Combining HPV testing with artificial intelligence–based image analysis has shown efficacy in detecting precancerous lesions and guiding treatment decisions, according to a study led by the Barcelona Institute for Global Health (ISGlobal). The research, conducted within the HPV-Automated Visual Evaluation (PAVE)...",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 48,
+      "date": "2026-11-03T20:40:10+00:00",
+      "ts": 1793738410.0
+    },
+    {
+      "title": "Infineon PSoC MCUs Expand TinyML into a Broader Range of Edge AI Applications",
+      "link": "https://techblog.comsoc.org/2026/11/03/infineon-psoc-mcus-expand-tinyml-into-a-broader-range-of-edge-ai-applications/",
+      "summary": "Disclaimer: ChatGPT helped research and write this article. ……………………………………………………………………………………………………………………. Introduction: Artificial intelligence (AI) running on embedded devices is evolving beyond the relatively narrow range of machine-learning applications traditionally associated with TinyML [1.], rather than Large...",
+      "source": "IEEE ComSoc Tech Blog",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "telecom",
+        "modelos"
+      ],
+      "relevance": 61,
+      "date": "2026-11-03T20:39:33+00:00",
+      "ts": 1793738373.0
+    },
+    {
+      "title": "NVIDIA Shows 3 Ways to Speed Up MoE Inference on DGX Spark, Lifting Ling-3.0-flash Throughput 42.5%",
+      "link": "https://www.marktechpost.com/2026/11/03/nvidia-dgx-spark-moe-inference-ling-3-0-flash/",
+      "summary": "NVIDIA shows how 3 stacked optimizations speed up MoE inference on a single DGX Spark. On Ant Group inclusionAI's 124B Ling-3.0-flash, GSM8K decode throughput rose 42.5% with no detectable accuracy change. The post NVIDIA Shows 3 Ways to Speed Up MoE Inference on DGX Spark, Lifting Ling-3.0-flash Throughput 42.5%...",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 45,
+      "date": "2026-11-03T20:28:22+00:00",
+      "ts": 1793737702.0
+    },
+    {
+      "title": "Soniox STT v6 Adds Agent Text Input and Echo Filtering for Voice Agents",
+      "link": "https://www.marktechpost.com/2026/11/03/soniox-stt-v6-agent-text-input-echo-cancellation/",
+      "summary": "Soniox has released Soniox STT v6, the latest generation of its speech-to-text API. Soniox STT v6 is a speech-to-text model that reads what a voice agent says while hearing the caller. It uses that text to recognize short replies and to drop the agent’s own voice. The release ships as stt-rt-v6 for streaming and...",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 56,
+      "date": "2026-11-03T20:18:22+00:00",
+      "ts": 1793737102.0
+    },
+    {
+      "title": "OpenAI says GPT-6 Astra designed a hardware device from scratch in under a week",
+      "link": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/",
+      "summary": "OpenAI's hardware team used GPT-6 Astra to design a device for the Codex coding agent in under a week, handling everything from the enclosure to the circuit board to the firmware. Several revision rounds were needed before production because the model didn't always account for manufacturing tolerances. A newer...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 63,
+      "date": "2026-11-03T20:15:45+00:00",
+      "ts": 1793736945.0
+    },
+    {
+      "title": "AUSA 2026: The ground truth on the Army’s next chapter",
+      "link": "https://breakingdefense.com/2026/11/ausa-2026-the-ground-truth-on-the-armys-next-chapter/",
+      "summary": "From autonomous warfare and drone innovation to acquisition reform and defense industrial base challenges, Breaking Defense examines the key developments and strategic priorities shaping the US Army’s future at AUSA 2026.",
+      "source": "Breaking Defense",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "defesa",
+        "modelos"
+      ],
+      "relevance": 27,
+      "date": "2026-11-03T19:56:04+00:00",
+      "ts": 1793735764.0
+    },
+    {
+      "title": "Rapid LLM development is outrunning the research meant to explain it, study finds",
+      "link": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/",
+      "summary": "Stanford researchers tested 50 widely cited claims about LLMs against 20 current models. 44 percent of the findings are already \"expired,\" and another 34 percent have weakened significantly. The average lifespan is just 15.7 months. Claims about what models can't do expire fastest. The article Rapid LLM development is...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 63,
+      "date": "2026-11-03T19:41:43+00:00",
+      "ts": 1793734903.0
+    },
+    {
+      "title": "Menlo Ventures: Enterprise AI Spending Hits $177B, Up 5.4x in One Year as Agents Take Over",
+      "link": "https://www.hpcwire.com/aiwire/2026/11/03/menlo-venturest-enterprise-ai-spending-hits-177b-up-5-4x-in-one-year-as-agents-take-over/",
+      "summary": "Agents now consume far more AI than humans, frontier labs capture 69% of enterprise AI spending, and AI is expanding the software market rather than cannibalizing it MENLO PARK, Calif., Nov. 3, 2026 — Menlo Ventures, a leading venture capital firm investing at the forefront of artificial intelligence, today released...",
+      "source": "AIwire",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 56,
+      "date": "2026-11-03T19:25:33+00:00",
+      "ts": 1793733933.0
+    },
+    {
+      "title": "OpenAI says ChatGPT is catching up to Google in search",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+      "summary": "In many circles, \"Ask Chat\" has replaced \"Google it,\" and that's reflected in a new announcement from OpenAI: the volume of search queries run through ChatGPT now equals 20 percent of the volume run through Google. Adam Fry, OpenAI's consumer product lead for ChatGPT, made the announcement at a press event on Monday....",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 59,
+      "date": "2026-11-03T18:30:42+00:00",
+      "ts": 1793730642.0
+    },
+    {
+      "title": "DailyAI Briefing: Gemini may breach press rights, plus 4 more",
+      "link": "https://dailyai.com/2026/11/dailyai-briefing-gemini-may-breach-press-rights-plus-4-more/",
+      "summary": "An adviser to the EU's top court says chatbots like Gemini can infringe publishers' rights when they reuse news articles. Plus the New York Times sues Brave, OpenAI's power and bug bounty promises, and longer days for AI users. The post DailyAI Briefing: Gemini may breach press rights, plus 4 more appeared first on...",
+      "source": "DailyAI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 51,
+      "date": "2026-11-03T18:04:16+00:00",
+      "ts": 1793729056.0
+    },
+    {
+      "title": "Learn the rules: The hacker mindset",
+      "link": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
+      "summary": "Research Manager Mike Walker reflects on a career spanning hacker culture, cybersecurity, and AI, sharing lessons about trust, teamwork, leadership, and why solving difficult problems requires curiosity, judgment, agility—and an understanding of the rules. The post Learn the rules: The hacker mindset appeared first on...",
+      "source": "Microsoft Research",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 31,
+      "date": "2026-11-03T17:14:38+00:00",
+      "ts": 1793726078.0
+    },
+    {
+      "title": "AI agents take over at SETI's Allen Telescope Array, scanning for extraterrestrial intelligence",
+      "link": "https://the-decoder.com/ai-agents-take-over-at-setis-allen-telescope-array-scanning-for-extraterrestrial-intelligence/",
+      "summary": "The SETI Institute and Breakthrough Listen are now using AI agents at the Allen Telescope Array to control the telescope and analyze incoming radio signals. Tasks that used to take weeks can now wrap up in hours, and the team says the system detected a pulsar in the Crab Nebula in real time for the first time. The...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 37,
+      "date": "2026-11-03T16:51:18+00:00",
+      "ts": 1793724678.0
+    },
+    {
+      "title": "Former Army boss Dan Driscoll joins OpenAI as senior counselor",
+      "link": "https://defensescoop.com/2026/11/03/dan-driscoll-openai-strategic-counselor/",
+      "summary": "In his new role, Driscoll will “work with OpenAI teams and leaders across governments, industry, academia, and allied institutions to advance practical modernization initiatives that support the buildout of democratic AI,” the company said in a press release announcing his appointment. The post Former Army boss Dan...",
+      "source": "DefenseScoop",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "defesa",
+        "modelos"
+      ],
+      "relevance": 40,
+      "date": "2026-11-03T16:47:37+00:00",
+      "ts": 1793724457.0
+    },
+    {
+      "title": "Bakers and cake lovers: have you used AI for inspiration?",
+      "link": "https://www.theguardian.com/food/2026/nov/03/bakers-and-cake-lovers-have-you-used-ai-for-inspiration",
+      "summary": "Whether you are a customer who has used AI to show a baker your dream cake, or a baker who has to up their game - or turn down – orders based on AI inspo, we want to hear from you AI tools like Claude and ChatGPT are now widely used – including for creative inspiration. We are keen to hear from people on what happens...",
+      "source": "The Guardian (IA)",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 57,
+      "date": "2026-11-03T16:42:27+00:00",
+      "ts": 1793724147.0
+    },
+    {
+      "title": "Introducing India-based inference for Kimi K3 on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/",
+      "summary": "Amazon Bedrock now offers in-country inference in India for Kimi K3, keeping processing within the Mumbai and Hyderabad Regions. This post explains the global and geographic cross-Region inference options and shares example code for reading and understanding Indic-language documents with Kimi K3.",
+      "source": "AWS Machine Learning",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 56,
+      "date": "2026-11-03T16:32:54+00:00",
+      "ts": 1793723574.0
+    },
+    {
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "link": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can...",
+      "source": "Simon Willison",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 72,
+      "date": "2026-11-03T16:29:48+00:00",
+      "ts": 1793723388.0
+    },
+    {
+      "title": "AI system may help clinical labs spot problems before they affect patients",
+      "link": "https://medicalxpress.com/news/2026-11-ai-clinical-labs-problems-affect.html",
+      "summary": "Weill Cornell Medicine researchers have designed an AI system that could help clinical laboratories identify problems before they disrupt testing and delay patient care. These laboratories analyze samples such as blood, urine, tissue or other bodily fluids to help doctors diagnose and treat diseases. However, growing...",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 39,
+      "date": "2026-11-03T16:00:29+00:00",
+      "ts": 1793721629.0
+    },
+    {
+      "title": "ChatGPT advertising delivers more than 6 times less value for money than Google Ads",
+      "link": "https://techxplore.com/news/2026-11-chatgpt-advertising-money-google-ads.html",
+      "summary": "Advertising on ChatGPT has so far proven significantly less cost-effective for businesses than advertising on Google. This is the finding of a new study by Christian Schulze, associate professor of marketing at Frankfurt School of Finance & Management, and Maximilian Kaiser, assistant professor at Vienna University of...",
+      "source": "TechXplore (IA/ML)",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 62,
+      "date": "2026-11-03T15:00:06+00:00",
+      "ts": 1793718006.0
+    },
+    {
+      "title": "STAT+: FDA, CMS look to collaborate with states on health AI",
+      "link": "https://www.statnews.com/2026/11/03/fda-cms-collaborate-with-states-on-ai-heath-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: Federal officials look to work with states on regulating AI, protecting doctors from AI liability, and more.",
+      "source": "STAT News",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 29,
+      "date": "2026-11-03T14:51:12+00:00",
+      "ts": 1793717472.0
+    },
+    {
+      "title": "Here’s Why You Shouldn’t Use AI to Vote",
+      "link": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
+      "summary": "From hallucinations to partisan bias, artificial intelligence chatbots like ChatGPT and Claude are not helpful when it comes to Election Day.",
+      "source": "Wired AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 56,
+      "date": "2026-11-03T14:45:08+00:00",
+      "ts": 1793717108.0
+    },
+    {
+      "title": "10x Genomics Launches AI Agent for Single Cell Data Analysis",
+      "link": "https://www.hpcwire.com/aiwire/2026/11/03/10x-genomics-launches-ai-agent-for-single-cell-data-analysis/",
+      "summary": "Powered by Anthropic’s Claude, Sentira Single Cell enables researchers to analyze Chromium data using natural language, accelerating the path from scientific questions to experimental conclusions PLEASANTON, Calif., Nov. 3, 2026 — 10x Genomics, Inc., the life science technology leader focused on accelerating science...",
+      "source": "AIwire",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "biomedica",
+        "modelos"
+      ],
+      "relevance": 63,
+      "date": "2026-11-03T14:27:47+00:00",
+      "ts": 1793716067.0
+    },
+    {
+      "title": "OpenAI Will Now Pay Up to $172,000 for the Worst ChatGPT Bugs",
+      "link": "https://dailyai.com/2026/11/openai-will-now-pay-up-to-172000-for-the-worst-chatgpt-bugs/",
+      "summary": "OpenAI has more than quadrupled its bug bounty rewards, with up to $172,000 for the worst ChatGPT flaws, and hired Cathedral, the start-up that got inside Anthropic, to test its defences. The post OpenAI Will Now Pay Up to $172,000 for the Worst ChatGPT Bugs appeared first on DailyAI .",
+      "source": "DailyAI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 58,
+      "date": "2026-11-03T14:16:39+00:00",
+      "ts": 1793715399.0
+    },
+    {
+      "title": "SBA sees spectrum, AI, and 6G extending wireless investment cycle",
+      "link": "https://rcrwireless.com/20261103/network-infrastructure/towers/sba-spectrum-ai-wireless",
+      "summary": "SBA’s president and chief executive officer Brendan Cavanagh said U.S. customer activity in Q3 was slightly below first-half levels but remained in line with expectations, with carriers continuing to invest…",
+      "source": "RCR Wireless",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 22,
+      "date": "2026-11-03T13:47:55+00:00",
+      "ts": 1793713675.0
+    },
     {
       "title": "Anthropic's Message Threads cut time to first token by 35 percent for long conversations",
       "link": "https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations/",
@@ -554,6 +924,77 @@
       "ts": 1793699288.0
     },
     {
+      "title": "Anthropic Warns in IPO Filing It May Soon Reach Recursive Self-Improvement Threshold",
+      "link": "https://theaiinsider.tech/2026/11/03/anthropic-warns-in-ipo-filing-it-may-soon-reach-recursive-self-improvement-threshold/",
+      "summary": "Anthropic’s revised S-1 filing, released Monday, contains a notable warning beyond its financials: the AI lab suggests it may be close to developing a model capable of recursive self-improvement, the point at which AI becomes so effective at training itself that capabilities accelerate dramatically. Critics see such a...",
+      "source": "The AI Insider",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 48,
+      "date": "2026-11-03T09:12:49+00:00",
+      "ts": 1793697169.0
+    },
+    {
+      "title": "New York Times and Other Publishers Sue Brave Over Alleged Scraping for AI Companies",
+      "link": "https://theaiinsider.tech/2026/11/03/new-york-times-and-other-publishers-sue-brave-over-alleged-scraping-for-ai-companies/",
+      "summary": "The New York Times has sued Brave, the privacy-focused browser company founded in 2015, alleging it scraped the newspaper’s copyrighted content and unlawfully supplied it to AI companies including Anthropic, Perplexity, Mistral, xAI and Cohere. The Daily News, the Chicago Tribune and the Orlando Sentinel filed a...",
+      "source": "The AI Insider",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 49,
+      "date": "2026-11-03T09:05:52+00:00",
+      "ts": 1793696752.0
+    },
+    {
+      "title": "Elon Musk Tightens Grok Bot Usage Limits, Citing Unsustainable Costs",
+      "link": "https://theaiinsider.tech/2026/11/03/elon-musk-tightens-grok-bot-usage-limits-citing-unsustainable-costs/",
+      "summary": "Some Grok Bot users found their weekly usage limits unexpectedly maxed out over Halloween weekend, even without using SpaceX’s agentic AI overnight. Users reported on X that their usage jumped from as little as 50% to 100%. SpaceX CEO Elon Musk confirmed on X that the change was deliberate rather than a glitch....",
+      "source": "The AI Insider",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 55,
+      "date": "2026-11-03T09:00:54+00:00",
+      "ts": 1793696454.0
+    },
+    {
+      "title": "Former Palantir Leaders Emerge From Stealth With $17M for Dream’s AI Building Design Model",
+      "link": "https://theaiinsider.tech/2026/11/03/former-palantir-leaders-emerge-from-stealth-with-17m-for-dreams-ai-building-design-model/",
+      "summary": "Dream, a startup building AI world models to automate building design and engineering, has emerged from stealth with $17 million in seed funding led by Andreessen Horowitz, with participation from SV Angel, XYZ and Zigg Capital. The company was founded by Andy Elder and Arjun Mathur, former Stanford roommates who each...",
+      "source": "The AI Insider",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "defesa",
+        "modelos"
+      ],
+      "relevance": 44,
+      "date": "2026-11-03T08:47:41+00:00",
+      "ts": 1793695661.0
+    },
+    {
+      "title": "OpenAI to Merge ChatGPT’s Chat and Work Tabs Into a Single Experience",
+      "link": "https://theaiinsider.tech/2026/11/03/openai-to-merge-chatgpts-chat-and-work-tabs-into-a-single-experience/",
+      "summary": "OpenAI is preparing to combine the Chat and Work tabs in its ChatGPT desktop app, a move aimed at simplifying software that many users find confusing. The app currently separates ChatGPT and Codex, with ChatGPT further split into Chat and Work tabs, making it easy to lose track of where a project is located. In […]",
+      "source": "The AI Insider",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 59,
+      "date": "2026-11-03T08:42:47+00:00",
+      "ts": 1793695367.0
+    },
+    {
       "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
       "link": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
       "summary": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service...",
@@ -570,7 +1011,7 @@
     {
       "title": "Sweden’s Saab launches family of AI agents for future aircraft projects",
       "link": "https://breakingdefense.com/2026/11/swedens-saab-launches-family-of-ai-agents-for-future-aircraft-projects/",
-      "summary": "Key to the autonomous project is Saab’s AI Fighter Jet Pilot Academy, designed to develop the agents and, in parallel, establish infrastructure necessary to “create, train and evaluate” them, says the firm.",
+      "summary": "Key to the autonomous project is Saab’s AI Fighter Jet Pilot Academy, designed to develop the agents and establish infrastructure necessary to “create, train and evaluate” them, says the firm.",
       "source": "Breaking Defense",
       "region": "global",
       "category": "modelo",
@@ -1369,20 +1810,6 @@
       "ts": 1793663370.0
     },
     {
-      "title": "AI measurements of heart scans more strongly linked to patient survival than clinician measurements",
-      "link": "https://medicalxpress.com/news/2026-11-ai-heart-scans-strongly-linked.html",
-      "summary": "Artificial intelligence (AI) measurements of heart function from MRI scans are more strongly linked to how long patients live after their scan than measurements made by clinicians, suggesting that AI could provide a useful first-line approach to measuring heart function. This is according to research led by City St...",
-      "source": "Medical Xpress",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 46,
-      "date": "2026-11-02T23:30:01+00:00",
-      "ts": 1793662201.0
-    },
-    {
       "title": "Humanoid AI connects walking and object handling without demonstrations of complete task sequences",
       "link": "https://techxplore.com/news/2026-11-humanoid-ai-task-sequences.html",
       "summary": "A humanoid AI system has been developed that learns jointly from separately collected locomotion and object-manipulation data to perform multiple stages of a task in sequence.",
@@ -1395,34 +1822,6 @@
       "relevance": 22,
       "date": "2026-11-02T21:00:26+00:00",
       "ts": 1793653226.0
-    },
-    {
-      "title": "nPhase Secures $30M Series D for Clinical Data Management",
-      "link": "https://www.hpcwire.com/aiwire/2026/11/02/nphase-secures-30m-series-d-for-clinical-data-management/",
-      "summary": "Investment will scale nPhase’s enterprise clinical data business and accelerate expansion of its Statistical Computing Environment (SCE), Unified Data Management System (UDMS), and agentic AI capabilities across the clinical data lifecycle. ATLANTIC BEACH, Fla., Nov. 2, 2026 — nPhase, Inc. today announced the closing...",
-      "source": "AIwire",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 43,
-      "date": "2026-11-02T20:36:13+00:00",
-      "ts": 1793651773.0
-    },
-    {
-      "title": "Study shows AI may improve patient discharge summaries",
-      "link": "https://medicalxpress.com/news/2026-11-ai-patient-discharge-summaries.html",
-      "summary": "The use of artificial intelligence (AI) could help physicians prepare hospital patient discharge summaries more efficiently and with greater accuracy and completeness. This is the conclusion of a Stony Brook University study published online in npj Digital Medicine.",
-      "source": "Medical Xpress",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 39,
-      "date": "2026-11-02T20:20:07+00:00",
-      "ts": 1793650807.0
     },
     {
       "title": "Goldman Sachs pulls AI coding tools from traders and bankers",
@@ -1439,34 +1838,6 @@
       "ts": 1793649603.0
     },
     {
-      "title": "AI elites might hoard intelligence like mercantilists hoarded gold",
-      "link": "https://the-decoder.com/ai-elites-might-hoard-intelligence-like-mercantilists-hoarded-gold/",
-      "summary": "Engineer Venkatesh Rao compares the fear of AI job losses to mercantilism: intelligence is treated as a scarce resource that elites want to control. But AI could boost demand for human thinking, much like early capitalism made people voluntarily work more. The article AI elites might hoard intelligence like...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 31,
-      "date": "2026-11-02T19:43:51+00:00",
-      "ts": 1793648631.0
-    },
-    {
-      "title": "Anthropic clamps down on Claude’s AI video game clones",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
-      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 45,
-      "date": "2026-11-02T18:56:02+00:00",
-      "ts": 1793645762.0
-    },
-    {
       "title": "Deep Principle Releases Hydrogen-1.0: A 753B Open-Weight Model for Scientific Discovery",
       "link": "https://www.marktechpost.com/2026/11/02/deep-principle-hydrogen-1-0-open-weight-scientific-model/",
       "summary": "Deep Principle has released Hydrogen-1.0, an open-weight scientific model for chemistry, materials science and life sciences. It is built by post-training Z.ai’s GLM-5.3 on domain data, laboratory records and agent discovery trajectories. For developers, it offers open weights that report a FrontierScience-Research...",
@@ -1479,20 +1850,6 @@
       "relevance": 74,
       "date": "2026-11-02T18:41:41+00:00",
       "ts": 1793644901.0
-    },
-    {
-      "title": "SpaceXSI apparently cuts Grok Bot quotas weeks after Musk called it his fastest-growing product",
-      "link": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/",
-      "summary": "SpaceXSI is apparently cutting usage limits for its AI agent Grok Bot, less than two weeks after Musk called it his fastest-growing product. The operating costs were \"unsustainably high relative to revenue,\" Musk wrote on X. OpenAI and Anthropic are also tightening their flat-rate plans as they grapple with the high...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 61,
-      "date": "2026-11-02T18:15:39+00:00",
-      "ts": 1793643339.0
     },
     {
       "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
@@ -1538,6 +1895,18 @@
       "ts": 1793638876.0
     },
     {
+      "title": "How Circle K accelerated DevOps incident triage to under 15 minutes with Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock/",
+      "summary": "Circle K's DevOps team cut incident triage from 45-60 minutes to under 15 by building an agentic triage system on Amazon Bedrock. This post walks through the architecture, the initial Amazon Bedrock Flows implementation, the migration to Amazon Bedrock AgentCore, and the lessons learned from scaling it.",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 48,
+      "date": "2026-11-02T17:00:58+00:00",
+      "ts": 1793638858.0
+    },
+    {
       "title": "Running LLMs Locally Does Not Mean Your Data Is Safe: What Cohere’s Study Reveals",
       "link": "https://www.kdnuggets.com/running-llms-locally-does-not-mean-your-data-is-safe-what-coheres-study-reveals",
       "summary": "Cohere caught Alibaba’s Qwen model unexpectedly attempting to upload a test payload to Alibaba Cloud storage during a cybersecurity task, but the sandbox blocked the request, leaving questions about what triggered the behavior.",
@@ -1566,35 +1935,6 @@
       "ts": 1793638800.0
     },
     {
-      "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
-      "link": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
-      "summary": "Musk recently referred to Grok Bot as having \"the fastest growth of a product that I've ever seen in my life.\"",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 48,
-      "date": "2026-11-02T16:23:21+00:00",
-      "ts": 1793636601.0
-    },
-    {
-      "title": "One brutal Minecraft night scared 50 AI agents into inventing chicken handoff protocols, a Fertilizer Officer, and fishing shifts",
-      "link": "https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/",
-      "summary": "In experiments by Y Combinator Labs and Olam Labs, OpenAI's GPT-6.1 Sol model showed two very different sides. When 50 agents were tasked with peaceful civilization-building in Minecraft, they froze up in absurd bureaucracy. In direct competition against Claude Opus 5.5, they independently downloaded the game's source...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 68,
-      "date": "2026-11-02T15:42:27+00:00",
-      "ts": 1793634147.0
-    },
-    {
       "title": "What will an AI crash look like? (Analyst Angle)",
       "link": "https://rcrwireless.com/20261102/analyst-angle/what-will-an-ai-crash-look-like-analyst-angle",
       "summary": "The AI infrastructure boom could end in a crash resembling telecoms’ late-1990s fibre bust, leaving investors nursing huge losses but potentially handing utilities and infrastructure funds cheap assets to power…",
@@ -1607,20 +1947,6 @@
       "relevance": 22,
       "date": "2026-11-02T14:55:17+00:00",
       "ts": 1793631317.0
-    },
-    {
-      "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
-      "link": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
-      "summary": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 59,
-      "date": "2026-11-02T13:57:53+00:00",
-      "ts": 1793627873.0
     },
     {
       "title": "From AI factory to factory-factory – Qualcomm, Nvidia and the race to put AI to work (Telco Diary)",
@@ -1649,20 +1975,6 @@
       "relevance": 44,
       "date": "2026-11-02T09:35:19+00:00",
       "ts": 1793612119.0
-    },
-    {
-      "title": "A Shared ChatGPT Link Could Have Handed Strangers Your Private Chats",
-      "link": "https://dailyai.com/2026/11/a-shared-chatgpt-link-could-have-handed-strangers-your-private-chats/",
-      "summary": "Researchers showed one booby-trapped ChatGPT share link could read a signed-in user's private chats. OpenAI fixed it in eight days and paid a $5,000 bounty. The post A Shared ChatGPT Link Could Have Handed Strangers Your Private Chats appeared first on DailyAI .",
-      "source": "DailyAI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 62,
-      "date": "2026-11-02T09:18:16+00:00",
-      "ts": 1793611096.0
     },
     {
       "title": "Nokia quickie with Marvell at VMO2 shows AI-RAN needs no Nvidia",
@@ -1772,64 +2084,6 @@
       "relevance": 45,
       "date": "2026-11-02T02:12:38+00:00",
       "ts": 1793585558.0
-    },
-    {
-      "title": "Qwen AI Glasses Add Call Translation and Media Translation in New OTA Update",
-      "link": "https://pandaily.com/qwen-ai-glasses-ota-call-translation-media-translation-noise-reduction",
-      "summary": "Qwen AI Glasses gain real-time call translation for phone calls and meetings, media translation shown in the companion app, and better speech recognition in noisy places.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 50,
-      "date": "2026-11-02T02:11:57+00:00",
-      "ts": 1793585517.0
-    },
-    {
-      "title": "CCID Says China's AI Inference Data Has Overtaken Training Data, With 175 Trillion Daily Token Calls",
-      "link": "https://pandaily.com/ccid-china-ai-inference-data-surpasses-training-data-175-trillion-daily-token-calls",
-      "summary": "CCID says AI inference data in China has overtaken training data for the first time, with daily token calls above 175 trillion as of June, more than 1,000 times the early-2024 level.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 42,
-      "date": "2026-11-02T02:11:29+00:00",
-      "ts": 1793585489.0
-    },
-    {
-      "title": "Meituan Releases LongCat-2.5, a 1.6T Native Multimodal Model Built for Long-Horizon Agentic Coding",
-      "link": "https://pandaily.com/meituan-longcat-2-5-official-release-1-6t-native-multimodal-long-horizon-agentic-coding-w4a4",
-      "summary": "Meituan's LongCat-2.5 is a 1.6T native multimodal model with about 48B active per token, trained with long-horizon RL for agentic coding and optimized for W4A4 inference on domestic compute.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 71,
-      "date": "2026-11-02T02:10:33+00:00",
-      "ts": 1793585433.0
-    },
-    {
-      "title": "DailyAI Briefing: An AI agent operates on a mouse, plus 4 more",
-      "link": "https://dailyai.com/2026/11/dailyai-briefing-an-ai-agent-operates-on-a-mouse-plus-4-more/",
-      "summary": "An AI agent injected a gene therapy into a live mouse's brain after one Claude model refused, and Aramco closed its $2.6bn HUMAIN deal. Plus DeepSeek's always-on super-agent, one shared ChatGPT and Codex allowance, and ChatGPT ending chats that fixate on violence. The post DailyAI Briefing: An AI agent operates on a...",
-      "source": "DailyAI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 69,
-      "date": "2026-11-01T18:07:13+00:00",
-      "ts": 1793556433.0
     },
     {
       "title": "The Enterprise Context Layer: A Practitioner's Guide to 6 Advanced Architectural Patterns",
@@ -1945,34 +2199,6 @@
       "ts": 1793488522.0
     },
     {
-      "title": "datasette-llm 0.1a9",
-      "link": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
-      "summary": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasette Agent without needing to explicitly...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 54,
-      "date": "2026-10-31T22:10:01+00:00",
-      "ts": 1793484601.0
-    },
-    {
-      "title": "DailyAI Briefing: OpenAI’s funding round shrinks, plus 4 more",
-      "link": "https://dailyai.com/2026/10/dailyai-briefing-openais-funding-round-shrinks-plus-4-more/",
-      "summary": "OpenAI has reportedly cut its funding round by $10 billion, and four AI giants back one shared robots.txt opt-out from AI training. Plus Intel's worst day since 1974, a junk rating forecast for Anthropic, and Claude sneaking bad training data past a monitor. The post DailyAI Briefing: OpenAI’s funding round shrinks,...",
-      "source": "DailyAI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 48,
-      "date": "2026-10-31T18:05:40+00:00",
-      "ts": 1793469940.0
-    },
-    {
       "title": "How to Build Bug-Free Applications with Claude Code",
       "link": "https://towardsdatascience.com/how-to-build-bug-free-applications-with-claude-code/",
       "summary": "Use E2E tests to minimize bugs The post How to Build Bug-Free Applications with Claude Code appeared first on Towards Data Science .",
@@ -2015,36 +2241,6 @@
       "ts": 1793444411.0
     },
     {
-      "title": "Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode",
-      "link": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/",
-      "summary": "Factory released Droid 1.0, a model-independent coding agent harness that makes programmatic tool calling the default. On Factory’s own Terminal-Bench 4 runs, Droid scores 65.2% with Claude Opus 5.5 at $4.73 per passed task. The post Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode...",
-      "source": "MarkTechPost",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 59,
-      "date": "2026-10-31T10:38:14+00:00",
-      "ts": 1793443094.0
-    },
-    {
-      "title": "Vercel Labs Open-Sources agent-desktop for Agent Computer Use",
-      "link": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/",
-      "summary": "Vercel Labs released agent-desktop, an Apache-2.0 Rust CLI that gives any AI agent computer use on macOS, Windows and Linux by reading OS accessibility trees and acting on stable refs instead of pixels. The post Vercel Labs Open-Sources agent-desktop for Agent Computer Use appeared first on MarkTechPost .",
-      "source": "MarkTechPost",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 58,
-      "date": "2026-10-31T10:10:28+00:00",
-      "ts": 1793441428.0
-    },
-    {
       "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
       "link": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
       "summary": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
@@ -2058,20 +2254,6 @@
       "relevance": 49,
       "date": "2026-10-31T10:00:00+00:00",
       "ts": 1793440800.0
-    },
-    {
-      "title": "Relying on AI is rotting your brain. But here’s what you can do about it | Carly Dober",
-      "link": "https://www.theguardian.com/commentisfree/2026/oct/31/ai-rely-brain-new-tech-product-lives-boredom",
-      "summary": "Each new tech product is designed to make our lives easier and keep us mindlessly entertained. Switch off: embrace discomfort – and boredom Ever longed for your own personal assistant? In the ever quickening tech race, Meta has recently launched Muse, a new AI personal agent . Unlike traditional chatbots, this little...",
-      "source": "The Guardian (IA)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 42,
-      "date": "2026-10-31T08:00:37+00:00",
-      "ts": 1793433637.0
     },
     {
       "title": "Intel and Broadcom Demonstrate IEEE 802.11bn/Wi-Fi 8 Interoperability",
@@ -2089,20 +2271,6 @@
       "ts": 1793407924.0
     },
     {
-      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
-      "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
-      "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This...",
-      "source": "The Verge AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 40,
-      "date": "2026-10-30T22:32:53+00:00",
-      "ts": 1793399573.0
-    },
-    {
       "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
       "link": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
       "summary": "This week on Uncanny Valley, we also discuss Anthropic’s IPO filing and the volunteers gearing up to counter ICE at the midterms.",
@@ -2117,35 +2285,6 @@
       "relevance": 56,
       "date": "2026-10-30T21:19:26+00:00",
       "ts": 1793395166.0
-    },
-    {
-      "title": "The biggest names in AI are backing a new way to opt out of scraping",
-      "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
-      "summary": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 49,
-      "date": "2026-10-30T20:26:10+00:00",
-      "ts": 1793391970.0
-    },
-    {
-      "title": "Google’s satellite AI server transmits its first response to Earth",
-      "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
-      "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "telecom",
-        "modelos"
-      ],
-      "relevance": 45,
-      "date": "2026-10-30T18:21:38+00:00",
-      "ts": 1793384498.0
     },
     {
       "title": "nemotron-halloween",
@@ -2263,21 +2402,6 @@
       "ts": 1793369119.0
     },
     {
-      "title": "Bleu Robotics Raises €5M in Funding to Speed Humanoid Robot Deployment in Factories",
-      "link": "https://theaiinsider.tech/2026/10/30/bleu-robotics-raises-e5m-in-funding-to-speed-humanoid-robot-deployment-in-factories/",
-      "summary": "Insider Brief France’s Bleu Robotics has raised €5 million in pre-seed funding to develop AI software designed to teach humanoid robots new factory tasks with fewer demonstrations and shorten the time required to put them to work. Contrarian Ventures and OVNI Capital co-led the round, with participation from Kvanted,...",
-      "source": "The AI Insider",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "humanoides",
-        "modelos"
-      ],
-      "relevance": 40,
-      "date": "2026-10-30T14:01:08+00:00",
-      "ts": 1793368868.0
-    },
-    {
       "title": "Eurobites: VMO2 nears Openreach deal to expand fiber coverage – report",
       "link": "https://www.lightreading.com/fttx/eurobites-vmo2-nears-openreach-deal-to-expand-fiber-coverage-report",
       "summary": "Also in today's EMEA regional roundup: Proximus' patchy Q3; Orange hooks up with Mistral AI; Google under fire in Finland.",
@@ -2349,20 +2473,6 @@
       "relevance": 70,
       "date": "2026-10-29T22:48:29+00:00",
       "ts": 1793314109.0
-    },
-    {
-      "title": "2026 Robotics Handbook looks at humanoids, AI, and design choices",
-      "link": "https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/",
-      "summary": "The 2026 Robotics Handbook examines design choices behind dexterous manipulation, humanoid robots, and construction automation. The post 2026 Robotics Handbook looks at humanoids, AI, and design choices appeared first on The Robot Report .",
-      "source": "The Robot Report",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "humanoides"
-      ],
-      "relevance": 30,
-      "date": "2026-10-29T19:36:12+00:00",
-      "ts": 1793302572.0
     },
     {
       "title": "Microsoft Research Focus – Edition #97",
@@ -2652,18 +2762,6 @@
       "ts": 1793215678.0
     },
     {
-      "title": "Intel and Oracle Plan Multiyear Expansion of Xeon Computing on OCI",
-      "link": "https://www.hpcwire.com/aiwire/2026/10/28/intel-and-oracle-plan-multiyear-expansion-of-xeon-computing-on-oci/",
-      "summary": "LAS VEGAS, Oct. 28, 2026 — Intel and Oracle have announced plans for a multiyear collaboration intended to expand Intel Xeon-based computing on Oracle Cloud Infrastructure (OCI). The collaboration is intended to meet the growing demand for enterprise applications, agentic AI, and inference, and is expected to span...",
-      "source": "AIwire",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 49,
-      "date": "2026-10-28T19:03:17+00:00",
-      "ts": 1793214197.0
-    },
-    {
       "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
       "link": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
       "summary": "Gemini 4 Carbon is essentially a slightly better version of Argon.",
@@ -2676,34 +2774,6 @@
       "relevance": 56,
       "date": "2026-10-28T18:47:27+00:00",
       "ts": 1793213247.0
-    },
-    {
-      "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
-      "link": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
-      "summary": "Stand up a governed, multi-account Agentic AI Platform on Amazon Bedrock AgentCore. This post walks through the architecture and an open-source reference blueprint: the operating model, control plane, per-Workstream cells, separate inference and tool gateways, and a CI/CD evaluation pipeline that gates each agent...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 64,
-      "date": "2026-10-28T18:28:26+00:00",
-      "ts": 1793212106.0
-    },
-    {
-      "title": "Distributed training with Ray Train DLCs and EFA on EKS",
-      "link": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/",
-      "summary": "The Ray Train Deep Learning Container ships the full CUDA-through-EFA stack, so you build no image. This post walks through a reproducible sample that fine-tunes Qwen2.5-1.5B with PyTorch FSDP across eight GPUs on two EFA-enabled g6.12xlarge instances on Amazon EKS, using the container exactly as published.",
-      "source": "AWS Machine Learning",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 55,
-      "date": "2026-10-28T18:19:54+00:00",
-      "ts": 1793211594.0
     },
     {
       "title": "Army taps AWS and WWT to boost AI-enabled cybersecurity initiative",
@@ -2763,20 +2833,6 @@
       "relevance": 59,
       "date": "2026-10-28T13:50:38+00:00",
       "ts": 1793195438.0
-    },
-    {
-      "title": "People are using AI to make expensive computer programs free. This could change everything",
-      "link": "https://techxplore.com/news/2026-10-people-ai-expensive-free.html",
-      "summary": "One of the earliest uses of generative artificial intelligence (AI) tools like ChatGPT and Claude was producing source code—computer language instructions that make up software such as word processors, your internet browser and everything else.",
-      "source": "TechXplore (IA/ML)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 62,
-      "date": "2026-10-28T13:40:04+00:00",
-      "ts": 1793194804.0
     },
     {
       "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
@@ -2931,21 +2987,6 @@
       "relevance": 71,
       "date": "2026-10-26T23:53:07+00:00",
       "ts": 1793058787.0
-    },
-    {
-      "title": "Analysis: Why Carriers Are Fighting Mid-Band Satellite D2D Spectrum at the FCC",
-      "link": "https://techblog.comsoc.org/2026/10/26/analysis-why-carriers-are-fighting-mid-band-satellite-d2d-spectrum-at-the-fcc/",
-      "summary": "Disclaimer: Google Gemini was used for research in this article. ……………………………………………………………………………………………………………………………………………….. Executive Summary: Ahead of the FCC’s October 29th open meeting on Supplemental Coverage from Space (SCS), CTIA filed a joint petition on behalf of AT&T, Verizon, and T-Mobile on October 22nd. The...",
-      "source": "IEEE ComSoc Tech Blog",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "telecom",
-        "modelos"
-      ],
-      "relevance": 58,
-      "date": "2026-10-26T23:26:39+00:00",
-      "ts": 1793057199.0
     },
     {
       "title": "IA eleva em 20% eficiência espectral do 5G em teste da Nokia e O2",
@@ -3125,18 +3166,18 @@
       "ts": 1792684800.0
     },
     {
-      "title": "TIM Itália amplia infraestrutura de IA soberana em parceria com NVIDIA",
-      "link": "https://telesintese.com.br/tim-italia-amplia-infraestrutura-de-ia-soberana-em-parceria-com-nvidia/",
-      "summary": "TIM Enterprise integrará nuvem e processamento distribuído para oferecer modelos de IA a empresas, órgãos públicos e centros de pesquisa. O post TIM Itália amplia infraestrutura de IA soberana em parceria com NVIDIA apareceu primeiro em TeleSíntese .",
-      "source": "TeleSintese (BR)",
+      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "link": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+      "summary": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most...",
+      "source": "NVIDIA Blog",
       "region": "global",
       "category": "modelo",
       "topics": [
         "modelos"
       ],
-      "relevance": 46,
-      "date": "2026-10-22T15:07:48+00:00",
-      "ts": 1792681668.0
+      "relevance": 47,
+      "date": "2026-10-22T15:00:02+00:00",
+      "ts": 1792681202.0
     },
     {
       "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
@@ -3233,21 +3274,6 @@
       "relevance": 58,
       "date": "2026-10-21T10:45:17+00:00",
       "ts": 1792579517.0
-    },
-    {
-      "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
-      "link": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
-      "summary": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster than ever. Developers need compute closer to their data, open models they can customize and serve at scale, and full-stack infrastructure that is secure by design. NVIDIA Cloud Partners across Europe, the Nordics, Africa, and Central Asia...",
-      "source": "NVIDIA Blog",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 54,
-      "date": "2026-10-21T10:30:41+00:00",
-      "ts": 1792578641.0
     },
     {
       "title": "DeepSeek open-sources inference framework with support for Nvidia and Huawei chips",
@@ -3987,18 +4013,6 @@
       "relevance": 49,
       "date": "2026-10-02T04:01:31+00:00",
       "ts": 1790913691.0
-    },
-    {
-      "title": "Forecasting space weather risks on power grids",
-      "link": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids/",
-      "summary": "Extreme space-weather events can damage power systems on Earth and degrade GPS accuracy and satellite operations. A new machine learning system can predict where damage is likely to occur 30-60 minutes before a storm arrives. The post Forecasting space weather risks on power grids appeared first on Microsoft Research .",
-      "source": "Microsoft Research",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 37,
-      "date": "2026-09-30T16:00:00+00:00",
-      "ts": 1790784000.0
     },
     {
       "title": "Kimi K3 enters OpenAI’s enterprise Codex channel and billing system",
