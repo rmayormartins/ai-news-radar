@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-02T14:13:45.070171+00:00",
-  "count": 276,
+  "generated_at": "2026-11-03T00:11:51.329007+00:00",
+  "count": 281,
   "china_count": 59,
   "topic_counts": {
-    "humanoides": 11,
-    "modelos": 171,
-    "agentes": 70,
-    "biomedica": 20,
+    "humanoides": 12,
+    "modelos": 174,
+    "agentes": 71,
+    "biomedica": 22,
     "defesa": 10,
     "telecom": 23
   },
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1341 itens)",
+      "status": "ok (1345 itens)",
       "kept": 12
     },
     {
@@ -104,12 +104,12 @@
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 9
+      "kept": 8
     },
     {
       "source": "MIT Tech Review",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "VentureBeat AI",
@@ -124,7 +124,7 @@
     {
       "source": "KDnuggets",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "TechXplore (IA/ML)",
@@ -144,12 +144,12 @@
     {
       "source": "Ars Technica",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "Wired AI",
@@ -294,7 +294,7 @@
     {
       "source": "DailyAI",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "The AI Insider",
@@ -324,7 +324,7 @@
     {
       "source": "TechXplore Robotica",
       "status": "ok (30 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "New Atlas Robotica",
@@ -339,7 +339,7 @@
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 2
+      "kept": 3
     },
     {
       "source": "arXiv eess.IV (imagem)",
@@ -374,7 +374,7 @@
     {
       "source": "RCR Wireless",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Light Reading",
@@ -429,7 +429,275 @@
   ],
   "items": [
     {
-      "title": "OpenAI is finally merging ChatGPT’s chat and Work tabs",
+      "title": "llm 0.37",
+      "link": "https://simonwillison.net/2026/Nov/2/llm/",
+      "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure additional models that use...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 60,
+      "date": "2026-11-02T23:49:30+00:00",
+      "ts": 1793663370.0
+    },
+    {
+      "title": "AI measurements of heart scans more strongly linked to patient survival than clinician measurements",
+      "link": "https://medicalxpress.com/news/2026-11-ai-heart-scans-strongly-linked.html",
+      "summary": "Artificial intelligence (AI) measurements of heart function from MRI scans are more strongly linked to how long patients live after their scan than measurements made by clinicians, suggesting that AI could provide a useful first-line approach to measuring heart function. This is according to research led by City St...",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 46,
+      "date": "2026-11-02T23:30:01+00:00",
+      "ts": 1793662201.0
+    },
+    {
+      "title": "Humanoid AI connects walking and object handling without demonstrations of complete task sequences",
+      "link": "https://techxplore.com/news/2026-11-humanoid-ai-task-sequences.html",
+      "summary": "A humanoid AI system has been developed that learns jointly from separately collected locomotion and object-manipulation data to perform multiple stages of a task in sequence.",
+      "source": "TechXplore Robotica",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "humanoides"
+      ],
+      "relevance": 22,
+      "date": "2026-11-02T21:00:26+00:00",
+      "ts": 1793653226.0
+    },
+    {
+      "title": "nPhase Secures $30M Series D for Clinical Data Management",
+      "link": "https://www.hpcwire.com/aiwire/2026/11/02/nphase-secures-30m-series-d-for-clinical-data-management/",
+      "summary": "Investment will scale nPhase’s enterprise clinical data business and accelerate expansion of its Statistical Computing Environment (SCE), Unified Data Management System (UDMS), and agentic AI capabilities across the clinical data lifecycle. ATLANTIC BEACH, Fla., Nov. 2, 2026 — nPhase, Inc. today announced the closing...",
+      "source": "AIwire",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 43,
+      "date": "2026-11-02T20:36:13+00:00",
+      "ts": 1793651773.0
+    },
+    {
+      "title": "Study shows AI may improve patient discharge summaries",
+      "link": "https://medicalxpress.com/news/2026-11-ai-patient-discharge-summaries.html",
+      "summary": "The use of artificial intelligence (AI) could help physicians prepare hospital patient discharge summaries more efficiently and with greater accuracy and completeness. This is the conclusion of a Stony Brook University study published online in npj Digital Medicine.",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 39,
+      "date": "2026-11-02T20:20:07+00:00",
+      "ts": 1793650807.0
+    },
+    {
+      "title": "Goldman Sachs pulls AI coding tools from traders and bankers",
+      "link": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
+      "summary": "Goldman Sachs is pulling AI coding tools like Claude Code and GitHub Copilot from traders and bankers, limiting access to engineers only. As recently as July, CIO Marco Argenti publicly praised \"vibe coding\" by non-technical staff. Now the bank cites \"productivity and risk management\" as the reason for the reversal....",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 38,
+      "date": "2026-11-02T20:00:03+00:00",
+      "ts": 1793649603.0
+    },
+    {
+      "title": "AI elites might hoard intelligence like mercantilists hoarded gold",
+      "link": "https://the-decoder.com/ai-elites-might-hoard-intelligence-like-mercantilists-hoarded-gold/",
+      "summary": "Engineer Venkatesh Rao compares the fear of AI job losses to mercantilism: intelligence is treated as a scarce resource that elites want to control. But AI could boost demand for human thinking, much like early capitalism made people voluntarily work more. The article AI elites might hoard intelligence like...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 31,
+      "date": "2026-11-02T19:43:51+00:00",
+      "ts": 1793648631.0
+    },
+    {
+      "title": "Ensuring health equity with the use of AI",
+      "link": "https://medicalxpress.com/news/2026-11-health-equity-ai.html",
+      "summary": "Only 13% of articles examined in a review of artificial intelligence (AI) and health equity explicitly defined health equity—a gap that could leave AI-driven approaches benefiting the most advantaged groups. That's a key finding from a review led by Caroline R. Efird of Georgetown University and colleagues. The...",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 39,
+      "date": "2026-11-02T19:00:04+00:00",
+      "ts": 1793646004.0
+    },
+    {
+      "title": "Anthropic clamps down on Claude’s AI video game clones",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make...",
+      "source": "The Verge AI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 45,
+      "date": "2026-11-02T18:56:02+00:00",
+      "ts": 1793645762.0
+    },
+    {
+      "title": "Deep Principle Releases Hydrogen-1.0: A 753B Open-Weight Model for Scientific Discovery",
+      "link": "https://www.marktechpost.com/2026/11/02/deep-principle-hydrogen-1-0-open-weight-scientific-model/",
+      "summary": "Deep Principle has released Hydrogen-1.0, an open-weight scientific model for chemistry, materials science and life sciences. It is built by post-training Z.ai’s GLM-5.3 on domain data, laboratory records and agent discovery trajectories. For developers, it offers open weights that report a FrontierScience-Research...",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 74,
+      "date": "2026-11-02T18:41:41+00:00",
+      "ts": 1793644901.0
+    },
+    {
+      "title": "SpaceXSI apparently cuts Grok Bot quotas weeks after Musk called it his fastest-growing product",
+      "link": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/",
+      "summary": "SpaceXSI is apparently cutting usage limits for its AI agent Grok Bot, less than two weeks after Musk called it his fastest-growing product. The operating costs were \"unsustainably high relative to revenue,\" Musk wrote on X. OpenAI and Anthropic are also tightening their flat-rate plans as they grapple with the high...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 61,
+      "date": "2026-11-02T18:15:39+00:00",
+      "ts": 1793643339.0
+    },
+    {
+      "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
+      "link": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
+      "summary": "The tsunami of imitators is way bigger than any one model maker can stem.",
+      "source": "Ars Technica",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 54,
+      "date": "2026-11-02T18:05:31+00:00",
+      "ts": 1793642731.0
+    },
+    {
+      "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/",
+      "summary": "Agentic assistants built on frontier models run a multi-step tool loop, and paying frontier prices on every step is hard to sustain at production scale. This post shows how to use sequence-level knowledge distillation (SeqKD) to transfer a frontier teacher's agentic behavior into a small, lower-cost student on Amazon...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 56,
+      "date": "2026-11-02T17:01:31+00:00",
+      "ts": 1793638891.0
+    },
+    {
+      "title": "Agentic engineering intelligence with Amazon Nova Multimodal Embeddings and Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/",
+      "summary": "Learn how to build a multi-agent engineering assistant that compresses aerospace component substitution evaluation from days to minutes, using Amazon Nova Multimodal Embeddings, Amazon Bedrock AgentCore, and the Strands Agents SDK to assemble substitution evidence while keeping the engineer as the decision-maker.",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 54,
+      "date": "2026-11-02T17:01:16+00:00",
+      "ts": 1793638876.0
+    },
+    {
+      "title": "Running LLMs Locally Does Not Mean Your Data Is Safe: What Cohere’s Study Reveals",
+      "link": "https://www.kdnuggets.com/running-llms-locally-does-not-mean-your-data-is-safe-what-coheres-study-reveals",
+      "summary": "Cohere caught Alibaba’s Qwen model unexpectedly attempting to upload a test payload to Alibaba Cloud storage during a cybersecurity task, but the sandbox blocked the request, leaving questions about what triggered the behavior.",
+      "source": "KDnuggets",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 57,
+      "date": "2026-11-02T17:00:00+00:00",
+      "ts": 1793638800.0
+    },
+    {
+      "title": "Raising the quality of insights in agentic analytics",
+      "link": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+      "summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that...",
+      "source": "MIT Tech Review",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 48,
+      "date": "2026-11-02T17:00:00+00:00",
+      "ts": 1793638800.0
+    },
+    {
+      "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+      "link": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "summary": "Musk recently referred to Grok Bot as having \"the fastest growth of a product that I've ever seen in my life.\"",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 48,
+      "date": "2026-11-02T16:23:21+00:00",
+      "ts": 1793636601.0
+    },
+    {
+      "title": "One brutal Minecraft night scared 50 AI agents into inventing chicken handoff protocols, a Fertilizer Officer, and fishing shifts",
+      "link": "https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/",
+      "summary": "In experiments by Y Combinator Labs and Olam Labs, OpenAI's GPT-6.1 Sol model showed two very different sides. When 50 agents were tasked with peaceful civilization-building in Minecraft, they froze up in absurd bureaucracy. In direct competition against Claude Opus 5.5, they independently downloaded the game's source...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 68,
+      "date": "2026-11-02T15:42:27+00:00",
+      "ts": 1793634147.0
+    },
+    {
+      "title": "What will an AI crash look like? (Analyst Angle)",
+      "link": "https://rcrwireless.com/20261102/analyst-angle/what-will-an-ai-crash-look-like-analyst-angle",
+      "summary": "The AI infrastructure boom could end in a crash resembling telecoms’ late-1990s fibre bust, leaving investors nursing huge losses but potentially handing utilities and infrastructure funds cheap assets to power…",
+      "source": "RCR Wireless",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 22,
+      "date": "2026-11-02T14:55:17+00:00",
+      "ts": 1793631317.0
+    },
+    {
+      "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
       "link": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
       "summary": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
       "source": "TechCrunch",
@@ -467,20 +735,6 @@
       "relevance": 22,
       "date": "2026-11-02T10:47:59+00:00",
       "ts": 1793616479.0
-    },
-    {
-      "title": "Non-experts with AI guidance and off-site review perform quality mobile rural heart scans",
-      "link": "https://medicalxpress.com/news/2026-10-experts-ai-guidance-site-quality.html",
-      "summary": "Artificial intelligence (AI) helped health professionals with no ultrasound experience capture quality heart scans in rural communities for review by off-site experts, according to new, independent preliminary research to be presented at the American Heart Association's Scientific Sessions 2026. The meeting takes...",
-      "source": "Medical Xpress",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 39,
-      "date": "2026-11-02T10:00:26+00:00",
-      "ts": 1793613626.0
     },
     {
       "title": "The agentic web is here",
@@ -594,6 +848,18 @@
       "relevance": 62,
       "date": "2026-11-02T06:32:26+00:00",
       "ts": 1793601146.0
+    },
+    {
+      "title": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
+      "link": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
+      "summary": "The MIT professors collaborated to identify the first AI-discovered antibiotic, a scientific breakthrough that is widely recognized as a milestone in AI-driven drug discovery.",
+      "source": "MIT News (IA)",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 35,
+      "date": "2026-11-02T05:35:00+00:00",
+      "ts": 1793597700.0
     },
     {
       "title": "SoK: Agentic Retrieval-Augmented Generation (RAG): Taxonomy, Architectures, Evaluation, and Research Directions",
@@ -1293,21 +1559,6 @@
       "ts": 1793556433.0
     },
     {
-      "title": "Vision-language AI agent could help radiologists interpret ultrasounds faster and more accurately",
-      "link": "https://medicalxpress.com/news/2026-10-vision-language-ai-agent-radiologists.html",
-      "summary": "When a patient arrives in the emergency department with severe abdominal pain, every minute counts. Researchers at the University of Colorado Anschutz School of Medicine are investigating ways to streamline the work of radiologists and make it more efficient. They also aim to quickly identify patients who may need...",
-      "source": "Medical Xpress",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes",
-        "biomedica"
-      ],
-      "relevance": 48,
-      "date": "2026-11-01T17:00:01+00:00",
-      "ts": 1793552401.0
-    },
-    {
       "title": "The Enterprise Context Layer: A Practitioner's Guide to 6 Advanced Architectural Patterns",
       "link": "https://towardsdatascience.com/the-enterprise-context-layer-a-practitioners-guide-to-6-advanced-architectural-patterns/",
       "summary": "Beyond RAG: How modern architectures engineer precise, cost-efficient context for enterprise AI agents. The post The Enterprise Context Layer: A Practitioner's Guide to 6 Advanced Architectural Patterns appeared first on Towards Data Science .",
@@ -1374,32 +1625,6 @@
       "ts": 1793536381.0
     },
     {
-      "title": "OpenAI is steering ChatGPT users toward more paid usage",
-      "link": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/",
-      "summary": "OpenAI is now capping the number of paid ChatGPT accounts per device and payment card. Users who hit the limit can't start new subscriptions, and affected accounts can't be used on that device. Logging out doesn't automatically free up a spot. The policy will likely hit users who've been juggling multiple cheap...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 62,
-      "date": "2026-11-01T12:05:04+00:00",
-      "ts": 1793534704.0
-    },
-    {
-      "title": "Google wants video AI to understand what people need as they work",
-      "link": "https://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help/",
-      "summary": "A Google-led research team built StreamVibe, a video agent designed to watch people cook or assemble furniture and speak up only when help is needed. A benchmark shows that none of the tested models reliably pick the right moment in longer videos, as errors compound and response quality drops sharply. The article...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 58,
-      "date": "2026-11-01T11:25:21+00:00",
-      "ts": 1793532321.0
-    },
-    {
       "title": "DeepSeek unveils AI ‘super agent’ in coding race with OpenAI, Anthropic",
       "link": "https://www.scmp.com/tech/article/3372884/deepseek-unveils-ai-super-agent-coding-race-openai-anthropic",
       "summary": "Chinese artificial intelligence start-up DeepSeek has previewed a plan for a more autonomous AI agent that can handle multiple tasks with minimal human intervention, as it steps up competition with US rivals OpenAI and Anthropic in developing coding assistants. The proposed system, dubbed super agent, aimed to reduce...",
@@ -1413,20 +1638,6 @@
       "relevance": 64,
       "date": "2026-11-01T10:00:26+00:00",
       "ts": 1793527226.0
-    },
-    {
-      "title": "OpenAI's upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing",
-      "link": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/",
-      "summary": "OpenAI combines the Chat and Work modes into a single interface. Starting in December, Plus, Pro, and Business plans will share a common, token-based quota for ChatGPT and Codex. More complex models consume more of this quota, while simple instant chats do not count toward it. In practice, this is likely to result in...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 63,
-      "date": "2026-11-01T09:51:06+00:00",
-      "ts": 1793526666.0
     },
     {
       "title": "Nace AI Open-Sources Drex Max v1: A 27B Decision Model That Runs Locally on Apple Silicon",
@@ -1544,30 +1755,18 @@
       "ts": 1793484601.0
     },
     {
-      "title": "Anthropic's watermark rollout leaves a loophole on two older Claude models",
-      "link": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
-      "summary": "Anthropic is expanding its text watermark to four more Claude models to meet the EU AI Act's December deadline. On the older models Claude Opus 4.6 and Sonnet 4.6, developers can bypass the watermark by tweaking a single sampling parameter. Anthropic addresses the loophole with just a compliance warning. The article...",
-      "source": "The Decoder",
+      "title": "DailyAI Briefing: OpenAI’s funding round shrinks, plus 4 more",
+      "link": "https://dailyai.com/2026/10/dailyai-briefing-openais-funding-round-shrinks-plus-4-more/",
+      "summary": "OpenAI has reportedly cut its funding round by $10 billion, and four AI giants back one shared robots.txt opt-out from AI training. Plus Intel's worst day since 1974, a junk rating forecast for Anthropic, and Claude sneaking bad training data past a monitor. The post DailyAI Briefing: OpenAI’s funding round shrinks,...",
+      "source": "DailyAI",
       "region": "global",
       "category": "modelo",
       "topics": [
         "modelos"
       ],
-      "relevance": 59,
-      "date": "2026-10-31T19:20:55+00:00",
-      "ts": 1793474455.0
-    },
-    {
-      "title": "OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits",
-      "link": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
-      "summary": "Starting November 29, OpenAI will use data from Daybreak Blue sessions to train its models, even when users have turned off training. After backlash, a follow-up email promised a separate opt-out. The move revives concerns from the dispute with mathematicians who suspected OpenAI used their unpublished research for...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 53,
-      "date": "2026-10-31T16:38:37+00:00",
-      "ts": 1793464717.0
+      "relevance": 48,
+      "date": "2026-10-31T18:05:40+00:00",
+      "ts": 1793469940.0
     },
     {
       "title": "How to Build Bug-Free Applications with Claude Code",
@@ -1887,21 +2086,6 @@
       "ts": 1793381265.0
     },
     {
-      "title": "Google’s first data center satellite is online and writing poetry",
-      "link": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
-      "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "telecom",
-        "modelos"
-      ],
-      "relevance": 51,
-      "date": "2026-10-30T17:00:00+00:00",
-      "ts": 1793379600.0
-    },
-    {
       "title": "Free ChatGPT Now Flatters Less but Makes More Errors, OpenAI Says",
       "link": "https://dailyai.com/2026/10/free-chatgpt-now-flatters-less-but-makes-more-errors-openai-says/",
       "summary": "OpenAI has made the free version of ChatGPT shorter and less flattering. Its own tests show the update also made more factual errors on all six accuracy measures. The post Free ChatGPT Now Flatters Less but Makes More Errors, OpenAI Says appeared first on DailyAI .",
@@ -2021,20 +2205,6 @@
       "ts": 1793365931.0
     },
     {
-      "title": "Mistral Gives Away a Trillion-Parameter AI as Google Locks Its Own Up",
-      "link": "https://dailyai.com/2026/10/mistral-gives-away-a-trillion-parameter-ai-as-google-locks-its-own-up/",
-      "summary": "Mistral has released the weights of Large 4, a 1-trillion-parameter model anyone can download, as Google keeps its top cyber model for vetted defenders. What that means, and who can really use it. The post Mistral Gives Away a Trillion-Parameter AI as Google Locks Its Own Up appeared first on DailyAI .",
-      "source": "DailyAI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 64,
-      "date": "2026-10-30T12:18:32+00:00",
-      "ts": 1793362712.0
-    },
-    {
       "title": "Using ChatGPT before a medical appointment? How to get the best support for your health questions",
       "link": "https://techxplore.com/news/2026-10-chatgpt-medical-health.html",
       "summary": "Erin is in her early 40s. She works part time in a demanding job and has two kids in elementary school. She feels constantly exhausted; she's often angry and feels like she can't think like she used to. Her friend tells her it's perimenopause.",
@@ -2062,20 +2232,6 @@
       "relevance": 52,
       "date": "2026-10-30T11:00:00+00:00",
       "ts": 1793358000.0
-    },
-    {
-      "title": "DeepSeek and Moonshot Used GPT-6 Astra to Train Models, Report Says",
-      "link": "https://dailyai.com/2026/10/deepseek-and-moonshot-used-gpt-6-astra-to-train-models-report-says/",
-      "summary": "DeepSeek and Moonshot AI relied heavily on GPT-6 Astra outputs to train Kimi K3.1 Pro and V4.1-Flash 1017, The Information reports, citing unnamed sources. The post DeepSeek and Moonshot Used GPT-6 Astra to Train Models, Report Says appeared first on DailyAI .",
-      "source": "DailyAI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 70,
-      "date": "2026-10-30T09:51:37+00:00",
-      "ts": 1793353897.0
     },
     {
       "title": "STAT+: FDA, CMS scramble to avoid regulatory logjam as more states look to test AI in clinical settings",
@@ -2120,20 +2276,6 @@
       "relevance": 47,
       "date": "2026-10-30T07:01:03+00:00",
       "ts": 1793343663.0
-    },
-    {
-      "title": "Edge0 Releases Audio8-TTS-Realistic, a 0.6B Voice Cloning TTS Model",
-      "link": "https://www.marktechpost.com/2026/10/29/edge0-audio8-tts-realistic-0-6b-voice-cloning/",
-      "summary": "Edge0 released Audio8-TTS-Realistic, a 0.6B open-weight zero-shot voice cloning TTS model under Apache 2.0. It supports 23 languages and adds a final GRPO stage driven by a learned realism critic. The post Edge0 Releases Audio8-TTS-Realistic, a 0.6B Voice Cloning TTS Model appeared first on MarkTechPost .",
-      "source": "MarkTechPost",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 46,
-      "date": "2026-10-30T05:02:52+00:00",
-      "ts": 1793336572.0
     },
     {
       "title": "Can Digital Twins Deliver Real Energy Savings for AI Data Center Cooling?",
@@ -2233,33 +2375,6 @@
       "relevance": 61,
       "date": "2026-10-29T17:20:19+00:00",
       "ts": 1793294419.0
-    },
-    {
-      "title": "Building a multiplayer game world with autonomous Fable-class models",
-      "link": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
-      "summary": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 53,
-      "date": "2026-10-29T17:00:26+00:00",
-      "ts": 1793293226.0
-    },
-    {
-      "title": "How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway",
-      "link": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/",
-      "summary": "MoEngage turned roughly 400 private REST APIs across 7 AWS Regions into permission-scoped agent tools with Amazon Bedrock AgentCore Gateway. No per-service MCP servers, no public endpoints, and no 400-tool context bloat. See how OpenAPI specs, Cedar policies, and managed Amazon VPC Lattice egress made it work.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 48,
-      "date": "2026-10-29T16:54:52+00:00",
-      "ts": 1793292892.0
     },
     {
       "title": "Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS",
@@ -2574,20 +2689,6 @@
       "ts": 1793211594.0
     },
     {
-      "title": "Prophecy Launches DataGPT, Bringing Enterprise Data Workflows to Claude, ChatGPT, and Copilot",
-      "link": "https://www.hpcwire.com/aiwire/2026/10/28/prophecy-launches-datagpt-bringing-enterprise-data-workflows-to-claude-chatgpt-and-copilot/",
-      "summary": "DataGPT turns AI conversations into visual data workflows business teams can verify, and into reusable and governed data products that run on the cloud data platforms enterprises already own PALO ALTO, Calif., Oct. 28, 2026 — Prophecy today announced Prophecy DataGPT. DataGPT lets business data analysts do complete...",
-      "source": "AIwire",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 66,
-      "date": "2026-10-28T17:06:11+00:00",
-      "ts": 1793207171.0
-    },
-    {
       "title": "Army taps AWS and WWT to boost AI-enabled cybersecurity initiative",
       "link": "https://defensescoop.com/2026/10/28/army-aws-wwt-ai-cybersecurity-project-griffin/",
       "summary": "“Partnering with commercial industry is a national security imperative for the Army, as the private sector drives rapid innovation in superintelligence, cloud architecture and cyber operations capabilities,” Col. David Bergmann said. The post Army taps AWS and WWT to boost AI-enabled cybersecurity initiative appeared...",
@@ -2856,20 +2957,6 @@
       "relevance": 58,
       "date": "2026-10-26T23:26:39+00:00",
       "ts": 1793057199.0
-    },
-    {
-      "title": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK",
-      "link": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
-      "summary": "Build enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS CDK: an agent that routes across two knowledge bases, retrieves through the AgentCore Gateway, and returns grounded, cited answers, with seven layers of observability and both on-demand and continuous evaluation, all deployed as...",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 48,
-      "date": "2026-10-26T17:15:14+00:00",
-      "ts": 1793034914.0
     },
     {
       "title": "IA eleva em 20% eficiência espectral do 5G em teste da Nokia e O2",
@@ -3880,18 +3967,6 @@
       "relevance": 28,
       "date": "2026-10-07T12:00:00+00:00",
       "ts": 1791374400.0
-    },
-    {
-      "title": "Supercomputing researchers document evolution of AI hardware",
-      "link": "https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006",
-      "summary": "An ongoing survey tracks the latest AI accelerator systems to keep hardware relevant for Lincoln Laboratory staff and sponsors.",
-      "source": "MIT News (IA)",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 35,
-      "date": "2026-10-06T20:55:00+00:00",
-      "ts": 1791320100.0
     },
     {
       "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
