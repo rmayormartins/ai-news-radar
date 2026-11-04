@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-03T22:41:31.373505+00:00",
-  "count": 277,
-  "china_count": 58,
+  "generated_at": "2026-11-04T03:56:52.483582+00:00",
+  "count": 276,
+  "china_count": 57,
   "topic_counts": {
     "humanoides": 10,
-    "modelos": 171,
-    "agentes": 65,
-    "biomedica": 17,
+    "modelos": 172,
+    "agentes": 64,
+    "biomedica": 16,
     "defesa": 14,
-    "telecom": 25
+    "telecom": 26
   },
   "sources": [
     {
@@ -253,7 +253,7 @@
     },
     {
       "source": "China Internet Watch",
-      "status": "ERRO: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.chinainternetwatch.com'. (_ssl.c:1011)>",
+      "status": "ERRO: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.chinainternetwatch.com'. (_ssl.c:1010)>",
       "kept": 0
     },
     {
@@ -339,7 +339,7 @@
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "arXiv eess.IV (imagem)",
@@ -428,6 +428,48 @@
     }
   ],
   "items": [
+    {
+      "title": "Lenovo Kaitian Unveils AI Host With Zhaoxin KX-7000 CPU and Houmo LQ50 NPU for Local 35B Models",
+      "link": "https://pandaily.com/lenovo-kaitian-ai-host-zhaoxin-kx-7000-houmo-lq50-npu-160-tops-local-35b-qwen",
+      "summary": "Lenovo Kaitian's 1.6L AI host pairs a Zhaoxin KX-7000 with a Houmo LQ50 NPU for 160 TOPS, running Qwen3.6-35B-A3B locally at about 29 tokens per second.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 55,
+      "date": "2026-11-04T01:56:50+00:00",
+      "ts": 1793757410.0
+    },
+    {
+      "title": "DeepSeek, Qwen and MiniMax Leads Debate Open-Source Model Risks on Shared Wuzhen Stage",
+      "link": "https://pandaily.com/deepseek-qwen-minimax-wuzhen-dialogue-open-source-models-risk-wic-2026",
+      "summary": "At the Wuzhen Summit, DeepSeek's Xi Gao, Qwen's Dayiheng Liu and MiniMax's Wen Feng explained why they open-source models and how irrevocable releases should be governed.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 74,
+      "date": "2026-11-04T01:55:56+00:00",
+      "ts": 1793757356.0
+    },
+    {
+      "title": "Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights",
+      "link": "https://www.marktechpost.com/2026/11/03/anthropic-flashprove-provable-inference-zksnark/",
+      "summary": "Anthropic released FlashProve, an Apache 2.0 zkSNARK prototype that proves a reply came from a committed model without revealing weights. It proves Llama 4 Maverick at 110 tokens/second on 1 H100, with 19 MB proofs. The post Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights...",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 60,
+      "date": "2026-11-03T22:08:22+00:00",
+      "ts": 1793743702.0
+    },
     {
       "title": "AI may help tailor treatment for childhood brain tumors",
       "link": "https://medicalxpress.com/news/2026-11-ai-tailor-treatment-childhood-brain.html",
@@ -699,20 +741,6 @@
       "ts": 1793723388.0
     },
     {
-      "title": "AI system may help clinical labs spot problems before they affect patients",
-      "link": "https://medicalxpress.com/news/2026-11-ai-clinical-labs-problems-affect.html",
-      "summary": "Weill Cornell Medicine researchers have designed an AI system that could help clinical laboratories identify problems before they disrupt testing and delay patient care. These laboratories analyze samples such as blood, urine, tissue or other bodily fluids to help doctors diagnose and treat diseases. However, growing...",
-      "source": "Medical Xpress",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 39,
-      "date": "2026-11-03T16:00:29+00:00",
-      "ts": 1793721629.0
-    },
-    {
       "title": "ChatGPT advertising delivers more than 6 times less value for money than Google Ads",
       "link": "https://techxplore.com/news/2026-11-chatgpt-advertising-money-google-ads.html",
       "summary": "Advertising on ChatGPT has so far proven significantly less cost-effective for businesses than advertising on Google. This is the finding of a new study by Christian Schulze, associate professor of marketing at Frankfurt School of Finance & Management, and Maximilian Kaiser, assistant professor at Vienna University of...",
@@ -851,6 +879,20 @@
       "relevance": 22,
       "date": "2026-11-03T11:47:37+00:00",
       "ts": 1793706457.0
+    },
+    {
+      "title": "Europe's Biggest Tech Startup Cuts AI Coding Costs by 90% Using Chinese Model",
+      "link": "https://analyticsindiamag.com/ai-news/europes-biggest-tech-startup-cuts-ai-coding-costs-by-90-using-chinese-model",
+      "summary": "\"Self-hosting GLM brings our blended cost of tokens to 30 cents per million. Our invoice is now one-tenth of what we were spending on Anthropic and OpenAI,” sai",
+      "source": "Analytics India",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 53,
+      "date": "2026-11-03T11:37:32+00:00",
+      "ts": 1793705852.0
     },
     {
       "title": "E2E Networks Launches Blaze To Offer Pay-Per-Token AI Inference Services",
@@ -2034,20 +2076,6 @@
       "ts": 1793602823.0
     },
     {
-      "title": "Tencent Cloud Launches WAND-Vega as Its WAND Platform Generates 4.5 Million Images a Day",
-      "link": "https://pandaily.com/tencent-cloud-wand-vega-multimodal-application-model-real-time-intelligence-ai-voice-agent-apec",
-      "summary": "Tencent Cloud unveils WAND-Vega, Real-time Intelligence and a contact-center voice agent; WAND serves 2,000+ firms, making 4.5M images and 3M seconds of video daily.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 46,
-      "date": "2026-11-02T06:55:44+00:00",
-      "ts": 1793602544.0
-    },
-    {
       "title": "DeepSeek Proposes Super-Agent Architecture to Automate AI Coding Workflows",
       "link": "https://analyticsindiamag.com/ai-news/deepseek-proposes-super-agent-architecture-to-automate-ai-coding-workflows",
       "summary": "The proposed system reported a 15.7-minute 95th-percentile task completion time in simulated tests, compared with 29.5 minutes for a single-session approach.",
@@ -2072,18 +2100,6 @@
       "relevance": 35,
       "date": "2026-11-02T05:35:00+00:00",
       "ts": 1793597700.0
-    },
-    {
-      "title": "CASIA Adds Fingertip Touch to Robot Insertion, Lifting 0.05 mm Clearance Success From 52% to 67%",
-      "link": "https://pandaily.com/casia-tactile-augmented-precision-insertion-iros-2026-imitation-reinforcement-learning-0-05mm",
-      "summary": "CASIA's IROS 2026 paper pairs imitation learning for reaching with tactile-augmented RL for insertion, lifting 0.05 mm success from 52% to 67% and cutting peak contact force 60%.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 45,
-      "date": "2026-11-02T02:12:38+00:00",
-      "ts": 1793585558.0
     },
     {
       "title": "The Enterprise Context Layer: A Practitioner's Guide to 6 Advanced Architectural Patterns",
@@ -2139,21 +2155,6 @@
       "relevance": 49,
       "date": "2026-11-01T08:10:07+00:00",
       "ts": 1793520607.0
-    },
-    {
-      "title": "DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent",
-      "link": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/",
-      "summary": "DeepSeek released dsh-superagent, an MIT-licensed research prototype that turns GitHub and Feishu requests into parallel worker sessions. In DeepSeek’s own simulation, p95 task completion fell to 15.7 minutes from 29.5 minutes. The post DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent appeared first...",
-      "source": "MarkTechPost",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 70,
-      "date": "2026-11-01T07:47:17+00:00",
-      "ts": 1793519237.0
     },
     {
       "title": "Satellites Meet Towers, Operators Slim Down: Advanced Connectivity Insights, October 2026",
@@ -2879,20 +2880,6 @@
       "ts": 1793179800.0
     },
     {
-      "title": "OpenAI Sued Over ChatGPT’s Alleged Role in Woman’s Death After Seizure Medication Taper",
-      "link": "https://analyticsindiamag.com/ai-news/openai-sued-over-chatgpts-alleged-role-in-womans-death-after-seizure-medication-taper",
-      "summary": "The lawsuit alleges GPT-4o generated a plan to reduce Bowen Wan’s epilepsy medication and encouraged her to conceal the changes from her doctors.",
-      "source": "Analytics India",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 55,
-      "date": "2026-10-28T09:29:11+00:00",
-      "ts": 1793179751.0
-    },
-    {
       "title": "Oracle Integrates NVIDIA and Google AI Accelerators with its High-Performance Cloud Networking Infrastructure",
       "link": "https://techblog.comsoc.org/2026/10/27/oracle-integrates-nvidia-and-google-ai-accelerators-with-high-performance-cloud-networking/",
       "summary": "Disclaimer: ChatGPT was used extensively for research included in this article. ………………………………………………………………………………………………………………………………………………………………… Introduction: Oracle’s multiple announcements on October 27th illustrate how AI cloud infrastructure is evolving beyond simply providing access to GPUs. Oracle Cloud...",
@@ -2989,6 +2976,21 @@
       "ts": 1793058787.0
     },
     {
+      "title": "Analysis: Why Carriers Are Fighting Mid-Band Satellite D2D Spectrum at the FCC",
+      "link": "https://techblog.comsoc.org/2026/10/26/analysis-why-carriers-are-fighting-mid-band-satellite-d2d-spectrum-at-the-fcc/",
+      "summary": "Disclaimer: Google Gemini was used for research in this article. ……………………………………………………………………………………………………………………………………………….. Executive Summary: Ahead of the FCC’s October 29th open meeting on Supplemental Coverage from Space (SCS), CTIA filed a joint petition on behalf of AT&T, Verizon, and T-Mobile on October 22nd. The...",
+      "source": "IEEE ComSoc Tech Blog",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "telecom",
+        "modelos"
+      ],
+      "relevance": 58,
+      "date": "2026-10-26T23:26:39+00:00",
+      "ts": 1793057199.0
+    },
+    {
       "title": "IA eleva em 20% eficiência espectral do 5G em teste da Nokia e O2",
       "link": "https://telesintese.com.br/ia-eleva-em-20-eficiencia-espectral-do-5g-em-teste-da-nokia-e-o2/",
       "summary": "Tecnologia de IA preditiva ajustou recursos de rádio conforme a demanda em Londres, permitindo transportar mais dados com o mesmo espectro. O post IA eleva em 20% eficiência espectral do 5G em teste da Nokia e O2 apareceu primeiro em TeleSíntese .",
@@ -3028,20 +3030,6 @@
       "relevance": 57,
       "date": "2026-10-26T02:00:12+00:00",
       "ts": 1792980012.0
-    },
-    {
-      "title": "Custom AI Silicon: OpenAI, Anthropic, Hyperscalers, Huawei and the Battle with Nvidia, AMD and Broadcom",
-      "link": "https://techblog.comsoc.org/2026/10/25/custom-ai-silicon-openai-anthropic-hyperscalers-and-the-battle-with-nvidia-amd-and-broadcom/",
-      "summary": "Disclaimer: ChatGPT was used extensively to write this article. Executive Summary: Custom AI silicon is entering a new phase. Google, Amazon, Microsoft and Meta have established proprietary accelerator programs, while OpenAI has introduced its first custom inference chip, Jalapeño, and Anthropic is assembling an...",
-      "source": "IEEE ComSoc Tech Blog",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 68,
-      "date": "2026-10-26T01:13:11+00:00",
-      "ts": 1792977191.0
     },
     {
       "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
