@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-05T23:01:32.491187+00:00",
-  "count": 274,
+  "generated_at": "2026-11-06T04:14:42.331944+00:00",
+  "count": 281,
   "china_count": 61,
   "topic_counts": {
     "humanoides": 6,
     "modelos": 178,
-    "agentes": 60,
+    "agentes": 62,
     "biomedica": 13,
     "defesa": 8,
-    "telecom": 25
+    "telecom": 26
   },
   "sources": [
     {
       "source": "OpenAI",
-      "status": "ok (1361 itens)",
+      "status": "ok (1366 itens)",
       "kept": 12
     },
     {
@@ -278,8 +278,8 @@
     },
     {
       "source": "Microsoft Research",
-      "status": "ERRO: The read operation timed out",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 6
     },
     {
       "source": "The Guardian (IA)",
@@ -394,7 +394,7 @@
     {
       "source": "Total Telecom",
       "status": "ok (10 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "TeckNexus",
@@ -428,6 +428,62 @@
     }
   ],
   "items": [
+    {
+      "title": "DeepSeek Harness Reaches 1.54 Million Daily Users and Plans an Official Plugin Marketplace",
+      "link": "https://pandaily.com/deepseek-harness-1-54-million-daily-active-users-official-plugin-marketplace",
+      "summary": "DeepSeek Harness hit 1.54 million daily users and about 92 trillion tokens a day, with some 35,000 third-party plugins; an official plugin marketplace and author program are next.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 57,
+      "date": "2026-11-06T01:58:09+00:00",
+      "ts": 1793930289.0
+    },
+    {
+      "title": "Baidu Open-Sources ERNIE-5.5-Flash-Base, a 280B MoE Base Model With 14B Active Parameters",
+      "link": "https://pandaily.com/baidu-ernie-5-5-flash-base-open-source-280b-moe-14b-active-base-model",
+      "summary": "Baidu released ERNIE-5.5-Flash-Base, a raw pretraining checkpoint with 280B total and 14B active parameters, 128K training context and 1M-token support, for further training.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 76,
+      "date": "2026-11-06T01:57:52+00:00",
+      "ts": 1793930272.0
+    },
+    {
+      "title": "UAE’s U6GHz milestone accelerates 5G-Advanced and AI-driven connectivity",
+      "link": "https://totaltele.com/uaes-u6ghz-milestone-accelerates-5g-advanced-and-ai-driven-connectivity/",
+      "summary": "TDRA’s spectrum strategy, industry collaboration and commercial deployment are positioning the UAE to expand next-generation connectivity and prepare for an AI-driven digital economy. The United Arab Emirates (UAE) is taking a lead in transitioning from 5G-Advanced (5G-A) towards 6G by focusing on the commercial...",
+      "source": "Total Telecom",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 29,
+      "date": "2026-11-06T00:48:40+00:00",
+      "ts": 1793926120.0
+    },
+    {
+      "title": "Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second",
+      "link": "https://www.marktechpost.com/2026/11/05/google-gemini-omni-1-2-flash-15-second-video/",
+      "summary": "Google released Gemini Omni 1.2 Flash, a video generation and editing model with native 15-second clips, multi-turn conversational editing and a 30% price cut to $0.07 per second of 720p video. The post Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second appeared first on MarkTechPost .",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 62,
+      "date": "2026-11-05T22:58:21+00:00",
+      "ts": 1793919501.0
+    },
     {
       "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
       "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
@@ -852,6 +908,20 @@
         "modelos"
       ],
       "relevance": 61,
+      "date": "2026-11-05T16:00:00+00:00",
+      "ts": 1793894400.0
+    },
+    {
+      "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+      "link": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+      "summary": "AI agents can generate code at a scale that’s hard for humans to review line-by-line. PDD Kit helps ensure the code is doing what the developer intended by creating formal specifications and testing against them. It converts developer intent into a Verus specification, proves AI-generated code meets it for every...",
+      "source": "Microsoft Research",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 38,
       "date": "2026-11-05T16:00:00+00:00",
       "ts": 1793894400.0
     },
@@ -2207,34 +2277,6 @@
       "ts": 1793767167.0
     },
     {
-      "title": "Lenovo Kaitian Unveils AI Host With Zhaoxin KX-7000 CPU and Houmo LQ50 NPU for Local 35B Models",
-      "link": "https://pandaily.com/lenovo-kaitian-ai-host-zhaoxin-kx-7000-houmo-lq50-npu-160-tops-local-35b-qwen",
-      "summary": "Lenovo Kaitian's 1.6L AI host pairs a Zhaoxin KX-7000 with a Houmo LQ50 NPU for 160 TOPS, running Qwen3.6-35B-A3B locally at about 29 tokens per second.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 55,
-      "date": "2026-11-04T01:56:50+00:00",
-      "ts": 1793757410.0
-    },
-    {
-      "title": "DeepSeek, Qwen and MiniMax Leads Debate Open-Source Model Risks on Shared Wuzhen Stage",
-      "link": "https://pandaily.com/deepseek-qwen-minimax-wuzhen-dialogue-open-source-models-risk-wic-2026",
-      "summary": "At the Wuzhen Summit, DeepSeek's Xi Gao, Qwen's Dayiheng Liu and MiniMax's Wen Feng explained why they open-source models and how irrevocable releases should be governed.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 74,
-      "date": "2026-11-04T01:55:56+00:00",
-      "ts": 1793757356.0
-    },
-    {
       "title": "Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights",
       "link": "https://www.marktechpost.com/2026/11/03/anthropic-flashprove-provable-inference-zksnark/",
       "summary": "Anthropic released FlashProve, an Apache 2.0 zkSNARK prototype that proves a reply came from a committed model without revealing weights. It proves Llama 4 Maverick at 110 tokens/second on 1 H100, with 19 MB proofs. The post Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights...",
@@ -2276,21 +2318,6 @@
       "relevance": 45,
       "date": "2026-11-03T20:28:22+00:00",
       "ts": 1793737702.0
-    },
-    {
-      "title": "Soniox STT v6 Adds Agent Text Input and Echo Filtering for Voice Agents",
-      "link": "https://www.marktechpost.com/2026/11/03/soniox-stt-v6-agent-text-input-echo-cancellation/",
-      "summary": "Soniox has released Soniox STT v6, the latest generation of its speech-to-text API. Soniox STT v6 is a speech-to-text model that reads what a voice agent says while hearing the caller. It uses that text to recognize short replies and to drop the agent’s own voice. The release ships as stt-rt-v6 for streaming and...",
-      "source": "MarkTechPost",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-11-03T20:18:22+00:00",
-      "ts": 1793737102.0
     },
     {
       "title": "AUSA 2026: The ground truth on the Army’s next chapter",
@@ -2948,6 +2975,18 @@
       "ts": 1793314109.0
     },
     {
+      "title": "Microsoft Research Focus – Edition #97",
+      "link": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/",
+      "summary": "Host Sowbhagya Suresh shares some of the latest news and cutting-edge research from across Microsoft—from understanding the challenges facing coding agents to uncovering how people use AI at work and improving extended-range weather forecasting. The post Microsoft Research Focus – Edition #97 appeared first on...",
+      "source": "Microsoft Research",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 40,
+      "date": "2026-10-29T19:19:16+00:00",
+      "ts": 1793301556.0
+    },
+    {
       "title": "Articul8 Launches Bivia To Help Enterprise AI Agents Make Decisions",
       "link": "https://analyticsindiamag.com/ai-news/articul8-launches-bivia-to-help-enterprise-ai-agents-make-decisions",
       "summary": "The company has launched Bivia, a multimodal decision model designed to help enterprise AI agents make domain-specific decisions and verify evidence across diff",
@@ -3272,6 +3311,18 @@
       "ts": 1792707874.0
     },
     {
+      "title": "Flint-interactive: A language for creating interactive data visualizations",
+      "link": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
+      "summary": "Flint-interactive gives AI agents a language for creating interactive visualizations. Click a chart, filter data, highlight related content, and explore beyond the view the author originally chose. The post Flint-interactive: A language for creating interactive data visualizations appeared first on Microsoft Research .",
+      "source": "Microsoft Research",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 47,
+      "date": "2026-10-22T16:00:00+00:00",
+      "ts": 1792684800.0
+    },
+    {
       "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
       "link": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
       "summary": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos...",
@@ -3436,6 +3487,18 @@
       "relevance": 56,
       "date": "2026-10-20T17:04:21+00:00",
       "ts": 1792515861.0
+    },
+    {
+      "title": "Called to serve: Tech, research, and positive impact",
+      "link": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/",
+      "summary": "Lab Director Chris White has worked on research challenges with real-world implications—from new approaches to wartime data analysis to tools for combating human trafficking. He talks to program manager Weishung Liu about the influences that led to the work and more. The post Called to serve: Tech, research, and...",
+      "source": "Microsoft Research",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 43,
+      "date": "2026-10-20T16:00:00+00:00",
+      "ts": 1792512000.0
     },
     {
       "title": "ACM SIGAI Autonomous Agents Award 2027 open for nominations",
@@ -3827,6 +3890,20 @@
       "ts": 1791907200.0
     },
     {
+      "title": "Simulating student learning for better AI tutoring",
+      "link": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+      "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedback to improve tutor performance across subjects like chess, writing, and mathematics. The post Simulating student learning for better AI...",
+      "source": "Microsoft Research",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 44,
+      "date": "2026-10-12T16:00:00+00:00",
+      "ts": 1791820800.0
+    },
+    {
       "title": "Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged",
       "link": "https://machinelearning.apple.com/research/llm-translation-quality-annotation",
       "summary": "Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation (MT) evaluation. With MT evaluation spanning a large number of language pairs, domains and levels of annotation granularity, LLMs must be thoroughly evaluated across these...",
@@ -3881,6 +3958,20 @@
       "relevance": 65,
       "date": "2026-10-09T05:06:58+00:00",
       "ts": 1791522418.0
+    },
+    {
+      "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+      "link": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+      "summary": "Training AI agents with reinforcement learning can be challenging because their tools, context, and decision-making are managed by complex frameworks. Agent Lightning connects existing agents to RL training, making it easier to improve them without rebuilding them. The post Agent Lightning v1.0: A 3,500-Line...",
+      "source": "Microsoft Research",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 64,
+      "date": "2026-10-07T16:00:00+00:00",
+      "ts": 1791388800.0
     },
     {
       "title": "Introducing Falcon ASR",
@@ -3966,6 +4057,20 @@
       "relevance": 53,
       "date": "2026-10-05T21:08:00+00:00",
       "ts": 1791234480.0
+    },
+    {
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "link": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "summary": "",
+      "source": "Hugging Face",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 39,
+      "date": "2026-10-03T22:56:48+00:00",
+      "ts": 1791068208.0
     },
     {
       "title": "LWiAI Podcast #258 - Opus 5.5, Sol and Luna, Muse, DeepSeek-V4.1-Flash, Xi",
@@ -4215,20 +4320,6 @@
       "relevance": 76,
       "date": "2026-09-22T07:06:38+00:00",
       "ts": 1790060798.0
-    },
-    {
-      "title": "Transformers now runs llama.cpp quants",
-      "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "summary": "",
-      "source": "Hugging Face",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-09-22T00:00:00+00:00",
-      "ts": 1790035200.0
     },
     {
       "title": "Chinese Satellite Constellation Extends Coverage to Arctic",
