@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-07T12:06:26.713636+00:00",
+  "generated_at": "2026-11-07T21:13:42.920519+00:00",
   "count": 231,
-  "china_count": 50,
+  "china_count": 52,
   "topic_counts": {
     "humanoides": 6,
-    "modelos": 161,
-    "agentes": 54,
+    "modelos": 160,
+    "agentes": 55,
     "biomedica": 8,
     "defesa": 7,
     "telecom": 21
@@ -104,7 +104,7 @@
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 9
+      "kept": 10
     },
     {
       "source": "MIT Tech Review",
@@ -284,11 +284,11 @@
     {
       "source": "The Guardian (IA)",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "AI News",
-      "status": "ERRO: HTTP Error 502: Bad Gateway",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
@@ -428,6 +428,89 @@
     }
   ],
   "items": [
+    {
+      "title": "How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide",
+      "link": "https://www.marktechpost.com/2026/11/07/coding-guide-nvidia-dory-4b-llama-cpp/",
+      "summary": "Explore a comprehensive coding guide for NVIDIA's Dory 1.0 4B looped language model. Learn how to build the pinned llama.cpp branch, analyze loop-by-loop compute costs, test memory caching, and run paired evaluations. The post How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide appeared first on MarkTechPost .",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 61,
+      "date": "2026-11-07T19:22:44+00:00",
+      "ts": 1794079364.0
+    },
+    {
+      "title": "Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation",
+      "link": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
+      "summary": "Despite the tech selloff, Anthropic is pressing ahead with its IPO at a valuation of $1.25 to $1.75 trillion, well below the hoped-for $2 trillion. The Claude developer aims to raise $80 to $100 billion before Thanksgiving. Rival OpenAI has also recently had to cut its valuation. The article Anthropic pushes ahead...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 32,
+      "date": "2026-11-07T17:37:25+00:00",
+      "ts": 1794073045.0
+    },
+    {
+      "title": "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds",
+      "link": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
+      "summary": "AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher Andy Hall. GPT-5 found about 98 percent of reward-hacking cases, but the more exhaustively the search is tuned, the more false alarms pile up. That's not yet enough for reliable safety checks. The...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 67,
+      "date": "2026-11-07T16:56:38+00:00",
+      "ts": 1794070598.0
+    },
+    {
+      "title": "Thinking Machines' Inkling 2 Small drops 316 F-bombs across benchmark runs",
+      "link": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/",
+      "summary": "Thinking Machines' AI model Inkling 2 Small swears during its internal reasoning, 316 times across 2,655 benchmark runs, according to an analysis by Vals AI. The profanity typically shows up late in long runs that fail anyway. But it doesn't work as a warning signal: 96 percent of failed runs contained no cursing at...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 50,
+      "date": "2026-11-07T16:31:00+00:00",
+      "ts": 1794069060.0
+    },
+    {
+      "title": "The gap between open and closed AI models in cyber capabilities keeps shrinking",
+      "link": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/",
+      "summary": "In the Vals AI benchmark, OpenAI's GPT-6 Sol Daybreak hits 80.8 percent of attack objectives in simulated corporate networks. Worse, the open-weight model DeepSeek V4.1 Flash reaches 72.8 percent at a tenth of the cost. Because open models can no longer be restricted, analysts say the window for defenders is shrinking...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 68,
+      "date": "2026-11-07T15:35:50+00:00",
+      "ts": 1794065750.0
+    },
+    {
+      "title": "State propaganda in some Chinese AI models is only \"a thin layer\" that fine-tuning can strip away",
+      "link": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/",
+      "summary": "Nous Research retrained Alibaba's Qwen3.8-27B to produce Arete-27B, largely stripping out its pro-Chinese bias. The propaganda rate dropped from 22 percent to less than one percent, while general capabilities remained intact in tests. The method relied on 53 million tokens of supervised fine-tuning. The political bias...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 69,
+      "date": "2026-11-07T12:32:45+00:00",
+      "ts": 1794054765.0
+    },
     {
       "title": "Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar",
       "link": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/",
@@ -699,20 +782,6 @@
       "ts": 1793980835.0
     },
     {
-      "title": "Frontier Radar #5: If AGI is so close, why is everyone leaving? The neolabs and their bets",
-      "link": "https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets/",
-      "summary": "OpenAI is talking about the AGI era, and Nvidia CEO Jensen Huang says AGI has arrived. At the same time, co-creators of today's models are leaving OpenAI, Google DeepMind, and Meta to start their own labs, raising billions with no product to show. Why? They're betting that the current recipe alone won't be enough....",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 52,
-      "date": "2026-11-06T15:55:23+00:00",
-      "ts": 1793980523.0
-    },
-    {
       "title": "ChatGPT Lockdown Mode Had a Hole That Leaked Chats",
       "link": "https://dailyai.com/2026/11/chatgpt-lockdown-mode-had-a-hole-that-leaked-chats/",
       "summary": "Check Point found a way past ChatGPT's Lockdown Mode that could silently copy chat history. OpenAI closed the hole on 18 September after a private report. The post ChatGPT Lockdown Mode Had a Hole That Leaked Chats appeared first on DailyAI .",
@@ -739,20 +808,6 @@
       "relevance": 57,
       "date": "2026-11-06T13:55:43+00:00",
       "ts": 1793973343.0
-    },
-    {
-      "title": "METR finds Anthropic may have crossed its own AI acceleration warning threshold back in July",
-      "link": "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/",
-      "summary": "Nonprofit METR spent eleven weeks auditing Anthropic's internal research data and concluded that the pace of model development has roughly doubled, with about 80 percent of the speedup driven by AI-assisted research. Anthropic redacted the most informative evidence, though, which means the public has to rely on METR's...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 46,
-      "date": "2026-11-06T13:40:07+00:00",
-      "ts": 1793972407.0
     },
     {
       "title": "China’s AI models, led by Kimi, dominate open-source enterprise spending",
@@ -784,20 +839,6 @@
       "ts": 1793971800.0
     },
     {
-      "title": "Thinking Machines' Inkling 2 Small claims top spot among western open-weight models",
-      "link": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/",
-      "summary": "Thinking Machines, the startup from former OpenAI CTO Mira Murati, is releasing Inkling 2 Small, a mixture-of-experts model with 594 billion parameters. The company claims it's the strongest western open-weight model. Better agentic performance comes at a price, though, with token usage rising sharply. The article...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 59,
-      "date": "2026-11-06T13:25:09+00:00",
-      "ts": 1793971509.0
-    },
-    {
       "title": "Give Your Python AI Agent Persistent Memory with One JSON File",
       "link": "https://towardsdatascience.com/give-your-python-ai-agent-persistent-memory-with-one-json-file/",
       "summary": "Three Python classes, an OpenRouter key, and gpt-4.1-mini give the agent a calculator, a stub web search, and conversation recall that survives restarts. The post Give Your Python AI Agent Persistent Memory with One JSON File appeared first on Towards Data Science .",
@@ -811,20 +852,6 @@
       "relevance": 46,
       "date": "2026-11-06T12:00:00+00:00",
       "ts": 1793966400.0
-    },
-    {
-      "title": "Anthropic adds bank account access to Claude so users can track their spending",
-      "link": "https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending/",
-      "summary": "Anthropic is introducing a new feature in Claude called Personal Finance, which allows users to connect their bank and card accounts and ask questions about their finances. The article Anthropic adds bank account access to Claude so users can track their spending appeared first on The Decoder .",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 57,
-      "date": "2026-11-06T11:33:13+00:00",
-      "ts": 1793964793.0
     },
     {
       "title": "Opinion: AI depends on medical records that don’t always tell the full truth about women",
@@ -1166,20 +1193,6 @@
       "relevance": 70,
       "date": "2026-11-05T19:00:23+00:00",
       "ts": 1793905223.0
-    },
-    {
-      "title": "Winner of the Prix Goncourt literary prize admits to using AI",
-      "link": "https://www.theguardian.com/books/2026/nov/05/winner-of-the-prix-goncourt-literary-prize-admits-to-using-ai-philippe-jaenada",
-      "summary": "Philippe Jaenada told French radio that he used ChatGPT to ‘play with the reader’, after the prize removed a different book from its longlist over allegations of AI use The winner of France’s most prestigious literary prize has admitted using artificial intelligence while writing his novel, barely a day after...",
-      "source": "The Guardian (IA)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 51,
-      "date": "2026-11-05T18:08:58+00:00",
-      "ts": 1793902138.0
     },
     {
       "title": "DailyAI Briefing: Data centres lose 40 of 41 local votes, plus 4 more",
@@ -1647,20 +1660,6 @@
       "relevance": 41,
       "date": "2026-11-04T21:19:39+00:00",
       "ts": 1793827179.0
-    },
-    {
-      "title": "Ricursive AI Releases Ripple-65B Preview: A 65B Dense Open-Weight Model Scoring 80.5 on Terminal-Bench 2.1",
-      "link": "https://www.marktechpost.com/2026/11/04/ricursive-ripple-65b-preview-open-weight-model/",
-      "summary": "Ricursive Intelligence released Ripple-65B Preview, a 65B dense open-weight LLM under Apache 2.0. It scores 80.5 on Terminal-Bench 2.1, ahead of US open models up to 15x its size. The post Ricursive AI Releases Ripple-65B Preview: A 65B Dense Open-Weight Model Scoring 80.5 on Terminal-Bench 2.1 appeared first on...",
-      "source": "MarkTechPost",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 52,
-      "date": "2026-11-04T21:01:06+00:00",
-      "ts": 1793826066.0
     },
     {
       "title": "Agile Deliberation: How AI helps humans define the gray areas",
