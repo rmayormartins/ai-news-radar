@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-07T21:13:42.920519+00:00",
-  "count": 231,
+  "generated_at": "2026-11-08T03:26:01.650088+00:00",
+  "count": 229,
   "china_count": 52,
   "topic_counts": {
-    "humanoides": 6,
+    "humanoides": 7,
     "modelos": 160,
-    "agentes": 55,
+    "agentes": 53,
     "biomedica": 8,
-    "defesa": 7,
-    "telecom": 21
+    "defesa": 6,
+    "telecom": 22
   },
   "sources": [
     {
@@ -139,7 +139,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "Ars Technica",
@@ -288,7 +288,7 @@
     },
     {
       "source": "AI News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 502: Bad Gateway",
       "kept": 0
     },
     {
@@ -359,7 +359,7 @@
     {
       "source": "Defense One (Tech)",
       "status": "ok (25 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Army Technology",
@@ -428,6 +428,50 @@
     }
   ],
   "items": [
+    {
+      "title": "X-Humanoid Releases Hi-WBC Whole-Body Control Model for Tiangong Humanoid Robots",
+      "link": "https://pandaily.com/x-humanoid-hi-wbc-whole-body-control-model-tiangong-humanoid",
+      "summary": "X-Humanoid's Hi-WBC model blends human motion references with force sensing and terrain perception; the company showed it in sports-event and room-tidying demos.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "humanoides",
+        "modelos"
+      ],
+      "relevance": 52,
+      "date": "2026-11-08T01:46:11+00:00",
+      "ts": 1794102371.0
+    },
+    {
+      "title": "Huawei Ascend Adapts Kimi K3.1 Pro for LoRA Fine-Tuning on a 128-Card Atlas 950 SuperPoD",
+      "link": "https://pandaily.com/huawei-ascend-kimi-k3-1-pro-lora-fine-tuning-atlas-950-superpod",
+      "summary": "Ascend says it validated LoRA fine-tuning of the 2.8-trillion-parameter Kimi K3.1 Pro on a 128-card Atlas 950 SuperPoD, citing a 15% average gain from Swap Core caching.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 63,
+      "date": "2026-11-08T01:46:02+00:00",
+      "ts": 1794102362.0
+    },
+    {
+      "title": "Toshiba Wins UK Contract to Advance Commercial Quantum Networking: Can It Leverage Existing Optical Fiber Infrastructure?",
+      "link": "https://techblog.comsoc.org/2026/11/07/toshiba-wins-uk-contract-to-advance-commercial-quantum-networking-can-it-leverage-existing-optical-fiber-infrastructure/",
+      "summary": "Disclaimer: ChatGPT was used extensively to research and analyze the references cited in this article. The author provided editorial guidance and direction, reviewed the material, and is 100% responsible for the article’s final content....",
+      "source": "IEEE ComSoc Tech Blog",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "telecom",
+        "modelos"
+      ],
+      "relevance": 63,
+      "date": "2026-11-07T23:38:02+00:00",
+      "ts": 1794094682.0
+    },
     {
       "title": "How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide",
       "link": "https://www.marktechpost.com/2026/11/07/coding-guide-nvidia-dory-4b-llama-cpp/",
@@ -579,6 +623,20 @@
       "relevance": 60,
       "date": "2026-11-07T07:06:50+00:00",
       "ts": 1794035210.0
+    },
+    {
+      "title": "Huawei Releases Standalone HarmonyOS PC Assistant With Office Task Automation",
+      "link": "https://pandaily.com/huawei-harmonyos-pc-standalone-assistant-work-office-agent-release",
+      "summary": "Huawei's standalone HarmonyOS PC assistant adds an official office-agent release with cloud or local execution, phone task dispatch and AI-point membership billing.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 46,
+      "date": "2026-11-07T07:06:42+00:00",
+      "ts": 1794035202.0
     },
     {
       "title": "New trial of AI phone assistant to monitor patients with long-term illness",
@@ -953,49 +1011,6 @@
       "ts": 1793930333.0
     },
     {
-      "title": "NetEase Youdao Launches an Interactive Math Tutoring Agent That Explains Steps and Draws Diagrams",
-      "link": "https://pandaily.com/netease-youdao-interactive-math-tutoring-agent-step-by-step-dynamic-whiteboard",
-      "summary": "NetEase Youdao launched an interactive math tutoring agent that teaches step by step, takes follow-up questions on any step and draws diagrams on a dynamic whiteboard.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 47,
-      "date": "2026-11-06T01:58:38+00:00",
-      "ts": 1793930318.0
-    },
-    {
-      "title": "DeepSeek Harness Reaches 1.54 Million Daily Users and Plans an Official Plugin Marketplace",
-      "link": "https://pandaily.com/deepseek-harness-1-54-million-daily-active-users-official-plugin-marketplace",
-      "summary": "DeepSeek Harness hit 1.54 million daily users and about 92 trillion tokens a day, with some 35,000 third-party plugins; an official plugin marketplace and author program are next.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 57,
-      "date": "2026-11-06T01:58:09+00:00",
-      "ts": 1793930289.0
-    },
-    {
-      "title": "Baidu Open-Sources ERNIE-5.5-Flash-Base, a 280B MoE Base Model With 14B Active Parameters",
-      "link": "https://pandaily.com/baidu-ernie-5-5-flash-base-open-source-280b-moe-14b-active-base-model",
-      "summary": "Baidu released ERNIE-5.5-Flash-Base, a raw pretraining checkpoint with 280B total and 14B active parameters, 128K training context and 1M-token support, for further training.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 76,
-      "date": "2026-11-06T01:57:52+00:00",
-      "ts": 1793930272.0
-    },
-    {
       "title": "UAE’s U6GHz milestone accelerates 5G-Advanced and AI-driven connectivity",
       "link": "https://totaltele.com/uaes-u6ghz-milestone-accelerates-5g-advanced-and-ai-driven-connectivity/",
       "summary": "TDRA’s spectrum strategy, industry collaboration and commercial deployment are positioning the UAE to expand next-generation connectivity and prepare for an AI-driven digital economy. The United Arab Emirates (UAE) is taking a lead in transitioning from 5G-Advanced (5G-A) towards 6G by focusing on the commercial...",
@@ -1334,20 +1349,6 @@
       "relevance": 59,
       "date": "2026-11-05T15:40:08+00:00",
       "ts": 1793893208.0
-    },
-    {
-      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
-      "link": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
-      "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 40,
-      "date": "2026-11-05T15:19:05+00:00",
-      "ts": 1793891945.0
     },
     {
       "title": "Verizon and Ericsson AI-RAN Rollout Shows RAN Automation Moving From Pilots to Platform",
@@ -2476,20 +2477,6 @@
       "relevance": 42,
       "date": "2026-10-29T00:00:00+00:00",
       "ts": 1793232000.0
-    },
-    {
-      "title": "PsiQuantum Targets AI Data Center Networks with Silicon-Photonic Optical Switching",
-      "link": "https://techblog.comsoc.org/2026/10/28/psiquantum-targets-ai-data-center-networks-with-silicon-photonic-optical-switching/",
-      "summary": "Disclaimer: ChatGPT was used extensively for research contained in this article. …………………………………………………………………………………………………………………………………….. Introduction: As AI workloads expand and AI clusters grow, the networks connecting GPUs and other accelerators are becoming an increasingly important constraint on performance, power...",
-      "source": "IEEE ComSoc Tech Blog",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 58,
-      "date": "2026-10-28T23:31:58+00:00",
-      "ts": 1793230318.0
     },
     {
       "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
@@ -3638,20 +3625,6 @@
       "relevance": 45,
       "date": "2026-09-24T04:00:00+00:00",
       "ts": 1790222400.0
-    },
-    {
-      "title": "GenAI.mil saw more than 2 million users in one week, top DOD official says",
-      "link": "https://www.defenseone.com/technology/2026/09/genaimil-saw-more-2-million-users-one-week-top-dod-official-says/416186/",
-      "summary": "The Pentagon's top AI officer also said that “unilateral disarmament is the wrong approach” when it comes to calls for a slowdown in AI development.",
-      "source": "Defense One (Tech)",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "defesa"
-      ],
-      "relevance": 34,
-      "date": "2026-09-24T02:00:00+00:00",
-      "ts": 1790215200.0
     },
     {
       "title": "Chinese Satellite Constellation Extends Coverage to Arctic",
