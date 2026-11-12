@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-11T23:51:20.671715+00:00",
-  "count": 287,
+  "generated_at": "2026-11-12T04:56:22.848309+00:00",
+  "count": 284,
   "china_count": 58,
   "topic_counts": {
-    "humanoides": 10,
-    "modelos": 187,
+    "humanoides": 11,
+    "modelos": 186,
     "agentes": 58,
-    "biomedica": 14,
-    "defesa": 7,
-    "telecom": 22
+    "biomedica": 13,
+    "defesa": 6,
+    "telecom": 21
   },
   "sources": [
     {
@@ -139,7 +139,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "Ars Technica",
@@ -339,7 +339,7 @@
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "arXiv eess.IV (imagem)",
@@ -394,7 +394,7 @@
     {
       "source": "Total Telecom",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "TeckNexus",
@@ -428,6 +428,63 @@
     }
   ],
   "items": [
+    {
+      "title": "Tencent Launches Yuanbao Search, a Standalone AI Search Product at so.qq.com",
+      "link": "https://pandaily.com/tencent-yuanbao-search-standalone-ai-search-so-qq-com",
+      "summary": "Tencent's Yuanbao Search, at so.qq.com and in QQ Browser, gives AI answers over the web, WeChat Official Accounts, Channels and academic papers, with cited sources and collapsible ads.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 46,
+      "date": "2026-11-12T02:19:02+00:00",
+      "ts": 1794449942.0
+    },
+    {
+      "title": "AgiBot Open-Sources LIFE, a Lifelong Embodied AI Framework Built Around RoboBeats Models",
+      "link": "https://pandaily.com/agibot-life-lifelong-embodied-intelligence-framework-robobeats-open-source",
+      "summary": "AgiBot's open-source LIFE gives robots continuous sensing via RoboBeats models, reanalyzable memory and reusable tools. Its own tests show 60.5% on SSS-Bench and faster day-long recall.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "humanoides",
+        "modelos"
+      ],
+      "relevance": 52,
+      "date": "2026-11-12T02:18:53+00:00",
+      "ts": 1794449933.0
+    },
+    {
+      "title": "Alibaba Opens Qwen4-Max Preview on Token Plan, With a 1M-Token Context Until November 25",
+      "link": "https://pandaily.com/alibaba-qwen4-max-preview-token-plan-1m-context",
+      "summary": "Qwen4-Max-Preview is live only on Alibaba's Token Plan until Nov 25, with a 1M-token context, image and video input and tool calling. No benchmarks, parameter count or weights yet.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 62,
+      "date": "2026-11-12T02:18:43+00:00",
+      "ts": 1794449923.0
+    },
+    {
+      "title": "VodafoneThree to study a new UK–Norway submarine cable system with route diversity",
+      "link": "https://techblog.comsoc.org/2026/11/11/vodafonethree-to-study-a-new-uk-norway-submarine-cable-system-with-route-diversity/",
+      "summary": "Disclaimer: ChatGPT was used to assist with research, technical analysis, and drafting. The author reviewed and edited the material for accuracy and final content. He also provided additional information, quotes and images. Introduction: On November 10th, VodafoneThree (UK) [1.] announced a feasibility study for a...",
+      "source": "IEEE ComSoc Tech Blog",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 60,
+      "date": "2026-11-12T00:22:10+00:00",
+      "ts": 1794442930.0
+    },
     {
       "title": "AI-powered imaging tracks thousands of brain cancer cells moving through living tissue",
       "link": "https://medicalxpress.com/news/2026-11-ai-powered-imaging-tracks-thousands.html",
@@ -513,6 +570,20 @@
       "relevance": 51,
       "date": "2026-11-11T21:05:59+00:00",
       "ts": 1794431159.0
+    },
+    {
+      "title": "Automating AWS Agent Registry updates with push-based architecture",
+      "link": "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture/",
+      "summary": "This post shows how to keep the AWS Agent Registry current automatically. Using AWS CloudTrail, Amazon EventBridge, AWS Lambda, and AgentCore Identity, an event-driven pipeline detects MCP server changes and pushes updated tool metadata to the registry with no stored secrets, across single- and multi-account...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 46,
+      "date": "2026-11-11T20:52:48+00:00",
+      "ts": 1794430368.0
     },
     {
       "title": "Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects",
@@ -621,20 +692,6 @@
       "relevance": 55,
       "date": "2026-11-11T18:18:25+00:00",
       "ts": 1794421105.0
-    },
-    {
-      "title": "Training AI to see cells in context improves detection in pathology images",
-      "link": "https://medicalxpress.com/news/2026-11-ai-cells-context-pathology-images.html",
-      "summary": "Artificial intelligence can help identify cells in digital pathology images, but densely packed tissue remains a challenge: neighboring cells may be merged, counted twice or missed entirely. Researchers at Koç University have developed a training strategy that improves detection by teaching AI to consider how cells...",
-      "source": "Medical Xpress",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 46,
-      "date": "2026-11-11T18:13:30+00:00",
-      "ts": 1794420810.0
     },
     {
       "title": "Nvidia, Rebellions and SK Telecom announce a sovereign AI collaboration on NVLink Fusion",
@@ -1013,21 +1070,6 @@
       "relevance": 43,
       "date": "2026-11-11T08:04:09+00:00",
       "ts": 1794384249.0
-    },
-    {
-      "title": "CASC's 11th Academy Flies Small Solar Drone Called Qingqibing, With a Designed Endurance of 30 Hours",
-      "link": "https://pandaily.com/casc-11th-academy-qingqibing-small-solar-drone-first-flight-30-hour-endurance",
-      "summary": "CASC's 11th Academy flew its small solar drone, Qingqibing, on Nov 11: 3.2 m long, 8 m wingspan, 30-hour designed endurance, vehicle launch. Flight duration and payload specs were not released.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "defesa",
-        "modelos"
-      ],
-      "relevance": 44,
-      "date": "2026-11-11T07:42:13+00:00",
-      "ts": 1794382933.0
     },
     {
       "title": "Baidu Releases ERNIE 5.5 Flash Preview on Qianfan, With Open Weights Promised by November 25",
@@ -1856,20 +1898,6 @@
       "ts": 1794337200.0
     },
     {
-      "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
-      "link": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
-      "summary": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 61,
-      "date": "2026-11-10T18:49:52+00:00",
-      "ts": 1794336592.0
-    },
-    {
       "title": "Autonomous treasury agents: How Trovata built an AI-native solution on Amazon Bedrock and AgentCore",
       "link": "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/",
       "summary": "Learn how Trovata built autonomous treasury agents on Amazon Bedrock and Amazon Bedrock AgentCore, using an RBAC-secured architecture for bank-branded AI deployment and agentic workflows that move corporate treasury from manual operations to real-time decision-making at enterprise scale.",
@@ -2137,20 +2165,6 @@
       "ts": 1794295457.0
     },
     {
-      "title": "Lenovo Launches Wanquan Hybrid Token Factory and Picks Zhangjiakou for Its First 'Mother Factory'",
-      "link": "https://pandaily.com/lenovo-wanquan-hybrid-token-factory-zhangjiakou-mother-factory",
-      "summary": "Lenovo's Wanquan Hybrid Token Factory targets 15,000P of compute and about 100MW in Zhangjiakou by 2027, with a stated 2,000 quadrillion tokens a year and a Changsha site with Mango TV next.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 43,
-      "date": "2026-11-10T07:23:59+00:00",
-      "ts": 1794295439.0
-    },
-    {
       "title": "Ant Group's Robbyant Open-Sources LingBot-Touch Tactile Model for Robot Hands",
       "link": "https://pandaily.com/ant-group-robbyant-lingbot-touch-open-source-tactile-foundation-model",
       "summary": "Robbyant's open-source LingBot-Touch unifies magnetic, visuotactile and piezoresistive sensing; the company reports 14 to 26 point gains for four action models on 26 real-robot tasks.",
@@ -2208,20 +2222,6 @@
       "ts": 1794288854.0
     },
     {
-      "title": "ModelBest Details LES, the Method Behind a 35B MoE Model Running on Phones at Over 20 Tokens/s",
-      "link": "https://pandaily.com/modelbest-les-lookahead-expert-scheduling-35b-moe-on-device",
-      "summary": "ModelBest's LES prefetches next-layer experts from phone flash; it reports 20.51 tokens/s on an iPhone, 6.07x its baseline, and has open-sourced the code.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 62,
-      "date": "2026-11-10T01:57:27+00:00",
-      "ts": 1794275847.0
-    },
-    {
       "title": "Teenager who planned terror attack in Sydney tells court he was radicalised online and used AI to strategise",
       "link": "https://www.theguardian.com/australia-news/2026/nov/10/teen-planned-sydney-terror-attack-using-chatgpt-radicalised-tiktok-ntwnfb",
       "summary": "Boy says he was first exposed to extremist material on TikTok, turned to Telegram and YouTube for bomb-making instructions, and used ChatGPT to devise his plans Get our breaking news email , free app or daily news podcast A teenager who admitted to planning a terrorist attack in Sydney in 2024 has told the court he...",
@@ -2234,20 +2234,6 @@
       "relevance": 48,
       "date": "2026-11-10T01:09:19+00:00",
       "ts": 1794272959.0
-    },
-    {
-      "title": "OIF Launches 7 New Projects Targeting 448G Electrical Interfaces, 200G Bidirectional Optics and Coherent Link Security",
-      "link": "https://techblog.comsoc.org/2026/11/09/oif-launches-7-new-projects-targeting-448g-electrical-interfaces-200g-bidirectional-optics-and-coherent-link-security/",
-      "summary": "Editorial Note: ChatGPT was used to assist with historical background research, technical analysis, and editorial suggestions concerning OIF’s role in optical networking interoperability and its relationship with ITU-T. The author reviewed and approved all additions with modifications for technical accuracy....",
-      "source": "IEEE ComSoc Tech Blog",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 59,
-      "date": "2026-11-10T00:56:04+00:00",
-      "ts": 1794272164.0
     },
     {
       "title": "Weighted State Souping for Efficient Long-Context Retrieval",
@@ -2306,20 +2292,6 @@
       "relevance": 47,
       "date": "2026-11-09T20:15:47+00:00",
       "ts": 1794255347.0
-    },
-    {
-      "title": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base",
-      "link": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/",
-      "summary": "Amazon Bedrock Managed Knowledge Base now supports single-shot RAG and retrieval-only requests through AgenticRetrieveStream, alongside agentic retrieval. This post explains how the maxAgentIteration parameter matches retrieval effort to each request, using an illustrative internal banking policy assistant.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 55,
-      "date": "2026-11-09T20:13:18+00:00",
-      "ts": 1794255198.0
     },
     {
       "title": "AI agents are developing odd dialects humans struggle to follow",
@@ -3418,6 +3390,20 @@
       "ts": 1793363383.0
     },
     {
+      "title": "Amid brutal sell-off, what comes next for Google, Amazon and other Big Tech titans?",
+      "link": "https://www.scmp.com/tech/big-tech/article/3372737/amid-brutal-sell-what-comes-next-google-amazon-and-other-big-tech-titans",
+      "summary": "Soaring artificial intelligence revenues have failed to shield Intel, Amazon and Google’s parent company Alphabet from a brutal Wall Street sell-off, as their latest quarterly results deepened investor jitters over mounting capital spending and delayed returns. Intel plunged about 23 per cent in extended trading on...",
+      "source": "SCMP Big Tech",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 40,
+      "date": "2026-10-30T09:44:46+00:00",
+      "ts": 1793353486.0
+    },
+    {
       "title": "Microsoft Research Focus – Edition #97",
       "link": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/",
       "summary": "Host Sowbhagya Suresh shares some of the latest news and cutting-edge research from across Microsoft—from understanding the challenges facing coding agents to uncovering how people use AI at work and improving extended-range weather forecasting. The post Microsoft Research Focus – Edition #97 appeared first on...",
@@ -3760,20 +3746,6 @@
       "ts": 1792555200.0
     },
     {
-      "title": "Why Anthropic has a major China problem ahead of its blockbuster IPO",
-      "link": "https://www.scmp.com/tech/big-tech/article/3371504/why-anthropic-has-major-china-problem-ahead-its-blockbuster-ipo",
-      "summary": "The growing popularity of Chinese artificial intelligence models has emerged as a key risk factor for Anthropic ahead of its blockbuster initial public offering, according to US research firm Hedgeye Risk Management. “It’s all about Chinese competition when analysing Anthropic,” said Felix Wang, managing director and...",
-      "source": "SCMP Big Tech",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 42,
-      "date": "2026-10-21T00:00:15+00:00",
-      "ts": 1792540815.0
-    },
-    {
       "title": "Pixels to Tokens: Token Space Efficient Active Learning for Low-Budget Semantic Segmentation",
       "link": "https://machinelearning.apple.com/research/pixels-tokens-active-learning",
       "summary": "While foundation models and vision transformers (ViTs) have redefined visual representations, current active learning (AL) strategies for these backbones largely operate at the patch or region level, where annotation requirements remain high due to extensive pixel labeling. Extending ViT-based AL to the pixel-level,...",
@@ -3840,20 +3812,6 @@
       "relevance": 46,
       "date": "2026-10-20T10:37:56+00:00",
       "ts": 1792492676.0
-    },
-    {
-      "title": "Nokia and SoftBank test AI-RAN in Japan",
-      "link": "https://totaltele.com/nokia-and-softbank-test-ai-ran-in-japan/",
-      "summary": "Nokia today announced an agreement with SoftBank Corp. to conduct a commercial AI-RAN field trial in Japan in 2027 The post Nokia and SoftBank test AI-RAN in Japan appeared first on Total Telecom .",
-      "source": "Total Telecom",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 22,
-      "date": "2026-10-20T09:28:04+00:00",
-      "ts": 1792488484.0
     },
     {
       "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
