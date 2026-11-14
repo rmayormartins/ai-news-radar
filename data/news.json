@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-14T12:43:11.812411+00:00",
-  "count": 241,
-  "china_count": 57,
+  "generated_at": "2026-11-14T21:48:36.447009+00:00",
+  "count": 237,
+  "china_count": 48,
   "topic_counts": {
     "humanoides": 9,
-    "modelos": 169,
-    "agentes": 50,
+    "modelos": 164,
+    "agentes": 51,
     "biomedica": 9,
     "defesa": 4,
-    "telecom": 14
+    "telecom": 13
   },
   "sources": [
     {
@@ -99,7 +99,7 @@
     {
       "source": "MarkTechPost",
       "status": "ok (10 itens)",
-      "kept": 8
+      "kept": 9
     },
     {
       "source": "The Decoder",
@@ -178,8 +178,8 @@
     },
     {
       "source": "Don't Worry About the Vase",
-      "status": "ok (20 itens)",
-      "kept": 3
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "Quanta (CS/IA)",
@@ -203,13 +203,13 @@
     },
     {
       "source": "ChinAI (Jeff Ding)",
-      "status": "ok (20 itens)",
-      "kept": 2
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "Recode China AI",
-      "status": "ok (20 itens)",
-      "kept": 8
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "Pandaily",
@@ -284,17 +284,17 @@
     {
       "source": "The Guardian (IA)",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "AI News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: HTTP Error 502: Bad Gateway",
       "kept": 0
     },
     {
       "source": "DailyAI",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 5
     },
     {
       "source": "The AI Insider",
@@ -303,8 +303,8 @@
     },
     {
       "source": "AIwire",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (10 itens)",
+      "kept": 6
     },
     {
       "source": "The Robot Report",
@@ -428,6 +428,86 @@
     }
   ],
   "items": [
+    {
+      "title": "Art ‘must not be sacrificed on the altar of corporate profit’ Liberal senator says as AI policy debate rages",
+      "link": "https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan",
+      "summary": "Andrew McLachlan says he chooses ‘real forests over virtual ones’ as he urges Labor government to consider AI’s impact on artists and environment Get our daily political email , free app or daily news podcast Outspoken Liberal senator Andrew McLachlan has raised the alarm about the approach of his party and the Labor...",
+      "source": "The Guardian (IA)",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 41,
+      "date": "2026-11-14T19:00:52+00:00",
+      "ts": 1794682852.0
+    },
+    {
+      "title": "DailyAI Briefing: Chinese AI tied to banned Nvidia chips, plus 4 more",
+      "link": "https://dailyai.com/2026/11/dailyai-briefing-chinese-ai-tied-to-banned-nvidia-chips-plus-4-more/",
+      "summary": "A former OpenAI researcher says six Chinese AI models carry the fingerprint of Nvidia chips that need a US licence before they can be sold to China. Also today: banks refuse Chinese orders for Anthropic shares, startups brace for less money from Nvidia, a leaked key put a fake coding extension in front of Cursor...",
+      "source": "DailyAI",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 44,
+      "date": "2026-11-14T18:11:51+00:00",
+      "ts": 1794679911.0
+    },
+    {
+      "title": "Using AI to accelerate neuroscience research",
+      "link": "https://medicalxpress.com/news/2026-11-ai-neuroscience.html",
+      "summary": "Integrating artificial intelligence (AI) into neuroscience is changing how scientists engage with data, improving our understanding of the brain and leading to better ways of training computational models. The findings will be presented at Neuroscience 2026, the annual meeting of the Society for Neuroscience.",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 49,
+      "date": "2026-11-14T17:00:24+00:00",
+      "ts": 1794675624.0
+    },
+    {
+      "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
+      "link": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+      "summary": "For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task. The article Gemini 4 Carbon...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 71,
+      "date": "2026-11-14T16:48:01+00:00",
+      "ts": 1794674881.0
+    },
+    {
+      "title": "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy",
+      "link": "https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/",
+      "summary": "Cmpnd released dspy-wsp, a prototype DSPy optimizer for weight-space programming. A frontier LLM reads a small model’s weights, edits them in a sandbox, and tests each change, with no gradients and about $5 to $10 per run. The post Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy appeared first on...",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 49,
+      "date": "2026-11-14T16:45:48+00:00",
+      "ts": 1794674748.0
+    },
+    {
+      "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+      "link": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+      "summary": "Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop \"think hard\" and start at Medium effort. The article Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 appeared first on The...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 56,
+      "date": "2026-11-14T16:42:56+00:00",
+      "ts": 1794674576.0
+    },
     {
       "title": "Open-source AI without Jensen",
       "link": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
@@ -600,6 +680,21 @@
       "ts": 1794609012.0
     },
     {
+      "title": "Insight Launches Agent Store to Accelerate Enterprise AI Adoption",
+      "link": "https://www.hpcwire.com/aiwire/2026/11/13/insight-launches-agent-store-to-accelerate-enterprise-ai-adoption/",
+      "summary": "A catalog of AI agents, enterprise-ready platforms, and integrated services helps companies achieve value in as little as days to weeks CHANDLER, Ariz., Nov. 13, 2026 — Insight Enterprises has announced the global launch of its online Agent Store, giving clients access to a growing catalog of proven AI solutions...",
+      "source": "AIwire",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 44,
+      "date": "2026-11-13T22:25:36+00:00",
+      "ts": 1794608736.0
+    },
+    {
       "title": "What the choice between Chuck Schumer and Chris Van Hollen for Senate leader is all about | Bernie Sanders",
       "link": "https://www.theguardian.com/commentisfree/2026/nov/13/chuck-schumer-chris-van-hollen-senate-leader",
       "summary": "This is not a personality contest. This is a debate about the future of the Democratic party The election for Democratic Senate leader between Chuck Schumer and Chris Van Hollen must be understood for what it is. This is not a personality contest. This is a debate about the future of the Democratic party. It is a...",
@@ -657,20 +752,6 @@
       "ts": 1794595230.0
     },
     {
-      "title": "Drug safety information must remain accessible as patients move from websites to AI",
-      "link": "https://medicalxpress.com/news/2026-11-drug-safety-accessible-patients-websites.html",
-      "summary": "A prescription drug warning can be accurate and still be difficult for a patient to use. What matters is not only the information itself but also how and where people receive it. This becomes especially important as patients increasingly use AI systems to find answers about medications, sometimes without visiting the...",
-      "source": "Medical Xpress",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 22,
-      "date": "2026-11-13T18:20:01+00:00",
-      "ts": 1794594001.0
-    },
-    {
       "title": "DailyAI Briefing: Jensen Huang resigns as Nvidia CEO, plus 4 more",
       "link": "https://dailyai.com/2026/11/dailyai-briefing-jensen-huang-resigns-as-nvidia-ceo-plus-4-more/",
       "summary": "Jensen Huang has resigned as chief executive of Nvidia, and its shares closed 4.3% lower. Also today: a new Google model behind AI search answers, a way for ChatGPT's AI agents to pay for shopping, French calls for chatbot tests and new figures on teens who use AI for homework. The post DailyAI Briefing: Jensen Huang...",
@@ -697,6 +778,20 @@
       "relevance": 53,
       "date": "2026-11-13T18:01:15+00:00",
       "ts": 1794592875.0
+    },
+    {
+      "title": "LMSYS Org Forms SGLang Consortium with NVIDIA, AMD, Google and Meta",
+      "link": "https://www.hpcwire.com/aiwire/2026/11/13/lmsys-org-forms-sglang-consortium-with-nvidia-amd-google-and-meta/",
+      "summary": "Hardware, model and infrastructure leaders join SGLang’s maintainers to advance efficient inference for growing AI ecosystem SAN FRANCISCO, Nov. 13, 2026 — LMSYS Org, the nonprofit behind the open-source AI engine SGLang, has launched the SGLang Consortium with founding members NVIDIA, AMD, Intel, Google, Meta,...",
+      "source": "AIwire",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 60,
+      "date": "2026-11-13T17:33:46+00:00",
+      "ts": 1794591226.0
     },
     {
       "title": "Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights",
@@ -827,18 +922,6 @@
       "ts": 1794585612.0
     },
     {
-      "title": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
-      "link": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
-      "summary": "US public-sector unions are increasingly pushing through protections against AI surveillance and automated firings. In Oakland, a strike vote forced retraining programs instead of layoffs, and a transport union in Ohio won veto power over autonomous vehicles. California banned so-called bossware. All of this is...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 32,
-      "date": "2026-11-13T15:53:49+00:00",
-      "ts": 1794585229.0
-    },
-    {
       "title": "AI models can answer differently when told they are being watched",
       "link": "https://techxplore.com/news/2026-11-ai-differently-told.html",
       "summary": "Large language models (LLMs), the AI systems underpinning the functioning of ChatGPT, Gemini and other similar platforms, are now widely used worldwide. While the responses provided by these models can be useful in many situations, they can also change under specific conditions.",
@@ -851,20 +934,6 @@
       "relevance": 64,
       "date": "2026-11-13T15:40:10+00:00",
       "ts": 1794584410.0
-    },
-    {
-      "title": "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models",
-      "link": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
-      "summary": "Former OpenAI researcher Will DePue says he has produced the first technical evidence that DeepSeek, Moonshot AI, MiniMax, and Ant Group are using Nvidia's latest Blackwell GPUs despite US export controls. His forensic method reads characteristic chip signatures directly from published model weights. He estimates the...",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 76,
-      "date": "2026-11-13T15:21:04+00:00",
-      "ts": 1794583264.0
     },
     {
       "title": "Power BI and AI Agents: How Agentic AI Is Changing Business Intelligence",
@@ -1076,6 +1145,33 @@
       "relevance": 47,
       "date": "2026-11-13T02:32:35+00:00",
       "ts": 1794537155.0
+    },
+    {
+      "title": "Google DeepMind Introduces AlphaProof Code for Verifying Complex Software at Depth",
+      "link": "https://www.hpcwire.com/aiwire/2026/11/12/google-deepmind-introduces-alphaproof-code-for-verifying-complex-software-at-depth/",
+      "summary": "Nov. 12, 2026 — Google DeepMind is sharing a milestone in software security long considered to be a grand challenge: Researchers at Google DeepMind guided AI agents to mathematically prove key security properties of the actual code underlying the Signal protocol, the technology that protects billions of private...",
+      "source": "AIwire",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 44,
+      "date": "2026-11-13T01:16:29+00:00",
+      "ts": 1794532589.0
+    },
+    {
+      "title": "Baidu Expands AI Portfolio Across Chips, Cloud, Models and Agents",
+      "link": "https://www.hpcwire.com/aiwire/2026/11/12/baidu-expands-ai-portfolio-across-chips-cloud-models-and-agents/",
+      "summary": "BEIJING, Nov. 12, 2026 — Baidu, Inc. today unveiled new offerings and upgrades across its full-stack AI portfolio spanning chips, cloud, models, and agents, designed to help enterprises transform into intelligent organizations. The new lineup includes Token Exchange, a trusted marketplace for model services; upgrades...",
+      "source": "AIwire",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 47,
+      "date": "2026-11-13T00:27:16+00:00",
+      "ts": 1794529636.0
     },
     {
       "title": "llm-gemini 0.37",
@@ -1606,6 +1702,35 @@
       "ts": 1794434605.0
     },
     {
+      "title": "Applied Biologics Partners with Dartmouth on Computational Protein Engineering",
+      "link": "https://www.hpcwire.com/aiwire/2026/11/11/applied-biologics-partners-with-dartmouth-on-computational-protein-engineering/",
+      "summary": "SCOTTSDALE, Ariz., Nov. 11, 2026 — Applied Biologics, LLC, a biopharmaceutical company advancing novel biologic and gene therapies for serious diseases with significant unmet medical needs, today announced the execution of a research collaboration agreement with Dartmouth College’s Thayer School of Engineering focused...",
+      "source": "AIwire",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "biomedica",
+        "modelos"
+      ],
+      "relevance": 44,
+      "date": "2026-11-11T21:21:26+00:00",
+      "ts": 1794432086.0
+    },
+    {
+      "title": "Red Hat Announces RHEL 10.3 and 9.9 with New Security and AI Features",
+      "link": "https://www.hpcwire.com/aiwire/2026/11/11/red-hat-announces-rhel-10-3-and-9-9-with-new-security-and-ai-features/",
+      "summary": "Nov. 11, 2026 — Red Hat has announced the upcoming general availability of Red Hat Enterprise Linux 10.3 and 9.9, platforms designed to address an era of increasingly sophisticated, AI-driven cyber threats. The latest releases strengthen Red Hat’s security-focused, AI-augmented operating system (OS) by embedding core...",
+      "source": "AIwire",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 42,
+      "date": "2026-11-11T20:42:12+00:00",
+      "ts": 1794429732.0
+    },
+    {
       "title": "Nvidia, Rebellions and SK Telecom announce a sovereign AI collaboration on NVLink Fusion",
       "link": "https://rcrwireless.com/20261111/ai/nvlink-fusion-sovereign-ai-korea",
       "summary": "A trilateral MOU would pair Nvidia GPUs with Rebellions NPUs for Korea’s sovereign inference In sum – what to know: Nvidia, Rebellions and SK Telecom have signed a memorandum of understanding to…",
@@ -1661,20 +1786,6 @@
       "relevance": 50,
       "date": "2026-11-11T16:30:00+00:00",
       "ts": 1794414600.0
-    },
-    {
-      "title": "Fable and Mythos 5.2: The System Card",
-      "link": "https://thezvi.substack.com/p/fable-and-mythos-52-the-system-card",
-      "summary": "It’s that time again: Introducing the world’s most powerful model, Claude Mythos 5.2.",
-      "source": "Don't Worry About the Vase",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 53,
-      "date": "2026-11-11T16:25:17+00:00",
-      "ts": 1794414317.0
     },
     {
       "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
@@ -2235,20 +2346,6 @@
       "ts": 1794228066.0
     },
     {
-      "title": "ChinAI #381: China’s Venture Capital Market is Defying Common Sense",
-      "link": "https://chinai.substack.com/p/chinai-381-chinas-venture-capital",
-      "summary": "A sobering take from a long-time observer of China’s VC industry",
-      "source": "ChinAI (Jeff Ding)",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 34,
-      "date": "2026-11-09T12:12:31+00:00",
-      "ts": 1794226351.0
-    },
-    {
       "title": "Beyond LLMs? China forges new path for AI with focus on industrial systems",
       "link": "https://www.scmp.com/tech/tech-trends/article/3373822/beyond-llms-china-forges-new-path-ai-focus-industrial-systems",
       "summary": "China’s artificial intelligence development is expanding beyond general large language models (LLMs) towards a new generation of specialised systems designed to solve real-world industrial problems, according to a leading computer science researcher. Cui Peng, an associate professor at Beijing’s elite Tsinghua...",
@@ -2373,20 +2470,6 @@
       "ts": 1794200400.0
     },
     {
-      "title": "🗞️Apple AI Taps Qwen, Tencent’s Hy4, and China’s AI Chip Squeeze",
-      "link": "https://www.recodechinaai.com/p/apple-ai-taps-qwen-tencents-hy4-and",
-      "summary": "China AI Weekly Digest (Nov 1, 2026-Nov 7, 2026)",
-      "source": "Recode China AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-11-08T15:08:28+00:00",
-      "ts": 1794150508.0
-    },
-    {
       "title": "Why the Cyberpocalypse Might Hit China Harder",
       "link": "https://www.chinatalk.media/p/china-in-the-cyberpocalypse",
       "summary": "In August, researchers at a California security firm used an OpenAI model to find a software bug in PHP, a programming language that undergird some seventy per cent of the world’s websites, including Wikipedia and WordPress.",
@@ -2429,20 +2512,6 @@
       "relevance": 63,
       "date": "2026-11-07T23:38:02+00:00",
       "ts": 1794094682.0
-    },
-    {
-      "title": "GPT-6 Astra Covertly Underperforms on Safety Research Tasks",
-      "link": "https://thezvi.substack.com/p/gpt-6-astra-covertly-underperforms",
-      "summary": "For a while, UK AISI, Redwood Research and others have been concerned specifically with the possibility that AIs would sabotage safety research, and have invested in looking for signs that this may be happening.",
-      "source": "Don't Worry About the Vase",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 55,
-      "date": "2026-11-06T18:26:12+00:00",
-      "ts": 1793989572.0
     },
     {
       "title": "Robot Talk Episode 169 – Robot sensing inspired by nature, with Dexter Shepherd",
@@ -2709,20 +2778,6 @@
       "relevance": 72,
       "date": "2026-11-03T16:29:48+00:00",
       "ts": 1793723388.0
-    },
-    {
-      "title": "👧🏻How Chinese AI Found Its Persona",
-      "link": "https://www.recodechinaai.com/p/chinese-ai-has-a-persona",
-      "summary": "As China’s AI industry races to build more powerful models and apps, its companies and users are increasingly giving AI softer, more familiar, and sometimes human-like identities.",
-      "source": "Recode China AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 34,
-      "date": "2026-11-03T15:03:35+00:00",
-      "ts": 1793718215.0
     },
     {
       "title": "Why Chinese AI stars like Z.ai, MiniMax struggle to match Anthropic’s profit margin",
@@ -3066,34 +3121,6 @@
       "ts": 1793080810.0
     },
     {
-      "title": "Gemini 4 Argon: The Model and Safety Cards",
-      "link": "https://thezvi.substack.com/p/gemini-4-argon-the-model-and-safety",
-      "summary": "Gemini 4’s model card is a compact 14 pages.",
-      "source": "Don't Worry About the Vase",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 53,
-      "date": "2026-10-26T12:58:47+00:00",
-      "ts": 1793019527.0
-    },
-    {
-      "title": "🗞️DeepSeek’s $15B Round, Moonshot launches K3.1 Pro, and China’s AI Jobs Policy",
-      "link": "https://www.recodechinaai.com/p/deepseeks-15b-round-its-38gpu-hour",
-      "summary": "China AI Weekly Digest (Oct 18, 2026-Oct 24, 2026)",
-      "source": "Recode China AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 67,
-      "date": "2026-10-25T14:46:37+00:00",
-      "ts": 1792939597.0
-    },
-    {
       "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
       "link": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
       "summary": "#20",
@@ -3214,20 +3241,6 @@
       "relevance": 25,
       "date": "2026-10-21T16:23:53+00:00",
       "ts": 1792599833.0
-    },
-    {
-      "title": "✅China’s Draft AI Export Controls Don’t Block Open-Weight Models",
-      "link": "https://www.recodechinaai.com/p/chinas-draft-ai-export-controls-dont",
-      "summary": "The Chinese government wants to be seen backing open source, but there is a line.",
-      "source": "Recode China AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 55,
-      "date": "2026-10-21T15:33:33+00:00",
-      "ts": 1792596813.0
     },
     {
       "title": "DeepSeek open-sources inference framework with support for Nvidia and Huawei chips",
@@ -3352,20 +3365,6 @@
       "relevance": 72,
       "date": "2026-10-19T06:41:03+00:00",
       "ts": 1792392063.0
-    },
-    {
-      "title": "🗞️China Proposes AI Export Controls, DeepSeek Bets on Robotics, and Infinigence Raises $334M",
-      "link": "https://www.recodechinaai.com/p/china-proposes-ai-export-controls",
-      "summary": "China AI Weekly Digest (Oct 11, 2026-Oct 17, 2026)",
-      "source": "Recode China AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-10-18T15:15:40+00:00",
-      "ts": 1792336540.0
     },
     {
       "title": "Giving AI a “crystal clear” view of the materials world",
@@ -3509,6 +3508,18 @@
       "ts": 1791994440.0
     },
     {
+      "title": "Researchers improve weather forecasts looking two to six weeks out",
+      "link": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014",
+      "summary": "A new machine-learning approach broke records for weather forecasting for an important time frame in emergency planning.",
+      "source": "MIT News (IA)",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 35,
+      "date": "2026-10-14T15:00:00+00:00",
+      "ts": 1791990000.0
+    },
+    {
       "title": "Amp puts AI agents to work beyond code with OpenAI models",
       "link": "https://openai.com/index/amp-beyond-coding",
       "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
@@ -3553,48 +3564,6 @@
       "ts": 1791907200.0
     },
     {
-      "title": "𝌞We’re Hearing More Chinese AI Voices. Are We Understanding Them Better?",
-      "link": "https://www.recodechinaai.com/p/were-hearing-more-chinese-ai-voices",
-      "summary": "Social media and AI translation has opened up Chinese AI voices to the world. The DeepSeek researcher’s blog controversy shows what it still leaves behind.",
-      "source": "Recode China AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 51,
-      "date": "2026-10-13T14:32:07+00:00",
-      "ts": 1791901927.0
-    },
-    {
-      "title": "ChinAI #377: American Data Center Hegemony - the Center-Satellite Structure",
-      "link": "https://chinai.substack.com/p/chinai-377-us-dominance-of-the-center",
-      "summary": "Greetings from a world where…",
-      "source": "ChinAI (Jeff Ding)",
-      "region": "china",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 25,
-      "date": "2026-10-12T11:18:35+00:00",
-      "ts": 1791803915.0
-    },
-    {
-      "title": "🗞️DeepSeek Raises $12B+, Manus Lands $500M After Its Meta Split, and Kling Eyes $1B IPO",
-      "link": "https://www.recodechinaai.com/p/deepseek-raises-12b-manus-lands-500m",
-      "summary": "China AI Weekly Digest (Oct 4, 2026-Oct 10, 2026)",
-      "source": "Recode China AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 51,
-      "date": "2026-10-11T14:54:12+00:00",
-      "ts": 1791730452.0
-    },
-    {
       "title": "I expect rapid progress but not towards general superintelligence",
       "link": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
       "summary": "I’ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn’t really know why I doubted it.",
@@ -3607,6 +3576,20 @@
       "relevance": 44,
       "date": "2026-10-09T21:33:47+00:00",
       "ts": 1791581627.0
+    },
+    {
+      "title": "ByteDance researchers identify cause of inconsistent long-context retrieval in DeepSeek models",
+      "link": "https://technode.com/2026/10/09/bytedance-researchers-identify-cause-of-inconsistent-long-context-retrieval-in-deepseek-models/",
+      "summary": "Researchers from ByteDance’s Seed team have identified a mechanism behind inconsistent long-context retrieval in DeepSeek models. Their study found that chunked KV-cache compression makes retrieval accuracy sensitive to where information falls within a compression window, producing differences of up to 40 percentage...",
+      "source": "TechNode",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 67,
+      "date": "2026-10-09T08:54:07+00:00",
+      "ts": 1791536047.0
     },
     {
       "title": "Ecosia switches from Mistral to open-weight AI models including Qwen, GLM and Kimi",
@@ -3708,21 +3691,6 @@
       "ts": 1791234480.0
     },
     {
-      "title": "🗞️DeepSeek and Huawei Target Nvidia's CUDA Moat, and Manus Relaunches as the Agent Wars Heat Up",
-      "link": "https://www.recodechinaai.com/p/deepseek-and-huawei-target-nvidias",
-      "summary": "China AI Weekly Digest (Sep 27-Oct 3, 2026)",
-      "source": "Recode China AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 70,
-      "date": "2026-10-04T14:38:11+00:00",
-      "ts": 1791124691.0
-    },
-    {
       "title": "LWiAI Podcast #258 - Opus 5.5, Sol and Luna, Muse, DeepSeek-V4.1-Flash, Xi",
       "link": "https://lastweekin.ai/p/lwiai-podcast-258-opus-55-sol-and",
       "summary": "(Belated post :/ ) Anthropic releases Opus 5.5 with lower prices and Fable-level performance, OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
@@ -3749,34 +3717,6 @@
       "relevance": 49,
       "date": "2026-10-02T04:01:31+00:00",
       "ts": 1790913691.0
-    },
-    {
-      "title": "Kimi K3 enters OpenAI’s enterprise Codex channel and billing system",
-      "link": "https://technode.com/2026/09/30/kimi-k3-enters-openais-enterprise-codex-channel-and-billing-system/",
-      "summary": "Moonshot AI’s Kimi K3 is entering OpenAI’s enterprise Codex channel through US inference provider Baseten. Enterprise customers can count use of the Chinese model against their existing OpenAI spending commitments. Sina Finance described this as the first time a Chinese open model has entered OpenAI’s enterprise...",
-      "source": "TechNode",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 68,
-      "date": "2026-09-30T15:15:06+00:00",
-      "ts": 1790781306.0
-    },
-    {
-      "title": "MIT Transit Lab to develop an AI platform for public transit agencies",
-      "link": "https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930",
-      "summary": "With $2.1 million funding from Google.org, the open-source Public Transit Intelligence Hub will unify public transit monitoring, operations, and passenger communication.",
-      "source": "MIT News (IA)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 42,
-      "date": "2026-09-30T15:15:00+00:00",
-      "ts": 1790781300.0
     },
     {
       "title": "Chinese Satellite Constellation Extends Coverage to Arctic",
