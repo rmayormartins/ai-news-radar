@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-15T13:10:27.719867+00:00",
-  "count": 238,
-  "china_count": 50,
+  "generated_at": "2026-11-15T22:16:57.678419+00:00",
+  "count": 247,
+  "china_count": 60,
   "topic_counts": {
     "humanoides": 9,
-    "modelos": 162,
+    "modelos": 173,
     "agentes": 54,
-    "biomedica": 9,
+    "biomedica": 8,
     "defesa": 4,
-    "telecom": 12
+    "telecom": 13
   },
   "sources": [
     {
@@ -104,7 +104,7 @@
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 7
+      "kept": 8
     },
     {
       "source": "MIT Tech Review",
@@ -139,7 +139,7 @@
     {
       "source": "TechCrunch",
       "status": "ok (20 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "Ars Technica",
@@ -149,7 +149,7 @@
     {
       "source": "The Verge AI",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 2
     },
     {
       "source": "Wired AI",
@@ -178,8 +178,8 @@
     },
     {
       "source": "Don't Worry About the Vase",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (20 itens)",
+      "kept": 3
     },
     {
       "source": "Quanta (CS/IA)",
@@ -203,13 +203,13 @@
     },
     {
       "source": "ChinAI (Jeff Ding)",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (20 itens)",
+      "kept": 2
     },
     {
       "source": "Recode China AI",
-      "status": "ERRO: HTTP Error 403: Forbidden",
-      "kept": 0
+      "status": "ok (20 itens)",
+      "kept": 8
     },
     {
       "source": "Pandaily",
@@ -294,7 +294,7 @@
     {
       "source": "DailyAI",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 4
     },
     {
       "source": "The AI Insider",
@@ -334,7 +334,7 @@
     {
       "source": "STAT News",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 0
     },
     {
       "source": "Medical Xpress",
@@ -428,6 +428,48 @@
     }
   ],
   "items": [
+    {
+      "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+      "link": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+      "summary": "Anthropic's Claude Fable 5.2 doesn't generate images the way other AI models do. Instead of computing pixels, the language model writes Python code that places hundreds of thousands of simulated brushstrokes on a virtual canvas, complete with bristle texture and paint application. A single photorealistic parking...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 59,
+      "date": "2026-11-15T15:42:03+00:00",
+      "ts": 1794757323.0
+    },
+    {
+      "title": "A Practitioner's Guide to 6 Agentic GraphRAG Patterns",
+      "link": "https://towardsdatascience.com/a-practitioners-guide-to-6-agentic-graphrag-patterns/",
+      "summary": "How autonomous agents turn static knowledge graphs into living Context Graphs that remember decisions, user intent, and operational history The post A Practitioner's Guide to 6 Agentic GraphRAG Patterns appeared first on Towards Data Science .",
+      "source": "Towards Data Science",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 47,
+      "date": "2026-11-15T15:00:00+00:00",
+      "ts": 1794754800.0
+    },
+    {
+      "title": "🗞️Nvidia Without Jensen, Alibaba’s Chip IPO, and Qwen4’s First Look",
+      "link": "https://www.recodechinaai.com/p/nvidia-without-jensen-alibabas-chip",
+      "summary": "China AI Weekly Digest (Nov 8, 2026-Nov 16, 2026)",
+      "source": "Recode China AI",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 55,
+      "date": "2026-11-15T13:06:31+00:00",
+      "ts": 1794747991.0
+    },
     {
       "title": "Understanding Positional Embeddings in Modern LLMs",
       "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
@@ -1272,20 +1314,6 @@
       "ts": 1794521014.0
     },
     {
-      "title": "Google’s new Gemini model is better at understanding complicated questions",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-      "summary": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search,...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 57,
-      "date": "2026-11-12T21:55:32+00:00",
-      "ts": 1794520532.0
-    },
-    {
       "title": "How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore",
       "link": "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/",
       "summary": "Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures institutional lab-operations knowledge and deploys it at scale. This post walks through the full architecture, from knowledge base construction to deployment and evaluation, delivering about 130x faster first response and 96.2%...",
@@ -1365,20 +1393,6 @@
       "ts": 1794513303.0
     },
     {
-      "title": "No, AI agents did not discover a previously unknown Maya site",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
-      "summary": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked criticism among...",
-      "source": "The Verge AI",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 44,
-      "date": "2026-11-12T19:42:40+00:00",
-      "ts": 1794512560.0
-    },
-    {
       "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
       "link": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
       "summary": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
@@ -1434,20 +1448,6 @@
       "relevance": 49,
       "date": "2026-11-12T18:41:12+00:00",
       "ts": 1794508872.0
-    },
-    {
-      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
-      "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-      "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 45,
-      "date": "2026-11-12T18:39:23+00:00",
-      "ts": 1794508763.0
     },
     {
       "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
@@ -1548,32 +1548,6 @@
       "relevance": 51,
       "date": "2026-11-12T14:50:17+00:00",
       "ts": 1794495017.0
-    },
-    {
-      "title": "STAT+: New documents raise more questions about Medicare’s AI prior-authorization experiment",
-      "link": "https://www.statnews.com/2026/11/12/new-documents-raise-more-questions-about-medicares-ai-prior-authorization-experiment/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: Oura's big bet on AI, a 'rumble strip' for clinical chatbots, and questions around Medicare’s AI prior-auth experiment.",
-      "source": "STAT News",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 22,
-      "date": "2026-11-12T14:49:02+00:00",
-      "ts": 1794494942.0
-    },
-    {
-      "title": "Four AI Companies Agree to Outside Child-Safety Tests of Their Tools",
-      "link": "https://dailyai.com/2026/11/four-ai-companies-agree-to-outside-child-safety-tests-of-their-tools/",
-      "summary": "OpenAI, Anthropic, Microsoft and Black Forest Labs have backed a Paris charter that lets independent researchers test how their AI affects children. It is voluntary, and research funding totals €8 million. The post Four AI Companies Agree to Outside Child-Safety Tests of Their Tools appeared first on DailyAI .",
-      "source": "DailyAI",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 44,
-      "date": "2026-11-12T14:17:07+00:00",
-      "ts": 1794493027.0
     },
     {
       "title": "Telecom’s next AI gains will come from agents that work together (Reader Forum)",
@@ -1815,6 +1789,20 @@
       "ts": 1794414600.0
     },
     {
+      "title": "Fable and Mythos 5.2: The System Card",
+      "link": "https://thezvi.substack.com/p/fable-and-mythos-52-the-system-card",
+      "summary": "It’s that time again: Introducing the world’s most powerful model, Claude Mythos 5.2.",
+      "source": "Don't Worry About the Vase",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 53,
+      "date": "2026-11-11T16:25:17+00:00",
+      "ts": 1794414317.0
+    },
+    {
       "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
       "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
       "summary": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
@@ -1825,20 +1813,6 @@
       "relevance": 34,
       "date": "2026-11-11T16:00:00+00:00",
       "ts": 1794412800.0
-    },
-    {
-      "title": "AI Assistant vs. Copilot vs. Agent, and When to Use Each",
-      "link": "https://towardsdatascience.com/ai-assistant-vs-copilot-vs-agent-and-when-to-use-each/",
-      "summary": "A palace-hotel wedding week shows where assistants, copilots, agents, and orchestration fit, and why Gartner expects 40%+ of agentic AI projects to be cancelled. The post AI Assistant vs. Copilot vs. Agent, and When to Use Each appeared first on Towards Data Science .",
-      "source": "Towards Data Science",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 41,
-      "date": "2026-11-11T15:00:00+00:00",
-      "ts": 1794409200.0
     },
     {
       "title": "Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave",
@@ -2373,6 +2347,20 @@
       "ts": 1794228066.0
     },
     {
+      "title": "ChinAI #381: China’s Venture Capital Market is Defying Common Sense",
+      "link": "https://chinai.substack.com/p/chinai-381-chinas-venture-capital",
+      "summary": "A sobering take from a long-time observer of China’s VC industry",
+      "source": "ChinAI (Jeff Ding)",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 34,
+      "date": "2026-11-09T12:12:31+00:00",
+      "ts": 1794226351.0
+    },
+    {
       "title": "Beyond LLMs? China forges new path for AI with focus on industrial systems",
       "link": "https://www.scmp.com/tech/tech-trends/article/3373822/beyond-llms-china-forges-new-path-ai-focus-industrial-systems",
       "summary": "China’s artificial intelligence development is expanding beyond general large language models (LLMs) towards a new generation of specialised systems designed to solve real-world industrial problems, according to a leading computer science researcher. Cui Peng, an associate professor at Beijing’s elite Tsinghua...",
@@ -2497,6 +2485,20 @@
       "ts": 1794200400.0
     },
     {
+      "title": "🗞️Apple AI Taps Qwen, Tencent’s Hy4, and China’s AI Chip Squeeze",
+      "link": "https://www.recodechinaai.com/p/apple-ai-taps-qwen-tencents-hy4-and",
+      "summary": "China AI Weekly Digest (Nov 1, 2026-Nov 7, 2026)",
+      "source": "Recode China AI",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 56,
+      "date": "2026-11-08T15:08:28+00:00",
+      "ts": 1794150508.0
+    },
+    {
       "title": "Why the Cyberpocalypse Might Hit China Harder",
       "link": "https://www.chinatalk.media/p/china-in-the-cyberpocalypse",
       "summary": "In August, researchers at a California security firm used an OpenAI model to find a software bug in PHP, a programming language that undergird some seventy per cent of the world’s websites, including Wikipedia and WordPress.",
@@ -2524,6 +2526,20 @@
       "relevance": 53,
       "date": "2026-11-08T10:22:27+00:00",
       "ts": 1794133347.0
+    },
+    {
+      "title": "GPT-6 Astra Covertly Underperforms on Safety Research Tasks",
+      "link": "https://thezvi.substack.com/p/gpt-6-astra-covertly-underperforms",
+      "summary": "For a while, UK AISI, Redwood Research and others have been concerned specifically with the possibility that AIs would sabotage safety research, and have invested in looking for signs that this may be happening.",
+      "source": "Don't Worry About the Vase",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 55,
+      "date": "2026-11-06T18:26:12+00:00",
+      "ts": 1793989572.0
     },
     {
       "title": "Robot Talk Episode 169 – Robot sensing inspired by nature, with Dexter Shepherd",
@@ -3133,6 +3149,34 @@
       "ts": 1793080810.0
     },
     {
+      "title": "Gemini 4 Argon: The Model and Safety Cards",
+      "link": "https://thezvi.substack.com/p/gemini-4-argon-the-model-and-safety",
+      "summary": "Gemini 4’s model card is a compact 14 pages.",
+      "source": "Don't Worry About the Vase",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 53,
+      "date": "2026-10-26T12:58:47+00:00",
+      "ts": 1793019527.0
+    },
+    {
+      "title": "🗞️DeepSeek’s $15B Round, Moonshot launches K3.1 Pro, and China’s AI Jobs Policy",
+      "link": "https://www.recodechinaai.com/p/deepseeks-15b-round-its-38gpu-hour",
+      "summary": "China AI Weekly Digest (Oct 18, 2026-Oct 24, 2026)",
+      "source": "Recode China AI",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 67,
+      "date": "2026-10-25T14:46:37+00:00",
+      "ts": 1792939597.0
+    },
+    {
       "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
       "link": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
       "summary": "#20",
@@ -3253,6 +3297,20 @@
       "relevance": 25,
       "date": "2026-10-21T16:23:53+00:00",
       "ts": 1792599833.0
+    },
+    {
+      "title": "✅China’s Draft AI Export Controls Don’t Block Open-Weight Models",
+      "link": "https://www.recodechinaai.com/p/chinas-draft-ai-export-controls-dont",
+      "summary": "The Chinese government wants to be seen backing open source, but there is a line.",
+      "source": "Recode China AI",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 55,
+      "date": "2026-10-21T15:33:33+00:00",
+      "ts": 1792596813.0
     },
     {
       "title": "DeepSeek open-sources inference framework with support for Nvidia and Huawei chips",
@@ -3377,6 +3435,20 @@
       "relevance": 72,
       "date": "2026-10-19T06:41:03+00:00",
       "ts": 1792392063.0
+    },
+    {
+      "title": "🗞️China Proposes AI Export Controls, DeepSeek Bets on Robotics, and Infinigence Raises $334M",
+      "link": "https://www.recodechinaai.com/p/china-proposes-ai-export-controls",
+      "summary": "China AI Weekly Digest (Oct 11, 2026-Oct 17, 2026)",
+      "source": "Recode China AI",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 56,
+      "date": "2026-10-18T15:15:40+00:00",
+      "ts": 1792336540.0
     },
     {
       "title": "Giving AI a “crystal clear” view of the materials world",
@@ -3576,6 +3648,48 @@
       "ts": 1791907200.0
     },
     {
+      "title": "𝌞We’re Hearing More Chinese AI Voices. Are We Understanding Them Better?",
+      "link": "https://www.recodechinaai.com/p/were-hearing-more-chinese-ai-voices",
+      "summary": "Social media and AI translation has opened up Chinese AI voices to the world. The DeepSeek researcher’s blog controversy shows what it still leaves behind.",
+      "source": "Recode China AI",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 51,
+      "date": "2026-10-13T14:32:07+00:00",
+      "ts": 1791901927.0
+    },
+    {
+      "title": "ChinAI #377: American Data Center Hegemony - the Center-Satellite Structure",
+      "link": "https://chinai.substack.com/p/chinai-377-us-dominance-of-the-center",
+      "summary": "Greetings from a world where…",
+      "source": "ChinAI (Jeff Ding)",
+      "region": "china",
+      "category": "geral",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 25,
+      "date": "2026-10-12T11:18:35+00:00",
+      "ts": 1791803915.0
+    },
+    {
+      "title": "🗞️DeepSeek Raises $12B+, Manus Lands $500M After Its Meta Split, and Kling Eyes $1B IPO",
+      "link": "https://www.recodechinaai.com/p/deepseek-raises-12b-manus-lands-500m",
+      "summary": "China AI Weekly Digest (Oct 4, 2026-Oct 10, 2026)",
+      "source": "Recode China AI",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 51,
+      "date": "2026-10-11T14:54:12+00:00",
+      "ts": 1791730452.0
+    },
+    {
       "title": "I expect rapid progress but not towards general superintelligence",
       "link": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
       "summary": "I’ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn’t really know why I doubted it.",
@@ -3701,6 +3815,21 @@
       "relevance": 53,
       "date": "2026-10-05T21:08:00+00:00",
       "ts": 1791234480.0
+    },
+    {
+      "title": "🗞️DeepSeek and Huawei Target Nvidia's CUDA Moat, and Manus Relaunches as the Agent Wars Heat Up",
+      "link": "https://www.recodechinaai.com/p/deepseek-and-huawei-target-nvidias",
+      "summary": "China AI Weekly Digest (Sep 27-Oct 3, 2026)",
+      "source": "Recode China AI",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 70,
+      "date": "2026-10-04T14:38:11+00:00",
+      "ts": 1791124691.0
     },
     {
       "title": "LWiAI Podcast #258 - Opus 5.5, Sol and Luna, Muse, DeepSeek-V4.1-Flash, Xi",
