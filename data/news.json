@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-15T03:52:04.783883+00:00",
-  "count": 250,
-  "china_count": 59,
+  "generated_at": "2026-11-15T13:10:27.719867+00:00",
+  "count": 238,
+  "china_count": 50,
   "topic_counts": {
     "humanoides": 9,
-    "modelos": 175,
-    "agentes": 53,
+    "modelos": 162,
+    "agentes": 54,
     "biomedica": 9,
     "defesa": 4,
-    "telecom": 13
+    "telecom": 12
   },
   "sources": [
     {
@@ -39,7 +39,7 @@
     {
       "source": "Ahead of AI",
       "status": "ok (20 itens)",
-      "kept": 1
+      "kept": 2
     },
     {
       "source": "Simon Willison",
@@ -178,8 +178,8 @@
     },
     {
       "source": "Don't Worry About the Vase",
-      "status": "ok (20 itens)",
-      "kept": 3
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "Quanta (CS/IA)",
@@ -203,13 +203,13 @@
     },
     {
       "source": "ChinAI (Jeff Ding)",
-      "status": "ok (20 itens)",
-      "kept": 2
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "Recode China AI",
-      "status": "ok (20 itens)",
-      "kept": 8
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "Pandaily",
@@ -428,6 +428,90 @@
     }
   ],
   "items": [
+    {
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "summary": "The Methods Behind How LLMs Represent Token Positions",
+      "source": "Ahead of AI",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 44,
+      "date": "2026-11-15T12:10:37+00:00",
+      "ts": 1794744637.0
+    },
+    {
+      "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
+      "link": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+      "summary": "Australia's central bank sees early signs that AI is hitting young entry-level workers in highly exposed jobs like software development and customer service. Since ChatGPT launched, job postings and employment among 15- to 24-year-olds in those fields have dropped more sharply than among older workers. Author Mike...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 58,
+      "date": "2026-11-15T10:45:58+00:00",
+      "ts": 1794739558.0
+    },
+    {
+      "title": "Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls",
+      "link": "https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/",
+      "summary": "Bland has released Tofu-1, a full-duplex speech-to-speech model for noisy, high-stakes phone calls. It is in enterprise research preview, with no published benchmarks, size or pricing yet. The post Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls appeared first on MarkTechPost .",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 57,
+      "date": "2026-11-15T10:06:21+00:00",
+      "ts": 1794737181.0
+    },
+    {
+      "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+      "link": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+      "summary": "Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5. The sample deployment runs on 194 Huawei Ascend chips, and Meituan makes no mention of Nvidia GPUs....",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 71,
+      "date": "2026-11-15T10:06:06+00:00",
+      "ts": 1794737166.0
+    },
+    {
+      "title": "HyperS2C Launches With a Full Digital Front-End EDA Toolchain and Two AI Agents for Verification",
+      "link": "https://pandaily.com/hypers2c-digital-front-end-eda-toolchain-hyperhybrid-hscompile-hsdebug-agents",
+      "summary": "HyperS2C, formed from S2C and HyperSilicon, launched a '5+1' digital front-end EDA toolchain, the HyperHybrid platform and two verification agents.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 47,
+      "date": "2026-11-15T07:12:25+00:00",
+      "ts": 1794726745.0
+    },
+    {
+      "title": "yetone's Alma Agent Harness Placed Third Midway Through FrontierHarness v1.1 and Finished Sixth",
+      "link": "https://pandaily.com/yetone-alma-agent-harness-frontierharness-v1-1-ranking-tool-model-alma-relay",
+      "summary": "yetone's Alma was third in a Nov. 11 snapshot of the FrontierHarness v1.1 coding-harness benchmark. On the completed board it ranks sixth by pass rate, at 59.7%.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 42,
+      "date": "2026-11-15T07:12:14+00:00",
+      "ts": 1794726734.0
+    },
     {
       "title": "Can Chinese AI companies curb cyber risks from open-weight models without losing their edge?",
       "link": "https://www.scmp.com/tech/tech-trends/article/3374332/can-chinese-ai-companies-curb-cyber-risks-open-weight-models-without-losing-their-edge",
@@ -766,20 +850,6 @@
       "ts": 1794602710.0
     },
     {
-      "title": "OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet",
-      "link": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
-      "summary": "OpenAI is taking a second shot at AI-powered shopping with ChatGPT Wallet after scrapping its first approach, Instant Checkout. Users register a card once and confirm each purchase through Face ID or a fingerprint, while actual card details stay hidden behind payment tokens. Rivals such as Anthropic, Meta, and xAI...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 71,
-      "date": "2026-11-13T18:55:21+00:00",
-      "ts": 1794596121.0
-    },
-    {
       "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
       "link": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
       "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
@@ -862,20 +932,6 @@
       "relevance": 28,
       "date": "2026-11-13T17:00:00+00:00",
       "ts": 1794589200.0
-    },
-    {
-      "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
-      "link": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
-      "summary": "Anthropic's new Claude for Manufacturing plugin connects the AI directly to Autodesk Fusion, Oracle NetSuite, and Infor. Its 17 specialized skills let the AI draft quotes, compare suppliers, and place backup orders when deliveries are delayed, all after human approval. The plugin doesn't control physical machines yet,...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 54,
-      "date": "2026-11-13T16:37:01+00:00",
-      "ts": 1794587821.0
     },
     {
       "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial",
@@ -1149,7 +1205,7 @@
     {
       "title": "Google Launches Gemini 4 Hydrogen for Faster Coding and AI Workflows",
       "link": "https://analyticsindiamag.com/ai-news/google-launches-gemini-4-hydrogen-for-faster-coding-and-ai-workflows",
-      "summary": "Discover how Google's Gemini 4 Hydrogen enhances coding efficiency and AI workflows, outperforming previous models in key benchmarks.",
+      "summary": "The new model scores higher than Gemini 4 Argon on the Artificial Analysis Intelligence benchmark.",
       "source": "Analytics India",
       "region": "global",
       "category": "modelo",
@@ -1159,34 +1215,6 @@
       "relevance": 62,
       "date": "2026-11-13T09:24:56+00:00",
       "ts": 1794561896.0
-    },
-    {
-      "title": "Andrew Yao and Yang Zhilin Co-Author TCSExam as Kimi K3 Adds an Edge to a Graph Record",
-      "link": "https://pandaily.com/tcsexam-andrew-yao-yang-zhilin-theoretical-computer-science-benchmark-kimi-k3-graph",
-      "summary": "TCSExam, co-authored by Andrew Yao and Yang Zhilin, checks AI research in theoretical CS with Lean 4 and program checkers. Kimi K3 found a 124-vertex graph with a record 630 edges.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-11-13T02:32:53+00:00",
-      "ts": 1794537173.0
-    },
-    {
-      "title": "Huawei Cloud Sets November 16 Launch for CloudRobo-WM1.2, Its First Ascend-Native World Model",
-      "link": "https://pandaily.com/huawei-cloud-cloudrobo-wm1-2-ascend-native-embodied-world-model-launch-preview",
-      "summary": "Huawei Cloud will unveil CloudRobo-WM1.2, billed as the first Ascend-native world model from its Industry AI Dream Factory, at an online launch on Nov 16. Specs are not yet public.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 47,
-      "date": "2026-11-13T02:32:35+00:00",
-      "ts": 1794537155.0
     },
     {
       "title": "Google DeepMind Introduces AlphaProof Code for Verifying Complex Software at Depth",
@@ -1448,21 +1476,6 @@
       "relevance": 58,
       "date": "2026-11-12T17:30:53+00:00",
       "ts": 1794504653.0
-    },
-    {
-      "title": "AWS Releases AWS Emulator: A Local Copy of 200+ AWS Services Built by AI Agents",
-      "link": "https://www.marktechpost.com/2026/11/12/aws-emulator-local-aws-api-emulator-ai-agents/",
-      "summary": "AWS released AWS Emulator, a free, CC0-licensed local emulator of AWS APIs built from 438 API models. Autonomous agents wrote all of its code. It passes 56.6% of 42,857 published fidelity tests at launch. The post AWS Releases AWS Emulator: A Local Copy of 200+ AWS Services Built by AI Agents appeared first on...",
-      "source": "MarkTechPost",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 64,
-      "date": "2026-11-12T17:26:08+00:00",
-      "ts": 1794504368.0
     },
     {
       "title": "'Robot Wars': Defense One Futures, Ep. 1",
@@ -1800,20 +1813,6 @@
       "relevance": 50,
       "date": "2026-11-11T16:30:00+00:00",
       "ts": 1794414600.0
-    },
-    {
-      "title": "Fable and Mythos 5.2: The System Card",
-      "link": "https://thezvi.substack.com/p/fable-and-mythos-52-the-system-card",
-      "summary": "It’s that time again: Introducing the world’s most powerful model, Claude Mythos 5.2.",
-      "source": "Don't Worry About the Vase",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 53,
-      "date": "2026-11-11T16:25:17+00:00",
-      "ts": 1794414317.0
     },
     {
       "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
@@ -2374,20 +2373,6 @@
       "ts": 1794228066.0
     },
     {
-      "title": "ChinAI #381: China’s Venture Capital Market is Defying Common Sense",
-      "link": "https://chinai.substack.com/p/chinai-381-chinas-venture-capital",
-      "summary": "A sobering take from a long-time observer of China’s VC industry",
-      "source": "ChinAI (Jeff Ding)",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 34,
-      "date": "2026-11-09T12:12:31+00:00",
-      "ts": 1794226351.0
-    },
-    {
       "title": "Beyond LLMs? China forges new path for AI with focus on industrial systems",
       "link": "https://www.scmp.com/tech/tech-trends/article/3373822/beyond-llms-china-forges-new-path-ai-focus-industrial-systems",
       "summary": "China’s artificial intelligence development is expanding beyond general large language models (LLMs) towards a new generation of specialised systems designed to solve real-world industrial problems, according to a leading computer science researcher. Cui Peng, an associate professor at Beijing’s elite Tsinghua...",
@@ -2404,14 +2389,14 @@
     {
       "title": "Adobe’s CX Enterprise Coworker Gets Embedded Within Leading AI Platforms",
       "link": "https://analyticsindiamag.com/ai-news/adobes-cx-enterprise-coworker-gets-embedded-within-leading-ai-platforms",
-      "summary": "The software firm said its CX Enterprise Coworker agentic AI will be embedded in ChatGPT as a plugin, Claude, Databricks Genie, Gemini for business, and Microso",
+      "summary": "The software firm said its CX Enterprise Coworker agentic AI will be embedded in ChatGPT as a plugin, Claude, Databricks Genie, Gemini for business, and Microsoft Copilot.",
       "source": "Analytics India",
       "region": "global",
       "category": "modelo",
       "topics": [
         "modelos"
       ],
-      "relevance": 66,
+      "relevance": 67,
       "date": "2026-11-09T11:30:04+00:00",
       "ts": 1794223804.0
     },
@@ -2512,20 +2497,6 @@
       "ts": 1794200400.0
     },
     {
-      "title": "🗞️Apple AI Taps Qwen, Tencent’s Hy4, and China’s AI Chip Squeeze",
-      "link": "https://www.recodechinaai.com/p/apple-ai-taps-qwen-tencents-hy4-and",
-      "summary": "China AI Weekly Digest (Nov 1, 2026-Nov 7, 2026)",
-      "source": "Recode China AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-11-08T15:08:28+00:00",
-      "ts": 1794150508.0
-    },
-    {
       "title": "Why the Cyberpocalypse Might Hit China Harder",
       "link": "https://www.chinatalk.media/p/china-in-the-cyberpocalypse",
       "summary": "In August, researchers at a California security firm used an OpenAI model to find a software bug in PHP, a programming language that undergird some seventy per cent of the world’s websites, including Wikipedia and WordPress.",
@@ -2553,20 +2524,6 @@
       "relevance": 53,
       "date": "2026-11-08T10:22:27+00:00",
       "ts": 1794133347.0
-    },
-    {
-      "title": "GPT-6 Astra Covertly Underperforms on Safety Research Tasks",
-      "link": "https://thezvi.substack.com/p/gpt-6-astra-covertly-underperforms",
-      "summary": "For a while, UK AISI, Redwood Research and others have been concerned specifically with the possibility that AIs would sabotage safety research, and have invested in looking for signs that this may be happening.",
-      "source": "Don't Worry About the Vase",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 55,
-      "date": "2026-11-06T18:26:12+00:00",
-      "ts": 1793989572.0
     },
     {
       "title": "Robot Talk Episode 169 – Robot sensing inspired by nature, with Dexter Shepherd",
@@ -2833,20 +2790,6 @@
       "relevance": 72,
       "date": "2026-11-03T16:29:48+00:00",
       "ts": 1793723388.0
-    },
-    {
-      "title": "👧🏻How Chinese AI Found Its Persona",
-      "link": "https://www.recodechinaai.com/p/chinese-ai-has-a-persona",
-      "summary": "As China’s AI industry races to build more powerful models and apps, its companies and users are increasingly giving AI softer, more familiar, and sometimes human-like identities.",
-      "source": "Recode China AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 34,
-      "date": "2026-11-03T15:03:35+00:00",
-      "ts": 1793718215.0
     },
     {
       "title": "Why Chinese AI stars like Z.ai, MiniMax struggle to match Anthropic’s profit margin",
@@ -3190,34 +3133,6 @@
       "ts": 1793080810.0
     },
     {
-      "title": "Gemini 4 Argon: The Model and Safety Cards",
-      "link": "https://thezvi.substack.com/p/gemini-4-argon-the-model-and-safety",
-      "summary": "Gemini 4’s model card is a compact 14 pages.",
-      "source": "Don't Worry About the Vase",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 53,
-      "date": "2026-10-26T12:58:47+00:00",
-      "ts": 1793019527.0
-    },
-    {
-      "title": "🗞️DeepSeek’s $15B Round, Moonshot launches K3.1 Pro, and China’s AI Jobs Policy",
-      "link": "https://www.recodechinaai.com/p/deepseeks-15b-round-its-38gpu-hour",
-      "summary": "China AI Weekly Digest (Oct 18, 2026-Oct 24, 2026)",
-      "source": "Recode China AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 67,
-      "date": "2026-10-25T14:46:37+00:00",
-      "ts": 1792939597.0
-    },
-    {
       "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
       "link": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
       "summary": "#20",
@@ -3338,20 +3253,6 @@
       "relevance": 25,
       "date": "2026-10-21T16:23:53+00:00",
       "ts": 1792599833.0
-    },
-    {
-      "title": "✅China’s Draft AI Export Controls Don’t Block Open-Weight Models",
-      "link": "https://www.recodechinaai.com/p/chinas-draft-ai-export-controls-dont",
-      "summary": "The Chinese government wants to be seen backing open source, but there is a line.",
-      "source": "Recode China AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 55,
-      "date": "2026-10-21T15:33:33+00:00",
-      "ts": 1792596813.0
     },
     {
       "title": "DeepSeek open-sources inference framework with support for Nvidia and Huawei chips",
@@ -3476,20 +3377,6 @@
       "relevance": 72,
       "date": "2026-10-19T06:41:03+00:00",
       "ts": 1792392063.0
-    },
-    {
-      "title": "🗞️China Proposes AI Export Controls, DeepSeek Bets on Robotics, and Infinigence Raises $334M",
-      "link": "https://www.recodechinaai.com/p/china-proposes-ai-export-controls",
-      "summary": "China AI Weekly Digest (Oct 11, 2026-Oct 17, 2026)",
-      "source": "Recode China AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-10-18T15:15:40+00:00",
-      "ts": 1792336540.0
     },
     {
       "title": "Giving AI a “crystal clear” view of the materials world",
@@ -3689,48 +3576,6 @@
       "ts": 1791907200.0
     },
     {
-      "title": "𝌞We’re Hearing More Chinese AI Voices. Are We Understanding Them Better?",
-      "link": "https://www.recodechinaai.com/p/were-hearing-more-chinese-ai-voices",
-      "summary": "Social media and AI translation has opened up Chinese AI voices to the world. The DeepSeek researcher’s blog controversy shows what it still leaves behind.",
-      "source": "Recode China AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 51,
-      "date": "2026-10-13T14:32:07+00:00",
-      "ts": 1791901927.0
-    },
-    {
-      "title": "ChinAI #377: American Data Center Hegemony - the Center-Satellite Structure",
-      "link": "https://chinai.substack.com/p/chinai-377-us-dominance-of-the-center",
-      "summary": "Greetings from a world where…",
-      "source": "ChinAI (Jeff Ding)",
-      "region": "china",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 25,
-      "date": "2026-10-12T11:18:35+00:00",
-      "ts": 1791803915.0
-    },
-    {
-      "title": "🗞️DeepSeek Raises $12B+, Manus Lands $500M After Its Meta Split, and Kling Eyes $1B IPO",
-      "link": "https://www.recodechinaai.com/p/deepseek-raises-12b-manus-lands-500m",
-      "summary": "China AI Weekly Digest (Oct 4, 2026-Oct 10, 2026)",
-      "source": "Recode China AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 51,
-      "date": "2026-10-11T14:54:12+00:00",
-      "ts": 1791730452.0
-    },
-    {
       "title": "I expect rapid progress but not towards general superintelligence",
       "link": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
       "summary": "I’ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn’t really know why I doubted it.",
@@ -3856,21 +3701,6 @@
       "relevance": 53,
       "date": "2026-10-05T21:08:00+00:00",
       "ts": 1791234480.0
-    },
-    {
-      "title": "🗞️DeepSeek and Huawei Target Nvidia's CUDA Moat, and Manus Relaunches as the Agent Wars Heat Up",
-      "link": "https://www.recodechinaai.com/p/deepseek-and-huawei-target-nvidias",
-      "summary": "China AI Weekly Digest (Sep 27-Oct 3, 2026)",
-      "source": "Recode China AI",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 70,
-      "date": "2026-10-04T14:38:11+00:00",
-      "ts": 1791124691.0
     },
     {
       "title": "LWiAI Podcast #258 - Opus 5.5, Sol and Luna, Muse, DeepSeek-V4.1-Flash, Xi",
