@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-20T23:29:14.389673+00:00",
-  "count": 292,
-  "china_count": 54,
+  "generated_at": "2026-11-21T04:49:41.808787+00:00",
+  "count": 291,
+  "china_count": 53,
   "topic_counts": {
     "humanoides": 6,
-    "modelos": 183,
-    "agentes": 61,
-    "biomedica": 17,
+    "modelos": 181,
+    "agentes": 62,
+    "biomedica": 16,
     "defesa": 10,
     "telecom": 29
   },
@@ -24,7 +24,7 @@
     {
       "source": "Google Research",
       "status": "ok (100 itens)",
-      "kept": 7
+      "kept": 8
     },
     {
       "source": "Meta AI",
@@ -234,7 +234,7 @@
     {
       "source": "SCMP Big Tech",
       "status": "ok (50 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "ChinaTalk",
@@ -384,7 +384,7 @@
     {
       "source": "IEEE ComSoc Tech Blog",
       "status": "ok (10 itens)",
-      "kept": 4
+      "kept": 3
     },
     {
       "source": "The 3G4G Blog",
@@ -428,6 +428,49 @@
     }
   ],
   "items": [
+    {
+      "title": "AI agents are getting wallets. Is Hong Kong ready for them?",
+      "link": "https://www.scmp.com/tech/big-tech/article/3375253/ai-agents-are-getting-wallets-hong-kong-ready-them",
+      "summary": "Minds by Animoca Brands, an agentic artificial intelligence platform created by the Web3 firm, is riding on Hong Kong’s push to turn automated agents into everyday shopping tools, piloting live transactions on Visa’s network just as local regulators place agentic commerce on the policy agenda. Unlike conventional...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 46,
+      "date": "2026-11-21T02:30:05+00:00",
+      "ts": 1795228205.0
+    },
+    {
+      "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+      "link": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+      "summary": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which evaluates and sets up...",
+      "source": "AWS Machine Learning",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos",
+        "agentes"
+      ],
+      "relevance": 50,
+      "date": "2026-11-21T00:14:26+00:00",
+      "ts": 1795220066.0
+    },
+    {
+      "title": "How Google Duplex evolved to also call businesses for you in Gemini",
+      "link": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+      "summary": "Generative AI",
+      "source": "Google Research",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 59,
+      "date": "2026-11-20T23:30:30+00:00",
+      "ts": 1795217430.0
+    },
     {
       "title": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
       "link": "https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120",
@@ -1744,21 +1787,6 @@
       "relevance": 49,
       "date": "2026-11-19T18:21:13+00:00",
       "ts": 1795112473.0
-    },
-    {
-      "title": "Protect agent tool calls with Skyflow and Amazon Bedrock AgentCore Gateway",
-      "link": "https://aws.amazon.com/blogs/machine-learning/protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcore-gateway/",
-      "summary": "Learn how Skyflow and Amazon Bedrock AgentCore Gateway keep sensitive data out of the tools your AI agents call. Added as a gateway interceptor, Skyflow de-identifies data before any tool, model, or log sees it, and restores it for authorized callers, with no change to your agent code.",
-      "source": "AWS Machine Learning",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 44,
-      "date": "2026-11-19T18:14:36+00:00",
-      "ts": 1795112076.0
     },
     {
       "title": "13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade",
@@ -3254,20 +3282,6 @@
       "ts": 1794506400.0
     },
     {
-      "title": "Broadband Forum Advances Subscriber Session Steering for Dynamic BNG Resource Optimization",
-      "link": "https://techblog.comsoc.org/2026/11/12/broadband-forum-advances-subscriber-session-steering-for-dynamic-bng-resource-optimization/",
-      "summary": "Attribution: Ken Pyle, Broadband Forum Marketing Director, provided the author with references which he used to write this article. ChatGPT helped with organizing the piece AFTER the author completed his own diligent research. Introduction: As broadband networks evolve toward disaggregated, cloud-native architectures,...",
-      "source": "IEEE ComSoc Tech Blog",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 58,
-      "date": "2026-11-12T17:30:53+00:00",
-      "ts": 1794504653.0
-    },
-    {
       "title": "'Robot Wars': Defense One Futures, Ep. 1",
       "link": "https://www.defenseone.com/technology/2026/11/defense-one-futures-robot-wars-ep-1/417183/",
       "summary": "The U.S. military and its NATO allies are rethinking how they buy, build, and train in the age of autonomy and AI.",
@@ -3294,21 +3308,6 @@
       "relevance": 51,
       "date": "2026-11-12T14:50:17+00:00",
       "ts": 1794495017.0
-    },
-    {
-      "title": "Former ByteDance AI scientist touts drug-discovery model that tops world leaders",
-      "link": "https://www.scmp.com/business/companies/article/3374201/former-bytedance-ai-scientist-touts-drug-discovery-model-tops-world-leaders",
-      "summary": "A former ByteDance artificial intelligence scientist’s new venture has released a life sciences AI model that the firm claims outperforms state-of-the-art systems, intensifying the increasingly crowded competition in AI-driven drug discovery. Geodesic Intelligence’s NovaAtom-Lite, an AI model designed to predict the...",
-      "source": "SCMP Tech",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "biomedica",
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-11-12T10:00:14+00:00",
-      "ts": 1794477614.0
     },
     {
       "title": "From Network Energy Saving to Energy-Aware Applications in 3GPP Release 20",
@@ -3919,20 +3918,6 @@
       "relevance": 75,
       "date": "2026-11-04T07:01:09+00:00",
       "ts": 1793775669.0
-    },
-    {
-      "title": "Why Chinese AI stars like Z.ai, MiniMax struggle to match Anthropic’s profit margin",
-      "link": "https://www.scmp.com/tech/big-tech/article/3373124/why-chinese-ai-stars-zai-minimax-struggle-match-anthropics-profit-margin",
-      "summary": "US artificial intelligence giant Anthropic’s initial public offering prospectus has exposed a vast profitability gap between it and rivals Z.ai and MiniMax, highlighting the challenges facing China’s AI model developers in turning technological advances into sustainable businesses. The Claude developer’s filing with...",
-      "source": "SCMP Big Tech",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 66,
-      "date": "2026-11-03T12:30:13+00:00",
-      "ts": 1793709013.0
     },
     {
       "title": "Mercedes-Benz brings Doubao AI and China-developed cockpit to updated E-Class",
