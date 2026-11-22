@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-21T22:35:27.099610+00:00",
+  "generated_at": "2026-11-22T04:05:27.832536+00:00",
   "count": 255,
   "china_count": 49,
   "topic_counts": {
-    "humanoides": 6,
-    "modelos": 171,
-    "agentes": 53,
+    "humanoides": 7,
+    "modelos": 170,
+    "agentes": 52,
     "biomedica": 10,
     "defesa": 10,
     "telecom": 24
@@ -99,7 +99,7 @@
     {
       "source": "MarkTechPost",
       "status": "ok (10 itens)",
-      "kept": 9
+      "kept": 8
     },
     {
       "source": "The Decoder",
@@ -288,13 +288,13 @@
     },
     {
       "source": "AI News",
-      "status": "ERRO: HTTP Error 502: Bad Gateway",
+      "status": "ok (0 itens)",
       "kept": 0
     },
     {
       "source": "DailyAI",
       "status": "ok (10 itens)",
-      "kept": 6
+      "kept": 5
     },
     {
       "source": "The AI Insider",
@@ -309,7 +309,7 @@
     {
       "source": "The Robot Report",
       "status": "ok (15 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "IEEE Spectrum Robotica",
@@ -384,7 +384,7 @@
     {
       "source": "IEEE ComSoc Tech Blog",
       "status": "ok (10 itens)",
-      "kept": 3
+      "kept": 4
     },
     {
       "source": "The 3G4G Blog",
@@ -428,6 +428,48 @@
     }
   ],
   "items": [
+    {
+      "title": "MetaX Adds Hy4 Support on C-Series GPUs With FlagOS W8A8 Weights",
+      "link": "https://pandaily.com/metax-hy4-c-series-gpu-flagos-w8a8-support",
+      "summary": "MetaX details flagship Hy4 support and a FlagOS W8A8 release for C-series GPUs; published results are specific to a 32-GPU test setup.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 51,
+      "date": "2026-11-22T02:29:30+00:00",
+      "ts": 1795314570.0
+    },
+    {
+      "title": "Will Nvidia’s Retreat from Circular Financing Deals Curtail the AI CAPEX Infrastructure Spending Frenzy?",
+      "link": "https://techblog.comsoc.org/2026/11/21/will-nvidias-retreat-from-circular-financing-deals-curtail-the-ai-capex-infrastructure-spending-frenzy/",
+      "summary": "Disclaimer: ChatGPT was used extensively to help select the topic of this IEEE Techblog post and to assist with the research, analysis, and drafting of the article. The author reviewed, edited, and fact-checked the material and is 100% responsible for the final content and conclusions. Introduction: Jensen Huang’s...",
+      "source": "IEEE ComSoc Tech Blog",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 50,
+      "date": "2026-11-21T23:42:02+00:00",
+      "ts": 1795304522.0
+    },
+    {
+      "title": "The manufacturing data gap holding back physical AI",
+      "link": "https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/",
+      "summary": "Manufacturers looking to deploy autonomous robots must close gaps in industrial data collection, interoperability, and quality feedback to enable reliable decision-making and improve production efficiency. The post The manufacturing data gap holding back physical AI appeared first on The Robot Report .",
+      "source": "The Robot Report",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "humanoides"
+      ],
+      "relevance": 35,
+      "date": "2026-11-21T22:25:35+00:00",
+      "ts": 1795299935.0
+    },
     {
       "title": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
       "link": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
@@ -1678,21 +1720,6 @@
       "ts": 1795086022.0
     },
     {
-      "title": "Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index",
-      "link": "https://www.marktechpost.com/2026/11/18/google-gemini-4-neon-release/",
-      "summary": "Google released Gemini 4 Neon, a 1M-context Gemini 4 model priced at $3/$15 per million tokens. It scores 61 on the AA Intelligence Index and ranks #1 on AA’s Coding Agent Index. The post Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index appeared first on MarkTechPost .",
-      "source": "MarkTechPost",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 70,
-      "date": "2026-11-19T06:52:26+00:00",
-      "ts": 1795071146.0
-    },
-    {
       "title": "Phancy Announces Phai-A1 Coding Model and Phai-M1 Video Generator",
       "link": "https://pandaily.com/phancy-phai-a1-coding-weights-ascend-phai-m1-video",
       "summary": "Phancy details Ascend-post-trained Phai-A1 coding weights and the Phai-M1 video trial, with benchmark, context and availability caveats.",
@@ -1735,6 +1762,20 @@
       "ts": 1795053170.0
     },
     {
+      "title": "llm-gemini 0.38",
+      "link": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+      "summary": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse. Previously the Gemini 4 lineup was Hydrogen, Argon, and Carbon - where Argon and Carbon were the same price , and Hydrogen was 3/4 of...",
+      "source": "Simon Willison",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 59,
+      "date": "2026-11-18T23:59:20+00:00",
+      "ts": 1795046360.0
+    },
+    {
       "title": "Humyn Labs raises $47M to collect real-world data for robotics",
       "link": "https://www.therobotreport.com/humyn-labs-raises-47m-to-collect-real-world-data-for-robotics/",
       "summary": "Humyn Labs provides data collected from real-world operations for frontier AI labs, robotics companies, and world-model developers. The post Humyn Labs raises $47M to collect real-world data for robotics appeared first on The Robot Report .",
@@ -1747,20 +1788,6 @@
       "relevance": 40,
       "date": "2026-11-18T22:43:06+00:00",
       "ts": 1795041786.0
-    },
-    {
-      "title": "Google Introduces Gemini 4 Neon for Coding and Knowledge Work",
-      "link": "https://dailyai.com/2026/11/google-introduces-gemini-4-neon-for-coding-and-knowledge-work/",
-      "summary": "The new model is rolling out on 18 November in the Gemini API, Google Antigravity and the Gemini app. Google prices it at US$3 per million input tokens and US$15 per million output tokens. The post Google Introduces Gemini 4 Neon for Coding and Knowledge Work appeared first on DailyAI .",
-      "source": "DailyAI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 64,
-      "date": "2026-11-18T22:29:12+00:00",
-      "ts": 1795040952.0
     },
     {
       "title": "Microsoft Launches AI Transparency Initiative to Help Enterprises Verify Agent Actions",
@@ -2068,20 +2095,6 @@
       "relevance": 51,
       "date": "2026-11-18T01:42:42+00:00",
       "ts": 1794966162.0
-    },
-    {
-      "title": "SenseTime Releases Final SenseNova-Loop-9B With Cambricon Day-0 Support",
-      "link": "https://pandaily.com/sensetime-sensenova-loop-9b-final-cambricon-mlu-support",
-      "summary": "SenseTime releases the final Loop-9B checkpoint as Cambricon reports launch-day MLU support, with memory and benchmark caveats.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 55,
-      "date": "2026-11-18T01:42:31+00:00",
-      "ts": 1794966151.0
     },
     {
       "title": "OpenAI gives NATO access to most advanced cybersecurity AI",
@@ -3040,20 +3053,6 @@
       "relevance": 58,
       "date": "2026-11-10T20:52:56+00:00",
       "ts": 1794343976.0
-    },
-    {
-      "title": "llm-gemini 0.36",
-      "link": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
-      "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but scheduled to double in...",
-      "source": "Simon Willison",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 75,
-      "date": "2026-11-10T20:09:44+00:00",
-      "ts": 1794341384.0
     },
     {
       "title": "China touts tech, AI cred at world Web Summit",
