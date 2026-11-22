@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-22T04:05:27.832536+00:00",
-  "count": 255,
-  "china_count": 49,
+  "generated_at": "2026-11-22T13:47:02.125060+00:00",
+  "count": 243,
+  "china_count": 46,
   "topic_counts": {
-    "humanoides": 7,
-    "modelos": 170,
-    "agentes": 52,
-    "biomedica": 10,
+    "humanoides": 9,
+    "modelos": 166,
+    "agentes": 48,
+    "biomedica": 9,
     "defesa": 10,
     "telecom": 24
   },
@@ -78,8 +78,8 @@
     },
     {
       "source": "arXiv cs.LG",
-      "status": "ok (359 itens)",
-      "kept": 8
+      "status": "ok (0 itens)",
+      "kept": 0
     },
     {
       "source": "arXiv cs.CL",
@@ -99,12 +99,12 @@
     {
       "source": "MarkTechPost",
       "status": "ok (10 itens)",
-      "kept": 8
+      "kept": 9
     },
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 8
+      "kept": 7
     },
     {
       "source": "MIT Tech Review",
@@ -123,8 +123,8 @@
     },
     {
       "source": "KDnuggets",
-      "status": "ok (10 itens)",
-      "kept": 5
+      "status": "ERRO: HTTP Error 403: Forbidden",
+      "kept": 0
     },
     {
       "source": "TechXplore (IA/ML)",
@@ -229,7 +229,7 @@
     {
       "source": "SCMP Tech",
       "status": "ok (50 itens)",
-      "kept": 7
+      "kept": 8
     },
     {
       "source": "SCMP Big Tech",
@@ -429,6 +429,147 @@
   ],
   "items": [
     {
+      "title": "Tencent touts latest AI model Hy4’s performance on independent safety assessment",
+      "link": "https://www.scmp.com/tech/tech-trends/article/3375374/tencent-touts-latest-ai-model-hy4s-performance-independent-safety-assessment",
+      "summary": "Tencent Holdings has teamed up with an international group of artificial intelligence safety organisations to assess the risk level of its latest open-weight model, amid growing concerns over AI-assisted cyberattacks and biological misuse. The development marks the first time a leading Chinese tech company has...",
+      "source": "SCMP Tech",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 46,
+      "date": "2026-11-22T13:30:07+00:00",
+      "ts": 1795354207.0
+    },
+    {
+      "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
+      "link": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+      "summary": "METR reports that leading AI models like Opus 5.5 and GPT-6 Astra are improving rapidly at research tasks but getting harder to measure. Current data can't rule out a dangerous acceleration in AI development, the organization warns, though it also says common tests may overestimate what the models can actually do. The...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 60,
+      "date": "2026-11-22T13:00:43+00:00",
+      "ts": 1795352443.0
+    },
+    {
+      "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
+      "link": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+      "summary": "Security researchers at Dragos used two million fake AI requests to uncover serious vulnerabilities in the AI supply chain, finding at least three compromised providers, hundreds of stolen AWS keys, and marketplace resellers who were simply reading customer requests. OpenRouter responded by removing three providers...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [],
+      "relevance": 50,
+      "date": "2026-11-22T12:07:56+00:00",
+      "ts": 1795349276.0
+    },
+    {
+      "title": "Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost",
+      "link": "https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026/",
+      "summary": "Hermes Agent, OpenClaw, Gemini Spark, OpenAI dots, Meta Muse and Perplexity Personal Computer ranked on memory, security defaults and real cost. The post Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost appeared first on MarkTechPost .",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "agentes",
+        "modelos"
+      ],
+      "relevance": 64,
+      "date": "2026-11-22T10:36:17+00:00",
+      "ts": 1795343777.0
+    },
+    {
+      "title": "Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries",
+      "link": "https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval/",
+      "summary": "Google launched Gemini API Tool Retrieval in preview. Agents keep a large tool library on standby and load each parameter schema only when needed, inside one Interactions API request. The post Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries appeared first on MarkTechPost .",
+      "source": "MarkTechPost",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 68,
+      "date": "2026-11-22T10:03:54+00:00",
+      "ts": 1795341834.0
+    },
+    {
+      "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+      "link": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+      "summary": "OpenAI's GPT-6.2 Astra and Sol give much shorter, more direct answers than their predecessors, but they are also less willing to admit uncertainty. Anthropic's Claude models score well ahead on transparency. The article GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude appeared...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 68,
+      "date": "2026-11-22T09:41:37+00:00",
+      "ts": 1795340497.0
+    },
+    {
+      "title": "Unitree Robot Wins Xiongan Boxing Belt in Bout Against EngineAI",
+      "link": "https://pandaily.com/unitree-engineai-xiongan-robot-boxing-belt",
+      "summary": "A Unitree robot won the reported Xiongan boxing belt against EngineAI; the machines’ models and teleoperation or autonomy arrangements were not disclosed.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "humanoides",
+        "modelos"
+      ],
+      "relevance": 43,
+      "date": "2026-11-22T07:11:49+00:00",
+      "ts": 1795331509.0
+    },
+    {
+      "title": "OpenAtom Forms Working Committee for Humanoid Robot Open-Source Community",
+      "link": "https://pandaily.com/openatom-humanoid-robot-open-source-working-committee",
+      "summary": "Nine organizations founded an OpenAtom humanoid-robot community committee to coordinate shared software, models, data and governance.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "humanoides",
+        "modelos"
+      ],
+      "relevance": 48,
+      "date": "2026-11-22T07:11:17+00:00",
+      "ts": 1795331477.0
+    },
+    {
+      "title": "miHoYo Details Gamer VLA Research for Long-Horizon Game Control",
+      "link": "https://pandaily.com/mihoyo-gamer-vla-long-horizon-game-control-research",
+      "summary": "miHoYo’s Gamer research maps screen observations to keyboard and mouse actions; author-reported autonomous time is not a consumer bot release.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 46,
+      "date": "2026-11-22T07:10:05+00:00",
+      "ts": 1795331405.0
+    },
+    {
+      "title": "Zoellent AI Lab Releases GR-SAC to Refine Frozen Robot Policies With a Small Controller",
+      "link": "https://pandaily.com/zoellent-gr-sac-gated-residual-controller-frozen-vla",
+      "summary": "Zoellent’s GR-SAC adds a small controller to a frozen VLA, reporting five more successful episodes in an 800-test RoboMME reference evaluation.",
+      "source": "Pandaily",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 44,
+      "date": "2026-11-22T07:09:05+00:00",
+      "ts": 1795331345.0
+    },
+    {
       "title": "MetaX Adds Hy4 Support on C-Series GPUs With FlagOS W8A8 Weights",
       "link": "https://pandaily.com/metax-hy4-c-series-gpu-flagos-w8a8-support",
       "summary": "MetaX details flagship Hy4 support and a FlagOS W8A8 release for C-series GPUs; published results are specific to a 32-GPU test setup.",
@@ -626,18 +767,6 @@
       "ts": 1795256207.0
     },
     {
-      "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
-      "link": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
-      "summary": "Bytedance and several US universities introduce Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after just three training phases. The researchers attribute the gains to carefully curated training data rather than ever more training steps. The model, data, and code are...",
-      "source": "The Decoder",
-      "region": "china",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 66,
-      "date": "2026-11-21T09:17:24+00:00",
-      "ts": 1795252644.0
-    },
-    {
       "title": "Last Week in AI #348 - IPO->Correction, new GPTs and Geminis, Nvidia’s Fate",
       "link": "https://lastweekin.ai/p/last-week-in-ai-348-ipo-correction",
       "summary": "Anthropic's $81B IPO, AI stocks enter a correction, Huang resigns from Nvidia, Trump and Xi agree on military AI",
@@ -680,112 +809,19 @@
       "ts": 1795242551.0
     },
     {
-      "title": "NariQ: Sub-3-Bit Quantization for Long-Horizon Agentic Tasks",
-      "link": "https://arxiv.org/abs/2611.26157",
-      "summary": "arXiv:2611.26157v1 Announce Type: new Abstract: Long-horizon agentic tasks require a model to call tools over many steps at contexts of 100K tokens or more, yet many low-bit quantization methods are calibrated on short web text and judged on perplexity. This mismatch is costly: existing quantizations of Qwen3.8-27B at...",
-      "source": "arXiv cs.LG",
+      "title": "Tencent Announces WorkBuddy Computer Use Beta for Desktop Apps",
+      "link": "https://pandaily.com/tencent-workbuddy-computer-use-public-beta-desktop-apps",
+      "summary": "WorkBuddy’s Computer Use beta targets desktop apps without APIs, with client-version requirements, system permissions and supervision cautions.",
+      "source": "Pandaily",
       "region": "china",
       "category": "modelo",
       "topics": [
         "agentes",
         "modelos"
       ],
-      "relevance": 73,
-      "date": "2026-11-21T05:00:00+00:00",
-      "ts": 1795237200.0
-    },
-    {
-      "title": "Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding",
-      "link": "https://arxiv.org/abs/2611.25898",
-      "summary": "arXiv:2611.25898v1 Announce Type: cross Abstract: Clinical large language models are usually judged by whether the final answer is right. Yet a model can reach a fluent, plausible output through invalid reasoning that static benchmarks do not detect, and confident hallucination, causally invalid inference, and...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes",
-        "biomedica"
-      ],
-      "relevance": 72,
-      "date": "2026-11-21T05:00:00+00:00",
-      "ts": 1795237200.0
-    },
-    {
-      "title": "CHORUS: Coverage-Guided Agentic RL and Policy Consolidation for Testbench Stimulus Generation",
-      "link": "https://arxiv.org/abs/2608.10090",
-      "summary": "arXiv:2608.10090v2 Announce Type: replace-cross Abstract: Testbenches written by large language models can compile and run while leaving entire datapaths idle. We present CHORUS, the first framework to combine coverage-guided agentic reinforcement learning (RL) with policy consolidation for testbench stimulus...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 72,
-      "date": "2026-11-21T05:00:00+00:00",
-      "ts": 1795237200.0
-    },
-    {
-      "title": "The Post-Training Dilemma: Why We Should Rethink the Sequential SFT-RL Paradigm",
-      "link": "https://arxiv.org/abs/2601.07389",
-      "summary": "arXiv:2601.07389v3 Announce Type: replace Abstract: This position paper argues that the sequential supervised fine-tuning followed by reinforcement learning (SFT-then-RL) pipeline---the de facto paradigm for large language model (LLM) post-training---has a fundamental property that cannot be fixed by hyperparameter...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 71,
-      "date": "2026-11-21T05:00:00+00:00",
-      "ts": 1795237200.0
-    },
-    {
-      "title": "The Dichotomy Between Pattern Recognition and Step-by-Step Reasoning",
-      "link": "https://arxiv.org/abs/2610.09186",
-      "summary": "arXiv:2610.09186v3 Announce Type: replace Abstract: We argue that pattern recognition and step-by-step reasoning are two ends of a spectrum. A large language model (LLM) learns to reason step-by-step when data is structured such that the next token depends on a small amount of preceding context. Inference in LLMs...",
-      "source": "arXiv cs.LG",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 70,
-      "date": "2026-11-21T05:00:00+00:00",
-      "ts": 1795237200.0
-    },
-    {
-      "title": "The Alignment Tax Is Graded: Task-Selective Capability Loss Under Length-Normalized DPO with SFT Retention",
-      "link": "https://arxiv.org/abs/2611.06476",
-      "summary": "arXiv:2611.06476v3 Announce Type: replace Abstract: Setting. This is an empirical characterization study; we propose no new method and run no comparisons against alternative objectives. We fine-tune Qwen3.5-4B with sparse LoRA and length-normalized DPO plus an SFT retention term (the RPO objective) on structured...",
-      "source": "arXiv cs.LG",
-      "region": "china",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 70,
-      "date": "2026-11-21T05:00:00+00:00",
-      "ts": 1795237200.0
-    },
-    {
-      "title": "KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization",
-      "link": "https://arxiv.org/abs/2609.30059",
-      "summary": "arXiv:2609.30059v3 Announce Type: replace-cross Abstract: Deep learning inference and training performance depends critically on GPU kernel efficiency. Modern compilers such as PyTorch Inductor automatically generate GPU kernels from high-level model code, but frequently underperform expert-written implementations by...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 70,
-      "date": "2026-11-21T05:00:00+00:00",
-      "ts": 1795237200.0
-    },
-    {
-      "title": "Goal-Guided Reinforcement Learning via Fine-Tuning Vision-Language Models",
-      "link": "https://arxiv.org/abs/2611.25742",
-      "summary": "arXiv:2611.25742v1 Announce Type: new Abstract: Exploration remains a major challenge for reinforcement learning (RL) agents in Craftax-style environments due to sparse rewards and long horizons. Large language models (LLMs) can guide exploration by generating high-level goals, but methods using models without...",
-      "source": "arXiv cs.LG",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 68,
-      "date": "2026-11-21T05:00:00+00:00",
-      "ts": 1795237200.0
+      "relevance": 43,
+      "date": "2026-11-21T06:28:42+00:00",
+      "ts": 1795242522.0
     },
     {
       "title": "Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index",
@@ -859,20 +895,6 @@
       "ts": 1795208400.0
     },
     {
-      "title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
-      "link": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
-      "summary": "OpenAI has significantly strengthened safeguards against extracting internal reasoning from GPT-6.2 Astra and GPT-6.2 Sol. In adaptive red-teaming tests, the success rate for extracting protected reasoning fell from 54 percent to 0.2 percent. The company is also suspending thousands to tens of thousands of accounts...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 57,
-      "date": "2026-11-20T20:31:50+00:00",
-      "ts": 1795206710.0
-    },
-    {
       "title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents",
       "link": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/",
       "summary": "Announcing the general availability of Amazon Textract Insights, a new generative AI feature of Amazon Textract. Describe the fields you need in natural language, submit a document or a mixed packet, and receive structured results with a confidence score and page-level grounding for each value, with no model training...",
@@ -901,21 +923,6 @@
       "ts": 1795204800.0
     },
     {
-      "title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
-      "link": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
-      "summary": "Signal is blocking screenshots to stop AI agents like Apple's Siri AI, Google's Gemini Intelligence, and Meta's Muse from reading private chats. The app calls it an \"existential threat\" to privacy, but admits its protections remain incomplete, including on macOS. Apple, Google, and Microsoft should follow suit. The...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 60,
-      "date": "2026-11-20T19:50:27+00:00",
-      "ts": 1795204227.0
-    },
-    {
       "title": "Is Claude creator Anthropic really worth $1.3 trillion? - The Latest",
       "link": "https://www.theguardian.com/news/video/2026/nov/20/is-claude-creator-anthropic-really-worth-15-trillion-the-latest",
       "summary": "The AI firm and Claude chatbot maker Anthropic has made a historic stock market debut, with a peak valuation of $1.3tn on its first day of trading. It marks a remarkable ascent for a start-up launched in just 2021 by a group of ex-OpenAI staffers. Anthropic’s CEO, Dario Amodei, said the record-breaking IPO had...",
@@ -928,20 +935,6 @@
       "relevance": 42,
       "date": "2026-11-20T18:53:50+00:00",
       "ts": 1795200830.0
-    },
-    {
-      "title": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
-      "link": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
-      "summary": "Google is bringing \"Computer Use\" to Gemini for Mac, letting the AI operate desktop apps, local files, and websites in an isolated background window with a live preview while users keep working. The article Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working appeared...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 56,
-      "date": "2026-11-20T18:50:31+00:00",
-      "ts": 1795200631.0
     },
     {
       "title": "Open-source platform combines brain commands, spinal circuits and muscle responses in one simulation",
@@ -1013,20 +1006,6 @@
       "ts": 1795188014.0
     },
     {
-      "title": "Open Source vs. Proprietary LLMs: A Decision Framework for 2026",
-      "link": "https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026",
-      "summary": "A practical guide to choosing between open-weight and commercial models, built around the four questions that actually determine the right answer for your use case.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 47,
-      "date": "2026-11-20T15:00:00+00:00",
-      "ts": 1795186800.0
-    },
-    {
       "title": "NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model with 14 checkpoints at 3B/8B",
       "link": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model/",
       "summary": "NVIDIA released Nemotron-Labs-Sigma, 14 open 3B and 8B continuous diffusion language model checkpoints. Sigma denoises text in a learned 16-D embedding space, distills to few-step samplers, and decodes up to 4.20x faster than autoregressive decoding. The post NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous...",
@@ -1067,20 +1046,6 @@
       "relevance": 52,
       "date": "2026-11-20T13:00:08+00:00",
       "ts": 1795179608.0
-    },
-    {
-      "title": "Decision AI Explained in 5 Minutes",
-      "link": "https://www.kdnuggets.com/decision-ai-explained-in-5-minutes",
-      "summary": "Learn how decision models work, how they turn LLMs into faster decision-making systems, and how to run open-source alternatives locally.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 43,
-      "date": "2026-11-20T13:00:00+00:00",
-      "ts": 1795179600.0
     },
     {
       "title": "Signal is blocking Gemini and Siri AI from reading your screen",
@@ -1498,20 +1463,6 @@
       "ts": 1795111200.0
     },
     {
-      "title": "Perplexity Launches Orchestrator API for Failover and Model Routing",
-      "link": "https://www.marktechpost.com/2026/11/19/perplexity-orchestrator-api-failover-model-routing/",
-      "summary": "Perplexity’s Orchestrator API serves OpenAI, Anthropic, Google, xAI and open-weight models through 1 endpoint, with same-model provider failover, unified billing and a preview perplexity/auto router that sends each request to a described route. The post Perplexity Launches Orchestrator API for Failover and Model...",
-      "source": "MarkTechPost",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 62,
-      "date": "2026-11-19T17:47:00+00:00",
-      "ts": 1795110420.0
-    },
-    {
       "title": "Edge AI depends on the network, not just the compute",
       "link": "https://rcrwireless.com/20261119/ai/edge-ai-uplink-device-visibility",
       "summary": "Uplink, device visibility and workforce needs shape industrial edge AI In sum – what to know: There’s a lot of talk of AI moving from the cloud to the edge…",
@@ -1579,20 +1530,6 @@
       "relevance": 28,
       "date": "2026-11-19T16:05:05+00:00",
       "ts": 1795104305.0
-    },
-    {
-      "title": "What I Learned From Kaggle + Google’s Free Agentic AI Course",
-      "link": "https://www.kdnuggets.com/what-i-learned-from-kaggle-googles-free-agentic-ai-course",
-      "summary": "Learn to build AI agents with Gemini and Google’s ADK through this free course, covering tools, memory, evaluation, and deployment.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 57,
-      "date": "2026-11-19T15:00:00+00:00",
-      "ts": 1795100400.0
     },
     {
       "title": "How to Run Claude Code and Other Coding Agents in the Cloud 24/7",
@@ -1718,48 +1655,6 @@
       "relevance": 42,
       "date": "2026-11-19T11:00:22+00:00",
       "ts": 1795086022.0
-    },
-    {
-      "title": "Phancy Announces Phai-A1 Coding Model and Phai-M1 Video Generator",
-      "link": "https://pandaily.com/phancy-phai-a1-coding-weights-ascend-phai-m1-video",
-      "summary": "Phancy details Ascend-post-trained Phai-A1 coding weights and the Phai-M1 video trial, with benchmark, context and availability caveats.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 54,
-      "date": "2026-11-19T06:49:44+00:00",
-      "ts": 1795070984.0
-    },
-    {
-      "title": "Horizon Robotics Announces LoFT Video Geometry Model With Resources Still Pending",
-      "link": "https://pandaily.com/horizon-robotics-loft-video-geometry-model-camera-depth",
-      "summary": "Horizon Robotics describes LoFT for reconstructing video geometry; its paper, code and weights remain pending, and results are team-reported.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 54,
-      "date": "2026-11-19T01:53:13+00:00",
-      "ts": 1795053193.0
-    },
-    {
-      "title": "DeepSeek Removes Separate Fees for Model-Triggered Search and Web Fetch",
-      "link": "https://pandaily.com/deepseek-model-triggered-search-fetch-fee-change-client-api-pricing",
-      "summary": "DeepSeek removes separate model-triggered search and fetch fees; model tokens still bill, and direct Search/Fetch calls retain per-request pricing.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 62,
-      "date": "2026-11-19T01:52:50+00:00",
-      "ts": 1795053170.0
     },
     {
       "title": "llm-gemini 0.38",
@@ -1900,20 +1795,6 @@
         "modelos"
       ],
       "relevance": 66,
-      "date": "2026-11-18T17:00:00+00:00",
-      "ts": 1795021200.0
-    },
-    {
-      "title": "Introducing Gemini Decision 1: A Model That Picks Answers Instead of Writing Them",
-      "link": "https://www.kdnuggets.com/introducing-gemini-decision-1-a-model-that-picks-answers-instead-of-writing-them",
-      "summary": "Google's newest model has one job, and it never writes a word doing it. Decision 1 reads text, images, video, audio and PDFs in a single forward pass, up to 262,144 input tokens per request.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 63,
       "date": "2026-11-18T17:00:00+00:00",
       "ts": 1795021200.0
     },
@@ -2059,20 +1940,6 @@
       "ts": 1794989700.0
     },
     {
-      "title": "Tencent Releases Downloadable Hy4 flash Weights in Three Variants",
-      "link": "https://pandaily.com/tencent-hy4-flash-downloadable-weights-fp8-base-license",
-      "summary": "Tencent releases standard, FP8 and base Hy4 flash checkpoints, with verified download access and license and deployment conditions.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 52,
-      "date": "2026-11-18T07:10:43+00:00",
-      "ts": 1794985843.0
-    },
-    {
       "title": "Helping AI text detectors keep up with changing conditions",
       "link": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
       "summary": "A more flexible training method can make AI text detectors more robust when new models emerge or AI-generated text is disguised to appear human.",
@@ -2083,18 +1950,6 @@
       "relevance": 50,
       "date": "2026-11-18T05:00:00+00:00",
       "ts": 1794978000.0
-    },
-    {
-      "title": "Lightwheel Details RoboFinals RL Environments for Long-Horizon Robot Training",
-      "link": "https://pandaily.com/lightwheel-robofinals-rl-environments-long-horizon-robot-training",
-      "summary": "Lightwheel details long-horizon robot training in calibrated simulation, with independent evaluation instances and early-access availability.",
-      "source": "Pandaily",
-      "region": "china",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 51,
-      "date": "2026-11-18T01:42:42+00:00",
-      "ts": 1794966162.0
     },
     {
       "title": "OpenAI gives NATO access to most advanced cybersecurity AI",
@@ -2294,20 +2149,6 @@
       "relevance": 62,
       "date": "2026-11-17T14:00:10+00:00",
       "ts": 1794924010.0
-    },
-    {
-      "title": "7 Best AI Coding Plans for $10 or Less in 2026",
-      "link": "https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026",
-      "summary": "Compare affordable AI coding agents, AI-powered IDEs, open-source tools, and multi-model subscriptions from OpenCode, Cursor, GitHub Copilot, Cline, Zed, and Xiaomi MiMo.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 46,
-      "date": "2026-11-17T13:00:00+00:00",
-      "ts": 1794920400.0
     },
     {
       "title": "As agentic AI seeps into finance, concerns grow over new risks and blind spots",
