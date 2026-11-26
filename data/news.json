@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-25T16:28:08.682213+00:00",
-  "count": 280,
+  "generated_at": "2026-11-26T01:19:04.144693+00:00",
+  "count": 276,
   "china_count": 44,
   "topic_counts": {
     "humanoides": 9,
     "modelos": 158,
-    "agentes": 53,
-    "biomedica": 12,
-    "defesa": 11,
+    "agentes": 51,
+    "biomedica": 11,
+    "defesa": 10,
     "telecom": 33
   },
   "sources": [
@@ -33,7 +33,7 @@
     },
     {
       "source": "Hugging Face",
-      "status": "ok (916 itens)",
+      "status": "ok (917 itens)",
       "kept": 12
     },
     {
@@ -104,7 +104,7 @@
     {
       "source": "The Decoder",
       "status": "ok (10 itens)",
-      "kept": 9
+      "kept": 8
     },
     {
       "source": "MIT Tech Review",
@@ -124,7 +124,7 @@
     {
       "source": "KDnuggets",
       "status": "ok (10 itens)",
-      "kept": 5
+      "kept": 4
     },
     {
       "source": "TechXplore (IA/ML)",
@@ -144,7 +144,7 @@
     {
       "source": "Ars Technica",
       "status": "ok (20 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "The Verge AI",
@@ -288,7 +288,7 @@
     },
     {
       "source": "AI News",
-      "status": "ok (0 itens)",
+      "status": "ERRO: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)>",
       "kept": 0
     },
     {
@@ -324,7 +324,7 @@
     {
       "source": "TechXplore Robotica",
       "status": "ok (30 itens)",
-      "kept": 3
+      "kept": 2
     },
     {
       "source": "New Atlas Robotica",
@@ -339,7 +339,7 @@
     {
       "source": "Medical Xpress",
       "status": "ok (30 itens)",
-      "kept": 1
+      "kept": 3
     },
     {
       "source": "arXiv eess.IV (imagem)",
@@ -364,7 +364,7 @@
     {
       "source": "Army Technology",
       "status": "ok (10 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "DARPA",
@@ -419,7 +419,7 @@
     {
       "source": "Teletime (BR)",
       "status": "ok (30 itens)",
-      "kept": 2
+      "kept": 1
     },
     {
       "source": "TeleSintese (BR)",
@@ -428,6 +428,190 @@
     }
   ],
   "items": [
+    {
+      "title": "T-Mobile teases “world’s first” AI-RAN test before year-end",
+      "link": "https://rcrwireless.com/20261125/ai/t-mobile-ai-ran-test-year-end",
+      "summary": "There are a lot of things we don’t know about the big AI-RAN reveal In sum – what to know: T-Mobile will reveal another AI-RAN test before the end of…",
+      "source": "RCR Wireless",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 22,
+      "date": "2026-11-26T00:01:10+00:00",
+      "ts": 1795651270.0
+    },
+    {
+      "title": "Youth are turning to AI for mental health support. Here's what families should know",
+      "link": "https://medicalxpress.com/news/2026-11-youth-ai-mental-health-families.html",
+      "summary": "There are few areas in life where AI isn't shaking things up. And managing mental health is no exception.",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 22,
+      "date": "2026-11-25T21:40:01+00:00",
+      "ts": 1795642801.0
+    },
+    {
+      "title": "OpenAI merges Chat and Work tabs — heavy users may hit limits sooner",
+      "link": "https://dailyai.com/2026/11/openai-merges-chatgpts-chat-and-work-tabs-and-heavy-users-may-hit-limits-sooner/",
+      "summary": "OpenAI has started rolling out a merged Chat and Work experience in ChatGPT — and says a small fraction of its heaviest users may hit their usage limits sooner. The post OpenAI merges Chat and Work tabs — heavy users may hit limits sooner appeared first on DailyAI .",
+      "source": "DailyAI",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 51,
+      "date": "2026-11-25T21:03:15+00:00",
+      "ts": 1795640595.0
+    },
+    {
+      "title": "Martinhão defende incentivo permanente à IoT e revisão da certificação",
+      "link": "https://telesintese.com.br/martinhao-defende-incentivo-permanente-a-iot-e-revisao-da-certificacao/",
+      "summary": "Diretor da Qualcomm propõe evitar a duplicidade de testes de equipamentos e defende a execução de modelos de IA nos dispositivos. O post Martinhão defende incentivo permanente à IoT e revisão da certificação apareceu primeiro em TeleSíntese .",
+      "source": "TeleSintese (BR)",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "telecom",
+        "modelos"
+      ],
+      "relevance": 41,
+      "date": "2026-11-25T20:54:37+00:00",
+      "ts": 1795640077.0
+    },
+    {
+      "title": "US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs",
+      "link": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/",
+      "summary": "Chip restrictions, anti-distillation measures, and shrinking access to Nvidia hardware abroad are putting growing pressure on Deepseek, Moonshot AI, and Alibaba, according to a report. Deepseek researchers internally estimate they're already up to nine months behind US models, and the gap is widening. The article US...",
+      "source": "The Decoder",
+      "region": "china",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 71,
+      "date": "2026-11-25T20:51:02+00:00",
+      "ts": 1795639862.0
+    },
+    {
+      "title": "Early-life stress may leave lasting traces in the brain that increase risk of chronic pain",
+      "link": "https://medicalxpress.com/news/2026-11-early-life-stress-brain-chronic.html",
+      "summary": "Researchers from the Heidelberg Faculty of Medicine of Heidelberg University and the Central Institute of Mental Health (ZI) in Mannheim have identified a neural mechanism in female mice through which early-life stress may increase vulnerability to chronic pain and anxiety disorders. The findings have been published...",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "biomedica"
+      ],
+      "relevance": 39,
+      "date": "2026-11-25T20:20:14+00:00",
+      "ts": 1795638014.0
+    },
+    {
+      "title": "AI could identify psoriasis and assess its severity from a single photo",
+      "link": "https://medicalxpress.com/news/2026-11-ai-psoriasis-severity-photo.html",
+      "summary": "Widely available artificial intelligence models could not only recognize psoriasis from a single photo but also assess its severity, according to an international study by researchers at Semmelweis University. The study, published in Frontiers in Medicine, found that ChatGPT-5 identified the skin condition and...",
+      "source": "Medical Xpress",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 65,
+      "date": "2026-11-25T20:20:10+00:00",
+      "ts": 1795638010.0
+    },
+    {
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+      "source": "TechCrunch",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 59,
+      "date": "2026-11-25T20:03:27+00:00",
+      "ts": 1795637007.0
+    },
+    {
+      "title": "SpaceX OK'd to deploy up to 1M AI satellites, complete constellation by 2040",
+      "link": "https://www.lightreading.com/satellite/spacex-ok-d-to-deploy-up-to-1m-ai-satellites-complete-constellation-by-2040",
+      "summary": "The FCC has authorized SpaceX's plan to deploy up to 1 million 'Starmind' AI satellites, with deployment milestones running through 2040. The constellation aims tap into power, space and cooling not readily available on Earth.",
+      "source": "Light Reading",
+      "region": "global",
+      "category": "geral",
+      "topics": [
+        "telecom"
+      ],
+      "relevance": 29,
+      "date": "2026-11-25T18:58:25+00:00",
+      "ts": 1795633105.0
+    },
+    {
+      "title": "OpenAI wants companies to trust it with sensitive work by promising not to look at their data",
+      "link": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
+      "summary": "OpenAI is testing a new feature called \"Private Inference\" that lets companies run queries on its most powerful models without OpenAI being able to access the data. The article OpenAI wants companies to trust it with sensitive work by promising not to look at their data appeared first on The Decoder .",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 47,
+      "date": "2026-11-25T18:22:02+00:00",
+      "ts": 1795630922.0
+    },
+    {
+      "title": "Verifiable Social Reasoning for LLM Assistants",
+      "link": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+      "summary": "Generative AI",
+      "source": "Google Research",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "modelos"
+      ],
+      "relevance": 44,
+      "date": "2026-11-25T17:10:27+00:00",
+      "ts": 1795626627.0
+    },
+    {
+      "title": "FCC greenlights SpaceX plan to deploy up to 1M AI satellites",
+      "link": "https://www.lightreading.com/satellite/fcc-greenlights-spacex-plan-to-deploy-up-to-1m-ai-satellites",
+      "summary": "The FCC has authorized for SpaceX to deploy up to 1 million 'Starmind' AI satellites, holding that the plan will meet the agency's orbital debris rules. #pressrelease",
+      "source": "Light Reading",
+      "region": "global",
+      "category": "modelo",
+      "topics": [
+        "telecom",
+        "modelos"
+      ],
+      "relevance": 35,
+      "date": "2026-11-25T16:58:07+00:00",
+      "ts": 1795625887.0
+    },
+    {
+      "title": "Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store.",
+      "link": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
+      "summary": "Amazon and Meta are in talks to bring back Muse, Meta's AI shopping agent that Amazon kicked off its platform in September. The two sides are stuck on ad revenue and who gets to control search results. That matters because Amazon's ad business generates $68.6 billion a year, and Muse already commands 51 percent of all...",
+      "source": "The Decoder",
+      "region": "global",
+      "category": "pesquisa",
+      "topics": [
+        "agentes"
+      ],
+      "relevance": 42,
+      "date": "2026-11-25T16:44:37+00:00",
+      "ts": 1795625077.0
+    },
     {
       "title": "CGI, dig.ia e Abrint pedem Internet aberta e separada de telecom",
       "link": "https://teletime.com.br/25/11/2026/cgi-dig-ia-e-abrint-pedem-internet-aberta-e-separada-de-telecom/",
@@ -469,21 +653,6 @@
       "relevance": 43,
       "date": "2026-11-25T14:03:18+00:00",
       "ts": 1795615398.0
-    },
-    {
-      "title": "Mental health chatbots for kids? Parents narrow eyes",
-      "link": "https://medicalxpress.com/news/2026-11-mental-health-chatbots-kids-parents.html",
-      "summary": "Despite a shortage of therapists and a mental health crisis affecting the nation's youth, parents aren't ready to call on AI chatbots as therapeutic reinforcements, according to a new study from Harvard and Boston Children's Hospital.",
-      "source": "Medical Xpress",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "biomedica",
-        "modelos"
-      ],
-      "relevance": 44,
-      "date": "2026-11-25T13:40:07+00:00",
-      "ts": 1795614007.0
     },
     {
       "title": "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant",
@@ -677,21 +846,6 @@
       "relevance": 54,
       "date": "2026-11-25T07:03:35+00:00",
       "ts": 1795590215.0
-    },
-    {
-      "title": "OpenAI says its GPT-6 models can design proteins — and lab tests back some of it up",
-      "link": "https://dailyai.com/2026/11/openai-says-its-gpt-6-models-can-design-proteins-and-lab-tests-back-some-of-it-up/",
-      "summary": "Proteins built to GPT-6.2's designs attached to their targets in lab tests — but only about one in ten of the first round did. The post OpenAI says its GPT-6 models can design proteins — and lab tests back some of it up appeared first on DailyAI .",
-      "source": "DailyAI",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "biomedica",
-        "modelos"
-      ],
-      "relevance": 61,
-      "date": "2026-11-25T06:55:10+00:00",
-      "ts": 1795589710.0
     },
     {
       "title": "Ex-Infosys Exec's Enterprise AI Startup Bags $32 Mn for Agentic Deployment",
@@ -1518,21 +1672,6 @@
       "ts": 1795548600.0
     },
     {
-      "title": "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents",
-      "link": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
-      "summary": "Two years after launch, Anthropic reports more than 700 million monthly downloads for its MCP interface standard. New features such as background tasks, follow-up questions for users, and file uploads are meant to let Claude work more independently. The article Anthropic tops 700 million monthly MCP SDK downloads and...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 62,
-      "date": "2026-11-24T19:23:41+00:00",
-      "ts": 1795548221.0
-    },
-    {
       "title": "eRedCap and eSIM move legacy IoT toward AI-ready operations",
       "link": "https://rcrwireless.com/20261124/ai/eredcap-esim-legacy-iot-ai-ready",
       "summary": "eRedCap, eSIM and layered security: matching connectivity to each application In sum – what to know: The IoT market is entering another transition as new connectivity options meet growing interest…",
@@ -1545,34 +1684,6 @@
       "relevance": 22,
       "date": "2026-11-24T18:30:55+00:00",
       "ts": 1795545055.0
-    },
-    {
-      "title": "Novartis CEO says AI will shave four years off drug development, not cure all disease",
-      "link": "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease/",
-      "summary": "Novartis CEO Vas Narasimhan, who also sits on Anthropic's board, is pushing back on the cure-all promises from Anthropic CEO Amodei and DeepMind founder Hassabis. AI will speed up drug development, he says, but it won't beat cancer in a decade. The real value lies \"somewhere in the middle.\" The article Novartis CEO...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "biomedica"
-      ],
-      "relevance": 27,
-      "date": "2026-11-24T18:01:55+00:00",
-      "ts": 1795543315.0
-    },
-    {
-      "title": "OpenAI o1 co-creator Noam Brown urges promising students to drop out as AI enters a \"very steep rate of progress\"",
-      "link": "https://the-decoder.com/openai-o1-co-creator-noam-brown-urges-promising-students-to-drop-out-as-ai-enters-a-very-steep-rate-of-progress/",
-      "summary": "OpenAI researcher Noam Brown is urging promising students to drop out, saying it's \"not a great time to sit on the sidelines.\" The o1 co-creator says AI is still in a \"centaur period\" and struggles with planning and self-correction, though he expects a \"very steep rate of progress\" soon. According to Brown, language...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 59,
-      "date": "2026-11-24T17:58:44+00:00",
-      "ts": 1795543124.0
     },
     {
       "title": "How to Run Inkling 2 Mini Locally on an RTX 3090 Using Unsloth Studio",
@@ -1660,18 +1771,6 @@
       "ts": 1795530992.0
     },
     {
-      "title": "Anthropic researcher stands by his AI-assisted Riemann proof but owns up to \"stupid things\" in the rollout",
-      "link": "https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/",
-      "summary": "Anthropic researcher Levent Alpöge is walking back parts of his announcement of an AI-assisted proof of the generalized Riemann hypothesis. The claim that it ran to more than 250,000 pages was a joke, he says, and the published Lean code is \"full of garbage.\" He still stands by the math. The article Anthropic...",
-      "source": "The Decoder",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [],
-      "relevance": 35,
-      "date": "2026-11-24T14:28:41+00:00",
-      "ts": 1795530521.0
-    },
-    {
       "title": "OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime",
       "link": "https://www.marktechpost.com/2026/11/24/openai-cisco-shirudo-ebpf-linux-runtime/",
       "summary": "OpenAI and Cisco released Shirudo, a pre-release, BSD-licensed eBPF runtime for Linux. AI agents write signed \"shields\" that block exploit paths on running systems while teams test and roll out real patches. The post OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems...",
@@ -1685,20 +1784,6 @@
       "relevance": 55,
       "date": "2026-11-24T14:16:53+00:00",
       "ts": 1795529813.0
-    },
-    {
-      "title": "Nokia restates AI-RAN target: 100% spectral-efficiency gains by 2028",
-      "link": "https://rcrwireless.com/20261124/network-infrastructure/nokia-ai-ran",
-      "summary": "Speaking at the Morgan Stanley European Technology, Media and Telecom Conference, Nokia’s chief financial officer Marco Wirén said the company had already conducted commercial live proof-of-concept tests with two customers…",
-      "source": "RCR Wireless",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 22,
-      "date": "2026-11-24T13:20:52+00:00",
-      "ts": 1795526452.0
     },
     {
       "title": "How artificial intelligence is offering new hope for stroke patients in the Last Frontier",
@@ -1867,21 +1952,6 @@
       "relevance": 70,
       "date": "2026-11-23T23:40:49+00:00",
       "ts": 1795477249.0
-    },
-    {
-      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-      "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-      "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
-      "source": "TechCrunch",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "agentes",
-        "modelos"
-      ],
-      "relevance": 63,
-      "date": "2026-11-23T22:05:50+00:00",
-      "ts": 1795471550.0
     },
     {
       "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
@@ -2626,34 +2696,6 @@
       "ts": 1795107635.0
     },
     {
-      "title": "Ukraine, Denmark agree on defence AI cooperation",
-      "link": "https://www.army-technology.com/news/ukraine-denmark-ai-avengers-lab/",
-      "summary": "Ukraine and Denmark have signed a letter of intent to expand cooperation on artificial intelligence (AI) and data for defence applications.",
-      "source": "Army Technology",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "defesa"
-      ],
-      "relevance": 28,
-      "date": "2026-11-19T16:05:05+00:00",
-      "ts": 1795104305.0
-    },
-    {
-      "title": "What I Learned From Kaggle + Google’s Free Agentic AI Course",
-      "link": "https://www.kdnuggets.com/what-i-learned-from-kaggle-googles-free-agentic-ai-course",
-      "summary": "Learn to build AI agents with Gemini and Google’s ADK through this free course, covering tools, memory, evaluation, and deployment.",
-      "source": "KDnuggets",
-      "region": "global",
-      "category": "pesquisa",
-      "topics": [
-        "agentes"
-      ],
-      "relevance": 57,
-      "date": "2026-11-19T15:00:00+00:00",
-      "ts": 1795100400.0
-    },
-    {
       "title": "How to Run Claude Code and Other Coding Agents in the Cloud 24/7",
       "link": "https://towardsdatascience.com/how-to-run-claude-code-and-other-coding-agents-in-the-cloud-247/",
       "summary": "Two setups: flip Claude Code's cloud environment on for the quick path, or rent a server for full control. The post How to Run Claude Code and Other Coding Agents in the Cloud 24/7 appeared first on Towards Data Science .",
@@ -2667,20 +2709,6 @@
       "relevance": 53,
       "date": "2026-11-19T15:00:00+00:00",
       "ts": 1795100400.0
-    },
-    {
-      "title": "Anthropic desbanca SpaceX com maior IPO de todos os tempos",
-      "link": "https://teletime.com.br/19/11/2026/anthropic-desbanca-spacex-ipo/",
-      "summary": "Anthropic, empresa especializada em IA dona da plataforma Claude, levantou cerca de US$ 81 bilhões ao abrir o capital, registrando o maior IPO da história. Ainda há um aporte privado de US$ 26 bilhões de gigantes de tecnologia, o que pode levar a uma captação total de US$ 119,5 bilhões. Valor de mercado é avaliado em...",
-      "source": "Teletime (BR)",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 42,
-      "date": "2026-11-19T14:37:46+00:00",
-      "ts": 1795099066.0
     },
     {
       "title": "How to Oversee AI Agents at Scale With a Three-Tier Architecture",
@@ -2838,20 +2866,6 @@
       "ts": 1794995389.0
     },
     {
-      "title": "AMD telco chief touts CPUs for AI-RAN",
-      "link": "https://www.lightreading.com/5g/amd-telco-chief-touts-cpus-for-ai-ran",
-      "summary": "Putting data center GPUs into the RAN would not make sense, says AMD's Piotr Weglicki, promoting his company's CPUs as the power-efficient answer.",
-      "source": "Light Reading",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 29,
-      "date": "2026-11-18T08:30:00+00:00",
-      "ts": 1794990600.0
-    },
-    {
       "title": "VodafoneThree to test Nokia's AI-RAN with Nvidia GPUs",
       "link": "https://www.lightreading.com/ai-machine-learning/vodafonethree-to-test-nokia-s-ai-ran-with-nvidia-gpus",
       "summary": "VodafoneThree plans lab and field trials next year of Nokia's AI-RAN on Nvidia's GPU platform, while parent Vodafone tests more chip options in Spain.",
@@ -2949,20 +2963,6 @@
       "ts": 1794955132.0
     },
     {
-      "title": "Nokia lança solução de fibra pré-paga e mira expansão na América Latina",
-      "link": "https://telesintese.com.br/nokia-lanca-solucao-de-fibra-pre-paga-e-mira-expansao-na-america-latina/",
-      "summary": "Fiber on the Go já soma mais de 600 mil linhas em serviço na África do Sul e integra pagamentos flexíveis e automação de redes com IA. O post Nokia lança solução de fibra pré-paga e mira expansão na América Latina apareceu primeiro em TeleSíntese .",
-      "source": "TeleSintese (BR)",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 22,
-      "date": "2026-11-17T22:20:09+00:00",
-      "ts": 1794954009.0
-    },
-    {
       "title": "Single-propeller drone uses its own spin to scan surroundings in all directions",
       "link": "https://techxplore.com/news/2026-11-propeller-drone-scan.html",
       "summary": "A research team from the Department of Mechanical Engineering in the Faculty of Engineering at The University of Hong Kong (HKU) has developed a single-propeller autonomous drone powered by only one motor. It can not only fly at high speed in complex environments such as forests and underground parking lots, but also...",
@@ -3019,20 +3019,6 @@
       "ts": 1794934210.0
     },
     {
-      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
-      "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
-      "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
-      "source": "Ars Technica",
-      "region": "global",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 53,
-      "date": "2026-11-17T14:00:29+00:00",
-      "ts": 1794924029.0
-    },
-    {
       "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
       "link": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
       "summary": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform...",
@@ -3046,20 +3032,6 @@
       "relevance": 62,
       "date": "2026-11-17T14:00:10+00:00",
       "ts": 1794924010.0
-    },
-    {
-      "title": "Vodafone is sold on AI-RAN but not yet on need for GPUs",
-      "link": "https://www.lightreading.com/5g/vodafone-is-sold-on-ai-ran-but-not-yet-on-need-for-gpus",
-      "summary": "Vodafone is investigating the benefits of different network chips for AI-RAN at a Malaga facility, the company's head of RAN evolution tells an Omdia event.",
-      "source": "Light Reading",
-      "region": "global",
-      "category": "geral",
-      "topics": [
-        "telecom"
-      ],
-      "relevance": 29,
-      "date": "2026-11-17T08:30:00+00:00",
-      "ts": 1794904200.0
     },
     {
       "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
@@ -3538,20 +3510,6 @@
       "ts": 1794343976.0
     },
     {
-      "title": "China touts tech, AI cred at world Web Summit",
-      "link": "https://techxplore.com/news/2026-11-china-touts-tech-ai-cred.html",
-      "summary": "China is flexing its technological muscles at the global Web Summit in Lisbon starting Tuesday, showcasing dancing robots and low-cost artificial intelligence models as Beijing weathers claims that it spied on the AI chip powerhouse Nvidia.",
-      "source": "TechXplore Robotica",
-      "region": "china",
-      "category": "modelo",
-      "topics": [
-        "modelos"
-      ],
-      "relevance": 42,
-      "date": "2026-11-10T20:00:04+00:00",
-      "ts": 1794340804.0
-    },
-    {
       "title": "Gemini Intelligence: New features, on more devices",
       "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
       "summary": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
@@ -3952,18 +3910,6 @@
       "relevance": 75,
       "date": "2026-10-28T09:30:00+00:00",
       "ts": 1793179800.0
-    },
-    {
-      "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
-      "link": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
-      "summary": "Education Innovation",
-      "source": "Google Research",
-      "region": "global",
-      "category": "geral",
-      "topics": [],
-      "relevance": 24,
-      "date": "2026-10-27T17:35:00+00:00",
-      "ts": 1793122500.0
     },
     {
       "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
